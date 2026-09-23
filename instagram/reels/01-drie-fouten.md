@@ -45,3 +45,36 @@ Houd tekst tussen y=230 en y=1440 op een 1080x1920-beeld en laat de rechterkant 
 - Neem elke zin apart op. Niet in één keer: knippen is makkelijker en je hoeft niets vanbuiten te kennen.
 - Begin met de eerste zin al pratend, zonder "hallo".
 - Beelden van een club: gebruik alleen beelden van een klant (met toestemming) of je eigen club.
+
+## Beeldmateriaal (in map `01-drie-fouten/`)
+
+- `cover.png`: coverafbeelding 1080x1920 in huisstijl. Kies die bij het uploaden als cover.
+- `tekst1.png` t/m `tekst6.png`: tekstkaarten met transparante achtergrond, 1080x1920.
+  Leg ze als overlay over de video op de tijden uit de tabel hierboven.
+
+## Montage in CapCut (gratis)
+
+1. **Opnemen (A-roll):** elke zin apart, telefoon verticaal op ooghoogte, daglicht vóór je.
+   Neem elke zin 2 à 3 keer op, kies later de beste.
+2. **Schermopnames (B-roll):** scroll op je telefoon door clubprofielen en neem je scherm op.
+   Maak namen, logo's en profielfoto's onherkenbaar (vervagen in CapCut), zodat je geen club
+   publiek aan de schandpaal zet.
+3. **Clubbeelden:** bar, training, terreinen, sponsors. Alleen van een klant (met toestemming)
+   of van je eigen club.
+4. **In CapCut:** nieuw project → alle clips in de volgorde van het script → knip stiltes weg.
+5. **Aanduiden:** gebruik een zoom (keyframe) op het stuk waar je over praat. Een cirkel of pijl
+   in cyaan kan ook, maar een zoom oogt professioneler.
+6. **Fout 2 (niet regelmatig):** open een post in de schermopname, zodat de datum onderaan
+   zichtbaar is ("5 weken geleden"). Zoom in op die datum. Je hoeft geen weken te tellen.
+7. **Tekstkaarten:** Overlay → voeg `tekstX.png` toe op de juiste tijd.
+8. **Ondertitels:** Tekst → Automatische ondertitels (Nederlands). Controleer de spelling.
+   Zet ze in het midden-onder, tussen de tekstkaart en de onderkant (niet onderaan het beeld).
+9. **Muziek:** zacht (10–15%) of geen. Jouw stem moet duidelijk blijven.
+10. **Exporteren:** 1080x1920, 30 fps.
+
+## Kledij en plek
+
+- Effen kleren in donkerblauw, wit of grijs. Geen grote logo's, strepen of drukke prints.
+- Verzorgd-sportief: een effen polo, sweater of quarter-zip. Past bij een sportmens die ook een zaak runt.
+- Hetzelfde outfit voor alle opnames van één reel.
+- Beste plek: op een tennis- of padelclub (terras, clubhuis, naast een terrein). Anders een rustige, opgeruimde ruimte.
