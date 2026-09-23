@@ -5,11 +5,11 @@ Voor wie `AUDIT` stuurt na de carrousel "Zo werkt het". Alles verstuur je zelf, 
 
 ## 1. Meteen antwoorden (zelfde dag)
 
-> Hey {naam}, top dat je AUDIT stuurde! Welke Instagram mag ik bekijken? Stuur me de @ van je club, dan krijg je binnen {{48 uur}} je audit.
+> Hey {naam}, top dat je AUDIT stuurde! Stuur me de @ van je club, dan maak ik een analyse van jullie Instagram-profiel. Je krijgt ze binnen {{48 uur}}.
 
 ## 2. De audit leveren (binnen de beloofde termijn)
 
-> Hier is de audit van @{club}: {{link of video}}. Jullie scoren {{score}}/100. Het snelst te winnen: {{1 concrete tip}}. Welk punt verrast je het meest?
+> Hier is de analyse van het profiel van @{club}: {{bestand of link}}. Het snelst te winnen: {{1 concrete tip}}. Welk punt verrast je het meest?
 
 ## 3. Opvolging 1 (4 dagen na de audit, alleen als ze niet antwoordden)
 
