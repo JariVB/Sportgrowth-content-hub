@@ -83,6 +83,15 @@ Een stilstaand beeld is waar mensen wegscrollen. Zorg dat er om de 2–3 seconde
 5. **Animatie** → **In** → **Fade in** of **Omhoog schuiven**, 0,3 s. **Uit** → **Fade out**, 0,3 s.
 6. Herhaal voor alle kaarten.
 
+
+## Stap 7b: logo
+
+1. Zet de witte lijn helemaal vooraan (0:00).
+2. **Overlay** → **Overlay toevoegen** → kies `instagram/reels/logo-overlay.png`.
+3. Trek hem groot tot hij **precies het hele beeld** bedekt. Het logo staat dan klein linksboven.
+4. Sleep het einde tot het **einde van de reel**, zodat het logo de hele reel zichtbaar blijft.
+5. Geen animatie: het logo staat gewoon stil.
+
 ## Stap 8: ondertitels
 
 1. Tik onderaan op **Tekst** (Text) → **Automatische bijschriften** (Auto captions).
