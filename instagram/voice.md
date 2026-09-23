@@ -7,7 +7,7 @@ Stemprofiel van @sportgrowth_media. Elke `ig-*` skill leest dit bestand.
 
 ## Who I am
 
-- **Name:** {{voornaam}}, SportGrowth Media
+- **Name:** Jari, SportGrowth Media
 - **Handle:** @sportgrowth_media
 - **What I do, in one sentence:** Ik maak en plan de Instagram-content voor padel- en tennisclubs, zij keuren alleen goed.
 - **Who I am talking to:** bestuursleden, clubverantwoordelijken en vrijwilligers van padel- en tennisclubs in Vlaanderen. Mensen met weinig tijd, die hun club graag zien groeien maar geen marketeer zijn.
@@ -33,8 +33,8 @@ Stemprofiel van @sportgrowth_media. Elke `ig-*` skill leest dit bestand.
 - **Words I would never say out loud:** synergie, en geen Engelse straattaal of hype-woorden (game changer, next level, vibes, no-brainer, let's go, hustle). Geen overdreven beloftes ("explodeer je volgers").
 - **Do I swear:** nee
 - **Emoji in captions:** hooguit één per caption, alleen functioneel (bv. 👇 bij de oproep). Nooit in de eerste zin, nooit als opsomming.
-- **Face on camera:** {{altijd / soms / nooit}}
-- **Voiceover or to-camera:** {{}}
+- **Face on camera:** nieuw voor Jari. Start met 1 reel per week in beeld, rustig en to-camera; de rest mag voiceover of tekst-op-beeld zijn.
+- **Voiceover or to-camera:** beide. To-camera voor meningen en uitleg, voiceover over schermopnames (bv. een clubprofiel doorlopen).
 - **Pace:** {{woorden per minuut, als bekend}}
 
 ## My positions
@@ -60,4 +60,4 @@ Stemprofiel van @sportgrowth_media. Elke `ig-*` skill leest dit bestand.
 
 - **My keyword CTA:** AUDIT (in een DM)
 - **What the keyword sends them:** een video-analyse van hun Instagram-profiel met een score op 100, de 3 grootste verbeterpunten en 1 snelle verbetering, binnen 48 uur. Scripts: `dm-audit.md`.
-- **Where my link goes:** sportgrowthmedia.be {{specifieke pagina?}}
+- **Where my link goes:** sportgrowthmedia.be (met UTM-tag voor link in bio)
