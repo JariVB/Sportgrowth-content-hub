@@ -84,7 +84,7 @@ Een stilstaand beeld is waar mensen wegscrollen. Zorg dat er om de 2–3 seconde
 6. Herhaal voor alle kaarten.
 
 
-## Stap 7b: logo
+## Stap 7b: logo (optioneel, Jari gebruikt dit niet)
 
 1. Zet de witte lijn helemaal vooraan (0:00).
 2. **Overlay** → **Overlay toevoegen** → kies `instagram/reels/logo-overlay.png`.
