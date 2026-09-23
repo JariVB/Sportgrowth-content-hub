@@ -1,4 +1,4 @@
-# Instagram-skills voor @sportgrowthmedia
+# Instagram-skills voor @sportgrowth_media
 
 Dertien skills die je Instagram-content schrijven, controleren en plannen.
 **Ze posten niets.** Jij krijgt tekst die klaar is om te kopiëren, en jij plaatst.
@@ -13,7 +13,7 @@ Je roept een skill aan door de naam te typen in Claude Code, bijvoorbeeld
 Elke skill leest [`voice.md`](voice.md). Zonder dat bestand klinkt alles
 generiek. Twee manieren:
 
-- **Snelste:** plak 3 captions of reel-teksten van @sportgrowthmedia die echt als
+- **Snelste:** plak 3 captions of reel-teksten van @sportgrowth_media die echt als
   jou klinken en zeg: *"schrijf mijn voice.md hieruit"*.
 - **Zelf:** vul het bestand in. Voor SportGrowth Media zijn deze velden het belangrijkst:
   - **Who I am talking to:** wees concreet. Bijvoorbeeld "bestuursleden en
