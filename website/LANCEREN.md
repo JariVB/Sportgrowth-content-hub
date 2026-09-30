@@ -72,7 +72,7 @@ Je gebruikt je **bestaande** Netlify-site, zodat je domein blijft werken.
 
 Open sportgrowthmedia.be op je telefoon en loop dit af:
 
-- [ ] Foto's laden (jij bovenaan, Over mij, Wat ik doe, voor/na Jan Stilten)
+- [ ] Foto's laden (jij bovenaan, voor/na Jan Stilten, Wie ik ben)
 - [ ] Knop **Gratis analyse** bovenaan springt naar het formulier
 - [ ] Menu-links werken op de computer (Resultaat, Over mij, Werkwijze, Prijzen)
 - [ ] Vragen onderaan klappen open
@@ -101,7 +101,7 @@ Open sportgrowthmedia.be op je telefoon en loop dit af:
     - Anders: bij de partij waar je het domein kocht.
 22. Klik **Verifiëren** in Search Console (kan tot een paar uur duren).
 23. Ga naar **Sitemaps** → vul `sitemap.xml` in → **Indienen**.
-24. Optioneel, maar sterk voor lokale clubs: maak een **Google Bedrijfsprofiel** aan (business.google.com) met Waasland als werkgebied.
+24. Optioneel: maak een **Google Bedrijfsprofiel** aan (business.google.com) met België als werkgebied (zonder adres te tonen, omdat je bij de clubs langsgaat of online werkt).
 
 ---
 
