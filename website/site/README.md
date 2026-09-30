@@ -1,0 +1,38 @@
+# sportgrowthmedia.be
+
+Statische website (HTML + CSS), gehost op Netlify.
+
+## Online zetten via Netlify (eenmalig)
+
+1. Log in op app.netlify.com en open je site voor sportgrowthmedia.be.
+2. **Site configuration → Build & deploy → Link repository** → kies GitHub → `JariVB/Sportgrowth-content-hub`.
+3. Instellingen:
+   - **Branch to deploy:** `main`
+   - **Base directory:** `website/site`
+   - **Build command:** leeg laten
+   - **Publish directory:** `website/site`
+4. Deploy. Daarna gaat elke wijziging op `main` vanzelf online.
+
+## Formulier
+
+Het aanvraagformulier gebruikt Netlify Forms. Inzendingen vind je in Netlify onder
+**Forms → analyse**. Zet bij **Forms → Form notifications** een e-mailmelding aan,
+zodat elke aanvraag in je mailbox binnenkomt.
+
+## Nog in te vullen
+
+- [ ] Btw-nummer en e-mailadres in de footer (`index.html`, `privacy.html`). Voor een Belgische onderneming is het btw-nummer op de website verplicht.
+- [ ] Adres of maatschappelijke zetel in `privacy.html`.
+- [ ] Quote van Jan Stilten laten goedkeuren (licht ingekort).
+- [ ] Logo-bestand (nu als tekst nagebouwd).
+- [ ] Voor/na-beelden van Jan Stilten Padel Academy in de sectie "Resultaat".
+
+## Bestanden
+
+- `index.html` · startpagina
+- `bedankt.html` · na het versturen van het formulier
+- `privacy.html` · privacyverklaring
+- `404.html` · pagina niet gevonden
+- `styles.css` · alle opmaak
+- `img/` · foto's (jpg + webp) en deelafbeelding `og.jpg`
+- `fonts/` · lettertypes, lokaal gehost (geen Google Fonts, beter voor privacy)
