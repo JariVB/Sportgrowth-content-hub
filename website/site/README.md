@@ -23,8 +23,8 @@ zodat elke aanvraag in je mailbox binnenkomt.
 
 - [ ] Btw-nummer en e-mailadres in de footer (`index.html`, `privacy.html`). Voor een Belgische onderneming is het btw-nummer op de website verplicht.
 - [ ] Adres of maatschappelijke zetel in `privacy.html`.
-- [ ] Quote van Jan Stilten laten goedkeuren (licht ingekort).
-- [ ] Logo-bestand (nu als tekst nagebouwd).
+- [x] Toestemming Jan Stilten voor quote en Instagram-beelden.
+- [x] Logo S/G als SVG (`img/logo-sg.svg`, `favicon.svg`).
 - [x] Voor/na-beelden van Jan Stilten Padel Academy (kinderen vervaagd).
 
 ## Bestanden
