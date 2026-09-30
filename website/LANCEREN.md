@@ -72,9 +72,9 @@ Je gebruikt je **bestaande** Netlify-site, zodat je domein blijft werken.
 
 Open sportgrowthmedia.be op je telefoon en loop dit af:
 
-- [ ] Foto's laden (jij bovenaan, Jan Stilten en de voor/na, Wie ik ben)
+- [ ] Foto's laden (jij bovenaan, Jan Stilten en de voor/na, Over SportGrowth Media)
 - [ ] Knop **Gratis analyse** bovenaan springt naar het formulier
-- [ ] Menu-links werken op de computer (Resultaat, Over mij, Werkwijze, Prijzen)
+- [ ] Menu-links werken op de computer (Resultaat, Over SportGrowth Media, Werkwijze, Prijzen)
 - [ ] Vragen onderaan klappen open
 - [ ] Link naar Instagram en je e-mailadres werken
 - [ ] **Privacy** onderaan opent de privacyverklaring
