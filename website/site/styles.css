@@ -63,7 +63,8 @@ p + p{margin-top:14px}
 /* Hero */
 .hero{padding:56px 0 72px}
 .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
-.hero h1{margin-bottom:22px}
+.hero h1{margin-bottom:22px;font-size:clamp(40px,5.4vw,62px)}
+@media (min-width:600px){.brand-name{white-space:nowrap}}
 .hero .lead{margin-bottom:14px}
 .hero .hero-show{margin-bottom:30px}
 .hero-actions{display:flex;flex-wrap:wrap;align-items:center;gap:18px 26px}
