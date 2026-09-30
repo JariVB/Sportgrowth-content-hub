@@ -11,7 +11,7 @@ Stemprofiel van @sportgrowth_media. Elke `ig-*` skill leest dit bestand.
 - **Handle:** @sportgrowth_media
 - **What I do, in one sentence:** Ik maak en plan de Instagram-content voor padel- en tennisclubs, zij keuren alleen goed.
 - **Who I am talking to:** bestuursleden, clubverantwoordelijken en vrijwilligers van padel- en tennisclubs in Vlaanderen. Mensen met weinig tijd, die hun club graag zien groeien maar geen marketeer zijn.
-- **What I sell:** social media-beheer voor clubs. De club levert beeld aan; een shoot ter plaatse kan voor €50 extra per maand, voor één shoot per maand. Combinatieclub (tennis + padel of fitness + padel): +€50 per maand.
+- **What I sell:** social media-beheer voor clubs. De club levert beeld aan; een shoot ter plaatse kan: €50 extra per maand voor één shoot per maand. Combinatieclub (tennis + padel of fitness + padel): +€50 per maand.
   - **Mini**: €249/maand, eerste 3 maanden vast, daarna maandelijks opzegbaar. 6 posts/maand, stories 3x/week, visuele huisstijl, captions & hashtags, inplannen via Meta, maandelijkse check-in.
   - **Starter** (meest gekozen): €399/maand, min. 3 maanden. 10 posts/maand, stories 5x/week, 1 reel/maand, visuele huisstijl, captions & hashtags, inplannen via Meta, KPI-rapport per maand, WhatsApp-support.
   - **Growth**: €599/maand, min. 6 maanden. 16 posts/maand, dagelijkse stories, 3 reels/maand, visuele huisstijl, captions & hashtags, inplannen via Meta, uitgebreid KPI-rapport, kwartaalstrategie, prioriteit WhatsApp.
