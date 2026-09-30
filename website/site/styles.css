@@ -94,6 +94,12 @@ p + p{margin-top:14px}
 .examples b{font-weight:600;color:#fff}
 @media (max-width:860px){.case-grid{grid-template-columns:1fr;gap:40px}}
 
+.before-after{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:56px}
+.before-after img{border-radius:var(--radius);border:1px solid var(--line)}
+.before-after figcaption{margin-top:12px;font-size:15px;color:var(--muted)}
+.before-after figcaption b{display:inline-block;color:var(--navy);background:var(--cyan);font-size:13px;padding:3px 9px;border-radius:5px;margin-right:8px}
+@media (max-width:640px){.before-after{grid-template-columns:1fr;gap:28px}}
+
 /* About */
 .about-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:56px;align-items:center}
 .about-grid img{border-radius:var(--radius)}

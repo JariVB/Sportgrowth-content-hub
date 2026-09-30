@@ -25,7 +25,7 @@ zodat elke aanvraag in je mailbox binnenkomt.
 - [ ] Adres of maatschappelijke zetel in `privacy.html`.
 - [ ] Quote van Jan Stilten laten goedkeuren (licht ingekort).
 - [ ] Logo-bestand (nu als tekst nagebouwd).
-- [ ] Voor/na-beelden van Jan Stilten Padel Academy in de sectie "Resultaat".
+- [x] Voor/na-beelden van Jan Stilten Padel Academy (kinderen vervaagd).
 
 ## Bestanden
 
