@@ -21,7 +21,8 @@ zodat elke aanvraag in je mailbox binnenkomt.
 
 ## Nog in te vullen
 
-- [ ] Btw-nummer en e-mailadres in de footer (`index.html`, `privacy.html`). Voor een Belgische onderneming is het btw-nummer op de website verplicht.
+- [x] E-mailadres jari@sportgrowthmedia.be.
+- [ ] Ondernemingsnummer (BTW BE0...) in de footer van alle pagina's en in `privacy.html`, zodra je het hebt. Voor een Belgische onderneming is het verplicht op de website.
 - [ ] Adres of maatschappelijke zetel in `privacy.html`.
 - [x] Toestemming Jan Stilten voor quote en Instagram-beelden.
 - [x] Logo S/G als SVG (`img/logo-sg.svg`, `favicon.svg`).
