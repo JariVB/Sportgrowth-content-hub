@@ -23,7 +23,7 @@ html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 body{background:var(--navy);color:var(--text);font:400 17px/1.6 "Inter",system-ui,sans-serif}
 img{display:block;max-width:100%;height:auto}
 picture img{width:100%}
-.hero-grid>*,.case-grid>*,.about-grid>*,.do-grid>*,.contact-grid>*{min-width:0}
+.hero-grid>*,.case-grid>*,.about-grid>*,.contact-grid>*{min-width:0}
 a{color:inherit}
 :focus-visible{outline:3px solid var(--cyan);outline-offset:3px}
 
@@ -97,15 +97,6 @@ p + p{margin-top:14px}
 .about-text p{color:var(--muted);font-size:18px}
 .about-text p strong{color:#fff;font-weight:600}
 @media (max-width:860px){.about-grid{grid-template-columns:1fr;gap:32px}.about-grid picture{max-width:460px}}
-
-/* What I do */
-.do-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:56px;align-items:center}
-.do-text p{color:var(--muted);max-width:54ch}
-.do-list{list-style:none;margin:18px 0 22px;border-top:1px solid var(--line)}
-.do-list li{padding:12px 0 12px 22px;border-bottom:1px solid var(--line);position:relative}
-.do-list li::before{content:"";position:absolute;left:0;top:1.35em;width:10px;height:2px;background:var(--cyan)}
-.do-grid img{border-radius:var(--radius)}
-@media (max-width:860px){.do-grid{grid-template-columns:1fr;gap:32px}.do-grid picture{max-width:460px}}
 
 /* Steps */
 .steps{list-style:none;counter-reset:step;margin-top:28px;max-width:760px}
