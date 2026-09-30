@@ -84,7 +84,9 @@ p + p{margin-top:14px}
 .case-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
 .quote{border-left:3px solid var(--cyan);padding:4px 0 4px 26px}
 .quote p{font-size:21px;line-height:1.55;color:#fff}
-.quote footer{margin-top:18px;font-size:15px;color:var(--muted)}
+.quote footer{margin-top:20px;font-size:15px;color:var(--muted);display:flex;align-items:center;gap:14px}
+.quote footer picture{flex:none;width:56px}
+.quote footer img{width:56px;height:56px;border-radius:50%;border:2px solid var(--cyan)}
 .quote footer b{color:#fff;font-weight:600}
 @media (max-width:860px){.case-grid{grid-template-columns:1fr;gap:40px}}
 
