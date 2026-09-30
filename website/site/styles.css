@@ -64,7 +64,8 @@ p + p{margin-top:14px}
 .hero{padding:56px 0 72px}
 .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
 .hero h1{margin-bottom:22px}
-.hero .lead{margin-bottom:30px}
+.hero .lead{margin-bottom:14px}
+.hero .hero-show{margin-bottom:30px}
 .hero-actions{display:flex;flex-wrap:wrap;align-items:center;gap:18px 26px}
 .hero-photo{position:relative}
 .hero-photo img{border-radius:var(--radius);aspect-ratio:4/5;object-fit:cover;width:100%}
