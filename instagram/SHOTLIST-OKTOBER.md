@@ -37,7 +37,7 @@ Zo ga je één keer naar elke plek en heb je meteen beelden voor twee weken, plu
 
 ---
 
-## Locatie 2 · Padelclub tijdens een training die jij geeft (±45 min)
+## Locatie 2 · Padelclub tijdens een training die jij geeft (di 6/10, 18u-22u30, tussendoor)
 
 Bijvoorbeeld bij Jan Stilten Padel Academy. Vraag vooraf toestemming aan Jan en aan de spelers.
 
@@ -63,12 +63,12 @@ Bijvoorbeeld bij Jan Stilten Padel Academy. Vraag vooraf toestemming aan Jan en 
 
 ---
 
-## Locatie 3 · Tennisterrein (±45 min, vóór di 6/10)
+## Locatie 3 · Tennisterrein (±45 min, wo 7/10 overdag)
 
 Een club waar je mag filmen, of je tennisles (je volgt opnieuw les: vraag je trainer).
 
 **Video, jij in de camera** (tennisterrein achter je)
-- [ ] Alle zinnen van reel 3 apart, 2 à 3 keer (reel 3, di 6/10), zie het draaiboek
+- [ ] Alle zinnen van reel 3 apart, 2 à 3 keer (reel 3, zo 11/10), zie het draaiboek
 
 **Video, sfeer**
 - [ ] Leeg tennisterrein of clubhuis (reel 3, 0:14)
@@ -114,5 +114,5 @@ Heb je tijd over op locatie 2 of 3? Deze beelden kan je later altijd gebruiken v
 |---|---|---|
 | Vandaag of vr 2/10 | Thuis + archief | Reel 2 (zondag), stories vrijdag en zaterdag |
 | Za 3/10 en zo 4/10 | Weg | Reel 2 en de stories vooraf inplannen via Meta Business Suite |
-| Ma 5/10 of di 6/10 | Padeltraining die je toch geeft | Sfeerbeelden reel 3, optionele reel vr 9/10, voorraad |
-| Ma 5/10 | Tennisterrein | Reel 3 (dinsdag), tennisfoto's voor de website |
+| Di 6/10, 18u-22u30 | Padeltraining die je geeft | Sfeerbeelden reel 3, optionele reel vr 9/10, voorraad |
+| Wo 7/10, overdag | Tennisterrein | Reel 3 (zo 11/10), tennisfoto's voor de website |

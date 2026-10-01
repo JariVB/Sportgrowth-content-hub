@@ -41,6 +41,18 @@ Checklist om af te vinken: https://claude.ai/artifact/DBgE35gbafou2zHS5PPqcV
 - Lees beide met `ArtifactData` vóór je de to-do opstelt; schrijf nieuwe taken met een `batch`.
 - Elke ochtend om ±7u30 start een routine in dit gesprek die dit automatisch doet.
 
+Beschikbaarheid van Jari (vaste week):
+
+| Dag | Tijd voor SportGrowth Media | Goed voor |
+|---|---|---|
+| Maandag | werkt tot 16u, 's avonds een beetje | kleine taken, inplannen, DM's |
+| Dinsdag | vrij vanaf 12u; 18u-22u30 geeft hij padeltraining | monteren 's middags; padelbeelden filmen tijdens de training |
+| Woensdag | vrij 9u-16u30 | hoofdwerkdag: shoots overdag, monteren, carrousels, analyses |
+| Donderdag | werkt overdag, 's avonds een beetje | kleine taken, inplannen |
+| Vrijdag | lukt meestal niet | niets plannen (posts staan vooraf ingepland) |
+| Zaterdag | voetbal 12u30-18u; kleine taken lukken | stories op de gsm |
+| Zondag | kleine taken lukken | stories op de gsm, reel staat vooraf ingepland |
+
 Regels voor de planning:
 - **Niet afgevinkt, met deadline** (een post die die dag online moest): kijk eerst of het toch gebeurd is
   (opmerking, of vraag het). Zo niet: zet de post op het eerstvolgende vrije moment en schuif wat

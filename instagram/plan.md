@@ -33,15 +33,17 @@ Uren zijn een startpunt. Na 3 à 4 weken vergelijken met Professioneel dashboard
 
 ## Weekplan 5 tot 11 oktober
 
+Beschikbaarheid: zie CLAUDE.md. Woensdag is de hoofdwerkdag (shoots en montage).
+
 | Dag | Uur | Feed | Soort | Hook | Stories |
 |---|---|---|---|---|---|
 | ma 5/10 | - | - | - | - | Vraagsticker: "Wat wil je weten over Instagram voor je club?" |
-| di 6/10 | 19:30 | Reel to-camera: "Tennisclubs verliezen geen leden door padel. Ze verliezen ze op Instagram." | Mening | #22 Contrarian Flip | Reel delen + poll "Akkoord / Niet akkoord" |
+| di 6/10 | 19:30 | Reel voor/na Jan Stilten: grid voor en na in beeld, voice-over, 3.367 mensen in 6 weken (geen shoot nodig) | Bewijs | #13 Before And After, On Screen | Reel delen + linksticker naar de website |
 | wo 7/10 | - | - | - | - | Eén tip uit de carrousel, als quiz-sticker |
 | do 8/10 | 19:30 | Carrousel "Zo ziet een gratis analyse eruit": score op 100, 3 verbeterpunten, 1 snelle verbetering. Oproep: stuur AUDIT | Aanbod | - | Carrousel delen + "Stuur AUDIT voor jouw club" |
 | vr 9/10 | - | (optioneel) Reel voice-over: "Wat je op een dinsdagavond in 60 seconden filmt voor je club" | Kennis | #18 Cold Open Demo | Weekend op de club, achter de schermen |
 | za 10/10 | - | - | - | - | Interclub of training, kort filmpje |
-| zo 11/10 | 20:00 | Reel voor/na Jan Stilten: grid voor en na in beeld, voice-over, 3.367 mensen in 6 weken | Bewijs | #13 Before And After, On Screen | Reel delen + linksticker naar de website |
+| zo 11/10 | 20:00 | Reel to-camera: "Tennisclubs verliezen geen leden door padel. Ze verliezen ze op Instagram." (shoot wo 7/10) | Mening | #22 Contrarian Flip | Reel delen + poll "Akkoord / Niet akkoord" |
 
 ## Elke dag: 15 minuten reageren (vóór je post)
 
