@@ -36,11 +36,11 @@ Kijk een dag later bij beeld 3 hoeveel mensen op de link tikten (story openen, o
 
 ---
 
-## Za 3/10 · Achter de schermen (alleen stories)
+## Za 3/10 · Teaser voor reel 2 (alleen stories, vooraf klaarzetten)
 
 | # | Soort | Waar | Tekst / sticker |
 |---|---|---|---|
-| 1 | Video, 5 à 10 s | Op de club waar je training geeft: terreinen, ballenmand, spelers van op afstand (niemand herkenbaar zonder toestemming, zeker geen kinderen) | "Zaterdag op de club" |
+| 1 | Foto uit je archief | Een oude sportfoto van jou (jeugdvoetbal, basket of tennis), dezelfde die je voor reel 2 verzamelt. Vrijdag al klaarzetten, want je bent weg | "Ooit begon het hier…" |
 | 2 | Video of foto van jou | Jij die de camera opstelt, of een frame uit reel 2 | "Morgen vertel ik waarom ik dit doe" |
 
 ---

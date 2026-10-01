@@ -33,6 +33,7 @@ Zo ga je één keer naar elke plek en heb je meteen beelden voor twee weken, plu
 - [ ] Tennis vroeger (reel 2)
 - [ ] Je eerste padelpartijen (reel 2)
 - [ ] Een oude sportfoto voor de vraagsticker "Welke sport speelde jij als kind?" (stories zo 4/10)
+- [ ] Nog een oude sportfoto voor de teaser "Ooit begon het hier…" (stories za 3/10)
 
 ---
 
@@ -56,9 +57,9 @@ Bijvoorbeeld bij Jan Stilten Padel Academy. Vraag vooraf toestemming aan Jan en 
 - [ ] Een les van op afstand, geen herkenbare gezichten nodig (reel zo 11/10, "de maandagsles")
 - [ ] Jij op het terrein, recht in de camera (voorraad voor stories)
 
-**Stories, ter plaatse posten of bewaren**
-- [ ] 5 à 10 s terreinen + ballenmand, niemand herkenbaar (stories za 3/10)
-- [ ] Jij die je gsm opstelt (stories za 3/10)
+**Voorraad voor stories**
+- [ ] 5 à 10 s terreinen + ballenmand, niemand herkenbaar
+- [ ] Jij die je gsm opstelt
 
 ---
 
@@ -111,6 +112,7 @@ Heb je tijd over op locatie 2 of 3? Deze beelden kan je later altijd gebruiken v
 
 | Wanneer | Waar | Voor |
 |---|---|---|
-| Vr 2/10 of za 3/10 | Thuis + archief | Reel 2 (zondag), stories vrijdag |
-| Za 3/10 | Padeltraining | Stories zaterdag, sfeerbeelden reel 3, optionele reel vr 9/10, voorraad |
-| Zo 4/10 of ma 5/10 | Tennisterrein | Reel 3 (dinsdag), tennisfoto's voor de website |
+| Vandaag of vr 2/10 | Thuis + archief | Reel 2 (zondag), stories vrijdag en zaterdag |
+| Za 3/10 en zo 4/10 | Weg | Reel 2 en de stories vooraf inplannen via Meta Business Suite |
+| Ma 5/10 of di 6/10 | Padeltraining die je toch geeft | Sfeerbeelden reel 3, optionele reel vr 9/10, voorraad |
+| Ma 5/10 | Tennisterrein | Reel 3 (dinsdag), tennisfoto's voor de website |
