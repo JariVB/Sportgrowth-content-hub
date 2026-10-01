@@ -41,4 +41,17 @@ Checklist om af te vinken: https://claude.ai/artifact/DBgE35gbafou2zHS5PPqcV
 - Lees beide met `ArtifactData` vóór je de to-do opstelt; schrijf nieuwe taken met een `batch`.
 - Elke ochtend om ±7u30 start een routine in dit gesprek die dit automatisch doet.
 
+Regels voor de planning:
+- **Niet afgevinkt, met deadline** (een post die die dag online moest): kijk eerst of het toch gebeurd is
+  (opmerking, of vraag het). Zo niet: zet de post op het eerstvolgende vrije moment en schuif wat
+  erachter komt mee op. Pas `plan.md` en het draaiboek aan en zeg duidelijk wat er verschoof.
+- **Niet afgevinkt, zonder deadline** (reageren, een DM, voorbereiding): bovenaan de lijst van vandaag.
+- **Twee dagen na elkaar open:** vraag of de taak nog moet, of schrap ze.
+- **Werkdagen:** hou de lijst rond een uur, tenzij Jari meer tijd meldt. Wil hij een dag niets doen,
+  zet dan alleen wat op de gsm kan en die dag moet.
+- **Opnames:** voor elke post met eigen beeld komt een shoot-taak (titel begint met "Shoot:") minstens
+  2 dagen vóór de postdatum, monteren minstens 1 dag ervoor, en de post de dag ervoor ingepland.
+  Groepeer shoots per locatie volgens de shotlist. Lukt die buffer niet, zeg het en stel voor de post
+  op te schuiven.
+
 Schrijf in het Nederlands (Vlaams), kort en concreet.
