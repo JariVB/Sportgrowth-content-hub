@@ -34,4 +34,11 @@ Antwoord dan zo:
 6. Zit het draaiboek bijna leeg (minder dan 4 dagen), stel dan het volgende weekplan,
    draaiboek en de shotlist voor.
 
+Checklist om af te vinken: https://claude.ai/artifact/DBgE35gbafou2zHS5PPqcV
+- Collectie `tasks` (één document per taak, doc_id `{datum}-{volgnummer}`): `date` (JJJJ-MM-DD),
+  `order`, `title`, `minutes`, `done`, `detail` (korte stappen, kant-en-klare teksten).
+- Collectie `notes` (doc_id = datum): `text`, opmerkingen van Jari voor Claude.
+- Lees beide met `ArtifactData` vóór je de to-do opstelt; schrijf nieuwe taken met een `batch`.
+- Elke ochtend om ±7u30 start een routine in dit gesprek die dit automatisch doet.
+
 Schrijf in het Nederlands (Vlaams), kort en concreet.
