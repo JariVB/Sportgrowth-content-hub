@@ -99,7 +99,7 @@ De antwoorden zijn ideeën voor volgende reels. Een goede vraag beantwoord je la
 | 1 | Foto van een terrein of clubhuis | Quiz-sticker: "Wat brengt een club de meeste nieuwe leden op Instagram?" Opties: "Affiches" / "Uitslagen" / "Trainers en sfeer" (juist: Trainers en sfeer) |
 | 2 | Effen achtergrond | "Daarom toon je wie er op je club staat, niet alleen wat er gepland is." |
 
-Vandaag ook: DM naar Boba Racket Sports als je deze week al 2 à 3 keer op hun posts reageerde (zie `dm-audit.md`).
+Vandaag ook: kijk in `opvolging.md` of er een volgende stap op de planning staat.
 
 ---
 

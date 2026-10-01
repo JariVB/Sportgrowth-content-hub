@@ -47,6 +47,7 @@ Uren zijn een startpunt. Na 3 à 4 weken vergelijken met Professioneel dashboard
 
 - **Bereik (5):** grote padel- en tennisaccounts in Vlaanderen, zoals de federaties en bekende clubs en trainers. Reageer vroeg, met een echte zin.
 - **Collega's (3):** andere trainers en kleine sportbureaus van jouw grootte.
-- **Mogelijke klanten (2):** Boba Racket Sports en een club die je graag als klant wil. Weken reageren, nooit pitchen in een reactie.
+- **Mogelijke klanten (2):** clubs die je graag als klant wil. Weken reageren, nooit pitchen in een reactie.
+- **Partners:** Boba Racket Sports (bevriende racketwinkel). Gewoon blijven liken en reageren, geen verkoop.
 
-Boba Racket Sports: deze week 2 à 3 keer een echte reactie op hun posts. Rond wo 7/10 een DM met het aanbod van een gratis analyse (zie `dm-audit.md`).
+Opvolging van contacten: zie `opvolging.md`.
