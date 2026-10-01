@@ -18,6 +18,35 @@ Uren zijn een startpunt. Na 3 à 4 weken vergelijken met Professioneel dashboard
 | do 24/09 | Carrousel "Zo werkt het" + vastpinnen + story → highlight "Hoe het werkt" | klaar |
 | zo 27/09 | Geen post: reel 1 opnemen. Story: poll "Wat post jouw club het vaakst?" | |
 | di 29/09 | Reel 1 "3 fouten op de Instagram van tennisclubs" | gepost, 1.800 views na 1 dag |
-| do 01/10 | Carrousel "Wat jouw club kan posten" (vervolg op reel 1) | klaar |
-| zo 04/10 | Reel 2 "Ik ben geen marketeer. Ik ben een sportmens." + vastpinnen | te schrijven |
-| vanaf 06/10 | Vast weekritme, weekplan via /ig-plan | |
+| do 01/10 | Carrousel "Wat jouw club kan posten" (vervolg op reel 1) | ingepland 19:30 |
+| zo 04/10 | Reel 2 "Ik ben geen marketeer. Ik ben een sportmens." + vastpinnen | script klaar |
+| vanaf 06/10 | Vast weekritme, zie weekplannen hieronder | |
+
+## Weekplan 1 tot 4 oktober (lanceringsweek)
+
+| Dag | Uur | Feed | Stories (3 à 5 beelden) |
+|---|---|---|---|
+| do 1/10 | 19:30 | Carrousel "Wat jouw club kan posten" | 19:35 carrousel delen + poll "Wat post jouw club het vaakst? Affiches / Uitslagen / Sfeer" |
+| vr 2/10 | - | - | ±12:00 of 19:00: "Mijn nieuwe website staat online" (3 à 4 beelden), linksticker `https://sportgrowthmedia.be/?utm_source=instagram&utm_medium=story` |
+| za 3/10 | - | - | Achter de schermen: jij als trainer op de club, of het opnemen van reel 2. Tekst: "Morgen vertel ik waarom ik dit doe" |
+| zo 4/10 | 20:00 | Reel 2 "Ik ben geen marketeer. Ik ben een sportmens." + vastpinnen | Reel delen + vraagsticker "Welke sport speelde jij als kind?" |
+
+## Weekplan 5 tot 11 oktober
+
+| Dag | Uur | Feed | Soort | Hook | Stories |
+|---|---|---|---|---|---|
+| ma 5/10 | - | - | - | - | Vraagsticker: "Wat wil je weten over Instagram voor je club?" |
+| di 6/10 | 19:30 | Reel to-camera: "Tennisclubs verliezen geen leden door padel. Ze verliezen ze op Instagram." | Mening | #22 Contrarian Flip | Reel delen + poll "Akkoord / Niet akkoord" |
+| wo 7/10 | - | - | - | - | Eén tip uit de carrousel, als quiz-sticker |
+| do 8/10 | 19:30 | Carrousel "Zo ziet een gratis analyse eruit": score op 100, 3 verbeterpunten, 1 snelle verbetering. Oproep: stuur AUDIT | Aanbod | - | Carrousel delen + "Stuur AUDIT voor jouw club" |
+| vr 9/10 | - | (optioneel) Reel voice-over: "Wat je op een dinsdagavond in 60 seconden filmt voor je club" | Kennis | #18 Cold Open Demo | Weekend op de club, achter de schermen |
+| za 10/10 | - | - | - | - | Interclub of training, kort filmpje |
+| zo 11/10 | 20:00 | Reel voor/na Jan Stilten: grid voor en na in beeld, voice-over, 3.367 mensen in 6 weken | Bewijs | #13 Before And After, On Screen | Reel delen + linksticker naar de website |
+
+## Elke dag: 15 minuten reageren (vóór je post)
+
+- **Bereik (5):** grote padel- en tennisaccounts in Vlaanderen, zoals de federaties en bekende clubs en trainers. Reageer vroeg, met een echte zin.
+- **Collega's (3):** andere trainers en kleine sportbureaus van jouw grootte.
+- **Mogelijke klanten (2):** Boba Racket Sports en een club die je graag als klant wil. Weken reageren, nooit pitchen in een reactie.
+
+Boba Racket Sports: deze week 2 à 3 keer een echte reactie op hun posts. Rond wo 7/10 een DM met het aanbod van een gratis analyse (zie `dm-audit.md`).
