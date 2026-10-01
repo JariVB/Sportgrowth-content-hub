@@ -19,6 +19,12 @@ Berichten: `dm-audit.md`. Gegevens van contactpersonen alleen voornaam en club.
 - [ ] Week 6: screenshot + "Hoe loopt het?"
 - [ ] Maand 3: screenshot + toestemming vragen voor "van nul naar…" (met screenshot van hun statistieken)
 
+## Andere aanvragen (buiten de niche)
+
+| Wie | Wat | Status | Volgende stap | Wanneer |
+|---|---|---|---|---|
+| Baltha (baltha_vdv) | Zelfstandige in bijberoep, wil apps en websites promoten (madebybalthazar.com) | Teams-gesprek gepland | Gesprek di 6/10 14u; daarna voorstel maken | Di 6/10, voorstel wo 7/10 |
+
 ## Partners
 
 | Partner | Wat | Opvolging |
