@@ -16,7 +16,7 @@
 | 0:09 | Tot mijn knie het opgaf. Vier operaties in vier jaar. | Jij, rustig. Eventueel foto na operatie | tekst3 |
 | 0:13 | Competitievoetbal was voorbij. Sport niet. | Jij | |
 | 0:15 | Ik ontdekte padel, toen bijna niemand het hier kende. | Beeld padelterrein | |
-| 0:18 | Ondertussen ben ik al vijf jaar padeltrainer. | Jij die training geeft | tekst4 |
+| 0:18 | Later werd ik ook trainer. Nu al vijf jaar. | Jij die training geeft | tekst4 |
 | 0:21 | Vandaag bij Jan Stilten Padel Academy. | Beeld academy (met toestemming) | |
 | 0:24 | En ik volg opnieuw tennisles. | Korte clip tennisles | |
 | 0:26 | Als trainer zie ik elke week hoe een club leeft. | Bar, terreinen, leden | |
