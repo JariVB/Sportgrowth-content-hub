@@ -21,7 +21,7 @@ Links voor stickers:
 
 ---
 
-## Vr 2/10 · Je nieuwe website (alleen stories) · VERSCHOVEN naar ma 5/10 (Jari weg vr 2 t/m zo 4)
+## Vr 2/10 · Je nieuwe website (alleen stories, ±10 min op je gsm)
 
 Rond 12:00 of 19:00. Vier beelden.
 
@@ -36,7 +36,7 @@ Kijk een dag later bij beeld 3 hoeveel mensen op de link tikten (story openen, o
 
 ---
 
-## Za 3/10 · Teaser voor reel 2 (alleen stories) · optioneel: do 1/10 inplannen via Meta Business Suite, anders overslaan
+## Za 3/10 · Teaser voor reel 2 (alleen stories, ±5 min op je gsm)
 
 | # | Soort | Waar | Tekst / sticker |
 |---|---|---|---|
@@ -45,7 +45,7 @@ Kijk een dag later bij beeld 3 hoeveel mensen op de link tikten (story openen, o
 
 ---
 
-## Zo 4/10 · Reel 2 "Ik ben geen marketeer. Ik ben een sportmens." · do 1/10 opnemen, monteren en inplannen voor zo 20:00. Caption: `reels/02-caption.txt`. Lukt het niet: naar di 6/10, en reel 3 naar di 13/10. Story bij de reel: ma 5/10
+## Zo 4/10 · Reel 2 "Ik ben geen marketeer. Ik ben een sportmens." · do 1/10 opnemen, monteren en inplannen voor zo 20:00. Caption: `reels/02-caption.txt`. Lukt het niet: naar di 6/10, en reel 3 naar di 13/10. Story bij de reel: zo 4/10 op je gsm
 
 **Post (20:00):** script, cover en tekstkaarten staan in `reels/02-sportmens.md` en `reels/02-sportmens/`. Na het posten vastpinnen.
 

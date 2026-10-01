@@ -27,9 +27,9 @@ Uren zijn een startpunt. Na 3 à 4 weken vergelijken met Professioneel dashboard
 | Dag | Uur | Feed | Stories (3 à 5 beelden) |
 |---|---|---|---|
 | do 1/10 | 19:30 | Carrousel "Wat jouw club kan posten" | 19:35 carrousel delen + poll "Wat post jouw club het vaakst? Affiches / Uitslagen / Sfeer" |
-| vr 2/10 | - | - | VERSCHOVEN naar ma 5/10 (Jari weg vr 2 t/m zo 4). ±12:00 of 19:00: "Mijn nieuwe website staat online" (3 à 4 beelden), linksticker `https://sportgrowthmedia.be/?utm_source=instagram&utm_medium=story` |
+| vr 2/10 | - | - | Op de gsm (Jari weg, korte taken lukken). ±12:00 of 19:00: "Mijn nieuwe website staat online" (3 à 4 beelden), linksticker `https://sportgrowthmedia.be/?utm_source=instagram&utm_medium=story` |
 | za 3/10 | - | - | Achter de schermen: jij als trainer op de club, of het opnemen van reel 2. Tekst: "Morgen vertel ik waarom ik dit doe" |
-| zo 4/10 | 20:00 | Reel 2 "Ik ben geen marketeer. Ik ben een sportmens." (do 1/10 inplannen; vastpinnen op ma 5/10) | Reel delen + vraagsticker "Welke sport speelde jij als kind?" |
+| zo 4/10 | 20:00 | Reel 2 "Ik ben geen marketeer. Ik ben een sportmens." (do 1/10 inplannen; zo story delen en vastpinnen op de gsm) | Reel delen + vraagsticker "Welke sport speelde jij als kind?" |
 
 ## Weekplan 5 tot 11 oktober
 
