@@ -18,8 +18,8 @@ Uren zijn een startpunt. Na 3 à 4 weken vergelijken met Professioneel dashboard
 | do 24/09 | Carrousel "Zo werkt het" + vastpinnen + story → highlight "Hoe het werkt" | klaar |
 | zo 27/09 | Geen post: reel 1 opnemen. Story: poll "Wat post jouw club het vaakst?" | |
 | di 29/09 | Reel 1 "3 fouten op de Instagram van tennisclubs" | gepost, 1.800 views na 1 dag |
-| do 01/10 | Carrousel "Wat jouw club kan posten" (vervolg op reel 1) | ingepland 19:30 |
-| zo 04/10 | Reel 2 "Ik ben geen marketeer. Ik ben een sportmens." + vastpinnen | script klaar |
+| do 01/10 | Carrousel "Wat jouw club kan posten" (vervolg op reel 1) | gepost + gedeeld in story |
+| zo 04/10 | Reel 2 "Ik ben geen marketeer. Ik ben een sportmens." + vastpinnen | gemonteerd en ingepland |
 | vanaf 06/10 | Vast weekritme, zie weekplannen hieronder | |
 
 ## Weekplan 1 tot 4 oktober (lanceringsweek)
