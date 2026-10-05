@@ -151,19 +151,19 @@ Controleer slide 4: noem de onderdelen waarop jij echt scoort.
 - **Soort:** video, jij in beeld, recht in de camera (to-camera) + tussenbeelden
 - **Waar opnemen:** aan of op een **tennisterrein**, woensdag 7/10 overdag. Neem meteen ook een paar foto's van jezelf met een tennisracket voor de website.
 - **Tussenbeelden:** een padelclub met volle terreinen, en een tennisclub. Altijd met toestemming van de club en zonder herkenbare kinderen. Toon nooit het profiel van een echte club als "slecht voorbeeld".
-- **Lengte:** ±35 seconden
+- **Lengte:** ±30 seconden
 - **Hook:** formule #22 Contrarian Flip
 
 | Tijd | Wat je zegt | Beeld | Tekst op beeld |
 |---|---|---|---|
-| 0:00 | Tennisclubs verliezen geen leden door padel. | Jij, close-up, tennisterrein achter je | Tennisclubs verliezen geen leden door padel |
-| 0:03 | Ze verliezen ze op Instagram. | Jij | Ze verliezen ze op Instagram |
-| 0:06 | Kijk maar naar de padelclubs hier in de buurt. | Padelclub, volle terreinen | |
-| 0:09 | Elke week zie je er de trainers, de sfeer en mensen die voor het eerst spelen. | Padel: trainer, lachende spelers | |
-| 0:14 | En bij veel tennisclubs? Een affiche voor het tornooi en de uitslagen van de interclub. | Tennisclub, leeg terrein of clubhuis | |
-| 0:19 | Wie twijfelt tussen tennis en padel, kiest de club die hij kent. En die leert hij eerst kennen op Instagram. | Jij | |
-| 0:25 | Toon je trainers, je jeugdwerking en je clubhuis na een match. | Tennis: trainer, bar | Trainers · jeugd · clubhuis |
-| 0:30 | Wil je weten hoe jouw tennisclub ervoor staat? Stuur me AUDIT. | Jij | Stuur AUDIT |
+| 0:00 | Tennisclubs verliezen geen leden door padel. Ze verliezen ze op Instagram. | Jij, close-up, tennisterrein achter je. Meteen praten, geen intro | Tennisclubs verliezen geen leden door padel |
+| 0:04 | Bij padelclubs zie je elke week de trainers, de sfeer en nieuwe spelers. | Padel: volle terreinen, trainer, lachende spelers | |
+| 0:09 | Bij veel tennisclubs: een affiche en de uitslagen van de interclub. | Tennisclub, leeg terrein of clubhuis | |
+| 0:14 | Wie twijfelt tussen tennis en padel, kiest de club die hij al kent van Instagram. | Jij | |
+| 0:20 | Toon dus je trainers, je jeugd en je clubhuis na een match. | Tennis: trainer, bar | Trainers · jeugd · clubhuis |
+| 0:25 | Ik ben Jari, padeltrainer. Stuur AUDIT en ik bekijk gratis jullie Instagram. | Jij | Stuur AUDIT |
+
+±73 woorden, ±30 seconden. Ingekort na de lessen uit `log.md`: meteen het probleem, korter, op het einde wie je bent.
 
 **Opnametips:** elke zin apart opnemen, 2 à 3 keer. Rustig en zeker, niet boos: je wil tennisclubs helpen, niet afbreken.
 
