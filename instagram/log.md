@@ -16,5 +16,25 @@ Lessen:
 - 49 s is lang: persoonlijke reels richten op 25-30 s.
 - Wie tot het einde kijkt, liket (piek in likes op het einde).
 
-## Reel 1 "3 fouten op de Instagram van tennisclubs" (di 29/9)
-- 2.990 weergaven. Herkenbaar probleem voor clubs in de eerste zin werkt het best.
+## Reel 1 "3 fouten op de Instagram van tennisclubs" (di 29/9, 55 s)
+Na 1 week (ma 5/10):
+- 2.990 weergaven, 2.404 kijkers; gemiddelde kijktijd 17 s van 55 s
+- Overslaan 43,5% (lager dan gemiddeld); retentie zakt geleidelijk, ±10% tot het einde
+- 17 likes, 4 reacties, 2 reposts, 5 keer bewaard
+- 85 profielbezoeken, 16 nieuwe volgers, 4 klikken op de link in de bio
+- Bronnen: 62% Reels-tab, 22% overzicht, 6% ontdekken
+
+## Vergelijking reel 1 en reel 2
+| | Reel 1 (probleem clubs) | Reel 2 (persoonlijk) |
+|---|---|---|
+| Kijkers | 2.404 | 539 |
+| Overslaan | 43,5% | 58,3% |
+| Gem. kijktijd | 17 s / 55 s | 16 s / 49 s |
+| Volgers per 100 kijkers | 0,7 | 1,3 |
+| Likes/delen per kijker | lager | hoger |
+Lessen:
+- Een herkenbaar clubprobleem in de eerste zin houdt mensen vast, en dan duwt Instagram de reel
+  in de Reels-tab (4x zoveel kijkers).
+- Een persoonlijk verhaal maakt van kijkers sneller volgers.
+- Beste formule: openen met het probleem van de club, daarna kort wie jij bent.
+- Beide reels zijn te lang: mik op 25-35 s.
