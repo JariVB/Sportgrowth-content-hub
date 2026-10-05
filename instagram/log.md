@@ -23,6 +23,7 @@ Na 1 week (ma 5/10):
 - 17 likes, 4 reacties, 2 reposts, 5 keer bewaard
 - 85 profielbezoeken, 16 nieuwe volgers, 4 klikken op de link in de bio
 - Bronnen: 62% Reels-tab, 22% overzicht, 6% ontdekken
+- Doelgroep: 95,5% niet-volgers; leeftijd 25-34 36%, 35-44 25%, 45-54 19%, 55-64 10% (56% is 35+)
 
 ## Vergelijking reel 1 en reel 2
 | | Reel 1 (probleem clubs) | Reel 2 (persoonlijk) |
@@ -36,5 +37,7 @@ Lessen:
 - Een herkenbaar clubprobleem in de eerste zin houdt mensen vast, en dan duwt Instagram de reel
   in de Reels-tab (4x zoveel kijkers).
 - Een persoonlijk verhaal maakt van kijkers sneller volgers.
+- Reel 1 bereikt meer 35-plussers (56% tegenover 40% bij reel 2): het clubprobleem spreekt bestuurders en
+  vrijwilligers aan, precies de mensen die beslissen.
 - Beste formule: openen met het probleem van de club, daarna kort wie jij bent.
 - Beide reels zijn te lang: mik op 25-35 s.
