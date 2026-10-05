@@ -18,8 +18,8 @@ Uren zijn een startpunt. Na 3 à 4 weken vergelijken met Professioneel dashboard
 | do 24/09 | Carrousel "Zo werkt het" + vastpinnen + story → highlight "Hoe het werkt" | klaar |
 | zo 27/09 | Geen post: reel 1 opnemen. Story: poll "Wat post jouw club het vaakst?" | |
 | di 29/09 | Reel 1 "3 fouten op de Instagram van tennisclubs" | gepost, 1.800 views na 1 dag |
-| do 01/10 | Carrousel "Wat jouw club kan posten" (vervolg op reel 1) | ingepland 19:30 |
-| zo 04/10 | Reel 2 "Ik ben geen marketeer. Ik ben een sportmens." + vastpinnen | script klaar |
+| do 01/10 | Carrousel "Wat jouw club kan posten" (vervolg op reel 1) | gepost + gedeeld in story |
+| zo 04/10 | Reel 2 "Ik ben geen marketeer. Ik ben een sportmens." + vastpinnen | gemonteerd en ingepland |
 | vanaf 06/10 | Vast weekritme, zie weekplannen hieronder | |
 
 ## Weekplan 1 tot 4 oktober (lanceringsweek)
@@ -27,21 +27,23 @@ Uren zijn een startpunt. Na 3 à 4 weken vergelijken met Professioneel dashboard
 | Dag | Uur | Feed | Stories (3 à 5 beelden) |
 |---|---|---|---|
 | do 1/10 | 19:30 | Carrousel "Wat jouw club kan posten" | 19:35 carrousel delen + poll "Wat post jouw club het vaakst? Affiches / Uitslagen / Sfeer" |
-| vr 2/10 | - | - | ±12:00 of 19:00: "Mijn nieuwe website staat online" (3 à 4 beelden), linksticker `https://sportgrowthmedia.be/?utm_source=instagram&utm_medium=story` |
-| za 3/10 | - | - | Achter de schermen: jij als trainer op de club, of het opnemen van reel 2. Tekst: "Morgen vertel ik waarom ik dit doe" |
-| zo 4/10 | 20:00 | Reel 2 "Ik ben geen marketeer. Ik ben een sportmens." + vastpinnen | Reel delen + vraagsticker "Welke sport speelde jij als kind?" |
+| vr 2/10 | - | - | GEPOST (ingepland op 1/10), poll-resultaat gedeeld, highlight "Resultaat" gemaakt. ±12:00 of 19:00: "Mijn nieuwe website staat online" (3 à 4 beelden), linksticker `https://sportgrowthmedia.be/?utm_source=instagram&utm_medium=story` |
+| za 3/10 | - | - | GEPOST: teaser oude sportfoto + aftelsticker. Oorspronkelijk: achter de schermen: jij als trainer op de club, of het opnemen van reel 2. Tekst: "Morgen vertel ik waarom ik dit doe" |
+| zo 4/10 | 20:00 | Reel 2 "Ik ben geen marketeer. Ik ben een sportmens." (GEPOST zo 4/10, gedeeld, vastgepind, highlight "Over mij") | Reel delen + vraagsticker "Welke sport speelde jij als kind?" |
 
 ## Weekplan 5 tot 11 oktober
+
+Beschikbaarheid: zie CLAUDE.md. Woensdag is de hoofdwerkdag (shoots en montage).
 
 | Dag | Uur | Feed | Soort | Hook | Stories |
 |---|---|---|---|---|---|
 | ma 5/10 | - | - | - | - | Vraagsticker: "Wat wil je weten over Instagram voor je club?" |
-| di 6/10 | 19:30 | Reel to-camera: "Tennisclubs verliezen geen leden door padel. Ze verliezen ze op Instagram." | Mening | #22 Contrarian Flip | Reel delen + poll "Akkoord / Niet akkoord" |
+| di 6/10 | 19:30 | Reel voor/na Jan Stilten: grid voor en na in beeld, voice-over, 3.367 mensen in 6 weken (geen shoot nodig) | Bewijs | #13 Before And After, On Screen | Reel delen + linksticker naar de website |
 | wo 7/10 | - | - | - | - | Eén tip uit de carrousel, als quiz-sticker |
 | do 8/10 | 19:30 | Carrousel "Zo ziet een gratis analyse eruit": score op 100, 3 verbeterpunten, 1 snelle verbetering. Oproep: stuur AUDIT | Aanbod | - | Carrousel delen + "Stuur AUDIT voor jouw club" |
 | vr 9/10 | - | (optioneel) Reel voice-over: "Wat je op een dinsdagavond in 60 seconden filmt voor je club" | Kennis | #18 Cold Open Demo | Weekend op de club, achter de schermen |
 | za 10/10 | - | - | - | - | Interclub of training, kort filmpje |
-| zo 11/10 | 20:00 | Reel voor/na Jan Stilten: grid voor en na in beeld, voice-over, 3.367 mensen in 6 weken | Bewijs | #13 Before And After, On Screen | Reel delen + linksticker naar de website |
+| zo 11/10 | 20:00 | Reel to-camera: "Tennisclubs verliezen geen leden door padel. Ze verliezen ze op Instagram." (shoot wo 7/10) | Mening | #22 Contrarian Flip | Reel delen + poll "Akkoord / Niet akkoord" |
 
 ## Elke dag: 15 minuten reageren (vóór je post)
 

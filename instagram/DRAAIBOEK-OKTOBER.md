@@ -21,7 +21,7 @@ Links voor stickers:
 
 ---
 
-## Vr 2/10 · Je nieuwe website (alleen stories)
+## Vr 2/10 · Je nieuwe website (alleen stories, ±10 min op je gsm)
 
 Rond 12:00 of 19:00. Vier beelden.
 
@@ -36,7 +36,7 @@ Kijk een dag later bij beeld 3 hoeveel mensen op de link tikten (story openen, o
 
 ---
 
-## Za 3/10 · Teaser voor reel 2 (alleen stories, vooraf klaarzetten)
+## Za 3/10 · Teaser voor reel 2 (alleen stories, ±5 min op je gsm)
 
 | # | Soort | Waar | Tekst / sticker |
 |---|---|---|---|
@@ -45,7 +45,7 @@ Kijk een dag later bij beeld 3 hoeveel mensen op de link tikten (story openen, o
 
 ---
 
-## Zo 4/10 · Reel 2 "Ik ben geen marketeer. Ik ben een sportmens."
+## Zo 4/10 · Reel 2 "Ik ben geen marketeer. Ik ben een sportmens." · do 1/10 opnemen, monteren en inplannen voor zo 20:00. Caption: `reels/02-caption.txt`. Lukt het niet: naar di 6/10, en de reel van Jan naar di 13/10. Story bij de reel: zo 4/10 op je gsm
 
 **Post (20:00):** script, cover en tekstkaarten staan in `reels/02-sportmens.md` en `reels/02-sportmens/`. Na het posten vastpinnen.
 
@@ -67,30 +67,25 @@ De antwoorden zijn ideeën voor volgende reels. Een goede vraag beantwoord je la
 
 ---
 
-## Di 6/10 · Reel 3 "Tennisclubs verliezen geen leden door padel"
+## Di 6/10 · Reel "Jan Stilten Padel Academy, voor en na" (geruild met zo 11/10: geen shoot nodig)
 
-- **Soort:** video, jij in beeld, recht in de camera (to-camera) + tussenbeelden
-- **Waar opnemen:** aan of op een **tennisterrein**. Neem meteen ook een paar foto's van jezelf met een tennisracket voor de website.
-- **Tussenbeelden:** een padelclub met volle terreinen, en een tennisclub. Altijd met toestemming van de club en zonder herkenbare kinderen. Toon nooit het profiel van een echte club als "slecht voorbeeld".
-- **Lengte:** ±35 seconden
-- **Hook:** formule #22 Contrarian Flip
+- **Soort:** video, schermbeelden + jouw stem (voice-over)
+- **Waar opnemen:** nergens, je gebruikt beelden die je al hebt: de voor- en na-grid van Jan (de versies met vervaagde kinderen, zoals op je website: `website/site/img/jan-stilten-voor.jpg` en `jan-stilten-na.jpg`), of een schermopname van zijn huidige profiel.
+- **Toestemming:** Jan keurde de beelden en de cijfers goed voor de website. Laat hem ook even weten dat je er een reel van maakt.
+- **Hook:** formule #13 Before And After, On Screen
+- **Lengte:** ±25 seconden
 
 | Tijd | Wat je zegt | Beeld | Tekst op beeld |
 |---|---|---|---|
-| 0:00 | Tennisclubs verliezen geen leden door padel. | Jij, close-up, tennisterrein achter je | Tennisclubs verliezen geen leden door padel |
-| 0:03 | Ze verliezen ze op Instagram. | Jij | Ze verliezen ze op Instagram |
-| 0:06 | Kijk maar naar de padelclubs hier in de buurt. | Padelclub, volle terreinen | |
-| 0:09 | Elke week zie je er de trainers, de sfeer en mensen die voor het eerst spelen. | Padel: trainer, lachende spelers | |
-| 0:14 | En bij veel tennisclubs? Een affiche voor het tornooi en de uitslagen van de interclub. | Tennisclub, leeg terrein of clubhuis | |
-| 0:19 | Wie twijfelt tussen tennis en padel, kiest de club die hij kent. En die leert hij eerst kennen op Instagram. | Jij | |
-| 0:25 | Toon je trainers, je jeugdwerking en je clubhuis na een match. | Tennis: trainer, bar | Trainers · jeugd · clubhuis |
-| 0:30 | Wil je weten hoe jouw tennisclub ervoor staat? Stuur me AUDIT. | Jij | Stuur AUDIT |
+| 0:00 | Dit was de Instagram van Jan Stilten Padel Academy. | Voor-grid, langzaam inzoomen | Voor |
+| 0:03 | Losse affiches, elke post een andere stijl. | Voor-grid | |
+| 0:06 | Dit is hij zes weken later. | Swipe-overgang naar de na-grid | Na 6 weken |
+| 0:09 | Tips voor beginners, de coaches die zich voorstellen en een gewone dinsdagavond. | Inzoomen op die posts | |
+| 0:15 | 3.367 mensen bereikt, zonder één euro advertenties. | Na-grid | 3.367 mensen · 6 weken · €0 advertenties |
+| 0:20 | En de maandagsles zat bijna vol. | Foto van een les of van Jan | |
+| 0:23 | Benieuwd hoe jouw club ervoor staat? Stuur AUDIT. | Jij of je logo | Stuur AUDIT |
 
-**Opnametips:** elke zin apart opnemen, 2 à 3 keer. Rustig en zeker, niet boos: je wil tennisclubs helpen, niet afbreken.
-
-**Stories (19:35):** reel delen + poll "Akkoord" / "Niet akkoord".
-
----
+**Stories (19:35):** reel delen + linksticker naar je website (story-link hierboven) met de tekst "Meer resultaten".
 
 ## Wo 7/10 · Tip als quiz (alleen stories)
 
@@ -151,22 +146,27 @@ Controleer slide 4: noem de onderdelen waarop jij echt scoort.
 
 ---
 
-## Zo 11/10 · Reel "Jan Stilten Padel Academy, voor en na"
+## Zo 11/10 · Reel 3 "Tennisclubs verliezen geen leden door padel" (geruild met di 6/10; shoot wo 7/10)
 
-- **Soort:** video, schermbeelden + jouw stem (voice-over)
-- **Waar opnemen:** nergens, je gebruikt beelden die je al hebt: de voor- en na-grid van Jan (de versies met vervaagde kinderen, zoals op je website: `website/site/img/jan-stilten-voor.jpg` en `jan-stilten-na.jpg`), of een schermopname van zijn huidige profiel.
-- **Toestemming:** Jan keurde de beelden en de cijfers goed voor de website. Laat hem ook even weten dat je er een reel van maakt.
-- **Hook:** formule #13 Before And After, On Screen
-- **Lengte:** ±25 seconden
+- **Soort:** video, jij in beeld, recht in de camera (to-camera) + tussenbeelden
+- **Waar opnemen:** aan of op een **tennisterrein**, woensdag 7/10 overdag. Neem meteen ook een paar foto's van jezelf met een tennisracket voor de website.
+- **Tussenbeelden:** een padelclub met volle terreinen, en een tennisclub. Altijd met toestemming van de club en zonder herkenbare kinderen. Toon nooit het profiel van een echte club als "slecht voorbeeld".
+- **Lengte:** ±35 seconden
+- **Hook:** formule #22 Contrarian Flip
 
 | Tijd | Wat je zegt | Beeld | Tekst op beeld |
 |---|---|---|---|
-| 0:00 | Dit was de Instagram van Jan Stilten Padel Academy. | Voor-grid, langzaam inzoomen | Voor |
-| 0:03 | Losse affiches, elke post een andere stijl. | Voor-grid | |
-| 0:06 | Dit is hij zes weken later. | Swipe-overgang naar de na-grid | Na 6 weken |
-| 0:09 | Tips voor beginners, de coaches die zich voorstellen en een gewone dinsdagavond. | Inzoomen op die posts | |
-| 0:15 | 3.367 mensen bereikt, zonder één euro advertenties. | Na-grid | 3.367 mensen · 6 weken · €0 advertenties |
-| 0:20 | En de maandagsles zat bijna vol. | Foto van een les of van Jan | |
-| 0:23 | Benieuwd hoe jouw club ervoor staat? Stuur AUDIT. | Jij of je logo | Stuur AUDIT |
+| 0:00 | Tennisclubs verliezen geen leden door padel. | Jij, close-up, tennisterrein achter je | Tennisclubs verliezen geen leden door padel |
+| 0:03 | Ze verliezen ze op Instagram. | Jij | Ze verliezen ze op Instagram |
+| 0:06 | Kijk maar naar de padelclubs hier in de buurt. | Padelclub, volle terreinen | |
+| 0:09 | Elke week zie je er de trainers, de sfeer en mensen die voor het eerst spelen. | Padel: trainer, lachende spelers | |
+| 0:14 | En bij veel tennisclubs? Een affiche voor het tornooi en de uitslagen van de interclub. | Tennisclub, leeg terrein of clubhuis | |
+| 0:19 | Wie twijfelt tussen tennis en padel, kiest de club die hij kent. En die leert hij eerst kennen op Instagram. | Jij | |
+| 0:25 | Toon je trainers, je jeugdwerking en je clubhuis na een match. | Tennis: trainer, bar | Trainers · jeugd · clubhuis |
+| 0:30 | Wil je weten hoe jouw tennisclub ervoor staat? Stuur me AUDIT. | Jij | Stuur AUDIT |
 
-**Stories (20:05):** reel delen + linksticker naar je website (story-link hierboven) met de tekst "Meer resultaten".
+**Opnametips:** elke zin apart opnemen, 2 à 3 keer. Rustig en zeker, niet boos: je wil tennisclubs helpen, niet afbreken.
+
+**Stories (20:05):** reel delen + poll "Akkoord" / "Niet akkoord".
+
+---
