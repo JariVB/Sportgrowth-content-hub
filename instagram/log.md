@@ -11,8 +11,9 @@ Na ±1 dag (ma 5/10, 20:35):
 - Doelgroep: 94,8% niet-volgers; leeftijd 25-34 49%, 35-44 19%, 45-54 12%, 18-24 10%
 Lessen:
 - Persoonlijk verhaal bereikt vooral nieuwe mensen (95% niet-volgers) en levert volgers op (7 volgers, 30 profielbezoeken).
-- Begin is te traag: de helft is weg na 2 seconden. Volgende reels: meteen beweging of
-  jij in beeld, tekst op het eerste frame, geen intro- of titelkaart.
+- De helft is weg na 2 seconden. De cover zat niet in de video en Jari praat meteen, dus de
+  oorzaak is de eerste zin: die gaat over Jari, niet over de club van de kijker. Volgende reels:
+  eerste zin = probleem van de club, tekst op het eerste beeld, beweging in het eerste beeld.
 - 49 s is lang: persoonlijke reels richten op 25-30 s.
 - Wie tot het einde kijkt, liket (piek in likes op het einde).
 
