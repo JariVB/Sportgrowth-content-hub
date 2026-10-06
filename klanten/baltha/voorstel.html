@@ -3,177 +3,90 @@
 @font-face{font-family:R;src:url(file:///home/user/Sportgrowth-content-hub/website/site/fonts/rajdhani-700.woff2)}
 @font-face{font-family:I;src:url(file:///home/user/Sportgrowth-content-hub/website/site/fonts/inter-var.woff2)}
 @font-face{font-family:P;src:url(file:///home/user/Sportgrowth-content-hub/website/site/fonts/poppins-700.woff2)}
-@page{size:A4;margin:0}
-*{box-sizing:border-box}
-body{margin:0;font:400 10.5pt/1.55 I,sans-serif;color:#13213f}
-.page{width:210mm;height:297mm;padding:20mm 20mm 18mm;position:relative;page-break-after:always;overflow:hidden}
-.page:last-child{page-break-after:auto}
-.cover{background:#0d1b3e;color:#fff;display:flex;flex-direction:column;justify-content:center}
-.cover .kicker{font:600 10pt I;letter-spacing:.25em;color:#00d4ff;text-transform:uppercase}
-.cover h1{font:700 46pt/1 R;margin:6mm 0 4mm}
-.cover h1 span{color:#00d4ff}
-.cover p{font-size:13pt;color:#c4d0ea;max-width:135mm;margin:0}
-.cover .meta{position:absolute;left:20mm;bottom:20mm;font-size:10pt;color:#a8b6d3;line-height:1.6}
-.logo{position:absolute;right:20mm;bottom:20mm;font:700 18pt/1 P;color:#fff;letter-spacing:-.01em;text-align:right}
-.logo i{display:block;font:500 6.5pt/1 I;color:#0e8cff;letter-spacing:.42em;margin-top:2px;margin-right:-.42em;font-style:normal}
-.logo.dark{color:#0d1b3e;bottom:12mm}
-h2{font:700 21pt/1.1 R;color:#0d1b3e;margin:0 0 3mm}
-h2 small{display:block;font:600 8.5pt I;letter-spacing:.2em;color:#0e6eff;text-transform:uppercase;margin-bottom:2mm}
-h3{font:700 13pt/1.2 R;color:#0d1b3e;margin:5mm 0 1.5mm}
+@page{size:A4;margin:20mm 22mm 18mm}
+body{margin:0;font:400 10.5pt/1.6 I,sans-serif;color:#1c2540}
+.head{display:flex;justify-content:space-between;align-items:flex-start;border-bottom:2px solid #00d4ff;padding-bottom:5mm;margin-bottom:9mm}
+.head h1{font:700 20pt/1.15 R;color:#0d1b3e;margin:0}
+.head .date{font-size:9.5pt;color:#6b7896;margin-top:1.5mm}
+.logo{font:700 15pt/1 P;color:#0d1b3e;letter-spacing:-.01em;text-align:right}
+.logo i{display:block;font:500 5.5pt/1 I;color:#0e8cff;letter-spacing:.42em;margin-top:2px;margin-right:-.42em;font-style:normal}
+h2{font:700 13.5pt/1.2 R;color:#0d1b3e;margin:7mm 0 2mm;break-after:avoid}
 p{margin:0 0 3mm}
-.lead{font-size:11.5pt;color:#34456b}
-.sec{margin-bottom:8mm}
-ul,ol{margin:0 0 3mm;padding-left:5mm}
-li{margin-bottom:1.2mm}
-.box{background:#eef4ff;border-left:3px solid #0e6eff;padding:4mm 5mm;border-radius:2mm;margin:3mm 0 4mm}
-.box p:last-child{margin:0}
-.steps{display:grid;grid-template-columns:1fr 1fr;gap:4mm;margin-top:3mm}
-.step{border:1px solid #d6e0f2;border-radius:2.5mm;padding:4mm}
-.step b{display:block;font:700 12pt R;color:#0d1b3e;margin-bottom:1mm}
-.step .n{font:700 20pt/1 R;color:#00b8e0;margin-bottom:1.5mm}
-.plans{display:grid;grid-template-columns:1fr 1fr;gap:5mm;margin-top:4mm}
-.plan{border:1px solid #d6e0f2;border-radius:3mm;padding:5mm;position:relative}
-.plan.rec{border:2px solid #0e6eff;background:#f6f9ff}
-.tag{position:absolute;top:-3mm;right:5mm;background:#0e6eff;color:#fff;font:700 7.5pt I;letter-spacing:.12em;padding:1mm 2.5mm;border-radius:1mm}
-.plan h3{margin:0 0 1mm;font-size:16pt}
-.price{font:700 24pt/1 R;color:#0d1b3e}
-.price small{font:500 9pt I;color:#5a6a8c}
-.was{font-size:8.5pt;color:#5a6a8c;margin:1mm 0 3mm}
-.plan ul{padding-left:4.5mm;font-size:9.8pt}
-table{width:100%;border-collapse:collapse;font-size:9.8pt;margin-top:2mm}
-th,td{text-align:left;padding:2.2mm 2mm;border-bottom:1px solid #e1e8f5;vertical-align:top}
-th{font:700 8pt I;letter-spacing:.12em;text-transform:uppercase;color:#5a6a8c}
-td:first-child{font-weight:600;color:#0d1b3e;white-space:nowrap}
-.foot{position:absolute;left:20mm;bottom:12mm;font-size:8pt;color:#8a97b3}
-.cta{background:#0d1b3e;color:#fff;border-radius:3mm;padding:6mm;margin-top:2mm}
-.cta h3{color:#fff;margin-top:0}
-.cta p{color:#c4d0ea;margin:0}
-.cta b{color:#00d4ff}
+ul{margin:0 0 3mm;padding-left:5mm}
+li{margin-bottom:1mm}
+table{width:100%;border-collapse:collapse;margin:2mm 0 4mm;font-size:10pt;break-inside:avoid}
+th,td{text-align:left;vertical-align:top;padding:3mm;border:1px solid #dce3f0}
+th{background:#f3f6fc;font:700 12pt R;color:#0d1b3e}
+th span{display:block;font:600 10pt I;color:#0e6eff;margin-top:.5mm}
+td ul{margin:0;padding-left:4.5mm}
+.sign{margin-top:8mm}
+.sign b{color:#0d1b3e}
+.small{font-size:9.5pt;color:#55627f}
 </style></head><body>
 
-<section class="page cover">
-  <div class="kicker">Voorstel social media</div>
-  <h1>Made by <span>Balthazar</span></h1>
-  <p>Van een nieuw account naar je eerste klanten via Instagram: met reels die nieuwe mensen bereiken, een gratis websitecheck en actief contact met ondernemers.</p>
-  <div class="meta">Voor: Balthazar · Made by Balthazar<br>Van: Jari Van Boxlaer · SportGrowth Media<br>6 oktober 2026</div>
+<div class="head">
+  <div><h1>Voorstel social media<br>voor Made by Balthazar</h1><div class="date">6 oktober 2026</div></div>
   <div class="logo">SportGrowth<i>MEDIA</i></div>
-</section>
+</div>
 
-<section class="page">
-  <div class="sec">
-    <h2><small>Wat je wil</small>Drie à vier betalende klanten in drie maanden</h2>
-    <p class="lead">Je maakt websites voor iedereen die er een nodig heeft. Je hebt nog geen eigen sociale media, je wil alles uit handen geven en je staat liever niet zelf te praten in de camera.</p>
-  </div>
+<p>Hoi Balthazar,</p>
+<p>Bedankt voor het fijne gesprek van vandaag. Hieronder zet ik op een rij wat ik voor je kan doen en wat het kost.</p>
 
-  <div class="sec">
-    <h2><small>Eerlijk advies</small>Gewone posts alleen brengen je er niet</h2>
-    <p>Een nieuw account zonder volgers bereikt met gewone foto's en posts bijna niemand: die worden vooral getoond aan wie je al volgt. Klanten vinden in drie maanden vraagt meer. Daarom bouwen we op vier dingen:</p>
-    <div class="steps">
-      <div class="step"><div class="n">1</div><b>Reels</b>Korte video's worden ook getoond aan mensen die je nog niet volgen. Dat is de snelste manier om gezien te worden.</div>
-      <div class="step"><div class="n">2</div><b>Een gratis websitecheck</b>Elke reel eindigt met: "Stuur WEBSITE en ik bekijk gratis je site." Zo wordt een kijker een gesprek.</div>
-      <div class="step"><div class="n">3</div><b>Actief contact</b>Ik volg en reageer bij lokale ondernemers, zodat zij jou leren kennen nog voor ze een website zoeken.</div>
-      <div class="step"><div class="n">4</div><b>Je beste reel extra tonen</b>Met een klein budget tonen we je best scorende reel aan zelfstandigen en ondernemers in jouw regio.</div>
-    </div>
-  </div>
+<h2>Wat je wil bereiken</h2>
+<p>Je wil met Made by Balthazar op Instagram en Facebook staan, zodat mensen je vinden en zien wat je maakt. Je doel is drie à vier betalende klanten in de komende drie maanden. De sociale media wil je volledig uit handen geven.</p>
 
-  <div class="sec">
-    <h2><small>Hoe het werkt</small>Jij één uur per maand, ik de rest</h2>
-    <ol>
-      <li><b>Eén opnamemoment per maand</b> (±45 min, online). Ik stel vragen, jij deelt je scherm en vertelt over je projecten. Je hoeft niet in beeld. Stuur me ook links en screenshots van websites die je maakte.</li>
-      <li><b>Ik monteer daaruit de reels</b>: jouw stem, schermbeelden, tekst op beeld en ondertitels, in een vaste huisstijl.</li>
-      <li><b>Ik plaats en plan alles in</b> op Instagram en Facebook (veel ondernemers zitten nog vooral op Facebook), en in het Groei-pakket ook op LinkedIn.</li>
-      <li><b>Aanvragen komen bij jou binnen.</b> Stuurt iemand WEBSITE, dan krijgt hij meteen een antwoord. Jij antwoordt binnen 24 uur en maakt de korte check, want jij bent de expert.</li>
-    </ol>
-  </div>
-  <div class="logo dark">SportGrowth<i>MEDIA</i></div>
-</section>
+<h2>Hoe ik het zou aanpakken</h2>
+<p>Je begint met een nieuw account, zonder volgers. Gewone posts worden dan vooral getoond aan wie je al volgt, en dat zijn er in het begin weinig. Daarom zet ik vooral in op reels. Die toont Instagram ook aan mensen die je nog niet kennen.</p>
+<p>Je werk is breder dan websites bouwen. Je maakt ook banners die aan padelterreinen hangen en je zorgt dat een zaak of club er professioneel uitziet. Dat wil ik tonen, niet alleen wat er achter je scherm gebeurt. Bijvoorbeeld:</p>
+<ul>
+  <li>een nieuwe banner aan een padelterrein, met de club erbij</li>
+  <li>de website van een klant op een gsm, voor en na</li>
+  <li>een klant die vertelt wat het nieuwe ontwerp hem opleverde</li>
+  <li>jij die via je scherm een project overloopt</li>
+  <li>korte tips voor zelfstandigen en clubs over hun website en uitstraling</li>
+</ul>
+<p>Onder de reels komt telkens dezelfde vraag: "Stuur WEBSITE en ik bekijk gratis jouw site." Zo worden kijkers gesprekken. Die korte check doe jij, want jij bent de specialist. Ik zorg dat de aanvragen bij je binnenkomen.</p>
 
-<section class="page">
-  <div class="sec">
-    <h2><small>Wat we posten</small>Ideeën zonder dat jij voor de camera moet</h2>
-    <ul>
-      <li><b>Voor en na:</b> de oude website van een klant naast de nieuwe.</li>
-      <li><b>Websitecheck:</b> je bekijkt (met toestemming) de site van een ondernemer en zegt wat je zou verbeteren.</li>
-      <li><b>Zo bouw ik het:</b> een site die in 30 seconden vorm krijgt, versneld.</li>
-      <li><b>Tips:</b> "3 dingen die op elke website moeten staan", "Waarom je site traag is op je gsm".</li>
-      <li><b>Achter de schermen:</b> je handen op het toetsenbord, je scherm, van achteren gefilmd.</li>
-      <li><b>Wat klanten zeggen:</b> een korte reactie van een tevreden klant.</li>
-    </ul>
-  </div>
+<h2>Wat ik van jou nodig heb</h2>
+<p>Eén keer per maand nemen we samen online beelden op. Je deelt je scherm en vertelt over je projecten, ik stel de vragen. Dat duurt ongeveer drie kwartier en je hoeft niet zelf in beeld. Is er iets af, zoals een banner die net hangt, stuur me dan een paar foto's of een kort filmpje. Met je gsm is dat goed genoeg.</p>
 
-  <div class="sec">
-    <h2><small>De pakketten</small>Kies wat bij je past</h2>
-    <div class="plans">
-      <div class="plan">
-        <h3>Start</h3>
-        <div class="price">€149<small> per maand</small></div>
-        <div class="was">+ €149 eenmalig voor de opstart</div>
-        <ul>
-          <li>Instagram en Facebook aanmaken en inrichten</li>
-          <li>4 reels per maand</li>
-          <li>Teksten, hashtags en inplannen</li>
-          <li>Ook geplaatst op Facebook</li>
-          <li>Eén opnamemoment per maand</li>
-        </ul>
-        <p style="font-size:9pt;color:#5a6a8c;margin:0">Goed om zichtbaar te worden. Voor 3 à 4 klanten in 3 maanden is dit wellicht te weinig.</p>
-      </div>
-      <div class="plan rec">
-        <div class="tag">AANBEVOLEN</div>
-        <h3>Groei</h3>
-        <div class="price">€349<small> per maand</small></div>
-        <div class="was">Introductieprijs de eerste 3 maanden (daarna €399). Opstart gratis.</div>
-        <ul>
-          <li>Alles uit Start</li>
-          <li><b>8 reels</b> en 2 carrousels per maand</li>
-          <li>Stories, 3 keer per week</li>
-          <li>De gratis websitecheck: trefwoord WEBSITE met kant-en-klare antwoorden</li>
-          <li>3 keer per week actief contact met lokale ondernemers</li>
-          <li>Ook geplaatst op LinkedIn</li>
-          <li>Je beste reel van de maand extra tonen</li>
-          <li>Maandrapport en 30 minuten overleg</li>
-        </ul>
-      </div>
-    </div>
-    <div class="box" style="margin-top:5mm">
-      <p><b>Advertentiebudget:</b> dat betaal je rechtstreeks aan Meta, niet aan mij. Mijn advies: begin met €3 à €5 per dag (±€90 à €150 per maand) om je beste reel te tonen in jouw regio. Zonder budget werkt het ook, maar trager.</p>
-    </div>
-    <p style="font-size:9.5pt;color:#5a6a8c">Looptijd: 3 maanden, daarna maandelijks opzegbaar. Liever dat ik ook bij jou kom filmen? Dat kan voor €50 extra per maand.</p>
-  </div>
-  <div class="logo dark">SportGrowth<i>MEDIA</i></div>
-</section>
+<h2>Twee mogelijkheden</h2>
+<table>
+  <tr>
+    <th>Start<span>€149 per maand</span></th>
+    <th>Groei<span>€349 per maand de eerste drie maanden, daarna €399</span></th>
+  </tr>
+  <tr>
+    <td><ul>
+      <li>Instagram en Facebook opzetten en inrichten</li>
+      <li>4 reels per maand</li>
+      <li>Teksten en inplannen</li>
+      <li>Opstart: €149, eenmalig</li>
+    </ul></td>
+    <td><ul>
+      <li>Instagram en Facebook opzetten en inrichten</li>
+      <li>8 reels en 2 carrousels per maand</li>
+      <li>Drie keer per week stories</li>
+      <li>De gratis websitecheck, met vaste antwoorden op elke aanvraag</li>
+      <li>Drie keer per week reageren bij lokale zaken en clubs vanuit jouw account</li>
+      <li>Elke maand een kort overzicht van de cijfers</li>
+      <li>Opstart gratis</li>
+    </ul></td>
+  </tr>
+</table>
+<p>Met Start word je zichtbaar, maar voor drie à vier klanten in drie maanden is het te weinig. Blijft dat je doel, dan raad ik Groei aan.</p>
+<p>Wil je je beste reel extra laten zien in de buurt, dan kan je daar een klein budget voor vrijmaken, bijvoorbeeld €3 à €5 per dag. Dat betaal je rechtstreeks aan Meta, niet aan mij, en het is niet verplicht.</p>
+<p>We starten voor drie maanden. Daarna kan je per maand stoppen.</p>
 
-<section class="page">
-  <div class="sec">
-    <h2><small>De eerste drie maanden</small>Planning</h2>
-    <table>
-      <tr><th>Wanneer</th><th>Wat</th></tr>
-      <tr><td>Week 1</td><td>Accounts aanmaken, bio, highlights en huisstijl. Eerste opnamemoment. Google-bedrijfsprofiel (gratis, ik help je).</td></tr>
-      <tr><td>Maand 1</td><td>Eerste reels online, de websitecheck staat klaar. Starten met actief contact.</td></tr>
-      <tr><td>Maand 2</td><td>Vast ritme. Eerste websitechecks en gesprekken. Je beste reel extra tonen.</td></tr>
-      <tr><td>Maand 3</td><td>Bijsturen op de cijfers: meer van wat werkt. Focus op gesprekken die klant worden.</td></tr>
-    </table>
-  </div>
+<h2>Wat je kan verwachten</h2>
+<p>Klanten beloven kan ik niet. Wat ik wel doe: elke maand samen bekijken hoeveel mensen je reels zagen, hoeveel er een websitecheck vroegen en hoeveel gesprekken dat opleverde. Werkt iets niet, dan sturen we bij.</p>
 
-  <div class="sec">
-    <h2><small>Wat je mag verwachten</small>Wat we meten</h2>
-    <p>Niemand kan klanten beloven, en ik doe dat ook niet. Wel maken we samen een duidelijk doel en volgen we het elke maand op:</p>
-    <table>
-      <tr><th>Wat</th><th>Doel na 3 maanden</th></tr>
-      <tr><td>Aanvragen websitecheck</td><td>10</td></tr>
-      <tr><td>Gesprekken met een ondernemer</td><td>4 à 5</td></tr>
-      <tr><td>Nieuwe betalende klanten</td><td>2 à 4</td></tr>
-    </table>
-    <p style="margin-top:3mm">Brengt één website meer op dan €1.050, dan heb je de drie maanden Groei al terugverdiend met één klant.</p>
-  </div>
+<h2>Klanten doorsturen</h2>
+<p>Zoals afgesproken stuur ik clubs en zaken die een website nodig hebben naar jou. Wordt zo iemand klant, dan krijg ik 10% van wat die klant betaalt. Dat geldt alleen voor klanten die ik zelf doorstuur, niet voor wie via je sociale media bij je terechtkomt.</p>
 
-  <div class="sec">
-    <h2><small>Samenwerking</small>We sturen elkaar klanten</h2>
-    <p>Ik kom veel clubs en ondernemers tegen die een nieuwe website nodig hebben. Die stuur ik naar jou. Wordt iemand die ik doorstuur een betalende klant, dan krijg ik 10% van de prijs die die klant betaalt, zoals afgesproken. Dat geldt alleen voor klanten die ik persoonlijk naar jou doorstuur. Klanten die via je sociale media binnenkomen, vallen onder je maandelijkse pakket: daarop reken ik niets extra.</p>
-  </div>
+<p style="margin-top:6mm">Laat je weten welke mogelijkheid je kiest? Dan plannen we nog deze maand ons eerste opnamemoment.</p>
 
-  <div class="cta">
-    <h3>Volgende stap</h3>
-    <p>Laat me weten welk pakket je kiest. Dan plannen we deze maand nog het eerste opnamemoment.<br><b>Jari Van Boxlaer</b> · 0479 25 31 13 · jari@sportgrowthmedia.be</p>
-  </div>
-</section>
+<div class="sign">
+  <p>Groetjes,<br><b>Jari Van Boxlaer</b><br><span class="small">SportGrowth Media · 0479 25 31 13 · jari@sportgrowthmedia.be</span></p>
+</div>
 </body></html>
