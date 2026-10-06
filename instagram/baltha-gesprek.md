@@ -1,7 +1,7 @@
 # Gesprek Baltha · di 6/10 om 14u (Teams, ±45 min)
 
 **Wie:** Baltha (@baltha_vdv), zelfstandige in bijberoep. Maakt apps en websites (madebybalthazar.com) en wil die promoten.
-**Jouw doel vandaag:** begrijpen wat hij wil en wat hij kan uitgeven, en afspreken dat je deze week een voorstel stuurt. Je noemt nog geen prijs.
+**Jouw doel vandaag:** begrijpen wat hij wil en wat hij kan uitgeven, en afspreken dat je deze week een voorstel stuurt. Je prijzen staan op je website: gebruik ze als vertrekpunt, maar leg nog geen eindprijs vast.
 
 ## Vooraf (13u30, 15 min)
 - [ ] Bekijk zijn website en Instagram: wat maakt hij, voor wie, hoe vaak post hij, hoeveel volgers?
@@ -36,7 +36,7 @@
 
 **Praktisch**
 9. Wat wil je zelf blijven doen, en wat wil je uit handen geven?
-10. Wat heb je per maand over voor je marketing? (Zwijgt hij, vraag dan: "Eerder rond de 100, 250 of 400 euro per maand?")
+10. Wat heb je per maand over voor je marketing? Zag hij je website al: "Welk pakket komt het dichtst bij wat je in gedachten had?" (Zwijgt hij, vraag dan: "Eerder rond de 100, 250 of 400 euro per maand?")
 11. Wanneer wil je starten?
 
 ## Wat jij vertelt (25-35 min)
@@ -57,7 +57,7 @@
 - Vraag of je zijn werk als voorbeeld mag gebruiken als jullie samenwerken.
 
 ## Niet doen
-- Geen prijs noemen in het gesprek. Je pakketten (€249 / €399 / €599) zijn voor clubs; voor hem maak je een voorstel op maat.
+- Geen eindprijs vastleggen in het gesprek. Vraagt hij ernaar: "Op mijn website zie je de pakketten voor clubs, vanaf €249 per maand. Dat is een goed vertrekpunt. Omdat het bij jou om apps en websites gaat, maak ik een voorstel op maat, zodat je alleen betaalt voor wat je echt nodig hebt. Dat stuur ik je ten laatste vrijdag."
 - Geen resultaten beloven ("je krijgt X klanten").
 - Niet meer toezeggen dan je wil doen naast je clubs.
 
