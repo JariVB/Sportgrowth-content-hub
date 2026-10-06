@@ -23,7 +23,7 @@ Berichten: `dm-audit.md`. Gegevens van contactpersonen alleen voornaam en club.
 
 | Wie | Wat | Status | Volgende stap | Wanneer |
 |---|---|---|---|---|
-| Baltha (baltha_vdv) | Zelfstandige in bijberoep, webdeveloper (madebybalthazar.com); apps bijkomend. Nog geen eigen socials (post af en toe op Threads/LinkedIn). Doel: 3 à 4 betalende klanten in 3 maanden. Wil alles uit handen geven, liever niet zelf praten in de camera. Noemde €150/maand (dacht aan Google Ads). Wil zo snel mogelijk starten. Enthousiast; ja op doorverwijzen, mag zijn pagina delen | 6/10: gesprek gehad, voorstel beloofd met optie €150 en een volledig pakket | Voorstel maken en sturen | Wo 7/10 maken, ten laatste vr 9/10 sturen |
+| Baltha (baltha_vdv) | Zelfstandige in bijberoep, webdeveloper (madebybalthazar.com); apps bijkomend. Nog geen eigen socials (post af en toe op Threads/LinkedIn). Doel: 3 à 4 betalende klanten in 3 maanden. Wil alles uit handen geven, liever niet zelf praten in de camera. Noemde €150/maand (dacht aan Google Ads). Wil zo snel mogelijk starten. Enthousiast; ja op doorverwijzen, mag zijn pagina delen | 6/10: gesprek gehad. Afspraak: 10% commissie op klanten die Jari doorstuurt. Voorstel klaar (klanten/baltha/): Start €149 + €149 opstart, Groei €349 intro (daarna €399), opstart gratis | Voorstel maken en sturen | Wo 7/10 maken, ten laatste vr 9/10 sturen |
 
 ## Partners
 
