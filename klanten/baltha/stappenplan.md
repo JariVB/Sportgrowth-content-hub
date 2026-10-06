@@ -24,7 +24,7 @@ Voorstel: `voorstel-made-by-balthazar.pdf`. Opvolging: `instagram/opvolging.md`.
    - foto's van de banner boven de padelterreinen (en de naam van de club)
    - liefst een foto van hemzelf, of van zijn werkplek
    - een reactie van een tevreden klant, als die er is
-4. **Opnamemoment plannen**, binnen de week, op een woensdag. Reken 75 minuten (eerst de accounts, dan opnemen).
+4. **Opnamemoment plannen**, binnen de week, op een dinsdagnamiddag (tussen 13u en 17u, vóór je training). Reken 75 minuten (eerst de accounts, dan opnemen). Woensdag kan Balthazar niet.
 
 ---
 
@@ -46,7 +46,7 @@ Voorstel: `voorstel-made-by-balthazar.pdf`. Opvolging: `instagram/opvolging.md`.
 - Hoe werkt je gratis websitecheck? (voor de startpost over de check)
 - Hoe kwam je aan de banner bij de padelclub? (voor een reel)
 
-### Jouw werk na de opname (±4u, binnen de week)
+### Jouw werk na de opname (±4u, de woensdag erna)
 - [ ] Huisstijl: sjablonen voor reels, carrousels en stories in zijn kleuren
 - [ ] Bio: naam "Balthazar | Websites op maat", 3 regels (wat, voor wie, "Stuur WEBSITE voor een gratis check"), link naar zijn site
 - [ ] 3 startposts: wie hij is (carrousel), beste project voor en na (reel), zo werkt de websitecheck (carrousel)
@@ -85,8 +85,8 @@ Voorstel: `voorstel-made-by-balthazar.pdf`. Opvolging: `instagram/opvolging.md`.
 ### Elke maand
 | Wanneer | Wat |
 |---|---|
-| 1e woensdag | Opnamemoment (45 min). Eerste kwartier: cijfers van vorige maand |
-| Zelfde week | Reels monteren, alles 2 weken vooruit inplannen, reels ter goedkeuring sturen |
+| 1e dinsdagnamiddag | Opnamemoment (45 min). Eerste kwartier: cijfers van vorige maand |
+| Woensdag erna | Reels monteren, alles 2 weken vooruit inplannen, reels ter goedkeuring sturen |
 | 3e woensdag | Volgende reels + carrousels monteren en inplannen |
 | Laatste dag | Cijfers noteren (weergaven, kijktijd, volgers, aanvragen WEBSITE). Stuur de screenshots naar Claude voor het overzicht |
 
