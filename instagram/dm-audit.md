@@ -102,17 +102,17 @@ Daarna stoppen.
 # Zelf een club aanspreken (koude DM)
 
 Voor een club die vooral affiches post. Nooit afbreken: je toont wat ze erbij winnen.
-Eerst opwarmen: 2 à 3 dagen vooraf 2 posts liken en 1 echte reactie geven. Versturen vanaf @sportgrowth_media, overdag of 's avonds vóór 21u.
+Eerst opwarmen: 2 à 3 dagen vooraf 2 posts liken en 1 echte reactie geven. Versturen vanaf @sportgrowth_media, overdag of 's avonds vóór 21u. Altijd SportGrowth Media voorop; "ik sta zelf ook als trainer op het terrein" alleen als extra bij een padel- of tennisclub.
 
 ## Versie A · Meteen de gratis analyse aanbieden
 
-> Hoi {club}! Ik ben Jari, padeltrainer, en ik help sportclubs met hun Instagram. Mooie affiche voor {{evenement}}, die ziet er verzorgd uit.
+> Hoi {club}! Ik ben Jari van SportGrowth Media. Ik help sportclubs groeien via Instagram. Mooie affiche voor {{evenement}}, die ziet er verzorgd uit.
 > Wat me opviel: op jullie pagina staan vooral affiches. Wie twijfelt om lid te worden, wil vooral zien hoe het er bij jullie aan toe gaat: de trainers, de sfeer, een volle avond op de terreinen.
 > Als jullie willen, maak ik gratis een korte video-analyse van jullie pagina, met een paar dingen die jullie meteen zelf kunnen aanpassen. Interesse?
 
 ## Versie B · Eerst vragen wie het beheert (zachter)
 
-> Hoi! Ik ben Jari, padeltrainer, en ik volg jullie club al even. Leuk om te zien dat {{iets concreets: nieuwe terreinen, een tornooi, de jeugdwerking}}.
+> Hoi! Ik ben Jari van SportGrowth Media, en ik volg jullie club al even. Leuk om te zien dat {{iets concreets: nieuwe terreinen, een tornooi, de jeugdwerking}}.
 > Mag ik vragen wie jullie Instagram beheert? Ik heb een paar ideeën om er meer nieuwe leden uit te halen, en ik deel ze graag even.
 
 ## Opvolging (1 keer, na 4 à 5 dagen zonder antwoord)
