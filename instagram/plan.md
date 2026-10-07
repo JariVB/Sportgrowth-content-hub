@@ -38,9 +38,9 @@ Beschikbaarheid: zie CLAUDE.md. Woensdag is de hoofdwerkdag (shoots en montage).
 | Dag | Uur | Feed | Soort | Hook | Stories |
 |---|---|---|---|---|---|
 | ma 5/10 | - | - | - | - | Vraagsticker: "Wat wil je weten over Instagram voor je club?" (doorgeschoven naar di 6/10) |
-| di 6/10 | 19:30 | Reel voor/na Jan Stilten: grid voor en na in beeld, voice-over, 3.367 mensen in 6 weken (geen shoot nodig) (GEMONTEERD en ingepland ma 5/10) | Bewijs | #13 Before And After, On Screen | Reel delen + linksticker naar de website |
+| di 6/10 | 19:30 | Reel voor/na Jan Stilten: grid voor en na in beeld, voice-over, 3.367 mensen in 6 weken (geen shoot nodig) (GEPOST di 6/10, cover: na-grid) | Bewijs | #13 Before And After, On Screen | Reel delen + linksticker naar de website |
 | wo 7/10 | - | - | - | - | Eén tip uit de carrousel, als quiz-sticker |
-| do 8/10 | 19:30 | Carrousel "Zo ziet een gratis analyse eruit": score op 100, 3 verbeterpunten, 1 snelle verbetering. Oproep: stuur AUDIT | Aanbod | - | Carrousel delen + "Stuur AUDIT voor jouw club" |
+| do 8/10 | 19:30 | Carrousel "Zo ziet een gratis analyse eruit": score op 100, 3 verbeterpunten, 1 snelle verbetering. Oproep: stuur AUDIT (slides klaar: carrousel-gratis-analyse/) | Aanbod | - | Carrousel delen + "Stuur AUDIT voor jouw club" |
 | vr 9/10 | - | (optioneel) Reel voice-over: "Wat je op een dinsdagavond in 60 seconden filmt voor je club" | Kennis | #18 Cold Open Demo | Weekend op de club, achter de schermen |
 | za 10/10 | - | - | - | - | Interclub of training, kort filmpje |
 | zo 11/10 | 20:00 | Reel to-camera: "Tennisclubs verliezen geen leden door padel. Ze verliezen ze op Instagram." (shoot wo 7/10) | Mening | #22 Contrarian Flip | Reel delen + poll "Akkoord / Niet akkoord" |
