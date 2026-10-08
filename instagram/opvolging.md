@@ -8,7 +8,7 @@ Berichten: `dm-audit.md`. Gegevens van contactpersonen alleen voornaam en club.
 | Club | Contact | Kanaal | Status | Volgende stap | Wanneer |
 |---|---|---|---|---|---|
 | Tennis Westerlo + Padel Westerlo | Gwenne | Instagram-DM | Vzw, alles vrijwillig, geen budget. Ja op gratis analyse. Alleen Facebook, nog geen Instagram | 1/10: link Facebook-pagina gevraagd. Wachten op link; daarna screenshots naar Claude, analyse + startplan Instagram + video | Wo 7/10 |
-| TTV tennis & padel Turnhout | Jelle | Instagram-DM | Instagram "te weinig actief", allegaartje van vrijwilligers (tennistrainer, sfeerbeheerteam). Willen het aanpakken. Combinatieclub. Vzw, niet altijd budget. 1/10: ja op gratis analyse | Vragen wie het account beheert; wo 7/10 screenshots naar Claude, analyse + video | Wo 7/10 |
+| TTV tennis & padel Turnhout | Jelle | Instagram-DM | Instagram "te weinig actief", allegaartje van vrijwilligers (tennistrainer, sfeerbeheerteam). Willen het aanpakken. Combinatieclub. Vzw, niet altijd budget. 1/10: ja op gratis analyse | 8/10: analyse klaar (47/100, instagram/analyses/ttv-turnhout.md). Video opnemen en sturen met bericht 2 | Wo 14/10 |
 
 ### Na de analyse (Tennis/Padel Westerlo)
 
