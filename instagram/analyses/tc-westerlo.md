@@ -1,6 +1,6 @@
-# Analyse TC Westerlo (Facebook) + startplan Instagram
+# Analyse TC Westerlo (Facebook + Instagram @tpc_westerlo) + herstartplan Instagram
 
-Gemaakt do 8/10 op basis van screenshots van de Facebookpagina. Contact: Gwenne (vzw, alles vrijwillig, geen budget). Nog geen Instagram.
+Gemaakt do 8/10 op basis van screenshots van de Facebookpagina. Contact: Gwenne (vzw, alles vrijwillig, geen budget). Gwenne zei "alleen Facebook", maar er bestaat een Instagram: @tpc_westerlo ("Tennis&padel Westerlo", Broekstraat 21, 8 berichten, 197 volgers, 97 gevolgd). Navragen wie dat account beheert (club of café?).
 Stand Facebook: 1,2 d. volgers, 574 berichten. Adres Broekstraat 21, 2260 Westerlo · 0477 88 71 28 · info@tcwesterlo.be · tcwesterlo.be
 
 ## Score Facebookpagina: 48/100
@@ -22,8 +22,19 @@ Stand Facebook: 1,2 d. volgers, 574 berichten. Adres Broekstraat 21, 2260 Wester
 Facebook-bio vervangen door:
 "Tennis- en padelclub in Westerlo. Lessen, stages en vrij spelen voor jong en oud. Lid worden of lessen? Stuur ons een bericht."
 
-## Startplan Instagram
-- **Account:** @tcwesterlo (of dezelfde naam als jullie kiezen). Professioneel account, gekoppeld aan de Facebookpagina via Meta Business Suite: dan post je 1 keer en verschijnt het op beide.
+## Instagram @tpc_westerlo: 39/100
+
+| Onderdeel | Score | Waarom |
+|---|---|---|
+| Profiel | 9/20 | Adres en "tennis, padel & café" staan erin, en de dronefoto van de terreinen is mooi. Geen link, geen highlights, niets over lessen of lid worden. Nog een vierde naam: TPC |
+| Regelmaat | 2/20 | Maar 8 posts in totaal |
+| Variatie | 10/20 | Clubavond-affiche, terrein, feest, openingsuren van het café: wel afwisseling |
+| Mensen in beeld | 12/20 | De foto's van het feest en de clubavond tonen echte sfeer: sterk. Mensen die tennissen of padellen zie je niet |
+| Oproep | 6/20 | Geen enkele volgende stap |
+
+## Herstartplan Instagram (bestaand account @tpc_westerlo gebruiken)
+- **Eerst navragen:** wie beheert @tpc_westerlo? Liefst 1 account voor club + café, met dezelfde naam als op Facebook.
+- **Account:** professioneel account, gekoppeld aan de Facebookpagina via Meta Business Suite: dan post je 1 keer en verschijnt het op beide.
 - **Naamveld:** TC Westerlo | Tennis & Padel
 - **Bio:**
   Tennis & padel in Westerlo 🎾
@@ -43,7 +54,7 @@ Facebook-bio vervangen door:
 ## Script video (±4 min, schermopname terwijl je door hun Facebookpagina scrolt)
 
 **Intro (20 s)**
-"Hoi Gwenne, Jari van SportGrowth Media hier. Zoals beloofd de analyse. Jullie hebben nog geen Instagram, dus ik bekeek jullie Facebookpagina, en op het einde krijg je een startplan voor Instagram."
+"Hoi Gwenne, Jari van SportGrowth Media hier. Zoals beloofd de analyse. Ik bekeek jullie Facebookpagina, en ik vond ook een Instagram, @tpc_westerlo. Op het einde krijg je een plan om dat account echt te laten werken."
 
 **Wat goed is (30 s)** · bovenaan de pagina
 "Eerst wat sterk is: jullie adres, telefoon, mail en website staan er allemaal. De coverfoto met jullie leden is top. En jullie hebben een prachtige locatie: padelkooien tussen de bomen en een gezellig clubhuis."
@@ -63,13 +74,13 @@ Facebook-bio vervangen door:
 **Snelle verbetering (20 s)**
 "Wat je vandaag kan doen: deze bio overnemen. Ik zet hem in mijn bericht, zodat je hem kan kopiëren."
 
-**Startplan Instagram (50 s)**
-"Voor Instagram: maak een account aan en koppel het aan Facebook, dan post je één keer voor beide. Begin met drie posts die bovenaan blijven staan: wie jullie zijn, Gwenne als trainer, en hoe je lid wordt. Daarna twee posts per week. Alles staat ook in het document dat ik meestuur."
+**Instagram (50 s)** · open @tpc_westerlo
+"Dan jullie Instagram: 8 posts, en de foto's van de clubavond tonen echt jullie sfeer. Mijn advies: gebruik dit account voor club én café, met dezelfde naam als op Facebook, en koppel het aan Facebook. Dan post je één keer voor beide. Begin met drie posts die bovenaan blijven staan: wie jullie zijn, Gwenne als trainer, en hoe je lid wordt. Daarna twee posts per week. Alles staat ook in het document dat ik meestuur."
 
 **Afsluiter (15 s)**
 "Ik weet dat alles vrijwillig gebeurt. Met een kwartier per week kom je al heel ver. Laat gerust weten wat je ervan vindt!"
 
 ## Bericht om mee te sturen
-> Hoi Gwenne, hier is de video-analyse van jullie Facebookpagina, met een startplan voor Instagram: {link}. Jullie scoren 48/100. Het snelst te winnen: deze bio op Facebook zetten:
+> Hoi Gwenne, hier is de video-analyse van jullie Facebookpagina en van @tpc_westerlo, met een plan voor Instagram: {link}. Facebook scoort 48/100, Instagram 39/100. Wie beheert @tpc_westerlo eigenlijk? Het snelst te winnen: deze bio op Facebook zetten:
 > "Tennis- en padelclub in Westerlo. Lessen, stages en vrij spelen voor jong en oud. Lid worden of lessen? Stuur ons een bericht."
 > Welk punt verrast je het meest?
