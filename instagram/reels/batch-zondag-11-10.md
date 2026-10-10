@@ -1,6 +1,6 @@
 # Opnamedag zondag 11/10 · tennisclub (±1u15)
 
-Eén keer rijden, vier reels opnemen. Reel 3 monteer je dezelfde dag (online om 20u); de rest is voorraad voor de komende weken.
+Eén keer rijden, vier reels opnemen. Reel 3 monteer je dezelfde dag en plan je in voor di 13/10 om 19u30; de rest is voorraad voor de komende weken.
 
 ## Zo pak je het aan
 1. **Eerst alle zinnen in de camera** (licht is dan het best), daarna sfeerbeelden, als laatste foto's.
@@ -11,7 +11,7 @@ Eén keer rijden, vier reels opnemen. Reel 3 monteer je dezelfde dag (online om 
 
 ---
 
-## Reel 3 · "Tennisclubs verliezen geen leden door padel" (zo 11/10, 20u)
+## Reel 3 · "Tennisclubs verliezen geen leden door padel" (di 13/10, 19u30)
 Plek: tennisterrein achter je, padelkooien in de verte.
 1. Tennisclubs verliezen geen leden door padel. Ze verliezen ze op Instagram.
 2. Bij padelclubs zie je elke week de trainers, de sfeer en nieuwe spelers.
@@ -20,7 +20,7 @@ Plek: tennisterrein achter je, padelkooien in de verte.
 5. Toon dus je trainers, je jeugd en je clubhuis na een match.
 6. Ik ben Jari van SportGrowth Media. Stuur AUDIT en ik bekijk gratis jullie Instagram.
 
-## Reel 5 · "Deze zin kost je club nieuwe leden" (bio)
+## Reel 5 · "Deze zin kost je club nieuwe leden" (bio) · di 20/10
 Plek: aan de ingang of bij het clubhuis. Hou je gsm in je hand alsof je een profiel toont.
 1. Deze ene zin kost je club nieuwe leden.
 2. Bijna elke clubbio begint met "Welkom bij".
@@ -29,7 +29,7 @@ Plek: aan de ingang of bij het clubhuis. Hou je gsm in je hand alsof je een prof
 5. Drie regels, en een nieuw lid weet meteen wat te doen.
 6. Ik ben Jari van SportGrowth Media. Stuur AUDIT en ik bekijk gratis jullie profiel.
 
-## Reel 6 · "Je beste reclame toon je nooit" (trainers)
+## Reel 6 · "Je beste reclame toon je nooit" (trainers) · do 22/10
 Plek: naast het net. Is er een trainer, vraag dan 10 seconden beeld van hem terwijl hij iets uitlegt.
 1. Je beste reclame staat elke week op je terrein, en je toont ze nooit.
 2. Je trainers.

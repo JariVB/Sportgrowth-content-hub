@@ -146,7 +146,7 @@ Controleer slide 4: noem de onderdelen waarop jij echt scoort.
 
 ---
 
-## Zo 11/10 · Reel 3 "Tennisclubs verliezen geen leden door padel" (geruild met di 6/10; shoot do 8/10 om 16u)
+## Zo 11/10 · Opnamedag (geen post). Reel 3 "Tennisclubs verliezen geen leden door padel" komt online di 13/10 om 19u30
 
 - **Soort:** video, jij in beeld, recht in de camera (to-camera) + tussenbeelden
 - **Waar opnemen:** aan of op een **tennisterrein**, donderdag 8/10 om 16u. Neem meteen ook een paar foto's van jezelf met een tennisracket voor de website.

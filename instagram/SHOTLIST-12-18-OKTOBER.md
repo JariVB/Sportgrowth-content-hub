@@ -13,5 +13,6 @@ Voor reel 4 (do 15/10). Vraag toestemming aan de spelers, geen herkenbare kinder
 Al in je filmrol (di 6/10, album "Padel okt"): beginnersles volley/bandeja, bal tegen het achterraam.
 
 ## Niets op te nemen
-- Carrousel di 13/10: `carrousel-clubbio/`
-- Reel 5 (zo 18/10): opgenomen zo 11/10
+- Carrousel ma 12/10: `carrousel-clubbio/`
+- Reel 3 (di 13/10): opgenomen en gemonteerd zo 11/10
+- Reel 5 (di 20/10) en reel 6 (do 22/10): opgenomen zo 11/10
