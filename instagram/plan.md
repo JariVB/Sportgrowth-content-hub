@@ -14,7 +14,7 @@ Doel: meer kijkers (reels bereiken niet-volgers) en meer klanten (elke post eind
 
 - **Productie:** opnemen in 1 keer per 2 à 3 weken (batch). Woensdag monteren: de reel van donderdag, de reel van dinsdag erna en de carrousel van maandag erna (slides maakt Claude).
 - **Bij elke post:** 5 minuten reageren bij clubs, en de eerste reacties op je post binnen het uur beantwoorden.
-- **Bijsturen:** ma 9/11 samen de statistieken bekijken (taak staat in de checklist) en dagen en uren aanpassen.
+- **Bijsturen:** ma 12/10 eerste analyse met alle posts tot nu toe, ma 26/10 opnieuw na 2 weken vast ritme (taken staan in de checklist).
 
 ## Lancering
 
