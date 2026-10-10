@@ -3,10 +3,11 @@
 Eén keer rijden, vier reels opnemen. Reel 3 monteer je dezelfde dag en plan je in voor di 13/10 om 19u30; de rest is voorraad voor de komende weken.
 
 ## Structuur van elke reel: het doelpunt eerst
-1. **Doelpunt (0-2 s):** het beeld met emotie of resultaat, zonder uitleg. Volle terreinen, lachende spelers, een high five, een vol clubhuis. Met 3 à 5 woorden tekst op beeld.
-2. **De actie (2-22 s):** jij neemt de kijker mee: het probleem, wat er gebeurt, hoe het beter kan.
-3. **Doelpunt opnieuw (22-26 s):** hetzelfde soort beeld komt terug, nu snapt de kijker waarom.
-4. **Viering (26-30 s):** wie je bent + "Stuur AUDIT".
+1. **Lokbeeld (0-2 s):** wat een club wil: volle terreinen, lachende spelers, een high five, een vol clubhuis. Positieve tekst van 3 à 5 woorden, nooit het probleem.
+2. **Probleem (2-10 s):** pas nu leg je uit wat er bij veel clubs misloopt.
+3. **Oplossing (10-22 s):** wat de club moet doen of beter kan doen.
+4. **Lokbeeld opnieuw (22-26 s):** hetzelfde soort beeld komt terug, nu snapt de kijker waarom.
+5. **Afsluiter (26-30 s):** wie je bent + "Stuur AUDIT".
 
 Film dus bij elke reel ook een **openings- en slotbeeld** (hieronder per reel).
 
@@ -21,7 +22,7 @@ Film dus bij elke reel ook een **openings- en slotbeeld** (hieronder per reel).
 
 ## Reel 3 · "Tennisclubs verliezen geen leden door padel" (di 13/10, 19u30)
 Plek: tennisterrein achter je, padelkooien in de verte.
-**Doelpunt (open + slot):** padel van di 6/10: spelers die lachen, bal tegen het achterraam, volle terreinen. Tekst: "Hier gaan je leden naartoe". Slot: tennistrainer met lachende spelers of jeugd (vandaag filmen), tekst: "Zo kan het bij jou ook".
+**Doelpunt (open + slot):** padel van di 6/10: spelers die lachen, bal tegen het achterraam, volle terreinen. Tekst: "Zo ziet een club eruit die groeit". Slot: tennistrainer met lachende spelers of jeugd (vandaag filmen), tekst: "Zo kan het bij jou ook".
 1. Tennisclubs verliezen geen leden door padel. Ze verliezen ze op Instagram.
 2. Bij padelclubs zie je elke week de trainers, de sfeer en nieuwe spelers.
 3. Bij veel tennisclubs: een affiche en de uitslagen van de interclub.
