@@ -51,6 +51,7 @@ Link voor stickers: `https://sportgrowthmedia.be/?utm_source=instagram&utm_mediu
 
 | Shot | Duur | Beeld | Voice-over | Tekst op beeld |
 |---|---|---|---|---|
+| 0 | 2 s | Doelpunt: snelle montage van de 4 shots (0,5 s per shot) | - | 1 week content in 1 minuut |
 | 1 | 3 s | Breed beeld van de terreinen, beweging | Zo film je in 60 seconden een week content voor je club. | 1 minuut filmen = 1 week content |
 | 2 | 3 s | Close-up van bal en racket | Eén: een close-up van een slag. | 1. Close-up |
 | 3 | 5 s | Jij die uitleg geeft | Twee: je trainer die iets uitlegt. | 2. Je trainer |

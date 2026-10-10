@@ -12,6 +12,7 @@ Doel: meer kijkers (reels bereiken niet-volgers) en meer klanten (elke post eind
 | Ma t.e.m. do + za | - | Stories: post delen 5 min na het posten, 1 poll of vraag midden in de week, za op het terrein | Contact, vragen uitlokken |
 | Vr en zo | - | Niets (zo hooguit een story) | Rust |
 
+- **Structuur van elke reel (doelpunt eerst):** 0-2 s het resultaat of de emotie (vol terrein, high five, vol clubhuis) met 3 à 5 woorden tekst · daarna jij die de kijker meeneemt in het verhaal · het doelpuntbeeld komt terug · afsluiter: wie je bent + AUDIT.
 - **Productie:** opnemen in 1 keer per 2 à 3 weken (batch). Woensdag monteren: de reel van donderdag, de reel van dinsdag erna en de carrousel van maandag erna (slides maakt Claude).
 - **Bij elke post:** 5 minuten reageren bij clubs, en de eerste reacties op je post binnen het uur beantwoorden.
 - **Bijsturen:** ma 12/10 eerste analyse met alle posts tot nu toe, ma 26/10 opnieuw na 2 weken vast ritme (taken staan in de checklist).
