@@ -41,6 +41,9 @@ Checklist om af te vinken: https://claude.ai/artifact/DBgE35gbafou2zHS5PPqcV
 - Lees beide met `ArtifactData` vóór je de to-do opstelt; schrijf nieuwe taken met een `batch`.
 - Elke ochtend om ±7u30 start een routine in dit gesprek die dit automatisch doet.
 
+Reelscripts (overzicht voor de gsm): https://claude.ai/artifact/9u3C2nXGsL4CgptVc3yWPk
+- Bron: `instagram/reels/reelscripts.html`. Nieuwe of aangepaste scripts: daar bijwerken en opnieuw publiceren.
+
 Beschikbaarheid van Jari (vaste week):
 
 | Dag | Tijd voor SportGrowth Media | Goed voor |
