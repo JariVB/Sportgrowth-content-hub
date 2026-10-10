@@ -43,7 +43,22 @@ Beschikbaarheid: zie CLAUDE.md. Woensdag is de hoofdwerkdag (shoots en montage).
 | do 8/10 | 19:30 | Carrousel "Zo ziet een gratis analyse eruit": score op 100, 3 verbeterpunten, 1 snelle verbetering. Oproep: stuur AUDIT (GEPOST do 8/10, gedeeld in story, highlight "Gratis analyse") | Aanbod | - | Carrousel delen + "Stuur AUDIT voor jouw club" |
 | vr 9/10 | - | (optioneel) Reel voice-over: "Wat je op een dinsdagavond in 60 seconden filmt voor je club" | Kennis | #18 Cold Open Demo | Weekend op de club, achter de schermen |
 | za 10/10 | - | - | - | - | Interclub of training, kort filmpje |
-| zo 11/10 | 20:00 | Reel to-camera: "Tennisclubs verliezen geen leden door padel. Ze verliezen ze op Instagram." (shoot do 8/10 16u, monteren za 10/10) | Mening | #22 Contrarian Flip | Reel delen + poll "Akkoord / Niet akkoord" |
+| zo 11/10 | 20:00 | Reel to-camera: "Tennisclubs verliezen geen leden door padel. Ze verliezen ze op Instagram." (opnemen + monteren zo 11/10) | Mening | #22 Contrarian Flip | Reel delen + poll "Akkoord / Niet akkoord" |
+
+## Weekplan 12 tot 18 oktober
+
+Rode draad: de clubbio. Draaiboek: `DRAAIBOEK-12-18-OKTOBER.md`. Opnames: `SHOTLIST-12-18-OKTOBER.md`.
+Deze week staat de carrousel op dinsdag en de reel op donderdag, zodat je de reel op woensdag kan monteren.
+
+| Dag | Uur | Feed | Soort | Hook | Stories |
+|---|---|---|---|---|---|
+| ma 12/10 | - | - | - | - | Poll-uitslag reel 3 + vraagsticker |
+| di 13/10 | 19:30 | Carrousel "Zo schrijf je een clubbio die leden aantrekt" (slides klaar: carrousel-clubbio/) | Kennis | - | Carrousel delen + vraagsticker "Hoe begint jullie bio?" |
+| wo 14/10 | - | - | - | - | Poll "Wie beheert jullie clubaccount?" |
+| do 15/10 | 19:30 | Reel 4 voice-over "Zo film je in 60 seconden een week content voor je club" | Kennis | #18 Cold Open Demo | Reel delen + vraagsticker |
+| vr 16/10 | - | - | - | - | - |
+| za 17/10 | - | - | - | - | Training of interclub |
+| zo 18/10 | 20:00 | Reel 5 "Deze zin kost je club nieuwe leden" (opgenomen zo 11/10) | Mening | #22 Contrarian Flip | Reel delen + vraagsticker "Stuur me jullie bio" |
 
 ## Elke dag: 15 minuten reageren (vóór je post)
 
