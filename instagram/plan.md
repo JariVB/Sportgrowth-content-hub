@@ -17,6 +17,18 @@ Doel: meer kijkers (reels bereiken niet-volgers) en meer klanten (elke post eind
 - **Bij elke post:** 5 minuten reageren bij clubs, en de eerste reacties op je post binnen het uur beantwoorden.
 - **Bijsturen:** ma 12/10 eerste analyse met alle posts tot nu toe, ma 26/10 opnieuw na 2 weken vast ritme (taken staan in de checklist).
 
+## Contenttoets: elke post vanuit de club bekeken
+Vóór een post gemaakt wordt, beantwoorden we 4 vragen alsof we een bestuurslid of vrijwilliger van een tennis-, padel- of andere sportclub zijn:
+1. **Voel ik me aangesproken?** De eerste zin noemt de club of haar probleem (leden, vrijwilligers, geen tijd, leeg terrein), niet Instagram in het algemeen.
+2. **Wat leer ik?** Eén concrete les die ik vandaag kan toepassen.
+3. **Wat kan SGM voor mijn club doen?** Het einde zegt wat SGM overneemt: "Geen tijd? Wij filmen, monteren en posten voor jullie club."
+4. **Waarom met SGM?** Bewijs of werkwijze: resultaten (Jan Stilten: 3.367 bereikt in 6 weken), één opnamemoment per maand, de club hoeft niets zelf te doen.
+Scoort een post op een vraag nul, dan passen we hem aan.
+
+**Mix per 2 weken (4 reels + 2 carrousels):** 2 tips (vraag 1-2, vertrouwen) · 1 bewijs (voor/na, cijfers, een klant aan het woord) · 1 werkwijze (zo werkt SGM, wat het de club oplevert) · carrousels: tips om te bewaren, 1 op 2 met het aanbod op de laatste slide.
+
+**Afsluiter (vanaf reel 4):** "Ik ben Jari van SportGrowth Media. Geen tijd om dit zelf te doen? Wij doen het voor jullie club. Stuur AUDIT voor een gratis analyse."
+
 ## Lancering
 
 | Datum | Post | Status |
