@@ -1,6 +1,12 @@
 # Shotlist 12 tot 18 oktober
 
-Weinig op te nemen: reel 5, 6 en 7 nam je zo 11/10 op (`reels/batch-zondag-11-10.md`).
+Zo 11/10: tennisclub (rustig) + padelclub (druk). Moet vandaag: reel 3 volledig en alle sfeerbeelden met mensen (padelclub). De zinnen in de camera van reel 5, 6 en 7 mogen ook di 13/10 in de namiddag. Scripts: `reels/reelscripts.html`.
+
+## Di 13/10 · namiddag (alleen als het zondag niet lukte, ±40 min)
+Op een rustige club (tennis of padel), geen mensen nodig.
+- [ ] Zinnen in de camera van reel 5, 6 en 7 die nog ontbreken (per reel een andere plek en trui)
+- [ ] Voice-overs die nog ontbreken (auto of kleedkamer)
+- [ ] Reel 5: schermopname van de bio in Notities (kan ook thuis)
 
 ## Di 13/10 · padeltraining die je geeft (18u-22u30, tussendoor, ±10 min)
 Voor reel 4 (do 15/10). Vraag toestemming aan de spelers, geen herkenbare kinderen.
