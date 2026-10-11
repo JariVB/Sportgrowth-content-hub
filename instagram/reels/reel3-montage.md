@@ -1,6 +1,6 @@
 # Reel 3 · ruwe montage (di 13/10, 19u30)
 
-Bestand: `reel3-ruwe-montage-v3.mp4` (33,5 s, 1080x1920). Shot 2 (IMG_2200) en shot 5 (IMG_2202) zitten erin, met geluid, de rest is nog zonder geluid. Gemaakt op 11/10 uit de opnames van die dag.
+Bestand: `reel3-ruwe-montage-v4.mp4` (36,5 s, 1080x1920). Shot 2 (IMG_2200), shot 5 (IMG_2202) en shot 8 (IMG_2195) zitten erin, met geluid. Alleen de voice-overs en de muziek ontbreken nog. Gemaakt op 11/10 uit de opnames van die dag.
 
 | Tijd | Shot | Beeld | Geluid | Tekst op beeld (in CapCut) |
 |---|---|---|---|---|
@@ -11,11 +11,11 @@ Bestand: `reel3-ruwe-montage-v3.mp4` (33,5 s, 1080x1920). Shot 2 (IMG_2200) en s
 | 0:16-0:21,5 | 5 | ✅ Jouw opname (IMG_2202) | Jij: "Wie twijfelt tussen tennis en padel, kiest de club die hij al kent van Instagram." | ondertitels |
 | 0:21,5-0:26,5 | 6 | Speelsters die napraten (clip 31) + terras (foto) + vol clubhuis (clip 18) | Voice-over: "Toon dus je trainers, je jeugd en je clubhuis na een match." | Trainers · jeugd · clubhuis |
 | 0:26,5-0:29,5 | 7 · Lokbeeld terug | Jij wandelt lachend naar de camera (clip 30) | Muziek | Zo kan het bij jou ook |
-| 0:29,5-0:33,5 | 8 | **Kaart → vervang door jouw opname** | Jij: "Ik ben Jari van SportGrowth Media. Stuur AUDIT en ik bekijk gratis jullie Instagram." | Stuur AUDIT |
+| 0:29,5-0:36,5 | 8 | ✅ Jouw opname (IMG_2195) | Jij: "Ik ben Jari van SportGrowth Media. Stuur AUDIT en ik bekijk gratis jullie Instagram." | Stuur AUDIT |
 
 ## In CapCut
-1. Nieuw project → `reel3-ruwe-montage-v3.mp4` importeren.
-2. Voeg je opname van shot 8 toe op de plaats van de kaart (0:29,5). Knip daarna de kaart weg (Splitsen → Verwijderen).
+1. Nieuw project → `reel3-ruwe-montage-v4.mp4` importeren.
+2. Alle beelden staan er al in.
 3. Voice-overs: Audio → Voice-over, inspreken op 0:08, 0:12 en 0:21,5. Of importeer de opnames die je al maakte.
 4. Duurt een zin langer dan het beeld? Sleep het einde van de clip iets langer, of knip de voice-over strakker.
 5. Tekst op beeld zoals in de tabel, ondertitels via Tekst → Automatische ondertitels.
