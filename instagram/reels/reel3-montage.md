@@ -9,7 +9,7 @@ Bestand: `reel3-ruwe-montage-v9.mp4` (36 s, 1080x1920). Shot 2 (IMG_2195), shot 
 | 0:08,5-0:12,5 | 3 | Padel: net op de voorgrond (clip 22) + rally (clip 20) | Voice-over: "Padelclubs posten elke week wat er op hun terreinen gebeurt." | ondertitels |
 | 0:12,5-0:16,5 | 4 | Leeg gravelterrein (clip 03) + tornooi-affiche (IMG_2178) | Voice-over: "Bij veel tennisclubs zie je een leeg terrein en een affiche." | ondertitels |
 | 0:16,5-0:22,5 | 5 | ✅ Jouw opname (IMG_2200) | Jij: "Wie twijfelt tussen tennis en padel, kiest de club die hij al kent van Instagram." | ondertitels |
-| 0:22,5-0:27,5 | 6 | Twee speelsters die naar de camera wandelen en praten (clip 31, ingezoomd) + vol clubhuis (clip 18) | Voice-over: "Toon dus wie er speelt, en hoe vol je clubhuis zit na een match." | Wie er speelt · je clubhuis |
+| 0:22,5-0:27,5 | 6 | Twee speelsters die naar de camera wandelen en praten (clip 31, ingezoomd) + vol clubhuis (clip 18) | Voice-over: "Toon dus wie er speelt, en hoe vol je clubhuis zit na een match." | Wie er speelt & je clubhuis |
 | 0:27,5-0:30,5 | 7 · Lokbeeld terug | Foto lachen aan het net (zelfde als in het lokbeeld), zachte uitzoom | Muziek | Zo kan het bij jou ook |
 | 0:30,5-0:36 | 8 | ✅ Jouw opname (IMG_2202) | Jij: "Ik ben Jari van SportGrowth Media. Stuur AUDIT en ik bekijk gratis jullie Instagram." | Stuur AUDIT |
 
@@ -21,3 +21,7 @@ Bestand: `reel3-ruwe-montage-v9.mp4` (36 s, 1080x1920). Shot 2 (IMG_2195), shot 
 5. Tekst op beeld zoals in de tabel, ondertitels via Tekst → Automatische ondertitels.
 6. Muziek zacht onder alles (±15%), iets luider bij 0:00 en 0:27,5.
 7. Exporteren 1080p, 30 fps. Inplannen di 13/10 19u30, caption: `03-caption.txt`.
+
+## Tekstoverlays
+Map `reel3-overlays/`: 5 transparante PNG's (1080x1920), de tijd staat in de bestandsnaam (bv. `0034-0085` = 0:03,4 tot 0:08,5).
+In CapCut: Overlay → Overlay toevoegen → PNG kiezen → schermvullend schalen → lengte aanpassen aan de tijd in de naam.
