@@ -1,6 +1,6 @@
 # Reel 3 · ruwe montage (di 13/10, 19u30)
 
-Bestand: `reel3-ruwe-montage-v9.mp4` (36 s, 1080x1920). Shot 2 (IMG_2195), shot 5 (IMG_2200) en shot 8 (IMG_2202) zitten erin, met geluid. Alleen de voice-overs en de muziek ontbreken nog. Gemaakt op 11/10 uit de opnames van die dag.
+Bestand: `reel3-montage-v10-met-tekst.mp4` (36 s, 1080x1920). Shot 2 (IMG_2195), shot 5 (IMG_2200) en shot 8 (IMG_2202) zitten erin, met geluid. De 5 tekstoverlays staan er al in (v10). Alleen de voice-overs, ondertitels en muziek ontbreken nog. Gemaakt op 11/10 uit de opnames van die dag.
 
 | Tijd | Shot | Beeld | Geluid | Tekst op beeld (in CapCut) |
 |---|---|---|---|---|
@@ -14,11 +14,11 @@ Bestand: `reel3-ruwe-montage-v9.mp4` (36 s, 1080x1920). Shot 2 (IMG_2195), shot 
 | 0:30,5-0:36 | 8 | ✅ Jouw opname (IMG_2202) | Jij: "Ik ben Jari van SportGrowth Media. Stuur AUDIT en ik bekijk gratis jullie Instagram." | Stuur AUDIT |
 
 ## In CapCut
-1. Nieuw project → `reel3-ruwe-montage-v9.mp4` importeren.
+1. Nieuw project → `reel3-montage-v10-met-tekst.mp4` importeren.
 2. Alle beelden staan er al in.
 3. Voice-overs: Audio → Voice-over, inspreken op 0:08,5, 0:12,5 en 0:22,5. Of importeer de opnames die je al maakte.
 4. Duurt een zin langer dan het beeld? Sleep het einde van de clip iets langer, of knip de voice-over strakker.
-5. Tekst op beeld zoals in de tabel, ondertitels via Tekst → Automatische ondertitels.
+5. Tekst op beeld zit al in de video. Ondertitels via Tekst → Automatische ondertitels, onderaan (±85% hoogte); weghalen waar een grote tekst staat (0:03,4-0:08,5 en vanaf 0:30,5).
 6. Muziek zacht onder alles (±15%), iets luider bij 0:00 en 0:27,5.
 7. Exporteren 1080p, 30 fps. Inplannen di 13/10 19u30, caption: `03-caption.txt`.
 
