@@ -6,7 +6,7 @@ Bestand: `reel3-montage-v10-met-tekst.mp4` (36 s, 1080x1920). Shot 2 (IMG_2195),
 |---|---|---|---|---|
 | 0:00-0:03,4 | 1 · Lokbeeld | Service (clip 32, 1,3 s) → lachen aan het net (foto, 1,1 s) → vol terras (foto, 1 s) | Muziek | Zo ziet een club eruit die groeit |
 | 0:03,4-0:08,5 | 2 | ✅ Jouw opname (IMG_2195) | Jij: "Tennisclubs verliezen geen leden door padel. Ze verliezen ze op Instagram." | Tennisclubs verliezen geen leden door padel |
-| 0:08,5-0:12,5 | 3 | Padel: net op de voorgrond (clip 22) + rally (clip 20) | Voice-over: "Padelclubs posten elke week wat er op hun terreinen gebeurt." | ondertitels |
+| 0:08,5-0:12,5 | 3 | Padel: net op de voorgrond (clip 22) + rally (clip 20) | Voice-over: "De clubs die groeien, tonen elke week wat er op hun terreinen gebeurt." | ondertitels |
 | 0:12,5-0:16,5 | 4 | Leeg gravelterrein (clip 03) + tornooi-affiche (IMG_2178) | Voice-over: "Bij veel tennisclubs zie je een leeg terrein en een affiche." | ondertitels |
 | 0:16,5-0:22,5 | 5 | ✅ Jouw opname (IMG_2200) | Jij: "Wie twijfelt tussen tennis en padel, kiest de club die hij al kent van Instagram." | ondertitels |
 | 0:22,5-0:27,5 | 6 | Twee speelsters die naar de camera wandelen en praten (clip 31, ingezoomd) + vol clubhuis (clip 18) | Voice-over: "Toon dus wie er speelt, en hoe vol je clubhuis zit na een match." | Wie er speelt & je clubhuis |
