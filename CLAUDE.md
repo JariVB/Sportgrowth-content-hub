@@ -32,7 +32,7 @@ Antwoord dan zo:
    als iets niet lukt. Pas dan `plan.md` en het draaiboek aan.
 5. Werk na afloop `instagram/opvolging.md` en de status in `plan.md` bij met wat Jari
    meldt (gepost, gestuurd, antwoord gekregen), commit en push.
-6. Zit het draaiboek bijna leeg (minder dan 4 dagen), stel dan het volgende weekplan,
+6. Zit het draaiboek bijna leeg (minder dan 4 dagen), stel dan het volgende weekplan (volgens `instagram/CONTENTSYSTEEM.md`: reeksen, weekritme, vaste afsluiter),
    draaiboek en de shotlist voor.
 
 Checklist om af te vinken: https://claude.ai/artifact/DBgE35gbafou2zHS5PPqcV

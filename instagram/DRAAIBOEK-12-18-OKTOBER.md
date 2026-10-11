@@ -57,7 +57,7 @@ Link voor stickers: `https://sportgrowthmedia.be/?utm_source=instagram&utm_mediu
 | 3 | 5 s | Jij die uitleg geeft | Twee: je trainer die iets uitlegt. | 2. Je trainer |
 | 4 | 3 s | Spelers die lachen, bal tegen het achterraam | Drie: een moment tussen de spelers. | 3. Sfeer |
 | 5 | 3 s | De bar of het clubhuis | Vier: wat er na de training gebeurt. | 4. Na de training |
-| 6 | 5 s | Terug breed beeld | Vier shots, één minuut. Ik ben Jari van SportGrowth Media. Stuur AUDIT en ik zeg je wat jouw club nog kan tonen. | Stuur AUDIT |
+| 6 | 5 s | Terug breed beeld | Vier shots, één minuut. Ik ben Jari van SportGrowth Media. Geen tijd om zelfs die minuut te filmen? Wij doen het voor jullie club. Stuur AUDIT voor een gratis analyse. | Stuur AUDIT |
 
 - **Caption:** `reels/04-caption.txt`
 - **Story (19u35):** reel delen + vraagsticker "Wat filmen jullie het vaakst op de club?"
