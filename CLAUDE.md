@@ -14,6 +14,7 @@ De `ig-*` skills in `.claude/skills/` komen uit
   Nederlandse tekst zijn alleen de controles op leestekens, onzichtbare
   tekens, lengte en hashtags betrouwbaar; beoordeel de rest zelf.
 - Uitleg voor het team: `instagram/HANDLEIDING.md`.
+- **Contentsysteem** (reeksen, weekritme, opbouw, afsluiter, AUDIT-traject): `instagram/CONTENTSYSTEEM.md`. Elke nieuwe post volgt dit systeem.
 
 ## Dagelijkse to-do
 

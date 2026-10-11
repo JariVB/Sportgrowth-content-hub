@@ -18,6 +18,7 @@ Doel: meer kijkers (reels bereiken niet-volgers) en meer klanten (elke post eind
 - **Bijsturen:** ma 12/10 eerste analyse met alle posts tot nu toe, ma 26/10 opnieuw na 2 weken vast ritme (taken staan in de checklist).
 
 ## Contenttoets: elke post vanuit de club bekeken
+Volledig systeem: `CONTENTSYSTEEM.md`.
 Vóór een post gemaakt wordt, beantwoorden we 4 vragen alsof we een bestuurslid of vrijwilliger van een tennis-, padel- of andere sportclub zijn:
 1. **Voel ik me aangesproken?** De eerste zin noemt de club of haar probleem (leden, vrijwilligers, geen tijd, leeg terrein), niet Instagram in het algemeen.
 2. **Wat leer ik?** Eén concrete les die ik vandaag kan toepassen.
