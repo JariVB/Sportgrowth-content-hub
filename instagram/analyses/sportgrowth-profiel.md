@@ -18,3 +18,15 @@ Score: 54/100. Grootste probleem: de grid bestaat volledig uit donkerblauwe teks
 - Elke reelcover: jij of echte sportbeelden + korte titel. Geen effen blauw vlak.
 - Carrousels: eerste slide met een echte foto als achtergrond.
 - Per 9 posts minstens 6 met een gezicht of een terrein.
+
+## Profiel om in te stellen (11/10)
+- **Naamveld:** SportGrowth Media | Instagram voor sportclubs
+- **Bio (143 tekens):**
+  Wij beheren de Instagram van je sportclub 🎾
+  📲 Posts, reels en stories, elke week
+  📈 Meer zichtbaarheid, meer leden
+  👇 Stuur AUDIT: gratis analyse
+- **Link:** sportgrowthmedia.be
+- **Categorie:** Marketingbureau
+- **Profielfoto:** je gezicht (still 19.6 of 20.2 van 11/10), geen logo
+- **Highlights:** Gratis analyse · Resultaten · Zo werkt het · Wat het kost
