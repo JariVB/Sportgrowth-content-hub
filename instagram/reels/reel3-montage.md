@@ -1,6 +1,6 @@
 # Reel 3 · ruwe montage (di 13/10, 19u30)
 
-Bestand: `reel3-ruwe-montage-v8.mp4` (36 s, 1080x1920). Shot 2 (IMG_2195), shot 5 (IMG_2200) en shot 8 (IMG_2202) zitten erin, met geluid. Alleen de voice-overs en de muziek ontbreken nog. Gemaakt op 11/10 uit de opnames van die dag.
+Bestand: `reel3-ruwe-montage-v9.mp4` (36 s, 1080x1920). Shot 2 (IMG_2195), shot 5 (IMG_2200) en shot 8 (IMG_2202) zitten erin, met geluid. Alleen de voice-overs en de muziek ontbreken nog. Gemaakt op 11/10 uit de opnames van die dag.
 
 | Tijd | Shot | Beeld | Geluid | Tekst op beeld (in CapCut) |
 |---|---|---|---|---|
@@ -9,12 +9,12 @@ Bestand: `reel3-ruwe-montage-v8.mp4` (36 s, 1080x1920). Shot 2 (IMG_2195), shot 
 | 0:08,5-0:12,5 | 3 | Padel: net op de voorgrond (clip 22) + rally (clip 20) | Voice-over: "Padelclubs posten elke week wat er op hun terreinen gebeurt." | ondertitels |
 | 0:12,5-0:16,5 | 4 | Leeg gravelterrein (clip 03) + tornooi-affiche (IMG_2178) | Voice-over: "Bij veel tennisclubs zie je een leeg terrein en een affiche." | ondertitels |
 | 0:16,5-0:22,5 | 5 | ✅ Jouw opname (IMG_2200) | Jij: "Wie twijfelt tussen tennis en padel, kiest de club die hij al kent van Instagram." | ondertitels |
-| 0:22,5-0:27,5 | 6 | Jij die slaat op het tennisterrein (clip 29) + vol clubhuis (clip 18) | Voice-over: "Toon dus wie er speelt, en hoe vol je clubhuis zit na een match." | Wie er speelt · je clubhuis |
-| 0:27,5-0:30,5 | 7 · Lokbeeld terug | Jij wandelt lachend naar de camera (clip 30) | Muziek | Zo kan het bij jou ook |
+| 0:22,5-0:27,5 | 6 | Twee speelsters die naar de camera wandelen en praten (clip 31, ingezoomd) + vol clubhuis (clip 18) | Voice-over: "Toon dus wie er speelt, en hoe vol je clubhuis zit na een match." | Wie er speelt · je clubhuis |
+| 0:27,5-0:30,5 | 7 · Lokbeeld terug | Foto lachen aan het net (zelfde als in het lokbeeld), zachte uitzoom | Muziek | Zo kan het bij jou ook |
 | 0:30,5-0:36 | 8 | ✅ Jouw opname (IMG_2202) | Jij: "Ik ben Jari van SportGrowth Media. Stuur AUDIT en ik bekijk gratis jullie Instagram." | Stuur AUDIT |
 
 ## In CapCut
-1. Nieuw project → `reel3-ruwe-montage-v8.mp4` importeren.
+1. Nieuw project → `reel3-ruwe-montage-v9.mp4` importeren.
 2. Alle beelden staan er al in.
 3. Voice-overs: Audio → Voice-over, inspreken op 0:08,5, 0:12,5 en 0:22,5. Of importeer de opnames die je al maakte.
 4. Duurt een zin langer dan het beeld? Sleep het einde van de clip iets langer, of knip de voice-over strakker.
