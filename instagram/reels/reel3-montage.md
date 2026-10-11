@@ -14,7 +14,7 @@ Bestand: `reel3-ruwe-montage-v2.mp4` (33 s, 1080x1920). Shot 2 zit erin (take IM
 | 0:29-0:33 | 8 | **Kaart → vervang door jouw opname** | Jij: "Ik ben Jari van SportGrowth Media. Stuur AUDIT en ik bekijk gratis jullie Instagram." | Stuur AUDIT |
 
 ## In CapCut
-1. Nieuw project → `reel3-ruwe-montage.mp4` importeren.
+1. Nieuw project → `reel3-ruwe-montage-v2.mp4` importeren.
 2. Voeg je 2 overige opnames in de camera toe op de plaats van de kaarten (0:16 en 0:29). Knip daarna de kaart weg (Splitsen → Verwijderen).
 3. Voice-overs: Audio → Voice-over, inspreken op 0:08, 0:12 en 0:21. Of importeer de opnames die je al maakte.
 4. Duurt een zin langer dan het beeld? Sleep het einde van de clip iets langer, of knip de voice-over strakker.
