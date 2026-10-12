@@ -64,11 +64,11 @@ Verdeling per 4 weken (12 posts): 3 HERKENBAAR? · 3 CLUBCHECK · 2 RESULTAAT ·
 > "Ik ben Jari van SportGrowth Media. Geen tijd om dit zelf te doen? Wij doen het voor jullie club. Stuur AUDIT voor een gratis analyse."
 
 **Vaste opbouw caption:**
-1. Hook (= eerste zin van de reel)
-2. 2-3 korte zinnen: de les of het resultaat
-3. "Geen tijd om dit zelf te doen? SportGrowth Media doet het voor jullie club."
-4. "Stuur AUDIT in een DM voor een gratis analyse van jullie Instagram."
-5. 3-5 hashtags: #tennisclub #padelclub #sportclub + 1-2 specifiek
+1. **Hook in de eerste 125 tekens** (vóór "... meer"): de sterkste zin + waarom het de club aangaat. Zelfde hook als de reel of cover.
+2. **Kort en scanbaar:** 2-4 blokjes van 1-3 zinnen, witregels ertussen. Emoji's alleen om het oog te leiden (❌ ✅ 🎾 📈 1️⃣), niet als versiering.
+3. **Eén echte vraag** die een gesprek start ("Met welke zin begint jullie bio nu? 👇"), geen "laat een like".
+4. **Eén CTA**, altijd dezelfde: "👉 Geen tijd om dit zelf te doen? Stuur AUDIT in een DM, dan bekijken wij gratis de Instagram van jullie club." Geen tweede CTA (geen "bewaar", "deel" of "link in bio" erbij).
+5. **3-5 nichehashtags**, geen grote: #tennisclub #padelclub #clubbestuur #tennisvlaanderen #padelvlaanderen #sportclub. Geen #tennis of #padel alleen.
 
 **Carrousel (8 slides):** 1 hook · 2 herkenning · 3-6 inhoud · 7 "Dit doen wij voor jullie club" · 8 "Stuur AUDIT".
 
