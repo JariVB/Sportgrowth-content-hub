@@ -75,6 +75,7 @@ Verdeling per 4 weken (12 posts): 3 HERKENBAAR? · 3 CLUBCHECK · 2 RESULTAAT ·
 | einde | **Afsluiter** (altijd dezelfde) |
 
 **Lengte (bewezen met reel 1):** max. **35 s**. Reel 1 duurde 55 s: gemiddeld 17 s bekeken, de helft weg na ±8 s, ±10% zag het einde. Dus: de eerste tip of fout vóór 0:05, alle waarde vóór 0:15.
+**Eerste beeld:** nooit een grafisch beeld (collage, schermafbeelding, slide). De oude resultaat-reel begon met een collage: 84% scrolde door, gemiddeld 4 s gekeken. Begin met echte mensen in actie of met jou in de camera, cijfer groot in beeld.
 **Delen:** zet in elke tip-reel één kleine tekst in beeld (niet gesproken, niet in de caption): "📤 Stuur dit naar iemand van je bestuur". Delen weegt het zwaarst voor bereik en brengt de reel bij wie beslist.
 
 **Vaste afsluiter:**
