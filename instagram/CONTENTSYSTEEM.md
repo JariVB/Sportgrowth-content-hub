@@ -89,6 +89,11 @@ Verdeling per 4 weken (12 posts): 3 HERKENBAAR? · 3 CLUBCHECK · 2 RESULTAAT ·
 
 **Carrousel (8 slides):** 1 hook · 2 herkenning · 3-6 inhoud · 7 "Dit doen wij voor jullie club" · 8 "Stuur AUDIT".
 
+**Rol van elk formaat (bewezen met de cijfers van september-oktober):**
+- **Reels brengen nieuwe clubs binnen**: reel 1 bereikte 95% niet-volgers en leverde 3 clubcontacten op.
+- **Carrousels overtuigen wie al kijkt**: "Wat jouw club kan posten" bereikte 69% eigen volgers en 0 nieuwe mensen. Meet carrousels op bewaren, delen en DM's, niet op bereik.
+- **Meer bereik voor een carrousel:** maak er een samenwerkingspost (Collab) van met een klant of club, zodat hij ook bij hun volgers verschijnt (eerst Jan Stilten, daarna Baltha).
+
 ## 5b. De hook (titel en eerste regel van elke post)
 **Vaste formule: "Zo [doe je iets wat elke club kent] die/dat [resultaat dat de club wil]."**
 Voorbeeld en norm: **"Zo schrijf je een clubbio die leden aantrekt."**
