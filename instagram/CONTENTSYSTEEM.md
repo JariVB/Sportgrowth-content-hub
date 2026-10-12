@@ -188,7 +188,7 @@ Week 12-18/10 blijft zoals gepland (carrousel clubbio, reel 3, reel 4 met nieuwe
 | Week | Ma · carrousel | Di · reel 1 | Do · reel 2 |
 |---|---|---|---|
 | **19/10** | ALGEMEEN · HERKENBAAR? "Zo check je of jullie Instagram leden aantrekt" (`carrousel-5-tekenen/`) | 🎾 TENNIS · CLUBTIP: "Zo krijg je meer jeugd in je tennisclub" (reel 5) | ALGEMEEN · RESULTAAT: "Zo bereikte een padelclub 3.367 mensen in 6 weken" (reel 6, Jan Stilten; het resultaat telt, niet de sport) |
-| **26/10** | ALGEMEEN · ZO WERKT SGM: "Zo ziet een maand Instagram eruit als wij het voor je club doen" | ALGEMEEN · CLUBTIP: "Zo schrijf je een clubbio die leden aantrekt" (reel 9, voorraad) | 🟦 PADEL · CLUBTIP: "Zo vul je je padelterreinen in de daluren" (filmen op je training di 20/10) |
+| **26/10** | ALGEMEEN · ZO WERKT SGM: "Zo ziet een maand Instagram eruit als wij het voor je club doen" (wordt de nieuwe vastgezette uitleg: foto-cover, 3 stappen, bewijs, prijs vanaf €249, AUDIT; vervangt "Je club op Instagram zonder gedoe") | ALGEMEEN · CLUBTIP: "Zo schrijf je een clubbio die leden aantrekt" (reel 9, voorraad) | 🟦 PADEL · CLUBTIP: "Zo vul je je padelterreinen in de daluren" (filmen op je training di 20/10) |
 | **2/11** | ALGEMEEN · CLUBTIP: "Zo geef je je sponsors iets terug op Instagram" | ALGEMEEN · CLUBTIP: "Zo promoot je je clubfeest zonder één affiche" (reel 7 herwerkt) | ⚽ VOETBAL · CLUBTIP: "Zo krijg je meer supporters naar je thuismatch" (filmen bij je match za 24/10 of 31/10) |
 | **9/11** | ALGEMEEN · ZO WERKT SGM: "Zoveel kost een Instagram die leden oplevert" | ALGEMEEN · CLUBTIP: "Zo maak je van een proefles een nieuw lid" (beelden van meerdere sporten) | 🎾 TENNIS · CLUBTIP: "Zo vul je je tennislessen in de winter" |
 
