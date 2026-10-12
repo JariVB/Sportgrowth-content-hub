@@ -78,7 +78,7 @@ Rode draad: de clubbio. Draaiboek: `DRAAIBOEK-12-18-OKTOBER.md`. Opnames: `SHOTL
 | za 17/10 | - | - | - | - | Training of interclub |
 | zo 18/10 | - | - | - | - | - |
 
-Volgende week: ma 19/10 carrousel "Jullie club krijgt geen nieuwe leden", di 20/10 reel 5 "Jullie bio jaagt nieuwe leden weg", do 22/10 reel 6 RESULTAAT Jan Stilten. Trainers-reel naar de voorraad (reel 8).
+Volgende week: ma 19/10 carrousel "Jullie jagen nieuwe leden weg", di 20/10 reel 5 "Jullie bio jaagt nieuwe leden weg", do 22/10 reel 6 RESULTAAT Jan Stilten. Trainers-reel naar de voorraad (reel 8).
 
 ## Elke dag: 15 minuten reageren (vóór je post)
 

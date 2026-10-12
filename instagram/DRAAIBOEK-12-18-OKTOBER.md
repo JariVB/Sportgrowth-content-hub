@@ -78,7 +78,7 @@ Link voor stickers: `https://sportgrowthmedia.be/?utm_source=instagram&utm_mediu
 
 ## Volgende week (19 tot 25 oktober)
 - Ma 19/10 19u30: carrousel (Claude maakt de slides op wo 14/10)
-- Ma 19/10 19u30: carrousel "Jullie club krijgt geen nieuwe leden" (`carrousel-5-tekenen/`)
+- Ma 19/10 19u30: carrousel "Jullie jagen nieuwe leden weg" (`carrousel-5-tekenen/`)
 - Di 20/10 19u30: reel 5 "Jullie bio jaagt nieuwe leden weg" (gemonteerd wo 14/10), caption `reels/05-caption.txt`
 - Do 22/10 19u30: reel 6 RESULTAAT Jan Stilten (3 zinnen filmen di 13/10), caption `reels/06-jan-resultaat-caption.txt`
 - Voorraad: reel 7 "Een affiche is geen post"

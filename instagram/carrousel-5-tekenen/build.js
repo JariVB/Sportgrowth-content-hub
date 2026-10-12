@@ -57,12 +57,12 @@ const slides = [];
 slides.push(page(1, `
 <div class="bg" style="background-image:url(file://${B}/tennis-leeg-gravel.jpg)"></div><div class="dim"></div>
 <div class="swipe">Tel mee →</div>
-<div style="position:absolute;left:70px;right:70px;top:420px;display:flex;flex-direction:column;gap:26px">
+<div style="position:absolute;left:70px;right:70px;top:520px;display:flex;flex-direction:column;gap:30px">
 <span class="tag" style="align-self:flex-start">HERKENBAAR?</span>
-<h1 style="font-size:104px">Jullie club krijgt<br>geen nieuwe leden.<br><span class="c">Omdat jullie<br>deze 5 dingen<br>elke week doen.</span></h1>
-<p class="t" style="font-size:44px"><b>Hoeveel herken jij?</b> Wees eerlijk 👀</p>
+<h1 style="font-size:150px">Jullie jagen<br>nieuwe leden<br><span class="c">weg.</span></h1>
+<p class="t" style="font-size:46px"><b>Met deze 5 dingen.</b> Hoeveel herken jij? 👀</p>
 </div>
-<div style="position:absolute;right:70px;top:160px;width:230px;height:230px;border-radius:50%;background:#00d4ff;color:#0d1b3e;display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(8deg);box-shadow:0 20px 50px rgba(0,0,0,.4)"><span style="font:700 110px/0.9 Rj">?/5</span><span style="font:800 24px In;letter-spacing:.05em">JOUW SCORE</span></div>
+<div style="position:absolute;right:70px;top:250px;width:230px;height:230px;border-radius:50%;background:#00d4ff;color:#0d1b3e;display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(8deg);box-shadow:0 20px 50px rgba(0,0,0,.4)"><span style="font:700 110px/0.9 Rj">?/5</span><span style="font:800 24px In;letter-spacing:.05em">JOUW SCORE</span></div>
 `));
 
 // 2 TEKEN 1: laatste post
