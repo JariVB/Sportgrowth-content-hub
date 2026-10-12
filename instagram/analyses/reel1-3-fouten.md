@@ -20,14 +20,16 @@ Stand 12/10 (deel 1: overzicht).
 | Leeftijd | 25-34 37% · 35-44 25% · 45-54 19% · 55-64 10% | 54% is 35+ = leeftijd van een clubbestuur |
 | Geslacht | 70% man | |
 | Profielbezoeken | 87 (3,6% van kijkers) | |
-| Volgers / linkklikken | 16 / 5 | 18% van de bezoekers volgt; 0 AUDIT → profiel zette toen niet om (nu verbeterd: vastgezette posts, covers) |
+| Volgers / linkklikken | 16 / 5 | 18% van de bezoekers volgt; 0 keer het woord AUDIT, wel 1 DM (Baltha) en 2 clubvolgers (Westerlo, TTV) |
 | Likes in de tijd | piek 0-3 s (±13%), kleine piek ±0:22, verspreid op het einde | Begin en één sterk punt halverwege |
 
 ## Lessen
 1. Hook "[getal] fouten op de Instagram van [soort club]" bereikt de juiste mensen (Vlaanderen, 35+) → herhalen per sport.
 2. Max. ±35 s, eerste fout vóór 0:05, alle waarde vóór 0:15.
 3. Delen stimuleren met tekst in beeld: "📤 Stuur dit naar iemand van je bestuur".
-4. Het lek zit na het profielbezoek: 87 bezoekers, 0 AUDIT. Opgelost op 12/10 (vastgezet: analyse, resultaat, zo werkt het). Volgende reels: meten of er AUDIT-DM's komen.
+4. Na het profielbezoek: 87 bezoekers → 3 clubcontacten, maar geen AUDIT. Opgelost op 12/10 (vastgezet: analyse, resultaat, zo werkt het). Volgende reels: meten of er AUDIT-DM's komen.
 
-## Nog open
-- Wie waren de 4 reacties: club, lead of vrienden?
+## Leads uit reel 1
+- **Baltha stuurde een DM** → werd een lead (voorstel verstuurd, zie `opvolging.md`).
+- **2 nieuwe volgers zijn clubmensen**: Westerlo en de andere club (TTV Turnhout) → kregen een analyse.
+- Dus: geen AUDIT-woord, maar wel 3 echte contacten uit 1 reel. Eén reel die de juiste mensen bereikt is genoeg om gesprekken te starten.
