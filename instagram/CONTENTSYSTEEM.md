@@ -157,7 +157,7 @@ Week 12-18/10 blijft zoals gepland (carrousel clubbio, reel 3, reel 4 met nieuwe
 
 | Week | Ma · carrousel | Di · reel 1 | Do · reel 2 |
 |---|---|---|---|
-| **19/10** | HERKENBAAR? "Zo check je of jullie Instagram leden aantrekt" (`carrousel-5-tekenen/`) | CLUBTIP: "Zo schrijf je een clubbio die leden aantrekt" (reel 5) | RESULTAAT: "Zo bereikte een padelclub 3.367 mensen in 6 weken" (reel 6, Jan Stilten) |
-| **26/10** | ZO WERKT SGM: "Zo ziet een maand Instagram eruit als wij het voor je club doen" | CLUBTIP: "Zo krijg je meer jeugd in je tennisclub" | HERKENBAAR?: "Zo hoeft je voorzitter nooit meer om 23u te posten" |
+| **19/10** | HERKENBAAR? "Zo check je of jullie Instagram leden aantrekt" (`carrousel-5-tekenen/`) | CLUBTIP: "Zo krijg je meer jeugd in je tennisclub" (reel 5) | RESULTAAT: "Zo bereikte een padelclub 3.367 mensen in 6 weken" (reel 6, Jan Stilten) |
+| **26/10** | ZO WERKT SGM: "Zo ziet een maand Instagram eruit als wij het voor je club doen" | CLUBTIP: "Zo schrijf je een clubbio die leden aantrekt" (reel 9, voorraad, of een nieuwe uit de titelbank) | HERKENBAAR?: "Zo hoeft je voorzitter nooit meer om 23u te posten" |
 | **2/11** | CLUBTIP: "Zo geef je je sponsors iets terug op Instagram" | CLUBTIP: "Zo promoot je je clubfeest zonder één affiche" (reel 7 herwerkt) | ZO WERKT SGM: "Zo vult je club een week Instagram in 10 minuten" (achter de schermen op je training) |
 | **9/11** | ZO WERKT SGM: "Zoveel kost een Instagram die leden oplevert" | CLUBTIP: "Zo maak je van een proefles een nieuw lid" | RESULTAAT #2 (eerste klant of TTV/Westerlo met akkoord) |

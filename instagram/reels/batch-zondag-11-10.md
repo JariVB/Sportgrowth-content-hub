@@ -30,7 +30,7 @@ Plek: tennisterrein achter je, padelkooien in de verte.
 5. Toon dus je trainers, je jeugd en je clubhuis na een match.
 6. Ik ben Jari van SportGrowth Media. Stuur AUDIT en ik bekijk gratis jullie Instagram.
 
-## Reel 5 · "Zo schrijf je een clubbio die leden aantrekt" (bio) · di 20/10
+## Reel 9 (was reel 5) · "Zo schrijf je een clubbio die leden aantrekt" (bio) · voorraad (di 20/10 wordt de jeugd-reel, zie reelscripts.html)
 Plek: aan de ingang of bij het clubhuis. Hou je gsm in je hand alsof je een profiel toont.
 **Doelpunt (open + slot):** close-up van je gsm waarop een bericht binnenkomt: "Hoi! Hoe kan ik lid worden?" (laat een vriend het je sturen en film het scherm). Tekst: "Dit wil elke club". Slot: hetzelfde bericht, nu na de nieuwe bio.
 1. Zo schrijf je een clubbio die leden aantrekt.

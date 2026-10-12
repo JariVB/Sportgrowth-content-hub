@@ -79,6 +79,6 @@ Link voor stickers: `https://sportgrowthmedia.be/?utm_source=instagram&utm_mediu
 ## Volgende week (19 tot 25 oktober)
 - Ma 19/10 19u30: carrousel (Claude maakt de slides op wo 14/10)
 - Ma 19/10 19u30: carrousel "Zo check je of jullie Instagram leden aantrekt" (`carrousel-5-tekenen/`)
-- Di 20/10 19u30: reel 5 "Zo schrijf je een clubbio die leden aantrekt" (gemonteerd wo 14/10), caption `reels/05-caption.txt`
+- Di 20/10 19u30: reel 5 "Zo krijg je meer jeugd in je tennisclub" (gemonteerd wo 14/10), caption `reels/05-caption.txt`
 - Do 22/10 19u30: reel 6 RESULTAAT "Zo bereikte een padelclub 3.367 mensen in 6 weken" (3 zinnen filmen di 13/10), caption `reels/06-jan-resultaat-caption.txt`
 - Voorraad: reel 7 "Een affiche is geen post"
