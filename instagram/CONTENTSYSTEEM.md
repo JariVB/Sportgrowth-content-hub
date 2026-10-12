@@ -74,6 +74,9 @@ Verdeling per 4 weken (12 posts): 3 HERKENBAAR? · 3 CLUBCHECK · 2 RESULTAAT ·
 | 27-30 s | **Lokbeeld terug** + tekst |
 | einde | **Afsluiter** (altijd dezelfde) |
 
+**Lengte (bewezen met reel 1):** max. **35 s**. Reel 1 duurde 55 s: gemiddeld 17 s bekeken, de helft weg na ±8 s, ±10% zag het einde. Dus: de eerste tip of fout vóór 0:05, alle waarde vóór 0:15.
+**Delen:** zet in elke tip-reel één kleine tekst in beeld (niet gesproken, niet in de caption): "📤 Stuur dit naar iemand van je bestuur". Delen weegt het zwaarst voor bereik en brengt de reel bij wie beslist.
+
 **Vaste afsluiter:**
 > "Ik ben Jari van SportGrowth Media. Geen tijd om dit zelf te doen? Wij doen het voor jullie club. Stuur AUDIT voor een gratis analyse."
 
@@ -104,6 +107,8 @@ Regels:
 | "Jullie jagen nieuwe leden weg." | "Zo check je of jullie Instagram leden aantrekt" |
 | "Deze zin kost je leden." | "Zo schrijf je een clubbio die leden aantrekt" |
 | "Jullie posten affiches." | "Zo bereikte een padelclub 3.367 mensen in 6 weken" |
+
+**Tweede bewezen formule: "[getal] fouten op de Instagram van [soort club]"**. Reel 1 "3 fouten op de Instagram van tennisclubs": 3.061 weergaven (10-30x de rest), 95% niet-volgers, 95% België, 54% 35+ (leeftijd van een bestuur). Herhalen als sportspecifieke post: voetbalclubs, padelclubs, hockeyclubs, fitnesscentra... telkens ±30 s.
 
 ## 5c. Covers en profielraster (wat een club ziet als ze je profiel opent)
 Een club beslist in het raster of ze doorklikt. Elke cover moet op postzegelformaat (1/3 van het scherm) meteen zeggen: dit gaat over jullie club.
@@ -165,6 +170,7 @@ Seizoenshaakjes: oktober-maart winter/indoor en jeugdkampen (kerst, krokus); jan
 | Nieuwe klanten | 1 per maand |
 | Volgers die een club zijn | stijgend |
 | Bewaard + gedeeld per post | welke reeks werkt het best → meer daarvan |
+| Profielbezoek → actie | Referentie reel 1: 87 profielbezoeken → 16 volgers, 5 linkklikken, 0 AUDIT. Doel: elke reel minstens 1 AUDIT |
 
 ---
 
@@ -178,6 +184,6 @@ Week 12-18/10 blijft zoals gepland (carrousel clubbio, reel 3, reel 4 met nieuwe
 | **2/11** | ALGEMEEN · CLUBTIP: "Zo geef je je sponsors iets terug op Instagram" | ALGEMEEN · CLUBTIP: "Zo promoot je je clubfeest zonder één affiche" (reel 7 herwerkt) | ⚽ VOETBAL · CLUBTIP: "Zo krijg je meer supporters naar je thuismatch" (filmen bij je match za 24/10 of 31/10) |
 | **9/11** | ALGEMEEN · ZO WERKT SGM: "Zoveel kost een Instagram die leden oplevert" | ALGEMEEN · CLUBTIP: "Zo maak je van een proefles een nieuw lid" (beelden van meerdere sporten) | 🎾 TENNIS · CLUBTIP: "Zo vul je je tennislessen in de winter" |
 
-Volgende ronde (vanaf 16/11): RESULTAAT #2 (eerste klant of TTV/Westerlo met akkoord), "Zo hoeft je voorzitter nooit meer om 23u te posten", "Zo vult je club een week Instagram in 10 minuten", en als sportspecifieke post een andere sport (hockey, basket of volley).
+Volgende ronde (vanaf 16/11): RESULTAAT #2 (eerste klant of TTV/Westerlo met akkoord), "Zo hoeft je voorzitter nooit meer om 23u te posten", "Zo vult je club een week Instagram in 10 minuten", "3 fouten op de Instagram van voetbalclubs" (±30 s, bewezen formule van reel 1), en daarna dezelfde formule voor een andere sport (hockey, basket of volley).
 
 Volgende ronde (vanaf 16/11): RESULTAAT #2 (eerste klant of TTV/Westerlo met akkoord), "Zo hoeft je voorzitter nooit meer om 23u te posten" (tennis), "Zo vult je club een week Instagram in 10 minuten" (achter de schermen op je padeltraining), "Zo krijg je je padeltornooi vol".
