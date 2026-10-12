@@ -55,7 +55,7 @@ const slides = [];
 const card=(lab,labc,txt,border)=>`<div style="background:#fff;color:#111;border-radius:24px;padding:30px 34px;font:500 40px/1.4 In,'Noto Color Emoji';${border?'border:6px solid #00d4ff':''}"><div style="font:800 26px In;color:${labc};margin-bottom:8px">${lab}</div>${txt}</div>`;
 // 1 cover
 slides.push(page(1, `
-<div class="bg" style="background-image:url(file://${B}/tennis-racket-net.jpg);background-position:center 30%"></div><div class="dim"></div>
+<div class="bg" style="background-image:url(file://${B}/tennis-ballen-net.jpg);background-position:center 40%"></div><div class="dim"></div>
 <div class="swipe">In 3 regels →</div>
 <div style="position:absolute;left:70px;right:70px;top:560px;display:flex;flex-direction:column;gap:30px">
 <span class="tag" style="align-self:flex-start">CLUBTIP</span>
