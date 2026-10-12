@@ -100,6 +100,20 @@ Een club beslist in het raster of ze doorklikt. Elke cover moet op postzegelform
 5. **Reekslabel bovenaan** (HERKENBAAR?, CLUBTIP, RESULTAAT, ZO WERKT SGM): een club ziet in één blik wat voor post het is.
 6. **Vastgezet (3 posts bovenaan):** 1) Zo werkt SGM (wat we voor een club doen), 2) Resultaat Jan Stilten, 3) Gratis analyse. Wie het profiel opent, ziet zo meteen wat SGM doet, dat het werkt, en de eerste stap.
 
+## 5d. Titelbank: vertrekken van wat een club nodig heeft
+Elke titel = een **noodzaak van de club** + **"Zo"** + het **resultaat**. De post geeft een snelle tip, het einde zegt dat SGM het voor hen doet.
+
+| Wat de club nodig heeft | Titels |
+|---|---|
+| **Nieuwe leden** | Zo krijg je meer jeugd in je tennisclub · Zo maak je van een proefles een nieuw lid · Zo vul je je lessenreeks zonder affiches · Zo kiest een nieuw lid voor jullie club, niet voor de buren |
+| **Leden houden** | Zo maak je je leden trots op hun club · Zo blijven jeugdspelers ook na hun 14de |
+| **Tijd / vrijwilligers** | Zo vult je club een week Instagram in 10 minuten · Zo hoeft je voorzitter nooit meer om 23u te posten |
+| **Sponsors** | Zo geef je je sponsors iets terug op Instagram · Zo vind je nieuwe sponsors via je clubaccount |
+| **Events vol krijgen** | Zo krijg je je clubtornooi vol · Zo promoot je je clubfeest zonder één affiche · Zo maak je van de interclub een reden om lid te worden |
+| **Bewijs en aanbod (SGM)** | Zo bereikte een padelclub 3.367 mensen in 6 weken · Zo ziet een maand Instagram eruit als wij het voor je club doen · Zoveel kost een Instagram die leden oplevert |
+
+Seizoenshaakjes: oktober-maart winter/indoor en jeugdkampen (kerst, krokus); januari-maart inschrijvingen en lidgeld; april start buitenseizoen en interclub; juni clubfeest en zomerkampen.
+
 ## 6. Stories (dagelijks, 2-5 minuten)
 | Dag | Story |
 |---|---|
@@ -144,6 +158,6 @@ Week 12-18/10 blijft zoals gepland (carrousel clubbio, reel 3, reel 4 met nieuwe
 | Week | Ma · carrousel | Di · reel 1 | Do · reel 2 |
 |---|---|---|---|
 | **19/10** | HERKENBAAR? "Zo check je of jullie Instagram leden aantrekt" (`carrousel-5-tekenen/`) | CLUBTIP: "Zo schrijf je een clubbio die leden aantrekt" (reel 5) | RESULTAAT: "Zo bereikte een padelclub 3.367 mensen in 6 weken" (reel 6, Jan Stilten) |
-| **26/10** | ZO WERKT SGM: "Zo werkt het, in 4 stappen" | CLUBCHECK #1 (TTV of Westerlo met akkoord, anders anoniem) | HERKENBAAR?: "Wie heeft het wachtwoord van onze Instagram?" |
-| **2/11** | CLUBCHECK #1: de nieuwe versie (bio, grid, highlights) | HERKENBAAR?: "Dit is geen post, dit is een affiche" (reel 7 herwerkt) | ZO WERKT SGM: "Zo ziet een opnamemoment eruit" (achter de schermen op je training) |
-| **9/11** | ZO WERKT SGM: "Wat kost een Instagram die leden oplevert?" | CLUBCHECK #2 | RESULTAAT #2 (cijfers van Jan Stilten na 3 maanden, of eerste nieuwe klant) |
+| **26/10** | ZO WERKT SGM: "Zo ziet een maand Instagram eruit als wij het voor je club doen" | CLUBTIP: "Zo krijg je meer jeugd in je tennisclub" | HERKENBAAR?: "Zo hoeft je voorzitter nooit meer om 23u te posten" |
+| **2/11** | CLUBTIP: "Zo geef je je sponsors iets terug op Instagram" | CLUBTIP: "Zo promoot je je clubfeest zonder één affiche" (reel 7 herwerkt) | ZO WERKT SGM: "Zo vult je club een week Instagram in 10 minuten" (achter de schermen op je training) |
+| **9/11** | ZO WERKT SGM: "Zoveel kost een Instagram die leden oplevert" | CLUBTIP: "Zo maak je van een proefles een nieuw lid" | RESULTAAT #2 (eerste klant of TTV/Westerlo met akkoord) |
