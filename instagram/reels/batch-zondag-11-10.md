@@ -38,7 +38,7 @@ Plek: aan de ingang of bij het clubhuis. Hou je gsm in je hand alsof je een prof
 3. Maar wie je profiel opent, wil maar drie dingen weten: wat, waar, en hoe word ik lid.
 4. Dus schrijf: tennis en padel in je gemeente, lessen voor jong en oud, en "stuur ons een bericht om lid te worden".
 5. Drie regels, en een nieuw lid weet meteen wat te doen.
-6. Ik ben Jari van SportGrowth Media. Stuur AUDIT en ik bekijk gratis jullie profiel.
+6. Ik ben Jari van SportGrowth Media. Geen tijd om dit zelf te doen? Wij doen het voor jullie club. Stuur AUDIT voor een gratis analyse.
 
 ## Reel 6 · "Je beste reclame toon je nooit" (trainers) · do 22/10
 Plek: naast het net. Is er een trainer, vraag dan 10 seconden beeld van hem terwijl hij iets uitlegt.
@@ -48,7 +48,7 @@ Plek: naast het net. Is er een trainer, vraag dan 10 seconden beeld van hem terw
 3. Mensen kiezen een club omdat ze de trainer vertrouwen.
 4. Film je trainer tien seconden terwijl hij een tip geeft.
 5. Een gezicht en een stem doen meer dan tien affiches.
-6. Ik ben Jari van SportGrowth Media. Stuur AUDIT en ik bekijk gratis jullie Instagram.
+6. Ik ben Jari van SportGrowth Media. Geen tijd om dit zelf te doen? Wij doen het voor jullie club. Stuur AUDIT voor een gratis analyse.
 
 ## Reel 7 · "Een affiche is geen post"
 Plek: bij het prikbord of een affiche in het clubhuis, of gewoon op het terras.
@@ -58,7 +58,7 @@ Plek: bij het prikbord of een affiche in het clubhuis, of gewoon op het terras.
 3. Een uurrooster vertelt niets over de sfeer.
 4. Zet de affiche in je story, en post de foto van de avond zelf.
 5. Zo zien mensen wat ze gemist hebben, en komen ze de volgende keer wel.
-6. Ik ben Jari van SportGrowth Media. Stuur AUDIT en ik bekijk gratis jullie Instagram.
+6. Ik ben Jari van SportGrowth Media. Geen tijd om dit zelf te doen? Wij doen het voor jullie club. Stuur AUDIT voor een gratis analyse.
 
 ---
 

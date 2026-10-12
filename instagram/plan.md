@@ -62,7 +62,7 @@ Beschikbaarheid: zie CLAUDE.md. Woensdag is de hoofdwerkdag (shoots en montage).
 | do 8/10 | 19:30 | Carrousel "Zo ziet een gratis analyse eruit": score op 100, 3 verbeterpunten, 1 snelle verbetering. Oproep: stuur AUDIT (GEPOST do 8/10, gedeeld in story, highlight "Gratis analyse") | Aanbod | - | Carrousel delen + "Stuur AUDIT voor jouw club" |
 | vr 9/10 | - | (optioneel) Reel voice-over: "Wat je op een dinsdagavond in 60 seconden filmt voor je club" | Kennis | #18 Cold Open Demo | Weekend op de club, achter de schermen |
 | za 10/10 | - | - | - | - | Interclub of training, kort filmpje |
-| zo 11/10 | - | Geen post (opnamedag: tennisclub + padelclub; zinnen reel 5-7 eventueel di 13/10 namiddag). Reel 3 verschoven naar di 13/10 19:30 | Mening | #22 Contrarian Flip | Reel delen + poll "Akkoord / Niet akkoord" |
+| zo 11/10 | - | ✅ Opnamedag gedaan: reel 3 volledig (3 zinnen + sfeer tennis en padel), ruwe montage v10 klaar. Zinnen reel 5-7 nog niet: di 13/10 namiddag. Reel 3 verschoven naar di 13/10 19:30 | Mening | #22 Contrarian Flip | Reel delen + poll "Akkoord / Niet akkoord" |
 
 ## Weekplan 12 tot 18 oktober (eerste week vast ritme)
 
