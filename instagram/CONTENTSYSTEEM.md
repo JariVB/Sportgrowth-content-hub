@@ -10,20 +10,21 @@ Dit systeem herhaalt zich elke 4 weken. Alleen de onderwerpen veranderen, de vor
 - de voorzitter of het bestuur (beslist en betaalt)
 - de vrijwilliger die "ook nog de Instagram doet" (voelt de pijn en brengt het aan op het bestuur)
 
-Tennis, padel en andere sportclubs in Vlaanderen. **Kern: racketclubs, tennis en padel gelijk verdeeld.**
+**Alle sportclubs in Vlaanderen**: voetbal, tennis, padel, hockey, basket, volley, turnen, zwemmen, fitness...
 
-**Tennis en padel om beurt (vaste regel):**
-- Elke week minstens **1 post voor padelclubs en 1 voor tennisclubs**. De derde post is algemeen ("club", "sportclub") en toont beide sporten in beeld.
-- Geldt een onderwerp voor elke club → titel met "club" of "sportclub". Is het sportspecifiek → noem de sport (tennisclub, padelclub).
-- Cover en beelden passen bij de sport in de titel: padeltitel = padelbeeld.
-- Jari speelt tennis én padel en geeft elke dinsdag padeltraining. Dat maakt hem geloofwaardig bij padelclubs; toon dat ("Ik geef zelf padeltraining").
+**Algemeen eerst, sport als voorbeeld (vaste regel):**
+- **2 van de 3 posts per week zijn algemeen**: titel met "club", "sportclub" of "vereniging". Elke club moet zich erin herkennen, welke sport ook.
+- **1 post per week is sportspecifiek**, en de sport wisselt: padel → voetbal → tennis → een andere sport (hockey, basket, volley...). Zo voelt elke sport zich na een maand aangesproken.
+- **Beeld in algemene posts: meng sporten** (een terrein, een kleedkamer, een clubhuis, een tribune), niet altijd een racket.
+- Jari's eigen beeld: **tennis** (eigen club), **padel** (geeft elke dinsdag training), **voetbal** (speelt elke zaterdag). Andere sporten: beeld van klanten, stock of een gsm-mockup van hun profiel.
 
-| | Tennisclub | Padelclub |
+Twee soorten clubs, met een andere pijn:
+
+| | Vereniging (voetbal, tennis, hockey, basket, volley...) | Commerciële club (padel, fitness, crossfit...) |
 |---|---|---|
-| **Soort club** | Vereniging, bestuur van vrijwilligers | Vaak commercieel, een uitbater met budget |
-| **Pijn** | Leden vergrijzen, te weinig jeugd, padel trekt spelers weg, niemand heeft tijd | Lege terreinen in de daluren, eenmalige huurders die niet terugkomen, de padelclub verderop |
-| **Wil** | Meer (jeugd)leden, een club die leeft | Volle terreinen, vaste spelers, lessen en tornooien vol |
-| **Beslist** | Voorzitter / bestuur | Uitbater / zaakvoerder |
+| **Beslist** | Voorzitter / bestuur van vrijwilligers | Uitbater / zaakvoerder |
+| **Pijn** | Niemand heeft tijd, leden vergrijzen, te weinig jeugd, sponsors willen iets terug, lege tribunes | Lege uren, eenmalige klanten die niet terugkomen, de concurrent verderop |
+| **Wil** | Meer (jeugd)leden, een club die leeft, tevreden sponsors | Volle uren, vaste klanten, lessen en events vol |
 
 **Hun pijn, in hun woorden:**
 - "Niemand heeft tijd om te posten."
@@ -81,7 +82,7 @@ Verdeling per 4 weken (12 posts): 3 HERKENBAAR? · 3 CLUBCHECK · 2 RESULTAAT ·
 2. **Kort en scanbaar:** 2-4 blokjes van 1-3 zinnen, witregels ertussen. Emoji's alleen om het oog te leiden (❌ ✅ 🎾 📈 1️⃣), niet als versiering.
 3. **Eén echte vraag** die een gesprek start ("Met welke zin begint jullie bio nu? 👇"), geen "laat een like".
 4. **Eén CTA**, altijd dezelfde: "👉 Geen tijd om dit zelf te doen? Stuur AUDIT in een DM, dan bekijken wij gratis de Instagram van jullie club." Geen tweede CTA (geen "bewaar", "deel" of "link in bio" erbij).
-5. **3-5 nichehashtags**, geen grote: #tennisclub #padelclub #clubbestuur #tennisvlaanderen #padelvlaanderen #sportclub. Geen #tennis of #padel alleen.
+5. **3-5 nichehashtags**, geen grote: #sportclub #sportvereniging #clubbestuur #vrijwilligers, plus 1-2 van de sport in de post (#voetbalclub #tennisclub #padelclub #hockeyclub...). Geen #voetbal, #tennis of #padel alleen.
 
 **Carrousel (8 slides):** 1 hook · 2 herkenning · 3-6 inhoud · 7 "Dit doen wij voor jullie club" · 8 "Stuur AUDIT".
 
@@ -106,7 +107,7 @@ Regels:
 
 ## 5c. Covers en profielraster (wat een club ziet als ze je profiel opent)
 Een club beslist in het raster of ze doorklikt. Elke cover moet op postzegelformaat (1/3 van het scherm) meteen zeggen: dit gaat over jullie club.
-1. **Clubwoord in de titel:** tennisclub, padelclub, sportclub, clubbio, leden, trainer, clubhuis, interclub.
+1. **Clubwoord in de titel:** club, sportclub, vereniging, clubbio, leden, trainer, clubhuis, supporters; of de sport zelf (voetbalclub, tennisclub, padelclub) in de sportspecifieke post.
 2. **Titel groot en kort** (max. 8 woorden), in het **midden** van de cover (tussen 25% en 75% van de hoogte), zodat de 3:4-uitsnede van het raster hem niet afsnijdt. Kleine tekst is in het raster onleesbaar: zet daar niets belangrijks in.
 3. **Clubleven in beeld:** mensen op een terrein, een vol clubhuis, een trainer, een gsm met een clubprofiel. Geen lege terreinen of netten als achtergrond tenzij het om "leeg" gaat.
 4. **Nooit twee keer dezelfde foto naast elkaar**, en afwisselen: foto-cover en effen donkerblauwe cover om beurt (dambordpatroon), zodat het raster rustig maar niet saai oogt.
@@ -123,8 +124,7 @@ Elke titel = een **noodzaak van de club** + **"Zo"** + het **resultaat**. De pos
 | **Tijd / vrijwilligers** | Zo vult je club een week Instagram in 10 minuten · Zo hoeft je voorzitter nooit meer om 23u te posten |
 | **Sponsors** | Zo geef je je sponsors iets terug op Instagram · Zo vind je nieuwe sponsors via je clubaccount |
 | **Events vol krijgen** | Zo krijg je je clubtornooi vol · Zo promoot je je clubfeest zonder één affiche · Zo maak je van de interclub een reden om lid te worden |
-| **Padelclubs** | Zo vul je je padelterreinen in de daluren · Zo maak je van een eenmalige huurder een vaste speler · Zo kiest een padelspeler jullie club, niet die van verderop · Zo krijg je je padeltornooi vol · Zo vul je je padellessen zonder affiches |
-| **Tennisclubs** | Zo krijg je meer jeugd in je tennisclub · Zo win je spelers terug van padel · Zo maak je je interclubploeg zichtbaar |
+| **Sportspecifiek (1 per week, sport wisselt)** | ⚽ Zo krijg je meer supporters naar je thuismatch · ⚽ Zo vind je trainers voor je jeugdploegen · 🟦 Zo vul je je padelterreinen in de daluren · 🟦 Zo maak je van een eenmalige huurder een vaste speler · 🎾 Zo krijg je meer jeugd in je tennisclub · 🎾 Zo vul je je tennislessen in de winter · 🏑🏀🏐 Zo toon je je wedstrijd in 15 seconden |
 | **Bewijs en aanbod (SGM)** | Zo bereikte een padelclub 3.367 mensen in 6 weken · Zo ziet een maand Instagram eruit als wij het voor je club doen · Zoveel kost een Instagram die leden oplevert |
 
 Seizoenshaakjes: oktober-maart winter/indoor en jeugdkampen (kerst, krokus); januari-maart inschrijvingen en lidgeld; april start buitenseizoen en interclub; juni clubfeest en zomerkampen.
@@ -152,7 +152,7 @@ Seizoenshaakjes: oktober-maart winter/indoor en jeugdkampen (kerst, krokus); jan
 | Wanneer | Wat |
 |---|---|
 | Elke 2 weken, di-namiddag | Opnamemoment op een club: alle zinnen in de camera en sfeerbeelden voor 4 reels |
-| Elke dinsdagavond | Padeltraining = vaste padelshoot: 2-3 sfeerbeelden (rally, uitleg, lachen, terras) voor de padelpost van die week of de week erna |
+| Di-avond / za-namiddag | Je padeltraining en je voetbalmatch = vaste sfeerbeelden (2-3 per keer: actie, uitleg, lachen, clubhuis/kantine). Voor algemene posts en de sportspecifieke post. Vraag ploeggenoten even of ze in beeld mogen. |
 | Woensdag | Monteren: 2 reels + 1 carrousel, alles inplannen voor de week erna |
 | Ma-avond / do-avond | Stories, reageren, DM's |
 | Claude | Scripts, carrousels, covers, overlays, captions, ruwe montage |
@@ -173,9 +173,11 @@ Week 12-18/10 blijft zoals gepland (carrousel clubbio, reel 3, reel 4 met nieuwe
 
 | Week | Ma · carrousel | Di · reel 1 | Do · reel 2 |
 |---|---|---|---|
-| **19/10** | ALGEMEEN · HERKENBAAR? "Zo check je of jullie Instagram leden aantrekt" (`carrousel-5-tekenen/`) | 🎾 TENNIS · CLUBTIP: "Zo krijg je meer jeugd in je tennisclub" (reel 5) | 🟦 PADEL · RESULTAAT: "Zo bereikte een padelclub 3.367 mensen in 6 weken" (reel 6, Jan Stilten) |
-| **26/10** | ALGEMEEN · ZO WERKT SGM: "Zo ziet een maand Instagram eruit als wij het voor je club doen" | 🎾 TENNIS · CLUBTIP: "Zo schrijf je een clubbio die leden aantrekt" (reel 9, voorraad; voorbeeld = tennisclub) | 🟦 PADEL · CLUBTIP: "Zo vul je je padelterreinen in de daluren" (filmen op je training di 20/10 of 27/10) |
-| **2/11** | ALGEMEEN · CLUBTIP: "Zo geef je je sponsors iets terug op Instagram" | 🎾 TENNIS · CLUBTIP: "Zo promoot je je clubfeest zonder één affiche" (reel 7 herwerkt) | 🟦 PADEL · HERKENBAAR?: "Zo maak je van een eenmalige huurder een vaste speler" (filmen op je training di 27/10) |
-| **9/11** | ALGEMEEN · ZO WERKT SGM: "Zoveel kost een Instagram die leden oplevert" | 🎾 TENNIS · CLUBTIP: "Zo maak je van een proefles een nieuw lid" | 🟦 PADEL · CLUBTIP: "Zo kiest een padelspeler jullie club, niet die van verderop" (filmen op je training di 3/11) |
+| **19/10** | ALGEMEEN · HERKENBAAR? "Zo check je of jullie Instagram leden aantrekt" (`carrousel-5-tekenen/`) | 🎾 TENNIS · CLUBTIP: "Zo krijg je meer jeugd in je tennisclub" (reel 5) | ALGEMEEN · RESULTAAT: "Zo bereikte een padelclub 3.367 mensen in 6 weken" (reel 6, Jan Stilten; het resultaat telt, niet de sport) |
+| **26/10** | ALGEMEEN · ZO WERKT SGM: "Zo ziet een maand Instagram eruit als wij het voor je club doen" | ALGEMEEN · CLUBTIP: "Zo schrijf je een clubbio die leden aantrekt" (reel 9, voorraad) | 🟦 PADEL · CLUBTIP: "Zo vul je je padelterreinen in de daluren" (filmen op je training di 20/10) |
+| **2/11** | ALGEMEEN · CLUBTIP: "Zo geef je je sponsors iets terug op Instagram" | ALGEMEEN · CLUBTIP: "Zo promoot je je clubfeest zonder één affiche" (reel 7 herwerkt) | ⚽ VOETBAL · CLUBTIP: "Zo krijg je meer supporters naar je thuismatch" (filmen bij je match za 24/10 of 31/10) |
+| **9/11** | ALGEMEEN · ZO WERKT SGM: "Zoveel kost een Instagram die leden oplevert" | ALGEMEEN · CLUBTIP: "Zo maak je van een proefles een nieuw lid" (beelden van meerdere sporten) | 🎾 TENNIS · CLUBTIP: "Zo vul je je tennislessen in de winter" |
+
+Volgende ronde (vanaf 16/11): RESULTAAT #2 (eerste klant of TTV/Westerlo met akkoord), "Zo hoeft je voorzitter nooit meer om 23u te posten", "Zo vult je club een week Instagram in 10 minuten", en als sportspecifieke post een andere sport (hockey, basket of volley).
 
 Volgende ronde (vanaf 16/11): RESULTAAT #2 (eerste klant of TTV/Westerlo met akkoord), "Zo hoeft je voorzitter nooit meer om 23u te posten" (tennis), "Zo vult je club een week Instagram in 10 minuten" (achter de schermen op je padeltraining), "Zo krijg je je padeltornooi vol".
