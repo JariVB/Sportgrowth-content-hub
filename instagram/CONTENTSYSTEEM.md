@@ -125,7 +125,7 @@ Week 12-18/10 blijft zoals gepland (carrousel clubbio, reel 3, reel 4 met nieuwe
 
 | Week | Ma · carrousel | Di · reel 1 | Do · reel 2 |
 |---|---|---|---|
-| **19/10** | HERKENBAAR? "5 tekenen dat de Instagram van je club leden kost" | CLUBTIP: je bio (reel 5, nieuwe afsluiter) | RESULTAAT: "Jan Stilten: van losse affiches naar 3.367 bereikt" (schermbeelden + 2 zinnen van jou) |
+| **19/10** | HERKENBAAR? "Jullie club groeit niet. Omdat jullie dit elke week doen." (`carrousel-5-tekenen/`) | CLUBTIP: "Jullie bio jaagt nieuwe leden weg. Door één zin." (reel 5) | RESULTAAT: "Jullie posten affiches. Deze club postte iets anders, en bereikte 3.367 mensen." (reel 6, Jan Stilten) |
 | **26/10** | ZO WERKT SGM: "Zo werkt het, in 4 stappen" | CLUBCHECK #1 (TTV of Westerlo met akkoord, anders anoniem) | HERKENBAAR?: "Wie heeft het wachtwoord van onze Instagram?" |
 | **2/11** | CLUBCHECK #1: de nieuwe versie (bio, grid, highlights) | HERKENBAAR?: "Dit is geen post, dit is een affiche" (reel 7 herwerkt) | ZO WERKT SGM: "Zo ziet een opnamemoment eruit" (achter de schermen op je training) |
 | **9/11** | ZO WERKT SGM: "Wat kost een Instagram die leden oplevert?" | CLUBCHECK #2 | RESULTAAT #2 (cijfers van Jan Stilten na 3 maanden, of eerste nieuwe klant) |

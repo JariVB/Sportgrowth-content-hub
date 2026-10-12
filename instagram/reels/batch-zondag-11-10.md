@@ -30,17 +30,17 @@ Plek: tennisterrein achter je, padelkooien in de verte.
 5. Toon dus je trainers, je jeugd en je clubhuis na een match.
 6. Ik ben Jari van SportGrowth Media. Stuur AUDIT en ik bekijk gratis jullie Instagram.
 
-## Reel 5 · "Deze zin kost je club nieuwe leden" (bio) · di 20/10
+## Reel 5 · "Jullie bio jaagt nieuwe leden weg" (bio) · di 20/10
 Plek: aan de ingang of bij het clubhuis. Hou je gsm in je hand alsof je een profiel toont.
 **Doelpunt (open + slot):** close-up van je gsm waarop een bericht binnenkomt: "Hoi! Hoe kan ik lid worden?" (laat een vriend het je sturen en film het scherm). Tekst: "Dit wil elke club". Slot: hetzelfde bericht, nu na de nieuwe bio.
-1. Deze ene zin kost je club nieuwe leden.
+1. Jullie bio jaagt nieuwe leden weg. Door één zin.
 2. Bijna elke clubbio begint met "Welkom bij".
 3. Maar wie je profiel opent, wil maar drie dingen weten: wat, waar, en hoe word ik lid.
 4. Dus schrijf: tennis en padel in je gemeente, lessen voor jong en oud, en "stuur ons een bericht om lid te worden".
 5. Drie regels, en een nieuw lid weet meteen wat te doen.
 6. Ik ben Jari van SportGrowth Media. Geen tijd om dit zelf te doen? Wij doen het voor jullie club. Stuur AUDIT voor een gratis analyse.
 
-## Reel 6 · "Je beste reclame toon je nooit" (trainers) · do 22/10
+## Reel 6 · "Je beste reclame toon je nooit" (trainers) · voorraad (do 22/10 wordt de RESULTAAT-reel over Jan Stilten)
 Plek: naast het net. Is er een trainer, vraag dan 10 seconden beeld van hem terwijl hij iets uitlegt.
 **Doelpunt (open + slot):** een trainer die een speler een high five geeft of applaudisseert na een goede bal. Tekst: "Dit verkoopt je club". Slot: hetzelfde beeld, langer.
 1. Je beste reclame staat elke week op je terrein, en je toont ze nooit.
