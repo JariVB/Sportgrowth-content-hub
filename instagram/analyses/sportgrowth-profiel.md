@@ -36,3 +36,11 @@ Score: 54/100. Grootste probleem: de grid bestaat volledig uit donkerblauwe teks
 - Nieuwe cover resultaat-reel: `reels/covers-nieuw/reel-jan-stilten-v2.png` (titel valt binnen de 3:4-uitsnede; de oude sneed "BEREIKT" af).
 - Gearchiveerd: "Niet de beste club wint", "Hoe hou jij leden vast?", reel "Jan Stilten", dubbel "3.367 mensen bereikt", dubbel "Ik ben geen marketeer". ✅ Nieuwe cover resultaat staat online. ✅
 - "3 fouten op de Instagram van tennisclubs" (3.061 views) = best werkende vorm → herhalen per sport.
+
+## Oudere posts opruimen (advies 12/10)
+Regel: een post blijft als hij (1) een club aanspreekt, (2) geen dubbel is, (3) SGM niet als beginner toont.
+- Archiveren (over jezelf als starter): "Ik lanceerde een social media agency in 3 dagen" (toont 7 volgers), "30 dagen geleden startte ik SGM", "Maand 1 als agency owner".
+- Archiveren (dubbel "fouten"): "Bijna elke club maakt dezelfde 3 fouten", "Fout 3", "5 dingen die je onzichtbaar maken", "Wat ik zie als ik de Instagram van een sportclub open".
+- Archiveren (geen club / dubbel fitness): "Waarom klanten kiezen voor de PT…", "De grote ketens hebben minder service dan jij".
+- Na reel 3 (di 13/10): oude reel "Tennisclubs verliezen leden aan padelclubs…" archiveren (zelfde boodschap).
+- Blijven: alle andere. Posts met "DM GROEI" blijven; GROEI behandelen als AUDIT.
