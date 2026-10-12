@@ -17,13 +17,14 @@ Link voor stickers: `https://sportgrowthmedia.be/?utm_source=instagram&utm_mediu
 ## Ma 12/10 · Carrousel "Zo schrijf je een clubbio die leden aantrekt" (19u30)
 - **Post:** klaar in `carrousel-clubbio/` (8 slides + `caption.txt`).
 - **Story (19u35):** carrousel delen + "Hoe begint jullie bio? 👀" met vraagsticker.
-- **Werk:** ondernemingsnummer + btw, Balthazar opvolgen, statistieken naar Claude.
+- **Werk:** reel 3 afwerken en inplannen (ruwe montage v10 klaar), Balthazar opvolgen, statistieken naar Claude. Ondernemingsnummer + btw → di 13/10 13u.
 
 ---
 
 ## Di 13/10 · Reel 3 "Tennisclubs verliezen geen leden door padel" (19u30)
 - **Script:** `reels/batch-zondag-11-10.md` (reel 3). Caption: `reels/03-caption.txt`.
 - **Story (in een pauze van je training):** reel delen + poll "Akkoord?" met "Akkoord" / "Niet akkoord".
+- **Namiddag (13u-15u):** ondernemingsnummer + btw; shoot zinnen reel 5 (+6, 7).
 - **Tijdens je training (18u-22u30):** extra clips voor reel 4, zie de shotlist.
 
 ---
