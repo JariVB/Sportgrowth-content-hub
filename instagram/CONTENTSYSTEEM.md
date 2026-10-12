@@ -147,6 +147,8 @@ Seizoenshaakjes: oktober-maart winter/indoor en jeugdkampen (kerst, krokus); jan
 **Highlights:** Gratis analyse · Resultaten · Zo werkt het · Wat het kost.
 
 ## 7. Wat er gebeurt na een AUDIT
+**Ook zonder AUDIT:** volgt een club of bestuurslid je, of stuurt iemand een DM (zoals Baltha, Westerlo en TTV Turnhout na reel 1), stuur binnen 24 uur: "Hoi! Leuk dat jullie meevolgen 🙌 Ik heb even naar jullie Instagram gekeken en zie een paar dingen die snel beter kunnen. Zal ik jullie een korte gratis analyse sturen?" Bij ja: verder vanaf stap 2.
+
 1. Automatisch antwoord (DM) bedankt en vraagt de naam van de club.
 2. Binnen 48 uur: analysevideo van ±4 minuten (zoals TTV Turnhout en Westerlo) + score op 100.
 3. In het bericht: "Zal ik in een kort gesprek tonen hoe we dit voor jullie aanpakken?" + vraag of je de analyse mag tonen (CLUBCHECK).
