@@ -57,12 +57,12 @@ const slides = [];
 slides.push(page(1, `
 <div class="bg" style="background-image:url(file://${B}/tennis-leeg-gravel.jpg)"></div><div class="dim"></div>
 <div class="swipe">Tel mee →</div>
-<div style="position:absolute;left:70px;right:70px;top:560px;display:flex;flex-direction:column;gap:30px">
+<div style="position:absolute;left:70px;right:70px;top:470px;display:flex;flex-direction:column;gap:30px">
 <span class="tag" style="align-self:flex-start">HERKENBAAR?</span>
-<h1>5 tekenen dat<br>de Instagram<br>van je club<br><span class="c">leden kost</span></h1>
-<p class="t" style="font-size:44px"><b>Hoeveel herken jij?</b> Wees eerlijk 👀</p>
+<h1>Jullie club<br>groeit niet.<br><span class="c">Omdat jullie<br>dit elke week<br>doen.</span></h1>
+<p class="t" style="font-size:44px"><b>5 dingen. Hoeveel herken jij?</b> 👀</p>
 </div>
-<div style="position:absolute;right:70px;top:430px;width:230px;height:230px;border-radius:50%;background:#00d4ff;color:#0d1b3e;display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(8deg);box-shadow:0 20px 50px rgba(0,0,0,.4)"><span style="font:700 110px/0.9 Rj">?/5</span><span style="font:800 24px In;letter-spacing:.05em">JOUW SCORE</span></div>
+<div style="position:absolute;right:70px;top:300px;width:230px;height:230px;border-radius:50%;background:#00d4ff;color:#0d1b3e;display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(8deg);box-shadow:0 20px 50px rgba(0,0,0,.4)"><span style="font:700 110px/0.9 Rj">?/5</span><span style="font:800 24px In;letter-spacing:.05em">JOUW SCORE</span></div>
 `));
 
 // 2 TEKEN 1: laatste post

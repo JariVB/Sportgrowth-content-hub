@@ -72,6 +72,16 @@ Verdeling per 4 weken (12 posts): 3 HERKENBAAR? · 3 CLUBCHECK · 2 RESULTAAT ·
 
 **Carrousel (8 slides):** 1 hook · 2 herkenning · 3-6 inhoud · 7 "Dit doen wij voor jullie club" · 8 "Stuur AUDIT".
 
+## 5b. De hook (eerste regel van elke post)
+Raakt de eerste regel niet, dan doet de rest er niet toe. Laat de club meteen iets voelen.
+| Niveau | Voorbeeld | Waarom |
+|---|---|---|
+| ❌ Slecht | "5 tips voor de Instagram van je club" | Een onderwerp, geen gevoel |
+| 🟡 Beter | "Waarom jullie posten en toch geen nieuwe leden krijgen" | Benoemt de pijn |
+| ✅ Best | "Jullie club groeit niet. Omdat jullie dit elke week doen." | Spreekt de club rechtstreeks aan, legt de schuld bij iets wat ze zelf doen, en belooft het antwoord |
+
+Regels: spreek de club aan met "jullie", noem een gevolg dat pijn doet (leden, groei, een nieuw lid dat elders kiest), wijs naar iets wat ze zelf doen, en verklap het antwoord niet op de cover. Elke hook gaat langs deze ladder vóór hij gebruikt wordt.
+
 ## 6. Stories (dagelijks, 2-5 minuten)
 | Dag | Story |
 |---|---|
