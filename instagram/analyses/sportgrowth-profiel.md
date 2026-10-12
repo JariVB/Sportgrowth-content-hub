@@ -30,3 +30,9 @@ Score: 54/100. Grootste probleem: de grid bestaat volledig uit donkerblauwe teks
 - **Categorie:** Marketingbureau
 - **Profielfoto:** je gezicht (still 19.6 of 20.2 van 11/10), geen logo
 - **Highlights:** Gratis analyse · Resultaten · Zo werkt het · Wat het kost
+
+## Update 12/10 (grid na vastzetten)
+- Vastgezet: Gratis analyse · Resultaat (Jan Stilten) · Zo werkt het. ✅
+- Nieuwe cover resultaat-reel: `reels/covers-nieuw/reel-jan-stilten-v2.png` (titel valt binnen de 3:4-uitsnede; de oude sneed "BEREIKT" af).
+- Nog archiveren: "Niet de beste club wint" en "Hoe hou jij leden vast?" (lege covers, weinig views).
+- "3 fouten op de Instagram van tennisclubs" (3.061 views) = best werkende vorm → herhalen per sport.
