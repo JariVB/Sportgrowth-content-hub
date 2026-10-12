@@ -55,7 +55,7 @@ const slides = [];
 
 // 1 COVER
 slides.push(page(1, `
-<div class="bg" style="background-image:url(file://${B}/tennis-leeg-gravel.jpg)"></div><div class="dim"></div>
+<div class="bg" style="background-image:url(file://${B}/tennis-hal-speler.jpg);background-position:center 35%"></div><div class="dim"></div>
 <div class="swipe">Tel mee →</div>
 <div style="position:absolute;left:70px;right:70px;top:520px;display:flex;flex-direction:column;gap:30px">
 <span class="tag" style="align-self:flex-start">HERKENBAAR?</span>

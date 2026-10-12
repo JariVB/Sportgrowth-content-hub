@@ -91,6 +91,15 @@ Regels:
 | "Deze zin kost je leden." | "Zo schrijf je een clubbio die leden aantrekt" |
 | "Jullie posten affiches." | "Zo bereikte een padelclub 3.367 mensen in 6 weken" |
 
+## 5c. Covers en profielraster (wat een club ziet als ze je profiel opent)
+Een club beslist in het raster of ze doorklikt. Elke cover moet op postzegelformaat (1/3 van het scherm) meteen zeggen: dit gaat over jullie club.
+1. **Clubwoord in de titel:** tennisclub, padelclub, sportclub, clubbio, leden, trainer, clubhuis, interclub.
+2. **Titel groot en kort** (max. 8 woorden), in het **midden** van de cover (tussen 25% en 75% van de hoogte), zodat de 3:4-uitsnede van het raster hem niet afsnijdt. Kleine tekst is in het raster onleesbaar: zet daar niets belangrijks in.
+3. **Clubleven in beeld:** mensen op een terrein, een vol clubhuis, een trainer, een gsm met een clubprofiel. Geen lege terreinen of netten als achtergrond tenzij het om "leeg" gaat.
+4. **Nooit twee keer dezelfde foto naast elkaar**, en afwisselen: foto-cover en effen donkerblauwe cover om beurt (dambordpatroon), zodat het raster rustig maar niet saai oogt.
+5. **Reekslabel bovenaan** (HERKENBAAR?, CLUBTIP, RESULTAAT, ZO WERKT SGM): een club ziet in één blik wat voor post het is.
+6. **Vastgezet (3 posts bovenaan):** 1) Zo werkt SGM (wat we voor een club doen), 2) Resultaat Jan Stilten, 3) Gratis analyse. Wie het profiel opent, ziet zo meteen wat SGM doet, dat het werkt, en de eerste stap.
+
 ## 6. Stories (dagelijks, 2-5 minuten)
 | Dag | Story |
 |---|---|
