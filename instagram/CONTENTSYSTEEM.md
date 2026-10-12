@@ -91,6 +91,7 @@ Verdeling per 4 weken (12 posts): 3 HERKENBAAR? · 3 CLUBCHECK · 2 RESULTAAT ·
 
 **Rol van elk formaat (bewezen met de cijfers van september-oktober):**
 - **Reels brengen nieuwe clubs binnen**: reel 1 bereikte 95% niet-volgers en leverde 3 clubcontacten op.
+- **Persoonlijk verhaal (jij als sportmens/trainer) wordt het meest gedeeld**: reel 2 "Ik ben geen marketeer" had 4% delen (7x reel 1) en meer profielbezoek per kijker, maar een jonger publiek. 1x per maand, binnen ZO WERKT SGM, mét clubwoord in de hook ("Ik geef zelf padeltraining op een club").
 - **Carrousels overtuigen wie al kijkt**: "Wat jouw club kan posten" bereikte 69% eigen volgers en 0 nieuwe mensen. Meet carrousels op bewaren, delen en DM's, niet op bereik.
 - **Meer bereik voor een carrousel:** maak er een samenwerkingspost (Collab) van met een klant of club, zodat hij ook bij hun volgers verschijnt (eerst Jan Stilten, daarna Baltha).
 
