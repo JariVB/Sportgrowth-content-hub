@@ -72,15 +72,24 @@ Verdeling per 4 weken (12 posts): 3 HERKENBAAR? · 3 CLUBCHECK · 2 RESULTAAT ·
 
 **Carrousel (8 slides):** 1 hook · 2 herkenning · 3-6 inhoud · 7 "Dit doen wij voor jullie club" · 8 "Stuur AUDIT".
 
-## 5b. De hook (eerste regel van elke post)
-Raakt de eerste regel niet, dan doet de rest er niet toe. Laat de club meteen iets voelen.
-| Niveau | Voorbeeld | Waarom |
-|---|---|---|
-| ❌ Slecht | "5 tips voor de Instagram van je club" | Een onderwerp, geen gevoel |
-| 🟡 Beter | "Waarom jullie posten en toch geen nieuwe leden krijgen" | Benoemt de pijn |
-| ✅ Best | "Jullie jagen nieuwe leden weg. Met deze 5 dingen." | Spreekt de club rechtstreeks aan, legt de schuld bij iets wat ze zelf doen, en belooft het antwoord |
+## 5b. De hook (titel en eerste regel van elke post)
+**Vaste formule: "Zo [doe je iets wat elke club kent] die/dat [resultaat dat de club wil]."**
+Voorbeeld en norm: **"Zo schrijf je een clubbio die leden aantrekt."**
 
-Regels: kort (max. 6 woorden op de cover, de rest in een kleine tweede regel), spreek de club aan met "jullie", noem een gevolg dat pijn doet (leden, groei, een nieuw lid dat elders kiest), wijs naar iets wat ze zelf doen, en verklap het antwoord niet op de cover. Elke hook gaat langs deze ladder vóór hij gebruikt wordt.
+Waarom deze vorm: een club ziet meteen **waarover** het gaat (iets uit hun eigen clubleven: bio, affiche, trainers, interclub) en **wat het oplevert** (leden, een volle les, een vol clubhuis). Duidelijk en herkenbaar wint van spannend en vaag.
+
+Regels:
+- Begin met **"Zo"** (of een cijfer: "3 regels", "60 seconden").
+- Noem een **herkenbaar clubwoord**: clubbio, affiche, trainer, interclub, clubhuis, jeugd, nieuw lid.
+- Eindig met het **resultaat**: leden aantrekken, een volle les, meer inschrijvingen.
+- **Kort**: max. 8 woorden op de cover; extra info in een kleine tweede regel.
+- Toets: (1) ziet een club in 1 seconde waarover het gaat? (2) ziet ze wat het haar oplevert?
+
+| ❌ Te vaag | ✅ Zo |
+|---|---|
+| "Jullie jagen nieuwe leden weg." | "Zo check je of jullie Instagram leden aantrekt" |
+| "Deze zin kost je leden." | "Zo schrijf je een clubbio die leden aantrekt" |
+| "Jullie posten affiches." | "Zo bereikte een padelclub 3.367 mensen in 6 weken" |
 
 ## 6. Stories (dagelijks, 2-5 minuten)
 | Dag | Story |
@@ -125,7 +134,7 @@ Week 12-18/10 blijft zoals gepland (carrousel clubbio, reel 3, reel 4 met nieuwe
 
 | Week | Ma · carrousel | Di · reel 1 | Do · reel 2 |
 |---|---|---|---|
-| **19/10** | HERKENBAAR? "Jullie jagen nieuwe leden weg. Met deze 5 dingen." (`carrousel-5-tekenen/`) | CLUBTIP: "Jullie bio jaagt nieuwe leden weg. Door één zin." (reel 5) | RESULTAAT: "Jullie posten affiches. Deze club postte iets anders, en bereikte 3.367 mensen." (reel 6, Jan Stilten) |
+| **19/10** | HERKENBAAR? "Zo check je of jullie Instagram leden aantrekt" (`carrousel-5-tekenen/`) | CLUBTIP: "Zo schrijf je een clubbio in 3 regels" (reel 5) | RESULTAAT: "Zo bereikte een padelclub 3.367 mensen in 6 weken" (reel 6, Jan Stilten) |
 | **26/10** | ZO WERKT SGM: "Zo werkt het, in 4 stappen" | CLUBCHECK #1 (TTV of Westerlo met akkoord, anders anoniem) | HERKENBAAR?: "Wie heeft het wachtwoord van onze Instagram?" |
 | **2/11** | CLUBCHECK #1: de nieuwe versie (bio, grid, highlights) | HERKENBAAR?: "Dit is geen post, dit is een affiche" (reel 7 herwerkt) | ZO WERKT SGM: "Zo ziet een opnamemoment eruit" (achter de schermen op je training) |
 | **9/11** | ZO WERKT SGM: "Wat kost een Instagram die leden oplevert?" | CLUBCHECK #2 | RESULTAAT #2 (cijfers van Jan Stilten na 3 maanden, of eerste nieuwe klant) |

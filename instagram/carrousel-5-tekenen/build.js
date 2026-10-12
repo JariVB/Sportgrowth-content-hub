@@ -59,8 +59,8 @@ slides.push(page(1, `
 <div class="swipe">Tel mee →</div>
 <div style="position:absolute;left:70px;right:70px;top:520px;display:flex;flex-direction:column;gap:30px">
 <span class="tag" style="align-self:flex-start">HERKENBAAR?</span>
-<h1 style="font-size:150px">Jullie jagen<br>nieuwe leden<br><span class="c">weg.</span></h1>
-<p class="t" style="font-size:46px"><b>Met deze 5 dingen.</b> Hoeveel herken jij? 👀</p>
+<h1 style="font-size:124px">Zo check je<br>of jullie Instagram<br><span class="c">leden aantrekt</span></h1>
+<p class="t" style="font-size:46px"><b>5 punten.</b> Hoeveel scoren jullie? 👀</p>
 </div>
 <div style="position:absolute;right:70px;top:250px;width:230px;height:230px;border-radius:50%;background:#00d4ff;color:#0d1b3e;display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(8deg);box-shadow:0 20px 50px rgba(0,0,0,.4)"><span style="font:700 110px/0.9 Rj">?/5</span><span style="font:800 24px In;letter-spacing:.05em">JOUW SCORE</span></div>
 `));
@@ -68,7 +68,7 @@ slides.push(page(1, `
 // 2 TEKEN 1: laatste post
 slides.push(page(2, `
 <div class="num">1</div>
-<div class="top"><span class="tag" style="align-self:flex-start">1/5 · HERKEN JE DIT?</span>
+<div class="top"><span class="tag" style="align-self:flex-start">CHECK 1/5</span>
 <h2>Je laatste post is<br>ouder dan je<br><span class="c">laatste training</span></h2></div>
 <div class="phone" style="left:260px;top:560px;height:700px">
 ${profile({ posts: 38, fol: 412, vg: 87, name: 'Onze Sportclub', bio: 'Welkom bij onze club! 🎾⚽🏐' })}
@@ -81,7 +81,7 @@ ${profile({ posts: 38, fol: 412, vg: 87, name: 'Onze Sportclub', bio: 'Welkom bi
 // 3 TEKEN 2: prikbord
 slides.push(page(3, `
 <div class="num">2</div>
-<div class="top"><span class="tag" style="align-self:flex-start">2/5 · HERKEN JE DIT?</span>
+<div class="top"><span class="tag" style="align-self:flex-start">CHECK 2/5</span>
 <h2>Je grid is één<br>groot <span class="c">prikbord</span></h2>
 <p class="t">Affiches zeggen <b>wat</b> er gebeurt.<br>Niet <b>hoe het voelt</b>.</p></div>
 <div class="phone" style="left:260px;top:620px;height:590px">
@@ -93,7 +93,7 @@ slides.push(page(3, `
 // 4 TEKEN 3: niemand op
 slides.push(page(4, `
 <div class="num">3</div>
-<div class="top"><span class="tag" style="align-self:flex-start">3/5 · HERKEN JE DIT?</span>
+<div class="top"><span class="tag" style="align-self:flex-start">CHECK 3/5</span>
 <h2>Je trainers en leden<br>zie je <span class="c">nergens</span></h2>
 <p class="t">Mensen kiezen een club om <b>de mensen</b>.<br>Wie geeft er les? Wie staat er aan de bar?</p></div>
 <div style="position:absolute;left:70px;right:70px;top:720px;display:grid;grid-template-columns:1fr 1fr;gap:30px">
@@ -109,7 +109,7 @@ slides.push(page(4, `
 // 5 TEKEN 4: bio
 slides.push(page(5, `
 <div class="num">4</div>
-<div class="top"><span class="tag" style="align-self:flex-start">4/5 · HERKEN JE DIT?</span>
+<div class="top"><span class="tag" style="align-self:flex-start">CHECK 4/5</span>
 <h2>Je bio begint met<br><span class="c">"Welkom bij"</span></h2>
 <p class="t">Een nieuw lid wil 3 dingen weten:<br><b>wat, waar, en hoe word ik lid?</b></p></div>
 <div style="position:absolute;left:70px;right:70px;top:740px;display:flex;flex-direction:column;gap:26px">
@@ -123,7 +123,7 @@ slides.push(page(5, `
 // 6 TEKEN 5: DM
 slides.push(page(6, `
 <div class="num">5</div>
-<div class="top"><span class="tag" style="align-self:flex-start">5/5 · HERKEN JE DIT?</span>
+<div class="top"><span class="tag" style="align-self:flex-start">CHECK 5/5</span>
 <h2>Een nieuw lid stuurt<br>een bericht... <span class="c">en wacht</span></h2></div>
 <div class="phone" style="left:260px;top:520px;height:720px;background:#fff">
 <div style="padding:30px;border-bottom:2px solid #eee;font:800 26px In;display:flex;align-items:center;gap:16px"><div class="av" style="width:60px;height:60px;font-size:18px">LOGO</div>Onze Sportclub</div>
@@ -155,7 +155,7 @@ slides.push(page(7, `
 slides.push(page(8, `
 <div style="position:absolute;inset:0;background:#00d4ff"></div>
 <div style="position:absolute;left:70px;right:70px;top:120px;display:flex;flex-direction:column;gap:30px;color:#0d1b3e">
-<h2 style="font-size:110px">Jullie score?</h2>
+<h2 style="font-size:110px">Jullie score?</h2><div style="font:600 36px/1.3 In;margin-top:-14px">Hoeveel van de 5 deden jullie?</div>
 <div style="display:flex;flex-direction:column;gap:18px">
 <div style="background:#0d1b3e;color:#fff;border-radius:22px;padding:26px 32px;display:flex;gap:26px;align-items:center;font:600 36px/1.25 In"><span style="font:700 64px Rj;color:#00d4ff;min-width:120px">0-1</span>Goed bezig. Hou het zo ✅</div>
 <div style="background:#0d1b3e;color:#fff;border-radius:22px;padding:26px 32px;display:flex;gap:26px;align-items:center;font:600 36px/1.25 In"><span style="font:700 64px Rj;color:#f2b632;min-width:120px">2-3</span>Er liggen nieuwe leden te wachten ⚠️</div>

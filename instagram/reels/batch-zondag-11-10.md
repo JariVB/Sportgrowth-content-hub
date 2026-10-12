@@ -30,10 +30,10 @@ Plek: tennisterrein achter je, padelkooien in de verte.
 5. Toon dus je trainers, je jeugd en je clubhuis na een match.
 6. Ik ben Jari van SportGrowth Media. Stuur AUDIT en ik bekijk gratis jullie Instagram.
 
-## Reel 5 · "Jullie bio jaagt nieuwe leden weg" (bio) · di 20/10
+## Reel 5 · "Zo schrijf je een clubbio in 3 regels" (bio) · di 20/10
 Plek: aan de ingang of bij het clubhuis. Hou je gsm in je hand alsof je een profiel toont.
 **Doelpunt (open + slot):** close-up van je gsm waarop een bericht binnenkomt: "Hoi! Hoe kan ik lid worden?" (laat een vriend het je sturen en film het scherm). Tekst: "Dit wil elke club". Slot: hetzelfde bericht, nu na de nieuwe bio.
-1. Jullie bio jaagt nieuwe leden weg. Door één zin.
+1. Zo schrijf je een clubbio die nieuwe leden aantrekt. In drie regels.
 2. Bijna elke clubbio begint met "Welkom bij".
 3. Maar wie je profiel opent, wil maar drie dingen weten: wat, waar, en hoe word ik lid.
 4. Dus schrijf: tennis en padel in je gemeente, lessen voor jong en oud, en "stuur ons een bericht om lid te worden".
