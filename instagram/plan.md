@@ -15,7 +15,7 @@ Doel: meer kijkers (reels bereiken niet-volgers) en meer klanten (elke post eind
 - **Structuur van elke reel (lokken, dan uitleggen):** 0-2 s lokbeeld van wat een club wil (vol terrein, high five, vol clubhuis), positieve tekst van 3 à 5 woorden, nooit het probleem · 2-10 s het probleem · 10-22 s de oplossing · lokbeeld komt terug · afsluiter: wie je bent + AUDIT.
 - **Productie:** opnemen in 1 keer per 2 à 3 weken (batch). Woensdag monteren: de reel van donderdag, de reel van dinsdag erna en de carrousel van maandag erna (slides maakt Claude).
 - **Bij elke post:** 5 minuten reageren bij clubs, en de eerste reacties op je post binnen het uur beantwoorden.
-- **Bijsturen:** ma 12/10 eerste analyse met alle posts tot nu toe, ma 26/10 opnieuw na 2 weken vast ritme (taken staan in de checklist).
+- **Bijsturen:** ma 12/10 eerste analyse ✅ gedaan (`analyses/overzicht-sept-okt.md`, lessen in CONTENTSYSTEEM.md), ma 26/10 opnieuw na 2 weken vast ritme (taken staan in de checklist).
 
 ## Contenttoets: elke post vanuit de club bekeken
 Volledig systeem: `CONTENTSYSTEEM.md`.
@@ -70,8 +70,8 @@ Rode draad: de clubbio. Draaiboek: `DRAAIBOEK-12-18-OKTOBER.md`. Opnames: `SHOTL
 
 | Dag | Uur | Feed | Soort | Hook | Stories |
 |---|---|---|---|---|---|
-| ma 12/10 | 19:30 | Carrousel "Zo schrijf je een clubbio die leden aantrekt" (slides klaar: carrousel-clubbio/) | Kennis | - | Carrousel delen + vraagsticker "Hoe begint jullie bio?" |
-| di 13/10 | 19:30 | Reel 3 "Tennisclubs verliezen geen leden door padel" (opgenomen en gemonteerd zo 11/10) | Mening | #22 Contrarian Flip | Reel delen + poll "Akkoord / Niet akkoord" |
+| ma 12/10 | 19:30 | Carrousel "Zo schrijf je een clubbio die leden aantrekt" (✅ GEPOST + gedeeld in story) | Kennis | - | Carrousel delen + vraagsticker "Hoe begint jullie bio?" |
+| di 13/10 | 19:30 | Reel 3 "Tennisclubs verliezen geen leden door padel" (✅ ingepland) | Mening | #22 Contrarian Flip | Reel delen + poll "Akkoord / Niet akkoord" |
 | wo 14/10 | - | - | - | - | Poll "Wie beheert jullie clubaccount?" |
 | do 15/10 | 19:30 | Reel 4 voice-over "Zo film je in 60 seconden een week content voor je club" | Praktijk | #18 Cold Open Demo | Reel delen + vraagsticker |
 | vr 16/10 | - | - | - | - | - |
