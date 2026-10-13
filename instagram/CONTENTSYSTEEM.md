@@ -166,6 +166,7 @@ Seizoenshaakjes: oktober-maart winter/indoor en jeugdkampen (kerst, krokus); jan
 | Wanneer | Wat |
 |---|---|
 | Elke 2 weken, di-namiddag | Opnamemoment op een club: alle zinnen in de camera en sfeerbeelden voor 4 reels |
+| Kleding | Altijd de SportGrowth Media-trui: herkenning en merk. Afwisseling tussen reels komt van de plek (tennis, padel, clubhuis, voetbalveld), niet van de kleren. De afsluiter is een vaste eindkaart: 1 keer opnemen en ±6 weken gebruiken, daarna opnieuw op een andere plek. |
 | Di-avond / za-namiddag | Je padeltraining en je voetbalmatch = vaste sfeerbeelden (2-3 per keer: actie, uitleg, lachen, clubhuis/kantine). Voor algemene posts en de sportspecifieke post. Vraag ploeggenoten even of ze in beeld mogen. |
 | Woensdag | Monteren: 2 reels + 1 carrousel, alles inplannen voor de week erna |
 | Ma-avond / do-avond | Stories, reageren, DM's |
