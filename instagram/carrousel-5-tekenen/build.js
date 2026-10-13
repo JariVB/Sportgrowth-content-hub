@@ -151,7 +151,7 @@ slides.push(page(7, `
 </div>
 `));
 
-// 8 SCORE + AUDIT
+// 8 SCORE + DM
 slides.push(page(8, `
 <div style="position:absolute;inset:0;background:#00d4ff"></div>
 <div style="position:absolute;left:70px;right:70px;top:120px;display:flex;flex-direction:column;gap:30px;color:#0d1b3e">
@@ -163,8 +163,8 @@ slides.push(page(8, `
 </div>
 <div style="font:700 40px/1.3 In">Zet jullie score in de reacties 👇</div>
 <div style="background:#0d1b3e;color:#fff;border-radius:26px;padding:34px 40px;display:flex;flex-direction:column;gap:10px;margin-top:6px">
-<span style="font:700 76px/1 Rj">STUUR <span class="c">AUDIT</span></span>
-<span style="font:500 34px/1.3 In;color:#c9d4ee">in een DM en wij bekijken gratis de Instagram van jullie club</span></div>
+<span style="font:700 76px/1 Rj">STUUR <span class="c">EEN DM</span></span>
+<span style="font:500 34px/1.3 In;color:#c9d4ee">en wij bekijken gratis de Instagram van jullie club</span></div>
 </div>
 `, { nopg: false }));
 

@@ -7,7 +7,7 @@ Score: 54/100. Grootste probleem: de grid bestaat volledig uit donkerblauwe teks
 1. Bio: oproep toevoegen.
    Meer leden voor je sportclub via Instagram 🎾
    Jan Stilten Padel: 3.367 mensen bereikt in 6 weken, 0 ads
-   👇 Stuur AUDIT voor een gratis analyse
+   👇 Stuur een DM voor een gratis analyse
 2. Profielfoto: Jari op het padelterrein (jari-padelterrein.jpg) in plaats van het S/G-logo.
 3. Nieuwe covers met foto voor de vastgezette reels: reels/covers-nieuw/.
 4. Vastzetten: reel Jan (bewijs), reel 1 "3 fouten" (probleem), carrousel "gratis analyse" (aanbod). Reel 2 zit in highlight "Over mij".
@@ -25,7 +25,7 @@ Score: 54/100. Grootste probleem: de grid bestaat volledig uit donkerblauwe teks
   Wij beheren de Instagram van je sportclub 🎾
   📲 Posts, reels en stories, elke week
   📈 Meer zichtbaarheid, meer leden
-  👇 Stuur AUDIT: gratis analyse
+  👇 Stuur een DM: gratis analyse
 - **Link:** sportgrowthmedia.be
 - **Categorie:** Marketingbureau
 - **Profielfoto:** je gezicht (still 19.6 of 20.2 van 11/10), geen logo
@@ -43,4 +43,4 @@ Regel: een post blijft als hij (1) een club aanspreekt, (2) geen dubbel is, (3) 
 - Archiveren (dubbel "fouten"): "Bijna elke club maakt dezelfde 3 fouten", "Fout 3", "5 dingen die je onzichtbaar maken", "Wat ik zie als ik de Instagram van een sportclub open".
 - Archiveren (geen club / dubbel fitness): "Waarom klanten kiezen voor de PT…", "De grote ketens hebben minder service dan jij".
 - Na reel 3 (di 13/10): oude reel "Tennisclubs verliezen leden aan padelclubs…" archiveren (zelfde boodschap).
-- Blijven: alle andere. Posts met "DM GROEI" blijven; GROEI behandelen als AUDIT.
+- Blijven: alle andere. Posts met "DM GROEI" blijven; GROEI en AUDIT behandelen als een vraag naar een gratis analyse.

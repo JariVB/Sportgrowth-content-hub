@@ -1,11 +1,13 @@
-# DM-berichten voor het trefwoord AUDIT
+# DM-berichten voor een gratis analyse
+
+Vanaf 13/10 sluiten we af met "Stuur een DM voor een gratis analyse" (geen trefwoord meer). Elke DM die naar een analyse vraagt (ook oude trefwoorden AUDIT of GROEI) krijgt deze berichten.
 
 Voor wie `AUDIT` stuurt na de carrousel "Zo werkt het". Alles verstuur je zelf, met de hand.
 `{{ }}` = invullen per club.
 
 ## 1. Meteen antwoorden (zelfde dag)
 
-> Hey {naam}, top dat je AUDIT stuurde! Stuur me de @ van je club, dan maak ik een video-analyse van jullie Instagram-profiel. Je krijgt ze binnen 48 uur.
+> Hey {naam}, top dat je een berichtje stuurt! Stuur me de @ van je club, dan maak ik een video-analyse van jullie Instagram-profiel. Je krijgt ze binnen 48 uur.
 
 ## 2. De audit leveren (binnen de beloofde termijn)
 
@@ -88,7 +90,7 @@ Pas posten na hun "ja" op de versie die ze zagen. Kinderen en mensen die niet he
 - **Na 4 dagen:** één concrete tip na een snelle blik op hun profiel.
   > Ik keek even naar jullie pagina: {{één concrete tip, bv. met een foto van jullie trainers in de highlights zien nieuwe leden meteen wie hen lesgeeft}}. Kan je vrijwilliger in 5 minuten doen.
 - **Na 10 dagen:**
-  > Ik laat je verder met rust. Wil je die analyse later toch, stuur gerust AUDIT. Veel succes met het seizoen!
+  > Ik laat je verder met rust. Wil je die analyse later toch, stuur gerust een berichtje. Veel succes met het seizoen!
 
 Daarna stoppen.
 

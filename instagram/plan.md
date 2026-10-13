@@ -2,17 +2,17 @@
 
 ## Vast weekritme (vanaf 12/10)
 
-Doel: meer kijkers (reels bereiken niet-volgers) en meer klanten (elke post eindigt met AUDIT). Alles in de werkweek, want clubbestuurders, trainers en vrijwilligers zitten 's avonds na het werk op Instagram. Het weekend is voor stories.
+Doel: meer kijkers (reels bereiken niet-volgers) en meer klanten (elke post eindigt met "stuur een DM voor een gratis analyse"). Alles in de werkweek, want clubbestuurders, trainers en vrijwilligers zitten 's avonds na het werk op Instagram. Het weekend is voor stories.
 
 | Dag | Uur | Soort | Doel |
 |---|---|---|---|
-| Maandag | 19:30 | Carrousel: kennis om te bewaren (tips, stappen, voor en na) | Bewaren en delen, AUDIT-aanvragen |
+| Maandag | 19:30 | Carrousel: kennis om te bewaren (tips, stappen, voor en na) | Bewaren en delen, DM-aanvragen |
 | Dinsdag | 19:30 | Reel 1: jij in beeld, mening of tip die met een probleem begint | Bereik: nieuwe clubs |
-| Donderdag | 19:30 | Reel 2: bewijs of praktijk (voor/na, achter de schermen, demo) | Vertrouwen, AUDIT-aanvragen |
+| Donderdag | 19:30 | Reel 2: bewijs of praktijk (voor/na, achter de schermen, demo) | Vertrouwen, DM-aanvragen |
 | Ma t.e.m. do + za | - | Stories: post delen 5 min na het posten, 1 poll of vraag midden in de week, za op het terrein | Contact, vragen uitlokken |
 | Vr en zo | - | Niets (zo hooguit een story) | Rust |
 
-- **Structuur van elke reel (lokken, dan uitleggen):** 0-2 s lokbeeld van wat een club wil (vol terrein, high five, vol clubhuis), positieve tekst van 3 à 5 woorden, nooit het probleem · 2-10 s het probleem · 10-22 s de oplossing · lokbeeld komt terug · afsluiter: wie je bent + AUDIT.
+- **Structuur van elke reel (lokken, dan uitleggen):** 0-2 s lokbeeld van wat een club wil (vol terrein, high five, vol clubhuis), positieve tekst van 3 à 5 woorden, nooit het probleem · 2-10 s het probleem · 10-22 s de oplossing · lokbeeld komt terug · afsluiter: wie je bent + "stuur een DM".
 - **Productie:** opnemen in 1 keer per 2 à 3 weken (batch). Woensdag monteren: de reel van donderdag, de reel van dinsdag erna en de carrousel van maandag erna (slides maakt Claude).
 - **Bij elke post:** 5 minuten reageren bij clubs, en de eerste reacties op je post binnen het uur beantwoorden.
 - **Bijsturen:** ma 12/10 eerste analyse ✅ gedaan (`analyses/overzicht-sept-okt.md`, lessen in CONTENTSYSTEEM.md), ma 26/10 opnieuw na 2 weken vast ritme (taken staan in de checklist).
@@ -28,7 +28,7 @@ Scoort een post op een vraag nul, dan passen we hem aan.
 
 **Mix per 2 weken (4 reels + 2 carrousels):** 2 tips (vraag 1-2, vertrouwen) · 1 bewijs (voor/na, cijfers, een klant aan het woord) · 1 werkwijze (zo werkt SGM, wat het de club oplevert) · carrousels: tips om te bewaren, 1 op 2 met het aanbod op de laatste slide.
 
-**Afsluiter (vanaf reel 4):** "Ik ben Jari van SportGrowth Media. Geen tijd om dit zelf te doen? Wij doen het voor jullie club. Stuur AUDIT voor een gratis analyse."
+**Afsluiter (vanaf reel 4):** "Ik ben Jari van SportGrowth Media. Geen tijd om dit zelf te doen? Wij doen het voor jullie club. Stuur een DM voor een gratis analyse."
 
 ## Lancering
 

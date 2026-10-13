@@ -1,6 +1,6 @@
 # Contentsysteem SportGrowth Media
 
-Doel van elke post: een sportclub voelt zich aangesproken, ziet wat SGM voor haar doet, en stuurt AUDIT.
+Doel van elke post: een sportclub voelt zich aangesproken, ziet wat SGM voor haar doet, en stuurt een DM.
 Dit systeem herhaalt zich elke 4 weken. Alleen de onderwerpen veranderen, de vorm blijft.
 
 ---
@@ -39,7 +39,7 @@ Twee soorten clubs, met een andere pijn:
 ## 2. Onze belofte (in elke post terug te vinden)
 > **"Wij maken en posten de Instagram van je club. Jullie hoeven bijna niets te doen. Meer zichtbaarheid, meer leden."**
 
-Hoe het werkt (website): jullie sturen beeld door (ik zeg wat je filmt), of ik kom één keer per maand zelf filmen (+€50). Pakketten: Mini €249, Starter €399, Growth €599 per maand. Eerste stap: gratis analyse via AUDIT.
+Hoe het werkt (website): jullie sturen beeld door (ik zeg wat je filmt), of ik kom één keer per maand zelf filmen (+€50). Pakketten: Mini €249, Starter €399, Growth €599 per maand. Eerste stap: gratis analyse via een DM.
 
 ## 3. De 4 vaste reeksen
 Elke post hoort bij één reeks. Vaste namen, zodat volgers ze herkennen. De naam staat klein bovenaan op de cover.
@@ -79,16 +79,16 @@ Verdeling per 4 weken (12 posts): 3 HERKENBAAR? · 3 CLUBCHECK · 2 RESULTAAT ·
 **Delen:** zet in elke tip-reel één kleine tekst in beeld (niet gesproken, niet in de caption): "📤 Stuur dit naar iemand van je bestuur". Delen weegt het zwaarst voor bereik en brengt de reel bij wie beslist.
 
 **Vaste afsluiter:**
-> "Ik ben Jari van SportGrowth Media. Geen tijd om dit zelf te doen? Wij doen het voor jullie club. Stuur AUDIT voor een gratis analyse."
+> "Ik ben Jari van SportGrowth Media. Geen tijd om dit zelf te doen? Wij doen het voor jullie club. Stuur een DM voor een gratis analyse."
 
 **Vaste opbouw caption:**
 1. **Hook in de eerste 125 tekens** (vóór "... meer"): de sterkste zin + waarom het de club aangaat. Zelfde hook als de reel of cover.
 2. **Kort en scanbaar:** 2-4 blokjes van 1-3 zinnen, witregels ertussen. Emoji's alleen om het oog te leiden (❌ ✅ 🎾 📈 1️⃣), niet als versiering.
 3. **Eén echte vraag** die een gesprek start ("Met welke zin begint jullie bio nu? 👇"), geen "laat een like".
-4. **Eén CTA**, altijd dezelfde: "👉 Geen tijd om dit zelf te doen? Stuur AUDIT in een DM, dan bekijken wij gratis de Instagram van jullie club." Geen tweede CTA (geen "bewaar", "deel" of "link in bio" erbij).
+4. **Eén CTA**, altijd dezelfde: "👉 Geen tijd om dit zelf te doen? Stuur ons een DM, dan bekijken wij gratis de Instagram van jullie club." Geen tweede CTA (geen "bewaar", "deel" of "link in bio" erbij).
 5. **3-5 nichehashtags**, geen grote: #sportclub #sportvereniging #clubbestuur #vrijwilligers, plus 1-2 van de sport in de post (#voetbalclub #tennisclub #padelclub #hockeyclub...). Geen #voetbal, #tennis of #padel alleen.
 
-**Carrousel (8 slides):** 1 hook · 2 herkenning · 3-6 inhoud · 7 "Dit doen wij voor jullie club" · 8 "Stuur AUDIT".
+**Carrousel (8 slides):** 1 hook · 2 herkenning · 3-6 inhoud · 7 "Dit doen wij voor jullie club" · 8 "Stuur een DM".
 
 **Rol van elk formaat (bewezen met de cijfers van september-oktober):**
 - **Reels brengen nieuwe clubs binnen**: reel 1 bereikte 95% niet-volgers en leverde 3 clubcontacten op.
@@ -149,12 +149,12 @@ Seizoenshaakjes: oktober-maart winter/indoor en jeugdkampen (kerst, krokus); jan
 | Wo | Achter de schermen: monteren, filmen op een club, een analyse maken |
 | Do | Reel delen + quiz |
 | Za | Sport van het weekend (training, interclub) |
-| Elke week 1× | AUDIT-oproep met linksticker naar de website: "Nog 2 gratis analyses deze week" |
+| Elke week 1× | Oproep "stuur een DM voor een gratis analyse" met linksticker naar de website: "Nog 2 gratis analyses deze week" |
 
 **Highlights:** Gratis analyse · Resultaten · Zo werkt het · Wat het kost.
 
-## 7. Wat er gebeurt na een AUDIT
-**Ook zonder AUDIT:** volgt een club of bestuurslid je, of stuurt iemand een DM (zoals Baltha, Westerlo en TTV Turnhout na reel 1), stuur binnen 24 uur: "Hoi! Leuk dat jullie meevolgen 🙌 Ik heb even naar jullie Instagram gekeken en zie een paar dingen die snel beter kunnen. Zal ik jullie een korte gratis analyse sturen?" Bij ja: verder vanaf stap 2.
+## 7. Wat er gebeurt na een DM voor een gratis analyse
+**Ook zonder DM:** volgt een club of bestuurslid je, of stuurt iemand een DM (zoals Baltha, Westerlo en TTV Turnhout na reel 1), stuur binnen 24 uur: "Hoi! Leuk dat jullie meevolgen 🙌 Ik heb even naar jullie Instagram gekeken en zie een paar dingen die snel beter kunnen. Zal ik jullie een korte gratis analyse sturen?" Bij ja: verder vanaf stap 2.
 
 1. Automatisch antwoord (DM) bedankt en vraagt de naam van de club.
 2. Binnen 48 uur: analysevideo van ±4 minuten (zoals TTV Turnhout en Westerlo) + score op 100.
@@ -175,12 +175,12 @@ Seizoenshaakjes: oktober-maart winter/indoor en jeugdkampen (kerst, krokus); jan
 ## 9. Meten (elke 2 weken, maandag)
 | Wat | Doel |
 |---|---|
-| AUDIT-aanvragen | 2 per week |
+| Aanvragen gratis analyse (DM) | 2 per week |
 | Gesprekken | 1 per 2 weken |
 | Nieuwe klanten | 1 per maand |
 | Volgers die een club zijn | stijgend |
 | Bewaard + gedeeld per post | welke reeks werkt het best → meer daarvan |
-| Profielbezoek → actie | Referentie reel 1: 87 profielbezoeken → 16 volgers, 5 linkklikken, 0 AUDIT. Doel: elke reel minstens 1 AUDIT |
+| Profielbezoek → actie | Referentie reel 1: 87 profielbezoeken → 16 volgers, 5 linkklikken, 1 DM (Baltha). Doel: elke reel minstens 1 DM voor een analyse |
 
 ---
 
@@ -190,7 +190,7 @@ Week 12-18/10 blijft zoals gepland (carrousel clubbio, reel 3, reel 4 met nieuwe
 | Week | Ma · carrousel | Di · reel 1 | Do · reel 2 |
 |---|---|---|---|
 | **19/10** | ALGEMEEN · HERKENBAAR? "Zo check je of jullie Instagram leden aantrekt" (`carrousel-5-tekenen/`) | 🎾 TENNIS · CLUBTIP: "Zo krijg je meer jeugd in je tennisclub" (reel 5) | 🟦 PADEL · HERKENBAAR?: "3 fouten op de Instagram van padelclubs" (reel 6, bewezen formule; Jan Stilten-reel naar voorraad) |
-| **26/10** | ALGEMEEN · ZO WERKT SGM: "Zo ziet een maand Instagram eruit als wij het voor je club doen" (wordt de nieuwe vastgezette uitleg: foto-cover, 3 stappen, bewijs, prijs vanaf €249, AUDIT; vervangt "Je club op Instagram zonder gedoe") | ALGEMEEN · CLUBTIP: "Zo schrijf je een clubbio die leden aantrekt" (reel 9, voorraad) | ⚽ VOETBAL · CLUBTIP: "Zo krijg je meer supporters naar je thuismatch" (filmen bij je match za 24/10) |
+| **26/10** | ALGEMEEN · ZO WERKT SGM: "Zo ziet een maand Instagram eruit als wij het voor je club doen" (wordt de nieuwe vastgezette uitleg: foto-cover, 3 stappen, bewijs, prijs vanaf €249, "stuur een DM"; vervangt "Je club op Instagram zonder gedoe") | ALGEMEEN · CLUBTIP: "Zo schrijf je een clubbio die leden aantrekt" (reel 9, voorraad) | ⚽ VOETBAL · CLUBTIP: "Zo krijg je meer supporters naar je thuismatch" (filmen bij je match za 24/10) |
 | **2/11** | ALGEMEEN · CLUBTIP: "Zo geef je je sponsors iets terug op Instagram" | ALGEMEEN · CLUBTIP: "Zo promoot je je clubfeest zonder één affiche" (reel 7 herwerkt) | 🟦 PADEL · CLUBTIP: "Zo vul je je padelterreinen in de daluren" (filmen op je training di 27/10) |
 | **9/11** | ALGEMEEN · ZO WERKT SGM: "Zoveel kost een Instagram die leden oplevert" | ALGEMEEN · CLUBTIP: "Zo maak je van een proefles een nieuw lid" (beelden van meerdere sporten) | 🎾 TENNIS · CLUBTIP: "Zo vul je je tennislessen in de winter" |
 
