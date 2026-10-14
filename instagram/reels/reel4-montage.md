@@ -1,6 +1,6 @@
 # Reel 4 · ruwe montage "Zo film je in 60 seconden een week content" (do 15/10, 19u30)
 
-Bestand: `reel4-ruwe-montage.mp4` (30 s, 1080x1920, tekst zit erin). Jij voegt enkel je voice-over, ondertitels en muziek toe.
+Bestand: `reel4-ruwe-montage.mp4` (37 s, 1080x1920, v3 met ruimere shots, tekst zit erin). Jij voegt enkel je voice-over, ondertitels en muziek toe.
 
 | Tijd | Beeld | Voice-over (jij, in CapCut) | Tekst in beeld (zit erin) |
 |---|---|---|---|
@@ -19,3 +19,14 @@ Bestand: `reel4-ruwe-montage.mp4` (30 s, 1080x1920, tekst zit erin). Jij voegt e
 4. Ondertitels: Tekst → Automatische ondertitels, onderaan.
 5. Muziek zacht (10-15 %), uit tijdens je coaching (0:09,8-0:16,8).
 6. Export 1080p, 30 fps. Inplannen do 15/10 19:30. Caption: `04-caption.txt`.
+
+## v3 (14/10): langere shots voor de voice-over
+| Tijd | Shot |
+|---|---|
+| 0:00-0:03,3 | Lokbeeld (3 x ±1 s) |
+| 0:03,3-0:07,8 | Volle hal: "Zo film je in 60 seconden…" |
+| 0:07,8-0:12 | Close-up: "Eén: een close-up van een slag." |
+| 0:12-0:19 | Coaching (Jari's versie: coaching → voice-over "Twee" → feedback) |
+| 0:19-0:23,5 | High five: "Drie: een moment tussen de spelers." |
+| 0:23,5-0:28 | Terras: "Vier: wat er na de training gebeurt." |
+| 0:28-0:37 | Net + overdekte hal: afsluiter (9 s) |
