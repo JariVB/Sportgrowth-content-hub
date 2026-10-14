@@ -54,3 +54,9 @@ Regel: een post blijft als hij (1) een club aanspreekt, (2) geen dubbel is, (3) 
   👇 Stuur een DM: gratis analyse
 - Link: sportgrowthmedia.be
 - Highlights: Gratis analyse · Resultaat · Zo werkt het · Wat het kost (+ garantie)
+
+## Bio live sinds 14/10 (door Jari aangepast)
+🏆 Wij beheren de Instagram van je sportclub
+📈 Meer leden, boekingen en sponsors
+🎾⚽🥊 Elke sport · zelf trainer
+👇 DM voor een gratis analyse
