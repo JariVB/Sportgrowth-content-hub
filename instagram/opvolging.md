@@ -7,8 +7,8 @@ Berichten: `dm-audit.md`. Gegevens van contactpersonen alleen voornaam en club.
 
 | Club | Contact | Kanaal | Status | Volgende stap | Wanneer |
 |---|---|---|---|---|---|
-| Tennis Westerlo + Padel Westerlo | Gwenne | Instagram-DM | Vzw, alles vrijwillig, geen budget. Ja op gratis analyse. Alleen Facebook, nog geen Instagram | 1/10: link Facebook-pagina gevraagd. Wachten op link; daarna screenshots naar Claude, analyse + startplan Instagram + video | Wo 7/10 |
-| TTV tennis & padel Turnhout | Jelle | Instagram-DM | Instagram "te weinig actief", allegaartje van vrijwilligers (tennistrainer, sfeerbeheerteam). Willen het aanpakken. Combinatieclub. Vzw, niet altijd budget. 1/10: ja op gratis analyse | Vragen wie het account beheert; wo 7/10 screenshots naar Claude, analyse + video | Wo 7/10 |
+| Tennis Westerlo + Padel Westerlo | Gwenne | Instagram-DM | Vzw, alles vrijwillig, geen budget. Ja op gratis analyse. Alleen Facebook, nog geen Instagram | 8/10: analyse klaar: Facebook 48/100, Instagram @tpc_westerlo 39/100 (8 posts; navragen wie beheert) + herstartplan Instagram (instagram/analyses/tc-westerlo.md). Video opnemen en sturen | Wo 14/10 |
+| TTV tennis & padel Turnhout | Jelle | Instagram-DM | Instagram "te weinig actief", allegaartje van vrijwilligers (tennistrainer, sfeerbeheerteam). Willen het aanpakken. Combinatieclub. Vzw, niet altijd budget. 1/10: ja op gratis analyse | 8/10: analyse klaar (47/100, instagram/analyses/ttv-turnhout.md). Video opnemen en sturen met bericht 2 | Wo 14/10 |
 
 ### Na de analyse (Tennis/Padel Westerlo)
 
@@ -23,7 +23,7 @@ Berichten: `dm-audit.md`. Gegevens van contactpersonen alleen voornaam en club.
 
 | Wie | Wat | Status | Volgende stap | Wanneer |
 |---|---|---|---|---|
-| Baltha (baltha_vdv) | Zelfstandige in bijberoep, wil apps en websites promoten (madebybalthazar.com) | Teams-gesprek gepland | Gesprek di 6/10 14u; daarna voorstel maken | Di 6/10, voorstel wo 7/10 |
+| Baltha (baltha_vdv) | Zelfstandige in bijberoep, webdeveloper (madebybalthazar.com); apps bijkomend. Nog geen eigen socials (post af en toe op Threads/LinkedIn). Doel: 3 à 4 betalende klanten in 3 maanden. Wil alles uit handen geven, liever niet zelf praten in de camera. Noemde €150/maand (dacht aan Google Ads). Wil zo snel mogelijk starten. Enthousiast; ja op doorverwijzen, mag zijn pagina delen | 6/10: gesprek gehad. Afspraak: 10% commissie op klanten die Jari doorstuurt. Voorstel klaar (klanten/baltha/): Start €149 + €149 opstart, Groei €349 intro (daarna €399), opstart gratis | Voorstel verstuurd do 8/10, alleen via mail (geen WhatsApp). Ma 12/10: opvolg-DM gestuurd via Instagram. Geen antwoord tegen do 15/10: laatste bericht. Ondernemingsnummer + btw regelen (ma 12/10); bij akkoord: klanten/baltha/stappenplan.md | Do 8/10, opvolgen ma 12/10 |
 
 ## Partners
 

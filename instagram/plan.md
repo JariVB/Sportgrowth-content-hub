@@ -1,15 +1,34 @@
 # Contentplan @sportgrowth_media
 
-## Vast weekritme
+## Vast weekritme (vanaf 12/10)
+
+Doel: meer kijkers (reels bereiken niet-volgers) en meer klanten (elke post eindigt met "stuur een DM voor een gratis analyse"). Alles in de werkweek, want clubbestuurders, trainers en vrijwilligers zitten 's avonds na het werk op Instagram. Het weekend is voor stories.
 
 | Dag | Uur | Soort | Doel |
 |---|---|---|---|
-| Dinsdag | 19:30 | Reel met Jari in beeld | Zichtbaar: nieuwe clubs bereiken |
-| Donderdag | 19:30 | Carrousel | Kennis of aanbod |
-| Zondag | 20:00 | Bewijs of persoon | Vertrouwen |
-| Elke dag | - | Stories + 15 min reageren bij clubs | Contact |
+| Maandag | 19:30 | Carrousel: kennis om te bewaren (tips, stappen, voor en na) | Bewaren en delen, DM-aanvragen |
+| Dinsdag | 19:30 | Reel 1: jij in beeld, mening of tip die met een probleem begint | Bereik: nieuwe clubs |
+| Donderdag | 19:30 | Reel 2: bewijs of praktijk (voor/na, achter de schermen, demo) | Vertrouwen, DM-aanvragen |
+| Ma t.e.m. do + za | - | Stories: post delen 5 min na het posten, 1 poll of vraag midden in de week, za op het terrein | Contact, vragen uitlokken |
+| Vr en zo | - | Niets (zo hooguit een story) | Rust |
 
-Uren zijn een startpunt. Na 3 à 4 weken vergelijken met Professioneel dashboard → Meest actieve tijden.
+- **Structuur van elke reel (lokken, dan uitleggen):** 0-2 s lokbeeld van wat een club wil (vol terrein, high five, vol clubhuis), positieve tekst van 3 à 5 woorden, nooit het probleem · 2-10 s het probleem · 10-22 s de oplossing · lokbeeld komt terug · afsluiter: wie je bent + "stuur een DM".
+- **Productie:** opnemen in 1 keer per 2 à 3 weken (batch). Woensdag monteren: de reel van donderdag, de reel van dinsdag erna en de carrousel van maandag erna (slides maakt Claude).
+- **Bij elke post:** 5 minuten reageren bij clubs, en de eerste reacties op je post binnen het uur beantwoorden.
+- **Bijsturen:** ma 12/10 eerste analyse ✅ gedaan (`analyses/overzicht-sept-okt.md`, lessen in CONTENTSYSTEEM.md), ma 26/10 opnieuw na 2 weken vast ritme (taken staan in de checklist).
+
+## Contenttoets: elke post vanuit de club bekeken
+Volledig systeem: `CONTENTSYSTEEM.md`.
+Vóór een post gemaakt wordt, beantwoorden we 4 vragen alsof we een bestuurslid of vrijwilliger van een tennis-, padel- of andere sportclub zijn:
+1. **Voel ik me aangesproken?** De eerste zin noemt de club of haar probleem (leden, vrijwilligers, geen tijd, leeg terrein), niet Instagram in het algemeen.
+2. **Wat leer ik?** Eén concrete les die ik vandaag kan toepassen.
+3. **Wat kan SGM voor mijn club doen?** Het einde zegt wat SGM overneemt: "Geen tijd? Wij filmen, monteren en posten voor jullie club."
+4. **Waarom met SGM?** Bewijs of werkwijze: resultaten (Jan Stilten: 3.367 bereikt in 6 weken), één opnamemoment per maand, de club hoeft niets zelf te doen.
+Scoort een post op een vraag nul, dan passen we hem aan.
+
+**Mix per 2 weken (4 reels + 2 carrousels):** 2 tips (vraag 1-2, vertrouwen) · 1 bewijs (voor/na, cijfers, een klant aan het woord) · 1 werkwijze (zo werkt SGM, wat het de club oplevert) · carrousels: tips om te bewaren, 1 op 2 met het aanbod op de laatste slide.
+
+**Afsluiter (vanaf reel 4):** "Ik ben Jari van SportGrowth Media. Geen tijd om dit zelf te doen? Wij doen het voor jullie club. Stuur een DM voor een gratis analyse."
 
 ## Lancering
 
@@ -37,13 +56,29 @@ Beschikbaarheid: zie CLAUDE.md. Woensdag is de hoofdwerkdag (shoots en montage).
 
 | Dag | Uur | Feed | Soort | Hook | Stories |
 |---|---|---|---|---|---|
-| ma 5/10 | - | - | - | - | Vraagsticker: "Wat wil je weten over Instagram voor je club?" |
-| di 6/10 | 19:30 | Reel voor/na Jan Stilten: grid voor en na in beeld, voice-over, 3.367 mensen in 6 weken (geen shoot nodig) | Bewijs | #13 Before And After, On Screen | Reel delen + linksticker naar de website |
-| wo 7/10 | - | - | - | - | Eén tip uit de carrousel, als quiz-sticker |
-| do 8/10 | 19:30 | Carrousel "Zo ziet een gratis analyse eruit": score op 100, 3 verbeterpunten, 1 snelle verbetering. Oproep: stuur AUDIT | Aanbod | - | Carrousel delen + "Stuur AUDIT voor jouw club" |
+| ma 5/10 | - | - | - | - | Vraagsticker: "Wat wil je weten over Instagram voor je club?" (doorgeschoven naar di 6/10) |
+| di 6/10 | 19:30 | Reel voor/na Jan Stilten: grid voor en na in beeld, voice-over, 3.367 mensen in 6 weken (geen shoot nodig) (GEPOST di 6/10, cover: na-grid) | Bewijs | #13 Before And After, On Screen | Reel delen + linksticker naar de website |
+| wo 7/10 | - | - | - | - | Eén tip uit de carrousel, als poll (GEPOST wo 7/10) |
+| do 8/10 | 19:30 | Carrousel "Zo ziet een gratis analyse eruit": score op 100, 3 verbeterpunten, 1 snelle verbetering. Oproep: stuur AUDIT (GEPOST do 8/10, gedeeld in story, highlight "Gratis analyse") | Aanbod | - | Carrousel delen + "Stuur AUDIT voor jouw club" |
 | vr 9/10 | - | (optioneel) Reel voice-over: "Wat je op een dinsdagavond in 60 seconden filmt voor je club" | Kennis | #18 Cold Open Demo | Weekend op de club, achter de schermen |
 | za 10/10 | - | - | - | - | Interclub of training, kort filmpje |
-| zo 11/10 | 20:00 | Reel to-camera: "Tennisclubs verliezen geen leden door padel. Ze verliezen ze op Instagram." (shoot wo 7/10) | Mening | #22 Contrarian Flip | Reel delen + poll "Akkoord / Niet akkoord" |
+| zo 11/10 | - | ✅ Opnamedag gedaan: reel 3 volledig (3 zinnen + sfeer tennis en padel), ruwe montage v10 klaar. Zinnen reel 5-7 nog niet: di 13/10 namiddag. Reel 3 verschoven naar di 13/10 19:30 | Mening | #22 Contrarian Flip | Reel delen + poll "Akkoord / Niet akkoord" |
+
+## Weekplan 12 tot 18 oktober (eerste week vast ritme)
+
+Rode draad: de clubbio. Draaiboek: `DRAAIBOEK-12-18-OKTOBER.md`. Opnames: `SHOTLIST-12-18-OKTOBER.md`.
+
+| Dag | Uur | Feed | Soort | Hook | Stories |
+|---|---|---|---|---|---|
+| ma 12/10 | 19:30 | Carrousel "Zo schrijf je een clubbio die leden aantrekt" (✅ GEPOST + gedeeld in story) | Kennis | - | Carrousel delen + vraagsticker "Hoe begint jullie bio?" |
+| di 13/10 | 19:30 | Reel 3 "Tennisclubs verliezen geen leden door padel" (✅ ingepland) | Mening | #22 Contrarian Flip | Reel delen + poll "Akkoord / Niet akkoord" |
+| wo 14/10 | - | - | - | - | Poll "Wie beheert jullie clubaccount?" |
+| do 15/10 | 19:30 | Reel 4 voice-over "Zo film je in 60 seconden een week content voor je club" | Praktijk | #18 Cold Open Demo | Reel delen + vraagsticker |
+| vr 16/10 | - | - | - | - | - |
+| za 17/10 | - | - | - | - | Training of interclub |
+| zo 18/10 | - | - | - | - | - |
+
+Volgende week: ma 19/10 carrousel "Zo check je of jullie Instagram leden aantrekt", di 20/10 reel 5 "Zo krijg je meer jeugd in je tennisclub", do 22/10 reel 6 "3 fouten op de Instagram van padelclubs" (Jan Stilten-reel naar voorraad). Trainers-reel naar de voorraad (reel 8).
 
 ## Elke dag: 15 minuten reageren (vóór je post)
 

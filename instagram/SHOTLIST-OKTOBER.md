@@ -63,7 +63,7 @@ Bijvoorbeeld bij Jan Stilten Padel Academy. Vraag vooraf toestemming aan Jan en 
 
 ---
 
-## Locatie 3 · Tennisterrein (±45 min, wo 7/10 overdag)
+## Locatie 3 · Tennisterrein (±45 min, do 8/10 om 16u)
 
 Een club waar je mag filmen, of je tennisles (je volgt opnieuw les: vraag je trainer).
 
@@ -115,4 +115,4 @@ Heb je tijd over op locatie 2 of 3? Deze beelden kan je later altijd gebruiken v
 | Vandaag of vr 2/10 | Thuis + archief | Reel 2 (zondag), stories vrijdag en zaterdag |
 | Za 3/10 en zo 4/10 | Weg | Reel 2 en de stories vooraf inplannen via Meta Business Suite |
 | Di 6/10, 18u-22u30 | Padeltraining die je geeft | Sfeerbeelden reel 3, optionele reel vr 9/10, voorraad |
-| Wo 7/10, overdag | Tennisterrein | Reel 3 (zo 11/10), tennisfoto's voor de website |
+| Do 8/10, 16u | Tennisterrein | Reel 3 (zo 11/10), tennisfoto's voor de website |

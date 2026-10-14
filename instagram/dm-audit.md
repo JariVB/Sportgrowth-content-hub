@@ -1,11 +1,13 @@
-# DM-berichten voor het trefwoord AUDIT
+# DM-berichten voor een gratis analyse
+
+Vanaf 13/10 sluiten we af met "Stuur een DM voor een gratis analyse" (geen trefwoord meer). Elke DM die naar een analyse vraagt (ook oude trefwoorden AUDIT of GROEI) krijgt deze berichten.
 
 Voor wie `AUDIT` stuurt na de carrousel "Zo werkt het". Alles verstuur je zelf, met de hand.
 `{{ }}` = invullen per club.
 
 ## 1. Meteen antwoorden (zelfde dag)
 
-> Hey {naam}, top dat je AUDIT stuurde! Stuur me de @ van je club, dan maak ik een video-analyse van jullie Instagram-profiel. Je krijgt ze binnen 48 uur.
+> Hey {naam}, top dat je een berichtje stuurt! Stuur me de @ van je club, dan maak ik een video-analyse van jullie Instagram-profiel. Je krijgt ze binnen 48 uur.
 
 ## 2. De audit leveren (binnen de beloofde termijn)
 
@@ -88,7 +90,7 @@ Pas posten na hun "ja" op de versie die ze zagen. Kinderen en mensen die niet he
 - **Na 4 dagen:** één concrete tip na een snelle blik op hun profiel.
   > Ik keek even naar jullie pagina: {{één concrete tip, bv. met een foto van jullie trainers in de highlights zien nieuwe leden meteen wie hen lesgeeft}}. Kan je vrijwilliger in 5 minuten doen.
 - **Na 10 dagen:**
-  > Ik laat je verder met rust. Wil je die analyse later toch, stuur gerust AUDIT. Veel succes met het seizoen!
+  > Ik laat je verder met rust. Wil je die analyse later toch, stuur gerust een berichtje. Veel succes met het seizoen!
 
 Daarna stoppen.
 
@@ -96,3 +98,27 @@ Daarna stoppen.
 
 - Hun analyse, score of pagina publiek tonen zonder toestemming.
 - Prijzen noemen, tenzij zij ernaar vragen.
+
+---
+
+# Zelf een club aanspreken (koude DM)
+
+Voor een club die vooral affiches post. Nooit afbreken: je toont wat ze erbij winnen.
+Eerst opwarmen: 2 à 3 dagen vooraf 2 posts liken en 1 echte reactie geven. Versturen vanaf @sportgrowth_media, overdag of 's avonds vóór 21u. Altijd SportGrowth Media voorop; "ik sta zelf ook als trainer op het terrein" alleen als extra bij een padel- of tennisclub.
+
+## Versie A · Meteen de gratis analyse aanbieden
+
+> Hoi {club}! Ik ben Jari van SportGrowth Media. Ik help sportclubs groeien via Instagram. Mooie affiche voor {{evenement}}, die ziet er verzorgd uit.
+> Wat me opviel: op jullie pagina staan vooral affiches. Wie twijfelt om lid te worden, wil vooral zien hoe het er bij jullie aan toe gaat: de trainers, de sfeer, een volle avond op de terreinen.
+> Als jullie willen, maak ik gratis een korte video-analyse van jullie pagina, met een paar dingen die jullie meteen zelf kunnen aanpassen. Interesse?
+
+## Versie B · Eerst vragen wie het beheert (zachter)
+
+> Hoi! Ik ben Jari van SportGrowth Media, en ik volg jullie club al even. Leuk om te zien dat {{iets concreets: nieuwe terreinen, een tornooi, de jeugdwerking}}.
+> Mag ik vragen wie jullie Instagram beheert? Ik heb een paar ideeën om er meer nieuwe leden uit te halen, en ik deel ze graag even.
+
+## Opvolging (1 keer, na 4 à 5 dagen zonder antwoord)
+
+> Hoi, ik stuur nog even een berichtje over de gratis analyse. Geen probleem als het nu niet past, dan laat ik het hierbij. Veel succes dit seizoen!
+
+Zegt de club ja: ga verder met "Club zonder budget", stap 2, of met bericht 1 bovenaan.
