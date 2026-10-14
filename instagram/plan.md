@@ -73,7 +73,7 @@ Rode draad: de clubbio. Draaiboek: `DRAAIBOEK-12-18-OKTOBER.md`. Opnames: `SHOTL
 | ma 12/10 | 19:30 | Carrousel "Zo schrijf je een clubbio die leden aantrekt" (✅ GEPOST + gedeeld in story) | Kennis | - | Carrousel delen + vraagsticker "Hoe begint jullie bio?" |
 | di 13/10 | 19:30 | Reel 3 "Tennisclubs verliezen geen leden door padel" (✅ ingepland) | Mening | #22 Contrarian Flip | Reel delen + poll "Akkoord / Niet akkoord" |
 | wo 14/10 | - | - | - | - | Poll "Wie beheert jullie clubaccount?" |
-| do 15/10 | 19:30 | Reel 4 voice-over "Zo film je in 60 seconden een week content voor je club" (✅ gemonteerd 14/10, 34 s, met coaching) | Praktijk | #18 Cold Open Demo | Reel delen + vraagsticker |
+| do 15/10 | 19:30 | Reel 4 voice-over "Zo film je in 60 seconden een week content voor je club" (✅ gemonteerd en ingepland 14/10, 34 s, cover reel4-1-minuut.png) | Praktijk | #18 Cold Open Demo | Reel delen + vraagsticker |
 | vr 16/10 | - | - | - | - | - |
 | za 17/10 | - | - | - | - | Training of interclub |
 | zo 18/10 | - | - | - | - | - |
