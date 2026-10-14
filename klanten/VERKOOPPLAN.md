@@ -50,6 +50,23 @@ Elke week:
 ### Opvolgen (na 4 dagen)
 > Hey {naam}, heb je mijn filmpje kunnen bekijken? Als je wil, toon ik in 15 minuten hoe we dit voor jullie zouden aanpakken. Past donderdagavond of woensdag?
 
+## Vast weekritme verkoop (±2u15 per week, staat in de checklist)
+| Dag | Tijd | Wat |
+|---|---|---|
+| Ma avond | 15 min | Opvolgberichten (4 dagen na het eerste bericht) + 2 nieuwe namen op de lijst |
+| Di (na 12u) | 30 min | 5 eerste berichten sturen |
+| Wo (hoofdwerkdag) | 75 min | Analysevideo's voor wie ja zei + 5 eerste berichten + gesprekken inplannen |
+| Do avond | 15 min | Opvolgen, antwoorden, gesprekken bevestigen |
+| Vr-zo | - | Niets (op je club: uitbater aanspreken als het past) |
+
+Elke week: 15 contacten, ±3-5 analyses, doel 1 gesprek. Claude maakt bij elk "ja": de analysenotities, het voorstel en de opvolgmail.
+
+## Eenmalig (oktober)
+1. Bio en website aanpassen aan "sportzaken" (Claude schrijft de teksten).
+2. Voorstel-sjabloon + prijsblad met garantie (Claude).
+3. Gespreksscript voor het kennismakingsgesprek van 15 min (Claude).
+4. Getuigenis Jan Stilten + 3 doorverwijzingen.
+
 ## Doelen
 | Wanneer | Doel |
 |---|---|
