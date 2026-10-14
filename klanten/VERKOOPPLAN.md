@@ -3,19 +3,25 @@
 ## Wie we aanspreken: sportbedrijven met een kassa
 Alleen wie per extra klant meteen geld verdient en zelf beslist. Geen vzw-abonnementen meer.
 
-| Prioriteit | Klant | Beslisser | Wat 1 extra klant oplevert | €399/maand terug met |
-|---|---|---|---|---|
-| 1 | **Commerciële padelcentra** | uitbater | terrein €40-60/uur, lege daluren | ±8-10 extra geboekte uren/maand |
-| 2 | **Padel- en tennisacademies, zelfstandige trainers met lesreeksen** (zoals Jan Stilten) | eigenaar/trainer | lesreeks €150-250 p.p. | 2-3 extra cursisten |
-| 3 | **Organisatoren van sportkampen** (herfst, kerst, krokus, zomer) | eigenaar | €150-250 per kind per week | 2-3 kinderen |
-| 4 | Boutique-fitness, crossfit, bootcamp, personal trainers met studio | zaakvoerder | abonnement €50-100/maand, maanden lang | 4-8 blijvende leden |
+Alle sporten. De vraag is niet welke sport, maar: **verdient deze zaak geld aan één extra klant, en beslist de eigenaar zelf?**
+
+| Soort zaak | Voorbeelden | Wat 1 extra klant oplevert | €399/maand terug met |
+|---|---|---|---|
+| **Sportcentra met verhuur per uur** | padel, squash, tennis, minivoetbal/five-a-side, badminton, bowling | €30-60 per uur | ±8-10 extra geboekte uren/maand |
+| **Sportscholen met lesreeksen** | padel-/tennisacademies, zwemscholen, dansscholen, vechtsport (judo, boksen, MMA), turn- en acro-academies, golfschool, maneges | €150-300 per reeks/trimester | 2-3 cursisten |
+| **Abonnementszaken** | fitness, crossfit, bootcamp, yoga, pilates, spinning, boulder- en klimzalen | €40-100/maand, maanden lang | 4-8 blijvende leden |
+| **Kampen en events** | multisport-, voetbal-, hockey-, ruiterkampen, loopwedstrijden, tornooien | €150-250 per kind/week of per deelnemer | 2-3 inschrijvingen |
+| **Privé-academies en trainers** | private voetbal-/keepersscholen, personal trainers, looptrainers | €200-600 per traject | 1-2 klanten |
+
+Begin waar je geloofwaardig bent en beelden hebt (padel, tennis, voetbal), maar elke sportzaak met een kassa is welkom.
 
 **Niet (meer) voor een abonnement:** vzw-clubs. Uitzondering: een vzw die het via een sponsor laat betalen (sponsor koopt "zichtbaarheid op Instagram"), of een eenmalig startpakket (€249) als iemand er zelf om vraagt.
 
 ## Wat we verkopen: resultaat in hun taal
-- Padelcentrum: "Ik help je lege uren tussen 10u en 16u vol te krijgen."
-- Academie/trainer: "Ik vul je volgende lesreeks."
-- Kamp: "Ik vul je kamp, zonder flyers."
+- Verhuur per uur: "Ik help je lege uren vol te krijgen."
+- School/academie/trainer: "Ik vul je volgende lesreeks."
+- Abonnement (fitness, yoga, klimzaal...): "Ik breng je nieuwe leden die blijven."
+- Kamp/event: "Ik vul je kamp/event, zonder flyers."
 - Meten: geboekte uren / inschrijvingen vóór en na (vraag het cijfer bij de start).
 
 ## Aanbod
@@ -35,11 +41,11 @@ Elke week:
 - **Doorverwijzing**: Jan Stilten vragen naar 3 trainers/centra die hij kent + korte video-getuigenis.
 - Reken: ±1 klant per 15-20 analyses.
 
-### Eerste bericht (padelcentrum, DM of ter plaatse)
-> Hoi {naam}! Ik ben Jari, ik geef zelf padeltraining en ik help padelcentra hun lege uren vol te krijgen via Instagram. Ik heb even naar jullie account gekeken en zie 2-3 dingen die snel meer boekingen kunnen opleveren. Zal ik je een kort filmpje sturen met wat ik zou doen? Gratis, zonder verplichting.
+### Eerste bericht (zaak met verhuur per uur, DM of ter plaatse)
+> Hoi {naam}! Ik ben Jari, ik ben zelf trainer en ik help sportcentra hun lege uren vol te krijgen via Instagram. Ik heb even naar jullie account gekeken en zie 2-3 dingen die snel meer boekingen kunnen opleveren. Zal ik je een kort filmpje sturen met wat ik zou doen? Gratis, zonder verplichting.
 
-### Eerste bericht (academie / trainer)
-> Hoi {naam}! Ik ben Jari, padeltrainer en ik doe de Instagram voor sportclubs. Voor Jan Stilten Padel Academy bereikten we 3.367 mensen in 6 weken, en de maandagsles zat bijna vol. Ik zie bij jullie een paar kansen om de volgende lesreeks sneller vol te krijgen. Mag ik je een kort analysefilmpje sturen?
+### Eerste bericht (school, academie, studio, trainer)
+> Hoi {naam}! Ik ben Jari, zelf trainer, en ik doe de Instagram voor sportzaken. Voor Jan Stilten Padel Academy bereikten we 3.367 mensen in 6 weken, en de maandagsles zat bijna vol. Ik zie bij jullie een paar kansen om meer nieuwe leden of cursisten binnen te halen. Mag ik je een kort analysefilmpje sturen?
 
 ### Opvolgen (na 4 dagen)
 > Hey {naam}, heb je mijn filmpje kunnen bekijken? Als je wil, toon ik in 15 minuten hoe we dit voor jullie zouden aanpakken. Past donderdagavond of woensdag?
@@ -47,7 +53,7 @@ Elke week:
 ## Doelen
 | Wanneer | Doel |
 |---|---|
-| eind november | 2 betalende klanten (padelcentrum of academie) |
+| eind november | 2 betalende klanten (elke sport) |
 | eind januari | 4 klanten ≈ €1.600/maand |
 | eind maart | 6-8 klanten ≈ €2.400-3.200/maand |
 

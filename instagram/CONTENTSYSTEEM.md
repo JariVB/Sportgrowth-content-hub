@@ -6,15 +6,16 @@ Dit systeem herhaalt zich elke 4 weken. Alleen de onderwerpen veranderen, de vor
 ---
 
 ## 1. Voor wie we posten
-**Sportbedrijven met een kassa** (zie `klanten/VERKOOPPLAN.md`): wie per extra klant meteen geld verdient en zelf beslist.
-1. **Commerciële padelcentra** (uitbater): lege daluren, eenmalige huurders.
-2. **Padel- en tennisacademies, trainers met lesreeksen**: lesreeksen vullen, nieuwe cursisten.
-3. **Sportkampen** (herfst, kerst, krokus, zomer): kamp vol krijgen.
-4. Boutique-fitness, crossfit, bootcamp: nieuwe leden die blijven.
+**Sportzaken met een kassa, in alle sporten** (zie `klanten/VERKOOPPLAN.md`): wie per extra klant meteen geld verdient en zelf beslist.
+1. **Verhuur per uur**: padel, squash, tennis, minivoetbal, badminton, bowling (lege uren).
+2. **Scholen en academies met lesreeksen**: padel/tennis, zwemmen, dans, vechtsport, turnen, golf, paardrijden (reeksen vullen).
+3. **Abonnementen**: fitness, crossfit, yoga, pilates, klim- en boulderzalen (leden die blijven).
+4. **Kampen en events**: multisport-, voetbal-, hockey-, ruiterkampen, loopwedstrijden (inschrijvingen).
+5. **Privé-academies en trainers**: voetbal-/keepersscholen, personal en looptrainers.
 
 VZW-clubs zijn niet langer de doelgroep van de verkoop (geen budget voor een abonnement). Een algemene clubtip mag nog, maar elke week minstens 2 van de 3 posts spreken uitbaters, academies of kampen aan.
 
-**Vaste regel per week:** 1 post voor uitbaters (padelcentra), 1 voor academies/trainers/kampen, 1 bewijs of aanbod (resultaat, voor/na-coaching, prijs). Titels in hun taal: geboekte uren, lesreeksen, inschrijvingen, niet "volgers".
+**Vaste regel per week:** 1 post voor zaken met verhuur of abonnement, 1 voor scholen/academies/trainers/kampen, 1 bewijs of aanbod (resultaat, voor/na-coaching, prijs). **De sport wisselt elke week** (padel, fitness, voetbalacademie, zwemschool, dans, vechtsport, klimzaal...); titels in algemene sporttaal waar het kan ("je sportcentrum", "je lessen", "je studio"). Titels in hun taal: geboekte uren, lesreeksen, inschrijvingen, niet "volgers".
 Jari's beeld: **padel** (geeft elke dinsdag training, coacht hoorbaar: voor/na-coaching, zie `beeldbank/training-13-10.md`), **tennis**, **voetbal**.
 
 Twee soorten clubs, met een andere pijn:
@@ -189,9 +190,9 @@ Week 12-18/10 blijft zoals gepland (carrousel clubbio, reel 3, reel 4 met nieuwe
 | Week | Ma · carrousel | Di · reel 1 | Do · reel 2 |
 |---|---|---|---|
 | **19/10** | ALGEMEEN · HERKENBAAR? "Zo check je of jullie Instagram leden aantrekt" (`carrousel-5-tekenen/`) | 🎾 TENNIS · CLUBTIP: "Zo krijg je meer jeugd in je tennisclub" (reel 5) | 🟦 PADEL · HERKENBAAR?: "3 fouten op de Instagram van padelclubs" (reel 6, bewezen formule; Jan Stilten-reel naar voorraad) |
-| **26/10** | AANBOD · ZO WERKT SGM: "Zo ziet een maand Instagram eruit als wij het voor je doen" (nieuwe vastgezette uitleg: foto-cover, 3 stappen, bewijs, prijs vanaf €349, garantie, "stuur een DM") | ACADEMIE · CLUBTIP: "Zo laat je zien dat je trainers goed zijn" (voor/na-coaching: IMG_2107, 2402, 2398, 2417) | 🟦 UITBATER · CLUBTIP: "Zo vul je je padelterreinen in de daluren" (filmen op je training di 20/10) |
-| **2/11** | AANBOD: "Zoveel levert één extra geboekt uur per week je op" (rekensom: Instagram vs. lege uren) | KAMPEN · CLUBTIP: "Zo vul je je kerstkamp zonder flyers" | 🟦 UITBATER · HERKENBAAR?: "Zo maak je van een eenmalige huurder een vaste speler" (filmen di 27/10) |
-| **9/11** | ACADEMIE · CLUBTIP: "Zo vul je je volgende lesreeks" (carrousel) | AANBOD · RESULTAAT: Jan Stilten als samenwerkingspost (Collab) + getuigenis | UITBATER · HERKENBAAR?: "3 fouten op de website/Instagram van je padelcentrum bij het boeken" |
+| **26/10** | AANBOD · ZO WERKT SGM: "Zo ziet een maand Instagram eruit als wij het voor je doen" (nieuwe vastgezette uitleg: foto-cover, 3 stappen, bewijs, prijs vanaf €349, garantie, "stuur een DM") | ALLE SCHOLEN · CLUBTIP: "Zo laat je zien dat je trainers goed zijn" (voor/na-coaching: IMG_2107, 2402, 2398, 2417) | VERHUUR · CLUBTIP: "Zo vul je de lege uren in je sportcentrum" (padelbeelden als voorbeeld, werkt voor squash, minivoetbal, tennis) |
+| **2/11** | AANBOD: "Zoveel levert één extra geboekt uur per week je op" (rekensom: Instagram vs. lege uren) | KAMPEN · CLUBTIP: "Zo vul je je sportkamp zonder flyers" (alle sporten) | ABONNEMENT · HERKENBAAR?: "Zo maak je van een proefles een vast lid" (fitness, yoga, crossfit, klimzaal) |
+| **9/11** | SCHOLEN · CLUBTIP: "Zo vul je je volgende lesreeks" (carrousel: dans, zwemmen, vechtsport, padel) | AANBOD · RESULTAAT: Jan Stilten als samenwerkingspost (Collab) + getuigenis | VERHUUR · HERKENBAAR?: "3 fouten op de Instagram van sportcentra" (bewezen formule) |
 
 Uit de planning gehaald (vzw-gericht, enkel nog als voorraad): voetbal-supporters, sponsors, clubfeest, clubbio, proefles, voorzitter om 23u.
 Volgende ronde (vanaf 16/11): RESULTAAT #2 (eerste klant of TTV/Westerlo met akkoord), "Zo hoeft je voorzitter nooit meer om 23u te posten", "Zo maak je van een eenmalige huurder een vaste speler" (padel), Jan Stilten-resultaat als samenwerkingspost, "Zo vult je club een week Instagram in 10 minuten", "3 fouten op de Instagram van voetbalclubs" (±30 s, bewezen formule van reel 1), en daarna dezelfde formule voor een andere sport (hockey, basket of volley).
