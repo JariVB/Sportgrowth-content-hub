@@ -78,7 +78,7 @@ Rode draad: de clubbio. Draaiboek: `DRAAIBOEK-12-18-OKTOBER.md`. Opnames: `SHOTL
 | za 17/10 | - | - | - | - | Training of interclub |
 | zo 18/10 | - | - | - | - | - |
 
-Volgende week: ma 19/10 carrousel "Zo check je of jullie Instagram leden aantrekt", di 20/10 reel 5 "Zo krijg je meer jeugd in je tennisclub", do 22/10 reel 6 "3 fouten op de Instagram van padelclubs" (Jan Stilten-reel naar voorraad). Trainers-reel naar de voorraad (reel 8).
+Volgende week: ma 19/10 carrousel "Zo check je of jullie Instagram leden aantrekt" (✅ ingepland 14/10), di 20/10 reel 5 "Zo krijg je meer jeugd in je tennisclub", do 22/10 reel 6 "3 fouten op de Instagram van padelclubs" (Jan Stilten-reel naar voorraad). Trainers-reel naar de voorraad (reel 8).
 
 ## Elke dag: 15 minuten reageren (vóór je post)
 
