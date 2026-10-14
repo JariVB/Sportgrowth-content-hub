@@ -7,7 +7,7 @@ Dit systeem herhaalt zich elke 4 weken. Alleen de onderwerpen veranderen, de vor
 
 ## 1. Voor wie we posten
 **Sportzaken met een kassa, in alle sporten** (zie `klanten/VERKOOPPLAN.md`): wie per extra klant meteen geld verdient en zelf beslist.
-1. **Verhuur per uur**: padel, squash, tennis, minivoetbal, badminton, bowling (lege uren).
+1. **Verhuur per uur**: padel, squash, tennis, minivoetbal, badminton, bowling (meer boekingen, piek- en daluren).
 2. **Scholen en academies met lesreeksen**: padel/tennis, zwemmen, dans, vechtsport, turnen, golf, paardrijden (reeksen vullen).
 3. **Abonnementen**: fitness, crossfit, yoga, pilates, klim- en boulderzalen (leden die blijven).
 4. **Kampen en events**: multisport-, voetbal-, hockey-, ruiterkampen, loopwedstrijden (inschrijvingen).
@@ -190,8 +190,8 @@ Week 12-18/10 blijft zoals gepland (carrousel clubbio, reel 3, reel 4 met nieuwe
 | Week | Ma · carrousel | Di · reel 1 | Do · reel 2 |
 |---|---|---|---|
 | **19/10** | ALGEMEEN · HERKENBAAR? "Zo check je of jullie Instagram leden aantrekt" (`carrousel-5-tekenen/`) | 🎾 TENNIS · CLUBTIP: "Zo krijg je meer jeugd in je tennisclub" (reel 5) | 🟦 PADEL · HERKENBAAR?: "3 fouten op de Instagram van padelclubs" (reel 6, bewezen formule; Jan Stilten-reel naar voorraad) |
-| **26/10** | AANBOD · ZO WERKT SGM: "Zo ziet een maand Instagram eruit als wij het voor je doen" (nieuwe vastgezette uitleg: foto-cover, 3 stappen, bewijs, prijs vanaf €349, garantie, "stuur een DM") | ALLE SCHOLEN · CLUBTIP: "Zo laat je zien dat je trainers goed zijn" (voor/na-coaching: IMG_2107, 2402, 2398, 2417) | VERHUUR · CLUBTIP: "Zo vul je de lege uren in je sportcentrum" (padelbeelden als voorbeeld, werkt voor squash, minivoetbal, tennis) |
-| **2/11** | AANBOD: "Zoveel levert één extra geboekt uur per week je op" (rekensom: Instagram vs. lege uren) | KAMPEN · CLUBTIP: "Zo vul je je sportkamp zonder flyers" (alle sporten) | ABONNEMENT · HERKENBAAR?: "Zo maak je van een proefles een vast lid" (fitness, yoga, crossfit, klimzaal) |
+| **26/10** | AANBOD · ZO WERKT SGM: "Zo ziet een maand Instagram eruit als wij het voor je doen" (nieuwe vastgezette uitleg: foto-cover, 3 stappen, bewijs, prijs vanaf €349, garantie, "stuur een DM") | ALLE SCHOLEN · CLUBTIP: "Zo laat je zien dat je trainers goed zijn" (voor/na-coaching: IMG_2107, 2402, 2398, 2417) | VERHUUR · CLUBTIP: "Zo krijg je meer boekingen in je sportcentrum" (padelbeelden als voorbeeld, werkt voor squash, minivoetbal, tennis) |
+| **2/11** | AANBOD: "Zoveel levert één extra geboekt uur per week je op" (rekensom: Instagram vs. extra boekingen) | KAMPEN · CLUBTIP: "Zo vul je je sportkamp zonder flyers" (alle sporten) | ABONNEMENT · HERKENBAAR?: "Zo maak je van een proefles een vast lid" (fitness, yoga, crossfit, klimzaal) |
 | **9/11** | SCHOLEN · CLUBTIP: "Zo vul je je volgende lesreeks" (carrousel: dans, zwemmen, vechtsport, padel) | AANBOD · RESULTAAT: Jan Stilten als samenwerkingspost (Collab) + getuigenis | VERHUUR · HERKENBAAR?: "3 fouten op de Instagram van sportcentra" (bewezen formule) |
 
 Uit de planning gehaald (vzw-gericht, enkel nog als voorraad): voetbal-supporters, sponsors, clubfeest, clubbio, proefles, voorzitter om 23u.

@@ -18,7 +18,7 @@ Begin waar je geloofwaardig bent en beelden hebt (padel, tennis, voetbal), maar 
 **Niet (meer) voor een abonnement:** vzw-clubs. Uitzondering: een vzw die het via een sponsor laat betalen (sponsor koopt "zichtbaarheid op Instagram"), of een eenmalig startpakket (€249) als iemand er zelf om vraagt.
 
 ## Wat we verkopen: resultaat in hun taal
-- Verhuur per uur: "Ik help je lege uren vol te krijgen."
+- Verhuur per uur: "Ik zorg voor meer boekingen, in de piek- én in de daluren."
 - School/academie/trainer: "Ik vul je volgende lesreeks."
 - Abonnement (fitness, yoga, klimzaal...): "Ik breng je nieuwe leden die blijven."
 - Kamp/event: "Ik vul je kamp/event, zonder flyers."
@@ -42,7 +42,7 @@ Elke week:
 - Reken: ±1 klant per 15-20 analyses.
 
 ### Eerste bericht (zaak met verhuur per uur, DM of ter plaatse)
-> Hoi {naam}! Ik ben Jari, ik ben zelf trainer en ik help sportcentra hun lege uren vol te krijgen via Instagram. Ik heb even naar jullie account gekeken en zie 2-3 dingen die snel meer boekingen kunnen opleveren. Zal ik je een kort filmpje sturen met wat ik zou doen? Gratis, zonder verplichting.
+> Hoi {naam}! Ik ben Jari, ik ben zelf trainer en ik help sportcentra aan meer boekingen via Instagram, in de piek- én in de daluren. Ik heb even naar jullie account gekeken en zie 2-3 dingen die snel meer boekingen kunnen opleveren. Zal ik je een kort filmpje sturen met wat ik zou doen? Gratis, zonder verplichting.
 
 ### Eerste bericht (school, academie, studio, trainer)
 > Hoi {naam}! Ik ben Jari, zelf trainer, en ik doe de Instagram voor sportzaken. Voor Jan Stilten Padel Academy bereikten we 3.367 mensen in 6 weken, en de maandagsles zat bijna vol. Ik zie bij jullie een paar kansen om meer nieuwe leden of cursisten binnen te halen. Mag ik je een kort analysefilmpje sturen?
