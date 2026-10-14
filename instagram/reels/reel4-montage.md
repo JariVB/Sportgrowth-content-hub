@@ -20,13 +20,5 @@ Bestand: `reel4-ruwe-montage.mp4` (37 s, 1080x1920, v3 met ruimere shots, tekst 
 5. Muziek zacht (10-15 %), uit tijdens je coaching (0:09,8-0:16,8).
 6. Export 1080p, 30 fps. Inplannen do 15/10 19:30. Caption: `04-caption.txt`.
 
-## v3 (14/10): langere shots voor de voice-over
-| Tijd | Shot |
-|---|---|
-| 0:00-0:03,3 | Lokbeeld (3 x ±1 s) |
-| 0:03,3-0:07,8 | Volle hal: "Zo film je in 60 seconden…" |
-| 0:07,8-0:12 | Close-up: "Eén: een close-up van een slag." |
-| 0:12-0:19 | Coaching (Jari's versie: coaching → voice-over "Twee" → feedback) |
-| 0:19-0:23,5 | High five: "Drie: een moment tussen de spelers." |
-| 0:23,5-0:28 | Terras: "Vier: wat er na de training gebeurt." |
-| 0:28-0:37 | Net + overdekte hal: afsluiter (9 s) |
+## Eindversie (14/10): 34 s
+Zelfde tijden als v2 (coaching blijft op 0:09,8-0:16,8), enkel het einde is langer: 0:23,8-0:34 (10,2 s, net in avondzon + overdekte hal) voor de afsluiter.
