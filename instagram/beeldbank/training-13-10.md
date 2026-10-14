@@ -13,6 +13,7 @@ Volgens Jari. Alleen volwassenen. Toestemming spelers: gevraagd op de training.
 | IMG_2402 (18 s) | | Bijsturing houding volley → goede volley | voor/na-coaching |
 | IMG_2398 (19 s) | | Coaching voetenwerk → goede slagen | voor/na-coaching |
 | IMG_2417 (5 s) | | Blooper: bal tegen Jari | stories / achter de schermen |
+| IMG_2417 (13 s) | 13 s | Coaching service (Jari praat ±3,9-8 s) | voor/na-coaching, reel 5 |
 | IMG_2418 | 12 s | Blooper: bal tegen trainer | stories / achter de schermen |
 | IMG_2413 | | Coaching = enthousiasme, geen tip | sfeer |
 
