@@ -64,3 +64,7 @@ Stemprofiel van @sportgrowth_media. Elke `ig-*` skill leest dit bestand.
 - **My keyword CTA:** AUDIT (in een DM)
 - **What the keyword sends them:** een video-analyse van hun Instagram-profiel met een score op 100, de 3 grootste verbeterpunten en 1 snelle verbetering, binnen 48 uur. Scripts: `dm-audit.md`.
 - **Where my link goes:** sportgrowthmedia.be (met UTM-tag voor link in bio)
+
+## Achtergrond Jari (feiten, 14/10)
+- 5 jaar padeltrainer (nu bij Jan Stilten Padel Academy), 2 jaar basketbalcoach.
+- Jeugd voetbal bij Sporting Lokeren, later basket en tennis. Speelt nu ook voetbal (zaterdag).
