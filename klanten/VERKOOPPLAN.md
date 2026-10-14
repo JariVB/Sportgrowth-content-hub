@@ -27,8 +27,8 @@ Begin waar je geloofwaardig bent en beelden hebt (padel, tennis, voetbal), maar 
 ## Aanbod
 | Pakket | Prijs | Inhoud |
 |---|---|---|
-| **Proef 3 maanden** | €349/maand, daarna €399 | 1 opnamemoment/maand, 8 posts + 4 reels + stories, maandrapport |
-| **Garantie** | | Geen 10 extra boekingen/inschrijvingen via Instagram na 3 maanden → maand 4 gratis |
+| **Proef 3 maanden** (enkel in gesprekken) | €349/maand, daarna €399 | 1 opnamemoment/maand, 8 posts + 4 reels + stories, maandrapport |
+| **Garantie** (enkel in persoonlijke gesprekken, niet op de website) | | Geen 10 extra boekingen/inschrijvingen via Instagram na 3 maanden → maand 4 gratis |
 | Groei | €599/maand | + 2e opnamemoment, advertenties beheren (budget apart) |
 | Startpakket (eenmalig) | €249 | profiel, bio, highlights, 10 sjablonen, 1 uur uitleg |
 
