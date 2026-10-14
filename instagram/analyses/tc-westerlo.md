@@ -1,3 +1,5 @@
+> **Update 14/10:** Gwenne: @tpc_westerlo is een vals profiel (niet van de club). Herstartplan geldt dus voor een NIEUW officieel account; vals profiel laten melden.
+
 # Analyse TC Westerlo (Facebook + Instagram @tpc_westerlo) + herstartplan Instagram
 
 Gemaakt do 8/10 op basis van screenshots van de Facebookpagina. Contact: Gwenne (vzw, alles vrijwillig, geen budget). Gwenne zei "alleen Facebook", maar er bestaat een Instagram: @tpc_westerlo ("Tennis&padel Westerlo", Broekstraat 21, 8 berichten, 197 volgers, 97 gevolgd). Navragen wie dat account beheert (club of café?).
