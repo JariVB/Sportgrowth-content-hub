@@ -44,3 +44,13 @@ Regel: een post blijft als hij (1) een club aanspreekt, (2) geen dubbel is, (3) 
 - Archiveren (geen club / dubbel fitness): "Waarom klanten kiezen voor de PT…", "De grote ketens hebben minder service dan jij".
 - Na reel 3 (di 13/10): oude reel "Tennisclubs verliezen leden aan padelclubs…" archiveren (zelfde boodschap).
 - Blijven: alle andere. Posts met "DM GROEI" blijven; GROEI en AUDIT behandelen als een vraag naar een gratis analyse.
+
+## Profiel vanaf 14/10 (doelgroep: sportzaken met een kassa, alle sporten)
+- Naam (64 tekens max): `SportGrowth Media | Instagram voor sportzaken`
+- Bio (150 tekens max):
+  Meer boekingen, volle lessen en kampen 🏆
+  Instagram voor sportcentra, studio's en trainers
+  🎾⚽🏋️🥊 Elke sport · zelf trainer
+  👇 Stuur een DM: gratis analyse
+- Link: sportgrowthmedia.be
+- Highlights: Gratis analyse · Resultaat · Zo werkt het · Wat het kost (+ garantie)
