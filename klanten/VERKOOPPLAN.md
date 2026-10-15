@@ -78,3 +78,12 @@ Elke week: 15 contacten, ±3-5 analyses, doel 1 gesprek. Claude maakt bij elk "j
 | Naam | Soort | Gemeente | Contact | Analyse gestuurd | Opvolging | Status |
 |---|---|---|---|---|---|---|
 | | | | | | | |
+
+## Eigen netwerk (privé-account Instagram ±1.000 volgers + Facebook)
+
+Snelste weg naar de eerste klanten: mensen die Jari al kennen (spelers, ouders, trainers, clubmensen).
+- **1 keer aankondigen** met een persoonlijke post op Instagram en Facebook (zo 18/10, ±20u). Geen collab met @sportgrowth_media, zodat de SGM-volgers sportzaken blijven.
+- **Bio privé-account:** "Padeltrainer · oprichter @sportgrowth_media".
+- **Daarna licht:** 1 à 2 keer per week een SGM-reel delen in je privéstory. Hooguit 1 op 5 privéposts gaat over SGM.
+- **Na de post:** stuur 10 mensen uit je netwerk die een zaak of club hebben (of iemand kennen) een persoonlijk bericht.
+- Vraag niet "word klant", vraag "ken je iemand…". Doorverwijzingen zijn het doel.
