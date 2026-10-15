@@ -14,6 +14,7 @@ De `ig-*` skills in `.claude/skills/` komen uit
   Nederlandse tekst zijn alleen de controles op leestekens, onzichtbare
   tekens, lengte en hashtags betrouwbaar; beoordeel de rest zelf.
 - Uitleg voor het team: `instagram/HANDLEIDING.md`.
+- Officieel logo: S / G in een blauwe cirkel (`instagram/beeldbank/logo-sgm-origineel.png`, scherpe versie `logo-sgm-1080.png`). Gebruik dit op eindkaarten en covers.
 - **Contentsysteem** (reeksen, weekritme, opbouw, afsluiter, gratis-analysetraject (DM)): `instagram/CONTENTSYSTEEM.md`. Elke nieuwe post volgt dit systeem.
 
 ## Dagelijkse to-do
