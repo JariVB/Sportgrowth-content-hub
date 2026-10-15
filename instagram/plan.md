@@ -80,6 +80,20 @@ Rode draad: de clubbio. Draaiboek: `DRAAIBOEK-12-18-OKTOBER.md`. Opnames: `SHOTL
 
 Volgende week: ma 19/10 carrousel "Zo check je of jullie Instagram leden aantrekt" (✅ ingepland 14/10), di 20/10 reel 5 "Zo krijg je meer jeugd in je tennisclub" (✅ ingepland 14/10, cover reel5-jeugd-bericht.png), do 22/10 reel 6 "3 fouten op de Instagram van padelclubs" (Jan Stilten-reel naar voorraad). Trainers-reel naar de voorraad (reel 8).
 
+## Weekplan 19 tot 25 oktober
+
+Draaiboek: `DRAAIBOEK-19-25-OKTOBER.md`. Opnames: `SHOTLIST-19-25-OKTOBER.md`. Deze week start de verkoop: 15 contacten (`klanten/VERKOOPPLAN.md`).
+
+| Dag | Uur | Feed | Soort | Stories |
+|---|---|---|---|---|
+| ma 19/10 | 19:30 | Carrousel "Zo check je of jullie Instagram leden aantrekt" (✅ ingepland) | Herkenbaar? | Delen + poll "Hoeveel scoren jullie?" |
+| di 20/10 | 19:30 | Reel 5 "Zo krijg je meer jeugd in je tennisclub" (✅ ingepland) | Clubtip | Delen + vraagsticker jeugdwerking |
+| wo 21/10 | - | Shoot reel trainers + reel boekingen, reel 6 voice-overs + inplannen | - | - |
+| do 22/10 | 19:30 | Reel 6 "3 fouten op de Instagram van padelclubs" (ruwe montage klaar) | Herkenbaar? | Delen + poll "Antwoorden jullie binnen het uur op een DM?" |
+| za 24/10 | - | - | - | Op het terrein |
+
+Week 26/10: ma carrousel "Zo ziet een maand Instagram eruit als wij het voor je doen", di 27/10 reel trainers, do 29/10 reel boekingen (scripts in het draaiboek).
+
 ## Elke dag: 15 minuten reageren (vóór je post)
 
 - **Bereik (5):** grote padel- en tennisaccounts in Vlaanderen, zoals de federaties en bekende clubs en trainers. Reageer vroeg, met een echte zin.
