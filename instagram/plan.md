@@ -73,12 +73,26 @@ Rode draad: de clubbio. Draaiboek: `DRAAIBOEK-12-18-OKTOBER.md`. Opnames: `SHOTL
 | ma 12/10 | 19:30 | Carrousel "Zo schrijf je een clubbio die leden aantrekt" (✅ GEPOST + gedeeld in story) | Kennis | - | Carrousel delen + vraagsticker "Hoe begint jullie bio?" |
 | di 13/10 | 19:30 | Reel 3 "Tennisclubs verliezen geen leden door padel" (✅ ingepland) | Mening | #22 Contrarian Flip | Reel delen + poll "Akkoord / Niet akkoord" |
 | wo 14/10 | - | - | - | - | Poll "Wie beheert jullie clubaccount?" |
-| do 15/10 | 19:30 | Reel 4 voice-over "Zo film je in 60 seconden een week content voor je club" | Praktijk | #18 Cold Open Demo | Reel delen + vraagsticker |
+| do 15/10 | 19:30 | Reel 4 voice-over "Zo film je in 60 seconden een week content voor je club" (✅ gemonteerd en ingepland 14/10, 34 s, cover reel4-1-minuut.png) | Praktijk | #18 Cold Open Demo | Reel delen + vraagsticker |
 | vr 16/10 | - | - | - | - | - |
 | za 17/10 | - | - | - | - | Training of interclub |
 | zo 18/10 | - | - | - | - | - |
 
-Volgende week: ma 19/10 carrousel "Zo check je of jullie Instagram leden aantrekt", di 20/10 reel 5 "Zo krijg je meer jeugd in je tennisclub", do 22/10 reel 6 "3 fouten op de Instagram van padelclubs" (Jan Stilten-reel naar voorraad). Trainers-reel naar de voorraad (reel 8).
+Volgende week: ma 19/10 carrousel "Zo check je of jullie Instagram leden aantrekt" (✅ ingepland 14/10), di 20/10 reel 5 "Zo krijg je meer jeugd in je tennisclub" (✅ ingepland 14/10, cover reel5-jeugd-bericht.png), do 22/10 reel 6 "3 fouten op de Instagram van padelclubs" (Jan Stilten-reel naar voorraad). Trainers-reel naar de voorraad (reel 8).
+
+## Weekplan 19 tot 25 oktober
+
+Draaiboek: `DRAAIBOEK-19-25-OKTOBER.md`. Opnames: `SHOTLIST-19-25-OKTOBER.md`. Deze week start de verkoop: 15 contacten (`klanten/VERKOOPPLAN.md`).
+
+| Dag | Uur | Feed | Soort | Stories |
+|---|---|---|---|---|
+| ma 19/10 | 19:30 | Carrousel "Zo check je of jullie Instagram leden aantrekt" (✅ ingepland) | Herkenbaar? | Delen + poll "Hoeveel scoren jullie?" |
+| di 20/10 | 19:30 | Reel 5 "Zo krijg je meer jeugd in je tennisclub" (✅ ingepland) | Clubtip | Delen + vraagsticker jeugdwerking |
+| wo 21/10 | - | Shoot reel trainers + reel boekingen, reel 6 voice-overs + inplannen | - | - |
+| do 22/10 | 19:30 | Reel 6 "3 fouten op de Instagram van padelclubs" (ruwe montage klaar) | Herkenbaar? | Delen + poll "Antwoorden jullie binnen het uur op een DM?" |
+| za 24/10 | - | - | - | Op het terrein |
+
+Week 26/10: ma carrousel "Zo ziet een maand Instagram eruit als wij het voor je doen", di 27/10 reel trainers, do 29/10 reel boekingen (scripts in het draaiboek).
 
 ## Elke dag: 15 minuten reageren (vóór je post)
 

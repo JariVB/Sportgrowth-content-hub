@@ -47,6 +47,9 @@ Elke week:
 ### Eerste bericht (school, academie, studio, trainer)
 > Hoi {naam}! Ik ben Jari, zelf trainer, en ik doe de Instagram voor sportzaken. Voor Jan Stilten Padel Academy bereikten we 3.367 mensen in 6 weken, en de maandagsles zat bijna vol. Ik zie bij jullie een paar kansen om meer nieuwe leden of cursisten binnen te halen. Mag ik je een kort analysefilmpje sturen?
 
+### Eerste bericht (fitness, crossfit, yoga, klimzaal: abonnementen)
+> Hoi {naam}! Ik ben Jari. Ik werkte 5 jaar in een fitnesscentrum waar de persoonlijke aanpak voorop stond, en ik ben al 5 jaar padeltrainer. Nu doe ik de Instagram voor sportzaken. Ik heb even naar jullie account gekeken en zie 2-3 kansen om meer proeflessen en vaste leden binnen te halen. Zal ik je een kort filmpje sturen met wat ik zou doen? Gratis, zonder verplichting.
+
 ### Opvolgen (na 4 dagen)
 > Hey {naam}, heb je mijn filmpje kunnen bekijken? Als je wil, toon ik in 15 minuten hoe we dit voor jullie zouden aanpakken. Past donderdagavond of woensdag?
 
@@ -78,3 +81,18 @@ Elke week: 15 contacten, ±3-5 analyses, doel 1 gesprek. Claude maakt bij elk "j
 | Naam | Soort | Gemeente | Contact | Analyse gestuurd | Opvolging | Status |
 |---|---|---|---|---|---|---|
 | | | | | | | |
+
+## Eigen netwerk (privé-account Instagram ±1.000 volgers + Facebook)
+
+Snelste weg naar de eerste klanten: mensen die Jari al kennen (spelers, ouders, trainers, clubmensen).
+- **1 keer aankondigen** met een persoonlijke post op Instagram en Facebook (zo 18/10, ±20u). Geen collab met @sportgrowth_media, zodat de SGM-volgers sportzaken blijven.
+- **Bio privé-account:** "Padeltrainer · oprichter @sportgrowth_media".
+- **Daarna licht:** 1 à 2 keer per week een SGM-reel delen in je privéstory. Hooguit 1 op 5 privéposts gaat over SGM.
+- **Na de post:** stuur 10 mensen uit je netwerk die een zaak of club hebben (of iemand kennen) een persoonlijk bericht.
+- Vraag niet "word klant", vraag "ken je iemand…". Doorverwijzingen zijn het doel.
+
+## Ondernemingsnummer (beslist 15/10: wachten op de eerste klant)
+- Promoten, berichten sturen en gratis analyses mag zonder.
+- **Zodra een klant ja zegt:** dezelfde week naar een ondernemingsloket (Xerius, Liantis, Acerta, UCM): nummer heractiveren in bijberoep, btw-vrijstelling kleine ondernemingen, sociaal verzekeringsfonds. Kan op 1 dag. Pas daarna starten en factureren.
+- Vragen: blijft de padeltraining los van de zelfstandige activiteit? Hoeveel sociale bijdragen in bijberoep?
+- Daarna: nummer op de website en op elke factuur.

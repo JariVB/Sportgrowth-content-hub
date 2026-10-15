@@ -66,5 +66,9 @@ Stemprofiel van @sportgrowth_media. Elke `ig-*` skill leest dit bestand.
 - **Where my link goes:** sportgrowthmedia.be (met UTM-tag voor link in bio)
 
 ## Achtergrond Jari (feiten, 14/10)
-- 5 jaar padeltrainer (nu bij Jan Stilten Padel Academy), 2 jaar basketbalcoach.
+- 5 jaar padeltrainer (nu bij Jan Stilten Padel Academy), 2 jaar basketbalcoach, 5 jaar gewerkt in een fitnesscentrum waar de persoonlijke aanpak voorop stond.
 - Jeugd voetbal bij Sporting Lokeren, later basket en tennis. Speelt nu ook voetbal (zaterdag).
+
+
+## Taal
+- Geen komma vlak voor of na "en". Niet: "wat, waar, en hoe" of "basket en, in de zomer, tennis". Wel: "wat, waar en hoe".

@@ -71,3 +71,4 @@ Regels voor de planning:
   op te schuiven.
 
 Schrijf in het Nederlands (Vlaams), kort en concreet.
+Geen komma vlak voor of na "en" (dus niet "wat, waar, en hoe" of "en, als je wil, …"). Herschrijf de zin als er een tussenzin nodig lijkt.
