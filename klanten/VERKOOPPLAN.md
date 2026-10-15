@@ -47,6 +47,9 @@ Elke week:
 ### Eerste bericht (school, academie, studio, trainer)
 > Hoi {naam}! Ik ben Jari, zelf trainer, en ik doe de Instagram voor sportzaken. Voor Jan Stilten Padel Academy bereikten we 3.367 mensen in 6 weken, en de maandagsles zat bijna vol. Ik zie bij jullie een paar kansen om meer nieuwe leden of cursisten binnen te halen. Mag ik je een kort analysefilmpje sturen?
 
+### Eerste bericht (fitness, crossfit, yoga, klimzaal: abonnementen)
+> Hoi {naam}! Ik ben Jari. Ik werkte 5 jaar in een fitnesscentrum waar de persoonlijke aanpak voorop stond, en ik ben al 5 jaar padeltrainer. Nu doe ik de Instagram voor sportzaken. Ik heb even naar jullie account gekeken en zie 2-3 kansen om meer proeflessen en vaste leden binnen te halen. Zal ik je een kort filmpje sturen met wat ik zou doen? Gratis, zonder verplichting.
+
 ### Opvolgen (na 4 dagen)
 > Hey {naam}, heb je mijn filmpje kunnen bekijken? Als je wil, toon ik in 15 minuten hoe we dit voor jullie zouden aanpakken. Past donderdagavond of woensdag?
 
