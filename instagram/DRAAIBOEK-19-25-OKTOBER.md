@@ -11,6 +11,7 @@ Deze week: drie posts die al klaar of bijna klaar zijn, en de verkoop start (15 
 
 ## Zo 18/10
 - TTV (Jelle) en TC Westerlo (Gwenne) opvolgen als ze nog niet antwoordden (teksten in de checklist).
+- **19u: promovideo SGM op je privé-Instagram en Facebook** (video `sgm-promo-final2.mp4`, caption van 15/10). 19u-20u reacties beantwoorden; wie een club tagt, krijgt een DM.
 
 ---
 
