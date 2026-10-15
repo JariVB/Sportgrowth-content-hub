@@ -90,3 +90,9 @@ Snelste weg naar de eerste klanten: mensen die Jari al kennen (spelers, ouders, 
 - **Daarna licht:** 1 à 2 keer per week een SGM-reel delen in je privéstory. Hooguit 1 op 5 privéposts gaat over SGM.
 - **Na de post:** stuur 10 mensen uit je netwerk die een zaak of club hebben (of iemand kennen) een persoonlijk bericht.
 - Vraag niet "word klant", vraag "ken je iemand…". Doorverwijzingen zijn het doel.
+
+## Ondernemingsnummer (beslist 15/10: wachten op de eerste klant)
+- Promoten, berichten sturen en gratis analyses mag zonder.
+- **Zodra een klant ja zegt:** dezelfde week naar een ondernemingsloket (Xerius, Liantis, Acerta, UCM): nummer heractiveren in bijberoep, btw-vrijstelling kleine ondernemingen, sociaal verzekeringsfonds. Kan op 1 dag. Pas daarna starten en factureren.
+- Vragen: blijft de padeltraining los van de zelfstandige activiteit? Hoeveel sociale bijdragen in bijberoep?
+- Daarna: nummer op de website en op elke factuur.
