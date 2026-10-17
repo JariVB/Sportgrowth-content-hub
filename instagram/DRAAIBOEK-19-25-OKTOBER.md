@@ -6,12 +6,13 @@ Deze week: drie posts die al klaar of bijna klaar zijn, en de verkoop start (15 
 ---
 
 ## Za 17/10 · voetbal (12u30-18u)
+- **9u30: promovideo SGM op je privé-Instagram en Facebook.** Reacties tot 12u, na de match DM's naar getagde clubs.
 - **Story:** 5-10 s van het terrein, "Zaterdag op het terrein ⚽".
 - **Shoot (optioneel, 10 min):** sfeerbeelden voetbal voor de voorraad (zie shotlist). Geen herkenbare kinderen.
 
 ## Zo 18/10
 - TTV (Jelle) en TC Westerlo (Gwenne) opvolgen als ze nog niet antwoordden (teksten in de checklist).
-- **19u: promovideo SGM op je privé-Instagram en Facebook** (video `sgm-promo-final2.mp4`, caption van 15/10). 19u-20u reacties beantwoorden; wie een club tagt, krijgt een DM.
+- (verschoven naar za 17/10 9u30) promovideo SGM op je privé-Instagram en Facebook (video `sgm-promo-final2.mp4`, caption van 15/10). 19u-20u reacties beantwoorden; wie een club tagt, krijgt een DM.
 
 ---
 
