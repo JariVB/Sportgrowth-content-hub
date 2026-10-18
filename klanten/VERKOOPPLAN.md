@@ -38,7 +38,7 @@ Max. 6-8 uur werk per klant per maand (1 shoot, sjablonen, batch-montage).
 Elke week:
 - **15 persoonlijke contacten**: 10 DM's/mails + 5 face-to-face (de padelcentra waar Jari al komt).
 - Aanbod in elk contact: gratis analysevideo van 3-4 minuten (werkt: Westerlo, TTV reageerden).
-- **Doorverwijzing**: Jan Stilten vragen naar 3 trainers/centra die hij kent + korte video-getuigenis.
+- **Doorverwijzing**: Jan Stilten levert geen video-getuigenis (beslist 18/10). Resultaat (3.367 bereikt in 6 weken) blijft bruikbaar als bewijs.
 - Reken: ±1 klant per 15-20 analyses.
 
 ### Eerste bericht (zaak met verhuur per uur, DM of ter plaatse)
