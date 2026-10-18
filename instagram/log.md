@@ -44,6 +44,6 @@ Lessen:
 - Beide reels zijn te lang: mik op 25-35 s.
 
 ## Promovideo SGM op privé-account (za 17/10, 9u30)
-- Resultaat na 1 dag: 1.000+ weergaven, 60 likes (±6%, goed voor een privé-account), 0 reacties, niemand getagd.
+- Resultaat na 1 dag: 1.000+ weergaven, 60 likes (±6%, goed voor een privé-account), 0 reacties, niemand getagd, +2 volgers op @sportgrowth_media. Privénetwerk = bekenden, niet de doelgroep: bereik ok, weinig doorstroom naar SGM.
 - Les: publiek iemand taggen is een grote vraag; mensen liken en scrollen door. Een persoonlijk bericht ("ken jij iemand die…?") werkt beter voor doorverwijzingen.
 - Volgende stap: 10 persoonlijke berichten naar het eigen netwerk (zo 18/10).
