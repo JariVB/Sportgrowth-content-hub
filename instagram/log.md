@@ -42,3 +42,8 @@ Lessen:
   vrijwilligers aan, precies de mensen die beslissen.
 - Beste formule: openen met het probleem van de club, daarna kort wie jij bent.
 - Beide reels zijn te lang: mik op 25-35 s.
+
+## Promovideo SGM op privé-account (za 17/10, 9u30)
+- Resultaat na 1 dag: wat likes, 0 reacties, niemand getagd (cijfers volgen).
+- Les: publiek iemand taggen is een grote vraag; mensen liken en scrollen door. Een persoonlijk bericht ("ken jij iemand die…?") werkt beter voor doorverwijzingen.
+- Volgende stap: 10 persoonlijke berichten naar het eigen netwerk (zo 18/10).
