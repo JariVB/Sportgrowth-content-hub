@@ -75,7 +75,7 @@ Rode draad: de clubbio. Draaiboek: `DRAAIBOEK-12-18-OKTOBER.md`. Opnames: `SHOTL
 | wo 14/10 | - | - | - | - | Poll "Wie beheert jullie clubaccount?" |
 | do 15/10 | 19:30 | Reel 4 voice-over "Zo film je in 60 seconden een week content voor je club" (✅ gemonteerd en ingepland 14/10, 34 s, cover reel4-1-minuut.png) | Praktijk | #18 Cold Open Demo | Reel delen + vraagsticker |
 | vr 16/10 | - | - | - | - | - |
-| za 17/10 | - | - | - | - | Training of interclub |
+| za 17/10 | 9:30 | Promovideo SGM op privé-Instagram + Facebook (✅ gepost) | Aankondiging | - | Training of interclub |
 | zo 18/10 | - | - | - | - | - |
 
 Volgende week: ma 19/10 carrousel "Zo check je of jullie Instagram leden aantrekt" (✅ ingepland 14/10), di 20/10 reel 5 "Zo krijg je meer jeugd in je tennisclub" (✅ ingepland 14/10, cover reel5-jeugd-bericht.png), do 22/10 reel 6 "3 fouten op de Instagram van padelclubs" (Jan Stilten-reel naar voorraad). Trainers-reel naar de voorraad (reel 8).
