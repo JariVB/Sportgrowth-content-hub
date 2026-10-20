@@ -51,3 +51,7 @@ Lessen:
 ## TC Moerbeke zegt nee (mail 19/10)
 - Reden: communicatie zelf in handen houden, ze hebben al veel nieuwe leden (ledenstop padel, misschien tennis).
 - Les: een vzw-club met een ledenstop heeft geen groeiprobleem. Bevestigt de keuze voor sportzaken met een kassa die meer boekingen of leden wíllen.
+
+## Vzw-leads afgesloten (20/10)
+- TTV Turnhout (Jelle) en TC Westerlo (Gwenne): geen antwoord meer op de laatste vragen. Gestopt met opvolgen.
+- Les: bij vzw's zonder budget levert een gratis analyse wel interesse op, maar geen beslissing. Focus op sportzaken met een kassa.
