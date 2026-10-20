@@ -55,6 +55,6 @@ Status: leeg = nog niets · 📩 eerste bericht (datum) · 🎥 analyse gestuurd
 | Little Ball Village | Sint-Niklaas, Beveren | Sportkampen voor kleuters |
 
 ## Volgorde eerste berichten
-- Ma 19/10: 1 Botz Padel · 5 Clapaja · 9 AKTIV GYM · 8 The Fighters Academy · 13 Sportfun
-- Di 20/10: 2 Hangar Padel · 6 Eclips · 10 Fierce Studios · 12 CrossFit Lokeren · 15 WaterWijs
-- Wo 21/10: 3 LAGO · 4 Pelgrim · 7 D.I.O.P. · 11 Pure Life · 14 Jeppa Sport
+- Di 20/10 (doorgeschoven van ma): 1 Botz Padel · 5 Clapaja · 9 AKTIV GYM · 8 The Fighters Academy · 13 Sportfun
+- Wo 21/10: 2 Hangar Padel · 6 Eclips · 10 Fierce Studios · 12 CrossFit Lokeren · 15 WaterWijs
+- Do 22/10: 3 LAGO · 4 Pelgrim · 7 D.I.O.P. · 11 Pure Life · 14 Jeppa Sport
