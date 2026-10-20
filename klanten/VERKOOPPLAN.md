@@ -15,7 +15,7 @@ Alle sporten. De vraag is niet welke sport, maar: **verdient deze zaak geld aan 
 
 Begin waar je geloofwaardig bent en beelden hebt (padel, tennis, voetbal), maar elke sportzaak met een kassa is welkom.
 
-**Niet (meer) voor een abonnement:** vzw-clubs. Uitzondering: een vzw die het via een sponsor laat betalen (sponsor koopt "zichtbaarheid op Instagram"), of een eenmalig startpakket (€249) als iemand er zelf om vraagt.
+**Niet (meer) voor een abonnement:** vzw-clubs. Uitzondering: een vzw die het via een sponsor laat betalen (sponsor koopt "zichtbaarheid op Instagram"), of het Mini-pakket (€249/maand) als iemand er zelf om vraagt.
 
 ## Wat we verkopen: resultaat in hun taal
 - Verhuur per uur: "Ik zorg voor meer boekingen, in de piek- én in de daluren."
@@ -24,13 +24,29 @@ Begin waar je geloofwaardig bent en beelden hebt (padel, tennis, voetbal), maar 
 - Kamp/event: "Ik vul je kamp/event, zonder flyers."
 - Meten: geboekte uren / inschrijvingen vóór en na (vraag het cijfer bij de start).
 
-## Aanbod
-| Pakket | Prijs | Inhoud |
-|---|---|---|
-| **Proef 3 maanden** (enkel in gesprekken) | €349/maand, daarna €399 | 1 opnamemoment/maand, 8 posts + 4 reels + stories, maandrapport |
-| **Garantie** (enkel in persoonlijke gesprekken, niet op de website) | | Geen 10 extra boekingen/inschrijvingen via Instagram na 3 maanden → maand 4 gratis |
-| Groei | €599/maand | + 2e opnamemoment, advertenties beheren (budget apart) |
-| Startpakket (eenmalig) | €249 | profiel, bio, highlights, 10 sjablonen, 1 uur uitleg |
+## Aanbod (gelijk met de website, sportgrowthmedia.be/#prijzen)
+| Pakket | Prijs | Inhoud | Looptijd |
+|---|---|---|---|
+| Mini | €249/maand | 6 posts per maand, 3x per week stories, 1x per maand samen overlopen | eerste 3 maanden vast, daarna maandelijks opzegbaar |
+| Starter | €399/maand | 10 posts + 1 reel per maand, 5x per week stories, maandrapport, rechtstreeks via WhatsApp | minimum 3 maanden |
+| Growth | €599/maand | 16 posts + 3 reels per maand, elke dag stories, uitgebreid maandrapport, elk kwartaal een nieuwe strategie, voorrang via WhatsApp | minimum 6 maanden |
+
+**Enkel in persoonlijke gesprekken (niet op de website):**
+- **Proefperiode:** Starter aan €349/maand de eerste 3 maanden, daarna €399. Alleen gebruiken als iemand twijfelt.
+- **Garantie:** geen 10 extra boekingen of inschrijvingen via Instagram na 3 maanden → maand 4 gratis.
+
+### Vaste pakketten, flexibele invulling (beslist 20/10)
+- Geen offerte op maat per club. De klant kiest een pakket, binnen het pakket bepalen we samen de mix.
+- **Ruilregel: 1 reel = 3 posts.** Prijs blijft gelijk. Voorbeelden:
+  - Mini (6 posts): 3 posts + 1 reel
+  - Starter (10 posts + 1 reel): 7 posts + 2 reels, of 4 posts + 3 reels
+  - Growth (16 posts + 3 reels): 7 posts + 6 reels
+- **Extra's:**
+  - Extra opnamemoment: +€50/maand (staat op de website)
+  - Extra reel: +€60 per stuk (voorstel, bijsturen naar de echte tijd per reel)
+  - Eenmalig project (tornooi, opendeurdag, kamp): losse prijs
+- **Maatwerk** alleen bij grote of aparte vragen (meerdere locaties, advertenties met budget, een volledig evenement): "Dat werk ik graag voor je uit, op basis van Growth."
+- Zin voor in gesprekken: "Je kiest een pakket, en binnen dat pakket bepalen we samen de mix. Wil je meer reels? Dan ruilen we posts in voor reels."
 
 Max. 6-8 uur werk per klant per maand (1 shoot, sjablonen, batch-montage).
 
