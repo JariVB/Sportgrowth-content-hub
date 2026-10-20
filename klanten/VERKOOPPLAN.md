@@ -42,7 +42,8 @@ Begin waar je geloofwaardig bent en beelden hebt (padel, tennis, voetbal), maar 
   - Starter (10 posts + 1 reel): 7 posts + 2 reels, of 4 posts + 3 reels
   - Growth (16 posts + 3 reels): 7 posts + 6 reels
 - **Extra's:**
-  - Extra opnamemoment: +€50/maand (staat op de website)
+  - Jari komt filmen of fotograferen (1x per maand): +€50/maand (staat op de website). Zonder dat levert de klant zelf beelden aan.
+  - Twee sporten of twee locaties: +€50/maand (staat op de website)
   - Extra reel: +€60 per stuk (voorstel, bijsturen naar de echte tijd per reel)
   - Eenmalig project (tornooi, opendeurdag, kamp): losse prijs
 - **Maatwerk** alleen bij grote of aparte vragen (meerdere locaties, advertenties met budget, een volledig evenement): "Dat werk ik graag voor je uit, op basis van Growth."
