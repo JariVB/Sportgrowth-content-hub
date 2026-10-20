@@ -55,3 +55,7 @@ Lessen:
 ## Vzw-leads afgesloten (20/10)
 - TTV Turnhout (Jelle) en TC Westerlo (Gwenne): geen antwoord meer op de laatste vragen. Gestopt met opvolgen.
 - Les: bij vzw's zonder budget levert een gratis analyse wel interesse op, maar geen beslissing. Focus op sportzaken met een kassa.
+
+## Baltha zegt nee (mail 20/10)
+- Kiest voor iemand die op commissiebasis werkt, gekoppeld aan wat zijn project opbrengt.
+- Les: starters zonder klanten zoeken een laag risico. Werk niet op commissie (onvoorspelbaar, geen controle over hun verkoop). Starters met weinig budget: Mini (€249) of de proefperiode in het gesprek.
