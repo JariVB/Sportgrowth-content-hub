@@ -4,7 +4,7 @@ Opgemaakt zo 18/10 via online zoeken. Instagram-accounts kon Claude niet openen:
 "Instagram" in (volgers en laatste post). Niet op de lijst: Boba Racketsports (partner) en
 The Padel Point (eerst checken of Jan Stilten daar lesgeeft; zo ja via Jan).
 
-Status: leeg = nog niets · 📩 eerste bericht (datum) · 🎥 analyse gestuurd · 📞 gesprek · ✅ klant · ✖ geen interesse
+Status: leeg = nog niets · 👍 account al goed (compliment of overslaan) · 📩 eerste bericht (datum) · 🎥 analyse gestuurd · 📞 gesprek · ✅ klant · ✖ geen interesse
 
 ## Verhuur per uur
 

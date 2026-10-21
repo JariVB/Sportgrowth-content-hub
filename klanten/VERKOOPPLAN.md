@@ -77,6 +77,21 @@ Sturen vanaf @sportgrowth_media. Altijd "wij", met onderaan de naam van Jari: ee
 > Hoi! Wij zijn SportGrowth Media. Wij doen de social media voor sportclubs en sportzaken in het Waasland. We zien een paar kansen om jullie kampen sneller vol te krijgen via Instagram. Zullen we jullie een kort filmpje sturen met tips? Gratis en zonder verplichting.
 > Sportieve groet, Jari · SportGrowth Media
 
+### Eerst de check van 1 minuut (beslist 21/10)
+Kijk vóór elk bericht naar hun Instagram:
+1. Laatste post minder dan 7 dagen oud?
+2. Reels of filmpjes met echte mensen (geen affiches of uurroosters)?
+3. Bio met een duidelijke link om te boeken of in te schrijven?
+4. Reacties onder posts beantwoord?
+
+- **0-2 keer ja:** stuur het gewone eerste bericht.
+- **3-4 keer ja:** niet zeggen dat we "kansen zien", dat klopt dan niet. Stuur het complimentbericht (hieronder) of sla over. Noteer "👍 goed" in de prospectlijst.
+- Werken ze zichtbaar met een bureau of een grote keten? Overslaan.
+
+**Complimentbericht (account is al goed):**
+> Hoi! Wij zijn SportGrowth Media. Jullie Instagram ziet er echt top uit, dat zien we niet vaak bij sportzaken 👏 Doen jullie dat zelf? Wordt het ooit te veel werk, dan nemen wij het graag van jullie over.
+> Sportieve groet, Jari · SportGrowth Media
+
 ### Opvolgen (na 4 dagen)
 > Hoi {naam}, hebben jullie ons filmpje kunnen bekijken? Als jullie willen, tonen we in 15 minuten hoe we dit voor jullie zouden aanpakken. Past donderdagavond of woensdag?
 
