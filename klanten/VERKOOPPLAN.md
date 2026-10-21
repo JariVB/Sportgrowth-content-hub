@@ -58,17 +58,27 @@ Elke week:
 - **Doorverwijzing**: Jan Stilten levert geen video-getuigenis (beslist 18/10). Resultaat (3.367 bereikt in 6 weken) blijft bruikbaar als bewijs.
 - Reken: ±1 klant per 15-20 analyses.
 
-### Eerste bericht (zaak met verhuur per uur, DM of ter plaatse)
-> Hoi {naam}! Ik ben Jari, ik ben zelf trainer en ik help sportcentra aan meer boekingen via Instagram, in de piek- én in de daluren. Ik heb even naar jullie account gekeken en zie 2-3 dingen die snel meer boekingen kunnen opleveren. Zal ik je een kort filmpje sturen met wat ik zou doen? Gratis, zonder verplichting.
+### Eerste berichten (vanuit SportGrowth Media, beslist 21/10)
+Sturen vanaf @sportgrowth_media. Altijd "wij", met onderaan de naam van Jari: een persoon antwoordt men sneller dan een merk.
 
-### Eerste bericht (school, academie, studio, trainer)
-> Hoi {naam}! Ik ben Jari, zelf trainer, en ik doe de Instagram voor sportzaken. Voor Jan Stilten Padel Academy bereikten we 3.367 mensen in 6 weken, en de maandagsles zat bijna vol. Ik zie bij jullie een paar kansen om meer nieuwe leden of cursisten binnen te halen. Mag ik je een kort analysefilmpje sturen?
+**Verhuur per uur (padel, squash, minivoetbal):**
+> Hoi! Wij zijn SportGrowth Media. Wij doen de social media voor sportclubs en sportzaken in het Waasland. We keken even naar jullie Instagram en zien 2-3 dingen die snel meer boekingen kunnen opleveren, in de piek- én de daluren. Zullen we jullie een kort filmpje sturen met wat we zouden doen? Gratis en zonder verplichting.
+> Sportieve groet, Jari · SportGrowth Media
 
-### Eerste bericht (fitness, crossfit, yoga, klimzaal: abonnementen)
-> Hoi {naam}! Ik ben Jari. Ik werkte 5 jaar in een fitnesscentrum waar de persoonlijke aanpak voorop stond, en ik ben al 5 jaar padeltrainer. Nu doe ik de Instagram voor sportzaken. Ik heb even naar jullie account gekeken en zie 2-3 kansen om meer proeflessen en vaste leden binnen te halen. Zal ik je een kort filmpje sturen met wat ik zou doen? Gratis, zonder verplichting.
+**School of academie (dans, vechtsport, zwemmen):**
+> Hoi! Wij zijn SportGrowth Media. Wij doen de social media voor sportscholen en academies in het Waasland. We zien bij jullie een paar kansen om meer nieuwe leerlingen binnen te halen voor de volgende lesreeks. Zullen we jullie een kort analysefilmpje sturen? Gratis en zonder verplichting.
+> Sportieve groet, Jari · SportGrowth Media
+
+**Abonnementen (fitness, pilates, crossfit):**
+> Hoi! Wij zijn SportGrowth Media. Wij doen de social media voor fitness- en sportzaken in het Waasland. We zien 2-3 kansen om via Instagram meer proeftrainingen en vaste leden binnen te halen. Zullen we jullie een kort filmpje sturen met wat we zouden doen? Gratis en zonder verplichting.
+> Sportieve groet, Jari · SportGrowth Media
+
+**Kampen:**
+> Hoi! Wij zijn SportGrowth Media. Wij doen de social media voor sportclubs en sportzaken in het Waasland. We zien een paar kansen om jullie kampen sneller vol te krijgen via Instagram. Zullen we jullie een kort filmpje sturen met tips? Gratis en zonder verplichting.
+> Sportieve groet, Jari · SportGrowth Media
 
 ### Opvolgen (na 4 dagen)
-> Hey {naam}, heb je mijn filmpje kunnen bekijken? Als je wil, toon ik in 15 minuten hoe we dit voor jullie zouden aanpakken. Past donderdagavond of woensdag?
+> Hoi {naam}, hebben jullie ons filmpje kunnen bekijken? Als jullie willen, tonen we in 15 minuten hoe we dit voor jullie zouden aanpakken. Past donderdagavond of woensdag?
 
 ## Vast weekritme verkoop (±2u15 per week, staat in de checklist)
 | Dag | Tijd | Wat |
