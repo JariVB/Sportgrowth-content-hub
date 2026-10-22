@@ -92,7 +92,11 @@ Draaiboek: `DRAAIBOEK-19-25-OKTOBER.md`. Opnames: `SHOTLIST-19-25-OKTOBER.md`. D
 | do 22/10 | 19:30 | Reel 6 "3 fouten op de Instagram van padelclubs" (ruwe montage klaar) | Herkenbaar? | Delen + poll "Antwoorden jullie binnen het uur op een DM?" |
 | za 24/10 | - | - | - | Op het terrein |
 
-Week 26/10: ma carrousel "Zo ziet een maand Instagram eruit als wij het voor je doen", di 27/10 reel trainers, do 29/10 reel boekingen (scripts in het draaiboek).
+Week 26/10 (bijgestuurd 22/10, shoot van wo 21/10 ging niet door → di 27/10 13u-15u):
+- ma 26/10 19:30: carrousel "Zo ziet een maand Instagram eruit als wij het voor je doen" (Claude maakt slides met een bestaande foto)
+- di 27/10 19:30: reel 6 als die do 22/10 niet online kwam, anders de Jan Stilten-reel uit de voorraad (bewijs)
+- do 29/10 19:30: reel trainers (shoot di 27/10, montage wo 28/10)
+- di 3/11 19:30: reel boekingen (shoot di 27/10)
 
 ## Elke dag: 15 minuten reageren (vóór je post)
 
