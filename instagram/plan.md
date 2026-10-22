@@ -89,12 +89,12 @@ Draaiboek: `DRAAIBOEK-19-25-OKTOBER.md`. Opnames: `SHOTLIST-19-25-OKTOBER.md`. D
 | ma 19/10 | 19:30 | Carrousel "Zo check je of jullie Instagram leden aantrekt" (✅ ingepland) | Herkenbaar? | Delen + poll "Hoeveel scoren jullie?" |
 | di 20/10 | 19:30 | Reel 5 "Zo krijg je meer jeugd in je tennisclub" (✅ ingepland) | Clubtip | Delen + vraagsticker jeugdwerking |
 | wo 21/10 | - | Shoot reel trainers + reel boekingen, reel 6 voice-overs + inplannen | - | - |
-| do 22/10 | 19:30 | Reel 6 "3 fouten op de Instagram van padelclubs" (ruwe montage klaar) | Herkenbaar? | Delen + poll "Antwoorden jullie binnen het uur op een DM?" |
+| do 22/10 | 19:30 | Reel 6 "3 fouten op de Instagram van padelclubs" (⏩ verschoven naar di 27/10: geen tijd voor voice-overs) | Herkenbaar? | Delen + poll "Antwoorden jullie binnen het uur op een DM?" |
 | za 24/10 | - | - | - | Op het terrein |
 
 Week 26/10 (bijgestuurd 22/10, shoot van wo 21/10 ging niet door → di 27/10 13u-15u):
 - ma 26/10 19:30: carrousel "Zo ziet een maand Instagram eruit als wij het voor je doen" (Claude maakt slides met een bestaande foto)
-- di 27/10 19:30: reel 6 als die do 22/10 niet online kwam, anders de Jan Stilten-reel uit de voorraad (bewijs)
+- di 27/10 19:30: reel 6 "3 fouten op de Instagram van padelclubs" (niet gelukt op do 22/10; voice-overs zo 25/10, inplannen zo 25/10)
 - do 29/10 19:30: reel trainers (shoot di 27/10, montage wo 28/10)
 - di 3/11 19:30: reel boekingen (shoot di 27/10)
 
