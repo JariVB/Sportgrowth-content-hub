@@ -3,6 +3,7 @@
 **Locatie:** Nekkerhal, Plattebeekstraat 1, Mechelen
 **Contact:** Koen (Flaxx Rackets), aan de stand behalve 15u30-16u15 (panel)
 **Tickets:** Koen regelt er 2
+**Op de gsm:** afvinkpagina https://claude.ai/artifact/JvLMdgWr8c78nxgd5bBp7P (bron: `instagram/shotlist-sports-next.html`) · filmgids https://claude.ai/artifact/BWCAvP153KpGWFRvS6RT6y
 
 ## Doel van de dag
 | # | Wat | Voor wie | Wanneer online |

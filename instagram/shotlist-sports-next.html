@@ -1,0 +1,234 @@
+<title>Shotlist Sports NEXT</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Layout: één smalle kolom voor de gsm; sticky voortgangsbalk; per tijdsblok een lijst met grote afvinkrijen. Bewust één donkere SGM-look, leesbaar in een felle hal. */
+:root{
+  --bg:#0b1633; --card:#12224a; --line:#26386b; --fg:#eaf2ff; --muted:#9fb2d9;
+  --cyan:#00d4ff; --done:#5fe0a0; --warn:#ffb86b;
+  --display:"Rajdhani","Arial Narrow",system-ui,sans-serif;
+  --body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 56px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:640px;margin:0 auto;display:flex;flex-direction:column;gap:22px}
+h1,h2{font-family:var(--display);font-weight:700;line-height:1.05;text-wrap:balance;margin:0}
+h1{font-size:40px}
+h2{font-size:24px}
+.eyebrow{font-family:var(--display);font-weight:600;letter-spacing:.14em;text-transform:uppercase;font-size:13px;color:var(--cyan)}
+header{padding-top:24px;display:flex;flex-direction:column;gap:6px}
+.facts{display:grid;grid-template-columns:auto 1fr;gap:2px 12px;font-size:14px;margin:6px 0 0}
+.facts dt{color:var(--muted)} .facts dd{margin:0}
+a{color:var(--cyan)}
+
+.progress{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:10px;display:flex;flex-direction:column;gap:6px;border-bottom:1px solid var(--line)}
+.prow{display:flex;justify-content:space-between;align-items:baseline;font-family:var(--display);font-weight:700;font-size:18px;font-variant-numeric:tabular-nums}
+.prow span{color:var(--muted);font-weight:600;font-size:14px}
+.track{height:8px;border-radius:99px;background:var(--line);overflow:hidden}
+.fill{height:100%;width:0;background:var(--cyan);transition:width .3s}
+.jump{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+.jump a{flex:none;text-decoration:none;font:600 13px var(--body);color:var(--fg);background:var(--card);border:1px solid var(--line);border-radius:99px;padding:4px 10px}
+.jump a.ok{border-color:var(--done);color:var(--done)}
+
+section{display:flex;flex-direction:column;gap:10px;scroll-margin-top:110px}
+.shead{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.time{font-family:var(--display);font-weight:700;color:var(--cyan);font-size:16px;white-space:nowrap}
+.note{font-size:14px;color:var(--muted);margin:0}
+ul.items{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.item{background:var(--card);border:1px solid var(--line);border-radius:12px}
+.item label{display:grid;grid-template-columns:28px 1fr;gap:12px;padding:12px 14px;cursor:pointer;align-items:start}
+.item input{appearance:none;width:28px;height:28px;border:2px solid var(--muted);border-radius:8px;margin:0;display:grid;place-items:center;background:transparent;cursor:pointer}
+.item input::after{content:"";width:12px;height:7px;border:3px solid var(--bg);border-top:0;border-right:0;transform:rotate(-45deg) translate(1px,-1px);opacity:0}
+.item input:checked{background:var(--done);border-color:var(--done)}
+.item input:checked::after{opacity:1}
+.item input:focus-visible{outline:3px solid var(--cyan);outline-offset:2px}
+.item.is-done{opacity:.55}
+.item.is-done .t{text-decoration:line-through}
+.body{min-width:0;display:flex;flex-direction:column;gap:4px}
+.t{font-weight:600}
+.id{font-family:var(--display);font-weight:700;color:var(--cyan);margin-right:6px}
+.chips{display:flex;flex-wrap:wrap;gap:4px}
+.chip{font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:6px;padding:0 6px}
+.chip.mv{color:var(--cyan);border-color:var(--cyan)}
+.tip{font-size:14px;color:var(--muted)}
+.say{font-size:14px;background:var(--bg);border-left:3px solid var(--cyan);padding:6px 10px;border-radius:0 8px 8px 0;display:flex;gap:8px;align-items:flex-start;justify-content:space-between}
+.say q{quotes:"“" "”"}
+button{font:600 13px var(--body);color:var(--bg);background:var(--cyan);border:0;border-radius:99px;padding:5px 11px;cursor:pointer;flex:none}
+button.ghost{background:transparent;color:var(--muted);border:1px solid var(--line)}
+button:focus-visible{outline:3px solid var(--fg);outline-offset:2px}
+.box{border:1px dashed var(--line);border-radius:12px;padding:12px 14px;font-size:14px;display:flex;flex-direction:column;gap:6px}
+.box b{color:var(--warn)}
+.foot{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:14px;color:var(--muted)}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">SportGrowth Media · zondag 1 november</div>
+    <h1>Shotlist Sports NEXT</h1>
+    <dl class="facts">
+      <dt>Waar</dt><dd>Nekkerhal, Plattebeekstraat 1, Mechelen</dd>
+      <dt>Contact</dt><dd>Koen (Flaxx Rackets), aan de stand behalve 15u30-16u15</dd>
+      <dt>Bewegingen</dt><dd><a href="https://claude.ai/artifact/BWCAvP153KpGWFRvS6RT6y" target="_blank" rel="noopener">Filmgids met animaties</a></dd>
+    </dl>
+  </header>
+
+  <div class="progress" aria-live="polite">
+    <div class="prow">Klaar <span id="count">0 / 0</span></div>
+    <div class="track"><div class="fill" id="fill"></div></div>
+    <nav class="jump" id="jump"></nav>
+  </div>
+
+  <div id="list" class="wrap" style="gap:28px"></div>
+
+  <div class="foot">
+    <span id="saved">Je vinkjes worden op deze gsm bewaard.</span>
+    <button class="ghost" id="reset" type="button">Alles leegmaken</button>
+  </div>
+</div>
+
+<script>
+const S = [
+ {id:"voor", nav:"Voorbereiding", h:"Voorbereiding", time:"za-avond",
+  note:"Op je iPhone: Instellingen → Camera.",
+  items:[
+   {id:"v1", t:"Video op 4K · 30 fps"},
+   {id:"v2", t:"HDR-video uit", tip:"HDR geeft vreemde kleuren in CapCut en op Instagram."},
+   {id:"v3", t:"Raster aan"},
+   {id:"v4", t:"Minstens 15 GB vrij"},
+   {id:"v5", t:"Gsm 100% + powerbank + kabel"},
+   {id:"v6", t:"Microfoon opgeladen, met windkapje"},
+   {id:"v7", t:"Microvezeldoekje voor je lens"},
+   {id:"v8", t:"Effen donkerblauwe trui klaargelegd"},
+   {id:"v9", t:"Lege notitie \"Sports NEXT panel\" in je gsm"},
+   {id:"v10", t:"Op de dag zelf: Niet storen aan", tip:"Zo onderbreekt een oproep je opname niet."}
+  ]},
+ {id:"a", nav:"A · aankomst", h:"A · Aankomst", time:"±12u45",
+  items:[
+   {id:"A1", t:"Gevel of bord Nekkerhal / Sports NEXT", c:["breed","5 s"], mv:"statisch"},
+   {id:"A2", t:"Jij die binnenstapt (selfie-video)", c:["half","5 s","story 1"], mv:"meelopen"},
+   {id:"A3", t:"De hal met volk en standen", c:["breed","8 s","story 2"], mv:"pan", tip:"Voeten stil, draai vanuit je heupen van links naar rechts."},
+   {id:"A4", t:"Een demo of iets wat beweegt", c:["half","5 s","story 2"], mv:"statisch"}
+  ]},
+ {id:"b", nav:"B · Flaxx", h:"B · Stand Flaxx", time:"±13u",
+  note:"Eerst Koen begroeten en bedanken voor de tickets. Daarna filmen.",
+  items:[
+   {id:"B1", t:"De hele stand met het logo", c:["breed","8 s","story 3"], mv:"push-in"},
+   {id:"B2", t:"Reveal van de stand vanachter een paal of bord", c:["breed","5 s"], mv:"reveal", tip:"Hoe dichter de paal bij je lens, hoe sterker het effect."},
+   {id:"B3", t:"ERGO CONTROL op tafel of in het rek", c:["close-up","6 s"], mv:"orbit", tip:"Racket in het midden van je scherm, ±80 cm afstand."},
+   {id:"B4", t:"ERGO POWER op tafel of in het rek", c:["close-up","6 s"], mv:"orbit"},
+   {id:"B5", t:"Vlasstructuur van heel dichtbij", c:["close-up","5 s"], mv:"heel traag schuiven"},
+   {id:"B6", t:"Handen die een racket oppakken en draaien", c:["close-up","5 s"], mv:"statisch"},
+   {id:"B7", t:"Koen in gesprek met bezoekers", c:["half","8 s"], mv:"statisch"},
+   {id:"B8", t:"Een bezoeker die een racket test", c:["half","6 s"], mv:"lage hoek", tip:"Eerst vragen.", say:"Mag ik even filmen hoe je het racket test? Het is voor Flaxx."},
+   {id:"B9a", t:"Interview vraag 1", c:["half","±20 s"], mv:"statisch", say:"Waarom maken jullie rackets uit vlas?", tip:"Doorvragen: \"Wat merkt een speler daarvan?\""},
+   {id:"B9b", t:"Interview vraag 2", c:["half","±20 s"], mv:"statisch", say:"Wat is het verschil tussen de ERGO CONTROL en de ERGO POWER?", tip:"Doorvragen: \"Voor welk type speler is welk model?\""},
+   {id:"B9c", t:"Interview vraag 3", c:["half","±20 s"], mv:"statisch", say:"Voor wie is een Flaxx ideaal?", tip:"Doorvragen: \"En wat betekent het dat ze in België gemaakt worden?\""},
+   {id:"B9d", t:"B-roll bij de antwoorden (rackets, vlas, bezoekers)", c:["mix","3 x 5 s"], mv:"push-in / orbit"},
+   {id:"B10", t:"Jij met de ERGO POWER, 1 zin in de camera", c:["half","8 s"], mv:"statisch", say:"Dit is de nieuwe ERGO POWER van Flaxx, een Belgisch racket uit vlas. Dinsdag test ik hem op training."},
+   {id:"B11", t:"Foto van jou en Koen (verticaal + liggend)", c:["foto"]}
+  ]},
+ {id:"int", box:true, h:"Interview: zo pak je het aan",
+  lines:["Rustige hoek, weg van luidsprekers. Koen met zijn gezicht naar het licht.","Logo of stand achter hem. Ogen op de bovenste lijn van het raster.","Microfoon op ±20 cm. Zonder microfoon: gsm op 50 cm.","Vraag hem je vraag te herhalen in zijn antwoord.","Laat 2 seconden stilte voor en na elk antwoord."]},
+ {id:"c", nav:"C · stories", h:"C · Stories @sportgrowth_media", time:"live",
+  items:[
+   {id:"C1", t:"Story 1: A2 (jij die binnenstapt)", copy:"Vandaag op Sports NEXT 🏟️"},
+   {id:"C2", t:"Story 2: A3 of A4 (hal of demo)", copy:"De toekomst van sport, op één plek"},
+   {id:"C3", t:"Story 3: B1 (stand Flaxx) + tag @flaxx_rackets", copy:"De lancering van de ERGO CONTROL en ERGO POWER 🇧🇪"},
+   {id:"C4", t:"Story 4: foto van de hal na het panel", copy:"Interessant gesprek over padel: van hype naar gewoonte. Morgen deel ik wat ik leerde 👀"}
+  ]},
+ {id:"d", nav:"D · panel", h:"D · Sessie 14u + panel 15u30", time:"14u-16u15",
+  note:"Niet filmen. Noteer per spreker: kernzin + wat een club of sportzaak ermee kan doen.",
+  items:[
+   {id:"D1", t:"Notities Koen (Flaxx)"},
+   {id:"D2", t:"Notities Tom De Sutter (Arenal)"},
+   {id:"D3", t:"Notities Gilles Koolen (Biofibix)"},
+   {id:"D4", t:"Notities Elke Clijsters"},
+   {id:"D5", t:"Kort voorstellen aan Tom De Sutter", say:"Hoi, ik ben Jari. Ik ben padeltrainer en met SportGrowth Media doe ik de social media voor sportclubs en sportzaken. Interessant gesprek!", tip:"Geen afspraak vragen. Volg hem daarna op Instagram."}
+  ]},
+ {id:"e", nav:"E · SGM-reel", h:"E · SGM-reel voor later", time:"rustig moment",
+  items:[
+   {id:"E1", t:"Jij in de camera, hal achter je (2-3 keer)", c:["half","8 s"], mv:"statisch", say:"Ik ben vandaag op Sports NEXT, dé beurs over de toekomst van sport. Dit neem ik mee voor jullie club."},
+   {id:"E2", t:"Breed beeld van de hal", c:["breed","5 s"], mv:"pan"},
+   {id:"E3", t:"Detail van een sporttoestel of demo", c:["close-up","5 s"], mv:"push-in"},
+   {id:"E4", t:"Jij die door de hal loopt, van achteren", c:["half","5 s","begeleider"], mv:"meelopen"}
+  ]},
+ {id:"f", nav:"F · afsluiten", h:"F · Afsluiten", time:"na 16u15",
+  items:[
+   {id:"F1", t:"Koen bedanken + testrackets meenemen"},
+   {id:"F2", t:"Afspreken wanneer de collab-reel online komt", tip:"Voorstel: donderdag 5/11 om 19u30."}
+  ]},
+ {id:"na", nav:"Avond", h:"Zondagavond", time:"15 min",
+  items:[
+   {id:"N1", t:"Mislukte opnames weggooien"},
+   {id:"N2", t:"Goede beelden in album \"Sports NEXT 1-11\""},
+   {id:"N3", t:"Naar Claude sturen: notities panel, interview, beelden B en E", tip:"Dan staat maandag de carrousel en de ruwe montage voor Flaxx klaar."}
+  ]}
+];
+
+const KEY = "sgm-shotlist-sportsnext-1-11";
+let state = {};
+try { state = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch(e) { state = {}; }
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch(e) {
+  document.getElementById("saved").textContent = "Vinkjes worden niet bewaard in dit venster."; } };
+const esc = s => s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+const list = document.getElementById("list");
+list.innerHTML = S.map(s => s.box ? `
+  <div class="box"><b>${esc(s.h)}</b>${s.lines.map(l=>`<div>· ${esc(l)}</div>`).join("")}</div>` : `
+  <section id="${s.id}">
+    <div class="shead"><h2>${esc(s.h)}</h2><span class="time">${esc(s.time)}</span></div>
+    ${s.note ? `<p class="note">${esc(s.note)}</p>` : ""}
+    <ul class="items">${s.items.map(i => `
+      <li class="item" data-id="${i.id}">
+        <label>
+          <input type="checkbox" id="cb-${i.id}" ${state[i.id] ? "checked" : ""}>
+          <div class="body">
+            <div class="t">${/^[A-F]\d/.test(i.id) ? `<span class="id">${i.id.replace(/[a-d]$/,"")}</span>` : ""}${esc(i.t)}</div>
+            ${(i.c||i.mv) ? `<div class="chips">${i.mv ? `<span class="chip mv">${esc(i.mv)}</span>` : ""}${(i.c||[]).map(x=>`<span class="chip">${esc(x)}</span>`).join("")}</div>` : ""}
+            ${i.say ? `<div class="say"><q>${esc(i.say)}</q></div>` : ""}
+            ${i.copy ? `<div class="say"><span>${esc(i.copy)}</span><button type="button" data-copy="${esc(i.copy)}">Kopieer</button></div>` : ""}
+            ${i.tip ? `<div class="tip">${esc(i.tip)}</div>` : ""}
+          </div>
+        </label>
+      </li>`).join("")}
+    </ul>
+  </section>`).join("");
+
+const secs = S.filter(s => !s.box);
+const jump = document.getElementById("jump");
+jump.innerHTML = secs.map(s => `<a href="#${s.id}" data-s="${s.id}">${esc(s.nav)}</a>`).join("");
+
+function update(){
+  const all = secs.flatMap(s => s.items.map(i => i.id));
+  const done = all.filter(id => state[id]).length;
+  document.getElementById("count").textContent = `${done} / ${all.length}`;
+  document.getElementById("fill").style.width = (done / all.length * 100) + "%";
+  secs.forEach(s => jump.querySelector(`[data-s="${s.id}"]`).classList.toggle("ok", s.items.every(i => state[i.id])));
+  document.querySelectorAll(".item").forEach(el => el.classList.toggle("is-done", !!state[el.dataset.id]));
+}
+list.addEventListener("change", e => {
+  const li = e.target.closest(".item"); if (!li) return;
+  state[li.dataset.id] = e.target.checked; save(); update();
+});
+list.addEventListener("click", e => {
+  const b = e.target.closest("button[data-copy]"); if (!b) return;
+  e.preventDefault();
+  const txt = b.dataset.copy;
+  const ok = () => { b.textContent = "Gekopieerd"; setTimeout(() => b.textContent = "Kopieer", 1500); };
+  const fallback = () => { const r = document.createRange(); r.selectNodeContents(b.previousElementSibling);
+    const sel = getSelection(); sel.removeAllRanges(); sel.addRange(r); b.textContent = "Geselecteerd"; };
+  try { navigator.clipboard.writeText(txt).then(ok, fallback); } catch(err) { fallback(); }
+});
+const reset = document.getElementById("reset");
+let armed = false;
+reset.addEventListener("click", () => {
+  if (!armed) { armed = true; reset.textContent = "Tik nog eens om alles leeg te maken"; setTimeout(() => { armed = false; reset.textContent = "Alles leegmaken"; }, 3000); return; }
+  state = {}; save(); document.querySelectorAll(".item input").forEach(i => i.checked = false); update();
+  armed = false; reset.textContent = "Alles leegmaken";
+});
+update();
+</script>
