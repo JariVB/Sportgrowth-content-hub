@@ -185,6 +185,8 @@ Seizoenshaakjes: oktober-maart winter/indoor en jeugdkampen (kerst, krokus); jan
 ---
 
 ## Planning 19/10 tot 15/11 (eerste ronde)
+**Bijgestuurd 26/10:** week van 2/11 = Sports NEXT-carrousel, reel boekingen en collab-reel Flaxx (zie plan.md). Alles hieronder vanaf 2/11 schuift een week op.
+
 Week 12-18/10 blijft zoals gepland (carrousel clubbio, reel 3, reel 4 met nieuwe afsluiter).
 
 | Week | Ma · carrousel | Di · reel 1 | Do · reel 2 |

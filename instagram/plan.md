@@ -98,6 +98,17 @@ Week 26/10 (bijgestuurd 22/10, shoot van wo 21/10 ging niet door → di 27/10 13
 - do 29/10 19:30: reel trainers (shoot di 27/10, montage wo 28/10)
 - di 3/11 19:30: reel boekingen (shoot di 27/10)
 
+## Weekplan 2 tot 8 november (bijgestuurd 26/10: Sports NEXT + Flaxx)
+
+| Dag | Uur | Feed | Soort |
+|---|---|---|---|
+| zo 1/11 | - | Sports NEXT Mechelen: stories live, beelden Flaxx (`SHOTLIST-SPORTS-NEXT-1-11.md`) | Stories |
+| ma 2/11 | 19:30 | Carrousel "Padel: van hype naar gewoonte. 5 lessen voor clubs" (lessen uit het panel, Claude maakt de slides ma overdag) | Actueel / kennis |
+| di 3/11 | 19:30 | Reel boekingen "Zo krijg je meer boekingen in je sportcentrum" (shoot di 27/10). Op de training: Flaxx-rackets testen | Clubtip |
+| do 5/11 | 19:30 | Collab-reel met @flaxx_rackets: ERGO CONTROL vs ERGO POWER getest op training (montage wo 4/11) | Samenwerking |
+
+Daardoor schuift alles uit CONTENTSYSTEEM.md een week op: "Zoveel levert één extra geboekt uur" → ma 9/11, "Zo vul je je sportkamp zonder flyers" en "Zo maak je van een proefles een vast lid" → week van 9/11, de rest volgt.
+
 ## Elke dag: 15 minuten reageren (vóór je post)
 
 - **Bereik (5):** grote padel- en tennisaccounts in Vlaanderen, zoals de federaties en bekende clubs en trainers. Reageer vroeg, met een echte zin.
