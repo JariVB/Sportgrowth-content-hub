@@ -11,7 +11,7 @@ Aanbod (uit de posts): E-fit / body 20 (elektrostimulatie, 20 min), fitness (car
 - Hoogtepunten heten "Hoogtepunt…": niet benoemd.
 
 ## 3 tips (verstuurd in het bericht)
-1. Bio: wat, voor wie, waar en hoe boeken (gratis intake).
+1. Bio: eerst voedingsconsulente, dan E-fit + fitness, dan DNA-test, plus gemeente en gratis intake. Naamveld: "Michelle De Tobel | Voeding & E-fit".
 2. Openingsuren, planning en tarieven naar een hoogtepunt. In de grid: zij en haar klanten (E-fit-pak, coaching, recepten).
 3. 1 reel per week (bv. "Wat is E-fit?", "Wat eet een voedingsconsulente op een dag?").
 
