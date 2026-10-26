@@ -3,7 +3,7 @@
 Effen donkerblauwe trui. Gsm opgeladen + powerbank, microfoon als je die hebt.
 Regels: breed filmen in de hal mag. Iemand herkenbaar van dichtbij → eerst vragen. Sessies en het panel **niet** filmen, wel notities maken.
 
-## ±11u · stand Flaxx (voor Flaxx + collab)
+## ±13u · stand Flaxx (voor Flaxx + collab)
 - [ ] Breed beeld van de stand met het logo (5-10 s, 0,5x, rustig van links naar rechts)
 - [ ] ERGO CONTROL en ERGO POWER van dichtbij: draaien in de hand, vlasstructuur, logo (2 x 5 s)
 - [ ] Iemand die een racket vastneemt of test (alleen met toestemming)
@@ -19,7 +19,7 @@ Regels: breed filmen in de hal mag. Iemand herkenbaar van dichtbij → eerst vra
 3. Stand Flaxx, tag @flaxx_rackets: "De lancering van de ERGO CONTROL en ERGO POWER 🇧🇪"
 4. Na het panel: "Interessant gesprek over padel: van hype naar gewoonte. Morgen deel ik wat ik leerde 👀"
 
-## 14u · sessie + 15u30 · panel "Padel: From Hype to Habit"
+## 14u · sessie (optioneel) + 15u30 · panel "Padel: From Hype to Habit"
 - Niet filmen. Notities in je gsm: per spreker 1-2 dingen die je opvallen (Tom De Sutter van Arenal, Gilles Koolen van Biofibix, Elke Clijsters, Koen van Flaxx).
 - Hooguit 1 foto van het podium van ver, als dat mag.
 - Na het panel: kort voorstellen aan Tom De Sutter (Arenal): "Ik ben Jari, padeltrainer en ik doe de social media voor sportclubs en sportzaken. Interessant gesprek!"
