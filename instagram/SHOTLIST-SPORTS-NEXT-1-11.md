@@ -22,15 +22,26 @@
 - Instellingen → Camera → Video opnemen: **4K · 30 fps**. Zo kan je achteraf nog bijsnijden.
 - Instellingen → Camera → Video opnemen → **HDR-video: uit**. HDR geeft vreemde kleuren in CapCut en op Instagram.
 - Instellingen → Camera → **Raster: aan**. Handig om recht te filmen.
-- Minstens **15 GB vrij** op je gsm.
+- Minstens **30 GB vrij** op je gsm.
 - Zet je gsm op **Niet storen**, zodat een oproep je opname niet onderbreekt.
 
 **Materiaal**
-- [ ] Gsm 100% opgeladen + powerbank + kabel
-- [ ] Microfoon (als je die hebt), opgeladen, met windkapje
+
+Moet mee:
+- [ ] Draadloze dasspeldmicrofoon met 2 zenders + ontvanger voor je iPhone (bv. DJI Mic 2 of DJI Mic Mini, Hollyland Lark M2, Rode Wireless GO). Eén zender voor Koen, één voor jou. Zonder microfoon is het interview in een volle hal bijna onbruikbaar.
+- [ ] Klein statief of selfiestick met pootjes + gsm-houder. Voor het interview en voor E1 als je alleen bent.
+- [ ] Powerbank (10.000 mAh) + kabel. Laad ook het doosje van de microfoon op.
+- [ ] Oortjes met draad of een USB-C-oortje om het geluid te controleren
 - [ ] Microvezeldoekje voor je lens
 - [ ] Effen donkerblauwe trui
-- [ ] Notities-app klaar met een lege notitie "Sports NEXT panel"
+- [ ] Minstens 30 GB vrij op je gsm (4K is ±0,4 GB per minuut)
+
+Aanrader:
+- [ ] Gimbal (bv. DJI Osmo Mobile). Maakt orbit, push-in en meelopen veel vloeiender.
+- [ ] Klein ledlampje met clip (bv. Ulanzi VL49). Licht op het gezicht van Koen als het hallicht van boven komt.
+- [ ] Je begeleider met een tweede gsm: een breed beeld van het interview (camera B) en foto's van jou.
+
+Zaterdagavond testen: microfoon koppelen, 30 seconden opnemen en terugluisteren met je oortjes.
 
 ---
 
