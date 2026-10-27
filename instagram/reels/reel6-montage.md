@@ -37,3 +37,6 @@ Audio: zachte ruisfilter tegen de bladblazer (`highpass=f=80,afftdn=nr=8:nf=-30:
 Bestand: `reel6-ruwe-montage-v8.mp4` (40,9 s), gemaakt vanuit v7.
 - Voice-over 1: start 0:06,4, ruimte tot 0:14,4 (8 s). Uurrooster-post en volle hal vertraagd (x1,6).
 - Voice-over 2: start 0:20,7, ruimte tot 0:27,7 (7 s). DM-beeld vertraagd (x1,4).
+
+## v9 (di 27/10): ondertitels ingebrand
+Bestand: `reel6-ruwe-montage-v9.mp4` (40,9 s). Ondertitels in SGM-stijl (Rajdhani, navy vak) onder de labels, ook voor de 2 voice-overs (0:06,6-0:14,3 en 0:20,9-0:27,6) als leidraad bij het inspreken. Geen automatische ondertitels meer toevoegen in CapCut. Muziek: in Instagram zelf toevoegen.
