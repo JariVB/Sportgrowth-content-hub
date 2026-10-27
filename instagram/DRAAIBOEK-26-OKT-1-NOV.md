@@ -14,11 +14,14 @@ Opnames: zie `SHOTLIST-19-25-OKTOBER.md` (shoot wo 21/10 verschoven naar di 27/1
 ## Di 27/10 · Reel 6 "3 fouten op de Instagram van padelclubs" (19u30)
 - 13u-15u: **shoot** reel trainers + reel boekingen (zinnen en voice-overs in de shotlist).
 - Op je training: uitbater aanspreken + reel 6 in story (poll "Antwoorden jullie binnen het uur op een DM?").
-- Batch 3 screenshots.
+- Michelle: de 3 tips sturen (doorgeschoven van ma 26/10).
+- Batch 3 screenshots: verschoven naar ma 2/11.
 
 ## Wo 28/10 · hoofdwerkdag
 - Ruwe montage reel trainers (Claude) nakijken, voice-overs, inplannen do 29/10.
 - Verkoop: analyses voor wie ja zei, stand na 2 weken naar Claude.
+- Statistieken 2 weken vast ritme (doorgeschoven van ma 26/10).
+- Alleen als de carrousel van ma 26/10 niet online kwam: die om 19u30 posten.
 
 ## Do 29/10 · Reel trainers "Zo laat je zien dat je trainers goed zijn" (19u30)
 - Story 19u35 + opvolgen berichten.
