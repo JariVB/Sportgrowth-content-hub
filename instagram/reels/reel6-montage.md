@@ -32,3 +32,8 @@ Audio: zachte ruisfilter tegen de bladblazer (`highpass=f=80,afftdn=nr=8:nf=-30:
 - Fout 1: uurrooster-post, daarna "Toon liever dit" met de volle hal.
 - Fout 3: DM gaat over een teambuilding voor 12 collega's (vrije terreinen ziet men al in het boekingssysteem).
 - Voice-overs: 0:06,4 en 0:17,7. VO 2: "Drie: je antwoordt pas na twee dagen op een DM. Dan is die teambuilding al bij een andere club geboekt."
+
+## v8 (di 27/10): meer tijd voor de voice-overs
+Bestand: `reel6-ruwe-montage-v8.mp4` (40,9 s), gemaakt vanuit v7.
+- Voice-over 1: start 0:06,4, ruimte tot 0:14,4 (8 s). Uurrooster-post en volle hal vertraagd (x1,6).
+- Voice-over 2: start 0:20,7, ruimte tot 0:27,7 (7 s). DM-beeld vertraagd (x1,4).
