@@ -62,6 +62,13 @@ ul.items{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;g
 button{font:600 13px var(--body);color:var(--bg);background:var(--cyan);border:0;border-radius:99px;padding:5px 11px;cursor:pointer;flex:none}
 button.ghost{background:transparent;color:var(--muted);border:1px solid var(--line)}
 button:focus-visible{outline:3px solid var(--fg);outline-offset:2px}
+.how{margin:0 14px 12px 54px;border-top:1px solid var(--line);padding-top:8px}
+.how summary{cursor:pointer;font-family:var(--display);font-weight:700;color:var(--cyan);font-size:15px;letter-spacing:.04em}
+.how dl{margin:6px 0 0;display:grid;grid-template-columns:auto 1fr;gap:4px 10px;font-size:14px}
+.how dt{color:var(--muted);font-weight:600;white-space:nowrap}
+.how dd{margin:0;min-width:0}
+@media (max-width:420px){.how{margin-left:14px}.how dl{grid-template-columns:1fr;gap:0}.how dd{margin-bottom:6px}}
+.item.is-done .how{display:none}
 .box{border:1px dashed var(--line);border-radius:12px;padding:12px 14px;font-size:14px;display:flex;flex-direction:column;gap:6px}
 .box b{color:var(--warn)}
 .foot{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:14px;color:var(--muted)}
@@ -186,6 +193,99 @@ const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } c
   document.getElementById("saved").textContent = "Vinkjes worden niet bewaard in dit venster."; } };
 const esc = s => s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 
+const HOW = {
+ A1:{waar:"Aan de overkant van de ingang, 5 tot 10 m ervan. Gsm op borsthoogte, lens op 0,5x.",
+     start:"Het bord of de gevel in het bovenste derde van je scherm. Onderaan de mensen die binnengaan.",
+     doe:"Niet bewegen. Hou 5 seconden stil.",
+     let:"Wacht tot er een paar mensen binnenlopen. Dat geeft leven."},
+ A2:{waar:"3 stappen vóór de ingang. Gimbal in je hand, arm half gestrekt, camera iets boven je ogen.",
+     start:"Open hand naar de camera tot het kader groen wordt. Jij in het midden, de ingang achter je.",
+     doe:"Wandel rustig naar binnen. Kijk 1 keer in de camera en lach.",
+     einde:"2 stappen na de deur, met de hal achter je. Stop de opname.",
+     let:"Microfoon op je trui als je iets zegt."},
+ A3:{waar:"Aan de rand van de hal of op een hoger punt (trap, balkon). Gsm op borsthoogte, 0,5x.",
+     start:"Links in de hal. 1 seconde stil.",
+     doe:"Voeten stil, draai vanuit je heupen in 6 seconden naar rechts.",
+     einde:"Rechts in de hal. 1 seconde stil.",
+     let:"Hou de horizon recht op een rasterlijn."},
+ A4:{waar:"1 à 2 m van de demo. Gsm op borsthoogte.",
+     start:"De demo of het toestel in het midden van je scherm.",
+     doe:"Hou stil. De beweging van de demo doet het werk.",
+     let:"Iemand herkenbaar in beeld? Eerst vragen."},
+ A5:{waar:"Gimbal op je statief in een hoek met overzicht over de hal, liefst wat hoger. Niemand mag vlak voor de lens lopen.",
+     start:"DJI Mimo → Motionlapse. Punt A: de linkerkant van de hal.",
+     doe:"Punt B: de rechterkant (draai hooguit een kwart). Duur 2 à 3 minuten. Tik op opnemen en raak niets meer aan.",
+     einde:"De app maakt er zelf een clip van ±5 seconden van.",
+     let:"Doe dit wanneer het druk is. Hoe meer volk, hoe mooier."},
+ B1:{waar:"3 m voor de stand, in het midden. Gsm op borsthoogte.",
+     start:"De hele stand in beeld, het logo in het bovenste derde. 1 seconde stil.",
+     doe:"Loop in 5 seconden 2 kleine stappen naar voren. Gsm op dezelfde hoogte.",
+     einde:"Het logo en de tafel met rackets vullen je scherm. 1 seconde stil."},
+ B2:{waar:"Achter een paal, bord of zuil naast de stand. Gsm 20 à 30 cm achter de paal.",
+     start:"Je scherm is helemaal bedekt door de paal.",
+     doe:"Schuif in 3 seconden zijwaarts tot de stand vrijkomt.",
+     einde:"Stop zodra het logo helemaal in beeld is. 2 seconden stil."},
+ B3:{waar:"Op ±80 cm van het racket. Gsm op de hoogte van het racketblad. Vraag Koen of je het racket rechtop mag zetten.",
+     start:"Een kwart cirkel links van het racket. Racket in het midden van je scherm.",
+     doe:"Kleine zijstapjes in 6 seconden naar rechts. Richt altijd op het racket en hou dezelfde afstand.",
+     einde:"Een kwart cirkel rechts van het racket. 1 seconde stil.",
+     let:"Liefst het logo van de stand achter het racket."},
+ B4:{waar:"Zelfde als B3, met de ERGO POWER.",
+     start:"Begin deze keer rechts.",
+     doe:"Kleine zijstapjes in 6 seconden naar links.",
+     einde:"Links van het racket. 1 seconde stil.",
+     let:"Twee richtingen geeft in de montage een mooie overgang tussen de 2 modellen."},
+ B5:{waar:"Gsm 10 à 15 cm van het racketblad, op 1x. Je iPhone schakelt zelf naar macro (bloempje).",
+     start:"Tik op het vlas om scherp te stellen.",
+     doe:"Schuif in 5 seconden heel traag 5 cm opzij.",
+     let:"Laat het licht schuin over het blad vallen. Dan zie je de structuur van het vlas."},
+ B6:{waar:"Gsm op je statief of met 2 handen, 50 cm van het racket op tafel.",
+     start:"Alleen de tafel en het racket in beeld.",
+     doe:"Een hand (van Koen of van jou) komt in beeld, pakt het racket en draait het 1 keer rond.",
+     einde:"Het racket uit beeld of stil in de hand."},
+ B7:{waar:"2 à 3 m van Koen, schuin achter een bezoeker (over de schouder).",
+     start:"Koen van voren, de bezoeker van achteren.",
+     doe:"Hou 8 seconden stil.",
+     let:"Geluid is niet nodig. Vraag de bezoeker of hij in beeld mag."},
+ B8:{waar:"2 m voor de persoon en wat opzij. Gimbal op kniehoogte, licht naar boven gericht.",
+     start:"DJI Mimo → Slow motion. Start de opname vóór de zwaai.",
+     doe:"Vraag om 3 keer rustig een slag te doen.",
+     einde:"Stop na de derde slag.",
+     let:"Eerst toestemming vragen."},
+ B9a:{waar:"Rustige hoek van de stand. Statief op ooghoogte van Koen, 1 à 1,5 m van hem. Koen met zijn gezicht naar het licht, logo achter hem.",
+     start:"Microfoon op zijn borst, een hand onder zijn kin. Kader van borst tot net boven zijn hoofd, ogen op de bovenste rasterlijn.",
+     doe:"Opname starten, 2 seconden stil, vraag stellen. Koen kijkt in de camera en herhaalt de vraag in zijn antwoord.",
+     einde:"2 seconden stil na het antwoord.",
+     let:"Luister na de eerste vraag terug met je oortjes."},
+ B9b:{waar:"Zelfde plek en kader als vraag 1.", doe:"Opname laten lopen of opnieuw starten. 2 seconden stil voor en na."},
+ B9c:{waar:"Zelfde plek en kader als vraag 1.", doe:"Opname laten lopen of opnieuw starten. 2 seconden stil voor en na."},
+ B9d:{doe:"Bij elk antwoord 1 à 2 extra beelden die erbij passen: vlas (zoals B5), orbit (zoals B3), handen (zoals B6), bezoekers aan de stand.",
+     let:"Daar knip je in de montage naartoe terwijl Koen praat."},
+ B10:{waar:"Statief op ooghoogte, of je begeleider filmt. 1 m afstand, de stand achter je.",
+     start:"Racket naast je gezicht, microfoon op je trui.",
+     doe:"Zeg de zin 3 keer. Kijk in de lens, niet naar het scherm."},
+ B11:{waar:"Aan de stand, met het logo tussen jullie in.",
+     doe:"Je begeleider, Koen of een bezoeker neemt 3 à 4 foto's. Verticaal en liggend."},
+ E1:{waar:"Gimbal op je statief op ooghoogte, 1 m van je. Achter je de hal met volk, geen muur.",
+     start:"DJI Mimo, open hand naar de camera tot het kader groen wordt. Microfoon op je trui.",
+     doe:"Zeg de zin 2 à 3 keer. Je mag een halve stap opzij zetten, de gimbal volgt.",
+     let:"Doe dit op een rustig moment, weg van luidsprekers."},
+ E2:{waar:"Zelfde als A3, maar op een andere plek in de hal.",
+     start:"Links. 1 seconde stil.",
+     doe:"In 6 seconden naar rechts draaien vanuit je heupen.",
+     einde:"Rechts. 1 seconde stil."},
+ E3:{waar:"1 m van een sporttoestel of demo. Gsm op borsthoogte.",
+     start:"Het toestel helemaal in beeld.",
+     doe:"2 kleine stappen naar voren in 4 seconden.",
+     einde:"Een detail van het toestel vult het scherm."},
+ E4:{waar:"Je begeleider loopt 2 m achter je, gimbal op borsthoogte. Alleen? Gimbal op statief in DJI Mimo met volgen aan.",
+     start:"Jij met je rug naar de camera, de hal voor je.",
+     doe:"Wandel rustig door de hal en kijk rond. Je begeleider volgt met de ninja-walk.",
+     einde:"Na 5 à 10 seconden."}
+};
+
+const LBL = {waar:"Waar sta je", start:"Begin", doe:"Wat doe je", einde:"Einde", let:"Let op"};
+const howHtml = id => { const h = HOW[id]; if (!h) return ""; return `<details class="how" open><summary>Zo film je</summary><dl>${Object.keys(LBL).filter(k=>h[k]).map(k=>`<dt>${LBL[k]}</dt><dd>${esc(h[k])}</dd>`).join("")}</dl></details>`; };
 const list = document.getElementById("list");
 list.innerHTML = S.map(s => s.box ? `
   <div class="box"><b>${esc(s.h)}</b>${s.lines.map(l=>`<div>· ${esc(l)}</div>`).join("")}</div>` : `
@@ -204,6 +304,7 @@ list.innerHTML = S.map(s => s.box ? `
             ${i.tip ? `<div class="tip">${esc(i.tip)}</div>` : ""}
           </div>
         </label>
+        ${howHtml(i.id)}
       </li>`).join("")}
     </ul>
   </section>`).join("");
