@@ -7,6 +7,7 @@
 :root{
   --bg:#0b1633; --card:#12224a; --line:#26386b; --fg:#eaf2ff; --muted:#9fb2d9;
   --cyan:#00d4ff; --done:#5fe0a0; --warn:#ffb86b;
+  --flax:#d9b77a; --wall:#1b2d5c; --floor:#0f1d42; --grey:#3a4c80;
   --display:"Rajdhani","Arial Narrow",system-ui,sans-serif;
   --body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
   color-scheme:dark;
@@ -72,6 +73,72 @@ button:focus-visible{outline:3px solid var(--fg);outline-offset:2px}
 .box{border:1px dashed var(--line);border-radius:12px;padding:12px 14px;font-size:14px;display:flex;flex-direction:column;gap:6px}
 .box b{color:var(--warn)}
 .foot{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:14px;color:var(--muted)}
+.vis{display:grid;grid-template-columns:1.25fr 1fr;gap:10px;align-items:stretch}
+.vis figure{margin:0;display:flex;flex-direction:column;gap:6px;min-width:0}
+.vis figcaption{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-family:var(--display);font-weight:600}
+.dia{background:var(--bg);border-radius:10px;width:100%;height:auto;display:block;flex:1}
+.frame{aspect-ratio:9/16;max-width:100%;border-radius:12px;overflow:hidden;border:3px solid #000;background:var(--wall);box-shadow:0 0 0 1px var(--line)}
+.frame svg{width:100%;height:100%;display:block}
+/* schema-elementen */
+.cone{fill:var(--cyan);opacity:.18}
+.ph{fill:var(--fg)}
+.subj{fill:var(--flax)}
+.subj2{fill:var(--grey)}
+.guide{fill:none;stroke:var(--cyan);stroke-width:1.5;stroke-dasharray:4 4;opacity:.7}
+.dlabel{fill:var(--muted);font:500 9px var(--body)}
+.ground{stroke:var(--grey);stroke-width:2}
+.pil{fill:#55669a}
+/* beeld-elementen */
+.wall{fill:var(--wall)} .floor{fill:var(--floor)} .fline{fill:#2c4280}
+.oth{fill:var(--grey)} .banner{fill:var(--cyan)}
+.bt{fill:#0d1b3e;font:700 26px var(--display);text-anchor:middle;letter-spacing:.08em}
+.table{fill:#e6ecfa} .leg{fill:#9aa9cf}
+.face{fill:var(--flax)} .inner{fill:#c79f5c} .hole{fill:#8a6a35}
+.grip{fill:#14161c}
+.pers{fill:#0d1b3e} .skin{fill:#e8c4a0}
+.pillar rect{fill:#2a2f3d} .pillar .edge{fill:#4b5470}
+
+/* animaties: 4,5 s, met stilstand aan begin en einde zoals je echt filmt */
+svg *{transform-box:view-box}
+.a{animation-duration:4.5s;animation-iteration-count:infinite;animation-timing-function:ease-in-out}
+.paused .a{animation-play-state:paused}
+@media (prefers-reduced-motion:reduce){.a{animation-play-state:paused}}
+
+@keyframes push{0%,12%{transform:translateY(0)}78%,100%{transform:translateY(-40px)}}
+@keyframes pull{0%,12%{transform:translateY(0)}78%,100%{transform:translateY(40px)}}
+@keyframes pan{0%,12%{transform:rotate(-38deg)}78%,100%{transform:rotate(38deg)}}
+@keyframes tilt{0%,12%{transform:rotate(108deg)}78%,100%{transform:rotate(58deg)}}
+@keyframes orbit{0%,12%{transform:rotate(60deg)}78%,100%{transform:rotate(-60deg)}}
+@keyframes slide{0%,12%{transform:translateX(0)}78%,100%{transform:translateX(50px)}}
+@keyframes walk{0%{transform:translateX(0)}100%{transform:translateX(120px)}}
+@keyframes low{0%,12%{transform:translate(0,0) rotate(90deg)}78%,100%{transform:translate(0,52px) rotate(62deg)}}
+
+@keyframes fpush{0%,12%{transform:scale(1)}78%,100%{transform:scale(1.9)}}
+@keyframes fpull{0%,12%{transform:scale(1.9)}78%,100%{transform:scale(1)}}
+@keyframes fpan{0%,12%{transform:translateX(120px)}78%,100%{transform:translateX(-120px)}}
+@keyframes ftilt{0%,12%{transform:translateY(25px) scale(1.6)}78%,100%{transform:translateY(145px) scale(1.6)}}
+@keyframes forbbg{0%,12%{transform:translateX(80px)}78%,100%{transform:translateX(-80px)}}
+@keyframes forbrk{0%,12%{transform:scaleX(.4)}45%{transform:scaleX(1)}78%,100%{transform:scaleX(.4)}}
+@keyframes freveal{0%,12%{transform:translateX(0)}78%,100%{transform:translateX(-230px)}}
+@keyframes ftrack{0%{transform:translateX(0)}100%{transform:translateX(-200px)}}
+@keyframes fbob{0%,50%,100%{transform:translateY(0)}25%,75%{transform:translateY(-4px)}}
+@keyframes flow{0%,12%{transform:translateY(0) scale(1)}78%,100%{transform:translateY(40px) scale(1.35)}}
+
+.k-push{animation-name:push}.k-pull{animation-name:pull}.k-pan{animation-name:pan}.k-tilt{animation-name:tilt}
+.k-orbit{animation-name:orbit}.k-slide{animation-name:slide}.k-low{animation-name:low}
+.k-walk{animation-name:walk;animation-timing-function:linear;animation-duration:3.5s}
+.f-push{animation-name:fpush;transform-origin:90px 145px}
+.f-pull{animation-name:fpull;transform-origin:90px 145px}
+.f-pan{animation-name:fpan}
+.f-tilt{animation-name:ftilt;transform-origin:90px 160px}
+.f-orbbg{animation-name:forbbg}
+.f-orbrk{animation-name:forbrk;transform-origin:90px 150px}
+.f-reveal{animation-name:freveal}
+.f-track{animation-name:ftrack;animation-timing-function:linear;animation-duration:3.5s}
+.f-bob{animation-name:fbob;animation-timing-function:linear;animation-duration:1.75s}
+.f-low{animation-name:flow;transform-origin:90px 210px}
+.how .vis{margin:8px 0 4px;max-width:340px;align-items:start}
+.how .dia{flex:none}
 </style>
 
 <div class="wrap">
@@ -284,8 +351,82 @@ const HOW = {
      einde:"Na 5 à 10 seconden."}
 };
 
+const phone = `<polygon class="cone" points="0,-6 -20,-44 20,-44"/><rect class="ph" x="-9" y="-5" width="18" height="10" rx="2.5"/>`;
+const arrow = `<defs><marker id="ah" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#00d4ff"/></marker></defs>`;
+
+const holes = [[80,122],[100,122],[72,138],[90,138],[108,138],[80,154],[100,154],[90,168]]
+  .map(([x,y])=>`<circle class="hole" cx="${x}" cy="${y}" r="2.6"/>`).join("");
+const racket = `<rect class="grip" x="86" y="172" width="8" height="22" rx="3"/><ellipse class="face" cx="90" cy="142" rx="28" ry="35"/><ellipse class="inner" cx="90" cy="142" rx="22" ry="29"/>${holes}`;
+const table = `<rect class="table" x="28" y="192" width="124" height="12" rx="2"/><rect class="leg" x="36" y="204" width="6" height="44"/><rect class="leg" x="138" y="204" width="6" height="44"/>`;
+const stand = (x,label)=>`<rect class="oth" x="${x}" y="50" width="110" height="32" rx="3"/><rect class="oth" x="${x+10}" y="186" width="90" height="14" opacity=".7"/>`;
+const bg = `<rect class="wall" x="-500" y="-300" width="1200" height="515"/><rect class="floor" x="-500" y="215" width="1200" height="300"/><rect class="fline" x="-500" y="213" width="1200" height="3"/>
+  ${stand(-370)}${stand(-170)}${stand(230)}${stand(430)}
+  <rect class="banner" x="35" y="40" width="110" height="38" rx="4"/><text class="bt" x="90" y="68">FLAXX</text>`;
+const bgTrack = `<rect class="wall" x="-50" y="-300" width="700" height="515"/><rect class="floor" x="-50" y="215" width="700" height="300"/><rect class="fline" x="-50" y="213" width="700" height="3"/>
+  ${[ -10,190,390 ].map(x=>`<rect class="oth" x="${x}" y="50" width="120" height="32" rx="3"/><rect class="oth" x="${x+15}" y="186" width="90" height="14" opacity=".7"/>`).join("")}
+  ${[ 120,320,520 ].map(x=>`<rect class="banner" x="${x}" y="40" width="50" height="10" rx="2" opacity=".6"/>`).join("")}`;
+const person = `<g class="a f-bob"><circle class="skin" cx="90" cy="128" r="15"/><rect class="pers" x="70" y="146" width="40" height="72" rx="16"/><rect class="pers" x="74" y="210" width="13" height="70" rx="6"/><rect class="pers" x="93" y="210" width="13" height="70" rx="6"/></g>`;
+
+const frame = inner => `<div class="frame"><svg viewBox="0 0 180 320" preserveAspectRatio="xMidYMid slice" aria-hidden="true">${inner}</svg></div>`;
+const dia = inner => `<svg class="dia" viewBox="0 0 200 140" aria-hidden="true">${arrow}${inner}</svg>`;
+const subj = (x,y,l="racket")=>`<circle class="subj" cx="${x}" cy="${y}" r="11"/><text class="dlabel" x="${x}" y="${y-16}" text-anchor="middle">${l}</text>`;
+
+const moves = [
+ {n:"Push-in", s:"Traag naar je onderwerp toe", view:"bovenaanzicht",
+  d: dia(`${subj(100,34)}<line class="guide" x1="128" y1="122" x2="128" y2="82" marker-end="url(#ah)"/><g transform="translate(100,122)"><g class="a k-push">${phone}</g></g>`),
+  f: frame(`<g class="a f-push">${bg}${table}${racket}</g>`),
+  when:"Een product tonen, spanning opbouwen, de start van een reel.",
+  how:["Start op ±1,5 m van je onderwerp.","Loop 2 kleine stappen naar voren in 4 seconden.","Hou de gsm op dezelfde hoogte."],
+  shots:["B1","E3"], no:"met twee vingers inzoomen. Dat geeft een korrelig beeld."},
+ {n:"Pull-out", s:"Traag van je onderwerp weg", view:"bovenaanzicht",
+  d: dia(`${subj(100,34)}<line class="guide" x1="128" y1="80" x2="128" y2="120" marker-end="url(#ah)"/><g transform="translate(100,80)"><g class="a k-pull">${phone}</g></g>`),
+  f: frame(`<g class="a f-pull">${bg}${table}${racket}</g>`),
+  when:"Het einde van een reel. Je toont waar je bent: de hele stand.",
+  how:["Start dicht bij een detail, bijvoorbeeld het racket.","Stap traag achteruit in 4 seconden.","Kijk eerst achter je zodat je niet tegen iemand botst."],
+  shots:["B1","einde"], no:"te snel achteruit, dan schudt het beeld."},
+ {n:"Pan", s:"Op je plaats draaien", view:"bovenaanzicht",
+  d: dia(`<circle class="subj2" cx="40" cy="44" r="10"/><circle class="subj" cx="100" cy="30" r="11"/><circle class="subj2" cx="160" cy="44" r="10"/><text class="dlabel" x="100" y="14" text-anchor="middle">standen in de hal</text><path class="guide" d="M66,104 A40,40 0 0 1 134,104" marker-end="url(#ah)"/><g transform="translate(100,120)"><g class="a k-pan">${phone}</g></g>`),
+  f: frame(`<g class="a f-pan">${bg}${table}${racket}</g>`),
+  when:"De hal of de sfeer tonen.",
+  how:["Voeten stil, draai vanuit je heupen.","Draai in 5 seconden van links naar rechts.","Begin en eindig 1 seconde stil."],
+  shots:["A3","E2"], no:"heen en weer zwaaien. Kies één richting."},
+ {n:"Tilt", s:"Van onder naar boven kantelen", view:"zijaanzicht",
+  d: dia(`<line class="ground" x1="10" y1="126" x2="190" y2="126"/><rect class="pil" x="182" y="10" width="6" height="116"/><rect class="banner" x="170" y="22" width="12" height="26"/><text class="dlabel" x="164" y="36" text-anchor="end">logo</text><rect class="subj" x="150" y="98" width="22" height="6"/><rect class="leg" x="152" y="104" width="3" height="22"/><rect class="leg" x="167" y="104" width="3" height="22"/><text class="dlabel" x="146" y="94" text-anchor="end">racket</text><path class="guide" d="M88,104 A50,50 0 0 0 86,52" marker-end="url(#ah)"/><line class="ground" x1="40" y1="96" x2="40" y2="126" stroke-dasharray="2 3"/><g transform="translate(40,88)"><g class="a k-tilt">${phone}</g></g>`),
+  f: frame(`<g class="a f-tilt">${bg}${table}${racket}</g>`),
+  when:"Van het racket naar het logo. Of van de schoenen naar het gezicht van een speler.",
+  how:["Gsm op borsthoogte, voeten stil.","Kantel de gsm traag naar boven in 4 seconden.","Eindig op het logo en hou 1 seconde stil."],
+  shots:["B1","B3"], no:"tegelijk kantelen en draaien."},
+ {n:"Orbit", s:"Een halve cirkel rond het product", view:"bovenaanzicht",
+  d: dia(`${subj(100,52)}<path class="guide" d="M55,78 A52,52 0 0 0 145,78" marker-end="url(#ah)"/><g transform="translate(100,52)"><g class="a k-orbit"><g transform="translate(0,52)">${phone}</g></g></g>`),
+  f: frame(`<g class="a f-orbbg">${bg}</g>${table}<g class="a f-orbrk">${racket}</g>`),
+  when:"Productbeelden: de ERGO CONTROL en de ERGO POWER. Het product blijft in het midden en de achtergrond schuift.",
+  how:["Zet het racket in het midden van je scherm.","Stap zijwaarts met kleine stapjes in een halve cirkel.","Hou de afstand gelijk (±80 cm) en richt altijd op het racket."],
+  shots:["B3","B4"], no:"het racket uit het midden laten glijden."},
+ {n:"Reveal", s:"Iets laten verschijnen", view:"bovenaanzicht",
+  d: dia(`${subj(100,30,"stand")}<rect class="pil" x="80" y="68" width="40" height="18" rx="2"/><text class="dlabel" x="100" y="80" text-anchor="middle" style="fill:#0b1633">paal</text><line class="guide" x1="100" y1="132" x2="148" y2="132" marker-end="url(#ah)"/><g transform="translate(100,118)"><g class="a k-slide">${phone}</g></g>`),
+  f: frame(`${bg}${table}${racket}<g class="a f-reveal pillar"><rect x="-20" y="-10" width="210" height="340"/><rect class="edge" x="186" y="-10" width="5" height="340"/></g>`),
+  when:"Het openingsbeeld. De stand voor het eerst tonen.",
+  how:["Start met een paal, een bord of iemands rug vlak voor je lens.","Schuif zijwaarts tot de stand vrijkomt.","Stop zodra het logo in beeld is en hou 1 seconde stil."],
+  shots:["B2"], no:"te ver van de paal starten. Hoe dichter, hoe sterker het effect."},
+ {n:"Meelopen", s:"Naast of achter iemand lopen", view:"bovenaanzicht",
+  d: dia(`<g class="a k-walk"><circle class="subj" cx="40" cy="40" r="11"/><text class="dlabel" x="40" y="22" text-anchor="middle">persoon</text></g><line class="guide" x1="30" y1="130" x2="170" y2="130" marker-end="url(#ah)"/><g transform="translate(40,104)"><g class="a k-walk">${phone}</g></g>`),
+  f: frame(`<g class="a f-track">${bgTrack}</g>${person}`),
+  when:"Binnenwandelen, door de hal lopen, iemand naar de stand volgen.",
+  how:["Ninja-walk: knieën licht gebogen, hiel-teen, kleine stappen.","Loop even snel als de persoon en hou de afstand gelijk.","Op iPhone: zet de Actiemodus aan (het mannetje dat loopt). Die maakt het beeld extra stabiel."],
+  shots:["A2","E4"], no:"gewoon wandelen met gestrekte armen. Dan zie je elke stap."},
+ {n:"Lage hoek", s:"Van onder naar boven filmen", view:"zijaanzicht",
+  d: dia(`<line class="ground" x1="10" y1="126" x2="190" y2="126"/><circle class="skin" cx="150" cy="30" r="9"/><rect class="pers" x="140" y="40" width="20" height="50" rx="8" style="fill:#3a4c80"/><rect x="142" y="88" width="7" height="38" rx="3" style="fill:#3a4c80"/><rect x="151" y="88" width="7" height="38" rx="3" style="fill:#3a4c80"/><text class="dlabel" x="60" y="44" text-anchor="middle">ooghoogte</text><line class="guide" x1="30" y1="60" x2="30" y2="112" marker-end="url(#ah)"/><g transform="translate(60,62)"><g class="a k-low">${phone}</g></g><text class="dlabel" x="60" y="138" text-anchor="middle">kniehoogte</text>`),
+  f: frame(`<g class="a f-low">${bg}${table}${racket}</g>`),
+  when:"Iets of iemand krachtig laten ogen. Een speler in actie op het veld.",
+  how:["Hou de gsm op kniehoogte of lager.","Draai de gsm ondersteboven: dan zit de lens dichter bij de grond.","Richt licht naar boven. Je onderwerp oogt groter."],
+  shots:["B8","padeltraining"], no:"van boven filmen. Dat maakt mensen en producten klein."}
+];
+
+const MOVE = Object.fromEntries(moves.map(m=>[m.n.toLowerCase(), m]));
+const MVMAP = {"push-in":"push-in","pan":"pan","orbit":"orbit","reveal":"reveal","meelopen":"meelopen","lage hoek":"lage hoek","push-in / orbit":"push-in","motionlapse":"pan"};
+const visHtml = mv => { const m = MOVE[MVMAP[mv]]; if (!m) return ""; return `<div class="vis"><figure>${m.d}<figcaption>Zo beweeg je</figcaption></figure><figure>${m.f}<figcaption>Dit zie je</figcaption></figure></div>`; };
 const LBL = {waar:"Waar sta je", start:"Begin", doe:"Wat doe je", einde:"Einde", let:"Let op"};
-const howHtml = id => { const h = HOW[id]; if (!h) return ""; return `<details class="how" open><summary>Zo film je</summary><dl>${Object.keys(LBL).filter(k=>h[k]).map(k=>`<dt>${LBL[k]}</dt><dd>${esc(h[k])}</dd>`).join("")}</dl></details>`; };
+const howHtml = (id, mv) => { const h = HOW[id]; if (!h) return ""; return `<details class="how" open><summary>Zo film je</summary>${visHtml(mv)}<dl>${Object.keys(LBL).filter(k=>h[k]).map(k=>`<dt>${LBL[k]}</dt><dd>${esc(h[k])}</dd>`).join("")}</dl></details>`; };
 const list = document.getElementById("list");
 list.innerHTML = S.map(s => s.box ? `
   <div class="box"><b>${esc(s.h)}</b>${s.lines.map(l=>`<div>· ${esc(l)}</div>`).join("")}</div>` : `
@@ -304,7 +445,7 @@ list.innerHTML = S.map(s => s.box ? `
             ${i.tip ? `<div class="tip">${esc(i.tip)}</div>` : ""}
           </div>
         </label>
-        ${howHtml(i.id)}
+        ${howHtml(i.id, i.mv)}
       </li>`).join("")}
     </ul>
   </section>`).join("");
