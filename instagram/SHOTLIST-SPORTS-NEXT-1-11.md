@@ -90,6 +90,10 @@ Met deze drie beelden kan je altijd een vlotte montage maken.
 - Kinderen: niet herkenbaar in beeld.
 - Sessies en het panel: **niet filmen**.
 
+**Welke app?**
+- **DJI Mimo met volgen aan:** A2, B8, E1, E4 (jezelf of iemand die beweegt). Kader rond de persoon trekken of open handpalm naar de camera.
+- **iPhone Camera:** alle andere shots (vaste shots, rackets, interview, orbit, push-in).
+
 ---
 
 ## 3. Shotlist
