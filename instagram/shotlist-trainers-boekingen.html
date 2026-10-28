@@ -137,6 +137,11 @@ svg *{transform-box:view-box}
 .f-track{animation-name:ftrack;animation-timing-function:linear;animation-duration:3.5s}
 .f-bob{animation-name:fbob;animation-timing-function:linear;animation-duration:1.75s}
 .f-low{animation-name:flow;transform-origin:90px 210px}
+.visbox{margin:0 14px 10px 54px}
+.visbox .vis{max-width:360px;align-items:start}
+.visbox .dia{flex:none}
+@media (max-width:420px){.visbox{margin-left:14px}}
+.item.is-done .visbox{display:none}
 .how .vis{margin:8px 0 4px;max-width:340px;align-items:start}
 .how .dia{flex:none}
 </style>
@@ -272,7 +277,7 @@ const table = `<rect class="table" x="28" y="192" width="124" height="12" rx="2"
 const stand = (x,label)=>`<rect class="oth" x="${x}" y="50" width="110" height="32" rx="3"/><rect class="oth" x="${x+10}" y="186" width="90" height="14" opacity=".7"/>`;
 const bg = `<rect class="wall" x="-500" y="-300" width="1200" height="515"/><rect class="floor" x="-500" y="215" width="1200" height="300"/><rect class="fline" x="-500" y="213" width="1200" height="3"/>
   ${stand(-370)}${stand(-170)}${stand(230)}${stand(430)}
-  <rect class="banner" x="35" y="40" width="110" height="38" rx="4"/><text class="bt" x="90" y="68">FLAXX</text>`;
+  <rect class="banner" x="35" y="40" width="110" height="38" rx="4"/><text class="bt" x="90" y="68">PADEL</text>`;
 const bgTrack = `<rect class="wall" x="-50" y="-300" width="700" height="515"/><rect class="floor" x="-50" y="215" width="700" height="300"/><rect class="fline" x="-50" y="213" width="700" height="3"/>
   ${[ -10,190,390 ].map(x=>`<rect class="oth" x="${x}" y="50" width="120" height="32" rx="3"/><rect class="oth" x="${x+15}" y="186" width="90" height="14" opacity=".7"/>`).join("")}
   ${[ 120,320,520 ].map(x=>`<rect class="banner" x="${x}" y="40" width="50" height="10" rx="2" opacity=".6"/>`).join("")}`;
@@ -350,7 +355,7 @@ const STATIC = {
 STATIC.T3 = STATIC.T2; STATIC.K3 = STATIC.K2;
 const visHtml = (id, mv) => { const st = STATIC[id]; if (st) return `<div class="vis"><figure>${st.d}<figcaption>Zo sta je</figcaption></figure><figure>${st.f}<figcaption>Zo ziet je beeld eruit</figcaption></figure></div>`; const m = MOVE[MVMAP[mv]]; if (!m) return ""; return `<div class="vis"><figure>${m.d}<figcaption>Zo beweeg je</figcaption></figure><figure>${m.f}<figcaption>Dit zie je</figcaption></figure></div>`; };
 const LBL = {waar:"Waar sta je", start:"Begin", doe:"Wat doe je", einde:"Einde", let:"Let op"};
-const howHtml = (id, mv) => { const h = HOW[id]; if (!h) return ""; return `<details class="how" open><summary>Zo film je</summary>${visHtml(id, mv)}<dl>${Object.keys(LBL).filter(k=>h[k]).map(k=>`<dt>${LBL[k]}</dt><dd>${esc(h[k])}</dd>`).join("")}</dl></details>`; };
+const howHtml = (id, mv) => { const h = HOW[id]; if (!h) return ""; return `<details class="how" open><summary>Zo film je</summary><dl>${Object.keys(LBL).filter(k=>h[k]).map(k=>`<dt>${LBL[k]}</dt><dd>${esc(h[k])}</dd>`).join("")}</dl></details>`; };
 const list = document.getElementById("list");
 list.innerHTML = S.map(s => s.box ? `
   <div class="box"><b>${esc(s.h)}</b>${s.lines.map(l=>`<div>· ${esc(l)}</div>`).join("")}</div>` : `
@@ -369,6 +374,7 @@ list.innerHTML = S.map(s => s.box ? `
             ${i.tip ? `<div class="tip">${esc(i.tip)}</div>` : ""}
           </div>
         </label>
+        ${visHtml(i.id, i.mv) ? `<div class="visbox">${visHtml(i.id, i.mv)}</div>` : ""}
         ${howHtml(i.id, i.mv)}
       </li>`).join("")}
     </ul>
