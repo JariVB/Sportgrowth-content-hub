@@ -138,3 +138,8 @@ Snelste weg naar de eerste klanten: mensen die Jari al kennen (spelers, ouders, 
 - **Zodra een klant ja zegt:** dezelfde week naar een ondernemingsloket (Xerius, Liantis, Acerta, UCM): nummer heractiveren in bijberoep, btw-vrijstelling kleine ondernemingen, sociaal verzekeringsfonds. Kan op 1 dag. Pas daarna starten en factureren.
 - Vragen: blijft de padeltraining los van de zelfstandige activiteit? Hoeveel sociale bijdragen in bijberoep?
 - Daarna: nummer op de website en op elke factuur.
+
+### Prijzen bij projecten en maatwerk (beslist 28/10)
+- Geef een precies bedrag met de berekening erbij, geen afgerond bedrag. Voorbeeld: "4 reels (€240) + 1 shoot (€50) = €290" in plaats van "±€300". Een berekend bedrag wordt minder afgeboden.
+- Alleen als de berekening klopt. Vaste pakketten (€249 / €399 / €599) blijven zoals ze zijn.
+- Resultaten ook altijd precies: "3.367 bereikt", niet "meer dan 3.000".

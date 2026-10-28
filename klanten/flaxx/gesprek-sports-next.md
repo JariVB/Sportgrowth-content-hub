@@ -16,7 +16,7 @@ Opgemaakt wo 28/10. Prijzen volgen `klanten/VERKOOPPLAN.md`.
 | Stap | Wat | Prijs |
 |---|---|---|
 | Nu | Collab-reel ERGO CONTROL vs ERGO POWER (afgesproken) | gratis |
-| Optie A | Lanceringsproject ERGO: 4 reels in 4 weken, 1 shoot op training | ±€299 eenmalig (voorstel, Jari beslist) |
+| Optie A | Lanceringsproject ERGO: 4 reels in 4 weken, 1 shoot op training | 4 reels (€240) + 1 shoot (€50) = **€290** eenmalig. Altijd met de berekening erbij (precies bedrag = minder afbieden) |
 | Optie B | Starter + filmen: 4 posts + 3 reels per maand (ruilregel), stories 5x per week, maandrapport, 1 shoot per maand op training | €399 + €50 = €449/maand, minimum 3 maanden |
 
 Twijfel bij optie B: proefperiode Starter €349 de eerste 3 maanden (daarna €399), filmen +€50. De garantie op boekingen niet gebruiken: die past niet bij een merk.
