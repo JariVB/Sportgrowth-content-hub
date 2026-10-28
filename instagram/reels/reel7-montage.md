@@ -16,3 +16,6 @@ Beter: originele clips 13/10 (IMG_2107, 2402, 2398) in plaats van de preview.
 
 ## v2 (wo 28/10)
 `reel7-trainers-ruwe-montage-v2.mp4`: T3 is "tennis, zwemmen, judo, padel". Ondertitels zonder punten, komma's en dubbele punten; vraagteken blijft; opsomming met " · ".
+
+## v3 (wo 28/10): stuk "Film één correctie" dynamischer
+`reel7-trainers-ruwe-montage-v3.mp4`. Van 0:11,2 tot 0:17,7 nu 5 korte shots die de woorden van VO1 volgen: slag (2711) · tip van de trainer (2709) · betere slag (coaching 13/10) · trainer speelt aan (2707) · rally (2714). v1 verwijderd.
