@@ -1,0 +1,410 @@
+<title>Shotlist trainers en boekingen</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Layout: één smalle kolom voor de gsm; sticky voortgangsbalk; per tijdsblok een lijst met grote afvinkrijen. Bewust één donkere SGM-look, leesbaar in een felle hal. */
+:root{
+  --bg:#0b1633; --card:#12224a; --line:#26386b; --fg:#eaf2ff; --muted:#9fb2d9;
+  --cyan:#00d4ff; --done:#5fe0a0; --warn:#ffb86b;
+  --flax:#d9b77a; --wall:#1b2d5c; --floor:#0f1d42; --grey:#3a4c80;
+  --display:"Rajdhani","Arial Narrow",system-ui,sans-serif;
+  --body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 56px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:640px;margin:0 auto;display:flex;flex-direction:column;gap:22px}
+h1,h2{font-family:var(--display);font-weight:700;line-height:1.05;text-wrap:balance;margin:0}
+h1{font-size:40px}
+h2{font-size:24px}
+.eyebrow{font-family:var(--display);font-weight:600;letter-spacing:.14em;text-transform:uppercase;font-size:13px;color:var(--cyan)}
+header{padding-top:24px;display:flex;flex-direction:column;gap:6px}
+.facts{display:grid;grid-template-columns:auto 1fr;gap:2px 12px;font-size:14px;margin:6px 0 0}
+.facts dt{color:var(--muted)} .facts dd{margin:0}
+a{color:var(--cyan)}
+
+.progress{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:10px;display:flex;flex-direction:column;gap:6px;border-bottom:1px solid var(--line)}
+.prow{display:flex;justify-content:space-between;align-items:baseline;font-family:var(--display);font-weight:700;font-size:18px;font-variant-numeric:tabular-nums}
+.prow span{color:var(--muted);font-weight:600;font-size:14px}
+.track{height:8px;border-radius:99px;background:var(--line);overflow:hidden}
+.fill{height:100%;width:0;background:var(--cyan);transition:width .3s}
+.jump{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+.jump a{flex:none;text-decoration:none;font:600 13px var(--body);color:var(--fg);background:var(--card);border:1px solid var(--line);border-radius:99px;padding:4px 10px}
+.jump a.ok{border-color:var(--done);color:var(--done)}
+
+section{display:flex;flex-direction:column;gap:10px;scroll-margin-top:110px}
+.shead{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.time{font-family:var(--display);font-weight:700;color:var(--cyan);font-size:16px;white-space:nowrap}
+.note{font-size:14px;color:var(--muted);margin:0}
+ul.items{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.item{background:var(--card);border:1px solid var(--line);border-radius:12px}
+.item label{display:grid;grid-template-columns:28px 1fr;gap:12px;padding:12px 14px;cursor:pointer;align-items:start}
+.item input{appearance:none;width:28px;height:28px;border:2px solid var(--muted);border-radius:8px;margin:0;display:grid;place-items:center;background:transparent;cursor:pointer}
+.item input::after{content:"";width:12px;height:7px;border:3px solid var(--bg);border-top:0;border-right:0;transform:rotate(-45deg) translate(1px,-1px);opacity:0}
+.item input:checked{background:var(--done);border-color:var(--done)}
+.item input:checked::after{opacity:1}
+.item input:focus-visible{outline:3px solid var(--cyan);outline-offset:2px}
+.item.is-done{opacity:.55}
+.item.is-done .t{text-decoration:line-through}
+.body{min-width:0;display:flex;flex-direction:column;gap:4px}
+.t{font-weight:600}
+.id{font-family:var(--display);font-weight:700;color:var(--cyan);margin-right:6px}
+.chips{display:flex;flex-wrap:wrap;gap:4px}
+.chip{font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:6px;padding:0 6px}
+.chip.mv{color:var(--cyan);border-color:var(--cyan)}
+.chip.app{color:var(--bg);background:var(--fg);border-color:var(--fg);font-weight:600}
+.chip.app.mimo{background:var(--warn);border-color:var(--warn)}
+.tip{font-size:14px;color:var(--muted)}
+.say{font-size:14px;background:var(--bg);border-left:3px solid var(--cyan);padding:6px 10px;border-radius:0 8px 8px 0;display:flex;gap:8px;align-items:flex-start;justify-content:space-between}
+.say q{quotes:"“" "”"}
+button{font:600 13px var(--body);color:var(--bg);background:var(--cyan);border:0;border-radius:99px;padding:5px 11px;cursor:pointer;flex:none}
+button.ghost{background:transparent;color:var(--muted);border:1px solid var(--line)}
+button:focus-visible{outline:3px solid var(--fg);outline-offset:2px}
+.how{margin:0 14px 12px 54px;border-top:1px solid var(--line);padding-top:8px}
+.how summary{cursor:pointer;font-family:var(--display);font-weight:700;color:var(--cyan);font-size:15px;letter-spacing:.04em}
+.how dl{margin:6px 0 0;display:grid;grid-template-columns:auto 1fr;gap:4px 10px;font-size:14px}
+.how dt{color:var(--muted);font-weight:600;white-space:nowrap}
+.how dd{margin:0;min-width:0}
+@media (max-width:420px){.how{margin-left:14px}.how dl{grid-template-columns:1fr;gap:0}.how dd{margin-bottom:6px}}
+.item.is-done .how{display:none}
+.box{border:1px dashed var(--line);border-radius:12px;padding:12px 14px;font-size:14px;display:flex;flex-direction:column;gap:6px}
+.box b{color:var(--warn)}
+.foot{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:14px;color:var(--muted)}
+.vis{display:grid;grid-template-columns:1.25fr 1fr;gap:10px;align-items:stretch}
+.vis figure{margin:0;display:flex;flex-direction:column;gap:6px;min-width:0}
+.vis figcaption{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-family:var(--display);font-weight:600}
+.dia{background:var(--bg);border-radius:10px;width:100%;height:auto;display:block;flex:1}
+.frame{aspect-ratio:9/16;max-width:100%;border-radius:12px;overflow:hidden;border:3px solid #000;background:var(--wall);box-shadow:0 0 0 1px var(--line)}
+.frame svg{width:100%;height:100%;display:block}
+/* schema-elementen */
+.cone{fill:var(--cyan);opacity:.18}
+.ph{fill:var(--fg)}
+.subj{fill:var(--flax)}
+.subj2{fill:var(--grey)}
+.guide{fill:none;stroke:var(--cyan);stroke-width:1.5;stroke-dasharray:4 4;opacity:.7}
+.dlabel{fill:var(--muted);font:500 9px var(--body)}
+.ground{stroke:var(--grey);stroke-width:2}
+.pil{fill:#55669a}
+/* beeld-elementen */
+.wall{fill:var(--wall)} .floor{fill:var(--floor)} .fline{fill:#2c4280}
+.oth{fill:var(--grey)} .banner{fill:var(--cyan)}
+.bt{fill:#0d1b3e;font:700 26px var(--display);text-anchor:middle;letter-spacing:.08em}
+.table{fill:#e6ecfa} .leg{fill:#9aa9cf}
+.face{fill:var(--flax)} .inner{fill:#c79f5c} .hole{fill:#8a6a35}
+.grip{fill:#14161c}
+.pers{fill:#0d1b3e} .skin{fill:#e8c4a0}
+.pillar rect{fill:#2a2f3d} .pillar .edge{fill:#4b5470}
+
+/* animaties: 4,5 s, met stilstand aan begin en einde zoals je echt filmt */
+svg *{transform-box:view-box}
+.a{animation-duration:4.5s;animation-iteration-count:infinite;animation-timing-function:ease-in-out}
+.paused .a{animation-play-state:paused}
+@media (prefers-reduced-motion:reduce){.a{animation-play-state:paused}}
+
+@keyframes push{0%,12%{transform:translateY(0)}78%,100%{transform:translateY(-40px)}}
+@keyframes pull{0%,12%{transform:translateY(0)}78%,100%{transform:translateY(40px)}}
+@keyframes pan{0%,12%{transform:rotate(-38deg)}78%,100%{transform:rotate(38deg)}}
+@keyframes tilt{0%,12%{transform:rotate(108deg)}78%,100%{transform:rotate(58deg)}}
+@keyframes orbit{0%,12%{transform:rotate(60deg)}78%,100%{transform:rotate(-60deg)}}
+@keyframes slide{0%,12%{transform:translateX(0)}78%,100%{transform:translateX(50px)}}
+@keyframes walk{0%{transform:translateX(0)}100%{transform:translateX(120px)}}
+@keyframes low{0%,12%{transform:translate(0,0) rotate(90deg)}78%,100%{transform:translate(0,52px) rotate(62deg)}}
+
+@keyframes fpush{0%,12%{transform:scale(1)}78%,100%{transform:scale(1.9)}}
+@keyframes fpull{0%,12%{transform:scale(1.9)}78%,100%{transform:scale(1)}}
+@keyframes fpan{0%,12%{transform:translateX(120px)}78%,100%{transform:translateX(-120px)}}
+@keyframes ftilt{0%,12%{transform:translateY(25px) scale(1.6)}78%,100%{transform:translateY(145px) scale(1.6)}}
+@keyframes forbbg{0%,12%{transform:translateX(80px)}78%,100%{transform:translateX(-80px)}}
+@keyframes forbrk{0%,12%{transform:scaleX(.4)}45%{transform:scaleX(1)}78%,100%{transform:scaleX(.4)}}
+@keyframes freveal{0%,12%{transform:translateX(0)}78%,100%{transform:translateX(-230px)}}
+@keyframes ftrack{0%{transform:translateX(0)}100%{transform:translateX(-200px)}}
+@keyframes fbob{0%,50%,100%{transform:translateY(0)}25%,75%{transform:translateY(-4px)}}
+@keyframes flow{0%,12%{transform:translateY(0) scale(1)}78%,100%{transform:translateY(40px) scale(1.35)}}
+
+.k-push{animation-name:push}.k-pull{animation-name:pull}.k-pan{animation-name:pan}.k-tilt{animation-name:tilt}
+.k-orbit{animation-name:orbit}.k-slide{animation-name:slide}.k-low{animation-name:low}
+.k-walk{animation-name:walk;animation-timing-function:linear;animation-duration:3.5s}
+.f-push{animation-name:fpush;transform-origin:90px 145px}
+.f-pull{animation-name:fpull;transform-origin:90px 145px}
+.f-pan{animation-name:fpan}
+.f-tilt{animation-name:ftilt;transform-origin:90px 160px}
+.f-orbbg{animation-name:forbbg}
+.f-orbrk{animation-name:forbrk;transform-origin:90px 150px}
+.f-reveal{animation-name:freveal}
+.f-track{animation-name:ftrack;animation-timing-function:linear;animation-duration:3.5s}
+.f-bob{animation-name:fbob;animation-timing-function:linear;animation-duration:1.75s}
+.f-low{animation-name:flow;transform-origin:90px 210px}
+.how .vis{margin:8px 0 4px;max-width:340px;align-items:start}
+.how .dia{flex:none}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">SportGrowth Media · woensdag 28 oktober</div>
+    <h1>Shoot: reel trainers + reel boekingen</h1>
+    <dl class="facts">
+      <dt>Waar</dt><dd>Plek A: een rustig padel- of tennisterrein · Plek B: de padelhal, terreinen achter je</dd>
+      <dt>Duur</dt><dd>±60 min, alles met de Camera-app van je iPhone (gimbal komt morgen)</dd>
+      <dt>Posten</dt><dd>Reel trainers do 29/10 19:30 · reel boekingen di 3/11 19:30</dd>
+      <dt>Bewegingen</dt><dd><a href="https://claude.ai/artifact/BWCAvP153KpGWFRvS6RT6y" target="_blank" rel="noopener">Filmgids met animaties</a></dd>
+    </dl>
+  </header>
+
+  <div class="progress" aria-live="polite">
+    <div class="prow">Klaar <span id="count">0 / 0</span></div>
+    <div class="track"><div class="fill" id="fill"></div></div>
+    <nav class="jump" id="jump"></nav>
+  </div>
+
+  <div id="list" class="wrap" style="gap:28px"></div>
+
+  <div class="foot">
+    <span id="saved">Je vinkjes worden op deze gsm bewaard.</span>
+    <button class="ghost" id="reset" type="button">Alles leegmaken</button>
+  </div>
+</div>
+
+<script>
+const S = [
+ {id:"voor", nav:"Klaarzetten", h:"Klaarzetten", time:"5 min",
+  items:[
+   {id:"v1", t:"Effen donkerblauwe trui aan"},
+   {id:"v2", t:"Lens schoonvegen"},
+   {id:"v3", t:"Camera: 4K · 30 fps, HDR-video uit, raster aan"},
+   {id:"v4", t:"Niet storen aan"},
+   {id:"v5", t:"Iets om je gsm tegen te zetten", tip:"Geen statief tot morgen: zet je gsm tegen een bank, je tas of een paal van het net, op borsthoogte. Of vraag iemand om te filmen."},
+   {id:"v6", t:"Toestemming vragen aan spelers die herkenbaar in beeld komen", tip:"\"Mag ik even filmen voor een filmpje over padel? Het komt op Instagram.\""}
+  ]},
+ {id:"apl", box:true, h:"Zo spreek je in de camera",
+  lines:["Kijk in de lens, niet naar jezelf op het scherm.","Zeg elke zin 2 à 3 keer. Begin pas 1 seconde na het starten van de opname en stop 1 seconde na je zin.","Spreek iets trager en luider dan normaal, met energie. Glimlach bij de eerste woorden.","Wind of lawaai? Draai je rug naar de wind en ga dichter bij de gsm staan (±70 cm)."]},
+ {id:"a", nav:"A · trainers", h:"Plek A · Reel trainers", time:"±25 min",
+  note:"Rustig terrein, liefst met een trainer of spelers op de achtergrond.",
+  items:[
+   {id:"T1", app:"iPhone Camera", t:"Lokbeeld: terrein met spelers", c:["breed","5 s","0-2 s van de reel"], mv:"push-in"},
+   {id:"T2", app:"iPhone Camera", t:"Zin 1 in de camera", c:["half","2-3 takes"], mv:"statisch", say:"Mensen kiezen een school of academie om de trainer. Maar op Instagram zie je die bijna nooit aan het werk."},
+   {id:"T3", app:"iPhone Camera", t:"Zin 2 in de camera", c:["half","2-3 takes"], mv:"statisch", say:"Dat werkt in elke sport: zwemmen, dans, judo, padel."},
+   {id:"T4", app:"iPhone Camera", t:"Racket en ballen van dichtbij", c:["close-up","6 s"], mv:"orbit"},
+   {id:"T5", app:"iPhone Camera", t:"Jij die met je gsm een slag filmt (achter de schermen)", c:["breed","6 s"], mv:"statisch", tip:"Toont wat de kijker zelf moet doen: één correctie filmen."}
+  ]},
+ {id:"b", nav:"B · boekingen", h:"Plek B · Reel boekingen", time:"±25 min",
+  note:"In de padelhal, met de terreinen achter je.",
+  items:[
+   {id:"K1", app:"iPhone Camera", t:"Lokbeeld: volle hal met spelers", c:["breed","6 s","0-2 s van de reel"], mv:"pan"},
+   {id:"K2", app:"iPhone Camera", t:"Zin 1 in de camera", c:["half","2-3 takes"], mv:"statisch", say:"Zo krijg je meer boekingen in je sportcentrum. Niet met een uurrooster, maar met mensen."},
+   {id:"K3", app:"iPhone Camera", t:"Zin 2 in de camera", c:["half","2-3 takes"], mv:"statisch", say:"En zet in je bio hoe je boekt. Eén klik, niet drie."},
+   {id:"K4", app:"iPhone Camera", t:"Een vrij terrein (het saaie beeld)", c:["breed","5 s"], mv:"statisch"},
+   {id:"K5", app:"iPhone Camera", t:"Spelers in een rally, van laag", c:["half","6 s"], mv:"lage hoek", tip:"Eerst toestemming vragen."},
+   {id:"K6", app:"iPhone Camera · Actiemodus", t:"Langs de terreinen lopen", c:["half","6 s"], mv:"meelopen"},
+   {id:"K7", app:"Schermopname", t:"Boeken in de app (bv. Playtomic) in 3 tikken", c:["scherm","10 s"], tip:"Bedieningspaneel → opnameknop. Open de app, kies een terrein en een uur. Niet echt boeken."}
+  ]},
+ {id:"vo", nav:"Voice-overs", h:"Voice-overs", time:"5 min",
+  note:"In de auto of thuis, gsm op 20 cm van je mond. Elke zin 2 keer.",
+  items:[
+   {id:"VO1", t:"Voice-over reel trainers", say:"Film één correctie. Eerst de slag, dan je tip, dan dezelfde slag beter. Tien seconden, en iedereen ziet wat je leert."},
+   {id:"VO2", t:"Voice-over reel boekingen", say:"Post elke week een kort filmpje van een match. Met één zin erbij: Donderdag om 20u nog een terrein vrij. Wie speelt mee?"}
+  ]},
+ {id:"na", nav:"Daarna", h:"Daarna", time:"5 min",
+  items:[
+   {id:"N1", t:"Mislukte takes weggooien"},
+   {id:"N2", t:"Alles naar Claude sturen", tip:"Eerst plek A + VO1 (reel trainers, die moet morgen online). Daarna plek B + VO2."}
+  ]}
+];
+
+const KEY = "sgm-shotlist-trainers-boekingen-28-10";
+let state = {};
+try { state = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch(e) { state = {}; }
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch(e) {
+  document.getElementById("saved").textContent = "Vinkjes worden niet bewaard in dit venster."; } };
+const esc = s => s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+const HOW = {
+ T1:{waar:"Aan de rand van het terrein, 3 m van het net. Gsm op borsthoogte, 0,5x.",
+     start:"Het terrein met spelers of een trainer in beeld. 1 seconde stil.",
+     doe:"Loop in 4 seconden 2 kleine stappen naar voren.",
+     einde:"De spelers vullen het midden van je scherm. 1 seconde stil."},
+ T2:{waar:"Gsm tegen een bank of tas, op borsthoogte, 1 m van je. Het terrein achter je.",
+     start:"Jij op de rechterlijn van het raster, je ogen op de bovenste lijn. Opname starten, 1 seconde wachten.",
+     doe:"Zeg de zin in de lens. 2 à 3 keer.",
+     let:"Zet je gezicht naar het licht, niet met de zon achter je."},
+ T3:{waar:"Zelfde plek en kader als zin 1.", doe:"Zeg de zin 2 à 3 keer. Tel de sporten rustig af, met een korte pauze tussen elke sport."},
+ T4:{waar:"Racket rechtop tegen het net of op je tas, 2 ballen ervoor. Gsm op ±50 cm, op de hoogte van het racket.",
+     start:"Links van het racket, racket in het midden van je scherm.",
+     doe:"Kleine zijstapjes in 6 seconden naar rechts. Richt altijd op het racket.",
+     einde:"Rechts van het racket. 1 seconde stil."},
+ T5:{waar:"Gsm tegen een bank, 3 à 4 m van je. Breed beeld, het terrein en jij in beeld.",
+     doe:"Jij houdt een tweede gsm (of doet alsof) en filmt een speler die een slag doet. 6 seconden.",
+     let:"Geen tweede gsm? Houd je gsm in je hand en film over je schouder naar het terrein."},
+ K1:{waar:"Aan de rand van de hal, liefst wat hoger (tribune, trap). Gsm op borsthoogte, 0,5x.",
+     start:"Links in de hal. 1 seconde stil.",
+     doe:"Voeten stil, draai vanuit je heupen in 6 seconden naar rechts.",
+     einde:"Rechts in de hal. 1 seconde stil.",
+     let:"Wacht tot er op meerdere terreinen gespeeld wordt."},
+ K2:{waar:"Gsm tegen een paal of je tas, op borsthoogte, 1 m van je. Terreinen met spelers achter je.",
+     start:"Jij op de rechterlijn van het raster, ogen op de bovenste lijn. Opname starten, 1 seconde wachten.",
+     doe:"Zeg de zin in de lens. 2 à 3 keer.",
+     let:"Lawaai in de hal? Ga op ±70 cm staan en spreek iets luider."},
+ K3:{waar:"Zelfde plek en kader als zin 1.", doe:"Zeg de zin 2 à 3 keer. Steek bij \"één klik\" één vinger op."},
+ K4:{waar:"Aan de rand van een leeg terrein. Gsm op borsthoogte, 0,5x.",
+     doe:"Hou 5 seconden stil.",
+     let:"Dit is het saaie voorbeeld (het uurrooster). Mag gerust leeg en stil zijn."},
+ K5:{waar:"Naast het terrein, achter het glas, 2 m van de spelers. Gsm op kniehoogte, licht naar boven.",
+     start:"Opname starten vóór de rally begint.",
+     doe:"Hou stil. Laat de spelers bewegen.",
+     einde:"Na een mooie slag of een rally van 6 seconden.",
+     let:"Ondersteboven houden brengt de lens dichter bij de grond."},
+ K6:{waar:"Op de gang langs de terreinen. Zet de Actiemodus aan (het lopende mannetje).",
+     start:"Gsm op borsthoogte, gericht op de terreinen naast je.",
+     doe:"Ninja-walk: knieën licht gebogen, hiel-teen, kleine stappen. 6 seconden rustig wandelen.",
+     let:"Twee handen, ellebogen tegen je lichaam."},
+ K7:{doe:"Start de schermopname, open de boekingsapp, kies een terrein en een uur, stop vóór je echt boekt.",
+     let:"Zet Niet storen aan, zodat er geen meldingen in beeld komen."}
+};
+const phone = `<polygon class="cone" points="0,-6 -20,-44 20,-44"/><rect class="ph" x="-9" y="-5" width="18" height="10" rx="2.5"/>`;
+const arrow = `<defs><marker id="ah" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#00d4ff"/></marker></defs>`;
+
+const holes = [[80,122],[100,122],[72,138],[90,138],[108,138],[80,154],[100,154],[90,168]]
+  .map(([x,y])=>`<circle class="hole" cx="${x}" cy="${y}" r="2.6"/>`).join("");
+const racket = `<rect class="grip" x="86" y="172" width="8" height="22" rx="3"/><ellipse class="face" cx="90" cy="142" rx="28" ry="35"/><ellipse class="inner" cx="90" cy="142" rx="22" ry="29"/>${holes}`;
+const table = `<rect class="table" x="28" y="192" width="124" height="12" rx="2"/><rect class="leg" x="36" y="204" width="6" height="44"/><rect class="leg" x="138" y="204" width="6" height="44"/>`;
+const stand = (x,label)=>`<rect class="oth" x="${x}" y="50" width="110" height="32" rx="3"/><rect class="oth" x="${x+10}" y="186" width="90" height="14" opacity=".7"/>`;
+const bg = `<rect class="wall" x="-500" y="-300" width="1200" height="515"/><rect class="floor" x="-500" y="215" width="1200" height="300"/><rect class="fline" x="-500" y="213" width="1200" height="3"/>
+  ${stand(-370)}${stand(-170)}${stand(230)}${stand(430)}
+  <rect class="banner" x="35" y="40" width="110" height="38" rx="4"/><text class="bt" x="90" y="68">FLAXX</text>`;
+const bgTrack = `<rect class="wall" x="-50" y="-300" width="700" height="515"/><rect class="floor" x="-50" y="215" width="700" height="300"/><rect class="fline" x="-50" y="213" width="700" height="3"/>
+  ${[ -10,190,390 ].map(x=>`<rect class="oth" x="${x}" y="50" width="120" height="32" rx="3"/><rect class="oth" x="${x+15}" y="186" width="90" height="14" opacity=".7"/>`).join("")}
+  ${[ 120,320,520 ].map(x=>`<rect class="banner" x="${x}" y="40" width="50" height="10" rx="2" opacity=".6"/>`).join("")}`;
+const person = `<g class="a f-bob"><circle class="skin" cx="90" cy="128" r="15"/><rect class="pers" x="70" y="146" width="40" height="72" rx="16"/><rect class="pers" x="74" y="210" width="13" height="70" rx="6"/><rect class="pers" x="93" y="210" width="13" height="70" rx="6"/></g>`;
+
+const frame = inner => `<div class="frame"><svg viewBox="0 0 180 320" preserveAspectRatio="xMidYMid slice" aria-hidden="true">${inner}</svg></div>`;
+const dia = inner => `<svg class="dia" viewBox="0 0 200 140" aria-hidden="true">${arrow}${inner}</svg>`;
+const subj = (x,y,l="racket")=>`<circle class="subj" cx="${x}" cy="${y}" r="11"/><text class="dlabel" x="${x}" y="${y-16}" text-anchor="middle">${l}</text>`;
+
+const moves = [
+ {n:"Push-in", s:"Traag naar je onderwerp toe", view:"bovenaanzicht",
+  d: dia(`${subj(100,34)}<line class="guide" x1="128" y1="122" x2="128" y2="82" marker-end="url(#ah)"/><g transform="translate(100,122)"><g class="a k-push">${phone}</g></g>`),
+  f: frame(`<g class="a f-push">${bg}${table}${racket}</g>`),
+  when:"Een product tonen, spanning opbouwen, de start van een reel.",
+  how:["Start op ±1,5 m van je onderwerp.","Loop 2 kleine stappen naar voren in 4 seconden.","Hou de gsm op dezelfde hoogte."],
+  shots:["B1","E3"], no:"met twee vingers inzoomen. Dat geeft een korrelig beeld."},
+ {n:"Pull-out", s:"Traag van je onderwerp weg", view:"bovenaanzicht",
+  d: dia(`${subj(100,34)}<line class="guide" x1="128" y1="80" x2="128" y2="120" marker-end="url(#ah)"/><g transform="translate(100,80)"><g class="a k-pull">${phone}</g></g>`),
+  f: frame(`<g class="a f-pull">${bg}${table}${racket}</g>`),
+  when:"Het einde van een reel. Je toont waar je bent: de hele stand.",
+  how:["Start dicht bij een detail, bijvoorbeeld het racket.","Stap traag achteruit in 4 seconden.","Kijk eerst achter je zodat je niet tegen iemand botst."],
+  shots:["B1","einde"], no:"te snel achteruit, dan schudt het beeld."},
+ {n:"Pan", s:"Op je plaats draaien", view:"bovenaanzicht",
+  d: dia(`<circle class="subj2" cx="40" cy="44" r="10"/><circle class="subj" cx="100" cy="30" r="11"/><circle class="subj2" cx="160" cy="44" r="10"/><text class="dlabel" x="100" y="14" text-anchor="middle">standen in de hal</text><path class="guide" d="M66,104 A40,40 0 0 1 134,104" marker-end="url(#ah)"/><g transform="translate(100,120)"><g class="a k-pan">${phone}</g></g>`),
+  f: frame(`<g class="a f-pan">${bg}${table}${racket}</g>`),
+  when:"De hal of de sfeer tonen.",
+  how:["Voeten stil, draai vanuit je heupen.","Draai in 5 seconden van links naar rechts.","Begin en eindig 1 seconde stil."],
+  shots:["A3","E2"], no:"heen en weer zwaaien. Kies één richting."},
+ {n:"Tilt", s:"Van onder naar boven kantelen", view:"zijaanzicht",
+  d: dia(`<line class="ground" x1="10" y1="126" x2="190" y2="126"/><rect class="pil" x="182" y="10" width="6" height="116"/><rect class="banner" x="170" y="22" width="12" height="26"/><text class="dlabel" x="164" y="36" text-anchor="end">logo</text><rect class="subj" x="150" y="98" width="22" height="6"/><rect class="leg" x="152" y="104" width="3" height="22"/><rect class="leg" x="167" y="104" width="3" height="22"/><text class="dlabel" x="146" y="94" text-anchor="end">racket</text><path class="guide" d="M88,104 A50,50 0 0 0 86,52" marker-end="url(#ah)"/><line class="ground" x1="40" y1="96" x2="40" y2="126" stroke-dasharray="2 3"/><g transform="translate(40,88)"><g class="a k-tilt">${phone}</g></g>`),
+  f: frame(`<g class="a f-tilt">${bg}${table}${racket}</g>`),
+  when:"Van het racket naar het logo. Of van de schoenen naar het gezicht van een speler.",
+  how:["Gsm op borsthoogte, voeten stil.","Kantel de gsm traag naar boven in 4 seconden.","Eindig op het logo en hou 1 seconde stil."],
+  shots:["B1","B3"], no:"tegelijk kantelen en draaien."},
+ {n:"Orbit", s:"Een halve cirkel rond het product", view:"bovenaanzicht",
+  d: dia(`${subj(100,52)}<path class="guide" d="M55,78 A52,52 0 0 0 145,78" marker-end="url(#ah)"/><g transform="translate(100,52)"><g class="a k-orbit"><g transform="translate(0,52)">${phone}</g></g></g>`),
+  f: frame(`<g class="a f-orbbg">${bg}</g>${table}<g class="a f-orbrk">${racket}</g>`),
+  when:"Productbeelden: de ERGO CONTROL en de ERGO POWER. Het product blijft in het midden en de achtergrond schuift.",
+  how:["Zet het racket in het midden van je scherm.","Stap zijwaarts met kleine stapjes in een halve cirkel.","Hou de afstand gelijk (±80 cm) en richt altijd op het racket."],
+  shots:["B3","B4"], no:"het racket uit het midden laten glijden."},
+ {n:"Reveal", s:"Iets laten verschijnen", view:"bovenaanzicht",
+  d: dia(`${subj(100,30,"stand")}<rect class="pil" x="80" y="68" width="40" height="18" rx="2"/><text class="dlabel" x="100" y="80" text-anchor="middle" style="fill:#0b1633">paal</text><line class="guide" x1="100" y1="132" x2="148" y2="132" marker-end="url(#ah)"/><g transform="translate(100,118)"><g class="a k-slide">${phone}</g></g>`),
+  f: frame(`${bg}${table}${racket}<g class="a f-reveal pillar"><rect x="-20" y="-10" width="210" height="340"/><rect class="edge" x="186" y="-10" width="5" height="340"/></g>`),
+  when:"Het openingsbeeld. De stand voor het eerst tonen.",
+  how:["Start met een paal, een bord of iemands rug vlak voor je lens.","Schuif zijwaarts tot de stand vrijkomt.","Stop zodra het logo in beeld is en hou 1 seconde stil."],
+  shots:["B2"], no:"te ver van de paal starten. Hoe dichter, hoe sterker het effect."},
+ {n:"Meelopen", s:"Naast of achter iemand lopen", view:"bovenaanzicht",
+  d: dia(`<g class="a k-walk"><circle class="subj" cx="40" cy="40" r="11"/><text class="dlabel" x="40" y="22" text-anchor="middle">persoon</text></g><line class="guide" x1="30" y1="130" x2="170" y2="130" marker-end="url(#ah)"/><g transform="translate(40,104)"><g class="a k-walk">${phone}</g></g>`),
+  f: frame(`<g class="a f-track">${bgTrack}</g>${person}`),
+  when:"Binnenwandelen, door de hal lopen, iemand naar de stand volgen.",
+  how:["Ninja-walk: knieën licht gebogen, hiel-teen, kleine stappen.","Loop even snel als de persoon en hou de afstand gelijk.","Op iPhone: zet de Actiemodus aan (het mannetje dat loopt). Die maakt het beeld extra stabiel."],
+  shots:["A2","E4"], no:"gewoon wandelen met gestrekte armen. Dan zie je elke stap."},
+ {n:"Lage hoek", s:"Van onder naar boven filmen", view:"zijaanzicht",
+  d: dia(`<line class="ground" x1="10" y1="126" x2="190" y2="126"/><circle class="skin" cx="150" cy="30" r="9"/><rect class="pers" x="140" y="40" width="20" height="50" rx="8" style="fill:#3a4c80"/><rect x="142" y="88" width="7" height="38" rx="3" style="fill:#3a4c80"/><rect x="151" y="88" width="7" height="38" rx="3" style="fill:#3a4c80"/><text class="dlabel" x="60" y="44" text-anchor="middle">ooghoogte</text><line class="guide" x1="30" y1="60" x2="30" y2="112" marker-end="url(#ah)"/><g transform="translate(60,62)"><g class="a k-low">${phone}</g></g><text class="dlabel" x="60" y="138" text-anchor="middle">kniehoogte</text>`),
+  f: frame(`<g class="a f-low">${bg}${table}${racket}</g>`),
+  when:"Iets of iemand krachtig laten ogen. Een speler in actie op het veld.",
+  how:["Hou de gsm op kniehoogte of lager.","Draai de gsm ondersteboven: dan zit de lens dichter bij de grond.","Richt licht naar boven. Je onderwerp oogt groter."],
+  shots:["B8","padeltraining"], no:"van boven filmen. Dat maakt mensen en producten klein."}
+];
+
+const MOVE = Object.fromEntries(moves.map(m=>[m.n.toLowerCase(), m]));
+const MVMAP = {"push-in":"push-in","pan":"pan","orbit":"orbit","reveal":"reveal","meelopen":"meelopen","lage hoek":"lage hoek","push-in / orbit":"push-in","motionlapse":"pan"};
+const raster = `<g stroke="#ffffff" stroke-opacity=".35" stroke-width="1"><line x1="60" y1="0" x2="60" y2="320"/><line x1="120" y1="0" x2="120" y2="320"/><line x1="0" y1="106.7" x2="180" y2="106.7"/><line x1="0" y1="213.3" x2="180" y2="213.3"/></g>`;
+const sdia = (label, dist, y=34, extra="") => dia(`${subj(100,y,label)}<line class="guide" x1="128" y1="${y+14}" x2="128" y2="104" style="stroke-dasharray:2 3"/><text class="dlabel" x="134" y="${(y+118)/2}">${dist}</text>${extra}<g transform="translate(100,118)">${phone}</g><text class="dlabel" x="100" y="138" text-anchor="middle">gsm stil</text>`);
+const big = (cx, hy, s=1, col="pers") => `<g transform="translate(${cx},${hy}) scale(${s})"><circle class="skin" cx="0" cy="0" r="26"/><rect x="-46" y="32" width="92" height="220" rx="40" fill="#4b5e96"/></g>`;
+const mic = (cx,y) => `<rect x="${cx-4}" y="${y}" width="8" height="12" rx="2" fill="#111"/><circle cx="${cx}" cy="${y-2}" r="3" fill="#00d4ff"/>`;
+const STATIC = {
+ T2:{d: sdia("jij","1 m"), f: frame(`<g style="filter:blur(1.5px)">${bgTrack}</g>${big(122,100)}${raster}`)},
+ T5:{d: sdia("jij + terrein","3-4 m"), f: frame(`${bgTrack}${big(60,150,.5)}<rect x="74" y="160" width="10" height="16" rx="2" fill="#0d1b3e" stroke="#00d4ff"/>${raster}`)},
+ K2:{d: sdia("jij","1 m"), f: frame(`<g style="filter:blur(1.5px)">${bgTrack}</g>${big(122,100)}${raster}`)},
+ K4:{d: sdia("leeg terrein","2-3 m"), f: frame(`<rect x="0" y="0" width="180" height="320" fill="#1b2d5c"/><rect x="0" y="150" width="180" height="170" fill="#1f5fae"/><line x1="0" y1="235" x2="180" y2="235" stroke="#fff" stroke-width="2"/><line x1="90" y1="150" x2="90" y2="320" stroke="#fff" stroke-width="2"/><rect x="0" y="140" width="180" height="12" fill="#2a3a6e"/>${raster}`)},
+ K7:{d: dia(`<rect x="80" y="20" width="40" height="80" rx="6" fill="#0d1b3e" stroke="#00d4ff"/><text class="dlabel" x="100" y="118" text-anchor="middle">schermopname op je gsm</text>`),
+     f: frame(`<rect x="0" y="0" width="180" height="320" fill="#f4f6fb"/><rect x="0" y="0" width="180" height="40" fill="#0d1b3e"/><text x="12" y="26" style="fill:#fff;font:700 13px var(--body)">Boek een terrein</text>${["18:00","19:00","20:00","21:00"].map((u,i)=>`<rect x="14" y="${60+i*44}" width="152" height="34" rx="8" fill="${i==2?"#00d4ff":"#fff"}" stroke="#cfd8ea"/><text x="26" y="${82+i*44}" style="fill:#0d1b3e;font:600 12px var(--body)">${u} · terrein ${i+1}</text>`).join("")}<rect x="14" y="250" width="152" height="40" rx="10" fill="#0d1b3e"/><text x="90" y="275" text-anchor="middle" style="fill:#fff;font:700 13px var(--body)">Boek</text>`)}
+};
+STATIC.T3 = STATIC.T2; STATIC.K3 = STATIC.K2;
+const visHtml = (id, mv) => { const st = STATIC[id]; if (st) return `<div class="vis"><figure>${st.d}<figcaption>Zo sta je</figcaption></figure><figure>${st.f}<figcaption>Zo ziet je beeld eruit</figcaption></figure></div>`; const m = MOVE[MVMAP[mv]]; if (!m) return ""; return `<div class="vis"><figure>${m.d}<figcaption>Zo beweeg je</figcaption></figure><figure>${m.f}<figcaption>Dit zie je</figcaption></figure></div>`; };
+const LBL = {waar:"Waar sta je", start:"Begin", doe:"Wat doe je", einde:"Einde", let:"Let op"};
+const howHtml = (id, mv) => { const h = HOW[id]; if (!h) return ""; return `<details class="how" open><summary>Zo film je</summary>${visHtml(id, mv)}<dl>${Object.keys(LBL).filter(k=>h[k]).map(k=>`<dt>${LBL[k]}</dt><dd>${esc(h[k])}</dd>`).join("")}</dl></details>`; };
+const list = document.getElementById("list");
+list.innerHTML = S.map(s => s.box ? `
+  <div class="box"><b>${esc(s.h)}</b>${s.lines.map(l=>`<div>· ${esc(l)}</div>`).join("")}</div>` : `
+  <section id="${s.id}">
+    <div class="shead"><h2>${esc(s.h)}</h2><span class="time">${esc(s.time)}</span></div>
+    ${s.note ? `<p class="note">${esc(s.note)}</p>` : ""}
+    <ul class="items">${s.items.map(i => `
+      <li class="item" data-id="${i.id}">
+        <label>
+          <input type="checkbox" id="cb-${i.id}" ${state[i.id] ? "checked" : ""}>
+          <div class="body">
+            <div class="t">${/^([A-Z]\d|VO)/.test(i.id) ? `<span class="id">${i.id.replace(/[a-d]$/,"")}</span>` : ""}${esc(i.t)}</div>
+            ${(i.c||i.mv||i.app) ? `<div class="chips">${i.app ? `<span class="chip app${/Mimo/.test(i.app)?" mimo":""}">${esc(i.app)}</span>` : ""}${i.mv ? `<span class="chip mv">${esc(i.mv)}</span>` : ""}${(i.c||[]).map(x=>`<span class="chip">${esc(x)}</span>`).join("")}</div>` : ""}
+            ${i.say ? `<div class="say"><q>${esc(i.say)}</q></div>` : ""}
+            ${i.copy ? `<div class="say"><span>${esc(i.copy)}</span><button type="button" data-copy="${esc(i.copy)}">Kopieer</button></div>` : ""}
+            ${i.tip ? `<div class="tip">${esc(i.tip)}</div>` : ""}
+          </div>
+        </label>
+        ${howHtml(i.id, i.mv)}
+      </li>`).join("")}
+    </ul>
+  </section>`).join("");
+
+const secs = S.filter(s => !s.box);
+const jump = document.getElementById("jump");
+jump.innerHTML = secs.map(s => `<a href="#${s.id}" data-s="${s.id}">${esc(s.nav)}</a>`).join("");
+
+function update(){
+  const all = secs.flatMap(s => s.items.map(i => i.id));
+  const done = all.filter(id => state[id]).length;
+  document.getElementById("count").textContent = `${done} / ${all.length}`;
+  document.getElementById("fill").style.width = (done / all.length * 100) + "%";
+  secs.forEach(s => jump.querySelector(`[data-s="${s.id}"]`).classList.toggle("ok", s.items.every(i => state[i.id])));
+  document.querySelectorAll(".item").forEach(el => el.classList.toggle("is-done", !!state[el.dataset.id]));
+}
+list.addEventListener("change", e => {
+  const li = e.target.closest(".item"); if (!li) return;
+  state[li.dataset.id] = e.target.checked; save(); update();
+});
+list.addEventListener("click", e => {
+  const b = e.target.closest("button[data-copy]"); if (!b) return;
+  e.preventDefault();
+  const txt = b.dataset.copy;
+  const ok = () => { b.textContent = "Gekopieerd"; setTimeout(() => b.textContent = "Kopieer", 1500); };
+  const fallback = () => { const r = document.createRange(); r.selectNodeContents(b.previousElementSibling);
+    const sel = getSelection(); sel.removeAllRanges(); sel.addRange(r); b.textContent = "Geselecteerd"; };
+  try { navigator.clipboard.writeText(txt).then(ok, fallback); } catch(err) { fallback(); }
+});
+const reset = document.getElementById("reset");
+let armed = false;
+reset.addEventListener("click", () => {
+  if (!armed) { armed = true; reset.textContent = "Tik nog eens om alles leeg te maken"; setTimeout(() => { armed = false; reset.textContent = "Alles leegmaken"; }, 3000); return; }
+  state = {}; save(); document.querySelectorAll(".item input").forEach(i => i.checked = false); update();
+  armed = false; reset.textContent = "Alles leegmaken";
+});
+update();
+</script>
