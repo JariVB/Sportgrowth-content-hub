@@ -91,7 +91,9 @@ Met deze drie beelden kan je altijd een vlotte montage maken.
 - Sessies en het panel: **niet filmen**.
 
 **Welke app?**
-- **DJI Mimo met volgen aan:** A2, B8, E1, E4 (jezelf of iemand die beweegt). Kader rond de persoon trekken of open handpalm naar de camera.
+- **DJI Mimo met volgen aan:** A2, E1, E4 (jezelf of iemand die beweegt). Kader rond de persoon trekken of open handpalm naar de camera.
+- **DJI Mimo · slow motion:** B8 (bezoeker test een racket).
+- **DJI Mimo · Motionlapse:** A5 (hal, 2-3 min filmen op statief, wordt ±5 s).
 - **iPhone Camera:** alle andere shots (vaste shots, rackets, interview, orbit, push-in).
 
 ---
@@ -105,6 +107,7 @@ Met deze drie beelden kan je altijd een vlotte montage maken.
 | A2 | Jij die binnenstapt (selfie-video, camera vooraan) | half | meelopen | 5 s | story 1 | ☐ |
 | A3 | De hal met volk en standen | breed | pan links → rechts | 8 s | story 2 + reel | ☐ |
 | A4 | Een demo of iets wat beweegt (sporttech, een scherm, iemand die test) | half | statisch | 5 s | story 2 + reel | ☐ |
+| A5 | Motionlapse van de hal (DJI Mimo, statief, 2-3 min) | breed | motionlapse | ±5 s | opening SGM-reel | ☐ |
 
 ### Blok B · stand Flaxx (±13u)
 | # | Shot | Type | Beweging | Duur | Voor | ✓ |
