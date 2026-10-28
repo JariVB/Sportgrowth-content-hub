@@ -226,7 +226,7 @@ const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } c
 const esc = s => s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 
 const HOW = {
- T1:{waar:"Aan de rand van het terrein, 3 m van het net. Gsm op borsthoogte, 0,5x.",
+ T1:{waar:"Buiten de kooi, in de opening aan de zijkant (ter hoogte van het net). Geen glas tussen je lens en de spelers. Gsm op borsthoogte, 0,5x.",
      start:"Het terrein met spelers of een trainer in beeld. 1 seconde stil.",
      doe:"Loop in 4 seconden 2 kleine stappen naar voren.",
      einde:"De spelers vullen het midden van je scherm. 1 seconde stil."},
@@ -242,7 +242,7 @@ const HOW = {
  T5:{waar:"Gsm tegen een bank, 3 à 4 m van je. Breed beeld, het terrein en jij in beeld.",
      doe:"Jij houdt een tweede gsm (of doet alsof) en filmt een speler die een slag doet. 6 seconden.",
      let:"Geen tweede gsm? Houd je gsm in je hand en film over je schouder naar het terrein."},
- K1:{waar:"Achter het glas van een terrein waar gespeeld wordt, 3 m van de spelers. Gsm op borsthoogte, 1x (niet 0,5x: dan zie je de lege terreinen ernaast).",
+ K1:{waar:"Buiten de kooi: in de opening aan de zijkant, of met je lens plat tegen het glas (dan zie je geen weerspiegeling). Gsm op borsthoogte, 1x (niet 0,5x: dan zie je de lege terreinen ernaast).",
      start:"Het hele terrein met de 4 spelers in beeld. 1 seconde stil.",
      doe:"Loop in 4 seconden 1 à 2 kleine stappen naar voren.",
      einde:"De spelers vullen je scherm. 1 seconde stil.",
@@ -255,7 +255,7 @@ const HOW = {
  K4:{waar:"Aan de rand van een leeg terrein. Gsm op borsthoogte, 0,5x.",
      doe:"Hou 5 seconden stil.",
      let:"Dit is het saaie voorbeeld (het uurrooster). Mag gerust leeg en stil zijn."},
- K5:{waar:"Naast het terrein, achter het glas, 2 m van de spelers. Gsm op kniehoogte, licht naar boven.",
+ K5:{waar:"Buiten de kooi, lens plat tegen het glas of in de opening aan de zijkant. Gsm op kniehoogte, licht naar boven.",
      start:"Opname starten vóór de rally begint.",
      doe:"Hou stil. Laat de spelers bewegen.",
      einde:"Na een mooie slag of een rally van 6 seconden.",
