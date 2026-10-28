@@ -29,7 +29,7 @@
 
 Moet mee:
 - [ ] Draadloze dasspeldmicrofoon met 2 zenders + ontvanger voor je iPhone (bv. DJI Mic 2 of DJI Mic Mini, Hollyland Lark M2, Rode Wireless GO). Eén zender voor Koen, één voor jou. Zonder microfoon is het interview in een volle hal bijna onbruikbaar.
-- [ ] Klein statief of selfiestick met pootjes + gsm-houder. Voor het interview en voor E1 als je alleen bent.
+- [ ] Gimbal met ingebouwde pootjes (geen apart statief nodig). Voor het interview op een hoge tafel, de toog van de stand of een statafel zetten, zodat de gsm op ooghoogte van Koen staat.
 - [ ] Powerbank (10.000 mAh) + kabel. Laad ook het doosje van de microfoon op.
 - [ ] Oortjes met draad of een USB-C-oortje om het geluid te controleren
 - [ ] Microvezeldoekje voor je lens
