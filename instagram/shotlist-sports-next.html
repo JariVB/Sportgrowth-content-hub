@@ -424,9 +424,34 @@ const moves = [
 
 const MOVE = Object.fromEntries(moves.map(m=>[m.n.toLowerCase(), m]));
 const MVMAP = {"push-in":"push-in","pan":"pan","orbit":"orbit","reveal":"reveal","meelopen":"meelopen","lage hoek":"lage hoek","push-in / orbit":"push-in","motionlapse":"pan"};
-const visHtml = mv => { const m = MOVE[MVMAP[mv]]; if (!m) return ""; return `<div class="vis"><figure>${m.d}<figcaption>Zo beweeg je</figcaption></figure><figure>${m.f}<figcaption>Dit zie je</figcaption></figure></div>`; };
+const raster = `<g stroke="#ffffff" stroke-opacity=".35" stroke-width="1"><line x1="60" y1="0" x2="60" y2="320"/><line x1="120" y1="0" x2="120" y2="320"/><line x1="0" y1="106.7" x2="180" y2="106.7"/><line x1="0" y1="213.3" x2="180" y2="213.3"/></g>`;
+const sdia = (label, dist, y=34, extra="") => dia(`${subj(100,y,label)}<line class="guide" x1="128" y1="${y+14}" x2="128" y2="104" style="stroke-dasharray:2 3"/><text class="dlabel" x="134" y="${(y+118)/2}">${dist}</text>${extra}<g transform="translate(100,118)">${phone}</g><text class="dlabel" x="100" y="138" text-anchor="middle">gsm stil</text>`);
+const big = (cx, hy, s=1, col="pers") => `<g transform="translate(${cx},${hy}) scale(${s})"><circle class="skin" cx="0" cy="0" r="26"/><rect x="-46" y="32" width="92" height="220" rx="40" fill="#4b5e96"/></g>`;
+const mic = (cx,y) => `<rect x="${cx-4}" y="${y}" width="8" height="12" rx="2" fill="#111"/><circle cx="${cx}" cy="${y-2}" r="3" fill="#00d4ff"/>`;
+const STATIC = {
+ A1:{d: sdia("ingang","5-10 m",30),
+     f: frame(`<rect x="0" y="0" width="180" height="320" fill="#24386e"/><rect x="10" y="40" width="160" height="230" fill="#3a4c80"/><rect x="25" y="55" width="130" height="40" rx="4" class="banner"/><text class="bt" x="90" y="83" style="font-size:20px">SPORTS NEXT</text><rect x="65" y="170" width="50" height="100" fill="#0d1b3e"/><rect x="0" y="270" width="180" height="50" class="floor"/>${[30,60,140].map(x=>`<circle class="skin" cx="${x}" cy="262" r="5"/><rect class="pers" x="${x-6}" y="268" width="12" height="26" rx="5"/>`).join("")}${raster}`)},
+ A4:{d: sdia("demo","1-2 m"),
+     f: frame(`${bg}<rect x="30" y="95" width="120" height="80" rx="6" fill="#0d1b3e" stroke="#00d4ff" stroke-width="3"/><polygon points="80,118 80,152 108,135" fill="#00d4ff"/><rect x="40" y="175" width="100" height="40" fill="#9aa9cf"/>${raster}`)},
+ B5:{d: sdia("racketblad","10-15 cm",40),
+     f: frame(`<rect x="0" y="0" width="180" height="320" fill="#c79f5c"/><g stroke="#8a6a35" stroke-opacity=".55" stroke-width="2">${Array.from({length:30},(_,i)=>`<line x1="${-200+i*14}" y1="0" x2="${i*14}" y2="320"/>`).join("")}</g><g stroke="#e6c88e" stroke-opacity=".45" stroke-width="2">${Array.from({length:30},(_,i)=>`<line x1="${i*14}" y1="0" x2="${-200+i*14}" y2="320"/>`).join("")}</g><circle cx="50" cy="90" r="16" fill="#5a4220"/><circle cx="130" cy="230" r="16" fill="#5a4220"/><rect x="70" y="140" width="40" height="40" fill="none" stroke="#ffd60a" stroke-width="2"/><text x="90" y="196" text-anchor="middle" style="fill:#ffd60a;font:600 8px var(--body)">tik hier</text>`)},
+ B6:{d: sdia("racket op tafel","50 cm",34),
+     f: frame(`<rect x="0" y="0" width="180" height="320" fill="#e6ecfa"/><g transform="rotate(-25 90 170)"><ellipse cx="90" cy="130" rx="40" ry="50" class="face"/><ellipse cx="90" cy="130" rx="32" ry="42" class="inner"/><rect x="83" y="178" width="14" height="70" rx="5" class="grip"/></g><ellipse cx="125" cy="245" rx="26" ry="18" class="skin"/><rect x="128" y="250" width="60" height="30" rx="12" class="skin"/>`)},
+ B7:{d: dia(`${subj(100,30,"Koen")}<circle class="subj2" cx="112" cy="70" r="10"/><text class="dlabel" x="140" y="72">bezoeker</text><g transform="translate(130,118) rotate(-15)">${phone}</g><text class="dlabel" x="100" y="138" text-anchor="middle">schuin achter de bezoeker, 2-3 m</text>`),
+     f: frame(`${bg}${big(110,120,.55)}<g opacity=".92"><circle cx="30" cy="190" r="48" fill="#141a2a"/><rect x="-40" y="225" width="150" height="120" rx="50" fill="#141a2a"/></g>${raster}`)},
+ B9a:{d: dia(`${subj(100,30,"Koen")}<text class="dlabel" x="40" y="22" text-anchor="middle">licht</text><circle cx="40" cy="34" r="7" fill="#ffd60a"/><line class="guide" x1="128" y1="44" x2="128" y2="104" style="stroke-dasharray:2 3"/><text class="dlabel" x="134" y="78">1-1,5 m</text><g transform="translate(100,118)">${phone}</g><text class="dlabel" x="100" y="138" text-anchor="middle">statief op ooghoogte</text>`),
+     f: frame(`${bg}${big(122,100)}${mic(122,160)}${raster}<text x="4" y="103" style="fill:#fff;font:600 8px var(--body)">ogen op deze lijn</text>`)},
+ B10:{d: sdia("jij","1 m"),
+     f: frame(`${bg}${big(100,100)}<g transform="translate(-35,-35) scale(.8)">${racket}</g>${mic(100,160)}${raster}`)},
+ B11:{d: sdia("jij + Koen","2 m"),
+     f: frame(`${bg}${big(55,130,.6)}${big(125,130,.6)}${raster}`)},
+ E1:{d: sdia("jij","1 m"),
+     f: frame(`<g style="filter:blur(1.5px)">${bgTrack}</g>${big(90,100)}${mic(90,160)}${raster}`)}
+};
+STATIC.B9b = STATIC.B9a; STATIC.B9c = STATIC.B9a;
+const visHtml = (id, mv) => { const st = STATIC[id]; if (st) return `<div class="vis"><figure>${st.d}<figcaption>Zo sta je</figcaption></figure><figure>${st.f}<figcaption>Zo ziet je beeld eruit</figcaption></figure></div>`; const m = MOVE[MVMAP[mv]]; if (!m) return ""; return `<div class="vis"><figure>${m.d}<figcaption>Zo beweeg je</figcaption></figure><figure>${m.f}<figcaption>Dit zie je</figcaption></figure></div>`; };
 const LBL = {waar:"Waar sta je", start:"Begin", doe:"Wat doe je", einde:"Einde", let:"Let op"};
-const howHtml = (id, mv) => { const h = HOW[id]; if (!h) return ""; return `<details class="how" open><summary>Zo film je</summary>${visHtml(mv)}<dl>${Object.keys(LBL).filter(k=>h[k]).map(k=>`<dt>${LBL[k]}</dt><dd>${esc(h[k])}</dd>`).join("")}</dl></details>`; };
+const howHtml = (id, mv) => { const h = HOW[id]; if (!h) return ""; return `<details class="how" open><summary>Zo film je</summary>${visHtml(id, mv)}<dl>${Object.keys(LBL).filter(k=>h[k]).map(k=>`<dt>${LBL[k]}</dt><dd>${esc(h[k])}</dd>`).join("")}</dl></details>`; };
 const list = document.getElementById("list");
 list.innerHTML = S.map(s => s.box ? `
   <div class="box"><b>${esc(s.h)}</b>${s.lines.map(l=>`<div>· ${esc(l)}</div>`).join("")}</div>` : `
