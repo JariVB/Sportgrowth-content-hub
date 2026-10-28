@@ -19,3 +19,6 @@ Beter: originele clips 13/10 (IMG_2107, 2402, 2398) in plaats van de preview.
 
 ## v3 (wo 28/10): stuk "Film één correctie" dynamischer
 `reel7-trainers-ruwe-montage-v3.mp4`. Van 0:11,2 tot 0:17,7 nu 5 korte shots die de woorden van VO1 volgen: slag (2711) · tip van de trainer (2709) · betere slag (coaching 13/10) · trainer speelt aan (2707) · rally (2714). v1 verwijderd.
+
+## v4 (wo 28/10): eigen voor/na van Jari (IMG_2398)
+`reel7-trainers-ruwe-montage-v4.mp4`. 0:11,2 slag (IMG_2398 deel 1) · 0:12,6 tip (IMG_2398 deel 2) · 0:14,2 betere slag · 0:15,6 trainer (2707) · 0:16,6 rally (2714). Labels 1 · Slag / 2 · Tip / 3 · Beter. Ondertitels VO1 gelijk met de beelden. Coachinggeluid gedempt (VO erover). v2 verwijderd.
