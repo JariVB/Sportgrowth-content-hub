@@ -200,3 +200,9 @@ Uit de planning gehaald (vzw-gericht, enkel nog als voorraad): voetbal-supporter
 Volgende ronde (vanaf 16/11): RESULTAAT #2 (eerste klant of TTV/Westerlo met akkoord), "Zo hoeft je voorzitter nooit meer om 23u te posten", "Zo maak je van een eenmalige huurder een vaste speler" (padel), Jan Stilten-resultaat als samenwerkingspost, "Zo vult je club een week Instagram in 10 minuten", "3 fouten op de Instagram van voetbalclubs" (±30 s, bewezen formule van reel 1), en daarna dezelfde formule voor een andere sport (hockey, basket of volley).
 
 Volgende ronde (vanaf 16/11): RESULTAAT #2 (eerste klant of TTV/Westerlo met akkoord), "Zo hoeft je voorzitter nooit meer om 23u te posten" (tennis), "Zo vult je club een week Instagram in 10 minuten" (achter de schermen op je padeltraining), "Zo krijg je je padeltornooi vol".
+## Ondertitels in reels (beslist 28/10)
+- Korte stukjes van 3 à 6 woorden, op een vaste plek onder de labels.
+- Geen punten, komma's of dubbele punten. Een nieuw stukje is de pauze.
+- Vraagtekens en uitroeptekens blijven (ze veranderen de betekenis).
+- Opsommingen met " · " (tennis · zwemmen · judo · padel).
+- Letterlijk wat er gezegd wordt.
