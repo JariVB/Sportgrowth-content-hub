@@ -18,6 +18,8 @@ Opnames: zie `SHOTLIST-19-25-OKTOBER.md` (shoot wo 21/10 verschoven naar di 27/1
 - Batch 3 screenshots: verschoven naar ma 2/11.
 
 ## Wo 28/10 · hoofdwerkdag
+- Voormiddag: shoot reel trainers + reel boekingen (doorgeschoven van di 27/10). Beelden meteen naar Claude.
+- Materiaal voor Sports NEXT bestellen.
 - Ruwe montage reel trainers (Claude) nakijken, voice-overs, inplannen do 29/10.
 - Verkoop: analyses voor wie ja zei, stand na 2 weken naar Claude.
 - Statistieken 2 weken vast ritme (doorgeschoven van ma 26/10).
