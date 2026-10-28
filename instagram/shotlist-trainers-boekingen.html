@@ -349,6 +349,16 @@ const moves = [
 ];
 
 const MOVE = Object.fromEntries(moves.map(m=>[m.n.toLowerCase(), m]));
+// padelterrein in plaats van de Flaxx-stand
+const pl = (x,y,k,c="#ff7a59") => `<g transform="translate(${x},${y}) scale(${k})"><circle cx="0" cy="-30" r="7" fill="#e8c4a0"/><rect x="-8" y="-22" width="16" height="26" rx="6" fill="${c}"/><rect x="-7" y="3" width="5" height="18" rx="2" fill="#0d1b3e"/><rect x="2" y="3" width="5" height="18" rx="2" fill="#0d1b3e"/><ellipse cx="14" cy="-18" rx="5" ry="6.5" fill="#d9b77a"/></g>`;
+const courtAt = dx => `<g transform="translate(${dx},0)"><polygon points="-15,140 195,140 240,320 -60,320" fill="#1f5fae"/><polygon points="-15,140 195,140 195,60 -15,60" fill="#9fd3ff" opacity=".12"/><line x1="-15" y1="140" x2="-15" y2="60" stroke="#cfe8ff" stroke-opacity=".5" stroke-width="2"/><line x1="195" y1="140" x2="195" y2="60" stroke="#cfe8ff" stroke-opacity=".5" stroke-width="2"/><rect x="-35" y="196" width="250" height="5" fill="#f2f6ff"/><line x1="-35" y1="201" x2="215" y2="201" stroke="#0d1b3e" stroke-width="1"/><line x1="90" y1="140" x2="90" y2="320" stroke="#fff" stroke-opacity=".6" stroke-width="1.5"/>${pl(55,170,.7,"#ffb86b")}${pl(125,172,.7,"#5fe0a0")}${pl(50,280,1.25)}${pl(132,276,1.25,"#00d4ff")}</g>`;
+const hall = `<rect x="-400" y="-300" width="1200" height="440" fill="#1b2d5c"/>${[-260,-150,-40,70,180,290].map(x=>`<circle cx="${x}" cy="20" r="4" fill="#fff6c8" opacity=".8"/>`).join("")}`;
+const court = `${hall}${courtAt(0)}`;
+MOVE["push-in"] = {...MOVE["push-in"], d: MOVE["push-in"].d.replace(">racket<",">spelers<"), f: frame(`<g class="a f-push" style="transform-origin:90px 210px">${court}</g>`)};
+MOVE["lage hoek"] = {...MOVE["lage hoek"], f: frame(`<g class="a f-low">${court}</g>`)};
+MOVE["pan"] = {...MOVE["pan"], f: frame(`<g class="a f-pan">${hall}${courtAt(-260)}${courtAt(0)}${courtAt(260)}</g>`)};
+MOVE["meelopen"] = {...MOVE["meelopen"], f: frame(`<g class="a f-track">${hall}${courtAt(0)}${courtAt(200)}${courtAt(400)}</g>`)};
+
 const MVMAP = {"push-in":"push-in","pan":"pan","orbit":"orbit","reveal":"reveal","meelopen":"meelopen","lage hoek":"lage hoek","push-in / orbit":"push-in","motionlapse":"pan"};
 const raster = `<g stroke="#ffffff" stroke-opacity=".35" stroke-width="1"><line x1="60" y1="0" x2="60" y2="320"/><line x1="120" y1="0" x2="120" y2="320"/><line x1="0" y1="106.7" x2="180" y2="106.7"/><line x1="0" y1="213.3" x2="180" y2="213.3"/></g>`;
 const sdia = (label, dist, y=34, extra="") => dia(`${subj(100,y,label)}<line class="guide" x1="128" y1="${y+14}" x2="128" y2="104" style="stroke-dasharray:2 3"/><text class="dlabel" x="134" y="${(y+118)/2}">${dist}</text>${extra}<g transform="translate(100,118)">${phone}</g><text class="dlabel" x="100" y="138" text-anchor="middle">gsm stil</text>`);
