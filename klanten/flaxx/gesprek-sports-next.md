@@ -31,5 +31,5 @@ Extra idee: kortingscode voor de leerlingen van Jari. Flaxx ziet meteen wat het 
 - Workshop in beeld: een racket op maat maken
 
 ## 5. Afsluiten
-- Niet ter plaatse laten beslissen. "Ik zet het voor je op papier. Mag ik je dinsdag een kort voorstel sturen?"
-- Na de beurs: voorstel door Claude, versturen di 3/11.
+- Niet ter plaatse laten beslissen. "Laten we eerst de collab-reel maken. Dan zie je wat we leveren en wat het oplevert. Daarna stuur ik je de cijfers en een kort voorstel, goed?"
+- Volgorde: lanceringsvideo gratis (ma 2/11) → collab-reel (do 5/11) → cijfers + voorstel (za 7/11).

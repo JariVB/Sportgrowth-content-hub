@@ -12,7 +12,7 @@ Vast ritme: ma 19u30 carrousel · di 19u30 reel · do 19u30 reel. Week na Sports
 - Batch 3 screenshots (als we de verkoop zo verderzetten) + opvolgen.
 
 ## Di 3/11 · Reel boekingen "Zo krijg je meer boekingen in je sportcentrum" (19u30)
-- Voorstel Flaxx versturen (Claude maakt het ma klaar na het gesprek met Koen).
+- Flaxx: nog geen voorstel. Eerst de lanceringsvideo (ma) en de collab-reel (do).
 - Training 18u-22u30: ERGO CONTROL en ERGO POWER testen met spelers en filmen voor de collab-reel (shotlist volgt).
 
 ## Wo 4/11 · hoofdwerkdag
@@ -23,4 +23,9 @@ Vast ritme: ma 19u30 carrousel · di 19u30 reel · do 19u30 reel. Week na Sports
 ## Do 5/11 · Collab-reel Flaxx: ERGO CONTROL vs ERGO POWER (19u30)
 - Story 19u35, tag @flaxx_rackets. Cijfers na 48 u naar Koen.
 
-## Vr 6/11 · niets · Za 7/11 · story op het terrein · Zo 8/11 · rust
+## Vr 6/11 · niets
+
+## Za 7/11 · story op het terrein
+- Flaxx: cijfers collab-reel na 48 u + kort voorstel (optie A €290 / optie B €449/maand) naar Koen. Claude maakt het klaar.
+
+## Zo 8/11 · rust
