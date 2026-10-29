@@ -96,6 +96,12 @@ Met deze drie beelden kan je altijd een vlotte montage maken.
 - **DJI Mimo · Motionlapse:** A5 (hal, 2-3 min filmen op statief, wordt ±5 s).
 - **iPhone Camera:** alle andere shots (vaste shots, rackets, interview, orbit, push-in).
 
+**Welke zoom?** (onderaan in de camera tikken, nooit met twee vingers verder zoomen)
+- **0,5x:** A1, A3, A5, E2 (breed: hal, gevel, pan). Niet voor gezichten van dichtbij.
+- **1x:** A4, B1-B6, B8, B9, B10, B11, E1, E3, E4 (beste kwaliteit).
+- **2x:** B7 (Koen in gesprek, van verder weg).
+- **Selfie uitgezoomd:** A2.
+
 ---
 
 ## 3. Shotlist

@@ -54,6 +54,7 @@ ul.items{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;g
 .id{font-family:var(--display);font-weight:700;color:var(--cyan);margin-right:6px}
 .chips{display:flex;flex-wrap:wrap;gap:4px}
 .chip{font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:6px;padding:0 6px}
+.chip.zoom{color:var(--bg);background:var(--cyan);border-color:var(--cyan);font-weight:600}
 .chip.mv{color:var(--cyan);border-color:var(--cyan)}
 .chip.app{color:var(--bg);background:var(--fg);border-color:var(--fg);font-weight:600}
 .chip.app.mimo{background:var(--warn);border-color:var(--warn)}
@@ -187,33 +188,35 @@ const S = [
    {id:"v9", t:"Lege notitie \"Sports NEXT panel\" in je gsm"},
    {id:"v10", t:"Op de dag zelf: Niet storen aan", tip:"Zo onderbreekt een oproep je opname niet."}
   ]},
+ {id:"zoom", box:true, h:"Welke zoom? Kijk naar het blauwe label 🔍",
+  lines:["Tik onderaan in de camera op 0,5x, 1x of 2x. Nooit met twee vingers verder inzoomen: dan wordt het beeld korrelig.","0,5x · breed: de hal, de gevel, een pan. Niet voor gezichten van dichtbij, want 0,5x vervormt aan de randen.","1x · standaard: de beste kwaliteit. Voor het interview, de rackets, orbit, push-in en jij in beeld.","2x · van verder weg: Koen in gesprek (B7). Je hoeft niet dichtbij te komen en de achtergrond lijkt dichterbij.","Macro (B5): op 1x dicht bij het racket. Je iPhone schakelt zelf naar macro (bloempje)."]},
  {id:"apps", box:true, h:"Welke app? Kijk naar het label bij elk shot",
   lines:["Wit label · iPhone Camera: vaste shots, rackets, interview, orbit en push-in. Gimbal alleen voor stabiel beeld.","Oranje label · DJI Mimo: volgen (jezelf of iemand die beweegt), slow motion (B8) of Motionlapse (A5).","Iemand volgen: trek een kader rond de persoon tot het groen wordt.","Jezelf volgen: open handpalm naar de camera tot het kader groen wordt, dan je hand laten zakken.","Volgen stoppen: tik het kader weg. In een drukke groep kan de gimbal iemand anders kiezen, dus kies een rustige plek."]},
  {id:"a", nav:"A · aankomst", h:"A · Aankomst", time:"±12u45",
   items:[
-   {id:"A1", app:"iPhone Camera", t:"Gevel of bord Nekkerhal / Sports NEXT", c:["breed","5 s"], mv:"statisch"},
-   {id:"A2", app:"DJI Mimo · volgen aan", t:"Jij die binnenstapt (selfie-video)", c:["half","5 s","story 1"], mv:"meelopen"},
-   {id:"A3", app:"iPhone Camera", t:"De hal met volk en standen", c:["breed","8 s","story 2"], mv:"pan", tip:"Voeten stil, draai vanuit je heupen van links naar rechts."},
-   {id:"A4", app:"iPhone Camera", t:"Een demo of iets wat beweegt", c:["half","5 s","story 2"], mv:"statisch"},
-   {id:"A5", app:"DJI Mimo · Motionlapse", t:"Motionlapse van de hal: volk dat snel beweegt terwijl het beeld traag draait", c:["breed","2-3 min filmen","SGM-reel opening"], mv:"motionlapse", tip:"Gimbal op je statief, op een plek waar niemand ertegen loopt. Kies punt A links en punt B rechts in de hal. Wordt een clip van ±5 s. Kan ook later op de dag."}
+   {id:"A1", z:"0,5x", app:"iPhone Camera", t:"Gevel of bord Nekkerhal / Sports NEXT", c:["breed","5 s"], mv:"statisch"},
+   {id:"A2", z:"selfie · uitgezoomd", app:"DJI Mimo · volgen aan", t:"Jij die binnenstapt (selfie-video)", c:["half","5 s","story 1"], mv:"meelopen"},
+   {id:"A3", z:"0,5x", app:"iPhone Camera", t:"De hal met volk en standen", c:["breed","8 s","story 2"], mv:"pan", tip:"Voeten stil, draai vanuit je heupen van links naar rechts."},
+   {id:"A4", z:"1x", app:"iPhone Camera", t:"Een demo of iets wat beweegt", c:["half","5 s","story 2"], mv:"statisch"},
+   {id:"A5", z:"0,5x", app:"DJI Mimo · Motionlapse", t:"Motionlapse van de hal: volk dat snel beweegt terwijl het beeld traag draait", c:["breed","2-3 min filmen","SGM-reel opening"], mv:"motionlapse", tip:"Gimbal op je statief, op een plek waar niemand ertegen loopt. Kies punt A links en punt B rechts in de hal. Wordt een clip van ±5 s. Kan ook later op de dag."}
   ]},
  {id:"b", nav:"B · Flaxx", h:"B · Stand Flaxx", time:"±13u",
   note:"Eerst Koen begroeten en bedanken voor de tickets. Daarna filmen.",
   items:[
-   {id:"B1", app:"iPhone Camera", t:"De hele stand met het logo", c:["breed","8 s","story 3"], mv:"push-in"},
-   {id:"B2", app:"iPhone Camera", t:"Reveal van de stand vanachter een paal of bord", c:["breed","5 s"], mv:"reveal", tip:"Hoe dichter de paal bij je lens, hoe sterker het effect."},
-   {id:"B3", app:"iPhone Camera", t:"ERGO CONTROL op tafel of in het rek", c:["close-up","6 s"], mv:"orbit", tip:"Racket in het midden van je scherm, ±80 cm afstand."},
-   {id:"B4", app:"iPhone Camera", t:"ERGO POWER op tafel of in het rek", c:["close-up","6 s"], mv:"orbit"},
-   {id:"B5", app:"iPhone Camera", t:"Vlasstructuur van heel dichtbij", c:["close-up","5 s"], mv:"heel traag schuiven"},
-   {id:"B6", app:"iPhone Camera", t:"Handen die een racket oppakken en draaien", c:["close-up","5 s"], mv:"statisch"},
-   {id:"B7", app:"iPhone Camera", t:"Koen in gesprek met bezoekers", c:["half","8 s"], mv:"statisch"},
-   {id:"B8", app:"DJI Mimo · slow motion", t:"Een bezoeker die een racket test, in slow motion", c:["half","6 s","Flaxx-collab"], mv:"lage hoek", tip:"Eerst vragen.", say:"Mag ik even filmen hoe je het racket test? Het is voor Flaxx."},
-   {id:"B9a", app:"iPhone Camera", t:"Interview vraag 1", c:["half","±20 s"], mv:"statisch", say:"Waarom maken jullie rackets uit vlas?", tip:"Doorvragen: \"Wat merkt een speler daarvan?\""},
-   {id:"B9b", app:"iPhone Camera", t:"Interview vraag 2", c:["half","±20 s"], mv:"statisch", say:"Wat is het verschil tussen de ERGO CONTROL en de ERGO POWER?", tip:"Doorvragen: \"Voor welk type speler is welk model?\""},
-   {id:"B9c", app:"iPhone Camera", t:"Interview vraag 3", c:["half","±20 s"], mv:"statisch", say:"Voor wie is een Flaxx ideaal?", tip:"Doorvragen: \"En wat betekent het dat ze in België gemaakt worden?\""},
-   {id:"B9d", app:"iPhone Camera", t:"B-roll bij de antwoorden (rackets, vlas, bezoekers)", c:["mix","3 x 5 s"], mv:"push-in / orbit"},
-   {id:"B10", app:"iPhone Camera", t:"Jij met de ERGO POWER, 1 zin in de camera", c:["half","8 s"], mv:"statisch", say:"Dit is de nieuwe ERGO POWER van Flaxx, een Belgisch racket uit vlas. Dinsdag test ik hem op training."},
-   {id:"B11", app:"iPhone Camera", t:"Foto van jou en Koen (verticaal + liggend)", c:["foto"]}
+   {id:"B1", z:"1x", app:"iPhone Camera", t:"De hele stand met het logo", c:["breed","8 s","story 3"], mv:"push-in"},
+   {id:"B2", z:"1x", app:"iPhone Camera", t:"Reveal van de stand vanachter een paal of bord", c:["breed","5 s"], mv:"reveal", tip:"Hoe dichter de paal bij je lens, hoe sterker het effect."},
+   {id:"B3", z:"1x", app:"iPhone Camera", t:"ERGO CONTROL op tafel of in het rek", c:["close-up","6 s"], mv:"orbit", tip:"Racket in het midden van je scherm, ±80 cm afstand."},
+   {id:"B4", z:"1x", app:"iPhone Camera", t:"ERGO POWER op tafel of in het rek", c:["close-up","6 s"], mv:"orbit"},
+   {id:"B5", z:"1x (macro)", app:"iPhone Camera", t:"Vlasstructuur van heel dichtbij", c:["close-up","5 s"], mv:"heel traag schuiven"},
+   {id:"B6", z:"1x", app:"iPhone Camera", t:"Handen die een racket oppakken en draaien", c:["close-up","5 s"], mv:"statisch"},
+   {id:"B7", z:"2x", app:"iPhone Camera", t:"Koen in gesprek met bezoekers", c:["half","8 s"], mv:"statisch"},
+   {id:"B8", z:"1x", app:"DJI Mimo · slow motion", t:"Een bezoeker die een racket test, in slow motion", c:["half","6 s","Flaxx-collab"], mv:"lage hoek", tip:"Eerst vragen.", say:"Mag ik even filmen hoe je het racket test? Het is voor Flaxx."},
+   {id:"B9a", z:"1x", app:"iPhone Camera", t:"Interview vraag 1", c:["half","±20 s"], mv:"statisch", say:"Waarom maken jullie rackets uit vlas?", tip:"Doorvragen: \"Wat merkt een speler daarvan?\""},
+   {id:"B9b", z:"1x", app:"iPhone Camera", t:"Interview vraag 2", c:["half","±20 s"], mv:"statisch", say:"Wat is het verschil tussen de ERGO CONTROL en de ERGO POWER?", tip:"Doorvragen: \"Voor welk type speler is welk model?\""},
+   {id:"B9c", z:"1x", app:"iPhone Camera", t:"Interview vraag 3", c:["half","±20 s"], mv:"statisch", say:"Voor wie is een Flaxx ideaal?", tip:"Doorvragen: \"En wat betekent het dat ze in België gemaakt worden?\""},
+   {id:"B9d", z:"1x", app:"iPhone Camera", t:"B-roll bij de antwoorden (rackets, vlas, bezoekers)", c:["mix","3 x 5 s"], mv:"push-in / orbit"},
+   {id:"B10", z:"1x", app:"iPhone Camera", t:"Jij met de ERGO POWER, 1 zin in de camera", c:["half","8 s"], mv:"statisch", say:"Dit is de nieuwe ERGO POWER van Flaxx, een Belgisch racket uit vlas. Dinsdag test ik hem op training."},
+   {id:"B11", z:"1x", app:"iPhone Camera", t:"Foto van jou en Koen (verticaal + liggend)", c:["foto"]}
   ]},
  {id:"int", box:true, h:"Interview: zo pak je het aan",
   lines:["Rustige hoek, weg van luidsprekers. Koen met zijn gezicht naar het licht.","Logo of stand achter hem. Ogen op de bovenste lijn van het raster.","Microfoon op ±20 cm. Zonder microfoon: gsm op 50 cm.","Vraag hem je vraag te herhalen in zijn antwoord.","Laat 2 seconden stilte voor en na elk antwoord."]},
@@ -235,10 +238,10 @@ const S = [
   ]},
  {id:"e", nav:"E · SGM-reel", h:"E · SGM-reel voor later", time:"rustig moment",
   items:[
-   {id:"E1", app:"DJI Mimo · volgen aan", t:"Jij in de camera, hal achter je (2-3 keer)", c:["half","8 s"], mv:"statisch", say:"Ik ben vandaag op Sports NEXT, dé beurs over de toekomst van sport. Dit neem ik mee voor jullie club."},
-   {id:"E2", app:"iPhone Camera", t:"Breed beeld van de hal", c:["breed","5 s"], mv:"pan"},
-   {id:"E3", app:"iPhone Camera", t:"Detail van een sporttoestel of demo", c:["close-up","5 s"], mv:"push-in"},
-   {id:"E4", app:"DJI Mimo · volgen aan", t:"Jij die door de hal loopt, van achteren", c:["half","5 s","begeleider"], mv:"meelopen"}
+   {id:"E1", z:"1x", app:"DJI Mimo · volgen aan", t:"Jij in de camera, hal achter je (2-3 keer)", c:["half","8 s"], mv:"statisch", say:"Ik ben vandaag op Sports NEXT, dé beurs over de toekomst van sport. Dit neem ik mee voor jullie club."},
+   {id:"E2", z:"0,5x", app:"iPhone Camera", t:"Breed beeld van de hal", c:["breed","5 s"], mv:"pan"},
+   {id:"E3", z:"1x", app:"iPhone Camera", t:"Detail van een sporttoestel of demo", c:["close-up","5 s"], mv:"push-in"},
+   {id:"E4", z:"1x", app:"DJI Mimo · volgen aan", t:"Jij die door de hal loopt, van achteren", c:["half","5 s","begeleider"], mv:"meelopen"}
   ]},
  {id:"f", nav:"F · afsluiten", h:"F · Afsluiten", time:"na 16u15",
   items:[
@@ -470,7 +473,7 @@ list.innerHTML = S.map(s => s.box ? `
           <input type="checkbox" id="cb-${i.id}" ${state[i.id] ? "checked" : ""}>
           <div class="body">
             <div class="t">${/^[A-F]\d/.test(i.id) ? `<span class="id">${i.id.replace(/[a-d]$/,"")}</span>` : ""}${esc(i.t)}</div>
-            ${(i.c||i.mv||i.app) ? `<div class="chips">${i.app ? `<span class="chip app${/Mimo/.test(i.app)?" mimo":""}">${esc(i.app)}</span>` : ""}${i.mv ? `<span class="chip mv">${esc(i.mv)}</span>` : ""}${(i.c||[]).map(x=>`<span class="chip">${esc(x)}</span>`).join("")}</div>` : ""}
+            ${(i.c||i.mv||i.app||i.z) ? `<div class="chips">${i.z ? `<span class="chip zoom">🔍 ${esc(i.z)}</span>` : ""}${i.app ? `<span class="chip app${/Mimo/.test(i.app)?" mimo":""}">${esc(i.app)}</span>` : ""}${i.mv ? `<span class="chip mv">${esc(i.mv)}</span>` : ""}${(i.c||[]).map(x=>`<span class="chip">${esc(x)}</span>`).join("")}</div>` : ""}
             ${i.say ? `<div class="say"><q>${esc(i.say)}</q></div>` : ""}
             ${i.copy ? `<div class="say"><span>${esc(i.copy)}</span><button type="button" data-copy="${esc(i.copy)}">Kopieer</button></div>` : ""}
             ${i.tip ? `<div class="tip">${esc(i.tip)}</div>` : ""}
