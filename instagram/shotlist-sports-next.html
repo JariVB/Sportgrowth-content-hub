@@ -265,8 +265,12 @@ const S = [
    {id:"E1", z:"1x", app:"DJI Mimo · volgen aan", t:"Jij in de camera, hal achter je (2-3 keer)", c:["half","8 s"], mv:"statisch", say:"Ik ben vandaag op Sports NEXT, dé beurs over de toekomst van sport. Dit neem ik mee voor jullie club."},
    {id:"E2", z:"0,5x", app:"iPhone Camera", t:"Breed beeld van de hal", c:["breed","5 s"], mv:"pan"},
    {id:"E3", z:"1x", app:"iPhone Camera", t:"Detail van een sporttoestel of demo", c:["close-up","5 s"], mv:"push-in"},
-   {id:"E4", z:"1x", app:"DJI Mimo · volgen aan", t:"Jij die door de hal loopt, van achteren", c:["half","5 s","begeleider"], mv:"meelopen"}
+   {id:"E4", z:"1x", app:"DJI Mimo · volgen aan", t:"Jij die door de hal loopt, van achteren", c:["half","5 s","alleen of begeleider"], mv:"meelopen"},
+   {id:"E5", z:"0,5x", app:"DJI Mimo · volgen aan", t:"Achter de schermen: jij die de stand filmt", c:["breed","5 s","SGM-reel"], mv:"statisch", tip:"Openingsbeeld van de SGM-reel 'Zo filmen wij een lancering'. Alleen: met je gsm in de gimbal kan je niet ook nog filmen, dus houd je oude gsm of een tweede toestel in je hand. Geen tweede toestel? Vraag Koen of een bezoeker om 5 seconden te filmen."},
+   {id:"E6", z:"0,5x", app:"iPhone Camera", t:"Achter de schermen: de opstelling van het interview", c:["breed","5 s","SGM-reel"], mv:"statisch", tip:"Vlak voor of na het interview: zet je gsm 2 à 3 m verder op een tafel en film breed Koen met de microfoon en de gimbal. Dit lukt alleen, zonder begeleider."}
   ]},
+ {id:"map", box:true, h:"Welke shots voor welke video",
+  lines:["Lanceringsvideo (Flaxx post zelf, ma 2/11): A3 of A5 · B1 of B2 · B3 · B4 · B5 · B7 of B8 · B6 (eindkaart). Zonder deze 7 geen lanceringsvideo.","Collab-reel (do 5/11): B9e (Koen over de elleboog) · B3 + B4 · B6. De rest film je di 3/11 op training.","SGM-reel achter de schermen: E1 · E5 · E6 · B3 · afsluiter (bestaat al).","Stories vandaag: A2 · A3 of A4 · B1 · foto van het panel.","Carrousel ma 2/11: je notities van het panel (D1-D5). Geen beelden nodig.","Alleen? Alles lukt alleen, behalve E5: vraag daarvoor Koen of een bezoeker om 5 seconden te filmen. Lukt dat niet, dan opent de SGM-reel met E1."]},
  {id:"f", nav:"F · afsluiten", h:"F · Afsluiten", time:"na 16u15",
   items:[
    {id:"F1", t:"Koen bedanken + testrackets meenemen"},
@@ -379,7 +383,13 @@ const HOW = {
      start:"Het toestel helemaal in beeld.",
      doe:"2 kleine stappen naar voren in 4 seconden.",
      einde:"Een detail van het toestel vult het scherm."},
- E4:{waar:"Je begeleider loopt 2 m achter je, gimbal op borsthoogte. Alleen? Gimbal op statief in DJI Mimo met volgen aan.",
+ E5:{waar:"Wie filmt staat 3 m achter of naast je, met de stand en jij in beeld.",
+     doe:"Jij filmt de stand of een racket, alsof je B1 of B3 maakt. 5 seconden.",
+     let:"Wie filmt gebruikt jouw gsm. Jij houdt een tweede toestel vast, of doet alsof met de gimbal zonder gsm."},
+ E6:{waar:"Je gsm op een tafel of de toog, 2 à 3 m van de interviewplek, op 0,5x.",
+     doe:"Film 5 seconden breed: Koen met de microfoon op zijn trui, de gimbal ervoor. Daarna haal je je gsm terug voor het interview.",
+     let:"Vraag Koen gewoon even te blijven staan: 'Mag ik de opstelling 5 seconden filmen?'"},
+ E4:{waar:"Alleen: zet de gimbal op zijn pootjes op een statafel, in DJI Mimo met volgen aan, open handpalm. Met begeleider: die loopt 2 m achter je, gimbal op borsthoogte.",
      start:"Jij met je rug naar de camera, de hal voor je.",
      doe:"Wandel rustig door de hal en kijk rond. Je begeleider volgt met de ninja-walk.",
      einde:"Na 5 à 10 seconden."}
