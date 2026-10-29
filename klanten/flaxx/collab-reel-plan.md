@@ -1,5 +1,17 @@
 # Flaxx · contentplan rond de lancering (opgemaakt do 29/10)
 
+Afgesproken met Koen (26/10): lancering filmen op Sports NEXT + collab-reel met een test op training. Zondag 2 min afstemmen bij aankomst (B0 op de afvinkpagina).
+
+## Wat Flaxx krijgt (zo komt er een samenwerking uit)
+| Wat | Wanneer | Voor wie |
+|---|---|---|
+| Live stories met tag @flaxx_rackets | zo 1/11 | SGM (Flaxx kan ze delen) |
+| Lanceringsvideo 15-20 s, gratis, klaar om te posten | ma 2/11 avond naar Koen | Flaxx post zelf |
+| Collab-reel probleem → oplossing | do 5/11 19u30, eerst ter goedkeuring naar Koen (wo 4/11) | SGM + Flaxx samen |
+| Cijfers van de collab-reel na 48 u + voorstel (optie A €290 / optie B €449/maand) | za 7/11 | Koen |
+
+Regels: alles eerst ter goedkeuring sturen, snel leveren, geen medische beloftes.
+
 ## 1. Zondag 1/11 Sports NEXT = ruw materiaal
 - Live stories (SGM) en beelden voor Flaxx (stand, rackets, interview Koen).
 - Interview: 4 vragen, waarvan vraag 4 het probleem: "Veel spelers krijgen last van hun elleboog. Hoe helpt een racket uit vlas daarbij?"
