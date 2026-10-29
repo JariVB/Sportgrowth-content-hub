@@ -19,7 +19,7 @@
 ## 1. Voorbereiding (thuis, zaterdagavond)
 
 **Gsm-instellingen (iPhone)**
-- Instellingen → Camera → Video opnemen: **4K · 30 fps**. Zo kan je achteraf nog bijsnijden.
+- Instellingen → Camera → Video opnemen: **1080p HD · 30 fps**. Instagram toont maximaal 1080p, en zo blijven clips tot ±25 s onder 30 MB om door te sturen.
 - Instellingen → Camera → Video opnemen → **HDR-video: uit**. HDR geeft vreemde kleuren in CapCut en op Instagram.
 - Instellingen → Camera → **Raster: aan**. Handig om recht te filmen.
 - Minstens **30 GB vrij** op je gsm.
@@ -34,7 +34,7 @@ Moet mee:
 - [ ] Oortjes met draad of een USB-C-oortje om het geluid te controleren
 - [ ] Microvezeldoekje voor je lens
 - [ ] Effen donkerblauwe trui
-- [ ] Minstens 30 GB vrij op je gsm (4K is ±0,4 GB per minuut)
+- [ ] Minstens 10 GB vrij op je gsm (1080p is ±60 MB per minuut)
 
 Aanrader:
 - [ ] Gimbal (bv. DJI Osmo Mobile). Maakt orbit, push-in en meelopen veel vloeiender.
