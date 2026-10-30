@@ -95,7 +95,7 @@ Draaiboek: `DRAAIBOEK-19-25-OKTOBER.md`. Opnames: `SHOTLIST-19-25-OKTOBER.md`. D
 Week 26/10 (bijgestuurd 22/10, shoot van wo 21/10 ging niet door → di 27/10 13u-15u):
 - ma 26/10 19:30: carrousel "Zo ziet een maand Instagram eruit als wij het voor je doen" (✅ gepost + gedeeld in story)
 - di 27/10 19:30: reel 6 "3 fouten op de Instagram van padelclubs" (✅ gepost met v9 + ondertitels, gedeeld in story met poll)
-- do 29/10 19:30: reel trainers (✅ shoot wo 28/10 op een jeugdtraining, ✅ montage v5 klaar; VO1 + inplannen do 29/10 vóór 18u)
+- do 29/10 19:30: reel trainers (✅ GEPOST + gedeeld in story met vraagsticker; shoot op jeugdtraining wo 28/10, montage v5)
 - di 3/11 19:30: reel boekingen (✅ K2, K3, K4, K6 gefilmd wo 28/10; nog K7 schermopname + VO2; K1/K5 uit bestaande beelden)
 
 ## Weekplan 2 tot 8 november (bijgestuurd 26/10: Sports NEXT + Flaxx)
