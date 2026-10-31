@@ -59,3 +59,6 @@ Lessen:
 ## Baltha zegt nee (mail 20/10)
 - Kiest voor iemand die op commissiebasis werkt, gekoppeld aan wat zijn project opbrengt.
 - Les: starters zonder klanten zoeken een laag risico. Werk niet op commissie (onvoorspelbaar, geen controle over hun verkoop). Starters met weinig budget: Mini (€249) of de proefperiode in het gesprek.
+
+## 31/10 · verkoop gepauzeerd tot na Flaxx
+Batch 1-3 (screenshots + berichten aan 15 sportzaken), de statistieken van het vaste ritme en de uitbater van de padelhal schoven anderhalve week door. Beslist met Jari: geschrapt tot na de samenwerking met Flaxx. Herstart ma 9/11 met een vaste dag per week. Les: verkoop die op "screenshots sturen" wacht, stokt. Volgende keer een vast moment en zo weinig mogelijk voorbereiding per bericht.
