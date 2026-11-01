@@ -75,3 +75,7 @@ Sterk als opbouw naar "vlas = lichtgewicht, stijf en heel goed dempend". Vergeli
 ### G3 vervolg 2 · koersfietsen, rubber en kurk (579d4cf0)
 "Op zich is dat een heel hard materiaal. Zeker bij de eerste koersfietsen bijvoorbeeld: dat gaf een redelijk hard gevoel op de weg. Als je dan gaat kijken richting natuurvezel: die heeft er een unieke mix tussen. Daarmee zetten we ons af van bijvoorbeeld heel goed dempende materialen zoals rubber en kurk."
 Voorbeeld koersfiets = herkenbaar beeld voor de BioFibix-reel. Collab-reel: niet nodig.
+
+### G3 vervolg 3 · slot van de vergelijking (5d727966, 13 s)
+"Die zijn heel goed dempend, maar dan niet stijf. Dus op die manier heeft natuurvezel en specifiek vlasvezel een mooie mix van eigenschappen."
+Sluit aan op G3 vervolg 2 (rubber en kurk). Slotzin "vlasvezel heeft een mooie mix van eigenschappen" = mogelijke afsluiter BioFibix-reel. Opbouw daar: metaal (zwaar) → carbon (hard, koersfiets) → rubber/kurk (niet stijf) → vlas (de mix).
