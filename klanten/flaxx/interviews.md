@@ -27,3 +27,9 @@ Het ontstaansverhaal (Stefanie, 4 operaties) zit NIET in dit fragment → met te
 - ±6,5-8,7 s: "En dat zijn toch twee specifieke, verschillende spelers."
 
 Gebruik: lanceringsvideo (CONTROL/POWER-shots) en collab-reel (deel "voor wie welk racket").
+
+### V4 · correctie (dfbf3a94, 10,8 s, zelfde take als 0372acea)
+Juiste tekst volgens Jari:
+- ±0,2-4,4 s: "Waarom ze specifiek voor Flaxx rackets zouden moeten gaan?"
+- ±4,7-8,8 s: "Omdat Flaxx rackets van mechanische eigenschap een zeer hoge trillingsdemping hebben."
+De zin "Geen enkel ander weefsel..." zit NIET in deze clip. Geen absolute claim meer, volledig bruikbaar.
