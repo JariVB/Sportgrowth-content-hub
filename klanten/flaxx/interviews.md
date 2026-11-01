@@ -62,3 +62,8 @@ Collab-reel: "Koen heeft heel veel ervaring rond het spelgevoel. Wij zetten in o
 ### G1 deel 3 (f2e02f30)
 "En eigenlijk op die manier een goede balans proberen te zoeken, om zo goed mogelijk het spelgevoel bij de eindgebruiker te kunnen geven."
 Sluit aan op deel 2. Collab-reel optioneel: "...een goede balans om het beste spelgevoel te geven." (alleen als het in de tijd past)
+
+### G3 · Andere relaties met sport? (5c67f1e9) ⭐
+- Jari: "Zijn er nog andere relaties met sport en BioFibix?" (wegknippen)
+- Gilles: "Ja, BioFibix en sport is wel een van onze belangrijke toepassingen. Dat is ook niet zomaar. Vlasvezel heeft een unieke combinatie: lichtgewicht, stijf en heel goed dempend. En dat maakt het materiaal echt heel uniek."
+Collab-reel: "Vlasvezel heeft een unieke combinatie: lichtgewicht, stijf en heel goed dempend." = beste zin over het materiaal (onder vlas macro).
