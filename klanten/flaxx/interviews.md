@@ -19,8 +19,7 @@ Het ontstaansverhaal (Stefanie, 4 operaties) zit NIET in dit fragment → met te
 ### V2a · ERGO CONTROL (35b5ce36, 18,5 s)
 - ±0,8-4,9 s: "De ERGO CONTROL en de ERGO POWER zijn twee verschillende types rackets."
 - ±5,5-8,2 s: "De ERGO CONTROL is een licht racket met een lage balans."
-- ±8,8-14,7 s: "Specifiek ontwikkeld voor spelers die graag controle over hun bal hebben."
-(nog spraak tot ±17,7 s: nakijken)
+- ±8,8-17,7 s: "Specifiek ontwikkeld voor spelers die graag controle over hun bal hebben." (Jari: op het einde zegt Koen "specifiek voor spelers die graag controle over hun bal hebben"; de zin loopt tot ±17,7 s, met een pauze rond 14,8 s. Bij de montage de vlotste versie kiezen.)
 
 ### V2b · ERGO POWER (6f780f9b, 10,8 s)
 - ±0,5-4,6 s: "De ERGO POWER daarentegen is voor mensen die specifiek op zoek gaan naar een iets zwaarder racket,"
