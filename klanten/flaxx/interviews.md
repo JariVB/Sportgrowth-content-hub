@@ -71,3 +71,7 @@ Collab-reel: "Vlasvezel heeft een unieke combinatie: lichtgewicht, stijf en heel
 ### G3 vervolg · vergelijking met andere materialen (161a75a5)
 "Als je dat vergelijkt met andere materialen, want in sport gebeurt er natuurlijk heel veel materiaalinnovatie: dan kan je zien, oké, we kunnen metalen gebruiken. Die zijn heel stijf, maar die zijn heel zwaar. Dan ga je kijken naar koolstofvezelcomposiet: stijf, licht, maar de demping is niet zo goed."
 Sterk als opbouw naar "vlas = lichtgewicht, stijf en heel goed dempend". Vergelijking met carbon (gebruikt door bijna alle andere padelrackets): algemene materiaaluitleg, geen merknamen. Wel laten goedkeuren door Koen vóór gebruik in de collab-reel. Volledig gebruiken in de reel over BioFibix.
+
+### G3 vervolg 2 · koersfietsen, rubber en kurk (579d4cf0)
+"Op zich is dat een heel hard materiaal. Zeker bij de eerste koersfietsen bijvoorbeeld: dat gaf een redelijk hard gevoel op de weg. Als je dan gaat kijken richting natuurvezel: die heeft er een unieke mix tussen. Daarmee zetten we ons af van bijvoorbeeld heel goed dempende materialen zoals rubber en kurk."
+Voorbeeld koersfiets = herkenbaar beeld voor de BioFibix-reel. Collab-reel: niet nodig.
