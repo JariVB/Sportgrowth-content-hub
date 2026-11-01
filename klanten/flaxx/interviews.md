@@ -41,3 +41,12 @@ Koen staat rechts naast het bord "Ons verhaal" (logo bovenaan). Warm/roze licht:
 - ±11,2-14,1 s: "Daarvoor zijn we op zoek gegaan naar een weefsel dat heel trillingsdempend werkt."
 - ±15,0-16,6 s: "Zo zijn we terechtgekomen bij vlas."
 Zijn vrouw komt niet in beeld en wordt niet bij naam genoemd. Zo houden.
+
+## Gilles Koolen (BioFibix)
+
+### G1 deel 1 · BioFibix en Flaxx, relatie? (DJI_20261101_164750_697, 17,2 s)
+Gilles zit voor het bord van Flaxx (logo half achter zijn hoofd). Warm licht.
+- ±1,3-3,0 s: Jari: "Gilles, BioFibix en Flaxx, wat is jullie relatie?" (wegknippen)
+- ±3,3-11,7 s: "Ik ben heel blij om vandaag hier te zijn op Sports NEXT. Hier is ook de release van de nieuwe producten van Flaxx."
+- ±12,3-17 s: "Dus ook heel blij om hier als BioFibix aan te hebben bijgedragen."
+Inleiding, nog geen inhoud over het vlas. Bruikbaar voor de reel over BioFibix, niet voor de collab-reel.
