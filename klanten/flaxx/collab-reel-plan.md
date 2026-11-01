@@ -35,3 +35,9 @@ Toon: tip met een oplossing, geen harde reclame. Woorden: "minder trillingen", "
 
 ## 4. Voor SGM zelf
 De collab-reel is ook ons portfoliostuk: zo maken wij content voor een merk. Later tonen aan prospecten.
+
+## Vastgesteld op de stand (zo 1/11)
+- Paneel "Ons verhaal" (Koen Hubert): Flaxx ontstond uit bezorgdheid om de terugkerende blessures van zijn vrouw. Hij zocht een materiaal dat de belasting op haar arm kon verminderen, met comfort en duurzaamheid. Sterk vertrekpunt voor de collab-reel (echt verhaal i.p.v. algemene claim).
+- Officiële woorden van Flaxx zelf: "Innovatie uit België", "BIOFIBIX® Hypermat Flax Fiber", "NSR · Natural Strain Reduction", "ergonomie en trillingsdemping", "speelcomfort". Deze woorden gebruiken in teksten (geen "geneest").
+- ERGO CONTROL: centraal gepositioneerde sweetspot, moeiteloze controle, 340-345 g. ERGO POWER: hoger gepositioneerde sweetspot, kracht, 355-360 g.
+- Beelden: B11-foto's (5), close-ups rackets (IMG_2896-2898, 2904, 2905), orbits, vlas macro (IMG_2867), reveal (IMG_2859), push-in (IMG_2863), motionlapses.
