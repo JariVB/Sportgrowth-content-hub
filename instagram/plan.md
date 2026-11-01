@@ -117,3 +117,5 @@ Daardoor schuift alles uit CONTENTSYSTEEM.md een week op: "Zoveel levert één e
 - **Partners:** Boba Racket Sports (bevriende racketwinkel). Gewoon blijven liken en reageren, geen verkoop.
 
 Opvolging van contacten: zie `opvolging.md`.
+
+**Idee (1/11, panel Sports NEXT):** post "Nieuwe padelspelers raken snel geblesseerd. Zo help je ze als club" (opwarming, introles, materiaal). Tom De Sutter (Arenal) kijkt naar opwarmingstoestellen. Kan samen met Flaxx (trillingsdemping, zonder medische claims). Inplannen na 9/11.
