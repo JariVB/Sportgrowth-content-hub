@@ -55,3 +55,22 @@ Jari krijgt de rackets deze week niet (misschien helemaal niet). Collab-reel do 
 Test met spelers = later, als er rackets komen (tweede collab of onderdeel van het voorstel).
 - 1/11: Koen geeft toestemming om het verhaal van zijn vrouw (ontstaan Flaxx) te vertellen in de collab-reel.
 - 1/11: zijn vrouw wil NIET in beeld. Geen foto's of beelden van haar, geen naam. Koen vertelt het verhaal; beelden: bord 'Ons verhaal', rackets, vlas, Koen.
+
+## Samenvatting Sports NEXT (Jari, zo 1/11 avond)
+- Eigenaars: Koen Hubert en zijn vrouw Stefanie. Stefanie speelde 18 jaar tennis, had veel elleboogblessures en 4 elleboogoperaties. Koen wilde daar iets aan doen en ging een samenwerking aan met BioFibix (levert het vlas). Koen maakt de rackets zelf uit vlas.
+- Belofte van Flaxx: vlas neemt trillingen op, minder trillingen in de arm, wat blessures zou kunnen helpen voorkomen. In teksten: "minder trillingen", "meer comfort", "minder belasting op je arm". Niet: "voorkomt blessures", "geneest".
+- Werking nu: custom made, op aanvraag. ERGO CONTROL en ERGO POWER zitten nog in de testfase, geen volledige productielijn. Volledige lancering (ook webshop) gepland begin 2027. Nu: aanmelden via de website om op de hoogte te blijven.
+  → Oproep in alle video's: "Meld je aan via de link in bio" / "Blijf op de hoogte via @flaxx_rackets". Niet: "nu te koop", "bestel nu".
+- Stefanie wil niet in beeld. Naam pas gebruiken na akkoord van Koen (vragen bij de goedkeuring woensdag).
+- Afspraak met Koen: lanceringsvideo + collab-reel (SGM x Flaxx) tegen do 5/11 doorsturen.
+- Extra: interview met Gilles Koolen (eigenaar BioFibix), 3 vragen: wat is BioFibix, relatie met Flaxx, relatie met andere sporten. Hij wil graag meer in de kijker, mag via Flaxx. Hij kan beelden van het vlas leveren (veld, vezel, productie).
+
+## Collab-reel do 5/11 · versie 2 (met het echte verhaal)
+| Tijd | Beeld | Geluid/tekst |
+|---|---|---|
+| 0-2 s | Speler neemt elleboog vast (training di 3/11) | "4 elleboogoperaties." |
+| 2-8 s | Bord 'Ons verhaal' push-in + Koen | Koen of tekst: 18 jaar tennis, 4 operaties, hij wilde iets veranderen |
+| 8-14 s | Vlas van BioFibix (veld/vezel) + vlas macro IMG_2867 | Koen: waarom vlas, trillingen |
+| 14-20 s | Gilles (BioFibix) 1 zin + close-ups rackets | "Van vlas tot racket" |
+| 20-26 s | Reveal stand, ERGO CONTROL vs POWER, Koen op het panel | "Innovatie uit België" |
+| 26-30 s | Foto Koen + Jari | "Meld je aan via @flaxx_rackets" |
