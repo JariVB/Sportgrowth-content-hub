@@ -120,7 +120,7 @@ Tom: "De jonge sport begint volwassener te worden. Dat is het mooie eraan."
 → carrousel ma 2/11, slide 5.
 
 ### P5 · Tom De Sutter over toegankelijkheid en blessures (notitie Jari)
-Padel is toegankelijk: veel mensen zonder sportieve achtergrond springen erop en raken daardoor snel geblesseerd. Groot verbeterpunt voor clubs. Tom en Arjen (Arenal) bekijken opwarmingstoestellen e.d.
+Padel is toegankelijk: veel mensen zonder sportieve achtergrond springen erop en raken daardoor snel geblesseerd. Groot verbeterpunt voor clubs. Tom en Arenal bekijken opwarmingstoestellen e.d.
 - Niet in carrousel 2/11 (vol, eigen thema).
 - Idee latere post: "Nieuwe padelspelers raken snel geblesseerd. Zo help je ze als club" (opwarming, intro-les, juist materiaal). Brug naar Flaxx (armblessures, trillingsdemping) zonder medische claims.
 - Opening voor gesprek met Arenal (analyse vanaf 9/11).
