@@ -58,3 +58,7 @@ Inleiding, nog geen inhoud over het vlas. Bruikbaar voor de reel over BioFibix, 
 - ±12,3-16,4 s: "Koen heeft heel veel ervaring rond het spelgevoel."
 - ±16,8-21,2 s: "Wij zetten in op de skin zelf, het composietmateriaal."
 Collab-reel: "Koen heeft heel veel ervaring rond het spelgevoel. Wij zetten in op de skin zelf, het composietmateriaal." (±8,5 s) bij het stuk "van vlas tot racket".
+
+### G1 deel 3 (f2e02f30)
+"En eigenlijk op die manier een goede balans proberen te zoeken, om zo goed mogelijk het spelgevoel bij de eindgebruiker te kunnen geven."
+Sluit aan op deel 2. Collab-reel optioneel: "...een goede balans om het beste spelgevoel te geven." (alleen als het in de tijd past)
