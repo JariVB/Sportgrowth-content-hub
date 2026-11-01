@@ -90,3 +90,12 @@ Gebruik:
 - BioFibix-reel: opener (wie zijn we) na de hook.
 - Collab-reel: optioneel "een lokaal Belgisch product" bij het vlasbeeld (12-17 s), past bij "Innovatie uit België". Ondertitel: "Vlas · een lokaal Belgisch product".
 - "spin-off van KU Leuven" = sterk geloofwaardigheidsargument, ook als tekst in caption BioFibix.
+
+## Panel Sports NEXT (1/11)
+
+### P1 · Koen over pioniersrol (IMG_2937, 18.4 s, verticaal, SDR) ⭐
+Moderator Ine: "Landen waar ze al langer padel spelen, die al verder staan?"
+Koen: "Om eerlijk te zijn: niet specifiek. Omdat we onze eigen richting uitgaan. We zijn uniek met onze rackets. Er is nergens ter wereld waar het geproduceerd wordt in vlas. En we willen die pioniersrol blijven opnemen."
+- Zaalgeluid, geen stiltes meetbaar: knippunten op het oor zoeken bij de montage (vraag Ine eerst ±3-4 s).
+- Collab-reel 24-28 s: "We zijn uniek met onze rackets … we willen die pioniersrol blijven opnemen" (Koen op het panel). Sterker dan V4 als afsluiter.
+- "Nergens ter wereld in vlas" = absolute claim. Koen zegt het zelf, maar vraag zijn OK vóór gebruik in ondertitel of caption. Veilig alternatief: "pioniersrol".
