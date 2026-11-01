@@ -4,3 +4,4 @@ Les 3 (jeugd) en 4 (sociaal) uit Jari's notities van het panel, zonder citaat. L
 Beelden: tom-1/tom-2 = stills IMG_2933/IMG_2917, jeugd = jeugdtraining 28/10 (toestemming), terras/net = beeldbank.
 Taggen: Tom De Sutter / Arenal België en Sports NEXT (in de foto en de caption).
 Opnieuw bouwen: `node build.js`.
+Cover: A (slide01.png, Tom close-up), gekozen 1/11. slide01-b.png (panelfoto) = story 19u35.
