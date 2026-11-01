@@ -50,3 +50,11 @@ Gilles zit voor het bord van Flaxx (logo half achter zijn hoofd). Warm licht.
 - ±3,3-11,7 s: "Ik ben heel blij om vandaag hier te zijn op Sports NEXT. Hier is ook de release van de nieuwe producten van Flaxx."
 - ±12,3-17 s: "Dus ook heel blij om hier als BioFibix aan te hebben bijgedragen."
 Inleiding, nog geen inhoud over het vlas. Bruikbaar voor de reel over BioFibix, niet voor de collab-reel.
+
+### G1 deel 2 · samenwerking (e573d35c, 21,6 s) ⭐
+- ±0,0-4,7 s: "We zijn beginnen samenwerken met Koen ongeveer een tweetal jaar geleden."
+- ±5,3-10,2 s: "Sindsdien is onze samenwerking in een stroomversnelling geraakt."
+- ±10,5-12,0 s: "We hebben meerdere prototypes gemaakt."
+- ±12,3-16,4 s: "Koen heeft heel veel ervaring rond het spelgevoel."
+- ±16,8-21,2 s: "Wij zetten in op de skin zelf, het composietmateriaal."
+Collab-reel: "Koen heeft heel veel ervaring rond het spelgevoel. Wij zetten in op de skin zelf, het composietmateriaal." (±8,5 s) bij het stuk "van vlas tot racket".
