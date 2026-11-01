@@ -100,13 +100,14 @@ S.push(page(5, `
 
 // 6 LES 4
 S.push(page(6, `
-<div class="bg" style="background-image:${i64(B + '/padel-vol-terras.jpg')};background-position:center 45%"></div>
-<div class="dim" style="background:linear-gradient(180deg,#0d1b3e 0%,rgba(13,27,62,.88) 40%,rgba(13,27,62,.25) 68%,rgba(13,27,62,.6) 100%)"></div>
+<div class="bg" style="background-image:${i64(B + '/padel-vol-terras.jpg')};background-size:100% auto;background-repeat:no-repeat;background-position:center 60px"></div>
+<div class="dim" style="background:linear-gradient(180deg,#0d1b3e 0%,#0d1b3e 50%,rgba(13,27,62,.7) 60%,rgba(13,27,62,.15) 76%,rgba(13,27,62,.55) 100%)"></div>
 <div class="num">4</div>
 <div class="col" style="top:110px">
 <span class="tag">LES 4/5</span>
 <h2>Padel is<br><span class="c">sociaal</span></h2>
-<p class="t">Je speelt altijd met vier. Achteraf drink je <b>samen iets</b>. Zo wordt een match een vriendengroep die elke week terugkomt.</p>
+<p class="t">Na een eerste <b>succeservaring</b> nemen spelers de week erna iemand mee. Eerst sporten, daarna samen iets drinken.</p>
+<div class="q">"Het sociale gebeuren is superbelangrijk."<small>Tom De Sutter · Arenal België</small></div>
 </div>`));
 
 // 7 LES 5 + DIT DOEN WIJ

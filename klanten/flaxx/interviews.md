@@ -124,3 +124,8 @@ Padel is toegankelijk: veel mensen zonder sportieve achtergrond springen erop en
 - Niet in carrousel 2/11 (vol, eigen thema).
 - Idee latere post: "Nieuwe padelspelers raken snel geblesseerd. Zo help je ze als club" (opwarming, intro-les, juist materiaal). Brug naar Flaxx (armblessures, trillingsdemping) zonder medische claims.
 - Opening voor gesprek met Arenal (analyse vanaf 9/11).
+
+### P6 · Tom De Sutter over het sociale (notitie Jari)
+Door de toegankelijkheid hebben mensen snel een succeservaring en krijgen zin om meer te spelen. Je moet altijd met vier zijn: de week erna pakken ze iemand mee. Niet altijd makkelijk om vier mensen te vinden, maar je hebt telkens een leuke avond: eerst sporten, dan samen iets drinken.
+Tom (letterlijk): "Het sociale gebeuren is superbelangrijk daarin."
+→ carrousel ma 2/11, slide 6.
