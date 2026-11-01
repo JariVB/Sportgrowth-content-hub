@@ -67,3 +67,7 @@ Sluit aan op deel 2. Collab-reel optioneel: "...een goede balans om het beste sp
 - Jari: "Zijn er nog andere relaties met sport en BioFibix?" (wegknippen)
 - Gilles: "Ja, BioFibix en sport is wel een van onze belangrijke toepassingen. Dat is ook niet zomaar. Vlasvezel heeft een unieke combinatie: lichtgewicht, stijf en heel goed dempend. En dat maakt het materiaal echt heel uniek."
 Collab-reel: "Vlasvezel heeft een unieke combinatie: lichtgewicht, stijf en heel goed dempend." = beste zin over het materiaal (onder vlas macro).
+
+### G3 vervolg · vergelijking met andere materialen (161a75a5)
+"Als je dat vergelijkt met andere materialen, want in sport gebeurt er natuurlijk heel veel materiaalinnovatie: dan kan je zien, oké, we kunnen metalen gebruiken. Die zijn heel stijf, maar die zijn heel zwaar. Dan ga je kijken naar koolstofvezelcomposiet: stijf, licht, maar de demping is niet zo goed."
+Sterk als opbouw naar "vlas = lichtgewicht, stijf en heel goed dempend". Vergelijking met carbon (gebruikt door bijna alle andere padelrackets): algemene materiaaluitleg, geen merknamen. Wel laten goedkeuren door Koen vóór gebruik in de collab-reel. Volledig gebruiken in de reel over BioFibix.
