@@ -41,3 +41,15 @@ De collab-reel is ook ons portfoliostuk: zo maken wij content voor een merk. Lat
 - Officiële woorden van Flaxx zelf: "Innovatie uit België", "BIOFIBIX® Hypermat Flax Fiber", "NSR · Natural Strain Reduction", "ergonomie en trillingsdemping", "speelcomfort". Deze woorden gebruiken in teksten (geen "geneest").
 - ERGO CONTROL: centraal gepositioneerde sweetspot, moeiteloze controle, 340-345 g. ERGO POWER: hoger gepositioneerde sweetspot, kracht, 355-360 g.
 - Beelden: B11-foto's (5), close-ups rackets (IMG_2896-2898, 2904, 2905), orbits, vlas macro (IMG_2867), reveal (IMG_2859), push-in (IMG_2863), motionlapses.
+
+## Bijgestuurd zo 1/11: geen testrackets
+Jari krijgt de rackets deze week niet (misschien helemaal niet). Collab-reel do 5/11 wordt "Het verhaal achter Flaxx" (zonder test):
+| Tijd | Beeld | Geluid/tekst |
+|---|---|---|
+| 0-2 s | Speler neemt na een smash de elleboog vast (training di 3/11, zonder Flaxx-racket) | "Last van je elleboog na padel?" |
+| 2-9 s | Koen in het interview: hoe Flaxx ontstond (blessures van zijn vrouw), alleen met zijn akkoord | Koen |
+| 9-16 s | Koen: waarom vlas, trillingen (B9a/B9e) + vlas macro (IMG_2867) + orbit | Koen |
+| 16-23 s | Lancering Sports NEXT: reveal (IMG_2859), CONTROL vs POWER (B9b) + close-ups (IMG_2896-2898) | Koen |
+| 23-27 s | Panel (Koen op het podium) | "Innovatie uit België" |
+| 27-30 s | Foto samen / racket close-up | "Meer info bij @flaxx_rackets" |
+Test met spelers = later, als er rackets komen (tweede collab of onderdeel van het voorstel).
