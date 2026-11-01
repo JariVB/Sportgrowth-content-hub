@@ -87,14 +87,15 @@ S.push(page(4, `
 
 // 5 LES 3
 S.push(page(5, `
-<div class="bg" style="background-image:${i64(OUT + '/jeugd.jpg')};background-size:100% auto;background-repeat:no-repeat;background-position:center 160px"></div>
-<div class="dim" style="background:linear-gradient(180deg,#0d1b3e 0%,#0d1b3e 42%,rgba(13,27,62,.75) 55%,rgba(13,27,62,.1) 72%,rgba(13,27,62,.5) 100%)"></div>
+<div class="bg" style="background-image:${i64(OUT + '/jeugd.jpg')};background-size:100% auto;background-repeat:no-repeat;background-position:center 330px"></div>
+<div class="dim" style="background:linear-gradient(180deg,#0d1b3e 0%,#0d1b3e 52%,rgba(13,27,62,.75) 62%,rgba(13,27,62,.1) 78%,rgba(13,27,62,.5) 100%)"></div>
 <div class="num">3</div>
 <div class="col" style="top:110px">
 <span class="tag">LES 3/5</span>
 <h2>Bouw aan<br>je <span class="c">jeugd</span></h2>
 <p class="t">Ouders kozen vroeger een tenniskamp. Nu schrijven ze hun kind ook in voor <b>padelkampen</b>.</p>
 <div class="q">"De jonge sport begint volwassener te worden. Dat is het mooie eraan."<small>Tom De Sutter · Arenal België</small></div>
+<div style="align-self:flex-start;background:rgba(0,212,255,.15);border:2px solid #00d4ff;border-radius:14px;padding:16px 22px;font:600 30px/1.3 In">🎾 Ook Tennis en Padel Vlaanderen zet sterk in op de jeugd.</div>
 </div>`));
 
 // 6 LES 4
