@@ -38,8 +38,16 @@ const page = (n, inner) => `<section class="s" id="s${n}">${inner}
 
 const S = [];
 
-// 1 COVER
-S.push(page(1, `
+// 1 COVER (COVER=b → panelfoto met titelscherm)
+if (process.env.COVER === 'b') S.push(page(1, `
+<div class="bg" style="background-image:${i64(B + '/sports-next-1-11/panel-tom-breed.jpg')};background-size:100% auto;background-repeat:no-repeat;background-position:center 300px"></div>
+<div class="dim" style="background:linear-gradient(180deg,#0d1b3e 0%,#0d1b3e 36%,rgba(13,27,62,.4) 52%,rgba(13,27,62,0) 62%,rgba(13,27,62,.2) 85%,rgba(13,27,62,.85) 100%)"></div>
+<div class="swipe">Swipe →</div>
+<div class="col" style="top:90px;gap:22px">
+<span class="tag">SPORTS NEXT · PANEL PADEL</span>
+<h1 style="font-size:112px">Van 80 naar<br><span class="c">160 leden</span><br>in één jaar</h1>
+<p class="t" style="font-size:40px"><b>Padel: van hype naar gewoonte.</b><br>5 lessen voor clubs</p>
+</div>`)); else S.push(page(1, `
 <div class="bg" style="background-image:${i64(OUT + '/tom-1.jpg')};background-position:center 62%"></div><div class="dim"></div>
 <div class="swipe">Swipe →</div>
 <div class="col" style="top:560px">
@@ -146,6 +154,7 @@ fs.writeFileSync('/tmp/claude-0/hype.html', html);
   const p = await b.newPage({ viewport: { width: 1080, height: 1350 } });
   await p.goto('file:///tmp/claude-0/hype.html');
   await p.evaluate(() => document.fonts.ready); await p.waitForTimeout(600);
-  for (let i = 1; i <= 8; i++) await p.locator('#s' + i).screenshot({ path: `${OUT}/slide0${i}.png` });
+  if (process.env.COVER === 'b') await p.locator('#s1').screenshot({ path: `${OUT}/slide01-b.png` });
+  else for (let i = 1; i <= 8; i++) await p.locator('#s' + i).screenshot({ path: `${OUT}/slide0${i}.png` });
   await b.close();
 })();
