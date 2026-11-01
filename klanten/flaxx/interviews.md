@@ -99,3 +99,10 @@ Koen: "Om eerlijk te zijn: niet specifiek. Omdat we onze eigen richting uitgaan.
 - Zaalgeluid, geen stiltes meetbaar: knippunten op het oor zoeken bij de montage (vraag Ine eerst ±3-4 s).
 - Collab-reel 24-28 s: "We zijn uniek met onze rackets … we willen die pioniersrol blijven opnemen" (Koen op het panel). Sterker dan V4 als afsluiter.
 - "Nergens ter wereld in vlas" = absolute claim. Koen zegt het zelf, maar vraag zijn OK vóór gebruik in ondertitel of caption. Veilig alternatief: "pioniersrol".
+
+### P2 · Tom De Sutter (Arenal) over beleving en prijs (IMG_2933) ⭐
+Vraag (niet opgenomen): "Hoe zorg je dat padel toegankelijk blijft? Terreinen en materiaal worden duurder, er is een hele commerciële kant bij gekomen."
+Tom: "Ik denk: als je zorgt voor beleving op je club, als je zorgt voor kwaliteit op je club, als je ervoor zorgt dat mensen er heel graag komen, ook al moeten ze een halve euro of een euro meer betalen… Ik ben ervan overtuigd: als je die kwaliteit en beleving aanbiedt in je club, dat mensen dat met veel plezier gaan blijven doen."
+- Bruikbaar tot 20 s, daarna wegknippen.
+- Carrousel ma 2/11 "Padel: van hype naar gewoonte": les "Beleving en kwaliteit wegen zwaarder dan een euro meer". Citaat Tom met naam (Arenal België).
+- Mogelijk later een korte quote-reel (SGM) en een aanleiding om Tom te contacteren (warm contact).
