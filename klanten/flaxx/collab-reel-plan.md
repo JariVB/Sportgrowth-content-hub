@@ -62,6 +62,7 @@ Test met spelers = later, als er rackets komen (tweede collab of onderdeel van h
 - Werking nu: custom made, op aanvraag. ERGO CONTROL en ERGO POWER zitten nog in de testfase, geen volledige productielijn. Volledige lancering (ook webshop) gepland begin 2027. Nu: aanmelden via de website om op de hoogte te blijven.
   → Oproep in alle video's: "Meld je aan via de link in bio" / "Blijf op de hoogte via @flaxx_rackets". Niet: "nu te koop", "bestel nu".
 - Stefanie wil niet in beeld. Naam pas gebruiken na akkoord van Koen (vragen bij de goedkeuring woensdag).
+- 1/11 (Jari): de naam "Stephanie" op haar custom racket (IMG_2885/2886) mag in beeld. Schrijfwijze = Stephanie. Haar naam in tekst/ondertitels blijft na akkoord Koen.
 - Afspraak met Koen: lanceringsvideo + collab-reel (SGM x Flaxx) tegen do 5/11 doorsturen.
 - Extra: interview met Gilles Koolen (eigenaar BioFibix), 3 vragen: wat is BioFibix, relatie met Flaxx, relatie met andere sporten. Hij wil graag meer in de kijker, mag via Flaxx. Hij kan beelden van het vlas leveren (veld, vezel, productie).
 
