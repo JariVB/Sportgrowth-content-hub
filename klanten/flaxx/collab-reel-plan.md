@@ -74,3 +74,13 @@ Test met spelers = later, als er rackets komen (tweede collab of onderdeel van h
 | 14-20 s | Gilles (BioFibix) 1 zin + close-ups rackets | "Van vlas tot racket" |
 | 20-26 s | Reveal stand, ERGO CONTROL vs POWER, Koen op het panel | "Innovatie uit België" |
 | 26-30 s | Foto Koen + Jari | "Meld je aan via @flaxx_rackets" |
+
+## Collab-reel do 5/11 · versie 3 (met V5 van Koen)
+| Tijd | Beeld | Geluid/tekst |
+|---|---|---|
+| 0-2 s | Speler neemt elleboog vast (training di 3/11) | tekst: "4 elleboogoperaties" |
+| 2-12 s | Koen naast het bord "Ons verhaal" (V5 zin 1-2) | Koen |
+| 12-17 s | Vlas macro (IMG_2867) + vlas van BioFibix | Koen V5 zin 3-4 |
+| 17-24 s | Orbit CONTROL + POWER, close-ups | Koen V2 (kernzinnen) |
+| 24-28 s | Reveal stand / Koen op het panel | Koen V4: "een zeer hoge trillingsdemping" |
+| 28-31 s | Foto Koen + Jari | "Meld je aan via @flaxx_rackets" |

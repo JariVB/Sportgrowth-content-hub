@@ -33,3 +33,11 @@ Juiste tekst volgens Jari:
 - ±0,2-4,4 s: "Waarom ze specifiek voor Flaxx rackets zouden moeten gaan?"
 - ±4,7-8,8 s: "Omdat Flaxx rackets van mechanische eigenschap een zeer hoge trillingsdemping hebben."
 De zin "Geen enkel ander weefsel..." zit NIET in deze clip. Geen absolute claim meer, volledig bruikbaar.
+
+### V5 · Het verhaal achter Flaxx (DJI_20261101_170923_523, 18 s) ⭐ opening collab-reel
+Koen staat rechts naast het bord "Ons verhaal" (logo bovenaan). Warm/roze licht: kleur bijsturen bij montage.
+- ±0,3-5,4 s: "Het verhaal achter Flaxx rackets is ontstaan uit de bezorgdheid om de vele blessures van mijn vrouw."
+- ±6,0-10,6 s: "Ze heeft op hoog niveau getennist en had aan haar arm heel wat blessures."
+- ±11,2-14,1 s: "Daarvoor zijn we op zoek gegaan naar een weefsel dat heel trillingsdempend werkt."
+- ±15,0-16,6 s: "Zo zijn we terechtgekomen bij vlas."
+Zijn vrouw komt niet in beeld en wordt niet bij naam genoemd. Zo houden.
