@@ -79,3 +79,14 @@ Voorbeeld koersfiets = herkenbaar beeld voor de BioFibix-reel. Collab-reel: niet
 ### G3 vervolg 3 · slot van de vergelijking (5d727966, 13 s)
 "Die zijn heel goed dempend, maar dan niet stijf. Dus op die manier heeft natuurvezel en specifiek vlasvezel een mooie mix van eigenschappen."
 Sluit aan op G3 vervolg 2 (rubber en kurk). Slotzin "vlasvezel heeft een mooie mix van eigenschappen" = mogelijke afsluiter BioFibix-reel. Opbouw daar: metaal (zwaar) → carbon (hard, koersfiets) → rubber/kurk (niet stijf) → vlas (de mix).
+
+### G2 · Wat is BioFibix? (6e8904f7, 19.4 s) ⭐
+Timings (geschat via pauzes, controleer bij montage):
+- ±0.0-1.0 vraag van Jari "Wat is BioFibix?" → wegknippen
+- ±1.1-6.7 "BioFibix is een spin-off van KU Leuven. Wij gebruiken de natuurvezel vlas voor verschillende composiettoepassingen."
+- ±7.4-9.7 "Wat ons eigenlijk uniek maakt, is onze vezelbehandeling."
+- ±10.0-19.2 "Daarmee zorgen we dat we deze vlasvezel, op zich een lokaal Belgisch product, kunnen gebruiken voor een breed scala aan composiettoepassingen."
+Gebruik:
+- BioFibix-reel: opener (wie zijn we) na de hook.
+- Collab-reel: optioneel "een lokaal Belgisch product" bij het vlasbeeld (12-17 s), past bij "Innovatie uit België". Ondertitel: "Vlas · een lokaal Belgisch product".
+- "spin-off van KU Leuven" = sterk geloofwaardigheidsargument, ook als tekst in caption BioFibix.
