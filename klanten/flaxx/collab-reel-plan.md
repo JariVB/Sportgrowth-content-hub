@@ -54,3 +54,4 @@ Jari krijgt de rackets deze week niet (misschien helemaal niet). Collab-reel do 
 | 27-30 s | Foto samen / racket close-up | "Meer info bij @flaxx_rackets" |
 Test met spelers = later, als er rackets komen (tweede collab of onderdeel van het voorstel).
 - 1/11: Koen geeft toestemming om het verhaal van zijn vrouw (ontstaan Flaxx) te vertellen in de collab-reel.
+- 1/11: zijn vrouw wil NIET in beeld. Geen foto's of beelden van haar, geen naam. Koen vertelt het verhaal; beelden: bord 'Ons verhaal', rackets, vlas, Koen.
