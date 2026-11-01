@@ -113,3 +113,8 @@ Ine: "Het is geen tennis, hè?"
 Tom: "Nee, het is geen tennis. En veel mensen dachten ook: is dit squash, een combinatie van tennis en squash? Nee, het is gewoon padel. We merkten het ook in onze eerste club: we hadden een 80 leden, het jaar erop 160 leden. Dus we hadden een mooie verdubbeling van het aantal leden. Iedereen die het speelde, was direct mee in het verhaal."
 - Carrousel ma 2/11: les "Uitleg en een eerste keer spelen = de beste marketing" met het cijfer 80 → 160 leden (verdubbeling in 1 jaar).
 - Cijfer = sterke cover-kandidaat ("Van 80 naar 160 leden in één jaar").
+
+### P4 · Tom De Sutter over jeugd (notitie Jari, geen clip)
+Context: ouders kozen de eerste jaren voor tenniskamp of tennislessen, nu schrijven ze hun kind ook in voor padelkampen.
+Tom: "De jonge sport begint volwassener te worden. Dat is het mooie eraan."
+→ carrousel ma 2/11, slide 5.
