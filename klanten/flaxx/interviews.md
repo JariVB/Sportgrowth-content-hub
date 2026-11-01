@@ -110,7 +110,7 @@ Tom: "Ik denk: als je zorgt voor beleving op je club, als je zorgt voor kwalitei
 ### P3 · Tom De Sutter over de beginjaren (IMG_2917) ⭐
 Tom: "Het eerste jaar moesten we nog heel veel uitleg geven: hoe speel je het spel, wat moet je doen."
 Ine: "Het is geen tennis, hè?"
-Tom: "Nee, het is geen tennis. En veel mensen dachten ook: is dit squash, een combinatie van tennis en squash? Nee, het is gewoon padel. We merkten het ook in onze eerste club: we hadden een 80 leden, het jaar erop 160 leden. Dus we hadden een mooie verdubbeling van het aantal leden. Iedereen die het speelde, was direct mee in het verhaal."
+Tom: "Nee, het is geen tennis. En veel mensen dachten ook: is dit squash, een combinatie van tennis en squash? Nee, het is gewoon padel. We merkten het ook in onze eerste club: we hadden een 80 leden, het jaar erop 160 leden. (= eerste club van Tom, in Brugge) Dus we hadden een mooie verdubbeling van het aantal leden. Iedereen die het speelde, was direct mee in het verhaal."
 - Carrousel ma 2/11: les "Uitleg en een eerste keer spelen = de beste marketing" met het cijfer 80 → 160 leden (verdubbeling in 1 jaar).
 - Cijfer = sterke cover-kandidaat ("Van 80 naar 160 leden in één jaar").
 

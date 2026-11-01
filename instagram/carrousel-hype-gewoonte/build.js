@@ -64,7 +64,7 @@ S.push(page(3, `
 <div class="col" style="top:110px">
 <span class="tag">LES 1/5</span>
 <h2>Laat ze eerst<br><span class="c">spelen</span></h2>
-<p class="t">Het eerste jaar moest Arenal veel uitleggen. "Is dit squash?" Nee, het is gewoon padel.</p>
+<p class="t">Bij de eerste club van Tom in <b>Brugge</b> moesten ze het eerste jaar veel uitleggen. "Is dit squash?" Nee, het is gewoon padel.</p>
 </div>
 <div style="position:absolute;left:70px;right:70px;top:640px;height:330px;display:flex;align-items:flex-end;gap:60px">
 <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:14px"><span style="font:700 80px/1 Rj">80</span><div style="width:100%;height:120px;background:#2a3d6e;border-radius:16px 16px 0 0"></div><span style="font:600 28px In;color:#c9d4ee">jaar 1</span></div>
