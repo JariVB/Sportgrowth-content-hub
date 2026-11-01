@@ -15,3 +15,16 @@ Tekst volgens Jari: "Waarom ze specifiek voor Flaxx rackets zouden moeten gaan? 
 Spraak 0,2-8,8 s, stilte vanaf 9 s. Pauzes rond 4,5 s en 6,0-6,7 s. Mogelijk valt de laatste zin buiten deze clip (nakijken).
 Let op: "Geen enkel ander weefsel kan die garantie bieden" = absolute claim, niet gebruiken in de reel. Wel: "hoge trillingsdemping".
 Het ontstaansverhaal (Stefanie, 4 operaties) zit NIET in dit fragment → met tekst in beeld of VO van Jari, over het bord 'Ons verhaal'.
+
+### V2a · ERGO CONTROL (35b5ce36, 18,5 s)
+- ±0,8-4,9 s: "De ERGO CONTROL en de ERGO POWER zijn twee verschillende types rackets."
+- ±5,5-8,2 s: "De ERGO CONTROL is een licht racket met een lage balans."
+- ±8,8-14,7 s: "Specifiek ontwikkeld voor spelers die graag controle over hun bal hebben."
+(nog spraak tot ±17,7 s: nakijken)
+
+### V2b · ERGO POWER (6f780f9b, 10,8 s)
+- ±0,5-4,6 s: "De ERGO POWER daarentegen is voor mensen die specifiek op zoek gaan naar een iets zwaarder racket,"
+- ±5,0-6,2 s: "die iets meer de aanval willen ingaan."
+- ±6,5-8,7 s: "En dat zijn toch twee specifieke, verschillende spelers."
+
+Gebruik: lanceringsvideo (CONTROL/POWER-shots) en collab-reel (deel "voor wie welk racket").
