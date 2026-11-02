@@ -36,6 +36,7 @@ body{width:1080px;height:1920px;background:transparent;font-family:In;color:#fff
 <div id="brk" class="a" style="inset:0">
  <div class="br a" style="top:90px;left:70px;border-width:4px 0 0 4px"></div><div class="br a" style="top:90px;right:70px;border-width:4px 4px 0 0"></div>
  <div class="br a" style="bottom:110px;left:70px;border-width:0 0 4px 4px"></div><div class="br a" style="bottom:110px;right:70px;border-width:0 4px 4px 0"></div></div>
+<div id="grad" class="a" style="left:0;right:0;bottom:0;height:820px;background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.55) 45%,rgba(0,0,0,.82))"></div>
 <div id="o1" class="a outline" style="top:-60px;right:-40px">01</div>
 <div id="h1" class="a ctr" style="top:1300px"><div class="kick" id="h1k">ERGO</div><div style="height:18px"></div><div class="mask name"><span id="h1n">CONTROL</span></div><div style="height:26px"></div><div class="line" id="h1l" style="width:0"></div><div style="height:26px"></div>
   <div class="spec"><span class="num" id="h1c">0</span><span class="num">&#8239;g</span></div><div style="height:10px"></div><div class="spec" id="h1s">centrale sweetspot</div></div>
@@ -81,6 +82,8 @@ window.render=function(t){
    const k=eo5(cl(lt/.22));$('w').style.transform=\`scale(\${1.35-.35*k})\`;$('w').style.opacity=k*(1-p(lt,.82,1));$('ww').style.filter=\`blur(\${(1-k)*10}px)\`;
    $('cnt').textContent='0'+(i+1)+' / 04';
    const b=eo(p(t,4.2,4.5));$('brk').style.opacity=b*.9;$('brk').style.transform=\`scale(\${1.08-.08*b})\`;}
+ // donkere onderrand achter de productteksten
+ vis($('grad'),t,8.2,15.2); $('grad').style.opacity=eo(p(t,8.2,8.5))*(1-p(t,14.95,15.2));
  // CONTROL
  vis($('h1'),t,8.2,11.7); vis($('o1'),t,8.2,11.7);
  rise($('h1n'),t,8.35,.6); $('h1k').style.opacity=eo(p(t,8.55,8.9)); $('h1k').style.letterSpacing=(1-.5*eo(p(t,8.55,9.4)))+'em';
@@ -120,8 +123,9 @@ window.render=function(t){
 (async () => {
   const b = await chromium.launch(); const pg = await b.newPage({ viewport: { width: 1080, height: 1920 } });
   await pg.setContent(html); await pg.evaluate(() => document.fonts.ready);
-  const only = process.argv[3] ? process.argv[3].split(',').map(Number) : null;
-  const frames = only ? only.map(s => Math.round(s * FPS)) : [...Array(Math.round(DUR * FPS)).keys()];
+  const arg = process.argv[3]; let frames = [...Array(Math.round(DUR * FPS)).keys()];
+  if (arg && arg.includes('-')) { const [a, z] = arg.split('-').map(Number); frames = frames.filter(i => i >= a && i <= z); }
+  else if (arg) frames = arg.split(',').map(Number).map(s => Math.round(s * FPS));
   for (const i of frames) {
     await pg.evaluate(t => window.render(t), i / FPS);
     await pg.screenshot({ path: `${OUT}/m${String(i).padStart(4, '0')}.png`, omitBackground: true });
