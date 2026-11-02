@@ -28,3 +28,4 @@ Zelfde montage als v2 + animaties (v3-motion.js, 720 frames, transparante track)
 - eindkaart: donkergroene gloed, logo-onthulling met wipe + lichtstreep, "Naturally FLAXX." letter per letter, CTA flaxx.be, credit "Beelden · SportGrowth Media"
 Bouwen: v3-build.sh (basisbeeld) → node v3-motion.js <map> → samenvoegen met v2-sound.py (extra whooshes).
 - 2/11 Jari: 'Licht. Stijf. Dempend.' en 'Koen Hubert · Oprichter Flaxx' goedgekeurd.
+- v9 (2/11): eindkaart met officiële logo's van Flaxx (klanten/flaxx/logo/, PDF van Koen → PNG/SVG). = DEFINITIEF optie A.

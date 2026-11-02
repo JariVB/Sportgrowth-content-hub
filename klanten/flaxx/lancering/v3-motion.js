@@ -5,7 +5,7 @@ const F = '/home/user/Sportgrowth-content-hub/website/site/fonts';
 const OUT = process.argv[2]; fs.mkdirSync(OUT, { recursive: true });
 const f64 = p => 'data:font/woff2;base64,' + fs.readFileSync(p).toString('base64');
 const b64 = f => 'data:image/png;base64,' + fs.readFileSync(__dirname + '/' + f).toString('base64');
-const logo = b64('flaxx-logo-uit-foto.png'), sym = b64('emb-symbool.png'), ring = b64('emb-ring.png');
+const logo = b64('off-wordmark-white.png'), sym = b64('off-emblem-symbool-white.png'), ring = b64('off-emblem-ring-white.png'); // officiële logo's van Flaxx (2/11)
 const FPS = 30, DUR = 24.0;
 const html = `<!doctype html><html><head><style>
 @font-face{font-family:In;src:url(${f64(F+'/inter-var.woff2')})}
@@ -53,7 +53,7 @@ body{width:1080px;height:1920px;background:transparent;font-family:In;color:#fff
  <div class="a" id="emb" style="left:300px;top:430px;width:480px;height:480px">
   <img id="ering" src="${ring}" class="a" style="inset:0;width:480px;height:480px">
   <img id="esym" src="${sym}" class="a" style="inset:0;width:480px;height:480px"></div>
- <div class="a ctr" style="top:1010px"><div style="position:relative;width:520px;height:128px;overflow:hidden" id="lgw"><img id="lg" src="${logo}" style="width:520px;display:block"><div id="sweep" class="a" style="top:-40px;width:140px;height:220px;background:linear-gradient(100deg,rgba(255,255,255,0),rgba(255,255,255,.75),rgba(255,255,255,0));mix-blend-mode:overlay"></div></div></div>
+ <div class="a ctr" style="top:1010px"><div style="position:relative;width:500px;height:114px;overflow:hidden" id="lgw"><img id="lg" src="${logo}" style="width:500px;display:block"><div id="sweep" class="a" style="top:-40px;width:140px;height:220px;background:linear-gradient(100deg,rgba(255,255,255,0),rgba(255,255,255,.75),rgba(255,255,255,0));mix-blend-mode:overlay"></div></div></div>
  <div class="a ctr" style="top:1190px"><div class="spec" id="tag" style="font-size:44px;font-weight:500;letter-spacing:.01em"></div></div>
  <div class="a ctr" style="top:1560px"><div class="line" id="el" style="width:0"></div><div style="height:26px"></div><div class="kick" id="ek" style="font-size:24px">De ERGO-lijn</div><div style="height:16px"></div><div class="spec" id="eu" style="font-size:38px">Schrijf je in op flaxx.be</div></div>
  <div class="a ctr" style="top:1800px"><div class="ui" id="cr" style="font-size:18px;letter-spacing:.25em;color:rgba(255,255,255,.45)">BEELDEN · SPORTGROWTH MEDIA</div></div>
