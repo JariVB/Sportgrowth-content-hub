@@ -14,10 +14,10 @@ v(){ n=$1; f=$2; ss=$3; d=$4; z=$5; g=${6:-$G}
 # A · hook 0-2.4
 if [ -n "$HOOK" ]; then v a1 "$HOOK" $HOOKSS 2.2 0.03; else
   ffmpeg -nostdin -v error -y -ss 9.2 -t 2.2 -i $U/c6ceeec3-IMG_2886.mov -vf "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,gblur=sigma=18,eq=brightness=-0.18:saturation=0.6,fps=30,setsar=1,format=yuv420p" $ENC -t 2.2 $S/a1.mp4; fi
-# B · Koen het verhaal 2.2-12.7 (V5 0.0-10.5: 0,28 s rust na de snede)
-v b1 $U/6b860131-DJI_20261101_170923_523_video.mov 0.0 10.5 0.006 "$GW"
-# C · de zoektocht 12.7-19.0 (B-roll onder V5 10.9-17.2)
-v c1 $U/b4980fd9-IMG_2870.mov 2.0 3.3 0.04
+# B · Koen het verhaal 2.2-13.15 (V5 0.0-10.5: 0,28 s rust na de snede)
+v b1 $U/6b860131-DJI_20261101_170923_523_video.mov 0.0 10.95 0.006 "$GW"
+# C · de zoektocht 13.15-19.0 (B-roll onder V5 11.15-17.0)
+v c1 $U/b4980fd9-IMG_2870.mov 2.0 2.85 0.04
 v c2 $U/89509846-IMG_2867.mov 1.0 3.0 0.05
 # D · het materiaal 19.0-24.3 (Gilles G3 14.6-19.65: "Vlasvezel ... heel goed dempend")
 v d1 $U/5c67f1e9-DJI_20261101_164750_697_video.mov 14.6 2.2 0.01 "$GW"
@@ -36,8 +36,8 @@ DN="highpass=f=85,afftdn=nf=-28,acompressor=threshold=-20dB:ratio=3:attack=5:rel
 clip(){ # naam bron ss duur plaats fadeout
   ffmpeg -nostdin -v error -y -ss $3 -t $4 -i $2 -vn -af "$DN,afade=in:d=0.05,afade=out:st=$6:d=0.15" -ar 48000 -ac 2 $S/$1.wav
   ffmpeg -nostdin -v error -y -f lavfi -t $5 -i anullsrc=r=48000:cl=stereo -i $S/$1.wav -filter_complex "[0:a][1:a]concat=n=2:v=0:a=1,apad" -t 33 -ar 48000 -ac 2 $S/$1p.wav; }
-clip sa $U/6b860131-DJI_20261101_170923_523_video.mov 0.0 10.5 2.2 10.35
-clip sb $U/6b860131-DJI_20261101_170923_523_video.mov 10.9 6.3 12.7 6.1
+clip sa $U/6b860131-DJI_20261101_170923_523_video.mov 0.0 10.95 2.2 10.8
+clip sb $U/6b860131-DJI_20261101_170923_523_video.mov 11.15 5.85 13.15 5.7
 clip sc $U/5c67f1e9-DJI_20261101_164750_697_video.mov 14.6 5.3 19.0 4.85
 clip sd $U/dfbf3a94-DJI_20261101_143744_752_video.mov 4.6 4.55 24.3 4.4
 ffmpeg -nostdin -v error -y -i $S/sap.wav -i $S/sbp.wav -i $S/scp.wav -i $S/sdp.wav -filter_complex "[0][1][2][3]amix=inputs=4:normalize=0:duration=longest" -t 33 -ar 48000 -ac 2 $S/spraak.wav
