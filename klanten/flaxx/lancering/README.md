@@ -15,3 +15,15 @@ Gebouwd zoals productlanceringen van topmerken: verhaal in 5 delen, één kleurl
 | 19.9-24 | eindkaart zwart | flaxx-logo · Naturally FLAXX. · De ERGO-lijn · Schrijf je in op flaxx.be |
 Bestanden: flaxx-lancering-v2-met-sounddesign.mp4 (drone, hits op elke snede, riser, impact op het logo) en flaxx-lancering-v2-zonder-geluid.mp4 (voor eigen muziek in Instagram).
 Bouwen: v2-overlays.js → v2-sound.py → v2-build.sh. Logo = uit foto van de stand gehaald (flaxx-logo-uit-foto.png): officieel logobestand vragen aan Koen voor de finale versie.
+
+# v3 (2/11) · motion graphics
+Zelfde montage als v2 + animaties (v3-motion.js, 720 frames, transparante track):
+- tekst schuift uit een masker omhoog en wordt scherp (blur → scherp), kicker met krimpende letterafstand
+- Belgische driekleur tekent zich onder "Gemaakt in België."
+- woorden op de beat: Licht. / Stijf. / Dempend. / Vlas. (punch-in), zoeker-hoeken + teller 01/04, beeld-punch op elke snede
+- witte flits op hero, POWER, NSR en eindkaart
+- CONTROL / POWER: groot rangnummer 01/02 in contour, gewicht telt op naar 340–345 g / 355–360 g, lijn tekent zich
+- NSR in contour + typemachine "Natural Strain Reduction"
+- "Sports NEXT · Mechelen · 01.11.2026", lower third "Koen Hubert · Oprichter Flaxx"
+- eindkaart: donkergroene gloed, logo-onthulling met wipe + lichtstreep, "Naturally FLAXX." letter per letter, CTA flaxx.be, credit "Beelden · SportGrowth Media"
+Bouwen: v3-build.sh (basisbeeld) → node v3-motion.js <map> → samenvoegen met v2-sound.py (extra whooshes).
