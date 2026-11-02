@@ -16,8 +16,8 @@ const CH = [
  [8.28, 'Ze heeft op hoog niveau getennist'], [10.60, 'en had aan haar arm'], [11.58, 'heel wat blessures'], [13.0, null],
  [13.30, 'Daarvoor zijn we op zoek gegaan'], [14.70, 'naar een weefsel'], [15.22, 'dat heel trillingsdempend werkt'], [16.25, null],
  [16.97, 'Zo zijn we terechtgekomen bij'], [18.05, null],
- [19.14, 'Vlasvezel heeft een unieke combinatie'], [20.95, null],
- [24.50, 'Omdat Flaxx rackets'], [25.60, 'van mechanische eigenschap'], [26.65, 'een zeer hoge trillingsdemping hebben'], [28.75, null],
+ [19.10, 'Vlasvezel heeft een unieke combinatie tussen'], [20.95, null],
+ [24.35, 'Omdat Flaxx rackets'], [25.15, 'van mechanische eigenschap'], [26.45, 'een zeer hoge trillingsdemping heeft'], [28.2, null],
 ];
 const SUBS = [];
 for (let i = 0; i < CH.length - 1; i++) if (CH[i][1]) SUBS.push([CH[i][0] - LEAD, CH[i + 1][0], CH[i][1]]);
@@ -76,7 +76,7 @@ window.render=function(t){
  show($('vlas'),t,18.05,19.0); show($('vbg'),t,18.05,19.0);
  {const k=eo5(p(t,18.05,18.35));$('vw').style.transform=\`scale(\${1.3-.3*k})\`;$('vw').style.opacity=k*(1-p(t,18.8,19.0));$('vw').style.letterSpacing=(.25-.31*eo(p(t,18.05,18.95)))+'em';$('vbg').style.opacity=k*(1-p(t,18.8,19.0));}
  // woorden Gilles
- const W=[[21.0,21.6,'Lichtgewicht'],[21.6,22.4,'Stijf'],[22.4,24.3,'Heel goed dempend']];
+ const W=[[21.0,22.6,'Lichtgewicht'],[22.6,23.4,'Stijf'],[23.4,24.3,'Heel goed dempend']];
  const cur=W.find(x=>t>=x[0]&&t<x[1]); show($('w'),t,21.0,24.3); show($('wbg'),t,21.0,24.3);
  if(cur){$('ww').textContent=cur[2];$('ww').style.fontSize=cur[2].length>12?'104px':'128px';const k=eo5(cl((t-cur[0])/.2));$('w').style.transform=\`scale(\${1.3-.3*k})\`;$('w').style.opacity=k*(cur[2]==='Heel goed dempend'?1-p(t,24.05,24.3):1);$('wbg').style.opacity=1-p(t,24.05,24.3);}
  // productlabels

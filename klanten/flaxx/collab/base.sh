@@ -19,12 +19,12 @@ v b1 $U/6b860131-DJI_20261101_170923_523_video.mov 0.0 10.95 0.006 "$GW"
 # C · de zoektocht 13.15-19.0 (B-roll onder V5 11.15-17.0)
 v c1 $U/b4980fd9-IMG_2870.mov 2.0 2.85 0.04
 v c2 $U/89509846-IMG_2867.mov 1.0 3.0 0.05
-# D · het materiaal 19.0-24.3 (Gilles G3: 11.3-13.9 "Vlasvezel heeft een unieke combinatie, lichtgewicht" + 14.9-16.75 "stijf en heel goed dempend", pauze eruit)
-v d1 $U/5c67f1e9-DJI_20261101_164750_697_video.mov 11.3 2.0 0.01 "$GW"
-v d2 $U/cbc545d6-IMG_2896.mov 8.0 0.6 0
+# D · het materiaal 19.0-24.3 (Gilles G3 11.35-16.65 doorlopend: "Vlasvezel heeft een unieke combinatie tussen lichtgewicht, stijf en heel goed dempend")
+v d1 $U/5c67f1e9-DJI_20261101_164750_697_video.mov 11.35 2.0 0.01 "$GW"
+v d2 $U/cbc545d6-IMG_2896.mov 7.95 1.6 0
 v d3 $U/084b43ca-IMG_2898.mov 3.6 0.8 0
-v d4 $U/c6ceeec3-IMG_2886.mov 9.2 1.9 0.03
-# E · de rackets 24.3-28.85 (V4 4.6-9.15)
+v d4 $U/c6ceeec3-IMG_2886.mov 9.2 0.9 0.03
+# E · de rackets 24.3-28.85 (V4 2.6-6.5: "Omdat Flaxx rackets van mechanische eigenschap een zeer hoge trillingsdemping heeft" · NIET verder: daarna volgt de absolute claim)
 v e1 $U/f807067d-IMG_2904.mov 0.0 2.2 0.03
 v e2 $U/670c7381-IMG_2905.mov 0.0 2.35 0.03
 # F · afsluiter 28.85-33.0 (foto)
@@ -38,9 +38,8 @@ clip(){ # naam bron ss duur plaats fadeout
   ffmpeg -nostdin -v error -y -f lavfi -t $5 -i anullsrc=r=48000:cl=stereo -i $S/$1.wav -filter_complex "[0:a][1:a]concat=n=2:v=0:a=1,apad" -t 33 -ar 48000 -ac 2 $S/$1p.wav; }
 clip sa $U/6b860131-DJI_20261101_170923_523_video.mov 0.0 10.95 2.2 10.8
 clip sb $U/6b860131-DJI_20261101_170923_523_video.mov 11.15 5.85 13.15 5.7
-clip sc $U/5c67f1e9-DJI_20261101_164750_697_video.mov 11.3 2.6 19.0 2.5
-clip sc2 $U/5c67f1e9-DJI_20261101_164750_697_video.mov 14.9 1.85 21.6 1.75
-clip sd $U/dfbf3a94-DJI_20261101_143744_752_video.mov 4.6 4.55 24.3 4.4
-ffmpeg -nostdin -v error -y -i $S/sap.wav -i $S/sbp.wav -i $S/scp.wav -i $S/sc2p.wav -i $S/sdp.wav -filter_complex "[0][1][2][3][4]amix=inputs=5:normalize=0:duration=longest" -t 33 -ar 48000 -ac 2 $S/spraak.wav
+clip sc $U/5c67f1e9-DJI_20261101_164750_697_video.mov 11.35 5.3 19.0 5.15
+clip sd $U/dfbf3a94-DJI_20261101_143744_752_video.mov 2.6 3.9 24.3 3.75
+ffmpeg -nostdin -v error -y -i $S/sap.wav -i $S/sbp.wav -i $S/scp.wav -i $S/sdp.wav -filter_complex "[0][1][2][3]amix=inputs=4:normalize=0:duration=longest" -t 33 -ar 48000 -ac 2 $S/spraak.wav
 ffprobe -v error -show_entries format=duration -of csv=p=0 base.mp4
 echo BASEKLAAR

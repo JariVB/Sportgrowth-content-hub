@@ -32,7 +32,7 @@ Gebruik: lanceringsvideo (CONTROL/POWER-shots) en collab-reel (deel "voor wie we
 Juiste tekst volgens Jari:
 - ±0,2-4,4 s: "Waarom ze specifiek voor Flaxx rackets zouden moeten gaan?"
 - ±4,7-8,8 s: "Omdat Flaxx rackets van mechanische eigenschap een zeer hoge trillingsdemping hebben."
-De zin "Geen enkel ander weefsel..." zit NIET in deze clip. Geen absolute claim meer, volledig bruikbaar.
+CORRECTIE 2/11 (Jari luisterde de montage na): deze clip bevat WEL de claim. Volgorde: ±0,4-2,45 vraag · ±2,65-6,45 "Omdat Flaxx rackets van mechanische eigenschap een zeer hoge trillingsdemping heeft" · ±6,95-9,1 "Geen enkel ander weefsel kan deze garantie bieden" (NIET gebruiken). Collab gebruikt 2,6-6,5.
 
 ### V5 · Het verhaal achter Flaxx (DJI_20261101_170923_523, 18 s) ⭐ opening collab-reel
 Koen staat rechts naast het bord "Ons verhaal" (logo bovenaan). Warm/roze licht: kleur bijsturen bij montage.
@@ -66,7 +66,7 @@ Sluit aan op deel 2. Collab-reel optioneel: "...een goede balans om het beste sp
 ### G3 · Andere relaties met sport? (5c67f1e9) ⭐
 - Jari: "Zijn er nog andere relaties met sport en BioFibix?" (wegknippen)
 - Gilles: "Ja, BioFibix en sport is wel een van onze belangrijke toepassingen. Dat is ook niet zomaar. Vlasvezel heeft een unieke combinatie: lichtgewicht, stijf en heel goed dempend. En dat maakt het materiaal echt heel uniek."
-Collab-reel: "Vlasvezel heeft een unieke combinatie: lichtgewicht, stijf en heel goed dempend." = beste zin over het materiaal (onder vlas macro).
+Collab-reel: "Vlasvezel heeft een unieke combinatie tussen lichtgewicht, stijf en heel goed dempend." = beste zin over het materiaal. Tijden (nagekeken 2/11): ±11,4 "Vlasvezel" · ±13,4 "lichtgewicht" (stil uitgesproken, loopt door in de pauze) · ±15,0 "stijf" · ±15,7-16,6 "en heel goed dempend". Collab gebruikt 11,35-16,65 doorlopend.
 
 ### G3 vervolg · vergelijking met andere materialen (161a75a5)
 "Als je dat vergelijkt met andere materialen, want in sport gebeurt er natuurlijk heel veel materiaalinnovatie: dan kan je zien, oké, we kunnen metalen gebruiken. Die zijn heel stijf, maar die zijn heel zwaar. Dan ga je kijken naar koolstofvezelcomposiet: stijf, licht, maar de demping is niet zo goed."
