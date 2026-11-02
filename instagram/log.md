@@ -62,3 +62,8 @@ Lessen:
 
 ## 31/10 · verkoop gepauzeerd tot na Flaxx
 Batch 1-3 (screenshots + berichten aan 15 sportzaken), de statistieken van het vaste ritme en de uitbater van de padelhal schoven anderhalve week door. Beslist met Jari: geschrapt tot na de samenwerking met Flaxx. Herstart ma 9/11 met een vaste dag per week. Les: verkoop die op "screenshots sturen" wacht, stokt. Volgende keer een vast moment en zo weinig mogelijk voorbereiding per bericht.
+
+## ma 2/11
+- 19u30 carrousel "Padel: van hype naar gewoonte" (8 slides, panel Sports NEXT, citaten Tom De Sutter). Tags: Tom/Arenal, Sports NEXT.
+- 19u35 stories: panelfoto + poll "Wordt padel ooit Olympisch?" · gedeelde carrousel.
+- Flaxx: lanceringsvideo v12 verstuurd, Koen: "ziet er super uit". Post hem in de week van 9/11.

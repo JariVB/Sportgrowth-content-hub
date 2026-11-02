@@ -7,7 +7,7 @@ Vast ritme: ma 19u30 carrousel · di 19u30 reel · do 19u30 reel. Week na Sports
 - 's Avonds: notities panel + beelden naar Claude.
 
 ## Ma 2/11 · Carrousel "Padel: van hype naar gewoonte. 5 lessen voor clubs" (19u30)
-- ✅ Slides klaar (instagram/carrousel-hype-gewoonte/, cover A). Na je werk: inplannen 19u30 + story 19u35 (panelfoto, poll Olympisch).
+- ✅ Carrousel gepost 19u30 (cover A, Tom met open ogen) + 2 stories 19u35 (panelfoto + poll Olympisch, gedeelde post).
 - ✅ Lanceringsvideo Flaxx klaar (klanten/flaxx/lancering/) → 's avonds naar Koen.
 - Gilles vragen om vlasbeelden vóór wo.
 - K7 + VO2 inspreken → Claude monteert reel boekingen, inplannen schuift naar di 3/11 (overdag).
