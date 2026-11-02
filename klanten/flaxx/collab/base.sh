@@ -31,8 +31,15 @@ v e2 $U/670c7381-IMG_2905.mov 0.0 2.35 0.03
 ffmpeg -nostdin -v error -y -loop 1 -t 4.15 -i /home/user/Sportgrowth-content-hub/instagram/beeldbank/sports-next-1-11/koen-jari-rackets-1.jpg -vf "scale=-2:2050,crop=1080:1920:(iw-1080)/2:60,scale=eval=frame:w='trunc(1080*(1+0.03*t)/2)*2':h=-2,crop=1080:1920,fps=30,setsar=1,$G,format=yuv420p" $ENC -t 4.15 $S/f1.mp4
 cd $S && rm -f l.txt && for x in a1 b1 c1 c2 d1 d2 d3 d4 e1 e2 f1; do echo "file '$x.mp4'" >> l.txt; done
 ffmpeg -nostdin -v error -y -f concat -safe 0 -i l.txt -c:v libx264 -crf 16 -preset fast -r 30 -pix_fmt yuv420p base.mp4
-# spraak: elk fragment op zijn plaats
-DN="highpass=f=85,afftdn=nf=-28,acompressor=threshold=-20dB:ratio=3:attack=5:release=120,loudnorm=I=-16:TP=-1.5"
-ffmpeg -nostdin -v error -y -ss 0.0 -t 10.5 -i $U/6b860131-DJI_20261101_170923_523_video.mov -ss 10.9 -t 6.3 -i $U/6b860131-DJI_20261101_170923_523_video.mov -ss 14.6 -t 5.3 -i $U/5c67f1e9-DJI_20261101_164750_697_video.mov -ss 4.6 -t 4.55 -i $U/dfbf3a94-DJI_20261101_143744_752_video.mov -filter_complex "[0:a]$DN,afade=in:d=0.05,afade=out:st=10.4:d=0.1,adelay=2200|2200[a];[1:a]$DN,afade=in:d=0.08,afade=out:st=6.1:d=0.2,adelay=12700|12700[b];[2:a]$DN,afade=in:d=0.08,afade=out:st=4.85:d=0.2,adelay=19000|19000[c];[3:a]$DN,afade=in:d=0.05,afade=out:st=4.4:d=0.15,adelay=24300|24300[d];[a][b][c][d]amix=inputs=4:normalize=0,apad=whole_dur=33,atrim=0:33" -ac 2 -ar 48000 spraak.wav
+# spraak: elk fragment apart, met stilte ervoor (apad/concat i.p.v. adelay), daarna samen
+DN="highpass=f=85,afftdn=nf=-28,acompressor=threshold=-20dB:ratio=3:attack=5:release=120,loudnorm=I=-16:TP=-1.5,aresample=48000,aformat=channel_layouts=stereo"
+clip(){ # naam bron ss duur plaats fadeout
+  ffmpeg -nostdin -v error -y -ss $3 -t $4 -i $2 -vn -af "$DN,afade=in:d=0.05,afade=out:st=$6:d=0.15" -ar 48000 -ac 2 $S/$1.wav
+  ffmpeg -nostdin -v error -y -f lavfi -t $5 -i anullsrc=r=48000:cl=stereo -i $S/$1.wav -filter_complex "[0:a][1:a]concat=n=2:v=0:a=1,apad" -t 33 -ar 48000 -ac 2 $S/$1p.wav; }
+clip sa $U/6b860131-DJI_20261101_170923_523_video.mov 0.0 10.5 2.2 10.35
+clip sb $U/6b860131-DJI_20261101_170923_523_video.mov 10.9 6.3 12.7 6.1
+clip sc $U/5c67f1e9-DJI_20261101_164750_697_video.mov 14.6 5.3 19.0 4.85
+clip sd $U/dfbf3a94-DJI_20261101_143744_752_video.mov 4.6 4.55 24.3 4.4
+ffmpeg -nostdin -v error -y -i $S/sap.wav -i $S/sbp.wav -i $S/scp.wav -i $S/sdp.wav -filter_complex "[0][1][2][3]amix=inputs=4:normalize=0:duration=longest" -t 33 -ar 48000 -ac 2 $S/spraak.wav
 ffprobe -v error -show_entries format=duration -of csv=p=0 base.mp4
 echo BASEKLAAR
