@@ -39,7 +39,7 @@ body{width:1080px;height:1920px;background:transparent;font-family:In;color:#fff
 <div id="brk" class="a" style="inset:0">
  <div class="br a" style="top:90px;left:70px;border-width:4px 0 0 4px"></div><div class="br a" style="top:90px;right:70px;border-width:4px 4px 0 0"></div>
  <div class="br a" style="bottom:110px;left:70px;border-width:0 0 4px 4px"></div><div class="br a" style="bottom:110px;right:70px;border-width:0 4px 4px 0"></div></div>
-<div id="grad" class="a" style="left:0;right:0;bottom:0;height:820px;background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.55) 45%,rgba(0,0,0,.82))"></div>
+<div id="grad" class="a" style="left:0;right:0;bottom:0;height:1000px;background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.68) 38%,rgba(0,0,0,.9))"></div>
 <div id="o1" class="a outline" style="top:-60px;right:-40px">01</div>
 <div id="h1" class="a ctr" style="top:1300px"><div class="kick" id="h1k">ERGO</div><div style="height:18px"></div><div class="mask name"><span id="h1n">CONTROL</span></div><div style="height:26px"></div><div class="line" id="h1l" style="width:0"></div><div style="height:26px"></div>
   <div class="spec"><span class="num" id="h1c">0</span><span class="num">&#8239;g</span></div><div style="height:10px"></div><div class="spec" id="h1s">centrale sweetspot</div></div>
@@ -48,7 +48,7 @@ body{width:1080px;height:1920px;background:transparent;font-family:In;color:#fff
   <div class="spec"><span class="num" id="h2c">0</span><span class="num">&#8239;g</span></div><div style="height:10px"></div><div class="spec" id="h2s">hogere sweetspot</div></div>
 <div id="nsr" class="a ctr" style="top:1380px"><div class="outline" id="nsrb" style="font-size:230px;-webkit-text-stroke:3px rgba(255,255,255,.85)">NSR</div><div style="height:6px"></div><div class="spec" id="nsrt" style="font-weight:600;font-size:46px"></div></div>
 <div id="sn" class="a ctr" style="top:1300px"><div class="kick" id="snk">Gelanceerd op</div><div style="height:22px"></div><div class="mask big" style="font-size:96px"><span id="snw">Sports NEXT</span></div><div style="height:18px"></div><div class="ui" id="snd">MECHELEN · 01.11.2026</div></div>
-<div id="lt" class="a" style="right:70px;top:1420px;display:flex;gap:22px;align-items:stretch;text-align:right">
+<div id="lt" class="a" style="right:70px;top:1380px;display:flex;gap:22px;align-items:stretch;text-align:right">
  <div style="overflow:hidden"><div id="ltx"><div style="font:700 54px/1.1 In;letter-spacing:-.02em;text-shadow:0 2px 24px rgba(0,0,0,.6)">Koen Hubert</div><div style="font:500 32px/1.3 In;color:#e9d2c4;text-shadow:0 2px 20px rgba(0,0,0,.6)">Oprichter Flaxx</div></div></div><div id="ltb" style="width:6px;background:#e9d2c4"></div></div>
 <div id="end" class="a" style="opacity:0">
  <div id="glow" class="a" style="width:900px;height:900px;left:90px;top:400px;border-radius:50%;background:radial-gradient(circle,rgba(233,210,196,.16),rgba(233,210,196,0) 65%)"></div>
@@ -78,7 +78,7 @@ window.render=function(t){
  vis($('l0'),t,0,.9); {const k=eo(p(t,.1,.6));$('l0').style.width=(k*220)+'px';$('l0').style.left=(540-k*110)+'px';$('l0').style.opacity=1-p(t,.6,.9);}
  // Uit vlas.
  vis($('t1bg'),t,.6,4.2); $('t1bg').style.opacity=eo(p(t,.6,.9))*(1-p(t,4.0,4.2));
- vis($('t1'),t,.6,2.6); rise($('t1w'),t,.75); $('t1k').style.opacity=eo(p(t,1.0,1.4))*.9; $('t1k').style.letterSpacing=(.9-.4*eo(p(t,1.0,1.8)))+'em';
+ vis($('t1'),t,.6,2.6); rise($('t1w'),t,.75); {const k=eo(p(t,.75,2.0));$('t1w').style.letterSpacing=(.22-.26*k)+'em';$('t1w').style.transform+=\` scale(\${1.14-.14*k})\`;} $('t1k').style.opacity=eo(p(t,1.0,1.4))*.9; $('t1k').style.letterSpacing=(.9-.4*eo(p(t,1.0,1.8)))+'em';
  $('t1').style.opacity=1-p(t,2.35,2.6); $('t1').style.transform=\`scale(\${1+0.04*p(t,.6,2.6)})\`;
  // Gemaakt in België.
  vis($('t2'),t,2.6,4.2); rise($('t2a'),t,2.68); rise($('t2b'),t,2.82); $('flag').style.width=(eo(p(t,3.0,3.5))*330)+'px';

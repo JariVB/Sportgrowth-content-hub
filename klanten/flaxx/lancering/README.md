@@ -30,3 +30,4 @@ Bouwen: v3-build.sh (basisbeeld) → node v3-motion.js <map> → samenvoegen met
 - 2/11 Jari: 'Licht. Stijf. Dempend.' en 'Koen Hubert · Oprichter Flaxx' goedgekeurd.
 - v9 (2/11): eindkaart met officiële logo's van Flaxx (klanten/flaxx/logo/, PDF van Koen → PNG/SVG). = DEFINITIEF optie A.
 - v10 (2/11): 6 verbeterpunten AdManage: geen zwart begin (start op vlas), donkere vlek achter grote woorden, teller start bij 300/315 g, slow motion gestabiliseerd (vidstab), teksten hoger (UI Instagram), langzame zoom op eindkaart. 23,4 s. = DEFINITIEF.
+- v11 (2/11): ronde 2 AdManage: tracking-zoom op 'Uit vlas', sterkere schaduw onder CONTROL/POWER, whip-pan CONTROL→POWER, naamband Koen hoger. Niet overgenomen: woorden korter (blijft op de beat) en herkaderen slow motion (compositie klopt). = DEFINITIEF.

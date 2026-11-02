@@ -41,6 +41,9 @@ seg 15 b00df21f-IMG_2855.mov 3.9 1.5 0
 seg 16 3c9027cb-IMG_2857.mov 7.2 1.2 0
 # E · eindkaart (motion-track is daar dekkend)
 black 17 4.1
+# whip-pan tussen CONTROL en POWER (uit 12b naar links, 13 komt van rechts binnen)
+ffmpeg -nostdin -v error -y -i $S/v12b.mp4 -vf "scale=1500:-2,crop=1080:1920:x='210+min(1\,max(0\,(t-1.2)/0.2))*210':y=(ih-1920)/2,avgblur=sizeX=36:sizeY=1:enable='gte(t,1.24)'" -c:v libx264 -crf 16 -r 30 $S/v12bw.mp4 && mv $S/v12bw.mp4 $S/v12b.mp4
+ffmpeg -nostdin -v error -y -i $S/v13.mp4 -vf "scale=1500:-2,crop=1080:1920:x='210*min(1\,t/0.2)':y=(ih-1920)/2,avgblur=sizeX=36:sizeY=1:enable='lte(t,0.16)'" -c:v libx264 -crf 16 -r 30 $S/v13w.mp4 && mv $S/v13w.mp4 $S/v13.mp4
 cd $S && rm -f v2.txt && for i in 01 02 03 04 05 06 07 08 09 10 11 12 12b 13 13b 14 15 16 17; do echo "file 'v$i.mp4'" >> v2.txt; done
 ffmpeg -nostdin -v error -y -f concat -safe 0 -i v2.txt -c:v libx264 -crf 16 -preset fast -r 30 -pix_fmt yuv420p v3-base.mp4
 ffprobe -v error -show_entries format=duration -of csv=p=0 v3-base.mp4
