@@ -48,7 +48,7 @@ if (process.env.COVER === 'b') S.push(page(1, `
 <h1 style="font-size:112px">Van 80 naar<br><span class="c">160 leden</span><br>in één jaar</h1>
 <p class="t" style="font-size:40px"><b>Padel: van hype naar gewoonte.</b><br>5 lessen voor clubs</p>
 </div>`)); else S.push(page(1, `
-<div class="bg" style="background-image:${i64(OUT + '/tom-1.jpg')};background-position:center 62%"></div><div class="dim"></div>
+<div class="bg" style="background-image:${i64(OUT + '/tom-cover.jpg')};background-position:center 96%"></div><div class="dim"></div>
 <div class="swipe">Swipe →</div>
 <div class="col" style="top:560px">
 <span class="tag">SPORTS NEXT · PANEL PADEL</span>
