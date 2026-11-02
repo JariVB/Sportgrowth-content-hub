@@ -19,23 +19,25 @@ black 01 0.6
 seg 02 b4980fd9-IMG_2870.mov 3.0 2.0 0.05
 seg 03 89509846-IMG_2867.mov 1.0 1.6 0.05
 # B · ritme (0.5 s per beeld)
-seg 04 cbc545d6-IMG_2896.mov 0.4 0.5 p
+seg 04 88da846f-IMG_2863.mov 4.3 0.5 p
 seg 05 a7ce10da-IMG_2897.mov 1.0 0.5 p
-seg 06 084b43ca-IMG_2898.mov 1.0 0.5 p
+seg 06 c6ceeec3-IMG_2886.mov 15.0 0.5 p
 seg 07 c6ceeec3-IMG_2886.mov 9.2 0.5 p
 seg 08 c6ceeec3-IMG_2886.mov 5.6 0.5 p
 seg 09 d1173517-IMG_2885.mov 5.0 0.5 p
 seg 10 b4980fd9-IMG_2870.mov 9.0 0.5 p
-seg 11 cbc545d6-IMG_2896.mov 2.6 0.5 0.06
-# C · hero
-seg 12 65801fef-DJI_20261101_134302_293_video.mov 2.0 3.5 0.02
-seg 13 866b3093-DJI_20261101_134158_289_video.mov 2.0 3.5 0.02
+seg 11 c6ceeec3-IMG_2886.mov 21.0 0.5 0.06
+# C · hero (geen orbits meer: push-in vanaf het paneel + close-up)
+seg 12 f807067d-IMG_2904.mov 0.0 2.1 0.03
+seg 12b cbc545d6-IMG_2896.mov 3.6 1.4 0.04
+seg 13 670c7381-IMG_2905.mov 0.0 2.1 0.03
+seg 13b 084b43ca-IMG_2898.mov 2.0 1.4 0.04
 # D · bewijs
 seg 14 5a859307-DJI_20261101_133602_589_slowmotion.mov 10.0 2.0 0
 seg 15 4cc2f542-IMG_2859.mov 1.5 1.5 0
 seg 16 3c9027cb-IMG_2857.mov 7.2 1.2 0
 # E · eindkaart (motion-track is daar dekkend)
 black 17 4.1
-cd $S && rm -f v2.txt && for i in 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17; do echo "file 'v$i.mp4'" >> v2.txt; done
+cd $S && rm -f v2.txt && for i in 01 02 03 04 05 06 07 08 09 10 11 12 12b 13 13b 14 15 16 17; do echo "file 'v$i.mp4'" >> v2.txt; done
 ffmpeg -nostdin -v error -y -f concat -safe 0 -i v2.txt -c:v libx264 -crf 16 -preset fast -r 30 -pix_fmt yuv420p v3-base.mp4
 ffprobe -v error -show_entries format=duration -of csv=p=0 v3-base.mp4

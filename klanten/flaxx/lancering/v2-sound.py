@@ -39,6 +39,7 @@ add(7.2,riser,1.0,0.32)
 def impact(t): return kick(t,140,36,3.2)+0.35*math.exp(-t*6)*noise_lp(t,0.08)
 add(8.2,impact,2.2,0.95)
 for t0 in (11.7,15.2): add(t0,lambda t:kick(t,110,40,4.5),1.4,0.6)
+for t0 in (10.3,13.8): add(t0,lambda t:kick(t,100,45,8),0.6,0.4)
 # whoosh
 def whoosh(t,d=0.6):
     x=t/d; env=math.sin(math.pi*min(1,x))**2
