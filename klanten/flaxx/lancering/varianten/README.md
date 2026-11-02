@@ -8,3 +8,4 @@
 Verhaal Stephanie bewust niet gebruikt: blijft voor de collab-reel (do 5/11).
 B: timing van de titels geschat op pauzes in het zaalgeluid (geen spraakherkenning) → nakijken.
 Bouwen: titels.js → build.sh (sound.py voor geluid).
+- 2/11 Jari: de vrouw achter de stand in de slow motion (133602) is NIET Stephanie → beeld mag.
