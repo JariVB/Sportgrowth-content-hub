@@ -121,3 +121,4 @@ Opvolging van contacten: zie `opvolging.md`.
 **Idee (1/11, panel Sports NEXT):** post "Nieuwe padelspelers raken snel geblesseerd. Zo help je ze als club" (opwarming, introles, materiaal). Tom De Sutter (Arenal) kijkt naar opwarmingstoestellen. Kan samen met Flaxx (trillingsdemping, zonder medische claims). Inplannen na 9/11.
 
 **Status ma 2/11:** carrousel "Padel: van hype naar gewoonte" klaar (cover A), inplannen 19u30. Lanceringsvideo Flaxx v1 klaar, vanavond naar Koen. Reel boekingen wacht op K7 + VO2, inplannen di 3/11.
+**Bijgestuurd ma 2/11:** collab-reel Flaxx do 5/11 om **18u00** (niet 19u30). Lanceringsvideo Flaxx: Koen post hem in de week van 9/11.
