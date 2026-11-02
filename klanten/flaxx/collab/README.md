@@ -1,5 +1,5 @@
 # Collab-reel Flaxx × SportGrowth Media · "Het verhaal achter Flaxx" (do 5/11 18u00)
-v1 (2/11): 33 s, alles klaar behalve het openingsbeeld (tijdelijk: wazig racket).
+v3 (2/11): hook 2,2 s met 0,28 s rust vóór Koen, Gilles G3 14,6-19,65 (met lichtgewicht/stijf/dempend), foto koen-jari-rackets-1 (ogen open). v1: 33 s, alles klaar behalve het openingsbeeld (tijdelijk: wazig racket).
 | Tijd | Deel | Beeld | Geluid/tekst |
 |---|---|---|---|
 | 0-2,4 | Hook | elleboogshot di 3/11 (TIJDELIJK wazig racket) | "4 elleboogoperaties", kicker "Het verhaal achter Flaxx" |

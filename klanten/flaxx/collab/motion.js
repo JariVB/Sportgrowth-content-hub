@@ -16,7 +16,7 @@ const CH = [
  [8.28, 'Ze heeft op hoog niveau getennist'], [10.60, 'en had aan haar arm'], [11.58, 'heel wat blessures'], [12.75, null],
  [13.10, 'Daarvoor zijn we op zoek gegaan'], [14.50, 'naar een weefsel'], [15.02, 'dat heel trillingsdempend werkt'], [16.05, null],
  [16.77, 'Zo zijn we terechtgekomen bij'], [17.85, null],
- [19.10, 'Vlasvezel heeft een unieke combinatie'], [21.15, null],
+ [19.36, 'Vlasvezel heeft een unieke combinatie'], [21.0, null],
  [24.50, 'Omdat Flaxx rackets'], [25.60, 'van mechanische eigenschap'], [26.65, 'een zeer hoge trillingsdemping hebben'], [28.75, null],
 ];
 const SUBS = [];
@@ -37,7 +37,7 @@ body{width:1080px;height:1920px;background:transparent;font-family:In;color:#fff
 .blob{background:radial-gradient(closest-side,rgba(0,0,0,.6),rgba(0,0,0,.35) 55%,rgba(0,0,0,0))}
 </style></head><body>
 <div id="hbg" class="a" style="inset:0;background:radial-gradient(70% 45% at 50% 48%,rgba(0,0,0,.25),rgba(0,0,0,.65))"></div>
-<div id="hook" class="a ctr" style="top:640px"><div class="kick" id="hk">Het verhaal achter Flaxx</div><div style="height:36px"></div>
+<div id="hook" class="a ctr" style="top:640px"><div class="kick" id="hk"></div>
  <div class="huge" id="h4">4</div><div style="height:10px"></div><div style="overflow:hidden;padding:0 10px 18px"><div class="big" id="hw" style="font-size:104px">elleboog&shy;operaties</div></div></div>
 <div id="ltk" class="a lt" style="left:70px;top:300px"><div class="bar" id="ltkb"></div><div style="overflow:hidden"><div id="ltkx"><b>Koen Hubert</b><i>Oprichter Flaxx</i></div></div></div>
 <div id="ltg" class="a lt" style="left:70px;top:300px"><div class="bar" id="ltgb"></div><div style="overflow:hidden"><div id="ltgx"><b>Gilles Koolen</b><i>BioFibix · vlasvezel</i></div></div></div>
@@ -65,18 +65,18 @@ const show=(el,t,a,b)=>{el.style.display=(t>=a&&t<b)?'':'none'};
 function lt(bar,x,box,t,a,b){show(box,t,a,b);bar.style.transform=\`scaleY(\${eo(p(t,a,a+.25))})\`;bar.style.transformOrigin='top';x.style.transform=\`translateX(\${(1-eo5(p(t,a+.1,a+.5)))*-110}%)\`;box.style.opacity=1-p(t,b-.25,b);}
 window.render=function(t){
  // hook
- show($('hook'),t,0,2.4); show($('hbg'),t,0,2.4);
+ show($('hook'),t,0,2.2); show($('hbg'),t,0,2.2);
  {const k=eo5(p(t,.15,.55));$('h4').style.transform=\`scale(\${1.6-.6*k})\`;$('h4').style.opacity=k;$('h4').style.filter=\`blur(\${(1-k)*14}px)\`;}
  {const k=eo5(p(t,.45,.95));$('hw').style.transform=\`translateY(\${(1-k)*110}%)\`;}
  $('hk').style.opacity=eo(p(t,1.0,1.4)); $('hk').style.letterSpacing=(.8-.35*eo(p(t,1.0,1.9)))+'em';
- $('hook').style.transform=\`scale(\${1+.04*p(t,0,2.4)})\`;
+ $('hook').style.transform=\`scale(\${1+.04*p(t,0,2.2)})\`;
  // naambanden
  lt($('ltkb'),$('ltkx'),$('ltk'),t,3.0,7.4); lt($('ltgb'),$('ltgx'),$('ltg'),t,19.25,21.2);
  // VLAS
  show($('vlas'),t,17.85,19.0); show($('vbg'),t,17.85,19.0);
  {const k=eo5(p(t,17.85,18.2));$('vw').style.transform=\`scale(\${1.3-.3*k})\`;$('vw').style.opacity=k*(1-p(t,18.8,19.0));$('vw').style.letterSpacing=(.25-.31*eo(p(t,17.85,18.9)))+'em';$('vbg').style.opacity=k*(1-p(t,18.8,19.0));}
  // woorden Gilles
- const W=[[21.2,22.25,'Lichtgewicht'],[22.25,22.95,'Stijf'],[22.95,24.3,'Heel goed dempend']];
+ const W=[[21.2,21.85,'Lichtgewicht'],[21.85,22.54,'Stijf'],[22.54,24.3,'Heel goed dempend']];
  const cur=W.find(x=>t>=x[0]&&t<x[1]); show($('w'),t,21.2,24.3); show($('wbg'),t,21.2,24.3);
  if(cur){$('ww').textContent=cur[2];$('ww').style.fontSize=cur[2].length>12?'104px':'128px';const k=eo5(cl((t-cur[0])/.2));$('w').style.transform=\`scale(\${1.3-.3*k})\`;$('w').style.opacity=k*(cur[2]==='Heel goed dempend'?1-p(t,24.05,24.3):1);$('wbg').style.opacity=1-p(t,24.05,24.3);}
  // productlabels
@@ -93,7 +93,7 @@ window.render=function(t){
    {const r=eo5(p(e,.8,1.35));$('ewm').style.clipPath=\`inset(0 \${(1-r)*100}% 0 0)\`;}
    $('ecta').style.opacity=eo(p(e,1.4,1.8));$('ecta').style.transform=\`translateY(\${(1-eo(p(e,1.4,1.9)))*20}px)\`;$('etag').style.opacity=eo(p(e,1.8,2.2));}
  // flitsen
- let f=0; for(const [a,s] of [[2.4,.85],[19.0,.35],[24.3,.4],[28.85,.8]]) f=Math.max(f,s*(1-eo(p(t,a,a+.35)))*(t>=a?1:0));
+ let f=0; for(const [a,s] of [[2.2,.85],[19.0,.35],[24.3,.4],[28.85,.8]]) f=Math.max(f,s*(1-eo(p(t,a,a+.35)))*(t>=a?1:0));
  $('fl').style.opacity=f;
 };
 </script></body></html>`;
