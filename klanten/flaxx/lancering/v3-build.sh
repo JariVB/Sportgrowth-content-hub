@@ -34,7 +34,7 @@ seg 13 670c7381-IMG_2905.mov 0.0 2.1 0.03
 seg 13b 084b43ca-IMG_2898.mov 2.0 1.4 0.04
 # D · bewijs
 seg 14 5a859307-DJI_20261101_133602_589_slowmotion.mov 10.0 2.0 0
-seg 15 4cc2f542-IMG_2859.mov 1.5 1.5 0
+seg 15 b00df21f-IMG_2855.mov 3.9 1.5 0
 seg 16 3c9027cb-IMG_2857.mov 7.2 1.2 0
 # E · eindkaart (motion-track is daar dekkend)
 black 17 4.1

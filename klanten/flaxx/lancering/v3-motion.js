@@ -29,10 +29,10 @@ body{width:1080px;height:1920px;background:transparent;font-family:In;color:#fff
 .br{width:56px;height:56px;border-color:rgba(255,255,255,.7);border-style:solid}
 </style></head><body>
 <div id="l0" class="a line" style="top:958px;left:540px;width:0"></div>
-<div id="t1" class="a ctr" style="top:870px"><div class="kick" id="t1k">Flaxx · ERGO</div><div style="height:26px"></div><div class="mask big"><span id="t1w">Uit vlas.</span></div></div>
-<div id="t2" class="a ctr" style="top:830px"><div class="mask big"><span id="t2a">Gemaakt</span></div><div class="mask big"><span id="t2b">in België.</span></div><div style="height:30px"></div>
-  <div id="flag" style="display:flex;height:6px;width:0;overflow:hidden"><i style="flex:1;background:#111"></i><i style="flex:1;background:#f5c518"></i><i style="flex:1;background:#e2231a"></i></div></div>
-<div id="w" class="a ctr" style="top:820px"><div class="huge" id="ww">Licht.</div></div>
+<div id="t1" class="a ctr" style="top:870px"><div class="kick" id="t1k">Flaxx · ERGO</div><div style="height:26px"></div><div class="mask big"><span id="t1w">Uit vlas</span></div></div>
+<div id="t2" class="a ctr" style="top:830px"><div class="mask big"><span id="t2a">Gemaakt</span></div><div class="mask big"><span id="t2b">in België</span></div><div style="height:30px"></div>
+  <div id="flag" style="display:flex;gap:8px;height:16px;width:0;overflow:hidden;filter:drop-shadow(0 4px 18px rgba(0,0,0,.55))"><i style="flex:1;border-radius:3px;background:#1a1a1a;box-shadow:inset 0 0 0 2px rgba(255,255,255,.55)"></i><i style="flex:1;border-radius:3px;background:#fdda24"></i><i style="flex:1;border-radius:3px;background:#ef3340"></i></div></div>
+<div id="w" class="a ctr" style="top:820px"><div class="huge" id="ww">Licht</div></div>
 <div id="cnt" class="a ui" style="top:120px;right:80px">01 / 04</div>
 <div id="brk" class="a" style="inset:0">
  <div class="br a" style="top:90px;left:70px;border-width:4px 0 0 4px"></div><div class="br a" style="top:90px;right:70px;border-width:4px 4px 0 0"></div>
@@ -78,10 +78,10 @@ window.render=function(t){
  vis($('t1'),t,.6,2.6); rise($('t1w'),t,.75); $('t1k').style.opacity=eo(p(t,1.0,1.4))*.9; $('t1k').style.letterSpacing=(.9-.4*eo(p(t,1.0,1.8)))+'em';
  $('t1').style.opacity=1-p(t,2.35,2.6); $('t1').style.transform=\`scale(\${1+0.04*p(t,.6,2.6)})\`;
  // Gemaakt in België.
- vis($('t2'),t,2.6,4.2); rise($('t2a'),t,2.68); rise($('t2b'),t,2.82); $('flag').style.width=(eo(p(t,3.1,3.6))*180)+'px';
+ vis($('t2'),t,2.6,4.2); rise($('t2a'),t,2.68); rise($('t2b'),t,2.82); $('flag').style.width=(eo(p(t,3.0,3.5))*330)+'px';
  $('t2').style.opacity=1-p(t,4.0,4.2); $('t2').style.transform=\`scale(\${1+0.04*p(t,2.6,4.2)})\`;
  // woorden op de beat
- const W=['Licht.','Stijf.','Dempend.','Vlas.']; vis($('w'),t,4.2,8.2); vis($('cnt'),t,4.2,8.2); vis($('brk'),t,4.2,8.2);
+ const W=['Licht','Stijf','Dempend','Vlas']; vis($('w'),t,4.2,8.2); vis($('cnt'),t,4.2,8.2); vis($('brk'),t,4.2,8.2);
  if(t>=4.2&&t<8.2){const i=Math.min(3,Math.floor(t-4.2)),lt=t-4.2-i;$('ww').textContent=W[i];
    const k=eo5(cl(lt/.22));$('w').style.transform=\`scale(\${1.35-.35*k})\`;$('w').style.opacity=k*(1-p(lt,.82,1));$('ww').style.filter=\`blur(\${(1-k)*10}px)\`;
    $('cnt').textContent='0'+(i+1)+' / 04';
