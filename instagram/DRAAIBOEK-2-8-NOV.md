@@ -7,13 +7,17 @@ Vast ritme: ma 19u30 carrousel · di 19u30 reel · do 19u30 reel. Week na Sports
 - 's Avonds: notities panel + beelden naar Claude.
 
 ## Ma 2/11 · Carrousel "Padel: van hype naar gewoonte. 5 lessen voor clubs" (19u30)
-- Claude maakt de slides overdag uit de notities. Na je werk: inplannen 19u30 + story 19u35.
-- Reel boekingen inplannen voor di 3/11 (montage door Claude, VO2 erin).
+- ✅ Slides klaar (instagram/carrousel-hype-gewoonte/, cover A). Na je werk: inplannen 19u30 + story 19u35 (panelfoto, poll Olympisch).
+- ✅ Lanceringsvideo Flaxx klaar (klanten/flaxx/lancering/) → 's avonds naar Koen.
+- Gilles vragen om vlasbeelden vóór wo.
+- K7 + VO2 inspreken → Claude monteert reel boekingen, inplannen schuift naar di 3/11 (overdag).
 - Batch 3 screenshots (als we de verkoop zo verderzetten) + opvolgen.
 
 ## Di 3/11 · Reel boekingen "Zo krijg je meer boekingen in je sportcentrum" (19u30)
 - Flaxx: nog geen voorstel. Eerst de lanceringsvideo (ma) en de collab-reel (do).
-- Training 18u-22u30: ERGO CONTROL en ERGO POWER testen met spelers en filmen voor de collab-reel (shotlist volgt).
+- Reel boekingen inplannen (Claude stuurt montage na VO2).
+- DM Tom De Sutter over de carrousel.
+- Training 18u-22u30: openingsshot collab-reel (speler neemt elleboog vast). Geen testrackets.
 
 ## Wo 4/11 · hoofdwerkdag
 - Ruwe montage collab-reel Flaxx (Claude) nakijken, VO, inplannen do 5/11 + collab-uitnodiging naar @flaxx_rackets.
