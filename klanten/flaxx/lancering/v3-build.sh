@@ -33,7 +33,10 @@ seg 12b cbc545d6-IMG_2896.mov 3.6 1.4 0.04
 seg 13 670c7381-IMG_2905.mov 0.0 2.1 0.03
 seg 13b 084b43ca-IMG_2898.mov 2.0 1.4 0.04
 # D · bewijs
-seg 14 5a859307-DJI_20261101_133602_589_slowmotion.mov 10.0 2.0 0
+# 4: slow motion gestabiliseerd
+ffmpeg -nostdin -v error -y -ss 9.5 -t 3.0 -i $U/5a859307-DJI_20261101_133602_589_slowmotion.mov -vf vidstabdetect=shakiness=6:accuracy=15:result=$S/stab.trf -f null -
+ffmpeg -nostdin -v error -y -ss 9.5 -t 3.0 -i $U/5a859307-DJI_20261101_133602_589_slowmotion.mov -vf vidstabtransform=input=$S/stab.trf:smoothing=20:zoom=4,unsharp=5:5:0.6 -an -c:v libx264 -crf 14 $S/stab.mp4
+U0=$U; U=$S; seg 14 stab.mp4 0.5 2.0 0; U=$U0
 seg 15 b00df21f-IMG_2855.mov 3.9 1.5 0
 seg 16 3c9027cb-IMG_2857.mov 7.2 1.2 0
 # E · eindkaart (motion-track is daar dekkend)

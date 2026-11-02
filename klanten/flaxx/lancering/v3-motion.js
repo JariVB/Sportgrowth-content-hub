@@ -29,9 +29,11 @@ body{width:1080px;height:1920px;background:transparent;font-family:In;color:#fff
 .br{width:56px;height:56px;border-color:rgba(255,255,255,.7);border-style:solid}
 </style></head><body>
 <div id="l0" class="a line" style="top:958px;left:540px;width:0"></div>
+<div id="t1bg" class="a" style="left:-60px;right:-60px;top:660px;height:620px;background:radial-gradient(closest-side,rgba(0,0,0,.5),rgba(0,0,0,.3) 55%,rgba(0,0,0,0))"></div>
 <div id="t1" class="a ctr" style="top:870px"><div class="kick" id="t1k">Flaxx · ERGO</div><div style="height:26px"></div><div class="mask big"><span id="t1w">Uit vlas</span></div></div>
 <div id="t2" class="a ctr" style="top:830px"><div class="mask big"><span id="t2a">Gemaakt</span></div><div class="mask big"><span id="t2b">in België</span></div><div style="height:30px"></div>
   <div id="flag" style="display:flex;gap:8px;height:16px;width:0;overflow:hidden;filter:drop-shadow(0 4px 18px rgba(0,0,0,.55))"><i style="flex:1;border-radius:3px;background:#1a1a1a;box-shadow:inset 0 0 0 2px rgba(255,255,255,.55)"></i><i style="flex:1;border-radius:3px;background:#fdda24"></i><i style="flex:1;border-radius:3px;background:#ef3340"></i></div></div>
+<div id="wbg" class="a" style="left:-60px;right:-60px;top:640px;height:640px;background:radial-gradient(closest-side,rgba(0,0,0,.62),rgba(0,0,0,.38) 55%,rgba(0,0,0,0))"></div>
 <div id="w" class="a ctr" style="top:820px"><div class="huge" id="ww">Licht</div></div>
 <div id="cnt" class="a ui" style="top:120px;right:80px">01 / 04</div>
 <div id="brk" class="a" style="inset:0">
@@ -45,8 +47,8 @@ body{width:1080px;height:1920px;background:transparent;font-family:In;color:#fff
 <div id="h2" class="a ctr" style="top:1300px"><div class="kick" id="h2k">ERGO</div><div style="height:18px"></div><div class="mask name"><span id="h2n">POWER</span></div><div style="height:26px"></div><div class="line" id="h2l" style="width:0"></div><div style="height:26px"></div>
   <div class="spec"><span class="num" id="h2c">0</span><span class="num">&#8239;g</span></div><div style="height:10px"></div><div class="spec" id="h2s">hogere sweetspot</div></div>
 <div id="nsr" class="a ctr" style="top:1380px"><div class="outline" id="nsrb" style="font-size:230px;-webkit-text-stroke:3px rgba(255,255,255,.85)">NSR</div><div style="height:6px"></div><div class="spec" id="nsrt" style="font-weight:600;font-size:46px"></div></div>
-<div id="sn" class="a ctr" style="top:1440px"><div class="kick" id="snk">Gelanceerd op</div><div style="height:22px"></div><div class="mask big" style="font-size:96px"><span id="snw">Sports NEXT</span></div><div style="height:18px"></div><div class="ui" id="snd">MECHELEN · 01.11.2026</div></div>
-<div id="lt" class="a" style="right:70px;top:1500px;display:flex;gap:22px;align-items:stretch;text-align:right">
+<div id="sn" class="a ctr" style="top:1300px"><div class="kick" id="snk">Gelanceerd op</div><div style="height:22px"></div><div class="mask big" style="font-size:96px"><span id="snw">Sports NEXT</span></div><div style="height:18px"></div><div class="ui" id="snd">MECHELEN · 01.11.2026</div></div>
+<div id="lt" class="a" style="right:70px;top:1420px;display:flex;gap:22px;align-items:stretch;text-align:right">
  <div style="overflow:hidden"><div id="ltx"><div style="font:700 54px/1.1 In;letter-spacing:-.02em;text-shadow:0 2px 24px rgba(0,0,0,.6)">Koen Hubert</div><div style="font:500 32px/1.3 In;color:#e9d2c4;text-shadow:0 2px 20px rgba(0,0,0,.6)">Oprichter Flaxx</div></div></div><div id="ltb" style="width:6px;background:#e9d2c4"></div></div>
 <div id="end" class="a" style="opacity:0">
  <div id="glow" class="a" style="width:900px;height:900px;left:90px;top:400px;border-radius:50%;background:radial-gradient(circle,rgba(233,210,196,.16),rgba(233,210,196,0) 65%)"></div>
@@ -55,8 +57,8 @@ body{width:1080px;height:1920px;background:transparent;font-family:In;color:#fff
   <img id="esym" src="${sym}" class="a" style="inset:0;width:480px;height:480px"></div>
  <div class="a ctr" style="top:1010px"><div style="position:relative;width:500px;height:114px;overflow:hidden" id="lgw"><img id="lg" src="${logo}" style="width:500px;display:block"><div id="sweep" class="a" style="top:-40px;width:140px;height:220px;background:linear-gradient(100deg,rgba(255,255,255,0),rgba(255,255,255,.75),rgba(255,255,255,0));mix-blend-mode:overlay"></div></div></div>
  <div class="a ctr" style="top:1190px"><div class="spec" id="tag" style="font-size:44px;font-weight:500;letter-spacing:.01em"></div></div>
- <div class="a ctr" style="top:1560px"><div class="line" id="el" style="width:0"></div><div style="height:26px"></div><div class="kick" id="ek" style="font-size:24px">De ERGO-lijn</div><div style="height:16px"></div><div class="spec" id="eu" style="font-size:38px">Schrijf je in op flaxx.be</div></div>
- <div class="a ctr" style="top:1800px"><div class="ui" id="cr" style="font-size:18px;letter-spacing:.25em;color:rgba(255,255,255,.45)">BEELDEN · SPORTGROWTH MEDIA</div></div>
+ <div class="a ctr" style="top:1440px"><div class="line" id="el" style="width:0"></div><div style="height:26px"></div><div class="kick" id="ek" style="font-size:24px">De ERGO-lijn</div><div style="height:16px"></div><div class="spec" id="eu" style="font-size:38px">Schrijf je in op flaxx.be</div></div>
+ <div class="a ctr" style="top:1600px"><div class="ui" id="cr" style="font-size:18px;letter-spacing:.25em;color:rgba(255,255,255,.45)">BEELDEN · SPORTGROWTH MEDIA</div></div>
 </div>
 <div id="fl" class="a flash" style="opacity:0"></div>
 <script>
@@ -75,13 +77,14 @@ window.render=function(t){
  // lijn intro
  vis($('l0'),t,0,.9); {const k=eo(p(t,.1,.6));$('l0').style.width=(k*220)+'px';$('l0').style.left=(540-k*110)+'px';$('l0').style.opacity=1-p(t,.6,.9);}
  // Uit vlas.
+ vis($('t1bg'),t,.6,4.2); $('t1bg').style.opacity=eo(p(t,.6,.9))*(1-p(t,4.0,4.2));
  vis($('t1'),t,.6,2.6); rise($('t1w'),t,.75); $('t1k').style.opacity=eo(p(t,1.0,1.4))*.9; $('t1k').style.letterSpacing=(.9-.4*eo(p(t,1.0,1.8)))+'em';
  $('t1').style.opacity=1-p(t,2.35,2.6); $('t1').style.transform=\`scale(\${1+0.04*p(t,.6,2.6)})\`;
  // Gemaakt in België.
  vis($('t2'),t,2.6,4.2); rise($('t2a'),t,2.68); rise($('t2b'),t,2.82); $('flag').style.width=(eo(p(t,3.0,3.5))*330)+'px';
  $('t2').style.opacity=1-p(t,4.0,4.2); $('t2').style.transform=\`scale(\${1+0.04*p(t,2.6,4.2)})\`;
  // woorden op de beat
- const W=['Licht','Stijf','Dempend','Vlas']; vis($('w'),t,4.2,8.2); vis($('cnt'),t,4.2,8.2); vis($('brk'),t,4.2,8.2);
+ const W=['Licht','Stijf','Dempend','Vlas']; vis($('w'),t,4.2,8.2); vis($('wbg'),t,4.2,8.2); $('wbg').style.opacity=eo(p(t,4.2,4.4))*(1-p(t,8.0,8.2)); vis($('cnt'),t,4.2,8.2); vis($('brk'),t,4.2,8.2);
  if(t>=4.2&&t<8.2){const i=Math.min(3,Math.floor(t-4.2)),lt=t-4.2-i;$('ww').textContent=W[i];
    const k=eo5(cl(lt/.22));$('w').style.transform=\`scale(\${1.35-.35*k})\`;$('w').style.opacity=k*(1-p(lt,.82,1));$('ww').style.filter=\`blur(\${(1-k)*10}px)\`;
    $('cnt').textContent='0'+(i+1)+' / 04';
@@ -92,14 +95,14 @@ window.render=function(t){
  vis($('h1'),t,8.2,11.7); vis($('o1'),t,8.2,11.7);
  rise($('h1n'),t,8.35,.6); $('h1k').style.opacity=eo(p(t,8.55,8.9)); $('h1k').style.letterSpacing=(1-.5*eo(p(t,8.55,9.4)))+'em';
  $('h1l').style.width=(eo(p(t,8.8,9.3))*90)+'px';
- {const k=eo(p(t,8.9,9.9));$('h1c').textContent=k<1?Math.round(340*k):'340–345';} $('h1s').style.opacity=eo(p(t,9.6,10.0));
+ {const k=eo(p(t,8.75,9.5));$('h1c').textContent=k<1?Math.round(300+40*k):'340–345';} $('h1s').style.opacity=eo(p(t,9.6,10.0));
  $('o1').style.opacity=eo(p(t,8.3,8.9));$('o1').style.transform=\`translateY(\${(1-eo(p(t,8.3,9.2)))*80}px)\`;
  $('h1').style.opacity=1-p(t,11.45,11.7); $('o1').style.opacity*=1-p(t,11.45,11.7);
  // POWER
  vis($('h2'),t,11.7,15.2); vis($('o2'),t,11.7,15.2);
  rise($('h2n'),t,11.85,.6); $('h2k').style.opacity=eo(p(t,12.05,12.4)); $('h2k').style.letterSpacing=(1-.5*eo(p(t,12.05,12.9)))+'em';
  $('h2l').style.width=(eo(p(t,12.3,12.8))*90)+'px';
- {const k=eo(p(t,12.4,13.4));$('h2c').textContent=k<1?Math.round(355*k):'355–360';} $('h2s').style.opacity=eo(p(t,13.1,13.5));
+ {const k=eo(p(t,12.25,13.0));$('h2c').textContent=k<1?Math.round(315+40*k):'355–360';} $('h2s').style.opacity=eo(p(t,13.1,13.5));
  $('o2').style.opacity=eo(p(t,11.8,12.4));$('o2').style.transform=\`translateY(\${(1-eo(p(t,11.8,12.7)))*80}px)\`;
  $('h2').style.opacity=1-p(t,14.95,15.2); $('o2').style.opacity*=1-p(t,14.95,15.2);
  // NSR
@@ -112,6 +115,7 @@ window.render=function(t){
  // eindkaart
  $('end').style.opacity=t>=19.9?1:0;
  if(t>=19.9){const e=t-19.9;
+   $('end').style.transform=\`scale(\${1+0.07*eio(p(e,0,4.1))})\`;
    $('glow').style.transform=\`translate(\${Math.sin(e*.8)*40}px,\${Math.cos(e*.6)*30}px) scale(\${1+e*.03})\`;
    {const k=eo5(p(e,.1,1.1));$('ering').style.opacity=k;$('ering').style.transform=\`rotate(\${-140*(1-k)+e*7}deg) scale(\${.85+.15*k})\`;}
    {const k=eo5(p(e,.35,1.0));$('esym').style.opacity=k;$('esym').style.transform=\`scale(\${.55+.45*k})\`;$('esym').style.filter=\`blur(\${(1-k)*10}px)\`;}
