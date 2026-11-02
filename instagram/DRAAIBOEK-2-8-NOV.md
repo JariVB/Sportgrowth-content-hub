@@ -24,8 +24,8 @@ Vast ritme: ma 19u30 carrousel · di 19u30 reel · do 19u30 reel. Week na Sports
 - Carrousel ma 9/11 "Zoveel levert één extra geboekt uur" (slides Claude).
 - Shoot voor di 10/11 "Zo vul je je sportkamp zonder flyers" en do 12/11 "Zo maak je van een proefles een vast lid".
 
-## Do 5/11 · Collab-reel Flaxx: ERGO CONTROL vs ERGO POWER (19u30)
-- Story 19u35, tag @flaxx_rackets. Cijfers na 48 u naar Koen.
+## Do 5/11 · Collab-reel Flaxx "Het verhaal achter Flaxx" (18u00, afgesproken met Koen)
+- Story 18u05, tag @flaxx_rackets. Cijfers na 48 u naar Koen.
 
 ## Vr 6/11 · niets
 
@@ -33,3 +33,5 @@ Vast ritme: ma 19u30 carrousel · di 19u30 reel · do 19u30 reel. Week na Sports
 - Flaxx: cijfers collab-reel na 48 u + kort voorstel (optie A €290 / optie B €449/maand) naar Koen. Claude maakt het klaar.
 
 ## Zo 8/11 · rust
+
+**Flaxx (ma 2/11):** lanceringsvideo v12 goedgekeurd ("ziet er super uit"). Koen post hem pas volgende week (deze week al veel gepost, do de collab). Collab-reel do 5/11 om 18u00.
