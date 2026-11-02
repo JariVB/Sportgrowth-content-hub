@@ -9,17 +9,18 @@ const L = __dirname + '/../lancering/';
 const wm = b64(L + 'off-wordmark-white.png'), sym = b64(L + 'off-emblem-symbool-white.png'), ring = b64(L + 'off-emblem-ring-white.png');
 const FPS = 30, DUR = 33.0;
 // ondertitels: [start, eind, [stukken]] → stukken krijgen tijd volgens lengte (3-6 woorden, geen leestekens)
-const SENT = [
- [2.5, 7.6, ['Het verhaal achter Flaxx rackets', 'is ontstaan uit de bezorgdheid', 'om de vele blessures', 'van mijn vrouw']],
- [8.2, 12.7, ['Ze heeft op hoog niveau getennist', 'en had aan haar arm', 'heel wat blessures']],
- [13.0, 15.9, ['Daarvoor zijn we op zoek gegaan', 'naar een weefsel', 'dat heel trillingsdempend werkt']],
- [16.8, 18.0, ['Zo zijn we terechtgekomen bij']],
- [19.1, 21.2, ['Vlasvezel heeft een unieke combinatie']],
- [24.4, 28.7, ['Omdat Flaxx rackets', 'van mechanische eigenschap', 'een zeer hoge trillingsdemping hebben']],
+// ondertitels per stuk, gesnapt op de spraakstukken (gemeten op de pauzes), 0,12 s vroeger in beeld
+const LEAD = 0.12;
+const CH = [
+ [2.48, 'Het verhaal achter Flaxx rackets'], [4.20, 'is ontstaan uit de bezorgdheid'], [6.12, 'om de vele blessures'], [6.85, 'van mijn vrouw'], [7.65, null],
+ [8.28, 'Ze heeft op hoog niveau getennist'], [10.60, 'en had aan haar arm'], [11.58, 'heel wat blessures'], [12.75, null],
+ [13.10, 'Daarvoor zijn we op zoek gegaan'], [14.50, 'naar een weefsel'], [15.02, 'dat heel trillingsdempend werkt'], [16.05, null],
+ [16.77, 'Zo zijn we terechtgekomen bij'], [17.85, null],
+ [19.10, 'Vlasvezel heeft een unieke combinatie'], [21.15, null],
+ [24.50, 'Omdat Flaxx rackets'], [25.60, 'van mechanische eigenschap'], [26.65, 'een zeer hoge trillingsdemping hebben'], [28.75, null],
 ];
 const SUBS = [];
-for (const [a, b, parts] of SENT) { const tot = parts.reduce((s, p) => s + p.length, 0); let t = a;
-  for (const p of parts) { const d = (b - a) * p.length / tot; SUBS.push([t, t + d, p]); t += d; } }
+for (let i = 0; i < CH.length - 1; i++) if (CH[i][1]) SUBS.push([CH[i][0] - LEAD, CH[i + 1][0], CH[i][1]]);
 const html = `<!doctype html><html><head><style>
 @font-face{font-family:In;src:url(${f64(F+'/inter-var.woff2')})}
 *{box-sizing:border-box;margin:0}
