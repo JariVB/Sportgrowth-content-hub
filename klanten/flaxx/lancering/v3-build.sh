@@ -21,12 +21,12 @@ seg 03 89509846-IMG_2867.mov 1.0 1.6 0.05
 # B · ritme (0.5 s per beeld)
 seg 04 88da846f-IMG_2863.mov 4.3 0.5 p
 seg 05 a7ce10da-IMG_2897.mov 1.0 0.5 p
-seg 06 c6ceeec3-IMG_2886.mov 15.0 0.5 p
+seg 06 084b43ca-IMG_2898.mov 0.4 0.5 p
 seg 07 c6ceeec3-IMG_2886.mov 9.2 0.5 p
-seg 08 c6ceeec3-IMG_2886.mov 5.6 0.5 p
-seg 09 d1173517-IMG_2885.mov 5.0 0.5 p
+seg 08 4cc2f542-IMG_2859.mov 2.5 0.5 p
+seg 09 41fc3103-DJI_20261101_150207_235_orig_eis.mov 2.0 0.5 p
 seg 10 b4980fd9-IMG_2870.mov 9.0 0.5 p
-seg 11 c6ceeec3-IMG_2886.mov 21.0 0.5 0.06
+seg 11 89509846-IMG_2867.mov 5.0 0.5 0.06
 # C · hero (geen orbits meer: push-in vanaf het paneel + close-up)
 seg 12 f807067d-IMG_2904.mov 0.0 2.1 0.03
 seg 12b cbc545d6-IMG_2896.mov 3.6 1.4 0.04

@@ -3,7 +3,7 @@
 set -e
 U=/root/.claude/uploads/0377841e-5e4e-590f-ab4a-00f0b5872ecb
 S=/tmp/claude-0/-home-user-Sportgrowth-content-hub/0377841e-5e4e-590f-ab4a-00f0b5872ecb/scratchpad/lv/var
-O=$(cd "$(dirname "$0")" && pwd); V7=$O/../flaxx-lancering-v7-met-sounddesign.mp4
+O=$(cd "$(dirname "$0")" && pwd); V7=$O/../flaxx-lancering-${BASIS:-v7}-met-sounddesign.mp4
 G="eq=contrast=1.10:brightness=-0.015:saturation=0.86:gamma=0.97,colorbalance=rs=0.02:bs=-0.03:rh=0.03:bh=-0.02,vignette=PI/4.5,noise=alls=5:allf=t"
 ENC="-c:v libx264 -preset medium -b:v 9M -maxrate 10M -bufsize 18M -pix_fmt yuv420p -r 30"
 # ov "png:start:end" ... → overlay-keten met fade + kleine opwaartse beweging
