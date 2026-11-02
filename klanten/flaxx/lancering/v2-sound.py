@@ -43,7 +43,8 @@ for t0 in (11.7,15.2): add(t0,lambda t:kick(t,110,40,4.5),1.4,0.6)
 def whoosh(t,d=0.6):
     x=t/d; env=math.sin(math.pi*min(1,x))**2
     return env*noise_lp(t,0.05+0.25*x)
-for t0 in (16.9,18.4): add(t0,whoosh,0.6,0.55)
+for t0 in (11.4,14.9,16.9,18.4): add(t0,whoosh,0.6,0.55)
+add(20.9,lambda t:whoosh(t,1.0),1.0,0.35)
 # eindimpact + staart
 add(19.9,impact,3.5,1.0)
 def shimmer(t): return math.exp(-t*0.9)*(0.5*math.sin(2*math.pi*440*t)+0.3*math.sin(2*math.pi*659.3*t)+0.2*math.sin(2*math.pi*880*t))*min(1,t/0.3)
