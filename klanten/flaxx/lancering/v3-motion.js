@@ -46,8 +46,8 @@ body{width:1080px;height:1920px;background:transparent;font-family:In;color:#fff
   <div class="spec"><span class="num" id="h2c">0</span><span class="num">&#8239;g</span></div><div style="height:10px"></div><div class="spec" id="h2s">hogere sweetspot</div></div>
 <div id="nsr" class="a ctr" style="top:1380px"><div class="outline" id="nsrb" style="font-size:230px;-webkit-text-stroke:3px rgba(255,255,255,.85)">NSR</div><div style="height:6px"></div><div class="spec" id="nsrt" style="font-weight:600;font-size:46px"></div></div>
 <div id="sn" class="a ctr" style="top:1440px"><div class="kick" id="snk">Gelanceerd op</div><div style="height:22px"></div><div class="mask big" style="font-size:96px"><span id="snw">Sports NEXT</span></div><div style="height:18px"></div><div class="ui" id="snd">MECHELEN · 01.11.2026</div></div>
-<div id="lt" class="a" style="left:70px;top:1500px;display:flex;gap:22px;align-items:stretch">
- <div id="ltb" style="width:6px;background:#e9d2c4"></div><div style="overflow:hidden"><div id="ltx"><div style="font:700 54px/1.1 In;letter-spacing:-.02em;text-shadow:0 2px 24px rgba(0,0,0,.6)">Koen Hubert</div><div style="font:500 32px/1.3 In;color:#e9d2c4;text-shadow:0 2px 20px rgba(0,0,0,.6)">Oprichter Flaxx</div></div></div></div>
+<div id="lt" class="a" style="right:70px;top:1500px;display:flex;gap:22px;align-items:stretch;text-align:right">
+ <div style="overflow:hidden"><div id="ltx"><div style="font:700 54px/1.1 In;letter-spacing:-.02em;text-shadow:0 2px 24px rgba(0,0,0,.6)">Koen Hubert</div><div style="font:500 32px/1.3 In;color:#e9d2c4;text-shadow:0 2px 20px rgba(0,0,0,.6)">Oprichter Flaxx</div></div></div><div id="ltb" style="width:6px;background:#e9d2c4"></div></div>
 <div id="end" class="a" style="opacity:0">
  <div id="glow" class="a" style="width:900px;height:900px;left:90px;top:400px;border-radius:50%;background:radial-gradient(circle,rgba(233,210,196,.16),rgba(233,210,196,0) 65%)"></div>
  <div class="a" id="emb" style="left:300px;top:430px;width:480px;height:480px">
@@ -108,7 +108,7 @@ window.render=function(t){
  // Sports NEXT
  vis($('sn'),t,17.2,18.7); rise($('snw'),t,17.3,.5); $('snk').style.opacity=eo(p(t,17.25,17.6)); $('snd').style.opacity=eo(p(t,17.6,18.0))*.9; $('sn').style.opacity=1-p(t,18.5,18.7);
  // lower third Koen
- vis($('lt'),t,18.7,19.9); $('ltb').style.transform=\`scaleY(\${eo(p(t,18.75,19.0))})\`; $('ltx').style.transform=\`translateX(\${(1-eo5(p(t,18.85,19.25)))*-110}%)\`; $('lt').style.opacity=1-p(t,19.7,19.9);
+ vis($('lt'),t,18.7,19.9); $('ltb').style.transform=\`scaleY(\${eo(p(t,18.75,19.0))})\`; $('ltx').style.transform=\`translateX(\${(1-eo5(p(t,18.85,19.25)))*110}%)\`; $('lt').style.opacity=1-p(t,19.7,19.9);
  // eindkaart
  $('end').style.opacity=t>=19.9?1:0;
  if(t>=19.9){const e=t-19.9;
