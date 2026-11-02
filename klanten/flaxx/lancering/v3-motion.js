@@ -4,7 +4,8 @@ const fs = require('fs');
 const F = '/home/user/Sportgrowth-content-hub/website/site/fonts';
 const OUT = process.argv[2]; fs.mkdirSync(OUT, { recursive: true });
 const f64 = p => 'data:font/woff2;base64,' + fs.readFileSync(p).toString('base64');
-const logo = 'data:image/png;base64,' + fs.readFileSync(__dirname + '/flaxx-logo-uit-foto.png').toString('base64');
+const b64 = f => 'data:image/png;base64,' + fs.readFileSync(__dirname + '/' + f).toString('base64');
+const logo = b64('flaxx-logo-uit-foto.png'), sym = b64('emb-symbool.png'), ring = b64('emb-ring.png');
 const FPS = 30, DUR = 24.0;
 const html = `<!doctype html><html><head><style>
 @font-face{font-family:In;src:url(${f64(F+'/inter-var.woff2')})}
@@ -49,8 +50,11 @@ body{width:1080px;height:1920px;background:transparent;font-family:In;color:#fff
  <div id="ltb" style="width:6px;background:#e9d2c4"></div><div style="overflow:hidden"><div id="ltx"><div style="font:700 54px/1.1 In;letter-spacing:-.02em;text-shadow:0 2px 24px rgba(0,0,0,.6)">Koen Hubert</div><div style="font:500 32px/1.3 In;color:#e9d2c4;text-shadow:0 2px 20px rgba(0,0,0,.6)">Oprichter Flaxx</div></div></div></div>
 <div id="end" class="a" style="opacity:0">
  <div id="glow" class="a" style="width:900px;height:900px;left:90px;top:400px;border-radius:50%;background:radial-gradient(circle,rgba(233,210,196,.16),rgba(233,210,196,0) 65%)"></div>
- <div class="a ctr" style="top:790px"><div style="position:relative;width:640px;height:157px;overflow:hidden" id="lgw"><img id="lg" src="${logo}" style="width:640px;display:block"><div id="sweep" class="a" style="top:-40px;width:160px;height:260px;background:linear-gradient(100deg,rgba(255,255,255,0),rgba(255,255,255,.75),rgba(255,255,255,0));mix-blend-mode:overlay"></div></div></div>
- <div class="a ctr" style="top:1010px"><div class="spec" id="tag" style="font-size:46px;font-weight:500;letter-spacing:.01em"></div></div>
+ <div class="a" id="emb" style="left:300px;top:430px;width:480px;height:480px">
+  <img id="ering" src="${ring}" class="a" style="inset:0;width:480px;height:480px">
+  <img id="esym" src="${sym}" class="a" style="inset:0;width:480px;height:480px"></div>
+ <div class="a ctr" style="top:1010px"><div style="position:relative;width:520px;height:128px;overflow:hidden" id="lgw"><img id="lg" src="${logo}" style="width:520px;display:block"><div id="sweep" class="a" style="top:-40px;width:140px;height:220px;background:linear-gradient(100deg,rgba(255,255,255,0),rgba(255,255,255,.75),rgba(255,255,255,0));mix-blend-mode:overlay"></div></div></div>
+ <div class="a ctr" style="top:1190px"><div class="spec" id="tag" style="font-size:44px;font-weight:500;letter-spacing:.01em"></div></div>
  <div class="a ctr" style="top:1560px"><div class="line" id="el" style="width:0"></div><div style="height:26px"></div><div class="kick" id="ek" style="font-size:24px">De ERGO-lijn</div><div style="height:16px"></div><div class="spec" id="eu" style="font-size:38px">Schrijf je in op flaxx.be</div></div>
  <div class="a ctr" style="top:1800px"><div class="ui" id="cr" style="font-size:18px;letter-spacing:.25em;color:rgba(255,255,255,.45)">BEELDEN · SPORTGROWTH MEDIA</div></div>
 </div>
@@ -109,12 +113,14 @@ window.render=function(t){
  $('end').style.opacity=t>=19.9?1:0;
  if(t>=19.9){const e=t-19.9;
    $('glow').style.transform=\`translate(\${Math.sin(e*.8)*40}px,\${Math.cos(e*.6)*30}px) scale(\${1+e*.03})\`;
-   const r=eo5(p(e,.25,1.0));$('lgw').style.clipPath=\`inset(0 \${(1-r)*100}% 0 0)\`;$('lg').style.filter=\`blur(\${(1-r)*6}px)\`;
-   $('lgw').style.transform=\`scale(\${1.06-.06*eo(p(e,.25,3.5))})\`;
-   $('sweep').style.left=(-200+eio(p(e,1.2,2.0))*1040)+'px';
+   {const k=eo5(p(e,.1,1.1));$('ering').style.opacity=k;$('ering').style.transform=\`rotate(\${-140*(1-k)+e*7}deg) scale(\${.85+.15*k})\`;}
+   {const k=eo5(p(e,.35,1.0));$('esym').style.opacity=k;$('esym').style.transform=\`scale(\${.55+.45*k})\`;$('esym').style.filter=\`blur(\${(1-k)*10}px)\`;}
+   $('emb').style.transform=\`scale(\${1.04-.04*eo(p(e,.1,4))})\`;
+   const r=eo5(p(e,.9,1.5));$('lgw').style.clipPath=\`inset(0 \${(1-r)*100}% 0 0)\`;$('lg').style.filter=\`blur(\${(1-r)*6}px)\`;
+   $('sweep').style.left=(-180+eio(p(e,1.6,2.3))*860)+'px';
    const tg='Naturally FLAXX.';$('tag').innerHTML=tg.split('').map((c,i)=>\`<span style="opacity:\${eo(p(e,1.0+i*.035,1.3+i*.035))}">\${c===' '?'&nbsp;':c}</span>\`).join('');
    $('el').style.width=(eo(p(e,1.8,2.3))*80)+'px'; $('ek').style.opacity=eo(p(e,2.0,2.4)); $('eu').style.opacity=eo(p(e,2.2,2.6)); $('eu').style.transform=\`translateY(\${(1-eo(p(e,2.2,2.7)))*20}px)\`;
-   $('cr').style.opacity=eo(p(e,2.6,3.0));}
+   $('cr').style.opacity=eo(p(e,3.0,3.4));}
  // flitsen
  let f=0; for(const [a,s] of [[8.2,.9],[11.7,.5],[15.2,.45],[19.9,1]]) f=Math.max(f,s*(1-eo(p(t,a,a+.35)))*(t>=a?1:0));
  $('fl').style.opacity=f;
