@@ -19,7 +19,9 @@ ffmpeg -nostdin -v error -y -ss 1.0 -t 3.7 -i $U/d80652a6-IMG_2720.mov -vf "$TM,
 sdr e 81d2c164-IMG_2746.mov 1.5 5.6          # 17.0-22.6 K3
 # 22.6-25.2 bio met link → tik → geboekt (één klik)
 ffmpeg -nostdin -v error -y -f lavfi -i color=c=0x0d1b3e:s=1080x1920:r=30:d=2.6 -loop 1 -t 2.6 -i $S/ov/bio.png -loop 1 -t 2.6 -i $S/ov/bio-tap.png -loop 1 -t 2.6 -i $S/ov/geboekt.png -filter_complex "[0][1]overlay=enable='lt(t,1.0)'[a];[a][2]overlay=enable='between(t,1.0,1.45)'[b];[b][3]overlay=enable='gte(t,1.45)',fps=30,format=yuv420p" $ENC -t 2.6 $S/f.mp4
-ffmpeg -nostdin -v error -y -ss 27.43 -i $R7 -t 8.17 $ENC $S/g.mp4   # vaste afsluiter
+# eindkaart zonder stem (4,5 s) tot er een nieuwe afsluiter gefilmd is
+node $O/eindkaart.js $S/ek
+ffmpeg -nostdin -v error -y -loop 1 -t 4.5 -i $S/ek/bg.png -loop 1 -t 4.5 -i $S/ek/e1.png -loop 1 -t 4.5 -i $S/ek/e2.png -loop 1 -t 4.5 -i $S/ek/e3.png -filter_complex "[1:v]format=rgba,fade=in:st=0.1:d=0.5:alpha=1[a];[2:v]format=rgba,fade=in:st=0.6:d=0.5:alpha=1[b];[3:v]format=rgba,fade=in:st=1.2:d=0.5:alpha=1[c];[0:v][a]overlay=y='60*pow(1-min(1\,t/0.6)\,3)'[x];[x][b]overlay=y='60*pow(1-min(1\,max(0\,(t-0.6)/0.6))\,3)'[y];[y][c]overlay=y='60*pow(1-min(1\,max(0\,(t-1.2)/0.6))\,3)',fps=30,format=yuv420p" $ENC -t 4.5 $S/g.mp4
 # overlays
 ov(){ in=$1; out=$2; shift 2; args=""; fc="[0:v]"; i=1; last="[0:v]"; f=""
   for o in "$@"; do IFS=: read png a b <<< "$o"; args="$args -i $S/ov/$png.png"; f="$f$last[$i:v]overlay=enable='between(t,$a,$b)'[o$i];"; last="[o$i]"; i=$((i+1)); done
@@ -35,7 +37,7 @@ pl ak2 $U/89b116f1-IMG_2743.mov 1.3 5.4 2.0
 pl avo $U/740f9e7c-Rozenstraat_4.m4a 1.9 8.0 9.0
 pl ak3 $U/81d2c164-IMG_2746.mov 1.5 5.6 17.0
 ffmpeg -nostdin -v error -y -i $S/ak2p.wav -i $S/avop.wav -i $S/ak3p.wav -filter_complex "[0][1][2]amix=inputs=3:normalize=0:duration=longest" -t 25.2 -ar 48000 -ac 2 $S/amain.wav
-ffmpeg -nostdin -v error -y -ss 27.43 -i $R7 -t 8.17 -vn -af "highpass=f=90,afftdn=nf=-25,equalizer=f=3000:t=q:w=1.2:g=2,acompressor=threshold=-20dB:ratio=3:attack=5:release=120,loudnorm=I=-15:TP=-1.5,aresample=48000,afade=in:d=0.12" -ar 48000 -ac 2 $S/ag.wav   # zelfde bewerking als de rest
+python3 $O/../../../klanten/flaxx/lancering/varianten/sound.py $S/ag.wav 4.5 "0.6,1.2" 0.0   # zachte slagen onder de eindkaart
 ffmpeg -nostdin -v error -y -i $S/amain.wav -i $S/ag.wav -filter_complex "[0][1]concat=n=2:v=0:a=1" $S/aall.wav
 rm -f $S/l2.txt; for x in mainov g; do echo "file '$S/$x.mp4'" >> $S/l2.txt; done
 ffmpeg -nostdin -v error -y -f concat -safe 0 -i $S/l2.txt -i $S/aall.wav -map 0:v -map 1:a -c:v libx264 -preset medium -b:v 8M -maxrate 9M -bufsize 16M -pix_fmt yuv420p -c:a aac -b:a 192k -movflags +faststart -shortest $O/reel8-boekingen-v1.mp4
