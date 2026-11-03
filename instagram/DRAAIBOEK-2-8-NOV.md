@@ -20,7 +20,8 @@ Vast ritme: ma 19u30 carrousel · di 19u30 reel · do 19u30 reel. Week na Sports
 - Training 18u-22u30: openingsshot collab-reel (speler neemt elleboog vast). Geen testrackets.
 
 ## Wo 4/11 · hoofdwerkdag
-- Ruwe montage collab-reel Flaxx (Claude) nakijken, VO, inplannen do 5/11 + collab-uitnodiging naar @flaxx_rackets.
+- Collab-reel v7 staat klaar (klanten/flaxx/collab/), alleen het elleboogshot van di nog vooraan. Nakijken, naar Koen ter goedkeuring, inplannen do 18u00 + uitnodiging samenwerker @flaxx_rackets.
+- Claude stelt het weekplan 9-15/11 voor.
 - Carrousel ma 9/11 "Zoveel levert één extra geboekt uur" (slides Claude).
 - Shoot voor di 10/11 "Zo vul je je sportkamp zonder flyers" en do 12/11 "Zo maak je van een proefles een vast lid".
 

@@ -122,3 +122,4 @@ Opvolging van contacten: zie `opvolging.md`.
 
 **Status ma 2/11:** carrousel "Padel: van hype naar gewoonte" klaar (cover A), inplannen 19u30. Lanceringsvideo Flaxx v1 klaar, vanavond naar Koen. Reel boekingen wacht op K7 + VO2, inplannen di 3/11.
 **Bijgestuurd ma 2/11:** collab-reel Flaxx do 5/11 om **18u00** (niet 19u30). Lanceringsvideo Flaxx: Koen post hem in de week van 9/11.
+**Status di 3/11:** collab-reel Flaxx v7 klaar (33 s, timing nagekeken met Jari), wacht op elleboogshot van de training vanavond. Reel boekingen: K7 + VO2 nog niet binnen (2 dagen open) → vandaag vóór 13u, anders zonder VO of naar volgende week.
