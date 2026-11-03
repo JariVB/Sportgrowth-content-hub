@@ -21,3 +21,5 @@ Let op: realistische AI-beelden in IG het label "AI-info" geven (Meta vraagt dit
 **v11** · 13,15-15,2 veld + oogst (schermopname), 15,2-17,1 IMG_2870 en 17,1-19,0 IMG_2867 (racket van dichtbij, vlasstructuur). Toestemming Mechielsen Oldehove BV nog nodig.
 
 **v12** · veld + oogst 13,15-16,3 (t/m "dat heel trillingsdempend werkt"), IMG_2870 16,3-18,05 ("Zo zijn we terechtgekomen bij"), IMG_2867 18,05-19,0 onder VLAS.
+
+**v13** · brug 2,2-4,0 na de hook: getekende trilling (bal → racket → arm → rode elleboog) met "Elke slag stuurt / trillingen / naar je elleboog". Alles daarna 1,8 s later, totaal 34,8 s. In motion.js: `R(t,ta)` = oude tijdlijn, `window.render` schuift de tijd op.
