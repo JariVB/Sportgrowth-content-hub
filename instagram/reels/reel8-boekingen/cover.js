@@ -5,7 +5,7 @@ const img='data:image/jpeg;base64,'+fs.readFileSync(__dirname+'/cover-bron.jpg')
 const html=`<style>@font-face{font-family:Rj;src:url(${f64(F+'/rajdhani-700.woff2')})}@font-face{font-family:In;src:url(${f64(F+'/inter-var.woff2')})}@font-face{font-family:Pp;src:url(${f64(F+'/poppins-700.woff2')})}
 body{margin:0;width:1080px;height:1920px;position:relative;overflow:hidden;background:#0d1b3e;font-family:In}
 .bg{position:absolute;inset:0;background:url(${img}) center 0/1080px auto no-repeat}
-.sh{position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,27,62,0) 0%,rgba(13,27,62,0) 52%,rgba(13,27,62,.85) 66%,rgba(13,27,62,.95) 82%,#0d1b3e 100%)}
+.sh{position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,27,62,0) 0%,rgba(13,27,62,0) 50%,rgba(13,27,62,.8) 64%,rgba(13,27,62,.95) 82%,#0d1b3e 100%)}
 .box{position:absolute;left:70px;right:70px;top:1220px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:30px}
 .badge{background:#00d4ff;color:#0d1b3e;font:700 36px/1 In;padding:18px 34px;border-radius:10px;letter-spacing:.06em}
 h1{margin:0;font:700 124px/.95 Rj;color:#fff;text-transform:uppercase}h1 span{color:#00d4ff}
