@@ -1,5 +1,5 @@
 # Collab-reel Flaxx × SportGrowth Media · "Het verhaal achter Flaxx" (do 5/11 18u00)
-v4 (2/11): geluid opnieuw opgebouwd (adelay werd genegeerd → nu stilte + concat per fragment, gemeten: Koen start op 2,5 s). v3 (2/11): hook 2,2 s met 0,28 s rust vóór Koen, Gilles G3 14,6-19,65 (met lichtgewicht/stijf/dempend), foto koen-jari-rackets-1 (ogen open). v1: 33 s, alles klaar behalve het openingsbeeld (tijdelijk: wazig racket).
+v8 (3/11): hook = animatie (lijntekening speler, bal tikt op racket, trilling door onderarm, elleboog licht rood op, "4 elleboogoperaties") + hooksfx.py. Te vervangen door echt elleboogshot als dat er komt. v4 (2/11): geluid opnieuw opgebouwd (adelay werd genegeerd → nu stilte + concat per fragment, gemeten: Koen start op 2,5 s). v3 (2/11): hook 2,2 s met 0,28 s rust vóór Koen, Gilles G3 14,6-19,65 (met lichtgewicht/stijf/dempend), foto koen-jari-rackets-1 (ogen open). v1: 33 s, alles klaar behalve het openingsbeeld (tijdelijk: wazig racket).
 | Tijd | Deel | Beeld | Geluid/tekst |
 |---|---|---|---|
 | 0-2,4 | Hook | elleboogshot di 3/11 (TIJDELIJK wazig racket) | "4 elleboogoperaties", kicker "Het verhaal achter Flaxx" |

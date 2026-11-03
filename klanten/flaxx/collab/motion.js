@@ -36,8 +36,25 @@ body{width:1080px;height:1920px;background:transparent;font-family:In;color:#fff
 .bar{width:6px;background:#e9d2c4}
 .blob{background:radial-gradient(closest-side,rgba(0,0,0,.6),rgba(0,0,0,.35) 55%,rgba(0,0,0,0))}
 </style></head><body>
-<div id="hbg" class="a" style="inset:0;background:radial-gradient(70% 45% at 50% 48%,rgba(0,0,0,.25),rgba(0,0,0,.65))"></div>
-<div id="hook" class="a ctr" style="top:640px"><div class="kick" id="hk"></div>
+<div id="hbg" class="a" style="inset:0;background:radial-gradient(80% 55% at 50% 40%,rgba(8,14,30,.86),rgba(3,6,14,.97))"></div>
+<svg id="arm" class="a" style="left:0;top:120px" width="1080" height="1000" viewBox="0 0 1080 1000">
+ <defs><filter id="gl"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <radialGradient id="rg"><stop offset="0" stop-color="#ff3b30" stop-opacity=".95"/><stop offset=".45" stop-color="#ff3b30" stop-opacity=".45"/><stop offset="1" stop-color="#ff3b30" stop-opacity="0"/></radialGradient></defs>
+ <g transform="translate(0,190)"><circle id="head" cx="105" cy="245" r="58" fill="none" stroke="#fff" stroke-width="9" filter="url(#gl)"/><path id="pT" d="M150 330 C 165 450, 175 560, 190 720" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" filter="url(#gl)" pathLength="1"/>
+ <g id="lineart" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" filter="url(#gl)">
+  <path id="pU" d="M150 330 C 260 380, 380 470, 470 560" pathLength="1"/>
+  <path id="pF" d="M470 560 C 560 500, 650 420, 730 350" pathLength="1"/>
+  <path id="pH" d="M730 350 c 22 -18, 46 -14, 52 6 c 6 18, -10 34, -30 40" pathLength="1"/>
+  <path id="pR" d="M760 340 L 800 250" pathLength="1"/><ellipse id="pE" cx="845" cy="125" rx="92" ry="122" transform="rotate(32 845 125)" pathLength="1"/>
+ </g>
+ <g id="holes" fill="#fff" opacity="0">${[[820,40],[870,70],[790,95],[845,120],[895,135],[815,160],[865,185],[780,145]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="9"/>`).join('')}</g>
+ <circle id="ball" cx="1150" cy="20" r="26" fill="#d7f15a"/>
+ <g id="rings" fill="none" stroke="#00d4ff" stroke-width="5"><circle id="r1" cx="850" cy="110" r="10"/><circle id="r2" cx="850" cy="110" r="10"/></g>
+ <path id="wave" fill="none" stroke-width="7" stroke-linecap="round" filter="url(#gl)" d=""/>
+ <circle id="glow" cx="470" cy="560" r="150" fill="url(#rg)" opacity="0"/>
+ <g id="zap" stroke="#ff3b30" stroke-width="7" stroke-linecap="round" opacity="0"><line x1="470" y1="470" x2="470" y2="430"/><line x1="545" y1="500" x2="575" y2="475"/><line x1="395" y1="500" x2="365" y2="475"/><line x1="560" y1="590" x2="600" y2="600"/><line x1="380" y1="590" x2="340" y2="600"/></g>
+</g></svg>
+<div id="hook" class="a ctr" style="top:1080px"><div class="kick" id="hk"></div>
  <div class="huge" id="h4">4</div><div style="height:10px"></div><div style="overflow:hidden;padding:0 10px 18px"><div class="big" id="hw" style="font-size:104px">elleboog&shy;operaties</div></div></div>
 <div id="ltk" class="a lt" style="left:70px;top:300px"><div class="bar" id="ltkb"></div><div style="overflow:hidden"><div id="ltkx"><b>Koen Hubert</b><i>Oprichter Flaxx</i></div></div></div>
 <div id="ltg" class="a lt" style="left:70px;top:300px"><div class="bar" id="ltgb"></div><div style="overflow:hidden"><div id="ltgx"><b>Gilles Koolen</b><i>BioFibix · vlasvezel</i></div></div></div>
@@ -64,12 +81,31 @@ const eo=x=>1-Math.pow(1-cl(x),3), eo5=x=>1-Math.pow(1-cl(x),5), eio=x=>{x=cl(x)
 const show=(el,t,a,b)=>{el.style.display=(t>=a&&t<b)?'':'none'};
 function lt(bar,x,box,t,a,b){show(box,t,a,b);bar.style.transform=\`scaleY(\${eo(p(t,a,a+.25))})\`;bar.style.transformOrigin='top';x.style.transform=\`translateX(\${(1-eo5(p(t,a+.1,a+.5)))*-110}%)\`;box.style.opacity=1-p(t,b-.25,b);}
 window.render=function(t){
+
+ // hook-illustratie: bal → impact → trilling door de onderarm → elleboog licht rood op
+ show($('arm'),t,0,2.2);
+ if(t<2.2){
+  const dr=(id,a,b)=>{const k=eo(p(t,a,b));$(id).style.strokeDasharray='1';$(id).style.strokeDashoffset=1-k;};
+  dr('pU',0,.35);dr('pT',0,.3);$('head').style.opacity=eo(p(t,0,.2));dr('pF',.05,.38);dr('pH',.1,.4);dr('pR',0,.3);dr('pE',0,.3); $('holes').style.opacity=eo(p(t,.2,.35));
+  {const k=p(t,0,.25);$('ball').setAttribute('cx',1150-(1150-905)*k);$('ball').setAttribute('cy',20+(85-20)*k);$('ball').style.opacity=t<.27?1:Math.max(0,1-(t-.27)/.1);}
+  {const a=p(t,.25,.7);$('r1').setAttribute('r',10+170*eo(a));$('r1').style.opacity=(t>=.25)*(1-a);const b=p(t,.33,.8);$('r2').setAttribute('r',10+140*eo(b));$('r2').style.opacity=(t>=.33)*(1-b);}
+  // trillingsgolf langs de onderarm (van pols 730,350 naar elleboog 470,560)
+  {let d='';const ph=t*38, amp=26*Math.max(0,1-Math.abs(t-.6)/.45);
+   for(let i=0;i<=60;i++){const u=i/60;const x=730+(470-730)*u, y=350+(560-350)*u; const nx=-(560-350)/335, ny=(470-730)/-335;
+     const w=Math.sin(u*22-ph)*amp*Math.min(1,cl((p(t,.28,.75))*1.6-u+.6)); d+=(i?'L':'M')+(x+nx*w).toFixed(1)+' '+(y+ny*w).toFixed(1)+' ';}
+   $('wave').setAttribute('d',d); const k=p(t,.3,.9); $('wave').setAttribute('stroke',k<.5?'#00d4ff':'#ff6b5e'); $('wave').style.opacity=(t>=.28)*(1-p(t,1.1,1.4));}
+  {const k=eo(p(t,.75,1.0));const pulse=.75+.25*Math.sin((t-.75)*18);$('glow').style.opacity=k*pulse;$('glow').setAttribute('r',120+50*k);$('zap').style.opacity=k*(t%0.16<0.1?1:.35);}
+  // arm trilt licht mee na de impact
+  {const sh=(t>.25&&t<1.0)?Math.sin(t*90)*6*(1-p(t,.25,1.0)):0;$('lineart').setAttribute('transform',\`translate(\${sh},\${sh*.4})\`);}
+  // bij de tekst schuift de tekening iets naar achter
+  $('arm').style.opacity=1-.45*eo(p(t,1.0,1.4)); $('arm').style.transform=\`scale(\${1-.04*eo(p(t,1.0,2.2))})\`;
+ }
  // hook
  show($('hook'),t,0,2.2); show($('hbg'),t,0,2.2);
- {const k=eo5(p(t,.15,.55));$('h4').style.transform=\`scale(\${1.6-.6*k})\`;$('h4').style.opacity=k;$('h4').style.filter=\`blur(\${(1-k)*14}px)\`;}
- {const k=eo5(p(t,.45,.95));$('hw').style.transform=\`translateY(\${(1-k)*110}%)\`;}
+ {const k=eo5(p(t,1.0,1.25));$('h4').style.transform=\`scale(\${1.6-.6*k})\`;$('h4').style.opacity=k;$('h4').style.filter=\`blur(\${(1-k)*14}px)\`;}
+ {const k=eo5(p(t,1.15,1.55));$('hw').style.transform=\`translateY(\${(1-k)*110}%)\`;}
  $('hk').style.opacity=eo(p(t,1.0,1.4)); $('hk').style.letterSpacing=(.8-.35*eo(p(t,1.0,1.9)))+'em';
- $('hook').style.transform=\`scale(\${1+.04*p(t,0,2.2)})\`;
+ $('hook').style.transform=\`scale(\${1+.04*p(t,1.0,2.2)})\`;
  // naambanden
  lt($('ltkb'),$('ltkx'),$('ltk'),t,3.0,7.4); lt($('ltgb'),$('ltgx'),$('ltg'),t,19.25,21.0);
  // VLAS
