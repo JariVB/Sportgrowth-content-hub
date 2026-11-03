@@ -15,10 +15,10 @@ sdr b 89b116f1-IMG_2743.mov 1.3 5.4          # 2-7.4 K2
 hlg c 7fb505d2-IMG_2719.mov 1.0 1.6          # 7.4-9.0 K4 leeg terrein
 hlg d1 ecdfb3b5-IMG_2724.mov 1.0 2.6         # 9.0-11.6 K6 langs terreinen
 hlg d2 9eca6a17-IMG_2712.mov 1.0 1.7         # 11.6-13.3 actie
-hlg d3 d80652a6-IMG_2720.mov 1.0 3.7         # 13.3-17.0 actie + post
+ffmpeg -nostdin -v error -y -ss 1.0 -t 3.7 -i $U/d80652a6-IMG_2720.mov -vf "$TM,$V,gblur=sigma=22,eq=brightness=-0.12:saturation=0.8" $ENC $S/d3.mp4   # 13.3-17.0 wazige achtergrond + voorbeeldpost
 sdr e 81d2c164-IMG_2746.mov 1.5 5.6          # 17.0-22.6 K3
-# 22.6-25.2 K7 schermopname in gsm-kader (2,8x sneller)
-ffmpeg -nostdin -v error -y -i $U/be972646-ScreenRecording_11-03-2026_12-36-53_1.mov -filter_complex "color=c=0x0d1b3e:s=1080x1920:r=30:d=2.6[bg];[0:v]setpts=PTS/2.8,scale=-2:1500,format=yuva420p[sc];[bg][sc]overlay=(W-w)/2:150:shortest=1,fps=30,format=yuv420p" $ENC -t 2.6 $S/f.mp4
+# 22.6-25.2 bio met link → tik → geboekt (één klik)
+ffmpeg -nostdin -v error -y -f lavfi -i color=c=0x0d1b3e:s=1080x1920:r=30:d=2.6 -loop 1 -t 2.6 -i $S/ov/bio.png -loop 1 -t 2.6 -i $S/ov/bio-tap.png -loop 1 -t 2.6 -i $S/ov/geboekt.png -filter_complex "[0][1]overlay=enable='lt(t,1.0)'[a];[a][2]overlay=enable='between(t,1.0,1.45)'[b];[b][3]overlay=enable='gte(t,1.45)',fps=30,format=yuv420p" $ENC -t 2.6 $S/f.mp4
 ffmpeg -nostdin -v error -y -ss 27.43 -i $R7 -t 8.17 $ENC $S/g.mp4   # vaste afsluiter
 # overlays
 ov(){ in=$1; out=$2; shift 2; args=""; fc="[0:v]"; i=1; last="[0:v]"; f=""
@@ -26,7 +26,7 @@ ov(){ in=$1; out=$2; shift 2; args=""; fc="[0:v]"; i=1; last="[0:v]"; f=""
   ffmpeg -nostdin -v error -y -i $S/$in.mp4 $args -filter_complex "${f}${last}format=yuv420p[vv]" -map "[vv]" $ENC $S/$out.mp4; }
 rm -f $S/l.txt; for x in a b c d1 d2 d3 e f; do echo "file '$S/$x.mp4'" >> $S/l.txt; done
 ffmpeg -nostdin -v error -y -f concat -safe 0 -i $S/l.txt -c copy $S/main.mp4
-ov main mainov l1:0.2:2.0 s1:2.12:3.6 s2:3.6:5.1 s3:5.1:6.55 s4:6.55:7.4 l2:7.5:9.0 s5:9.3:10.95 s6:10.95:11.85 s7:11.85:13.4 post:13.3:17.0 s8:13.4:14.4 s9:14.4:16.1 s10:16.1:17.0 s11:17.25:18.2 s12:18.2:19.7 s13:19.7:21.4 l3:22.7:25.2
+ov main mainov l1:0.2:2.0 s1:2.12:3.6 s2:3.6:5.1 s3:5.1:6.55 s4:6.55:7.4 l2:7.5:9.0 s5:9.3:10.95 s6:10.95:11.85 s7:11.85:13.4 post:13.3:17.0 s8:13.4:14.4 s9:14.4:16.1 s10:16.1:17.0 s11:17.25:18.2 s12:18.2:19.7 s13:19.7:21.4 l3:22.6:25.2
 # geluid: K2, VO2, K3 op hun plaats (stilte + concat), afsluiter uit reel 7
 DN="highpass=f=80,afftdn=nf=-25,acompressor=threshold=-20dB:ratio=3:attack=5:release=120,loudnorm=I=-15:TP=-1.5,aresample=48000,aformat=channel_layouts=stereo"
 pl(){ ffmpeg -nostdin -v error -y -ss $3 -t $4 -i $2 -vn -af "$DN,afade=in:d=0.05,afade=out:st=$(python3 -c "print($4-0.15)"):d=0.15" -ar 48000 -ac 2 $S/$1.wav
