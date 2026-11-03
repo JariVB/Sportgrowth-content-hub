@@ -12,3 +12,6 @@ Na te kijken: timing ondertitels Gilles (geschat op pauzes). Muziek: in Instagra
 Elleboogshot toevoegen: `HOOK=/pad/naar/clip.mov HOOKSS=<start> ./base.sh && ./render.sh v2 skipmotion`
 Vlasbeelden Gilles: c1/c2 in base.sh vervangen.
 Bouwen: base.sh (beeld + spraak) → motion.js (titels) → render.sh (mix + export).
+
+**v9** · hook met AI-clip (Kling, `hook-kling-bron.mp4`): smash 0-0,75 s, snede met punch-in op de elleboog 0,75-2,2 s, watermerk weggesneden. Tekst "Last van je / elleboog / na padel?" (elleboog in rood) vanaf 0,75 s, slag in het geluid op de snede. Terug naar de getekende hook: `HOOKANIM=1 ./base.sh && HOOKANIM=1 node motion.js <mo> 0-70 && HOOKANIM=1 ./render.sh vX skipmotion`.
+Let op: realistische AI-beelden in IG het label "AI-info" geven (Meta vraagt dit).
