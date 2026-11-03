@@ -24,8 +24,9 @@ v b1 $U/6b860131-DJI_20261101_170923_523_video.mov 0.0 10.95 0.006 "$GW"
 # C · de zoektocht 13.15-19.0 (B-roll onder V5 11.15-17.0)
 VL=$O/vlas-oogst-bron.mov; VC="crop=944:1680:40:340,scale=1080:1920:flags=lanczos"   # schermopname vlasoogst (Mechielsen Oldehove BV), UI weggesneden
 cv(){ ffmpeg -nostdin -v error -y -ss $2 -t $3 -i $VL -vf "$VC,scale=eval=frame:w='trunc(1080*(1+$4*t)/2)*2':h=-2,crop=1080:1920,fps=30,setsar=1,$G,format=yuv420p" $ENC -t $3 $S/$1.mp4; }
-cv c1 0.2 2.85 0.03
-cv c2 3.05 3.0 0.04
+cv c1 2.8 2.05 0.03                                   # 13,15-15,2 veld + oogstmachine
+v c2 $U/b4980fd9-IMG_2870.mov 2.0 1.9 0.04           # 15,2-17,1 racket van dichtbij: vlasstructuur
+v c3 $U/89509846-IMG_2867.mov 1.0 1.9 0.05           # 17,1-19,0 racket van dichtbij (VLAS-titel vanaf 18,05)
 # D · het materiaal 19.0-24.3 (Gilles G3 11.35-16.65 doorlopend: "Vlasvezel heeft een unieke combinatie tussen lichtgewicht, stijf en heel goed dempend")
 v d1 $U/5c67f1e9-DJI_20261101_164750_697_video.mov 11.35 2.0 0.01 "$GW"
 v d2 $U/cbc545d6-IMG_2896.mov 7.95 1.6 0
@@ -36,7 +37,7 @@ v e1 $U/f807067d-IMG_2904.mov 0.0 2.2 0.03
 v e2 $U/670c7381-IMG_2905.mov 0.0 2.35 0.03
 # F · afsluiter 28.85-33.0 (foto)
 ffmpeg -nostdin -v error -y -loop 1 -t 4.15 -i /home/user/Sportgrowth-content-hub/instagram/beeldbank/sports-next-1-11/koen-jari-rackets-1.jpg -vf "scale=-2:2050,crop=1080:1920:(iw-1080)/2:60,scale=eval=frame:w='trunc(1080*(1+0.03*t)/2)*2':h=-2,crop=1080:1920,fps=30,setsar=1,$G,format=yuv420p" $ENC -t 4.15 $S/f1.mp4
-cd $S && rm -f l.txt && for x in a1 b1 c1 c2 d1 d2 d3 d4 e1 e2 f1; do echo "file '$x.mp4'" >> l.txt; done
+cd $S && rm -f l.txt && for x in a1 b1 c1 c2 c3 d1 d2 d3 d4 e1 e2 f1; do echo "file '$x.mp4'" >> l.txt; done
 ffmpeg -nostdin -v error -y -f concat -safe 0 -i l.txt -c:v libx264 -crf 16 -preset fast -r 30 -pix_fmt yuv420p base.mp4
 # spraak: elk fragment apart, met stilte ervoor (apad/concat i.p.v. adelay), daarna samen
 DN="highpass=f=85,afftdn=nf=-28,acompressor=threshold=-20dB:ratio=3:attack=5:release=120,loudnorm=I=-16:TP=-1.5,aresample=48000,aformat=channel_layouts=stereo"
