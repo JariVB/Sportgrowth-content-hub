@@ -35,7 +35,7 @@ pl ak2 $U/89b116f1-IMG_2743.mov 1.3 5.4 2.0
 pl avo $U/740f9e7c-Rozenstraat_4.m4a 1.9 8.0 9.0
 pl ak3 $U/81d2c164-IMG_2746.mov 1.5 5.6 17.0
 ffmpeg -nostdin -v error -y -i $S/ak2p.wav -i $S/avop.wav -i $S/ak3p.wav -filter_complex "[0][1][2]amix=inputs=3:normalize=0:duration=longest" -t 25.2 -ar 48000 -ac 2 $S/amain.wav
-ffmpeg -nostdin -v error -y -ss 27.43 -i $R7 -t 8.17 -vn -ar 48000 -ac 2 $S/ag.wav
+ffmpeg -nostdin -v error -y -ss 27.43 -i $R7 -t 8.17 -vn -af "highpass=f=90,afftdn=nf=-25,equalizer=f=3000:t=q:w=1.2:g=2,acompressor=threshold=-20dB:ratio=3:attack=5:release=120,loudnorm=I=-15:TP=-1.5,aresample=48000,afade=in:d=0.12" -ar 48000 -ac 2 $S/ag.wav   # zelfde bewerking als de rest
 ffmpeg -nostdin -v error -y -i $S/amain.wav -i $S/ag.wav -filter_complex "[0][1]concat=n=2:v=0:a=1" $S/aall.wav
 rm -f $S/l2.txt; for x in mainov g; do echo "file '$S/$x.mp4'" >> $S/l2.txt; done
 ffmpeg -nostdin -v error -y -f concat -safe 0 -i $S/l2.txt -i $S/aall.wav -map 0:v -map 1:a -c:v libx264 -preset medium -b:v 8M -maxrate 9M -bufsize 16M -pix_fmt yuv420p -c:a aac -b:a 192k -movflags +faststart -shortest $O/reel8-boekingen-v1.mp4
