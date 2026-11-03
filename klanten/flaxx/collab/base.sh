@@ -22,8 +22,10 @@ elif [ -n "$HOOK" ]; then v a1 "$HOOK" $HOOKSS 2.2 0.03; else
 # B · Koen het verhaal 2.2-13.15 (V5 0.0-10.5: 0,28 s rust na de snede)
 v b1 $U/6b860131-DJI_20261101_170923_523_video.mov 0.0 10.95 0.006 "$GW"
 # C · de zoektocht 13.15-19.0 (B-roll onder V5 11.15-17.0)
-v c1 $U/b4980fd9-IMG_2870.mov 2.0 2.85 0.04
-v c2 $U/89509846-IMG_2867.mov 1.0 3.0 0.05
+VL=$O/vlas-oogst-bron.mov; VC="crop=944:1680:40:340,scale=1080:1920:flags=lanczos"   # schermopname vlasoogst (Mechielsen Oldehove BV), UI weggesneden
+cv(){ ffmpeg -nostdin -v error -y -ss $2 -t $3 -i $VL -vf "$VC,scale=eval=frame:w='trunc(1080*(1+$4*t)/2)*2':h=-2,crop=1080:1920,fps=30,setsar=1,$G,format=yuv420p" $ENC -t $3 $S/$1.mp4; }
+cv c1 0.2 2.85 0.03
+cv c2 3.05 3.0 0.04
 # D · het materiaal 19.0-24.3 (Gilles G3 11.35-16.65 doorlopend: "Vlasvezel heeft een unieke combinatie tussen lichtgewicht, stijf en heel goed dempend")
 v d1 $U/5c67f1e9-DJI_20261101_164750_697_video.mov 11.35 2.0 0.01 "$GW"
 v d2 $U/cbc545d6-IMG_2896.mov 7.95 1.6 0
