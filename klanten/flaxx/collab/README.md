@@ -19,3 +19,5 @@ Let op: realistische AI-beelden in IG het label "AI-info" geven (Meta vraagt dit
 **v10** · c1/c2 (13,15-19,0) = vlasoogst uit een schermopname (`vlas-oogst-bron.mov`, post van Mechielsen Oldehove BV, UI weggesneden). **Toestemming vragen vóór posten**, of vervangen door beelden van Gilles/BioFibix.
 
 **v11** · 13,15-15,2 veld + oogst (schermopname), 15,2-17,1 IMG_2870 en 17,1-19,0 IMG_2867 (racket van dichtbij, vlasstructuur). Toestemming Mechielsen Oldehove BV nog nodig.
+
+**v12** · veld + oogst 13,15-16,3 (t/m "dat heel trillingsdempend werkt"), IMG_2870 16,3-18,05 ("Zo zijn we terechtgekomen bij"), IMG_2867 18,05-19,0 onder VLAS.

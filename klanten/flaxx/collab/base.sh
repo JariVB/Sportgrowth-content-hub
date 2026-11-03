@@ -24,9 +24,9 @@ v b1 $U/6b860131-DJI_20261101_170923_523_video.mov 0.0 10.95 0.006 "$GW"
 # C · de zoektocht 13.15-19.0 (B-roll onder V5 11.15-17.0)
 VL=$O/vlas-oogst-bron.mov; VC="crop=944:1680:40:340,scale=1080:1920:flags=lanczos"   # schermopname vlasoogst (Mechielsen Oldehove BV), UI weggesneden
 cv(){ ffmpeg -nostdin -v error -y -ss $2 -t $3 -i $VL -vf "$VC,scale=eval=frame:w='trunc(1080*(1+$4*t)/2)*2':h=-2,crop=1080:1920,fps=30,setsar=1,$G,format=yuv420p" $ENC -t $3 $S/$1.mp4; }
-cv c1 2.8 2.05 0.03                                   # 13,15-15,2 veld + oogstmachine
-v c2 $U/b4980fd9-IMG_2870.mov 2.0 1.9 0.04           # 15,2-17,1 racket van dichtbij: vlasstructuur
-v c3 $U/89509846-IMG_2867.mov 1.0 1.9 0.05           # 17,1-19,0 racket van dichtbij (VLAS-titel vanaf 18,05)
+cv c1 2.8 3.15 0.03                                   # 13,15-16,3 veld + oogstmachine (t/m "dat heel trillingsdempend werkt")
+v c2 $U/b4980fd9-IMG_2870.mov 2.0 1.75 0.04          # 16,3-18,05 racket van dichtbij: "Zo zijn we terechtgekomen bij"
+v c3 $U/89509846-IMG_2867.mov 1.0 0.95 0.05          # 18,05-19,0 racket van dichtbij onder de VLAS-titel
 # D · het materiaal 19.0-24.3 (Gilles G3 11.35-16.65 doorlopend: "Vlasvezel heeft een unieke combinatie tussen lichtgewicht, stijf en heel goed dempend")
 v d1 $U/5c67f1e9-DJI_20261101_164750_697_video.mov 11.35 2.0 0.01 "$GW"
 v d2 $U/cbc545d6-IMG_2896.mov 7.95 1.6 0
