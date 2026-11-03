@@ -8,6 +8,7 @@ const b64 = p => 'data:image/png;base64,' + fs.readFileSync(p).toString('base64'
 const L = __dirname + '/../lancering/';
 const wm = b64(L + 'off-wordmark-white.png'), sym = b64(L + 'off-emblem-symbool-white.png'), ring = b64(L + 'off-emblem-ring-white.png');
 const FPS = 30, DUR = 33.0;
+const CLIP = process.env.HOOKANIM ? 0 : 1; // 1 = echte hookclip onder de tekst, 0 = getekende animatie
 // ondertitels: [start, eind, [stukken]] → stukken krijgen tijd volgens lengte (3-6 woorden, geen leestekens)
 // ondertitels per stuk, gesnapt op de spraakstukken (gemeten op de pauzes), 0,12 s vroeger in beeld
 const LEAD = 0.12;
@@ -54,6 +55,8 @@ body{width:1080px;height:1920px;background:transparent;font-family:In;color:#fff
  <circle id="glow" cx="470" cy="560" r="150" fill="url(#rg)" opacity="0"/>
  <g id="zap" stroke="#ff3b30" stroke-width="7" stroke-linecap="round" opacity="0"><line x1="470" y1="470" x2="470" y2="430"/><line x1="545" y1="500" x2="575" y2="475"/><line x1="395" y1="500" x2="365" y2="475"/><line x1="560" y1="590" x2="600" y2="600"/><line x1="380" y1="590" x2="340" y2="600"/></g>
 </g></svg>
+<div id="hook2" class="a ctr" style="top:1290px"><div style="overflow:hidden;padding:0 10px 14px"><div class="big" id="q1" style="font-size:112px">Last van je</div></div><div style="overflow:hidden;padding:0 10px 14px"><div class="big" id="q2" style="font-size:112px;color:#ff5a4e">elleboog</div></div><div style="overflow:hidden;padding:0 10px 18px"><div class="big" id="q3" style="font-size:112px">na padel?</div></div></div>
+<div id="hqbg" class="a" style="left:0;right:0;top:1100px;height:820px;background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.55) 45%,rgba(0,0,0,.7))"></div>
 <div id="hook" class="a ctr" style="top:1080px"><div class="kick" id="hk"></div>
  <div class="huge" id="h4">4</div><div style="height:10px"></div><div style="overflow:hidden;padding:0 10px 18px"><div class="big" id="hw" style="font-size:104px">elleboog&shy;operaties</div></div></div>
 <div id="ltk" class="a lt" style="left:70px;top:300px"><div class="bar" id="ltkb"></div><div style="overflow:hidden"><div id="ltkx"><b>Koen Hubert</b><i>Oprichter Flaxx</i></div></div></div>
@@ -83,8 +86,8 @@ function lt(bar,x,box,t,a,b){show(box,t,a,b);bar.style.transform=\`scaleY(\${eo(
 window.render=function(t){
 
  // hook-illustratie: bal → impact → trilling door de onderarm → elleboog licht rood op
- show($('arm'),t,0,2.2);
- if(t<2.2){
+ show($('arm'),t,0,${CLIP}?0:2.2);
+ if(!${CLIP}&&t<2.2){
   const dr=(id,a,b)=>{const k=eo(p(t,a,b));$(id).style.strokeDasharray='1';$(id).style.strokeDashoffset=1-k;};
   dr('pU',0,.35);dr('pT',0,.3);$('head').style.opacity=eo(p(t,0,.2));dr('pF',.05,.38);dr('pH',.1,.4);dr('pR',0,.3);dr('pE',0,.3); $('holes').style.opacity=eo(p(t,.2,.35));
   {const k=p(t,0,.25);$('ball').setAttribute('cx',1150-(1150-905)*k);$('ball').setAttribute('cy',20+(85-20)*k);$('ball').style.opacity=t<.27?1:Math.max(0,1-(t-.27)/.1);}
@@ -101,7 +104,11 @@ window.render=function(t){
   $('arm').style.opacity=1-.45*eo(p(t,1.0,1.4)); $('arm').style.transform=\`scale(\${1-.04*eo(p(t,1.0,2.2))})\`;
  }
  // hook
- show($('hook'),t,0,2.2); show($('hbg'),t,0,2.2);
+ show($('hook'),t,0,${CLIP}?0:2.2); show($('hbg'),t,0,${CLIP}?0:2.2); show($('hook2'),t,0,${CLIP}?2.2:0); show($('hqbg'),t,0,${CLIP}?2.2:0);
+ $('hqbg').style.opacity=eo(p(t,.7,.9));
+ [['q1',.75],['q2',.87],['q3',.99]].forEach(([id,a])=>{const k=eo5(p(t,a,a+.3));$(id).style.transform=\`translateY(\${(1-k)*110}%)\`;});
+ $('q2').style.textShadow=\`0 0 \${30+30*Math.max(0,Math.sin((t-.9)*14))}px rgba(255,59,48,.75),0 8px 60px rgba(0,0,0,.55)\`;
+ $('hook2').style.transform=\`scale(\${1+.035*p(t,.75,2.2)})\`;
  {const k=eo5(p(t,1.0,1.25));$('h4').style.transform=\`scale(\${1.6-.6*k})\`;$('h4').style.opacity=k;$('h4').style.filter=\`blur(\${(1-k)*14}px)\`;}
  {const k=eo5(p(t,1.15,1.55));$('hw').style.transform=\`translateY(\${(1-k)*110}%)\`;}
  $('hk').style.opacity=eo(p(t,1.0,1.4)); $('hk').style.letterSpacing=(.8-.35*eo(p(t,1.0,1.9)))+'em';

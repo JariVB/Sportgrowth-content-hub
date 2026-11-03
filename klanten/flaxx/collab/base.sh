@@ -12,7 +12,12 @@ ENC="-an -c:v libx264 -crf 16 -preset fast -r 30 -pix_fmt yuv420p"
 v(){ n=$1; f=$2; ss=$3; d=$4; z=$5; g=${6:-$G}
   ffmpeg -nostdin -v error -y -ss $ss -t $d -i $f -vf "scale=1080:1920:force_original_aspect_ratio=increase:flags=lanczos,crop=1080:1920,scale=eval=frame:w='trunc(1080*(1+$z*t)/2)*2':h=-2,crop=1080:1920,fps=30,setsar=1,$g,format=yuv420p" $ENC -t $d $S/$n.mp4; }
 # A · hook 0-2.4
-if [ -n "$HOOK" ]; then v a1 "$HOOK" $HOOKSS 2.2 0.03; else
+if [ -z "$HOOK" ] && [ -z "$HOOKANIM" ]; then  # Kling-clip: smash (bron 0,2-0,95) + punch-in op de elleboog (bron 3,0-4,45), watermerk weggesneden
+  K=$O/hook-kling-bron.mp4; SH="unsharp=5:5:0.6:5:5:0"
+  ffmpeg -nostdin -v error -y -ss 0.2 -t 0.75 -i $K -vf "crop=664:1180:28:0,scale=1080:1920:flags=lanczos,$SH,fps=30,setsar=1,$G,format=yuv420p" $ENC -t 0.75 $S/ha.mp4
+  ffmpeg -nostdin -v error -y -ss 3.0 -t 1.45 -i $K -vf "crop=533:948:103:206,scale=1080:1920:flags=lanczos,scale=eval=frame:w='trunc(1080*(1+0.05*t)/2)*2':h=-2,crop=1080:1920,$SH,fps=30,setsar=1,$G,format=yuv420p" $ENC -t 1.45 $S/hb.mp4
+  printf "file '$S/ha.mp4'\nfile '$S/hb.mp4'\n" > $S/hl.txt; ffmpeg -nostdin -v error -y -f concat -safe 0 -i $S/hl.txt $ENC $S/a1.mp4
+elif [ -n "$HOOK" ]; then v a1 "$HOOK" $HOOKSS 2.2 0.03; else
   ffmpeg -nostdin -v error -y -ss 9.2 -t 2.2 -i $U/c6ceeec3-IMG_2886.mov -vf "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,gblur=sigma=18,eq=brightness=-0.18:saturation=0.6,fps=30,setsar=1,format=yuv420p" $ENC -t 2.2 $S/a1.mp4; fi
 # B · Koen het verhaal 2.2-13.15 (V5 0.0-10.5: 0,28 s rust na de snede)
 v b1 $U/6b860131-DJI_20261101_170923_523_video.mov 0.0 10.95 0.006 "$GW"
