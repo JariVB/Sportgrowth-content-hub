@@ -29,3 +29,4 @@ Let op: realistische AI-beelden in IG het label "AI-info" geven (Meta vraagt dit
 **v15** · vlasdeel met foto's van BioFibix (`biofibix/`): drone-veld 13,15-15,2 · vlasplanten 15,2-16,6 · vezelrol 16,6-18,05 (logo weggesneden) · racket IMG_2870 18,05-19,0 onder VLAS. Geen schermopname van Mechielsen meer nodig.
 
 **v16-A / v16-B** · slot 24,3-28,85 vervangen (V4 "mechanische eigenschap" eruit). A: Koen V2a 0,7-5,05 "De ERGO CONTROL en de ERGO POWER zijn twee verschillende types rackets". B: Koen panel IMG_2937 9,8-11,6 "We zijn uniek met onze rackets" + 14,8-18,15 "En we willen die pioniersrol blijven opnemen" (snedes op pauzes gemeten, niet beluisterd). Kiezen met `VAR=A|B ./base.sh && VAR=A|B node motion.js <mo>`.
+Gekozen: **v16-B** (wo 4/11, Jari). Standaard staat VAR nu op B.

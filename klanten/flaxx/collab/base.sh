@@ -56,7 +56,7 @@ clip sc $U/5c67f1e9-DJI_20261101_164750_697_video.mov 11.35 5.3 19.0 5.15
 # slot 24,3-28,85 · VAR=A: Koen V2a "De ERGO CONTROL en de ERGO POWER zijn twee verschillende types rackets"
 #                  VAR=B: Koen panel P1 "We zijn uniek met onze rackets" + "En we willen die pioniersrol blijven opnemen" (zonder "nergens ter wereld")
 #                  VAR=oud: V4 "Omdat Flaxx rackets van mechanische eigenschap…"
-case "${VAR:-A}" in
+case "${VAR:-B}" in
  A) clip sd $U/35b5ce36-DJI_20261101_143744_752_video.mov 0.7 4.35 24.3 4.2; cp $S/sdp.wav $S/sd2p.wav; ffmpeg -nostdin -v error -y -f lavfi -t 33 -i anullsrc=r=48000:cl=stereo $S/sd2p.wav ;;
  B) clip sd $U/5ff94a10-IMG_2937.mov 9.8 1.8 24.3 1.65; clip sd2 $U/5ff94a10-IMG_2937.mov 14.8 3.35 26.2 3.2 ;;
  *) clip sd $U/dfbf3a94-DJI_20261101_143744_752_video.mov 2.6 3.9 24.3 3.75; ffmpeg -nostdin -v error -y -f lavfi -t 33 -i anullsrc=r=48000:cl=stereo $S/sd2p.wav ;;

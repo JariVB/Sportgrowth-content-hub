@@ -19,7 +19,7 @@ const CH = [
  [16.97, 'Zo zijn we terechtgekomen bij'], [18.05, null],
  [19.10, 'Vlasvezel heeft een unieke combinatie tussen'], [20.95, null],
  ...({A:[[24.45, 'De ERGO CONTROL en de ERGO POWER'], [26.25, 'zijn twee verschillende types rackets'], [28.55, null]],
-      B:[[24.35, 'We zijn uniek met onze rackets'], [26.1, null], [26.25, 'En we willen die pioniersrol'], [28.35, 'blijven opnemen'], [29.4, null]]}[process.env.VAR||'A'] || [[24.35, 'Omdat Flaxx rackets'], [25.15, 'van mechanische eigenschap'], [26.45, 'een zeer hoge trillingsdemping heeft'], [28.2, null]]),
+      B:[[24.35, 'We zijn uniek met onze rackets'], [26.1, null], [26.25, 'En we willen die pioniersrol'], [28.35, 'blijven opnemen'], [29.4, null]]}[process.env.VAR||'B'] || [[24.35, 'Omdat Flaxx rackets'], [25.15, 'van mechanische eigenschap'], [26.45, 'een zeer hoge trillingsdemping heeft'], [28.2, null]]),
 ];
 const SUBS = [];
 for (let i = 0; i < CH.length - 1; i++) if (CH[i][1]) SUBS.push([CH[i][0] - LEAD, CH[i + 1][0], CH[i][1]]);
