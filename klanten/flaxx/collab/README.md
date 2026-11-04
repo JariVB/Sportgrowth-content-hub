@@ -23,3 +23,5 @@ Let op: realistische AI-beelden in IG het label "AI-info" geven (Meta vraagt dit
 **v12** · veld + oogst 13,15-16,3 (t/m "dat heel trillingsdempend werkt"), IMG_2870 16,3-18,05 ("Zo zijn we terechtgekomen bij"), IMG_2867 18,05-19,0 onder VLAS.
 
 **v13** · brug 2,2-4,0 na de hook: getekende trilling (bal → racket → arm → rode elleboog) met "Elke slag stuurt / trillingen / naar je elleboog". Alles daarna 1,8 s later, totaal 34,8 s. In motion.js: `R(t,ta)` = oude tijdlijn, `window.render` schuift de tijd op.
+
+**v14** · animatie eruit (terug naar 33 s, hook = enkel Kling-clip). Vlasveld 13,15-18,05 (t/m "Zo zijn we terechtgekomen bij"), IMG_2870 racket met vlasstructuur 18,05-19,0 onder VLAS, daarna Gilles.

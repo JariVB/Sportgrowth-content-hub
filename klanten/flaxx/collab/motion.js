@@ -7,7 +7,7 @@ const f64 = p => 'data:font/woff2;base64,' + fs.readFileSync(p).toString('base64
 const b64 = p => 'data:image/png;base64,' + fs.readFileSync(p).toString('base64');
 const L = __dirname + '/../lancering/';
 const wm = b64(L + 'off-wordmark-white.png'), sym = b64(L + 'off-emblem-symbool-white.png'), ring = b64(L + 'off-emblem-ring-white.png');
-const FPS = 30, DUR = 34.8; // v13: brug 2,2-4,0 (trillingsanimatie), alles daarna +1,8 s
+const FPS = 30, DUR = 33.0;
 const CLIP = process.env.HOOKANIM ? 0 : 1; // 1 = echte hookclip onder de tekst, 0 = getekende animatie
 // ondertitels: [start, eind, [stukken]] → stukken krijgen tijd volgens lengte (3-6 woorden, geen leestekens)
 // ondertitels per stuk, gesnapt op de spraakstukken (gemeten op de pauzes), 0,12 s vroeger in beeld
@@ -55,7 +55,6 @@ body{width:1080px;height:1920px;background:transparent;font-family:In;color:#fff
  <circle id="glow" cx="470" cy="560" r="150" fill="url(#rg)" opacity="0"/>
  <g id="zap" stroke="#ff3b30" stroke-width="7" stroke-linecap="round" opacity="0"><line x1="470" y1="470" x2="470" y2="430"/><line x1="545" y1="500" x2="575" y2="475"/><line x1="395" y1="500" x2="365" y2="475"/><line x1="560" y1="590" x2="600" y2="600"/><line x1="380" y1="590" x2="340" y2="600"/></g>
 </g></svg>
-<div id="br" class="a ctr" style="top:1200px"><div style="overflow:hidden;padding:0 10px 12px"><div class="big" id="b1" style="font-size:96px">Elke slag stuurt</div></div><div style="overflow:hidden;padding:0 10px 12px"><div class="big" id="b2" style="font-size:96px;color:#ff5a4e">trillingen</div></div><div style="overflow:hidden;padding:0 10px 18px"><div class="big" id="b3" style="font-size:96px">naar je elleboog</div></div></div>
 <div id="hook2" class="a ctr" style="top:1290px"><div style="overflow:hidden;padding:0 10px 14px"><div class="big" id="q1" style="font-size:112px">Last van je</div></div><div style="overflow:hidden;padding:0 10px 14px"><div class="big" id="q2" style="font-size:112px;color:#ff5a4e">elleboog</div></div><div style="overflow:hidden;padding:0 10px 18px"><div class="big" id="q3" style="font-size:112px">na padel?</div></div></div>
 <div id="hqbg" class="a" style="left:0;right:0;top:1100px;height:820px;background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.55) 45%,rgba(0,0,0,.7))"></div>
 <div id="hook" class="a ctr" style="top:1080px"><div class="kick" id="hk"></div>
@@ -84,11 +83,11 @@ const cl=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)), p=(t,a,b)=>cl((t-a)/(b-a));
 const eo=x=>1-Math.pow(1-cl(x),3), eo5=x=>1-Math.pow(1-cl(x),5), eio=x=>{x=cl(x);return x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2};
 const show=(el,t,a,b)=>{el.style.display=(t>=a&&t<b)?'':'none'};
 function lt(bar,x,box,t,a,b){show(box,t,a,b);bar.style.transform=\`scaleY(\${eo(p(t,a,a+.25))})\`;bar.style.transformOrigin='top';x.style.transform=\`translateX(\${(1-eo5(p(t,a+.1,a+.5)))*-110}%)\`;box.style.opacity=1-p(t,b-.25,b);}
-const R=function(t,ta){
+window.render=function(t){
 
  // hook-illustratie: bal → impact → trilling door de onderarm → elleboog licht rood op
- $('arm').style.display=ta>=0?'':'none';
- if(ta>=0)((t)=>{
+ show($('arm'),t,0,${CLIP}?0:2.2);
+ if(!${CLIP}&&t<2.2){
   const dr=(id,a,b)=>{const k=eo(p(t,a,b));$(id).style.strokeDasharray='1';$(id).style.strokeDashoffset=1-k;};
   dr('pU',0,.35);dr('pT',0,.3);$('head').style.opacity=eo(p(t,0,.2));dr('pF',.05,.38);dr('pH',.1,.4);dr('pR',0,.3);dr('pE',0,.3); $('holes').style.opacity=eo(p(t,.2,.35));
   {const k=p(t,0,.25);$('ball').setAttribute('cx',1150-(1150-905)*k);$('ball').setAttribute('cy',20+(85-20)*k);$('ball').style.opacity=t<.27?1:Math.max(0,1-(t-.27)/.1);}
@@ -103,9 +102,9 @@ const R=function(t,ta){
   {const sh=(t>.25&&t<1.0)?Math.sin(t*90)*6*(1-p(t,.25,1.0)):0;$('lineart').setAttribute('transform',\`translate(\${sh},\${sh*.4})\`);}
   // bij de tekst schuift de tekening iets naar achter
   $('arm').style.opacity=1-.45*eo(p(t,1.0,1.4)); $('arm').style.transform=\`scale(\${1-.04*eo(p(t,1.0,2.2))})\`;
- })(ta);
+ }
  // hook
- show($('hook'),t,0,${CLIP}?0:2.2); $('hbg').style.display=ta>=0?'':'none'; show($('hook2'),t,0,${CLIP}?2.2:0); show($('hqbg'),t,0,${CLIP}?2.2:0);
+ show($('hook'),t,0,${CLIP}?0:2.2); show($('hbg'),t,0,${CLIP}?0:2.2); show($('hook2'),t,0,${CLIP}?2.2:0); show($('hqbg'),t,0,${CLIP}?2.2:0);
  $('hqbg').style.opacity=eo(p(t,.7,.9));
  [['q1',.75],['q2',.87],['q3',.99]].forEach(([id,a])=>{const k=eo5(p(t,a,a+.3));$(id).style.transform=\`translateY(\${(1-k)*110}%)\`;});
  $('q2').style.textShadow=\`0 0 \${30+30*Math.max(0,Math.sin((t-.9)*14))}px rgba(255,59,48,.75),0 8px 60px rgba(0,0,0,.55)\`;
@@ -139,15 +138,6 @@ const R=function(t,ta){
  // flitsen
  let f=0; for(const [a,s] of [[2.2,.85],[19.0,.35],[24.3,.4],[28.85,.8]]) f=Math.max(f,s*(1-eo(p(t,a,a+.35)))*(t>=a?1:0));
  $('fl').style.opacity=f;
-};
-// brug 2,2-4,0: getekende trilling door de arm + tekst; daarna loopt de oude tijdlijn 1,8 s later
-window.render=function(t){const D=1.8,B=2.2; let ta=-1,tt=t;
- if(t>=B&&t<B+D){ta=(t-B)*.95;tt=-5;} else if(t>=B+D) tt=t-D; else if(!${CLIP}) ta=t;
- R(tt,ta); const u=t-B; show($('br'),t,B,B+D);
- [['b1',.45],['b2',.57],['b3',.69]].forEach(([id,a])=>{const k=eo5(p(u,a,a+.3));$(id).style.transform=\`translateY(\${(1-k)*110}%)\`;});
- $('b2').style.textShadow=\`0 0 \${30+30*Math.max(0,Math.sin((u-.6)*14))}px rgba(255,59,48,.7),0 8px 60px rgba(0,0,0,.55)\`;
- $('br').style.opacity=1-p(u,D-.12,D);
- if(t>=B&&t<B+.35) $('fl').style.opacity=.6*(1-eo(p(t,B,B+.35)));
 };
 </script></body></html>`;
 (async () => {
