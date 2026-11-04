@@ -13,16 +13,19 @@ Vast ritme: ma 19u30 carrousel · di 19u30 reel · do 19u30 reel. Week na Sports
 - K7 + VO2 inspreken → Claude monteert reel boekingen, inplannen schuift naar di 3/11 (overdag).
 - Batch 3 screenshots (als we de verkoop zo verderzetten) + opvolgen.
 
-## Di 3/11 · Reel boekingen "Zo krijg je meer boekingen in je sportcentrum" (19u30)
+## Di 3/11 · Reel boekingen (gepost? bevestigen) "Zo krijg je meer boekingen in je sportcentrum" (19u30)
 - Flaxx: nog geen voorstel. Eerst de lanceringsvideo (ma) en de collab-reel (do).
 - Reel boekingen inplannen (Claude stuurt montage na VO2).
 - DM Tom De Sutter over de carrousel.
 - Training 18u-22u30: openingsshot collab-reel (speler neemt elleboog vast). Geen testrackets.
 
 ## Wo 4/11 · hoofdwerkdag
+- Elleboogshot di niet gelukt → AI-clip (Kling) + trillingsanimatie. Collab-reel v13 klaar (klanten/flaxx/collab/flaxx-collab-v13.mp4).
+- Toestemming vlasbeeld Mechielsen Oldehove BV vragen (of vlasbeelden van Koen/Gilles).
 - Collab-reel v7 staat klaar (klanten/flaxx/collab/), alleen het elleboogshot van di nog vooraan. Nakijken, naar Koen ter goedkeuring, inplannen do 18u00 + uitnodiging samenwerker @flaxx_rackets.
 - Claude stelt het weekplan 9-15/11 voor.
 - Carrousel ma 9/11 "Zoveel levert één extra geboekt uur" (slides Claude).
+- Weekplan 9-15/11 voorgesteld: DRAAIBOEK-9-15-NOV.md + SHOTLIST-9-15-NOV.md.
 - Shoot voor di 10/11 "Zo vul je je sportkamp zonder flyers" en do 12/11 "Zo maak je van een proefles een vast lid".
 
 ## Do 5/11 · Collab-reel Flaxx "Het verhaal achter Flaxx" (18u00, afgesproken met Koen)

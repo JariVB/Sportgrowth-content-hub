@@ -124,3 +124,17 @@ Opvolging van contacten: zie `opvolging.md`.
 **Bijgestuurd ma 2/11:** collab-reel Flaxx do 5/11 om **18u00** (niet 19u30). Lanceringsvideo Flaxx: Koen post hem in de week van 9/11.
 **Status di 3/11:** collab-reel Flaxx v7 klaar (33 s, timing nagekeken met Jari), wacht op elleboogshot van de training vanavond. Reel boekingen: K7 + VO2 nog niet binnen (2 dagen open) → vandaag vóór 13u, anders zonder VO of naar volgende week.
 **Nieuwe afsluiter filmen** (Jari, 3/11: oude afsluiter klinkt te anders): met DJI-micro, effen trui, op een terrein. Tekst: "Ik ben Jari van SportGrowth Media. Geen tijd om dit zelf te doen? Wij doen het voor jullie club. Stuur een DM voor een gratis analyse." Tot dan: eindkaart zonder stem (instagram/reels/reel8-boekingen/eindkaart.js).
+
+## Weekplan 9 tot 15 november (voorstel wo 4/11)
+
+Draaiboek: `DRAAIBOEK-9-15-NOV.md`. Opnames: `SHOTLIST-9-15-NOV.md` (zinnen + nieuwe afsluiter wo 4/11).
+
+| Dag | Uur | Feed | Reeks | Status |
+|---|---|---|---|---|
+| ma 9/11 | 19:30 | Carrousel "Zoveel levert één extra geboekt uur per week je op" | ZO WERKT SGM · AANBOD | slides Claude |
+| di 10/11 | 19:30 | Reel "Zo vul je je sportkamp zonder flyers" | KAMPEN · CLUBTIP | shoot wo 4/11 |
+| do 12/11 | 19:30 | Reel "Zo maak je van een proefles een vast lid" | ABONNEMENT · HERKENBAAR? | shoot wo 4/11 + sfeer di 10/11 |
+
+Verkoop herstart ma 9/11. Flaxx post de lanceringsvideo in deze week. Daarna (16/11) de vroegere week 9/11 uit CONTENTSYSTEEM.md: lesreeks-carrousel, Jan Stilten-collab, "3 fouten op de Instagram van sportcentra".
+
+**Collab-reel Flaxx (wo 4/11):** v13 klaar (34,8 s): hook AI-clip (Kling) "Last van je elleboog na padel?" + trillingsanimatie + vlasveld (schermopname Mechielsen Oldehove BV, toestemming nodig) + racket van dichtbij. Bij posten "AI-info" aanzetten.
