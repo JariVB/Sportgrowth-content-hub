@@ -24,8 +24,15 @@ v b1 $U/6b860131-DJI_20261101_170923_523_video.mov 0.0 10.95 0.006 "$GW"
 # C · de zoektocht 13.15-19.0 (B-roll onder V5 11.15-17.0)
 VL=$O/vlas-oogst-bron.mov; VC="crop=944:1680:40:340,scale=1080:1920:flags=lanczos"   # schermopname vlasoogst (Mechielsen Oldehove BV), UI weggesneden
 cv(){ ffmpeg -nostdin -v error -y -ss $2 -t $3 -i $VL -vf "$VC,scale=eval=frame:w='trunc(1080*(1+$4*t)/2)*2':h=-2,crop=1080:1920,fps=30,setsar=1,$G,format=yuv420p" $ENC -t $3 $S/$1.mp4; }
-cv c1 1.6 4.9 0.025                                   # 13,15-18,05 veld + oogstmachine
-v c2 $U/b4980fd9-IMG_2870.mov 2.0 0.95 0.05          # 18,05-19,0 racket van dichtbij (vlasstructuur) onder de VLAS-titel
+# v15: foto's van BioFibix (biofibix/): veld → plant → vezel → racket
+B=$O/biofibix
+im(){ n=$1; f=$2; d=$3; pre=$4; z=$5
+  ffmpeg -nostdin -v error -y -loop 1 -framerate 30 -t $d -i $f -vf "$pre,scale=1080:1920:flags=lanczos,scale=eval=frame:w='trunc(1080*(1+$z*t)/2)*2':h=-2,crop=1080:1920,fps=30,setsar=1,$G,format=yuv420p" $ENC -t $d $S/$n.mp4; }
+# drone-veld: horizontale pan van links naar rechts over het liggende vlas
+ffmpeg -nostdin -v error -y -loop 1 -framerate 30 -t 2.05 -i $B/veld-drone.jpg -vf "scale=-2:2400:flags=lanczos,crop=1350:2400:'(iw-1350)*0.35+t*110':0,scale=1080:1920,fps=30,setsar=1,$G,format=yuv420p" $ENC -t 2.05 $S/c1.mp4   # 13,15-15,2
+im c2 $B/vlasplanten.jpg 1.4 "crop=1124:1999:200:0" 0.06            # 15,2-16,6 vlasplanten
+im c3 $B/vezelrol.png 1.45 "crop=809:1438:250:0" 0.06               # 16,6-18,05 vlasvezel (logo weggesneden)
+v c4 $U/b4980fd9-IMG_2870.mov 2.0 0.95 0.05          # 18,05-19,0 racket van dichtbij (vlasstructuur) onder de VLAS-titel
 # D · het materiaal 19.0-24.3 (Gilles G3 11.35-16.65 doorlopend: "Vlasvezel heeft een unieke combinatie tussen lichtgewicht, stijf en heel goed dempend")
 v d1 $U/5c67f1e9-DJI_20261101_164750_697_video.mov 11.35 2.0 0.01 "$GW"
 v d2 $U/cbc545d6-IMG_2896.mov 7.95 1.6 0
@@ -36,7 +43,7 @@ v e1 $U/f807067d-IMG_2904.mov 0.0 2.2 0.03
 v e2 $U/670c7381-IMG_2905.mov 0.0 2.35 0.03
 # F · afsluiter 28.85-33.0 (foto)
 ffmpeg -nostdin -v error -y -loop 1 -t 4.15 -i /home/user/Sportgrowth-content-hub/instagram/beeldbank/sports-next-1-11/koen-jari-rackets-1.jpg -vf "scale=-2:2050,crop=1080:1920:(iw-1080)/2:60,scale=eval=frame:w='trunc(1080*(1+0.03*t)/2)*2':h=-2,crop=1080:1920,fps=30,setsar=1,$G,format=yuv420p" $ENC -t 4.15 $S/f1.mp4
-cd $S && rm -f l.txt && for x in a1 b1 c1 c2 d1 d2 d3 d4 e1 e2 f1; do echo "file '$x.mp4'" >> l.txt; done
+cd $S && rm -f l.txt && for x in a1 b1 c1 c2 c3 c4 d1 d2 d3 d4 e1 e2 f1; do echo "file '$x.mp4'" >> l.txt; done
 ffmpeg -nostdin -v error -y -f concat -safe 0 -i l.txt -c:v libx264 -crf 16 -preset fast -r 30 -pix_fmt yuv420p base.mp4
 # spraak: elk fragment apart, met stilte ervoor (apad/concat i.p.v. adelay), daarna samen
 DN="highpass=f=85,afftdn=nf=-28,acompressor=threshold=-20dB:ratio=3:attack=5:release=120,loudnorm=I=-16:TP=-1.5,aresample=48000,aformat=channel_layouts=stereo"

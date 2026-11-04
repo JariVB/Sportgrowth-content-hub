@@ -4,7 +4,7 @@ set -e
 S=/tmp/claude-0/-home-user-Sportgrowth-content-hub/0377841e-5e4e-590f-ab4a-00f0b5872ecb/scratchpad/collab
 O=$(cd "$(dirname "$0")" && pwd); V=${1:-v1}
 [ "$2" = "skipmotion" ] || node $O/motion.js $S/mo
-python3 $O/../lancering/varianten/sound.py $S/fx.wav 33 "2.2,13.15,18.05,19.0,21.0,22.6,23.4,24.3,26.55" 28.85
+python3 $O/../lancering/varianten/sound.py $S/fx.wav 33 "2.2,13.15,15.2,16.6,18.05,19.0,21.0,22.6,23.4,24.3,26.55" 28.85
 cp $S/spraak.wav $S/spraak33.wav
 python3 $O/hooksfx.py $S/hook.wav ${HOOKANIM:+anim}
 ffmpeg -nostdin -v error -y -i $S/fx.wav -i $S/hook.wav -filter_complex "[0][1]amix=inputs=2:normalize=0:weights=1 0.9" $S/fx2.wav && mv $S/fx2.wav $S/fx.wav

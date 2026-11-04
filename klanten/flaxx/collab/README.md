@@ -25,3 +25,5 @@ Let op: realistische AI-beelden in IG het label "AI-info" geven (Meta vraagt dit
 **v13** · brug 2,2-4,0 na de hook: getekende trilling (bal → racket → arm → rode elleboog) met "Elke slag stuurt / trillingen / naar je elleboog". Alles daarna 1,8 s later, totaal 34,8 s. In motion.js: `R(t,ta)` = oude tijdlijn, `window.render` schuift de tijd op.
 
 **v14** · animatie eruit (terug naar 33 s, hook = enkel Kling-clip). Vlasveld 13,15-18,05 (t/m "Zo zijn we terechtgekomen bij"), IMG_2870 racket met vlasstructuur 18,05-19,0 onder VLAS, daarna Gilles.
+
+**v15** · vlasdeel met foto's van BioFibix (`biofibix/`): drone-veld 13,15-15,2 · vlasplanten 15,2-16,6 · vezelrol 16,6-18,05 (logo weggesneden) · racket IMG_2870 18,05-19,0 onder VLAS. Geen schermopname van Mechielsen meer nodig.
