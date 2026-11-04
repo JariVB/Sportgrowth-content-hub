@@ -21,7 +21,7 @@ Vast ritme: ma 19u30 carrousel · di 19u30 reel · do 19u30 reel. Week na Sports
 
 ## Wo 4/11 · hoofdwerkdag
 - Elleboogshot di niet gelukt → AI-clip (Kling) + trillingsanimatie. Collab-reel v13 klaar (klanten/flaxx/collab/flaxx-collab-v13.mp4).
-- Toestemming vlasbeeld Mechielsen Oldehove BV vragen (of vlasbeelden van Koen/Gilles).
+- Vlasbeelden: foto's van BioFibix (geen Mechielsen meer nodig). ✅ v16-B ter goedkeuring naar Koen gestuurd.
 - Collab-reel v7 staat klaar (klanten/flaxx/collab/), alleen het elleboogshot van di nog vooraan. Nakijken, naar Koen ter goedkeuring, inplannen do 18u00 + uitnodiging samenwerker @flaxx_rackets.
 - Claude stelt het weekplan 9-15/11 voor.
 - Carrousel ma 9/11 "Zoveel levert één extra geboekt uur" (slides Claude).
