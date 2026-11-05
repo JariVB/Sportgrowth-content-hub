@@ -13,7 +13,7 @@ Vast ritme: ma 19u30 carrousel · di 19u30 reel · do 19u30 reel. Week na Sports
 - K7 + VO2 inspreken → Claude monteert reel boekingen, inplannen schuift naar di 3/11 (overdag).
 - Batch 3 screenshots (als we de verkoop zo verderzetten) + opvolgen.
 
-## Di 3/11 · Reel boekingen (gepost? bevestigen) "Zo krijg je meer boekingen in je sportcentrum" (19u30)
+## Di 3/11 · Reel boekingen ✅ gepost "Zo krijg je meer boekingen in je sportcentrum" (19u30)
 - Flaxx: nog geen voorstel. Eerst de lanceringsvideo (ma) en de collab-reel (do).
 - Reel boekingen inplannen (Claude stuurt montage na VO2).
 - DM Tom De Sutter over de carrousel.
@@ -34,6 +34,7 @@ Vast ritme: ma 19u30 carrousel · di 19u30 reel · do 19u30 reel. Week na Sports
 ## Vr 6/11 · niets
 
 ## Za 7/11 · story op het terrein
+- Ochtend: shoot zinnen reels sportkamp + proefles + afsluiter (verschoven van wo 4/11, SHOTLIST-9-15-NOV.md).
 - Flaxx: cijfers collab-reel na 48 u + kort voorstel (optie A €290 / optie B €449/maand) naar Koen. Claude maakt het klaar.
 
 ## Zo 8/11 · rust

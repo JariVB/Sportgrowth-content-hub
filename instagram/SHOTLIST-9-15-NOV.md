@@ -1,6 +1,6 @@
 # Shotlist week 9-15/11
 
-Shoot **wo 4/11 overdag** (9u-16u30), één plek: een sportclub of sporthal (terrein of tribune achter je, liefst padel of een zaal).
+Shoot **za 7/11 ochtend** (vóór het voetbal van 12u30; was wo 4/11), één plek: de voetbalclub, een sportclub of sporthal (terrein of tribune achter je, liefst padel of een zaal).
 Effen donkere trui, gsm verticaal op ooghoogte, ±1 m, licht van voren, kijk in de lens. Elke zin 2 à 3 keer. Zeg vooraf "kamp 1", "proef 2"…
 Geen leestekens in de tekst op beeld; die zet Claude erop.
 

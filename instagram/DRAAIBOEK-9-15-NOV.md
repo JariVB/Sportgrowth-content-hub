@@ -1,13 +1,13 @@
 # Draaiboek 9 tot 15 november (voorstel wo 4/11)
 
 Vast ritme: ma 19u30 carrousel · di 19u30 reel · do 19u30 reel. Eerste week na Flaxx. Verkoop herstart.
-Shotlist: `SHOTLIST-9-15-NOV.md` (shoot wo 4/11, zinnen + nieuwe afsluiter).
+Shotlist: `SHOTLIST-9-15-NOV.md` (shoot verplaatst naar za 7/11 ochtend vóór het voetbal, zinnen + nieuwe afsluiter).
 
 | Dag | Post | Reeks | Status |
 |---|---|---|---|
 | ma 9/11 19u30 | Carrousel "Zoveel levert één extra geboekt uur per week je op" (rekensom) | ZO WERKT SGM · AANBOD | slides Claude (vr 6/11), Jari kijkt na zo 8/11, inplannen zo 8/11 |
-| di 10/11 19u30 | Reel "Zo vul je je sportkamp zonder flyers" | KAMPEN · CLUBTIP | zinnen wo 4/11, montage Claude za 7/11, inplannen ma 9/11 |
-| do 12/11 19u30 | Reel "Zo maak je van een proefles een vast lid" | ABONNEMENT · HERKENBAAR? | zinnen wo 4/11, sfeer di 10/11 training, montage Claude wo 11/11, inplannen wo 11/11 |
+| di 10/11 19u30 | Reel "Zo vul je je sportkamp zonder flyers" | KAMPEN · CLUBTIP | zinnen za 7/11 ochtend, montage Claude zo 8/11, inplannen ma 9/11 |
+| do 12/11 19u30 | Reel "Zo maak je van een proefles een vast lid" | ABONNEMENT · HERKENBAAR? | zinnen za 7/11, sfeer tornooi wo 4/11 + training di 10/11, montage Claude wo 11/11, inplannen wo 11/11 |
 | week | Flaxx post de lanceringsvideo (Koen kiest de dag) | - | story delen + tag @flaxx_rackets |
 
 ## Ma 9/11
