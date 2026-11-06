@@ -117,6 +117,9 @@ Bron: `statistieken.md`. Overslaan bepaalt het bereik: 44% → 3.061 weergaven, 
 - **Laten delen:** elke getagde partner krijgt een kant-en-klaar storybericht om te delen (stories = 20% van de weergaven van de collab).
 - **Volgers oogsten:** op de eindkaart klein in beeld: "Volg voor wekelijkse clubtips". De caption houdt één oproep (DM).
 
+## 5f. Profiel: max. 1 keer per maand (afspraak 6/11)
+Profiel herwerkt op 8/11 (bio, vastgezette posts, oude posts gearchiveerd, zie analyses/profiel-6-11.md). Daarna 4 weken niets aan bio, naam, hoogtepunten of profielfoto. Meetmoment ma 7/12: profielbezoeken → volgers (doel ≥ 1 op 5). Enkel vastgezette posts mogen wisselen als een nieuwe reel beter scoort.
+
 ## 5b. De hook (titel en eerste regel van elke post)
 **Vaste formule: "Zo [doe je iets wat elke club kent] die/dat [resultaat dat de club wil]."**
 Voorbeeld en norm: **"Zo schrijf je een clubbio die leden aantrekt."**
