@@ -67,3 +67,7 @@ Batch 1-3 (screenshots + berichten aan 15 sportzaken), de statistieken van het v
 - 19u30 carrousel "Padel: van hype naar gewoonte" (8 slides, panel Sports NEXT, citaten Tom De Sutter). Tags: Tom/Arenal, Sports NEXT.
 - 19u35 stories: panelfoto + poll "Wordt padel ooit Olympisch?" · gedeelde carrousel.
 - Flaxx: lanceringsvideo v12 verstuurd, Koen: "ziet er super uit". Post hem in de week van 9/11.
+
+## do 5/11 · collab-reel Flaxx online
+- 18u00 gepost als collab met @flaxx_rackets (v16-B, AI-label, cover cover-collab.png). Eerste reactie du7stin (padel 2-3x per week), beantwoord met tag @flaxx_rackets.
+- Cijfers na 48 u: za 7/11, samen met feedback van Koen.
