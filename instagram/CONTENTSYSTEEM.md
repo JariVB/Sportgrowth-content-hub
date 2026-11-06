@@ -132,6 +132,11 @@ Patroon: hij thuis in de camera (gsm, geen actie) + een sterke mening of beschul
 Toepassing SGM: 1 per 2 weken een meningsreel, thuis te filmen in 5 min, 15-25 s. Hookbank: "Sportclubs, stop met deze affiches!" · "Padel heeft een probleem in België" · "Jullie Facebookpagina is een prikbord" · "De jeugd blijft niet bij je club. Dit is waarom" · "Een sportclub zonder Instagram bestaat niet voor wie 30 is".
 Profiel (meetmoment 7/12, niet eerder): hij heeft zijn gezicht als profielfoto en bewijs in de bio ("o.a. @knltbpickleball"). Te testen: "o.a. @flaxx_rackets" in de bio.
 
+## 5i. Analyse @savvysportscommunications (6/11)
+Sarah, sports marketing voor (grassroots) sportclubs, UK. 10,1K volgers, 532 posts. Exact dezelfde niche als SGM (geen weergaven zichtbaar op het raster: dit zijn vooral carrousels).
+Patroon: (1) zij op elke cover, buiten op een sportlocatie, wit tekstkader met een stelling ("The most dangerous phrase I hear sports clubs say", "Stop treating your social media like a noticeboard and start treating it like your clubhouse") · (2) vaste reeks met delen: "5 Marketing Mistakes Grassroots Sports Clubs Make · Part 1-6" · (3) persoonlijk: "13 years ago a tweet changed my life", foto met oma, kindfoto · (4) gratis waarde als lokaas: masterclass via Zoom, freebies, maandideeën ("Ideas to grow your sports club in October") · (5) sponsoring als thema.
+Overnemen voor SGM: jij op de cover van carrousels (op een club, niet thuis) · een genummerde reeks ("5 fouten die sportclubs maken op Instagram · deel 1/5") · maandelijkse post "Postideeën voor je club in december" (bewaarbaar) · later: gratis online sessie of download als lokaas · sponsoring als onderwerp (sponsors meer zichtbaarheid geven).
+
 ## 5b. De hook (titel en eerste regel van elke post)
 **Vaste formule: "Zo [doe je iets wat elke club kent] die/dat [resultaat dat de club wil]."**
 Voorbeeld en norm: **"Zo schrijf je een clubbio die leden aantrekt."**
