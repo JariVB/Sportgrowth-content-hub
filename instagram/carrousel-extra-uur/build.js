@@ -91,10 +91,10 @@ S.push(page(5, `
 <div class="col" style="top:660px;gap:22px">
 <h2 style="font-size:88px">Geef je <span class="c">lessen?</span></h2>
 <div style="display:flex;gap:16px;flex-wrap:wrap">
-${['👥 1 extra lesgroep','💶 €290 per maand','📅 september tot juni'].map(x=>`<span style="background:rgba(255,255,255,.12);border:2px solid rgba(255,255,255,.35);border-radius:40px;padding:14px 24px;font:600 34px/1 In">${x}</span>`).join('')}
+${['👥 1 extra lesgroep','💶 €380 voor 4 lessen','📅 ±35 lessen per schooljaar'].map(x=>`<span style="background:rgba(255,255,255,.12);border:2px solid rgba(255,255,255,.35);border-radius:40px;padding:14px 24px;font:600 34px/1 In">${x}</span>`).join('')}
 </div>
-<p class="t" style="font-size:36px">Die groep blijft het hele schooljaar?<br><b>10 maanden</b> lessen</p>
-<div style="font:700 130px/.9 Rj">= <span class="c">€2.900</span> <span style="font-size:56px">per jaar</span></div>
+<p class="t" style="font-size:36px">€95 per les · elke week, behalve<br>in de schoolvakanties</p>
+<div style="font:700 130px/.9 Rj">= <span class="c">€3.325</span> <span style="font-size:56px">per jaar</span></div>
 </div>`));
 // 6 WAAR KOMEN ZE VANDAAN · gsm met story
 S.push(page(6, `
