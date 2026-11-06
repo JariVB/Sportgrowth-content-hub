@@ -45,8 +45,8 @@ S.push(page(1, `
 <div class="swipe">Swipe →</div>
 <div class="col" style="top:560px;gap:20px">
 <span class="tag">ZO WERKT SGM · VERHUUR</span>
-<div style="font:700 220px/.85 Rj;color:#00d4ff;letter-spacing:-4px">€2.080</div>
-<h1 style="font-size:78px;line-height:.98">Zoveel levert één<br>extra geboekt uur<br>per week je op</h1>
+<div style="font:700 220px/.85 Rj;color:#00d4ff;letter-spacing:-4px">€2.496</div>
+<h1 style="font-size:78px;line-height:.98">Zoveel levert één<br>extra boeking<br>per week je op</h1>
 </div>`));
 // 2 HERKENNING · leeg terrein, foto vol beeld
 S.push(page(2, `
@@ -65,25 +65,25 @@ S.push(page(3, `
 <div class="col" style="top:80px;gap:10px"><h2 style="font-size:80px">De rekensom</h2></div>
 <div style="position:absolute;left:150px;right:150px;top:230px;background:#f7f4ec;color:#1b1b1b;padding:46px 54px 60px;font:600 38px/1.5 'Courier New',monospace;transform:rotate(-2deg);box-shadow:0 30px 60px rgba(0,0,0,.45);clip-path:polygon(0 0,100% 0,100% 96%,95% 100%,90% 96%,85% 100%,80% 96%,75% 100%,70% 96%,65% 100%,60% 96%,55% 100%,50% 96%,45% 100%,40% 96%,35% 100%,30% 96%,25% 100%,20% 96%,15% 100%,10% 96%,5% 100%,0 96%)">
 <div style="text-align:center;font-weight:800;font-size:40px">JOUW CLUB</div>
-<div style="text-align:center;font-size:28px;opacity:.6;margin-bottom:22px">*** 1 extra geboekt uur ***</div>
-<div style="display:flex;justify-content:space-between"><span>Terrein 3</span><span>€40</span></div>
-<div style="display:flex;justify-content:space-between;font-size:28px;opacity:.6"><span>4 spelers × €10</span><span></span></div>
+<div style="text-align:center;font-size:28px;opacity:.6;margin-bottom:22px">*** 1 extra boeking per week ***</div>
+<div style="display:flex;justify-content:space-between"><span>Terrein 3 · 1u30</span><span>€48</span></div>
+<div style="display:flex;justify-content:space-between;font-size:28px;opacity:.6"><span>4 spelers × €12</span><span></span></div>
 <div style="display:flex;justify-content:space-between"><span>× 52 weken</span><span></span></div>
 <div style="border-top:4px dashed #1b1b1b;margin:26px 0 18px"></div>
-<div style="display:flex;justify-content:space-between;font-weight:800;font-size:54px"><span>TOTAAL</span><span>€2.080</span></div>
+<div style="display:flex;justify-content:space-between;font-weight:800;font-size:54px"><span>TOTAAL</span><span>€2.496</span></div>
 <div style="text-align:center;font-size:28px;opacity:.6;margin-top:22px">per terrein, per jaar</div>
 </div>`));
 // 4 VIER TERREINEN · terreinen die oplichten
 const court = (n) => `<div style="background:linear-gradient(180deg,#1d5fd1,#0e3c8f);border:4px solid #fff;border-radius:14px;height:300px;position:relative;display:flex;align-items:center;justify-content:center">
 <div style="position:absolute;left:0;right:0;top:50%;border-top:4px dashed rgba(255,255,255,.8)"></div>
 <div style="position:absolute;left:50%;top:12%;bottom:12%;border-left:3px solid rgba(255,255,255,.5)"></div>
-<div style="position:relative;background:#00d4ff;color:#0d1b3e;font:700 52px/1 Rj;padding:12px 18px;border-radius:12px">+€2.080</div>
+<div style="position:relative;background:#00d4ff;color:#0d1b3e;font:700 52px/1 Rj;padding:12px 18px;border-radius:12px">+€2.496</div>
 <div style="position:absolute;left:14px;top:12px;font:700 26px/1 In">T${n}</div></div>`;
 S.push(page(4, `
-<div class="col" style="top:80px;gap:14px"><h2 style="font-size:84px">4 terreinen?</h2><p class="t" style="font-size:38px">Elk terrein <b>1 uur per week</b> extra geboekt</p></div>
+<div class="col" style="top:80px;gap:14px"><h2 style="font-size:84px">4 terreinen?</h2><p class="t" style="font-size:38px">Elk terrein <b>1 boeking per week</b> extra</p></div>
 <div style="position:absolute;left:70px;right:70px;top:340px;display:grid;grid-template-columns:1fr 1fr;gap:26px">${[1,2,3,4].map(court).join('')}</div>
 <div style="position:absolute;left:70px;right:70px;top:1020px;display:flex;align-items:baseline;gap:22px">
-<span style="font:700 150px/.9 Rj;color:#00d4ff">€8.320</span><span style="font:600 38px/1.2 In">per jaar.<br>Zonder te bouwen.</span></div>`));
+<span style="font:700 150px/.9 Rj;color:#00d4ff">€9.984</span><span style="font:600 38px/1.2 In">per jaar.<br>Zonder te bouwen.</span></div>`));
 // 5 LESSEN · foto + chips
 S.push(page(5, `
 <div class="bg" style="background-image:${i64(B2 + '/padel-lachen-aan-net.jpg')};background-position:center 30%"></div>
@@ -97,7 +97,7 @@ ${['👥 5 leerlingen extra','💶 €15 per les','📅 30 lessen'].map(x=>`<spa
 </div>`));
 // 6 WAAR KOMEN ZE VANDAAN · gsm met story
 S.push(page(6, `
-<div class="col" style="top:80px;gap:10px"><h2 style="font-size:78px">Zo vullen we<br>dat <span class="c">lege uur</span></h2></div>
+<div class="col" style="top:80px;gap:10px"><h2 style="font-size:78px">Zo vullen we<br>dat <span class="c">lege terrein</span></h2></div>
 <div style="position:absolute;left:300px;top:330px;width:480px;height:930px;border-radius:64px;background:#000;padding:16px;box-shadow:0 40px 80px rgba(0,0,0,.5)">
 <div style="width:100%;height:100%;border-radius:50px;overflow:hidden;position:relative;background-image:${i64(B2 + '/padel-net-overdekte-hal.jpg')};background-size:cover;background-position:center">
 <div style="position:absolute;left:18px;right:18px;top:18px;display:flex;gap:6px">${[1,2,3].map(i=>`<b style="flex:1;height:5px;border-radius:3px;background:${i==1?'#fff':'rgba(255,255,255,.4)'}"></b>`).join('')}</div>
@@ -115,7 +115,7 @@ S.push(page(7, `
 <h2 style="font-size:84px">Dat doen <span class="c">wij</span><br>voor jullie</h2>
 <div style="display:flex;flex-direction:column;gap:14px;font:600 36px/1.3 In"><div>🎬 Filmen, monteren, posten</div><div>📈 Elke maand: wat leverde het op?</div></div>
 <div style="display:flex;align-items:center;gap:22px;background:#00d4ff;color:#0d1b3e;border-radius:22px;padding:24px 30px">
-<span style="font:700 70px/1 Rj">€249</span><span style="font:600 32px/1.25 In">per maand. Minder dan<br><b>2 geboekte uren</b> per week.</span></div>
+<span style="font:700 70px/1 Rj">€249</span><span style="font:600 32px/1.25 In">per maand. Dat is<br><b>±1 extra boeking</b> per week.</span></div>
 </div>`));
 // 8 DM
 S.push(page(8, `

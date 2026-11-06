@@ -131,7 +131,7 @@ Draaiboek: `DRAAIBOEK-9-15-NOV.md`. Opnames: `SHOTLIST-9-15-NOV.md` (zinnen + ni
 
 | Dag | Uur | Feed | Reeks | Status |
 |---|---|---|---|---|
-| ma 9/11 | 19:30 | Carrousel "Zoveel levert één extra geboekt uur per week je op" | ZO WERKT SGM · AANBOD | slides Claude |
+| ma 9/11 | 19:30 | Carrousel "Zoveel levert één extra boeking per week je op" | ZO WERKT SGM · AANBOD | slides Claude |
 | di 10/11 | 19:30 | Reel "Zo vul je je sportkamp zonder flyers" | KAMPEN · CLUBTIP | shoot wo 4/11 |
 | do 12/11 | 19:30 | Reel "Zo maak je van een proefles een vast lid" | ABONNEMENT · HERKENBAAR? | shoot wo 4/11 + sfeer di 10/11 |
 
