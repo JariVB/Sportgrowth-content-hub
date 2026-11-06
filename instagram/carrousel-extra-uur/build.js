@@ -48,72 +48,80 @@ S.push(page(1, `
 <div style="font:700 220px/.85 Rj;color:#00d4ff;letter-spacing:-4px">€2.080</div>
 <h1 style="font-size:78px;line-height:.98">Zoveel levert één<br>extra geboekt uur<br>per week je op</h1>
 </div>`));
-// 2 HERKENNING
+// 2 HERKENNING · leeg terrein, foto vol beeld
 S.push(page(2, `
-<div class="col" style="top:170px;gap:44px">
-<h2>Dinsdag 15u.<br><span class="c">Terrein 3</span> is leeg.</h2>
-<p class="t">Een leeg terrein kost je niet veel. <b>Maar het levert je ook niets op.</b></p>
-<p class="t">En zo staan er elke week uren leeg die niemand ziet.</p>
+<div class="bg" style="background-image:${i64(B2 + '/padel-net-overdekte-hal.jpg')};background-position:center 60%"></div>
+<div class="dim" style="background:linear-gradient(180deg,rgba(13,27,62,.85) 0%,rgba(13,27,62,.2) 38%,rgba(13,27,62,.2) 60%,rgba(13,27,62,.92) 85%)"></div>
+<div class="col" style="top:110px;gap:18px">
+<div style="font:700 44px/1 In;color:#00d4ff;letter-spacing:.04em">DINSDAG · 15:00</div>
+<h2 style="font-size:118px">Terrein 3<br>is leeg.</h2>
+</div>
+<div style="position:absolute;left:50%;top:640px;transform:translate(-50%,-50%) rotate(-12deg);border:10px solid #ff4d4d;color:#ff4d4d;font:700 150px/1 Rj;padding:6px 40px 0;border-radius:18px;letter-spacing:6px;background:rgba(13,27,62,.35)">LEEG</div>
+<div class="col" style="bottom:140px;gap:0">
+<p class="t" style="font-size:44px"><b>Het kost je niets.<br>Het levert je ook niets op.</b></p>
 </div>`));
-// 3 REKENSOM
+// 3 REKENSOM als kassaticket
 S.push(page(3, `
-<div class="num">1</div>
-<div class="col" style="top:150px;gap:36px">
-<h2>De rekensom</h2>
-<div style="display:flex;flex-direction:column;gap:22px;font:600 46px/1.25 In">
-<div>🎾 1 terrein · €40 per uur <span style="color:#8fa3cc;font-size:32px">(4 spelers × €10)</span></div>
-<div>➕ 1 extra uur per week</div>
-<div>📅 × 52 weken</div>
-</div>
-<div style="border-top:4px solid #00d4ff;padding-top:30px;font:700 120px/1 Rj">= <span class="c">€2.080</span> <span style="font-size:60px">per jaar</span></div>
+<div class="col" style="top:80px;gap:10px"><h2 style="font-size:80px">De rekensom</h2></div>
+<div style="position:absolute;left:150px;right:150px;top:230px;background:#f7f4ec;color:#1b1b1b;padding:46px 54px 60px;font:600 38px/1.5 'Courier New',monospace;transform:rotate(-2deg);box-shadow:0 30px 60px rgba(0,0,0,.45);clip-path:polygon(0 0,100% 0,100% 96%,95% 100%,90% 96%,85% 100%,80% 96%,75% 100%,70% 96%,65% 100%,60% 96%,55% 100%,50% 96%,45% 100%,40% 96%,35% 100%,30% 96%,25% 100%,20% 96%,15% 100%,10% 96%,5% 100%,0 96%)">
+<div style="text-align:center;font-weight:800;font-size:40px">JOUW CLUB</div>
+<div style="text-align:center;font-size:28px;opacity:.6;margin-bottom:22px">*** 1 extra geboekt uur ***</div>
+<div style="display:flex;justify-content:space-between"><span>Terrein 3</span><span>€40</span></div>
+<div style="display:flex;justify-content:space-between;font-size:28px;opacity:.6"><span>4 spelers × €10</span><span></span></div>
+<div style="display:flex;justify-content:space-between"><span>× 52 weken</span><span></span></div>
+<div style="border-top:4px dashed #1b1b1b;margin:26px 0 18px"></div>
+<div style="display:flex;justify-content:space-between;font-weight:800;font-size:54px"><span>TOTAAL</span><span>€2.080</span></div>
+<div style="text-align:center;font-size:28px;opacity:.6;margin-top:22px">per terrein, per jaar</div>
 </div>`));
-// 4 MEER TERREINEN
+// 4 VIER TERREINEN · terreinen die oplichten
+const court = (n) => `<div style="background:linear-gradient(180deg,#1d5fd1,#0e3c8f);border:4px solid #fff;border-radius:14px;height:300px;position:relative;display:flex;align-items:center;justify-content:center">
+<div style="position:absolute;left:0;right:0;top:50%;border-top:4px dashed rgba(255,255,255,.8)"></div>
+<div style="position:absolute;left:50%;top:12%;bottom:12%;border-left:3px solid rgba(255,255,255,.5)"></div>
+<div style="position:relative;background:#00d4ff;color:#0d1b3e;font:700 52px/1 Rj;padding:12px 18px;border-radius:12px">+€2.080</div>
+<div style="position:absolute;left:14px;top:12px;font:700 26px/1 In">T${n}</div></div>`;
 S.push(page(4, `
-<div class="num">4</div>
-<div class="col" style="top:170px;gap:40px">
-<h2>Heb je 4 terreinen?</h2>
-<p class="t">Elk terrein <b>1 extra uur per week</b> geboekt:</p>
-<div style="font:700 190px/.9 Rj;color:#00d4ff">€8.320</div>
-<p class="t">per jaar. Zonder één extra terrein te bouwen.</p>
-</div>`));
-// 5 LESSEN
+<div class="col" style="top:80px;gap:14px"><h2 style="font-size:84px">4 terreinen?</h2><p class="t" style="font-size:38px">Elk terrein <b>1 uur per week</b> extra geboekt</p></div>
+<div style="position:absolute;left:70px;right:70px;top:340px;display:grid;grid-template-columns:1fr 1fr;gap:26px">${[1,2,3,4].map(court).join('')}</div>
+<div style="position:absolute;left:70px;right:70px;top:1020px;display:flex;align-items:baseline;gap:22px">
+<span style="font:700 150px/.9 Rj;color:#00d4ff">€8.320</span><span style="font:600 38px/1.2 In">per jaar.<br>Zonder te bouwen.</span></div>`));
+// 5 LESSEN · foto + chips
 S.push(page(5, `
-<div class="col" style="top:170px;gap:40px">
-<h2>Geef je <span class="c">lessen?</span></h2>
-<p class="t">Hetzelfde geldt voor een lesreeks, een kamp of een abonnement.</p>
-<div style="display:flex;flex-direction:column;gap:20px;font:600 44px/1.3 In">
-<div>👥 5 extra leerlingen</div>
-<div>💶 €15 per les</div>
-<div>📅 30 lessen per jaar</div>
+<div class="bg" style="background-image:${i64(B2 + '/padel-lachen-aan-net.jpg')};background-position:center 30%"></div>
+<div class="dim" style="background:linear-gradient(180deg,rgba(13,27,62,.1) 0%,rgba(13,27,62,.15) 35%,rgba(13,27,62,.92) 58%,#0d1b3e 100%)"></div>
+<div class="col" style="top:720px;gap:24px">
+<h2 style="font-size:88px">Geef je <span class="c">lessen?</span></h2>
+<div style="display:flex;gap:16px;flex-wrap:wrap">
+${['👥 5 leerlingen extra','💶 €15 per les','📅 30 lessen'].map(x=>`<span style="background:rgba(255,255,255,.12);border:2px solid rgba(255,255,255,.35);border-radius:40px;padding:14px 24px;font:600 34px/1 In">${x}</span>`).join('')}
 </div>
-<div style="border-top:4px solid #00d4ff;padding-top:30px;font:700 120px/1 Rj">= <span class="c">€2.250</span></div>
+<div style="font:700 130px/.9 Rj">= <span class="c">€2.250</span></div>
 </div>`));
-// 6 WAAR KOMEN ZE VANDAAN
+// 6 WAAR KOMEN ZE VANDAAN · gsm met story
 S.push(page(6, `
-<div class="col" style="top:150px;gap:36px">
-<h2>Waar komen<br>die uren <span class="c">vandaan?</span></h2>
-<div style="display:flex;flex-direction:column;gap:24px;font:600 40px/1.3 In">
-<div>📱 Mensen die je club nog niet kennen, zien een reel van een vol terrein</div>
-<div>⏰ Je story zegt: "Donderdag 20u nog een terrein vrij"</div>
-<div>👆 Eén tik naar je boekingslink</div>
-</div>
-<p class="t"><b>Wie je niet ziet, boekt niet.</b></p>
-</div>`));
+<div class="col" style="top:80px;gap:10px"><h2 style="font-size:78px">Zo vullen we<br>dat <span class="c">lege uur</span></h2></div>
+<div style="position:absolute;left:300px;top:330px;width:480px;height:930px;border-radius:64px;background:#000;padding:16px;box-shadow:0 40px 80px rgba(0,0,0,.5)">
+<div style="width:100%;height:100%;border-radius:50px;overflow:hidden;position:relative;background-image:${i64(B2 + '/padel-net-overdekte-hal.jpg')};background-size:cover;background-position:center">
+<div style="position:absolute;left:18px;right:18px;top:18px;display:flex;gap:6px">${[1,2,3].map(i=>`<b style="flex:1;height:5px;border-radius:3px;background:${i==1?'#fff':'rgba(255,255,255,.4)'}"></b>`).join('')}</div>
+<div style="position:absolute;left:30px;right:30px;top:330px;background:#fff;color:#0d1b3e;border-radius:22px;padding:22px 24px;text-align:center;font:800 40px/1.15 In;transform:rotate(-3deg)">Donderdag 20u<br>nog 1 terrein vrij 🎾</div>
+<div style="position:absolute;left:70px;right:70px;bottom:120px;background:#fff;color:#0e8cff;border-radius:16px;padding:16px;text-align:center;font:700 32px/1 In">🔗 Boek hier</div>
+</div></div>
+<div style="position:absolute;left:60px;top:560px;width:220px;font:700 30px/1.3 In;color:#00d4ff">1 · Reel van<br>een vol terrein</div>
+<div style="position:absolute;right:50px;top:700px;width:230px;font:700 30px/1.3 In;color:#00d4ff;text-align:right">2 · Story:<br>"nog vrij"</div>
+<div style="position:absolute;left:60px;top:1020px;width:220px;font:700 30px/1.3 In;color:#00d4ff">3 · Eén tik<br>en geboekt</div>`));
 // 7 SGM
 S.push(page(7, `
-<div class="col" style="top:170px;gap:40px">
-<h2>Dit doen <span class="c">wij</span><br>voor jullie</h2>
-<div style="display:flex;flex-direction:column;gap:22px;font:600 40px/1.3 In">
-<div>🎬 Filmen, monteren en posten</div>
-<div>📅 Elke week online, in jullie stijl</div>
-<div>📈 Elke maand: wat leverde het op?</div>
-</div>
-<div style="background:rgba(0,212,255,.12);border:3px solid #00d4ff;border-radius:22px;padding:30px 36px;font:600 40px/1.35 In">Vanaf <b style="color:#00d4ff">€249 per maand</b>.<br>Minder dan 2 geboekte uren per week.</div>
+<div class="bg" style="background-image:${i64(B2 + '/padel-vol-terras.jpg')};background-position:center 40%"></div>
+<div class="dim" style="background:linear-gradient(180deg,rgba(13,27,62,.15) 0%,rgba(13,27,62,.2) 30%,rgba(13,27,62,.93) 55%,#0d1b3e 100%)"></div>
+<div class="col" style="top:640px;gap:26px">
+<h2 style="font-size:84px">Dat doen <span class="c">wij</span><br>voor jullie</h2>
+<div style="display:flex;flex-direction:column;gap:14px;font:600 36px/1.3 In"><div>🎬 Filmen, monteren, posten</div><div>📈 Elke maand: wat leverde het op?</div></div>
+<div style="display:flex;align-items:center;gap:22px;background:#00d4ff;color:#0d1b3e;border-radius:22px;padding:24px 30px">
+<span style="font:700 70px/1 Rj">€249</span><span style="font:600 32px/1.25 In">per maand. Minder dan<br><b>2 geboekte uren</b> per week.</span></div>
 </div>`));
 // 8 DM
 S.push(page(8, `
 <div style="position:absolute;inset:0;background:#00d4ff"></div>
-<div class="col" style="top:170px;gap:40px;color:#0d1b3e">
+<div class="col" style="top:150px;gap:40px;color:#0d1b3e">
+<div style="font:700 220px/.8 Rj">?</div>
 <h2 style="font-size:100px">Hoeveel uren<br>staan er bij jou<br>elke week leeg?</h2>
 <div style="background:#0d1b3e;color:#fff;border-radius:26px;padding:36px 40px;display:flex;flex-direction:column;gap:12px">
 <span style="font:700 78px/1 Rj">STUUR <span class="c">EEN DM</span></span>
