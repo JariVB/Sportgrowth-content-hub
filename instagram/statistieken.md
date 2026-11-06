@@ -20,7 +20,7 @@ Elke 2 weken (maandag): conclusies onderaan bijwerken en de volgende reels daaro
 | di 6/10 | Resultaat Jan Stilten | 28 s | collage (grafisch) | ? / 209 | 80% | 84% | 4 s | | | 1 | grafisch eerste beeld = weg |
 | di 13/10 | Reel 3 tennisclubs verliezen geen leden door padel | | | ? | | | | | | | screenshot nodig |
 | do 15/10 | Reel 4 60 seconden content | 34 s | | ? | | | | | | | screenshot nodig |
-| di 20/10 | Reel 5 meer jeugd in je tennisclub | | | ? | | | | | | | screenshot nodig |
+| di 20/10 | Reel 5 Zo krijg je meer jeugd in je tennisclub | 35 s | stil beeld net + DM-bubbel "Mama van Lotte" + "Zo krijg je..." | 560 (17 d) | 68% | **71,9%** (hoger) | 6 s | 0,4% | 0,4% | 0 (5 profielbezoeken) | 62% van de weergaven via stories (gedeeld), niet via het algoritme; 64% is 25-34 |
 | di 27/10 | Reel 6 3 fouten op de Instagram van padelclubs | 40 s | padelactie + DM-screenshot "We willen met 12 collega's..." (pijn) | 582 (10 d) | 89% | **61,2%** (lager) | 9 s | 0,4% | 0,4% | 0 (8 profielbezoeken) | pijnhook: laagste overslaan van de recente reels, boven gemiddelde, 52% 35+; maar te lang, weinig likes |
 | do 29/10 | Reel 7 trainers | 35,6 s | trainer wijst naar het terrein (kinderen ver) + "Zo laat je zien dat je trainers goed zijn" | 372 (8 d) | 83% | 66,7% | 8 s | 0,7% | 0,4% | 1 (8 profielbezoeken) | how-to-hook, rustig beeld: onder gemiddelde; 42% is 25-34 jaar |
 | di 3/11 | Reel 8 boekingen | 29,7 s | twee speelsters praten aan het net (stil beeld) + "Zo krijg je meer boekingen" | 340 (3 d) | 87% | 63,6% (lager dan gemiddeld) | 6 s | 0% | 0,4% | 1 | onder gemiddelde (±500): geen actie, how-to-hook zonder pijn, waarde kwam laat, niets om te delen |
@@ -47,4 +47,5 @@ Elke 2 weken (maandag): conclusies onderaan bijwerken en de volgende reels daaro
 5. **"Zo ..."-hooks (how-to) blijven onder het gemiddelde:** boekingen 340, trainers 372. Delen 0-0,7%. Gedeeld wordt wat herkenbaar is (pijn) of persoonlijk (reel 2: 4%).
 6. **Leeftijd:** bij how-to-reels is 25-34 de grootste groep (36-42%); bij de pijnhook "3 fouten" was 56% 35+. Pijn van de club trekt de beslissers.
 7. **Profielbezoek wordt geen volger:** collab 6 → 0, boekingen 2 → 1, trainers 8 → 1, fouten padel 8 → 0. Wie op het profiel komt, vindt geen reden om te volgen. Het profiel (bio, vastgezette posts, hoogtepunten) moet beter.
-8. **Bereik komt van niet-volgers** (80-95%). Carrousels bereiken vooral volgers: ze zijn er om te overtuigen, niet om te groeien.
+8. **Stories verspreiden:** bij de jeugdreel kwam 62% van de weergaven via stories (gedeeld). Delen door anderen werkt, ook als het algoritme de reel niet oppikt.
+9. **Bereik komt van niet-volgers** (80-95%). Carrousels bereiken vooral volgers: ze zijn er om te overtuigen, niet om te groeien.
