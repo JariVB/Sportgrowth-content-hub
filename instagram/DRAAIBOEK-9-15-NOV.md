@@ -5,7 +5,7 @@ Shotlist: `SHOTLIST-9-15-NOV.md` (shoot verplaatst naar za 7/11 ochtend vóór h
 
 | Dag | Post | Reeks | Status |
 |---|---|---|---|
-| ma 9/11 19u30 | Carrousel "Zoveel levert één extra geboekt uur per week je op" (rekensom) | ZO WERKT SGM · AANBOD | slides Claude (vr 6/11), Jari kijkt na zo 8/11, inplannen zo 8/11 |
+| ma 9/11 19u30 | Carrousel "Zoveel levert één extra geboekt uur per week je op" (rekensom) | ZO WERKT SGM · AANBOD | ✅ slides klaar vr 6/11 (instagram/carrousel-extra-uur/), Jari kijkt na zo 8/11, inplannen zo 8/11 |
 | di 10/11 19u30 | Reel "Zo vul je je sportkamp zonder flyers" | KAMPEN · CLUBTIP | zinnen za 7/11 ochtend, montage Claude zo 8/11, inplannen ma 9/11 |
 | do 12/11 19u30 | Reel "Zo maak je van een proefles een vast lid" | ABONNEMENT · HERKENBAAR? | zinnen za 7/11, sfeer tornooi wo 4/11 + training di 10/11, montage Claude wo 11/11, inplannen wo 11/11 |
 | week | Flaxx post de lanceringsvideo (Koen kiest de dag) | - | story delen + tag @flaxx_rackets |
