@@ -88,12 +88,13 @@ S.push(page(4, `
 S.push(page(5, `
 <div class="bg" style="background-image:${i64(B2 + '/padel-lachen-aan-net.jpg')};background-position:center 30%"></div>
 <div class="dim" style="background:linear-gradient(180deg,rgba(13,27,62,.1) 0%,rgba(13,27,62,.15) 35%,rgba(13,27,62,.92) 58%,#0d1b3e 100%)"></div>
-<div class="col" style="top:720px;gap:24px">
+<div class="col" style="top:660px;gap:22px">
 <h2 style="font-size:88px">Geef je <span class="c">lessen?</span></h2>
 <div style="display:flex;gap:16px;flex-wrap:wrap">
-${['👥 5 leerlingen extra','💶 €15 per les','📅 30 lessen'].map(x=>`<span style="background:rgba(255,255,255,.12);border:2px solid rgba(255,255,255,.35);border-radius:40px;padding:14px 24px;font:600 34px/1 In">${x}</span>`).join('')}
+${['👥 1 extra lesgroep','📅 3 lessen van 1u30','💶 €290 per reeks'].map(x=>`<span style="background:rgba(255,255,255,.12);border:2px solid rgba(255,255,255,.35);border-radius:40px;padding:14px 24px;font:600 34px/1 In">${x}</span>`).join('')}
 </div>
-<div style="font:700 130px/.9 Rj">= <span class="c">€2.250</span></div>
+<p class="t" style="font-size:38px">Elke maand één extra groep?</p>
+<div style="font:700 130px/.9 Rj">= <span class="c">€3.480</span> <span style="font-size:56px">per jaar</span></div>
 </div>`));
 // 6 WAAR KOMEN ZE VANDAAN · gsm met story
 S.push(page(6, `
