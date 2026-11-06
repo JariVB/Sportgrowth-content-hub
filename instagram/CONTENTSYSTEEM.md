@@ -96,6 +96,22 @@ Verdeling per 4 weken (12 posts): 3 HERKENBAAR? · 3 CLUBCHECK · 2 RESULTAAT ·
 - **Carrousels overtuigen wie al kijkt**: "Wat jouw club kan posten" bereikte 69% eigen volgers en 0 nieuwe mensen. Meet carrousels op bewaren, delen en DM's, niet op bereik.
 - **Meer bereik voor een carrousel:** maak er een samenwerkingspost (Collab) van met een klant of club, zodat hij ook bij hun volgers verschijnt (eerst Jan Stilten, daarna Baltha).
 
+
+## 5e. Opening met actie (beslist 6/11, op basis van de cijfers)
+Bron: `statistieken.md`. Overslaan bepaalt het bereik: 44% → 3.061 weergaven, 71% → 743, 84% → 209.
+1. **0,0-1,5 s = actiebeeld.** Een smash, een bal die het net raakt, een doelpunt, een high five, een vol terrein in beweging. Nooit een praatbeeld, een stand, een logo of een grafisch beeld als eerste beeld.
+2. **Tekst in beeld vanaf frame 0**, max. 6 woorden, groot, midden van het scherm. Nooit pas na een halve seconde.
+3. **Snede op 1,5 s** naar Jari in de camera of de volgende actie. Elke 2-3 s een nieuw beeld in de eerste 10 s.
+4. **20-25 s**, nooit meer dan 30 s. Het einde loopt over in het begin (zelfde beeld of beweging), zodat men herbekijkt.
+5. **Geluid:** de eerste klap (bal, fluitsignaal, juichen) valt op frame 0.
+6. **Meten:** doel overslaan < 50% en kijktijd ≥ 40% van de lengte. Na elke reel screenshot na 24 u en 7 dagen.
+
+**Groei in bereik en volgers (naast het weekritme):**
+- **Proefreels (Trial Reels):** elke reel met een tweede opening (ander actiebeeld of andere tekst) als proefreel posten. Instagram toont die alleen aan niet-volgers; de beste opening gaat daarna naar de volgers.
+- **Collabs:** een collab-post haalde 2,5x het gemiddelde. Minstens 1 per 2 weken: een club, trainer, merk of sportzaak die mee post.
+- **Laten delen:** elke getagde partner krijgt een kant-en-klaar storybericht om te delen (stories = 20% van de weergaven van de collab).
+- **Volgers oogsten:** op de eindkaart klein in beeld: "Volg voor wekelijkse clubtips". De caption houdt één oproep (DM).
+
 ## 5b. De hook (titel en eerste regel van elke post)
 **Vaste formule: "Zo [doe je iets wat elke club kent] die/dat [resultaat dat de club wil]."**
 Voorbeeld en norm: **"Zo schrijf je een clubbio die leden aantrekt."**

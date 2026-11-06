@@ -10,6 +10,8 @@ Shotlist: `SHOTLIST-9-15-NOV.md` (shoot verplaatst naar za 7/11 ochtend vóór h
 | do 12/11 19u30 | Reel "Zo maak je van een proefles een vast lid" | ABONNEMENT · HERKENBAAR? | zinnen za 7/11, sfeer tornooi wo 4/11 + training di 10/11, montage Claude wo 11/11, inplannen wo 11/11 |
 | week | Flaxx post de lanceringsvideo (Koen kiest de dag) | - | story delen + tag @flaxx_rackets |
 
+**Nieuw (6/11):** elke reel opent met 1,5 s actie + tekst vanaf frame 0, 20-25 s lang, en gaat ook als proefreel met een tweede opening. Cijfers na 24 u en 7 d in `statistieken.md`.
+
 ## Ma 9/11
 - Verkoop herstarten: vaste dag per week afspreken met Claude (10 min).
 - Arenal (Tom) en Fuse: gratis analyse aanbieden (DM's van Claude).
