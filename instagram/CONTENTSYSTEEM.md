@@ -137,6 +137,12 @@ Sarah, sports marketing voor (grassroots) sportclubs, UK. 10,1K volgers, 532 pos
 Patroon: (1) zij op elke cover, buiten op een sportlocatie, wit tekstkader met een stelling ("The most dangerous phrase I hear sports clubs say", "Stop treating your social media like a noticeboard and start treating it like your clubhouse") · (2) vaste reeks met delen: "5 Marketing Mistakes Grassroots Sports Clubs Make · Part 1-6" · (3) persoonlijk: "13 years ago a tweet changed my life", foto met oma, kindfoto · (4) gratis waarde als lokaas: masterclass via Zoom, freebies, maandideeën ("Ideas to grow your sports club in October") · (5) sponsoring als thema.
 Overnemen voor SGM: jij op de cover van carrousels (op een club, niet thuis) · een genummerde reeks ("5 fouten die sportclubs maken op Instagram · deel 1/5") · maandelijkse post "Postideeën voor je club in december" (bewaarbaar) · later: gratis online sessie of download als lokaas · sponsoring als onderwerp (sponsors meer zichtbaarheid geven).
 
+## 5j. Analyse @house.of.ag (6/11) · inspiratie, geen vergelijking
+Alex Garcia, content studio voor merken (VS), 207K volgers, reels 10K-112K. Andere schaal, maar 2 formats bruikbaar:
+1. Achter de schermen van een klant: "Behind the scenes of Elwood's success" (112K), "Why your social campaigns need characters". Voor SGM: "Zo maakten we de lanceringsvideo van Flaxx" (ruw beeld → eindresultaat, met akkoord Koen).
+2. Werkwijze als tip: "How to shoot 20+ pieces of content in one day" (26K). Voor SGM: "Zo filmen we 20 posts op één clubavond".
+Vorm: hij zittend in de camera (podcaststijl, goede belichting) + titel in zwart kader vanaf frame 0.
+
 ## 5b. De hook (titel en eerste regel van elke post)
 **Vaste formule: "Zo [doe je iets wat elke club kent] die/dat [resultaat dat de club wil]."**
 Voorbeeld en norm: **"Zo schrijf je een clubbio die leden aantrekt."**
