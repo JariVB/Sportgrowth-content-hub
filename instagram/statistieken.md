@@ -19,7 +19,7 @@ Elke 2 weken (maandag): conclusies onderaan bijwerken en de volgende reels daaro
 | zo 4/10 | Ik ben geen marketeer | 49 s | Jari persoonlijk | ? / 974 | 95% | 58% | 17 s | 4% | | 7 | persoonlijk verhaal = delen |
 | di 6/10 | Resultaat Jan Stilten | 28 s | collage (grafisch) | ? / 209 | 80% | 84% | 4 s | | | 1 | grafisch eerste beeld = weg |
 | di 13/10 | Reel 3 tennisclubs verliezen geen leden door padel | | | ? | | | | | | | screenshot nodig |
-| do 15/10 | Reel 4 60 seconden content | 34 s | | ? | | | | | | | screenshot nodig |
+| do 15/10 | Reel 4 1 minuut filmen = 1 week content | 33 s | actie: twee speelsters high five op padelterrein + "1 minuut filmen = 1 week content" | 319 (22 d) | 87% | **59,4%** | 8 s | 0,4% | 0,8% | 0 (8 profielbezoeken) | actiebeeld = laagste overslaan van de recente reels, maar daarna geen pijn/spanning: kijkers haken af na 3 s; belofte voor clubs, geen pijn |
 | di 20/10 | Reel 5 Zo krijg je meer jeugd in je tennisclub | 35 s | stil beeld net + DM-bubbel "Mama van Lotte" + "Zo krijg je..." | 560 (17 d) | 68% | **71,9%** (hoger) | 6 s | 0,4% | 0,4% | 0 (5 profielbezoeken) | 62% van de weergaven via stories (gedeeld), niet via het algoritme; 64% is 25-34 |
 | di 27/10 | Reel 6 3 fouten op de Instagram van padelclubs | 40 s | padelactie + DM-screenshot "We willen met 12 collega's..." (pijn) | 582 (10 d) | 89% | **61,2%** (lager) | 9 s | 0,4% | 0,4% | 0 (8 profielbezoeken) | pijnhook: laagste overslaan van de recente reels, boven gemiddelde, 52% 35+; maar te lang, weinig likes |
 | do 29/10 | Reel 7 trainers | 35,6 s | trainer wijst naar het terrein (kinderen ver) + "Zo laat je zien dat je trainers goed zijn" | 372 (8 d) | 83% | 66,7% | 8 s | 0,7% | 0,4% | 1 (8 profielbezoeken) | how-to-hook, rustig beeld: onder gemiddelde; 42% is 25-34 jaar |
@@ -41,7 +41,8 @@ Elke 2 weken (maandag): conclusies onderaan bijwerken en de volgende reels daaro
 
 ## Conclusies (bijgewerkt 6/11)
 1. **De eerste seconde beslist.** Hoe lager het overslaan, hoe meer bereik: 44% → 3.061 weergaven, 71% → 743, 84% → 209.
-2. **Wat werkt in de eerste seconde:** een persoon of actie + meteen tekst in beeld. **Wat niet werkt:** grafisch beeld (collage), aanloop, tekst die later komt, praatbeeld aan een stand.
+2. **Actie alleen is niet genoeg:** 1 minuut filmen opende met een high five (59% overslaan, beter dan gemiddeld), maar zonder pijn of spanning haakten kijkers na 3 s af (319). Actie + pijn samen.
+3. **Wat werkt in de eerste seconde:** een persoon of actie + meteen tekst in beeld. **Wat niet werkt:** grafisch beeld (collage), aanloop, tekst die later komt, praatbeeld aan een stand.
 3. **Wie blijft kijken, reageert goed** (collab: likes, delen, bewaren boven gemiddelde). Het probleem zit in de opening, niet in de inhoud.
 4. **Lengte:** de beste kijktijd is ±17 s. Reels van 20-25 s laten meer mensen het einde halen.
 5. **"Zo ..."-hooks (how-to) blijven onder het gemiddelde:** boekingen 340, trainers 372. Delen 0-0,7%. Gedeeld wordt wat herkenbaar is (pijn) of persoonlijk (reel 2: 4%).
