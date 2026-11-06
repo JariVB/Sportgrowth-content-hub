@@ -38,15 +38,20 @@ const page = (n, inner) => `<section class="s" id="s${n}">${inner}
 
 const S = [];
 const B2 = B;
-// 1 COVER
+// 1 COVER · speelsters aan het net + boekingskaart "GEBOEKT"
 S.push(page(1, `
-<div class="bg" style="background-image:${i64(B2 + '/jari-tennis-lacht.jpg')};background-size:1700px auto;background-position:-40px -560px"></div>
-<div class="dim" style="background:linear-gradient(180deg,rgba(13,27,62,.15) 0%,rgba(13,27,62,.1) 30%,rgba(13,27,62,.9) 56%,#0d1b3e 100%)"></div>
+<div class="bg" style="background-image:${i64(B2 + '/padel-lachen-aan-net.jpg')};background-size:1080px auto;background-position:center -120px"></div>
+<div class="dim" style="background:linear-gradient(180deg,rgba(13,27,62,.1) 0%,rgba(13,27,62,.05) 30%,rgba(13,27,62,.9) 58%,#0d1b3e 100%)"></div>
 <div class="swipe">Swipe →</div>
-<div class="col" style="top:560px;gap:20px">
+<div style="position:absolute;left:420px;right:60px;top:560px;background:#fff;color:#0d1b3e;border-radius:26px;padding:26px 30px;box-shadow:0 24px 60px rgba(0,0,0,.45);transform:rotate(-3deg);display:flex;flex-direction:column;gap:10px">
+<div style="display:flex;justify-content:space-between;align-items:center"><span style="font:700 34px/1 In">🎾 Terrein 3</span><span style="background:#19c37d;color:#fff;font:800 26px/1 In;padding:10px 16px;border-radius:30px">GEBOEKT ✓</span></div>
+<div style="font:600 30px/1.2 In;color:#55627f">Dinsdag · 15:00 – 16:30</div>
+<div style="font:700 44px/1 Rj;color:#0e8cff">+ €48</div>
+</div>
+<div class="col" style="top:790px;gap:18px">
 <span class="tag">ZO WERKT SGM · VERHUUR</span>
-<div style="font:700 220px/.85 Rj;color:#00d4ff;letter-spacing:-4px">€2.496</div>
-<h1 style="font-size:78px;line-height:.98">Zoveel levert één<br>extra boeking<br>per week je op</h1>
+<div style="font:700 210px/.85 Rj;color:#00d4ff;letter-spacing:-4px">€2.496</div>
+<h1 style="font-size:74px;line-height:.98">Zoveel levert één<br>extra boeking<br>per week je op</h1>
 </div>`));
 // 2 HERKENNING · leeg terrein, foto vol beeld
 S.push(page(2, `
@@ -86,7 +91,7 @@ S.push(page(4, `
 <span style="font:700 150px/.9 Rj;color:#00d4ff">€9.984</span><span style="font:600 38px/1.2 In">per jaar.<br>Zonder te bouwen.</span></div>`));
 // 5 LESSEN · foto + chips
 S.push(page(5, `
-<div class="bg" style="background-image:${i64(B2 + '/padel-lachen-aan-net.jpg')};background-position:center 30%"></div>
+<div class="bg" style="background-image:${i64(B2 + '/tennis-hal-speler.jpg')};background-position:center 40%"></div>
 <div class="dim" style="background:linear-gradient(180deg,rgba(13,27,62,.1) 0%,rgba(13,27,62,.15) 35%,rgba(13,27,62,.92) 58%,#0d1b3e 100%)"></div>
 <div class="col" style="top:660px;gap:22px">
 <h2 style="font-size:88px">Geef je <span class="c">lessen?</span></h2>
