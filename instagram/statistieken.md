@@ -34,7 +34,7 @@ Elke 2 weken (maandag): conclusies onderaan bijwerken en de volgende reels daaro
 | do 8/10 | Zo ziet een gratis analyse eruit | 123 | 13% | | | 3 → 0 | |
 | ma 12/10 | Clubbio | ? | | | | | screenshot nodig |
 | ma 19/10 | 5 tekenen | ? | | | | | screenshot nodig |
-| ma 26/10 | Een maand Instagram | ? | | | | | screenshot nodig |
+| ma 26/10 | Zo ziet een maand Instagram eruit als wij het voor je doen (cover: Jari met racket) | 332 (149 kijkers, 11 d) | 46% | 1 | 0 | 5 → 0 | **2x het gemiddelde (±160)** en blijft groeien; 13 likes, waarvan 8 op de cover (jij in beeld); 52% 35+ |
 | ma 2/11 | Padel: van hype naar gewoonte | ? | | | | | screenshot nodig |
 
 **Referentie:** gemiddelde reel ±500 weergaven na 7 dagen (grafiek Instagram), overslaan gemiddeld ±65%.
@@ -48,4 +48,5 @@ Elke 2 weken (maandag): conclusies onderaan bijwerken en de volgende reels daaro
 6. **Leeftijd:** bij how-to-reels is 25-34 de grootste groep (36-42%); bij de pijnhook "3 fouten" was 56% 35+. Pijn van de club trekt de beslissers.
 7. **Profielbezoek wordt geen volger:** collab 6 → 0, boekingen 2 → 1, trainers 8 → 1, fouten padel 8 → 0. Wie op het profiel komt, vindt geen reden om te volgen. Het profiel (bio, vastgezette posts, hoogtepunten) moet beter.
 8. **Stories verspreiden:** bij de jeugdreel kwam 62% van de weergaven via stories (gedeeld). Delen door anderen werkt, ook als het algoritme de reel niet oppikt.
-9. **Bereik komt van niet-volgers** (80-95%). Carrousels bereiken vooral volgers: ze zijn er om te overtuigen, niet om te groeien.
+9. **Carrousels met jou op de cover doen het 2x beter** (een maand Instagram: 332 vs ±160). Likes vooral op slide 1. Mensen reageren op een gezicht.
+10. **Bereik komt van niet-volgers** (80-95%). Carrousels bereiken vooral volgers: ze zijn er om te overtuigen, niet om te groeien.
