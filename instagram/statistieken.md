@@ -23,7 +23,7 @@ Elke 2 weken (maandag): conclusies onderaan bijwerken en de volgende reels daaro
 | di 20/10 | Reel 5 meer jeugd in je tennisclub | | | ? | | | | | | | screenshot nodig |
 | di 27/10 | Reel 6 3 fouten padelclubs | | | ? | | | | | | | screenshot nodig |
 | do 29/10 | Reel 7 trainers | 35,6 s | | ? | | | | | | | screenshot nodig |
-| di 3/11 | Reel 8 boekingen | 29,7 s | | ? | | | | | | | screenshot nodig |
+| di 3/11 | Reel 8 boekingen | 29,7 s | twee speelsters praten aan het net (stil beeld) + "Zo krijg je meer boekingen" | 340 (3 d) | 87% | 63,6% (lager dan gemiddeld) | 6 s | 0% | 0,4% | 1 | onder gemiddelde (±500): geen actie, how-to-hook zonder pijn, waarde kwam laat, niets om te delen |
 | do 5/11 | Collab Flaxx "Het verhaal achter Flaxx" | 33 s | AI-clip smash, tekst pas na 0,75 s | 743 (14u) / ? | 85% | **71%** | 9 s | 1,4% | 0,8% | 0 | 2,5x gemiddelde, likes/delen/bewaren boven gemiddelde, maar opening te traag |
 
 ## Carrousels
@@ -37,9 +37,12 @@ Elke 2 weken (maandag): conclusies onderaan bijwerken en de volgende reels daaro
 | ma 26/10 | Een maand Instagram | ? | | | | | screenshot nodig |
 | ma 2/11 | Padel: van hype naar gewoonte | ? | | | | | screenshot nodig |
 
+**Referentie:** gemiddelde reel ±500 weergaven na 7 dagen (grafiek Instagram), overslaan gemiddeld ±65%.
+
 ## Conclusies (bijgewerkt 6/11)
 1. **De eerste seconde beslist.** Hoe lager het overslaan, hoe meer bereik: 44% → 3.061 weergaven, 71% → 743, 84% → 209.
 2. **Wat werkt in de eerste seconde:** een persoon of actie + meteen tekst in beeld. **Wat niet werkt:** grafisch beeld (collage), aanloop, tekst die later komt, praatbeeld aan een stand.
 3. **Wie blijft kijken, reageert goed** (collab: likes, delen, bewaren boven gemiddelde). Het probleem zit in de opening, niet in de inhoud.
 4. **Lengte:** de beste kijktijd is ±17 s. Reels van 20-25 s laten meer mensen het einde halen.
-5. **Bereik komt van niet-volgers** (80-95%). Carrousels bereiken vooral volgers: ze zijn er om te overtuigen, niet om te groeien.
+5. **Delen ontbreekt bij how-to-reels** (boekingen: 0%). Gedeeld wordt wat herkenbaar is (pijn) of persoonlijk (reel 2: 4%).
+6. **Bereik komt van niet-volgers** (80-95%). Carrousels bereiken vooral volgers: ze zijn er om te overtuigen, niet om te groeien.
