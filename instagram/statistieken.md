@@ -24,7 +24,7 @@ Elke 2 weken (maandag): conclusies onderaan bijwerken en de volgende reels daaro
 | di 27/10 | Reel 6 3 fouten op de Instagram van padelclubs | 40 s | padelactie + DM-screenshot "We willen met 12 collega's..." (pijn) | 582 (10 d) | 89% | **61,2%** (lager) | 9 s | 0,4% | 0,4% | 0 (8 profielbezoeken) | pijnhook: laagste overslaan van de recente reels, boven gemiddelde, 52% 35+; maar te lang, weinig likes |
 | do 29/10 | Reel 7 trainers | 35,6 s | trainer wijst naar het terrein (kinderen ver) + "Zo laat je zien dat je trainers goed zijn" | 372 (8 d) | 83% | 66,7% | 8 s | 0,7% | 0,4% | 1 (8 profielbezoeken) | how-to-hook, rustig beeld: onder gemiddelde; 42% is 25-34 jaar |
 | di 3/11 | Reel 8 boekingen | 29,7 s | twee speelsters praten aan het net (stil beeld) + "Zo krijg je meer boekingen" | 340 (3 d) | 87% | 63,6% (lager dan gemiddeld) | 6 s | 0% | 0,4% | 1 | onder gemiddelde (±500): geen actie, how-to-hook zonder pijn, waarde kwam laat, niets om te delen |
-| do 5/11 | Collab Flaxx "Het verhaal achter Flaxx" | 33 s | AI-clip smash, tekst pas na 0,75 s | 743 (14u) / ? | 85% | **71%** | 9 s | 1,4% | 0,8% | 0 | 2,5x gemiddelde, likes/delen/bewaren boven gemiddelde, maar opening te traag |
+| do 5/11 | Collab Flaxx "Het verhaal achter Flaxx" | 33 s | AI-clip smash, tekst pas na 0,75 s | 743 (14u) · 860 (±40u) / ? | 85% | **71%** | 9 s | 1,4% | 0,8% | 0 | 2,5x gemiddelde, likes/delen/bewaren boven gemiddelde, maar opening te traag |
 
 ## Carrousels
 | Datum | Carrousel | Weergaven | Niet-volgers | Bewaard | Gedeeld | Profielbezoek → volgers | Les |
