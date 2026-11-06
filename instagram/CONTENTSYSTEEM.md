@@ -67,7 +67,7 @@ Verdeling per 4 weken (12 posts): 3 HERKENBAAR? · 3 CLUBCHECK · 2 RESULTAAT ·
 ## 5. Vaste opbouw van elke reel (±30 s)
 | Tijd | Wat |
 |---|---|
-| 0-3 s | **Lokbeeld**: wat een club wil (vol terras, lachende leden, actie), positieve tekst van 3-6 woorden |
+| 0-3 s | **Actiebeeld + pijnhook vanaf frame 0** (beslist 6/11): de pijn van de club in max. 6 woorden ("Terrein 3 staat weer leeg."). 1 op 3 reels opent met een resultaat of cijfer in de plaats. |
 | 3-8 s | **Herkenning**: de pijn van de club, recht in de camera ("Bij de meeste clubs…") |
 | 8-22 s | **Inzicht of demonstratie**: wat er beter kan, getoond in beeld (voor/na, scherm, club) |
 | 22-27 s | **SGM-zin**: "Dat doen wij voor clubs." of een cijfer als bewijs |
@@ -105,6 +105,11 @@ Bron: `statistieken.md`. Overslaan bepaalt het bereik: 44% → 3.061 weergaven, 
 4. **20-25 s**, nooit meer dan 30 s. Het einde loopt over in het begin (zelfde beeld of beweging), zodat men herbekijkt.
 5. **Geluid:** de eerste klap (bal, fluitsignaal, juichen) valt op frame 0.
 6. **Meten:** doel overslaan < 50% en kijktijd ≥ 40% van de lengte. Na elke reel screenshot na 24 u en 7 dagen.
+
+**Pijnhooks (beslist 6/11):** de best scorende reel (3 fouten tennisclubs, 44% overslaan) opende met pijn. Formule: actiebeeld + pijnhook → herkenning → oplossing → resultaat → DM.
+- Enkel pijn van de club: lege terreinen, leden die stoppen, kamp niet vol, proefles komt niet terug, vrijwilliger die om 23u post. Geen algemene pijn ("Moe?", "Stress?").
+- 2 op 3 reels openen met pijn, 1 op 3 met een resultaat of cijfer, zodat het profiel niet negatief oogt.
+- Hookbank: "Je kamp is nog niet vol?" · "Eén keer geproefd. Nooit teruggezien." · "Terrein 3 staat weer leeg." · "Weer een lid dat stopt." · "23u. Jij post nog voor de club." · "Laatste post: de BBQ van juni." · "Niemand weet hoe goed je trainers zijn."
 
 **Groei in bereik en volgers (naast het weekritme):**
 - **Proefreels (Trial Reels):** elke reel met een tweede opening (ander actiebeeld of andere tekst) als proefreel posten. Instagram toont die alleen aan niet-volgers; de beste opening gaat daarna naar de volgers.

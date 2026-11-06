@@ -12,7 +12,7 @@ Doel: meer kijkers (reels bereiken niet-volgers) en meer klanten (elke post eind
 | Ma t.e.m. do + za | - | Stories: post delen 5 min na het posten, 1 poll of vraag midden in de week, za op het terrein | Contact, vragen uitlokken |
 | Vr en zo | - | Niets (zo hooguit een story) | Rust |
 
-- **Structuur van elke reel (lokken, dan uitleggen):** 0-2 s lokbeeld van wat een club wil (vol terrein, high five, vol clubhuis), positieve tekst van 3 à 5 woorden, nooit het probleem · 2-10 s het probleem · 10-22 s de oplossing · lokbeeld komt terug · afsluiter: wie je bent + "stuur een DM".
+- **Structuur van elke reel (bijgestuurd 6/11, zie CONTENTSYSTEEM.md 5e):** 0-1,5 s actiebeeld + pijnhook vanaf frame 0 (2 op 3 reels; 1 op 3 een resultaat of cijfer) · 2-10 s het probleem · 10-22 s de oplossing · lokbeeld komt terug · afsluiter: wie je bent + "stuur een DM".
 - **Productie:** opnemen in 1 keer per 2 à 3 weken (batch). Woensdag monteren: de reel van donderdag, de reel van dinsdag erna en de carrousel van maandag erna (slides maakt Claude).
 - **Bij elke post:** 5 minuten reageren bij clubs, en de eerste reacties op je post binnen het uur beantwoorden.
 - **Bijsturen:** ma 12/10 eerste analyse ✅ gedaan (`analyses/overzicht-sept-okt.md`, lessen in CONTENTSYSTEEM.md), ma 26/10 opnieuw na 2 weken vast ritme (taken staan in de checklist).
