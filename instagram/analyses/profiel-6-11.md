@@ -11,10 +11,11 @@
 
 ## Aanpassingen
 1. Bio (nieuw):
-   🎾 Jari · padeltrainer en sportmens
-   📈 Wij filmen en posten voor sportclubs en sportcentra
+   🎾 Door sportmensen, voor sportclubs
+   📈 Wij filmen en posten voor clubs en sportcentra
    💡 Elke week een clubtip
    📩 DM voor een gratis analyse
+   (Jari bewust niet in de bio: SGM = agency. Jari blijft het gezicht in reels en in hoogtepunt "Over mij".)
 2. Vastzetten: 1) 3 fouten tennisclubs (3.162) 2) Ik ben geen marketeer (1.074) 3) Een maand Instagram (carrousel, Jari op cover, prijs/werkwijze). Gratis analyse en resultaat → blijven in hoogtepunten.
 3. Archiveren (niet verwijderen): de 9 oude tekstposts in de oude stijl (Een sportclub zonder social media, Maandagsles vol, Niet elke social media manager, De grootste fout, Ik heb maandenlang gepost, De meeste sportclubs posten, 6 weken Jan Stilten, 5 sporttypes, Wat slechte social media kost).
 4. Profielfoto: optie om later te wisselen naar een foto van Jari (persoonlijk merk). Nu logo behouden.
