@@ -139,4 +139,6 @@ Verkoop herstart ma 9/11. Flaxx post de lanceringsvideo in deze week. Daarna (16
 
 **Collab-reel Flaxx (wo 4/11):** v13 klaar (34,8 s): hook AI-clip (Kling) "Last van je elleboog na padel?" + trillingsanimatie + vlasveld (schermopname Mechielsen Oldehove BV, toestemming nodig) + racket van dichtbij. Bij posten "AI-info" aanzetten.
 
-**Idee (6/11, Jari):** "Je terreinen staan overdag leeg? 5 groepen die net dan willen spelen" (55+, ploegenwerkers/zelfstandigen, ouders tijdens schooluren, bedrijven over de middag, studenten/scholen). Pijnhook + lijst om te bewaren. Week van 16/11.
+**Idee (6/11, Jari):** "Je zaal of terreinen staan overdag leeg? 5 groepen die net dan willen sporten" (alle verhuursporten) (55+, ploegenwerkers/zelfstandigen, ouders tijdens schooluren, bedrijven over de middag, studenten/scholen). Pijnhook + lijst om te bewaren. Week van 16/11.
+
+**Sporten afwisselen (herinnering 6/11):** sinds Sports NEXT/Flaxx was bijna alles padel. Regel uit CONTENTSYSTEEM.md: de sport wisselt elke week, titels in algemene sporttaal. Komende posts: ma 9/11 verhuur (padel als voorbeeld, caption: tennis, squash, minivoetbal) · di 10/11 kampen (alle sporten, beelden voetbal/jeugd) · do 12/11 proefles (fitness, yoga, crossfit, klimzaal) · week 16/11: daluren (alle verhuur), lesreeks-carrousel (dans, zwemmen, vechtsport), voetbalclub-reel (3 fouten op de Instagram van voetbalclubs).
