@@ -138,3 +138,5 @@ Draaiboek: `DRAAIBOEK-9-15-NOV.md`. Opnames: `SHOTLIST-9-15-NOV.md` (zinnen + ni
 Verkoop herstart ma 9/11. Flaxx post de lanceringsvideo in deze week. Daarna (16/11) de vroegere week 9/11 uit CONTENTSYSTEEM.md: lesreeks-carrousel, Jan Stilten-collab, "3 fouten op de Instagram van sportcentra".
 
 **Collab-reel Flaxx (wo 4/11):** v13 klaar (34,8 s): hook AI-clip (Kling) "Last van je elleboog na padel?" + trillingsanimatie + vlasveld (schermopname Mechielsen Oldehove BV, toestemming nodig) + racket van dichtbij. Bij posten "AI-info" aanzetten.
+
+**Idee (6/11, Jari):** "Je terreinen staan overdag leeg? 5 groepen die net dan willen spelen" (55+, ploegenwerkers/zelfstandigen, ouders tijdens schooluren, bedrijven over de middag, studenten/scholen). Pijnhook + lijst om te bewaren. Week van 16/11.
