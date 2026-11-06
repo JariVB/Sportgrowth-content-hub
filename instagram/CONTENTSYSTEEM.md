@@ -120,6 +120,12 @@ Bron: `statistieken.md`. Overslaan bepaalt het bereik: 44% → 3.061 weergaven, 
 ## 5f. Profiel: max. 1 keer per maand (afspraak 6/11)
 Profiel herwerkt op vr 6/11 (bio, vastgezette posts, oude posts gearchiveerd, zie analyses/profiel-6-11.md). Daarna 4 weken niets aan bio, naam, hoogtepunten of profielfoto. Meetmoment ma 7/12: profielbezoeken → volgers (doel ≥ 1 op 5). Enkel vastgezette posts mogen wisselen als een nieuwe reel beter scoort.
 
+## 5g. Nieuw format om te testen: caption-reel (6/11)
+Voorbeeld: @shotby.rene "Zit jij in het bestuur van een tennisclub?" (18/9): 12,6K weergaven, 36 keer gedeeld (meer dan likes).
+Opbouw: één mooi actiebeeld van 6-8 s (sfeer, publiek, zon) dat loopt · grote tekst vanaf frame 0 die de doelgroep aanspreekt ("Zit jij in het bestuur van een ...?") · regel 2: "Deze 5 dingen ..." · regel 3: "Lees de caption 👇" · de waarde (lijst van 5) staat in de caption · eindigt met "Sla deze op".
+Waarom het werkt: kort = volledig bekeken en herbekeken (kijktijd > 100%), wie leest blijft op de reel, de vraag filtert de juiste mensen, de lijst is om te delen met het bestuur. Weinig werk: geen inspreken, geen montage.
+Test: 1 caption-reel per week naast het ritme (als proefreel), per sport wisselend.
+
 ## 5b. De hook (titel en eerste regel van elke post)
 **Vaste formule: "Zo [doe je iets wat elke club kent] die/dat [resultaat dat de club wil]."**
 Voorbeeld en norm: **"Zo schrijf je een clubbio die leden aantrekt."**
