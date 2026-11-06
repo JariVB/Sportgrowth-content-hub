@@ -126,6 +126,12 @@ Opbouw: één mooi actiebeeld van 6-8 s (sfeer, publiek, zon) dat loopt · grote
 Waarom het werkt: kort = volledig bekeken en herbekeken (kijktijd > 100%), wie leest blijft op de reel, de vraag filtert de juiste mensen, de lijst is om te delen met het bestuur. Weinig werk: geen inspreken, geen montage.
 Test: 1 caption-reel per week naast het ritme (als proefreel), per sport wisselend.
 
+## 5h. Format: mening in de camera (6/11, analyse @shotby.rene)
+Vergelijkbaar account (videograaf tennis, NL, 1.987 volgers, 816 posts, ook "gratis content check"). Toppers: "We hebben in Nederland een tennisprobleem" 21,6K · "Tennisclubs, stop met deze posters!" 17,2K · "Zit jij in het bestuur... lees de caption" 11,5K · jeugdfoto "van tennis" 10,3K · "De jeugd wil niet meer tennissen" 8,9K. Productwerk (camera's) blijft rond 1-2K.
+Patroon: hij thuis in de camera (gsm, geen actie) + een sterke mening of beschuldiging in een wit tekstvak bovenaan vanaf frame 0. Mening > tip. Bevestigt onze beste reel (Jari in camera + "3 fouten").
+Toepassing SGM: 1 per 2 weken een meningsreel, thuis te filmen in 5 min, 15-25 s. Hookbank: "Sportclubs, stop met deze affiches!" · "Padel heeft een probleem in België" · "Jullie Facebookpagina is een prikbord" · "De jeugd blijft niet bij je club. Dit is waarom" · "Een sportclub zonder Instagram bestaat niet voor wie 30 is".
+Profiel (meetmoment 7/12, niet eerder): hij heeft zijn gezicht als profielfoto en bewijs in de bio ("o.a. @knltbpickleball"). Te testen: "o.a. @flaxx_rackets" in de bio.
+
 ## 5b. De hook (titel en eerste regel van elke post)
 **Vaste formule: "Zo [doe je iets wat elke club kent] die/dat [resultaat dat de club wil]."**
 Voorbeeld en norm: **"Zo schrijf je een clubbio die leden aantrekt."**
