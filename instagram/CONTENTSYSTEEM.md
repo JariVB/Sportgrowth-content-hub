@@ -143,6 +143,16 @@ Alex Garcia, content studio voor merken (VS), 207K volgers, reels 10K-112K. Ande
 2. Werkwijze als tip: "How to shoot 20+ pieces of content in one day" (26K). Voor SGM: "Zo filmen we 20 posts op één clubavond".
 Vorm: hij zittend in de camera (podcaststijl, goede belichting) + titel in zwart kader vanaf frame 0.
 
+## 5k. Analyse @tylertometich (6/11) · leermeester, geen vergelijking
+Tyler Tometich, content marketing mentor voor ondernemers (VS), 567K volgers. Publiek = makers, niet clubs. Effecten (kloon, flash, fly-in) kosten veel tijd en trekken makers aan: niet als vaste stijl.
+Wel overnemen:
+1. Twee kanten naast elkaar (split/kloon): "You want vs You need", "Old hooks vs New hooks", "Views don't pay vs 7 figure brand". Voor SGM: "Clubs die posten vs clubs die groeien", "Affiche vs filmpje", "Vrijwilliger om 23u vs SGM". Statief + 2 takes, Claude zet ze naast elkaar.
+2. "What I'd do if I took over your brand for 30 days" → "Wat ik zou doen als ik 30 dagen de Instagram van jullie club overnam" (carrousel of reel).
+3. Vastgezet: "Getting views. But still 0 clients" → spreekt de pijn van de klant aan.
+4. "Send this to them ❤️" in beeld = delen uitlokken (bij SGM: "📤 Stuur dit naar je bestuur").
+5. Herkenbaarheid: altijd dezelfde pet en blauwe t-shirt (= onze trui-regel).
+6. Hoogtepunten: Testimonials · Free Stuff · Partners · I worked on (bij SGM later: Klanten/Resultaat, Gratis, Partners).
+
 ## 5b. De hook (titel en eerste regel van elke post)
 **Vaste formule: "Zo [doe je iets wat elke club kent] die/dat [resultaat dat de club wil]."**
 Voorbeeld en norm: **"Zo schrijf je een clubbio die leden aantrekt."**
