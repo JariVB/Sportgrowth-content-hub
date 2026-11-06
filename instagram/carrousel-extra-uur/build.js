@@ -45,7 +45,7 @@ S.push(page(1, `
 <div class="swipe">Swipe →</div>
 <div style="position:absolute;left:420px;right:60px;top:560px;background:#fff;color:#0d1b3e;border-radius:26px;padding:26px 30px;box-shadow:0 24px 60px rgba(0,0,0,.45);transform:rotate(-3deg);display:flex;flex-direction:column;gap:10px">
 <div style="display:flex;justify-content:space-between;align-items:center"><span style="font:700 34px/1 In">🎾 Terrein 3</span><span style="background:#19c37d;color:#fff;font:800 26px/1 In;padding:10px 16px;border-radius:30px">GEBOEKT ✓</span></div>
-<div style="font:600 30px/1.2 In;color:#55627f">Dinsdag · 15:00 – 16:30</div>
+<div style="font:600 30px/1.2 In;color:#55627f">Vrijdag · 21:00 – 22:30</div>
 <div style="font:700 44px/1 Rj;color:#0e8cff">+ €48</div>
 </div>
 <div class="col" style="top:790px;gap:18px">
@@ -58,7 +58,7 @@ S.push(page(2, `
 <div class="bg" style="background-image:${i64(B2 + '/padel-net-overdekte-hal.jpg')};background-position:center 60%"></div>
 <div class="dim" style="background:linear-gradient(180deg,rgba(13,27,62,.85) 0%,rgba(13,27,62,.2) 38%,rgba(13,27,62,.2) 60%,rgba(13,27,62,.92) 85%)"></div>
 <div class="col" style="top:110px;gap:18px">
-<div style="font:700 44px/1 In;color:#00d4ff;letter-spacing:.04em">DINSDAG · 15:00</div>
+<div style="font:700 44px/1 In;color:#00d4ff;letter-spacing:.04em">VRIJDAG · 21:00</div>
 <h2 style="font-size:118px">Terrein 3<br>is leeg.</h2>
 </div>
 <div style="position:absolute;left:50%;top:640px;transform:translate(-50%,-50%) rotate(-12deg);border:10px solid #ff4d4d;color:#ff4d4d;font:700 150px/1 Rj;padding:6px 40px 0;border-radius:18px;letter-spacing:6px;background:rgba(13,27,62,.35)">LEEG</div>
@@ -107,7 +107,7 @@ S.push(page(6, `
 <div style="position:absolute;left:300px;top:330px;width:480px;height:930px;border-radius:64px;background:#000;padding:16px;box-shadow:0 40px 80px rgba(0,0,0,.5)">
 <div style="width:100%;height:100%;border-radius:50px;overflow:hidden;position:relative;background-image:${i64(B2 + '/padel-net-overdekte-hal.jpg')};background-size:cover;background-position:center">
 <div style="position:absolute;left:18px;right:18px;top:18px;display:flex;gap:6px">${[1,2,3].map(i=>`<b style="flex:1;height:5px;border-radius:3px;background:${i==1?'#fff':'rgba(255,255,255,.4)'}"></b>`).join('')}</div>
-<div style="position:absolute;left:30px;right:30px;top:330px;background:#fff;color:#0d1b3e;border-radius:22px;padding:22px 24px;text-align:center;font:800 40px/1.15 In;transform:rotate(-3deg)">Donderdag 20u<br>nog 1 terrein vrij 🎾</div>
+<div style="position:absolute;left:30px;right:30px;top:330px;background:#fff;color:#0d1b3e;border-radius:22px;padding:22px 24px;text-align:center;font:800 40px/1.15 In;transform:rotate(-3deg)">Vrijdag 21u<br>nog 1 terrein vrij 🎾</div>
 <div style="position:absolute;left:70px;right:70px;bottom:120px;background:#fff;color:#0e8cff;border-radius:16px;padding:16px;text-align:center;font:700 32px/1 In">🔗 Boek hier</div>
 </div></div>
 <div style="position:absolute;left:60px;top:560px;width:220px;font:700 30px/1.3 In;color:#00d4ff">1 · Reel van<br>een vol terrein</div>
