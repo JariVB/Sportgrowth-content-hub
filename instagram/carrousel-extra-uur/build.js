@@ -40,13 +40,13 @@ const S = [];
 const B2 = B;
 // 1 COVER
 S.push(page(1, `
-<div class="bg" style="background-image:${i64(B2 + '/padel-net-overdekte-hal.jpg')};background-position:center 40%"></div>
-<div class="dim" style="background:linear-gradient(180deg,rgba(13,27,62,.35) 0%,rgba(13,27,62,.25) 28%,rgba(13,27,62,.9) 55%,#0d1b3e 100%)"></div>
+<div class="bg" style="background-image:${i64(B2 + '/jari-tennis-lacht.jpg')};background-size:1700px auto;background-position:-40px -560px"></div>
+<div class="dim" style="background:linear-gradient(180deg,rgba(13,27,62,.15) 0%,rgba(13,27,62,.1) 30%,rgba(13,27,62,.9) 56%,#0d1b3e 100%)"></div>
 <div class="swipe">Swipe →</div>
-<div class="col" style="top:470px;gap:24px">
+<div class="col" style="top:560px;gap:20px">
 <span class="tag">ZO WERKT SGM · VERHUUR</span>
-<div style="font:700 250px/.85 Rj;color:#00d4ff;letter-spacing:-4px">€2.080</div>
-<h1 style="font-size:84px;line-height:.98">Zoveel levert één<br>extra geboekt uur<br>per week je op</h1>
+<div style="font:700 220px/.85 Rj;color:#00d4ff;letter-spacing:-4px">€2.080</div>
+<h1 style="font-size:78px;line-height:.98">Zoveel levert één<br>extra geboekt uur<br>per week je op</h1>
 </div>`));
 // 2 HERKENNING
 S.push(page(2, `
