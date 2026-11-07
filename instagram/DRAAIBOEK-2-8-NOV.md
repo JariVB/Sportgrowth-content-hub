@@ -33,9 +33,10 @@ Vast ritme: ma 19u30 carrousel · di 19u30 reel · do 19u30 reel. Week na Sports
 
 ## Vr 6/11 · niets
 
-## Za 7/11 · story op het terrein
-- Ochtend: shoot zinnen reels sportkamp + proefles + afsluiter (verschoven van wo 4/11, SHOTLIST-9-15-NOV.md).
-- Flaxx: cijfers collab-reel na 48 u + kort voorstel (optie A €290 / optie B €449/maand) naar Koen. Claude maakt het klaar.
+## Za 7/11 · story op het voetbal
+- Ochtend thuis 10 min: meningsreel 'Stop met deze affiches' + 3 zinnen proefles (nieuwe werking, DRAAIBOEK-9-15-NOV.md).
+- Vr 6/11 gedaan: profiel herwerkt, statistieken geanalyseerd (statistieken.md, analyses/samenvatting-6-11.md), concurrentie-analyse (CONTENTSYSTEEM.md 5g-5k), carrousel ma 9/11 klaar met echte prijzen, merch ontworpen (merch/).
+- Flaxx: cijfers collab-reel na 48 u (860 weergaven op vr) + feedback vragen. Voorstel (A €290 / B €449/maand) apart, na zijn antwoord.
 
 ## Zo 8/11 · rust
 
