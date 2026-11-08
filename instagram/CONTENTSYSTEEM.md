@@ -155,6 +155,7 @@ Wel overnemen:
 
 ## 5l. Trendonderzoek (vanaf 9/11)
 Elke maandag om 10u30 (vaste afspraak 8/11): Jari start het trendonderzoek via Claude in Chrome op zijn laptop (prompt in de checklist) en plakt het resultaat in het gesprek; anders screenshots. Claude Claude houdt `swipe.md` bij en vertaalt wat werkt naar SGM-posts. Elke nieuwe reel verwijst naar een rij in swipe.md of statistieken.md.
+**Filter (8/11, Jari):** een trend wordt enkel overgenomen als hij binnen het SGM-concept past: doelgroep sportclubs en sportzaken, de 4 reeksen (HERKENBAAR?, CLUBCHECK, RESULTAAT, ZO WERKT SGM + CLUBTIP), de vaste afsluiter en CTA (DM voor een gratis analyse), de pakketten Mini/Starter/Growth en de huisstijl. Geen nieuwe producten, freebies, CTA's of doelgroepen. We nemen de vorm over (hook, formaat, lengte, collab), niet het aanbod.
 
 ## 5b. De hook (titel en eerste regel van elke post)
 **Vaste formule: "Zo [doe je iets wat elke club kent] die/dat [resultaat dat de club wil]."**

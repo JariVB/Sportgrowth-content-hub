@@ -18,7 +18,7 @@ Werkwijze (vanaf 9/11):
 ## Lessen 8/11 (eerste trendonderzoek)
 1. Stelling/mening met spreker in beeld = 3-6x gemiddelde (bevestigd).
 2. Collab met creator, trainer of ander account = 3-5x eigen mededelingen.
-3. "Reageer met [woord]" + gratis template = honderden reacties (leads).
+3. "Reageer met [woord]" + gratis template = honderden reacties. Voor SGM enkel als sleutelwoord binnen de vaste CTA ("Stuur ANALYSE in een DM").
 4. Posters, aankondigingen en gratis masterclasses scoren overal het slechtst.
 
 ## Gevonden reels (nieuwste bovenaan)
@@ -29,7 +29,7 @@ Werkwijze (vanaf 9/11):
 | 8/11 | @shotby.rene | 11,5K (3x) | "Jullie Instagram is geen prikbord." | ? | stelling al door Rene gebruikt: niet letterlijk overnemen |
 | 8/11 | @shotby.rene | 8,9K (2,5x), 69 reacties | "Is tennis nog wel aantrekkelijk voor de jeugd?" | vraag | vraag-hook voor reacties: "Blijft de jeugd nog bij je club?" |
 | 8/11 | @tylertometich (gem. ±45K) | 736K (16x) | "Geef de content die je al hebt een tweede kans" (Trial Reels) | in camera, 27 s | oude goede reels hergebruiken als proefreel |
-| 8/11 | @house.of.ag (gem. ±22K) | 44K, 980 reacties | "Comment 'campaign' and I'll send you this template" | reactiewoord | "Reageer met CLUB" → gratis contentkalender (lead) |
+| 8/11 | @house.of.ag (gem. ±22K) | 44K, 980 reacties | "Comment 'campaign' and I'll send you this template" | reactiewoord | sleutelwoord binnen onze CTA: "Stuur ANALYSE in een DM" (geen nieuw freebie) |
 | 8/11 | @house.of.ag | 112K (5x) | samenwerking/verhaal merk + CEO | collab | = onze Flaxx-collab, verder met klanten |
 | 8/11 | @tcracso (BE, gem. ±1,8K) | 10,2K (5,7x) | creator-vlog "Come with me" bij de club | collab, dagvlog | "Een dag mee met [trainer] bij [club]" |
 | 8/11 | @club.p26 (NL, gem. ±4K) | 21,3K (5x), 158 shares | "Een nieuwe fase. Een nieuwe manier van beleven." | 3D-render verbouwing, 24 s | clubs: nieuw verhaal (verbouwing, opening) wint van nieuwtjes |
