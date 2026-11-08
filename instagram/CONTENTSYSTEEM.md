@@ -154,7 +154,7 @@ Wel overnemen:
 6. Hoogtepunten: Testimonials · Free Stuff · Partners · I worked on (bij SGM later: Klanten/Resultaat, Gratis, Partners).
 
 ## 5l. Trendonderzoek (vanaf 9/11)
-Elke maandag 10 min: Jari bewaart reels uit de niche in de collectie "SGM swipe" en stuurt screenshots; Claude houdt `swipe.md` bij en vertaalt wat werkt naar SGM-posts. Elke nieuwe reel verwijst naar een rij in swipe.md of statistieken.md.
+Elke maandag om 10u30 (vaste afspraak 8/11): Jari start het trendonderzoek via Claude in Chrome op zijn laptop (prompt in de checklist) en plakt het resultaat in het gesprek; anders screenshots. Claude Claude houdt `swipe.md` bij en vertaalt wat werkt naar SGM-posts. Elke nieuwe reel verwijst naar een rij in swipe.md of statistieken.md.
 
 ## 5b. De hook (titel en eerste regel van elke post)
 **Vaste formule: "Zo [doe je iets wat elke club kent] die/dat [resultaat dat de club wil]."**

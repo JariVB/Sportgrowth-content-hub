@@ -9,6 +9,7 @@ Doel: meer kijkers (reels bereiken niet-volgers) en meer klanten (elke post eind
 | Maandag | 19:30 | Carrousel: kennis om te bewaren (tips, stappen, voor en na) | Bewaren en delen, DM-aanvragen |
 | Dinsdag | 19:30 | Reel 1: jij in beeld, mening of tip die met een probleem begint | Bereik: nieuwe clubs |
 | Donderdag | 19:30 | Reel 2: bewijs of praktijk (voor/na, achter de schermen, demo) | Vertrouwen, DM-aanvragen |
+| Maandag | 10:30 | Trendonderzoek via Claude in Chrome (10 min, resultaat naar Claude → swipe.md) | Weten wat nu werkt |
 | Ma t.e.m. do + za | - | Stories: post delen 5 min na het posten, 1 poll of vraag midden in de week, za op het terrein | Contact, vragen uitlokken |
 | Vr en zo | - | Niets (zo hooguit een story) | Rust |
 
