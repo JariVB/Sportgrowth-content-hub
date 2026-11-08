@@ -71,3 +71,8 @@ Batch 1-3 (screenshots + berichten aan 15 sportzaken), de statistieken van het v
 ## do 5/11 · collab-reel Flaxx online
 - 18u00 gepost als collab met @flaxx_rackets (v16-B, AI-label, cover cover-collab.png). Eerste reactie du7stin (padel 2-3x per week), beantwoord met tag @flaxx_rackets.
 - Cijfers na 48 u: za 7/11, samen met feedback van Koen.
+
+## zo 8/11 · feedback Koen (Flaxx)
+- +12 volgers en meer vragen via Instagram sinds de collab. "Het merk FLAXX krijgt meer body." Voor Koen telt het merkgevoel even zwaar als cijfers.
+- Over SGM: "Alles was heel goed georganiseerd, de voorbereiding verliep vlot en ook de communicatie was top. Je voelt dat je er met veel enthousiasme en professionaliteit tegen aan gaat." → getuigenis (met toestemming).
+- Zijn twijfel: eigen performance voor de camera. Kans: begeleiding bij opnames (korte zinnen, meerdere takes, spelers en beelden laten spreken).
