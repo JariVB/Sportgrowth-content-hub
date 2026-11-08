@@ -1,7 +1,8 @@
 # Swipe-bestand: wat werkt nu (bron voor elke nieuwe post)
 
 Werkwijze (vanaf 9/11):
-- Jari: elke maandag 10u30 via Claude in Chrome (of 10 min zelf scrollen) in de niche (accounts hieronder + #sportclub #padelclub #tennisclub #voetbalclub #clubmarketing), reels met veel weergaven opslaan in de Instagram-collectie "SGM swipe". Screenshot van het reelsraster met weergaven + 2-3 reels als schermopname naar Claude.
+- Automatisch (8/11): geplande taak op Jari's laptop (Claude in Chrome) elke ma 10u30 → Google Doc "SGM trendonderzoek {datum}" in Drive. Geplande taak in de cloud (trig_01EZ7Mebo9T8fPU5LGAMtzC5) haalt het op ma 11u06 op, verwerkt het hier en meldt het aan Jari. Laptop uit? Dan melding; Jari mag het resultaat ook plakken.
+- Vroeger: Jari elke maandag 10 min zelf scrollen in de niche (accounts hieronder + #sportclub #padelclub #tennisclub #voetbalclub #clubmarketing), reels met veel weergaven opslaan in de Instagram-collectie "SGM swipe". Screenshot van het reelsraster met weergaven + 2-3 reels als schermopname naar Claude.
 - Claude: per reel de hook (eerste zin/beeld), het formaat en de lengte noteren, vergelijken met het gemiddelde van dat account (x keer beter = echt viraal), vertalen naar een SGM-idee.
 - Trending audio: in de reels-editor bij Audio → pijltje ↗ = trending. Alleen onder sfeerbeelden, niet onder gesproken reels.
 
