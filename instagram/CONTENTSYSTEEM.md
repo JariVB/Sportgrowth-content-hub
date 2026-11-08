@@ -153,6 +153,9 @@ Wel overnemen:
 5. Herkenbaarheid: altijd dezelfde pet en blauwe t-shirt (= onze trui-regel).
 6. Hoogtepunten: Testimonials · Free Stuff · Partners · I worked on (bij SGM later: Klanten/Resultaat, Gratis, Partners).
 
+## 5l. Trendonderzoek (vanaf 9/11)
+Elke maandag 10 min: Jari bewaart reels uit de niche in de collectie "SGM swipe" en stuurt screenshots; Claude houdt `swipe.md` bij en vertaalt wat werkt naar SGM-posts. Elke nieuwe reel verwijst naar een rij in swipe.md of statistieken.md.
+
 ## 5b. De hook (titel en eerste regel van elke post)
 **Vaste formule: "Zo [doe je iets wat elke club kent] die/dat [resultaat dat de club wil]."**
 Voorbeeld en norm: **"Zo schrijf je een clubbio die leden aantrekt."**
