@@ -144,3 +144,9 @@ Sportkamp-reel → januari. Flaxx achter de schermen → week 16/11.
 **Idee (6/11, Jari):** "Je zaal of terreinen staan overdag leeg? 5 groepen die net dan willen sporten" (alle verhuursporten) (55+, ploegenwerkers/zelfstandigen, ouders tijdens schooluren, bedrijven over de middag, studenten/scholen). Pijnhook + lijst om te bewaren. Week van 16/11.
 
 **Sporten afwisselen (herinnering 6/11):** sinds Sports NEXT/Flaxx was bijna alles padel. Regel uit CONTENTSYSTEEM.md: de sport wisselt elke week, titels in algemene sporttaal. Komende posts: ma 9/11 verhuur (padel als voorbeeld, caption: tennis, squash, minivoetbal) · di 10/11 kampen (alle sporten, beelden voetbal/jeugd) · do 12/11 proefles (fitness, yoga, crossfit, klimzaal) · week 16/11: daluren (alle verhuur), lesreeks-carrousel (dans, zwemmen, vechtsport), voetbalclub-reel (3 fouten op de Instagram van voetbalclubs).
+
+**Uit trendonderzoek 8/11 (swipe.md), voorstel week 16/11:**
+- Reel "Reageer met CLUB": "Dit zijn de 4 posts die elke sportclub in december moet plaatsen" (20-30 s) → wie CLUB reageert, krijgt per DM de contentkalender december (PDF door Claude). Opvolging: Jari stuurt de DM (5 min per dag) → warme leads.
+- Collab-reel "Een dag mee met [trainer] bij [club]": Jari's eigen padeltraining of een trainer van een club uit de prospectlijst, samen gepost met de club.
+- Meningsreel nr. 2 (vraag-hook voor reacties): "Blijft de jeugd nog bij je club?"
+- Proefreel: beste oude reel (3 fouten tennisclubs) opnieuw als proefreel met nieuwe opening.
