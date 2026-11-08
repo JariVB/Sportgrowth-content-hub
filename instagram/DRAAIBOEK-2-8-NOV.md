@@ -38,6 +38,8 @@ Vast ritme: ma 19u30 carrousel · di 19u30 reel · do 19u30 reel. Week na Sports
 - Vr 6/11 gedaan: profiel herwerkt, statistieken geanalyseerd (statistieken.md, analyses/samenvatting-6-11.md), concurrentie-analyse (CONTENTSYSTEEM.md 5g-5k), carrousel ma 9/11 klaar met echte prijzen, merch ontworpen (merch/).
 - Flaxx: cijfers collab-reel na 48 u (860 weergaven op vr) + feedback vragen. Voorstel (A €290 / B €449/maand) apart, na zijn antwoord.
 
-## Zo 8/11 · rust
+## Zo 8/11
+- Meningsreel + 3 zinnen proefles opnemen (van za). Carrousel ma inplannen.
+- Za 7/11 gedaan: analyse collab-reel naar Koen (994 weergaven), wacht op antwoord.
 
 **Flaxx (ma 2/11):** lanceringsvideo v12 goedgekeurd ("ziet er super uit"). Koen post hem pas volgende week (deze week al veel gepost, do de collab). Collab-reel do 5/11 om 18u00.

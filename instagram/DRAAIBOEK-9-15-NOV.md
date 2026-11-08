@@ -1,12 +1,12 @@
 # Draaiboek 9 tot 15 november · eerste week nieuwe werking (bijgestuurd vr 6/11)
 
 Nieuwe werking (CONTENTSYSTEEM.md 5e-5j): stelling of actiebeeld + tekst vanaf frame 0, 15-25 s, gezicht in elke post, sport wisselt, 1 proefreel per week.
-Opname: za 7/11 thuis, 10 min (meningsreel + 3 zinnen proefles). Geen shoot op een club nodig.
+Opname: zo 8/11 thuis, 10 min (meningsreel + 3 zinnen proefles; za niet gelukt). Montage Claude ma 9/11, inplannen ma-avond. Geen shoot op een club nodig.
 
 | Dag | Post | Vorm | Status |
 |---|---|---|---|
 | ma 9/11 19u30 | Carrousel "Zoveel levert één extra boeking per week je op" | ZO WERKT SGM · verhuur (padel als voorbeeld) | ✅ klaar, inplannen |
-| di 10/11 19u30 | Meningsreel "Sportclubs, stop met deze affiches!" | Jari thuis in camera, ±18 s, tekstvak frame 0 + proefreel met 2e hook | opname za, montage Claude zo |
+| di 10/11 19u30 | Meningsreel "Sportclubs, stop met deze affiches!" | Jari thuis in camera, ±18 s, tekstvak frame 0 + proefreel met 2e hook | opname zo 8/11, montage Claude ma, inplannen ma-avond |
 | wo 11/11 | Caption-reel (proefreel, enkel niet-volgers) "Heb jij een padelhal? Deze 5 dingen moet je elke maand laten zien. Lees de caption" | 7 s sfeerbeeld, waarde in caption | Claude maakt, uit bestaand beeld |
 | do 12/11 19u30 | Reel proefles nieuwe stijl "Eén keer geproefd. Nooit teruggezien." | smash/high five training di + Jari 3 zinnen, ±20 s | sfeer di 10/11 training, zinnen za, montage wo |
 
