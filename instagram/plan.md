@@ -150,3 +150,5 @@ Proefles-reel → di 17/11 (actiebeelden training di 10/11). Sportkamp-reel → 
 - Collab-reel "Een dag mee met [trainer] bij [club]": Jari's eigen padeltraining of een trainer van een club uit de prospectlijst, samen gepost met de club.
 - Meningsreel nr. 2 (vraag-hook voor reacties): "Blijft de jeugd nog bij je club?"
 - Proefreel: beste oude reel (3 fouten tennisclubs) opnieuw als proefreel met nieuwe opening.
+
+**Flaxx (di 10/11):** Koen heeft nu geen budget (opbouwfase, ERGO-lijn in testfase). Geen voorstel op maat sturen. Warm antwoord + getuigenis vragen; opvolgen wo 13/1. Flaxx blijft een case voor SGM (collab-reel + Koens feedback).
