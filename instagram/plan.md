@@ -152,3 +152,5 @@ Proefles-reel → di 17/11 (actiebeelden training di 10/11). Sportkamp-reel → 
 - Proefreel: beste oude reel (3 fouten tennisclubs) opnieuw als proefreel met nieuwe opening.
 
 **Flaxx (di 10/11):** Koen heeft nu geen budget (opbouwfase, ERGO-lijn in testfase). Geen voorstel op maat sturen. Warm antwoord + getuigenis vragen; opvolgen wo 13/1. Flaxx blijft een case voor SGM (collab-reel + Koens feedback).
+
+**Verkoop (gekozen di 10/11):** 1u per week op maandagavond. Ma 16/11: DM Arenal (gratis analyse) + Botz Padel, Fierce Studios en Sportfun opwarmen. Ma 23/11: eerste DM aan die 3 + 3 nieuwe zaken opwarmen. Analyses en gesprekken op woensdag.

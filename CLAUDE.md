@@ -66,6 +66,7 @@ Regels voor de planning:
 - **Twee dagen na elkaar open:** vraag of de taak nog moet, of schrap ze.
 - **Werkdagen:** hou de lijst rond een uur, tenzij Jari meer tijd meldt. Wil hij een dag niets doen,
   zet dan alleen wat op de gsm kan en die dag moet.
+- **Verkoop:** 1u per week op maandagavond (gekozen 10/11). Per week 3 nieuwe zaken uit `klanten/PROSPECTS-WAASLAND.md`: opwarmen (volgen, liken, reageren), de week erna een eerste DM met gratis analyse, opvolgen na 3 en 7 dagen. Analyses en gesprekken op woensdag. Status bijhouden in de prospectlijst.
 - **Opnames:** voor elke post met eigen beeld komt een shoot-taak (titel begint met "Shoot:") minstens
   2 dagen vóór de postdatum, monteren minstens 1 dag ervoor, en de post de dag ervoor ingepland.
   Groepeer shoots per locatie volgens de shotlist. Lukt die buffer niet, zeg het en stel voor de post
