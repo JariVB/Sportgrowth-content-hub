@@ -19,9 +19,9 @@ const html = `<!doctype html><html><head><meta charset="utf-8"><style>
 *{box-sizing:border-box}body{margin:0;width:1080px;height:1920px;position:relative;overflow:hidden;background:transparent;font-family:In}
 .a{position:absolute}.ctr{left:0;right:0;display:flex;flex-direction:column;align-items:center;text-align:center}
 #hook h1{margin:0;font:800 92px/1 In;letter-spacing:-.035em;color:#fff;text-shadow:0 6px 40px rgba(0,0,0,.6)}#hook h1 span{color:#ff4d4d}
-#aff{left:650px;top:430px;width:360px;height:500px;background:#f4ead2;border-radius:6px;box-shadow:0 30px 60px rgba(0,0,0,.6);padding:26px 22px;color:#2a2a2a;font:700 24px/1.25 'Comic Sans MS',In;text-align:center;transform-origin:50% 50%}
+#aff{left:36px;top:470px;width:340px;height:480px;background:#f4ead2;border-radius:6px;box-shadow:0 30px 60px rgba(0,0,0,.6);padding:26px 22px;color:#2a2a2a;font:700 24px/1.25 'Comic Sans MS',In;text-align:center;transform-origin:50% 50%}
 #aff .t{font:900 46px/1 Rj;color:#c9302c;margin:6px 0 12px}#aff .s{font-size:19px;font-weight:500;color:#444;line-height:1.35}
-#stamp{left:640px;top:600px;width:390px;text-align:center;font:800 120px/1 Rj;color:#ff3b30;border:12px solid #ff3b30;border-radius:18px;padding:6px 0 0;background:rgba(20,0,0,.15);letter-spacing:8px}
+#stamp{left:12px;top:630px;width:380px;text-align:center;font:800 120px/1 Rj;color:#ff3b30;border:12px solid #ff3b30;border-radius:18px;padding:6px 0 0;background:rgba(20,0,0,.15);letter-spacing:8px}
 .phone{width:330px;height:640px;border-radius:52px;background:#0b0b0d;padding:12px;box-shadow:0 30px 70px rgba(0,0,0,.6),0 0 0 3px #2c2f36}
 .scr{width:100%;height:100%;border-radius:42px;overflow:hidden;position:relative;background:#111}
 .fi{position:absolute;left:14px;right:14px;height:300px;border-radius:14px;display:flex;align-items:center;justify-content:center;font:800 40px/1 Rj;color:#fff}
@@ -36,7 +36,7 @@ const html = `<!doctype html><html><head><meta charset="utf-8"><style>
 #end .dm{font:700 78px/1 Rj;color:#0d1b3e;background:#00d4ff;padding:22px 40px 14px;border-radius:24px}
 #end .s{font:600 40px/1.2 In;color:#c9d4ee}#end .f{font:600 30px/1 In;color:#8fa3cc;margin-top:20px}
 </style></head><body>
-<div id="hook" class="a ctr" style="top:120px"><h1>Sportclubs<br><span>stop met affiches!</span></h1></div>
+<div id="hook" class="a ctr" style="top:1080px"><h1>Sportclubs<br><span>stop met affiches!</span></h1></div>
 <div id="aff" class="a"><div class="s">TENNISCLUB DE KLAVER</div><div class="t">KERSTDRINK</div><div class="s">Zaterdag 20 december om 19u<br>in het clubhuis<br><br>Iedereen welkom!<br>Inschrijven via het secretariaat<br>vóór 15 december<br>Gratis drankje voor leden<br>Tombola · DJ · hapjes<br>Meer info op onze website</div></div>
 <div id="stamp" class="a">STOP</div>
 <div id="ph1" class="a phone" style="left:40px;top:330px"><div class="scr"><div id="feed" style="position:absolute;inset:0">${feed.map((f,i)=>`<div class="fi" style="top:${20+i*320}px;background:${f[0]}">${f[1]==='AFFICHE'?'<div style="background:#f4ead2;color:#c9302c;width:80%;height:80%;border-radius:6px;display:flex;align-items:center;justify-content:center;font:900 44px/1 Rj">AFFICHE</div>':''}</div>`).join('')}</div></div></div>
@@ -58,7 +58,7 @@ window.render=function(T){const W=WARP;let t=W[W.length-1][0];for(let i=1;i<W.le
  // hook titel 0-3.6
  show($('hook'),t,0,3.65);{const k=eo5(p(t,0,.25));$('hook').style.transform=\`scale(\${1.25-.25*k})\`;$('hook').style.opacity=Math.min(k*1.5,1)*(1-p(t,3.4,3.65));}
  // affiche + STOP
- show($('aff'),t,1.5,4.6);{const k=eb(p(t,1.5,1.85));$('aff').style.transform=\`translateX(\${(1-k)*500}px) rotate(\${4-2*k}deg)\`;$('aff').style.opacity=1-p(t,4.3,4.6);}
+ show($('aff'),t,1.5,4.6);{const k=eb(p(t,1.5,1.85));$('aff').style.transform=\`translateX(\${(1-k)*-500}px) rotate(\${-4+2*k}deg)\`;$('aff').style.opacity=1-p(t,4.3,4.6);}
  show($('stamp'),t,1.95,4.6);{const k=eo5(p(t,1.95,2.1));$('stamp').style.transform=\`rotate(-14deg) scale(\${2.2-1.2*k})\`;$('stamp').style.opacity=Math.min(1,k*1.4)*(1-p(t,4.3,4.6));}
  // gsm feed scrolt
  show($('ph1'),t,5.0,8.6);{const k=eo(p(t,5.0,5.35));$('ph1').style.transform=\`translateX(\${(1-k)*-420}px) rotate(-3deg)\`;$('ph1').style.opacity=1-p(t,8.3,8.6);

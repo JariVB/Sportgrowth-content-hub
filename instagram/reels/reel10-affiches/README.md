@@ -7,3 +7,10 @@ v1 (9/11): testopname 1 in de SGM-studio (zonder groen doek), animaties + sfx + 
 - `base2.sh`: persoon op 75%, hoofd onder het neonlogo (x 135, y 455), tafelrand achter het bureau.
 - `motion.js`: ondertitels op de nieuwe spraak, animaties van v1 via WARP (tijdvervorming). v1 staat in `motion-v1.js`.
 - Render: `bash base2.sh && ./render.sh v2 skipmotion` (of zonder skipmotion om de motion-track te herrenderen).
+
+## v3 (di 10/11, feedback Jari)
+- Armen niet meer afgeknipt: persoon op volle breedte. Neonlogo hoger en kleiner (`studio/studio-sgm-hoog.png`, `NY=255 NR=112 OUT=studio-sgm-hoog.png node neon.js`).
+- Grijze muur bij de hand weg: `comp.py` vergelijkt elk beeld met een lege-muurplaat (mediaan) en ontmengt de kleur van onscherpe randen.
+- Echte tafel blijft in beeld (armen rusten er echt op), iets donkerder en warmer gekleurd; enkel de muur wordt studio.
+- Hooktitel op de borst (top 1080), affiche + STOP links naast het hoofd.
+- `bash base3.sh && ./render.sh v3`

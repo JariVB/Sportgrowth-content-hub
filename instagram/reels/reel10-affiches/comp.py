@@ -1,0 +1,79 @@
+# Reel 10 v3 · studio-composiet in Python: MODNet-alfa verfijnd met een lege-muurplaat, bureau achter de armen,
+# contactschaduw op het bureau, light wrap. python3.13 comp.py bron.mov SS D alpha.mp4 studio.png uit.mp4 bg_uit.png
+import sys, subprocess, numpy as np
+from PIL import Image, ImageFilter
+src, ss, d, amp, bgp, out, bgout = sys.argv[1:8]
+W, H = 1080, 1920
+K, X0, Y0 = 1.0, 0, 0            # studio-sgm-hoog.png: neonlogo hoger en kleiner, persoon op volle breedte
+DESK = round(1573 * K) - Y0       # bovenkant bureau in beeld (1700)
+OFF = DESK - 1542                 # echte tafelrand (y 1542 in de take) op de bureaurand
+def rd(path, w, h, fmt, step=1, extra=''):
+    vf = f'scale={w}:{h}:flags=lanczos' + (f',select=not(mod(n\\,{step}))' if step > 1 else '') + extra
+    args = ['ffmpeg', '-v', 'error'] + (['-ss', ss, '-t', d] if path == src else []) + ['-i', path, '-vf', vf] + (['-vsync', '0'] if step > 1 else []) + ['-f', 'rawvideo', '-pix_fmt', fmt, '-']
+    return subprocess.Popen(args, stdout=subprocess.PIPE)
+# 1. lege-muurplaat (mediaan van pixels waar de persoon niet staat), halve resolutie
+hw, hh = W // 2, H // 2
+ps, pa = rd(src, hw, hh, 'rgb24', 5), rd(amp, hw, hh, 'gray', 5)
+fr, al = [], []
+while True:
+    b, a = ps.stdout.read(hw*hh*3), pa.stdout.read(hw*hh)
+    if len(b) < hw*hh*3 or len(a) < hw*hh: break
+    fr.append(np.frombuffer(b, np.uint8).reshape(hh, hw, 3)); al.append(np.frombuffer(a, np.uint8).reshape(hh, hw))
+fr = np.stack(fr).astype(np.float32); al = np.stack(al)
+fr[al > 12] = np.nan
+plate = np.nanmedian(fr, axis=0); known = (np.sum(al <= 12, axis=0) >= 4)
+plate = np.nan_to_num(plate)
+plate = np.asarray(Image.fromarray(plate.astype(np.uint8)).resize((W, H), Image.BILINEAR), np.float32)
+known = np.asarray(Image.fromarray((known*255).astype(np.uint8)).resize((W, H), Image.BILINEAR).filter(ImageFilter.MinFilter(5)), np.float32) / 255
+print('plaat klaar, bekend:', round(float(known.mean()), 2), flush=True)
+# 2. achtergrond
+bg = Image.open(bgp).convert('RGB'); bg = bg.resize((round(bg.width*K), round(bg.height*K)), Image.LANCZOS).crop((X0, Y0, X0+W, Y0+H))
+bg.save(bgout); BG = np.asarray(bg, np.float32) / 255
+BGB = np.asarray(bg.filter(ImageFilter.GaussianBlur(28)), np.float32) / 255
+yy = np.arange(H)[:, None]
+TAB = np.clip((yy - 1538) / 8, 0, 1).astype(np.float32)  # gebied van de echte tafel in de take
+TABTINT = (np.array([0.80, 0.72, 0.62], np.float32)[None, None, :] * (1 - 0.25 * np.clip((yy - 1540) / 380, 0, 1))[:, :, None]).astype(np.float32)
+deskmask = np.clip((yy - DESK + 4) / 10, 0, 1).astype(np.float32)[:, :, None]
+# 3. per frame
+s, a = rd(src, W, H, 'rgb24'), rd(amp, W, H, 'gray')
+wr = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', '30', '-i', '-',
+    '-vf', "scale=w='trunc(1080*(1+0.05*between(t\\,8.66\\,9.76))/2)*2':h=-2:eval=frame,crop=1080:1920:(iw-1080)/2:(ih-1920)/2.4,format=yuv420p",
+    '-c:v', 'libx264', '-crf', '16', '-preset', 'fast', out], stdin=subprocess.PIPE)
+n, prev = 0, None
+while True:
+    b, ab = s.stdout.read(W*H*3), a.stdout.read(W*H)
+    if len(b) < W*H*3 or len(ab) < W*H: break
+    f = np.frombuffer(b, np.uint8).reshape(H, W, 3).astype(np.float32)
+    al = np.frombuffer(ab, np.uint8).reshape(H, W).astype(np.float32) / 255
+    al = np.clip((al - 0.1) / 0.8, 0, 1)
+    diff = np.abs(f - plate).max(axis=2)
+    key = np.clip((diff - 22) / 22, 0, 1)
+    key = np.asarray(Image.fromarray((key*255).astype(np.uint8)).filter(ImageFilter.MaxFilter(3)).filter(ImageFilter.BoxBlur(1)), np.float32) / 255
+    al = al * (known * key + (1 - known))
+    # echte tafel blijft in beeld: armen rusten er echt op, enkel de muur wordt studio
+    al = al * (1 - TAB) + TAB
+    # kleur ontmengen: halfdoorzichtige randen (bewegingsonscherpte) zonder grijze muur
+    am = al[:, :, None]
+    un = (f - (1 - am) * plate) / np.maximum(am, 0.15)
+    w = (known[:, :, None] * (am < 0.97))
+    fg = np.clip(f * (1 - w) + un * w, 0, 255) / 255
+    fg = np.clip((fg - 0.5) * 1.04 + 0.5 - 0.025, 0, 1)
+    gr = fg.mean(axis=2, keepdims=True); fg = gr + (fg - gr) * 0.94
+    fg = fg * np.array([1.0, 0.985, 0.975], np.float32)   # iets warmer, zoals de spot in de studio
+    # tafel: donkerder en warmer, naar onder toe nog iets donkerder (sfeer studio)
+    skinw = np.clip((f[:, :, 0] - f[:, :, 2] - 12) / 14, 0, 1)   # huid niet mee kleuren
+    tw = (TAB * (1 - skinw))[:, :, None]
+    fg = fg * (1 - tw) + fg * TABTINT * tw
+    # persoon verschuiven naar zijn plaats in de studio
+    A = np.zeros((H, W), np.float32); P = np.zeros((H, W, 3), np.float32)
+    A[OFF:] = al[:H-OFF]; P[OFF:] = fg[:H-OFF]
+    # contactschaduw op het bureau
+    sh = Image.fromarray((A*255).astype(np.uint8)).resize((W//4, H//4), Image.BILINEAR).filter(ImageFilter.GaussianBlur(5)).resize((W, H), Image.BILINEAR)
+    sh = np.roll(np.asarray(sh, np.float32) / 255, 14, axis=0)[:, :, None] * deskmask * 0.6
+    base = BG * (1 - sh)
+    A3 = A[:, :, None]
+    o = P * A3 + base * (1 - A3)
+    wrap = (4 * A3 * (1 - A3)) * 0.35
+    o = o * (1 - wrap) + BGB * wrap
+    wr.stdin.write((np.clip(o, 0, 1) * 255).astype(np.uint8).tobytes()); n += 1
+wr.stdin.close(); wr.wait(); print('frames', n, 'OFF', OFF, 'DESK', DESK)
