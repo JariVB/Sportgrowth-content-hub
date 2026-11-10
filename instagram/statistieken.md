@@ -36,6 +36,7 @@ Elke 2 weken (maandag): conclusies onderaan bijwerken en de volgende reels daaro
 | ma 19/10 | 5 tekenen | ? | | | | | screenshot nodig |
 | ma 26/10 | Zo ziet een maand Instagram eruit als wij het voor je doen (cover: Jari met racket) | 332 (149 kijkers, 11 d) | 46% | 1 | 0 | 5 → 0 | **2x het gemiddelde (±160)** en blijft groeien; 13 likes, waarvan 8 op de cover (jij in beeld); 52% 35+ |
 | ma 2/11 | Padel: van hype naar gewoonte (cover: Tom op het panel + "Van 80 naar 160 leden") | 295 (125 kijkers, 5 d) | 45% | 1 | 0 | 6 → 0 | 2x gemiddelde (±140), 15% via stories, 2 reposts; 56% 35+ (beslissers); likes vooral op cover |
+| ma 9/11 | €2.496: zoveel levert één extra boeking per week op (ZO WERKT SGM, cover: 2 speelsters + boekingskaart) | 130 (43 kijkers, ±15u) / 7d: ? | **6%** | 1 | 0 (1 repost) | 1 → 0 | iets boven de gebruikelijke lijn, maar bijna enkel volgers: 71% via feed, 27% via stories. 5 likes, 4 op de cover, 0 op de slides erna. Geen gezicht van Jari. Opnieuw meten ma 16/11 (niet-volgers komen soms later via Verkennen) |
 
 **Referentie:** gemiddelde reel ±500 weergaven na 7 dagen (grafiek Instagram), overslaan gemiddeld ±65%.
 
