@@ -3,8 +3,8 @@ const F='/home/user/Sportgrowth-content-hub/website/site/fonts';const f64=p=>'da
 const B=__dirname+'/../../beeldbank/';const j=p=>'data:image/jpeg;base64,'+fs.readFileSync(B+p).toString('base64');
 const mk=(id,img,pos,size)=>`<div id="${id}" style="position:relative;width:1080px;height:1920px;overflow:hidden;background:#0d1b3e">
 <div style="position:absolute;inset:0;background:url(${j(img)}) ${pos}/${size} no-repeat"></div>
-<div style="position:absolute;inset:0;background:linear-gradient(rgba(13,27,62,.15),rgba(13,27,62,.1) 45%,rgba(13,27,62,.85) 70%,#0d1b3e)"></div>
-<div style="position:absolute;left:60px;right:60px;top:1180px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:24px">
+<div style="position:absolute;inset:0;background:radial-gradient(75% 40% at 50% 46%,rgba(13,27,62,.8),rgba(13,27,62,.15))"></div>
+<div style="position:absolute;left:60px;right:60px;top:640px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:24px">
 <div style="font:800 30px/1 In;letter-spacing:.08em;color:#0d1b3e;background:#00d4ff;padding:12px 20px;border-radius:10px">CLUBTIP · PADEL</div>
 <div style="font:800 104px/1.02 In;letter-spacing:-.035em;color:#fff">Heb jij een<br>padelhal?</div>
 <div style="font:700 46px/1.2 In;color:#ffe14d">5 dingen om elke maand<br>te laten zien</div></div></div>`;
