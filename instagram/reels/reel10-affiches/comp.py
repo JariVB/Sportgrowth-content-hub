@@ -26,13 +26,19 @@ plate = np.nan_to_num(plate)
 plate = np.asarray(Image.fromarray(plate.astype(np.uint8)).resize((W, H), Image.BILINEAR), np.float32)
 known = np.asarray(Image.fromarray((known*255).astype(np.uint8)).resize((W, H), Image.BILINEAR).filter(ImageFilter.MinFilter(5)), np.float32) / 255
 print('plaat klaar, bekend:', round(float(known.mean()), 2), flush=True)
+pl = plate.mean(axis=2); tk = (known > 0.9); tk[:1560] = False
+TREF0 = float(np.median(pl[tk])) if tk.any() else 170.0
+TREF = np.where(known > 0.9, np.maximum(pl, 40), TREF0).astype(np.float32)
+TREF[:1540] = TREF0
+TREF = np.asarray(Image.fromarray(np.clip(TREF, 0, 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(6)), np.float32)
+print('tafel ref', TREF0, flush=True)
 # 2. achtergrond
 bg = Image.open(bgp).convert('RGB'); bg = bg.resize((round(bg.width*K), round(bg.height*K)), Image.LANCZOS).crop((X0, Y0, X0+W, Y0+H))
 bg.save(bgout); BG = np.asarray(bg, np.float32) / 255
+WOOD = np.zeros_like(BG); WOOD[:H-OFF] = BG[OFF:]
 BGB = np.asarray(bg.filter(ImageFilter.GaussianBlur(28)), np.float32) / 255
 yy = np.arange(H)[:, None]
 TAB = np.clip((yy - 1538) / 8, 0, 1).astype(np.float32)  # gebied van de echte tafel in de take
-TABTINT = (np.array([0.80, 0.72, 0.62], np.float32)[None, None, :] * (1 - 0.25 * np.clip((yy - 1540) / 380, 0, 1))[:, :, None]).astype(np.float32)
 deskmask = np.clip((yy - DESK + 4) / 10, 0, 1).astype(np.float32)[:, :, None]
 # 3. per frame
 s, a = rd(src, W, H, 'rgb24'), rd(amp, W, H, 'gray')
@@ -61,9 +67,12 @@ while True:
     gr = fg.mean(axis=2, keepdims=True); fg = gr + (fg - gr) * 0.94
     fg = fg * np.array([1.0, 0.985, 0.975], np.float32)   # iets warmer, zoals de spot in de studio
     # tafel: donkerder en warmer, naar onder toe nog iets donkerder (sfeer studio)
-    skinw = np.clip((f[:, :, 0] - f[:, :, 2] - 12) / 14, 0, 1)   # huid niet mee kleuren
-    tw = (TAB * (1 - skinw))[:, :, None]
-    fg = fg * (1 - tw) + fg * TABTINT * tw
+    # tafel -> houten studiobureau, met de echte schaduwen van armen en handen (huid en tattoo blijven)
+    lum = f.mean(axis=2)
+    tbl = np.clip((24 - (f[:, :, 0] - f[:, :, 2])) / 12, 0, 1) * np.clip((lum - 65) / 25, 0, 1) * TAB
+    tbl = np.asarray(Image.fromarray((tbl * 255).astype(np.uint8)).filter(ImageFilter.MedianFilter(5)).filter(ImageFilter.MaxFilter(5)).filter(ImageFilter.BoxBlur(1)), np.float32)[:, :, None] / 255
+    shade = np.clip(lum / TREF, 0.3, 1.12)[:, :, None]
+    fg = fg * (1 - tbl) + WOOD * shade * tbl
     # persoon verschuiven naar zijn plaats in de studio
     A = np.zeros((H, W), np.float32); P = np.zeros((H, W, 3), np.float32)
     A[OFF:] = al[:H-OFF]; P[OFF:] = fg[:H-OFF]
