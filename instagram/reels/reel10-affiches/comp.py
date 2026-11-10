@@ -38,6 +38,13 @@ TREF = np.asarray(Image.fromarray(np.clip(TREF, 0, 255).astype(np.uint8)).filter
 print('tafel ref', TREF0, flush=True)
 # 2. achtergrond
 bg = Image.open(bgp).convert('RGB'); bg = bg.resize((round(bg.width*K), round(bg.height*K)), Image.LANCZOS).crop((X0, Y0, X0+W, Y0+H))
+BLUR = float(os.environ.get('BLUR', 0))   # scherptediepte: studio onscherp zoals portretmodus
+if BLUR:
+    bg = bg.filter(ImageFilter.GaussianBlur(BLUR))
+    bga = np.asarray(bg, np.float32)
+    xx = np.arange(W)[None, :, None]
+    bga = bga * (1 - 0.35 * np.clip((380 - xx) / 380, 0, 1))   # kast links iets donkerder
+    bg = Image.fromarray(np.clip(bga, 0, 255).astype(np.uint8))
 bg.save(bgout); BG = np.asarray(bg, np.float32) / 255
 WOOD = np.zeros_like(BG); WOOD[:H-OFF] = BG[OFF:]
 BGD = BG * (1 - DARK * np.clip((np.arange(H)[:, None, None] - 1500) / 300, 0, 1)).astype(np.float32)
@@ -51,6 +58,7 @@ wr = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fm
     '-vf', "scale=w='trunc(1080*(1+0.05*between(t\\,8.66\\,9.76))/2)*2':h=-2:eval=frame,crop=1080:1920:(iw-1080)/2:(ih-1920)/2.4,format=yuv420p",
     '-c:v', 'libx264', '-crf', '16', '-preset', 'fast', out], stdin=subprocess.PIPE)
 n, prev = 0, None
+GRAIN = float(os.environ.get('GRAIN', 0)) / 255; RNG = np.random.default_rng(1)
 while True:
     b, ab = s.stdout.read(W*H*3), a.stdout.read(W*H)
     if len(b) < W*H*3 or len(ab) < W*H: break
@@ -97,5 +105,6 @@ while True:
     o = P * A3 + base * (1 - A3)
     wrap = (4 * A3 * (1 - A3)) * 0.35
     o = o * (1 - wrap) + BGB * wrap
+    if GRAIN: o = o + RNG.normal(0, GRAIN, (H, W, 1)).astype(np.float32)
     wr.stdin.write((np.clip(o, 0, 1) * 255).astype(np.uint8).tobytes()); n += 1
 wr.stdin.close(); wr.wait(); print('frames', n, 'OFF', OFF, 'DESK', DESK)
