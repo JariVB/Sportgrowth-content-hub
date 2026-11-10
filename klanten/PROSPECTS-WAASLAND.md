@@ -10,7 +10,7 @@ Status: leeg = nog niets · 👍 account al goed (compliment of overslaan) · �
 
 | # | Zaak | Waar | Wat | Website | Instagram (volgers · laatste post) | Status |
 |---|---|---|---|---|---|---|
-| 1 | Botz Padel | Lokeren, Sinaai, Sint-Niklaas (De Jasmijn) | 11 velden, 1 abonnement voor 3 locaties, 6 indoor in Sint-Niklaas | botzpadel.be | | 📞 gesprek gehad, wacht al lang op reactie. Ma 16/11 laatste bericht, daarna loslaten |
+| 1 | Botz Padel | Lokeren, Sinaai, Sint-Niklaas (De Jasmijn) | 11 velden, 1 abonnement voor 3 locaties, 6 indoor in Sint-Niklaas | botzpadel.be | | ✖ voorlopig: gesprek gehad + 2 reminders, geen reactie (10/11). Niet meer opvolgen; reageren ze zelf, dan graag |
 | 2 | Hangar Padel Club | Beveren (Vesten 43) | Indoor + outdoor, ±9 velden, cafetaria, shop | hangarpadel.be | | |
 | 3 | LAGO Club Padel | Beveren (Pastoor Steenssensstraat 108a) | 3 velden (2 overdekt) | via Playtomic | | |
 | 4 | Pelgrim Padel | Lokeren | Padel | - | | |
