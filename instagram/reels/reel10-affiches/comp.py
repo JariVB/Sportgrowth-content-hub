@@ -4,9 +4,13 @@ import sys, subprocess, numpy as np
 from PIL import Image, ImageFilter
 src, ss, d, amp, bgp, out, bgout = sys.argv[1:8]
 W, H = 1080, 1920
-K, X0, Y0 = 1.0, 0, 0            # studio-sgm-hoog.png: neonlogo hoger en kleiner, persoon op volle breedte
+import os
+K, X0, Y0 = float(os.environ.get('K', 1.0)), int(os.environ.get('X0', 0)), int(os.environ.get('Y0', 0))
+SC, PX, PY = float(os.environ.get('SC', 1.0)), int(os.environ.get('PX', 0)), os.environ.get('PY')  # schaal en plaats persoon
 DESK = round(1573 * K) - Y0       # bovenkant bureau in beeld (1700)
 OFF = DESK - 1542                 # echte tafelrand (y 1542 in de take) op de bureaurand
+PY = int(PY) if PY is not None else OFF
+DARK = float(os.environ.get('DARK', 0))  # achtergrond achter romp/armen donkerder (schaduw)
 def rd(path, w, h, fmt, step=1, extra=''):
     vf = f'scale={w}:{h}:flags=lanczos' + (f',select=not(mod(n\\,{step}))' if step > 1 else '') + extra
     args = ['ffmpeg', '-v', 'error'] + (['-ss', ss, '-t', d] if path == src else []) + ['-i', path, '-vf', vf] + (['-vsync', '0'] if step > 1 else []) + ['-f', 'rawvideo', '-pix_fmt', fmt, '-']
@@ -36,6 +40,7 @@ print('tafel ref', TREF0, flush=True)
 bg = Image.open(bgp).convert('RGB'); bg = bg.resize((round(bg.width*K), round(bg.height*K)), Image.LANCZOS).crop((X0, Y0, X0+W, Y0+H))
 bg.save(bgout); BG = np.asarray(bg, np.float32) / 255
 WOOD = np.zeros_like(BG); WOOD[:H-OFF] = BG[OFF:]
+BGD = BG * (1 - DARK * np.clip((np.arange(H)[:, None, None] - 1500) / 300, 0, 1)).astype(np.float32)
 BGB = np.asarray(bg.filter(ImageFilter.GaussianBlur(28)), np.float32) / 255
 yy = np.arange(H)[:, None]
 TAB = np.clip((yy - 1538) / 8, 0, 1).astype(np.float32)  # gebied van de echte tafel in de take
@@ -74,12 +79,20 @@ while True:
     shade = np.clip(lum / TREF, 0.3, 1.12)[:, :, None]
     fg = fg * (1 - tbl) + WOOD * shade * tbl
     # persoon verschuiven naar zijn plaats in de studio
+    if SC != 1.0:
+        sw, sh_ = round(W * SC), round(H * SC)
+        alS = np.asarray(Image.fromarray((al * 255).astype(np.uint8)).resize((sw, sh_), Image.BICUBIC), np.float32) / 255
+        fgS = np.asarray(Image.fromarray((np.clip(fg, 0, 1) * 255).astype(np.uint8)).resize((sw, sh_), Image.LANCZOS), np.float32) / 255
+    else:
+        sw, sh_, alS, fgS = W, H, al, fg
     A = np.zeros((H, W), np.float32); P = np.zeros((H, W, 3), np.float32)
-    A[OFF:] = al[:H-OFF]; P[OFF:] = fg[:H-OFF]
+    y0, x0 = max(0, PY), max(0, PX); sy, sx = y0 - PY, x0 - PX
+    hh_, ww_ = min(H - y0, sh_ - sy), min(W - x0, sw - sx)
+    A[y0:y0+hh_, x0:x0+ww_] = alS[sy:sy+hh_, sx:sx+ww_]; P[y0:y0+hh_, x0:x0+ww_] = fgS[sy:sy+hh_, sx:sx+ww_]
     # contactschaduw op het bureau
     sh = Image.fromarray((A*255).astype(np.uint8)).resize((W//4, H//4), Image.BILINEAR).filter(ImageFilter.GaussianBlur(5)).resize((W, H), Image.BILINEAR)
     sh = np.roll(np.asarray(sh, np.float32) / 255, 14, axis=0)[:, :, None] * deskmask * 0.6
-    base = BG * (1 - sh)
+    base = BGD * (1 - sh)
     A3 = A[:, :, None]
     o = P * A3 + base * (1 - A3)
     wrap = (4 * A3 * (1 - A3)) * 0.35
