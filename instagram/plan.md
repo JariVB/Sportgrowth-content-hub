@@ -154,3 +154,5 @@ Proefles-reel → di 17/11 (actiebeelden training di 10/11). Sportkamp-reel → 
 **Flaxx (di 10/11):** Koen heeft nu geen budget (opbouwfase, ERGO-lijn in testfase). Geen voorstel op maat sturen. Warm antwoord + getuigenis vragen; opvolgen wo 13/1. Flaxx blijft een case voor SGM (collab-reel + Koens feedback).
 
 **Verkoop (gekozen di 10/11):** 1u per week op maandagavond. Ma 16/11: (Botz Padel losgelaten: gesprek + 2 reminders zonder reactie) Hangar Padel Club, The Fighters Academy, Fierce Studios en Sportfun opwarmen (Arenal geschrapt: eigen marketingteam). Ma 23/11: eerste DM aan die 4 + 3 nieuwe zaken opwarmen. Analyses en gesprekken op woensdag.
+
+**Getuigenis Flaxx (di 10/11):** Koen geeft toestemming. Gebruiken in een RESULTAAT-post (week 16/11 of 23/11): collab-reel cijfers (994 weergaven, 84,5% niet-volgers, +12 volgers) + quote Koen ("Alles was heel goed georganiseerd… enthousiasme en professionaliteit"). Ook als vastgezette story-highlight "Klanten".
