@@ -51,9 +51,10 @@ if BLUR:
         bg = Image.alpha_composite(bg.convert('RGBA'), ne).convert('RGB')
 bg.save(bgout); BG = np.asarray(bg, np.float32) / 255
 WOOD = np.zeros_like(BG); WOOD[:H-OFF] = BG[OFF:]
-BGD = BG * (1 - DARK * np.clip((np.arange(H)[:, None, None] - 1500) / 300, 0, 1)).astype(np.float32)
+BGD = BG * (1 - DARK * np.clip((np.arange(H)[:, None, None] - 1350) / 250, 0, 1)).astype(np.float32)
 BGB = np.asarray(bg.filter(ImageFilter.GaussianBlur(28)), np.float32) / 255
 yy = np.arange(H)[:, None]
+LOW = np.clip((yy - 1150) / 80, 0, 1).astype(np.float32) * (1 - np.clip((yy - 1530) / 6, 0, 1)).astype(np.float32)  # gebied naast de romp, boven de tafel
 TAB = np.clip((yy - 1538) / 8, 0, 1).astype(np.float32)  # gebied van de echte tafel in de take
 deskmask = np.clip((yy - DESK + 4) / 10, 0, 1).astype(np.float32)[:, :, None]
 # 3. per frame
@@ -73,6 +74,12 @@ while True:
     key = np.clip((diff - 22) / 22, 0, 1)
     key = np.asarray(Image.fromarray((key*255).astype(np.uint8)).filter(ImageFilter.MaxFilter(3)).filter(ImageFilter.BoxBlur(1)), np.float32) / 255
     al = al * (known * key + (1 - known))
+    # onderaan naast de romp: donkere stoel altijd mee (stabiel), witte muur altijd weg (geen grijze randen of geflikker)
+    lum0 = f.mean(axis=2); chrom = np.abs(f[:, :, 0] - f[:, :, 2]) + np.abs(f[:, :, 1] - f[:, :, 2])
+    neutral = np.clip((22 - chrom) / 10, 0, 1)
+    chair = np.clip((80 - lum0) / 25, 0, 1) * neutral * LOW
+    wall = np.clip((lum0 - 115) / 30, 0, 1) * neutral * LOW
+    al = np.maximum(al, chair) * (1 - wall)
     # echte tafel blijft in beeld: armen rusten er echt op, enkel de muur wordt studio
     al = al * (1 - TAB) + TAB
     # kleur ontmengen: halfdoorzichtige randen (bewegingsonscherpte) zonder grijze muur
