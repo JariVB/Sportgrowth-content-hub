@@ -18,5 +18,5 @@ const neon=`<svg width="1080" height="1920" style="position:absolute;inset:0"><d
 <text x="${X}" y="${Y+R+95*Z}" font-size="${62*Z}" letter-spacing="${6*Z}" fill="#f2fbff" stroke="#3fe0ff" stroke-width="1.5">SPORTGROWTH</text>
 <text x="${X}" y="${Y+R+134*Z}" font-size="${26*Z}" letter-spacing="${19*Z}" fill="#3fe0ff">MEDIA</text>
 </g></svg>`;
-const html=`<style>@font-face{font-family:Rj;src:url(data:font/woff2;base64,${fs.readFileSync(F+'/rajdhani-700.woff2').toString('base64')})}body{margin:0}</style><div id="s" style="position:relative;width:1080px;height:1920px;background:url(${bg})">${neon}</div>`;
-(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1080,height:1920}});await p.setContent(html);await p.evaluate(()=>document.fonts.ready);await p.locator('#s').screenshot({path:__dirname+'/'+(process.env.OUT||'studio-sgm.png')});await b.close();})();
+const html=`<style>@font-face{font-family:Rj;src:url(data:font/woff2;base64,${fs.readFileSync(F+'/rajdhani-700.woff2').toString('base64')})}body{margin:0}</style><div id="s" style="position:relative;width:1080px;height:1920px;background:${process.env.NOBG?'none':'url('+bg+')'}">${neon}</div>`;
+(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1080,height:1920}});await p.setContent(html);await p.evaluate(()=>document.fonts.ready);await p.locator('#s').screenshot({omitBackground:!!process.env.NOBG,path:__dirname+'/'+(process.env.OUT||'studio-sgm.png')});await b.close();})();

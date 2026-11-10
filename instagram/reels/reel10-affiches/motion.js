@@ -46,7 +46,7 @@ const html = `<!doctype html><html><head><meta charset="utf-8"><style>
 <div id="c3" class="a card" style="left:730px;background-image:url(${j64(B+'padel-vol-terras.jpg')})"><b>Het terras</b></div>
 <div id="hearts" class="a" style="inset:0">${[...Array(14)].map((_,i)=>`<div class="heart" id="h${i}">${['❤️','👍','🔥','💬'][i%4]}</div>`).join('')}</div>
 <div id="clk" class="a" style="left:70px;top:420px;width:260px;height:260px"><svg viewBox="0 0 100 100" width="260" height="260"><circle cx="50" cy="50" r="44" fill="#fff" stroke="#0d1b3e" stroke-width="5"/><line id="hm" x1="50" y1="50" x2="50" y2="22" stroke="#ff3b30" stroke-width="5" stroke-linecap="round"/><line id="hh" x1="50" y1="50" x2="68" y2="50" stroke="#0d1b3e" stroke-width="6" stroke-linecap="round"/><circle cx="50" cy="50" r="4" fill="#0d1b3e"/></svg></div>
-<div id="glow" class="a" style="left:330px;top:280px;width:480px;height:480px;border-radius:50%;background:radial-gradient(closest-side,rgba(0,212,255,.55),rgba(0,212,255,0))"></div>
+<div id="glow" class="a" style="left:356px;top:20px;width:440px;height:440px;border-radius:50%;background:radial-gradient(closest-side,rgba(0,212,255,.55),rgba(0,212,255,0))"></div>
 <div id="sub" class="a"><span id="st"></span></div>
 <div id="end" class="a ctr" style="justify-content:center;gap:34px"><div class="em">${logo}</div><h2>Geen tijd om dit<br>zelf te doen?</h2><div class="dm">STUUR EEN DM 📩</div><div class="s">voor een gratis analyse</div><div class="f">Volg voor wekelijkse clubtips</div></div>
 <script>

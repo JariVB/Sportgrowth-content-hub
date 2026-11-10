@@ -45,6 +45,10 @@ if BLUR:
     xx = np.arange(W)[None, :, None]
     bga = bga * (1 - 0.35 * np.clip((380 - xx) / 380, 0, 1))   # kast links iets donkerder
     bg = Image.fromarray(np.clip(bga, 0, 255).astype(np.uint8))
+    if os.environ.get('NEON'):   # neonlogo scherp bovenop de onscherpe studio (een fel neonbord blijft leesbaar)
+        ne = Image.open(os.environ['NEON']).convert('RGBA')
+        ne = ne.resize((round(ne.width*K), round(ne.height*K)), Image.LANCZOS).crop((X0, Y0, X0+W, Y0+H)).filter(ImageFilter.GaussianBlur(0.8))
+        bg = Image.alpha_composite(bg.convert('RGBA'), ne).convert('RGB')
 bg.save(bgout); BG = np.asarray(bg, np.float32) / 255
 WOOD = np.zeros_like(BG); WOOD[:H-OFF] = BG[OFF:]
 BGD = BG * (1 - DARK * np.clip((np.arange(H)[:, None, None] - 1500) / 300, 0, 1)).astype(np.float32)
