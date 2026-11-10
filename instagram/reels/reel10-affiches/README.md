@@ -21,3 +21,6 @@ v1 (9/11): testopname 1 in de SGM-studio (zonder groen doek), animaties + sfx + 
 
 ## v6
 - Studio onscherp (BLUR=7) en kast links donkerder, korrel GRAIN=3 over alles.
+
+## v7
+- Neonlogo scherp bovenop de onscherpe studio (NEON=studio/neon-laag-hoog2.png, `NOBG=1 NY=200 NR=90 node neon.js`). Gloed bij "Wij doen het voor jullie" op de nieuwe logoplaats.
