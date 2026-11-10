@@ -5,14 +5,14 @@ Opnameregel (CLAUDE.md): opname ≥2 dagen voor de post, montage ≥1 dag ervoor
 
 | Dag | Post | Wat Jari doet | Claude |
 |---|---|---|---|
-| ma 9/11 19u30 | Carrousel "Zoveel levert één extra boeking per week je op" (€2.496) | inplannen (zo of ma), 19u35 story + poll | klaar |
+| ma 9/11 19u30 | Carrousel "Zoveel levert één extra boeking per week je op" (€2.496) | ✅ gepost | klaar |
 | di 10/11 19u30 | Caption-reel "Heb jij een padelhal? Deze 5 dingen moet je elke maand laten zien. Lees de caption 👇" (CLUBTIP, 7 s sfeerbeeld) | ma-avond inplannen | ma: montage + cover + caption |
 | wo 11/11 | Proefreel (enkel niet-volgers): "3 fouten op de Instagram van tennisclubs" met nieuwe opening | wo plaatsen als proefreel | wo-ochtend klaar |
 | do 12/11 19u30 | Meningsreel "Sportclubs, stop met affiches op Instagram." (±20 s) | opname ma-avond thuis, wo inplannen | di: montage met animaties + cover + caption + 2e hook |
 | di 17/11 19u30 | Reel proefles "Eén keer geproefd. Nooit teruggezien." | zinnen ma-avond, actiebeelden di-training | wo/do montage |
 
 ## Opnames deze week
-- **Ma 9/11 avond, thuis (20 min):** meningsreel "affiches" + 3 zinnen proefles + (voor week 16/11) "4 posts in december" + meningsreel "jeugd". Teksten in de checklist.
+- **Di 10/11 namiddag, thuis (40 min, verschoven van ma; ma was testopname 1 in de studio):** meningsreel "affiches" + 3 zinnen proefles + (voor week 16/11) "4 posts in december" + meningsreel "jeugd". Teksten in de checklist.
 - **Di 10/11 training 18u-22u30:** actiebeelden (shotlist hieronder).
 - **Wo 11/11 (als het groene doek binnen is):** studiotest, 30 s.
 

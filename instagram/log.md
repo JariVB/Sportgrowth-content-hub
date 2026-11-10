@@ -76,3 +76,8 @@ Batch 1-3 (screenshots + berichten aan 15 sportzaken), de statistieken van het v
 - +12 volgers en meer vragen via Instagram sinds de collab. "Het merk FLAXX krijgt meer body." Voor Koen telt het merkgevoel even zwaar als cijfers.
 - Over SGM: "Alles was heel goed georganiseerd, de voorbereiding verliep vlot en ook de communicatie was top. Je voelt dat je er met veel enthousiasme en professionaliteit tegen aan gaat." → getuigenis (met toestemming).
 - Zijn twijfel: eigen performance voor de camera. Kans: begeleiding bij opnames (korte zinnen, meerdere takes, spelers en beelden laten spreken).
+
+## ma 9/11
+- Carrousel "€2.496 per extra boeking" gepost 19u30.
+- Testopname meningsreel affiches thuis (DJI) → reel10-affiches-v1 in de SGM-studio zonder groen doek. Feedback Jari: stoel en wazige armen → bureaulaag vanaf de bovenrand van het bureau. Di nieuwe opname in 4K, dichter, met lege plek.
+- Trendonderzoek op de laptop liep niet (geen document in Drive) → testfase tot 16/11.
