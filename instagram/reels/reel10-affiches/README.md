@@ -18,3 +18,6 @@ v1 (9/11): testopname 1 in de SGM-studio (zonder groen doek), animaties + sfx + 
 ## v5 (di 10/11, feedback: armen nog niet goed)
 - Dichtere kadrering: persoon op 137%, tafel net onder beeld (armen lopen uit beeld). Logo nog hoger/kleiner (`studio-sgm-hoog2.png`, NY=200 NR=90), studio 120% (K=1.2, X0=108).
 - `K=1.2 X0=108 Y0=0 SC=1.37 PX=-200 PY=-188 DARK=0.55 python3.13 comp.py ... studio-sgm-hoog2.png p3.mp4 bg3.png`, daarna `bash base3.sh && ./render.sh v5`.
+
+## v6
+- Studio onscherp (BLUR=7) en kast links donkerder, korrel GRAIN=3 over alles.
