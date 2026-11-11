@@ -17,3 +17,8 @@
   for = "/img/*"
   [headers.values]
     Cache-Control = "public, max-age=2592000"
+
+[[redirects]]
+  from = "/links"
+  to = "/links.html"
+  status = 200
