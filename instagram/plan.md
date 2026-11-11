@@ -160,3 +160,5 @@ Proefles-reel → di 17/11 (actiebeelden training di 10/11). Sportkamp-reel → 
 **Status wo 11/11:** meningsreel affiches v9 klaar (studio via AI-uitknippen, geen groen doek nodig), wo inplannen voor do 19u30. Caption-reel padelhal: 292 weergaven na 4u dankzij story + repost. Koen: toestemming getuigenis. Vandaag: opnames 2-4 (gsm), proefreel tennisclubs (origineel bestand nodig), trainingsbeelden van di nog niet binnen. Weekplan 16-22/11 voorgesteld.
 
 **Beslissing wo 11/11:** één vaste studio voor alle reels = de grote studio (`instagram/studio/v2/studio-groot-sgm.png`). Meningsreel affiches v9 (kleine studio) wordt niet gepost; do 12/11 nieuwe take, post do 19u30 of vr 19u30.
+
+**Do 12/11 werkwijze affiches-reel (grote studio):** take uiterlijk 16u30. Claude maakt (1) eigen versie in 1080p, (2) knipklare clip voor Beeble in 720p 30 fps + prompt + studio-groot-sgm.png. Jari kiest; Beeble enkel als Claude's versie niet goed genoeg is (Creator maandelijks). Beeble-resultaat (720p) → Claude schaalt naar 1080p en zet tekst/animaties er scherp op. Post 19u30, anders 20u30 of vr 19u30.
