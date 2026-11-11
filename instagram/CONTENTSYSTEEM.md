@@ -267,3 +267,7 @@ Volgende ronde (vanaf 16/11): RESULTAAT #2 (eerste klant of TTV/Westerlo met akk
 - Vraagtekens en uitroeptekens blijven (ze veranderen de betekenis).
 - Opsommingen met " · " (tennis · zwemmen · judo · padel).
 - Letterlijk wat er gezegd wordt.
+
+
+## 5m. Vaste opnamesessie (11/11)
+Elke woensdag 20 minuten opnemen: 3-4 teksten na elkaar, elk 3 keer, in de vaste opstelling voor de grote SGM-studio. Daarmee worden de reels van de volgende week gemaakt. Altijd dezelfde studio, zodat volgers de plek herkennen. Geen AI-avatar: Jari spreekt altijd zelf.

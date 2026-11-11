@@ -67,6 +67,7 @@ Regels voor de planning:
 - **Werkdagen:** hou de lijst rond een uur, tenzij Jari meer tijd meldt. Wil hij een dag niets doen,
   zet dan alleen wat op de gsm kan en die dag moet.
 - **Verkoop:** 1u per week op maandagavond (gekozen 10/11). Per week 3 nieuwe zaken uit `klanten/PROSPECTS-WAASLAND.md`: opwarmen (volgen, liken, reageren), de week erna een eerste DM met gratis analyse, opvolgen na 3 en 7 dagen. Analyses en gesprekken op woensdag. Status bijhouden in de prospectlijst.
+- **Vaste opnamesessie (vanaf 11/11):** elke woensdag 20 min in de studio-opstelling (gsm ±1,5 m, licht van voren, zwarte t-shirt, 4K 30 fps). Jari spreekt 3-4 teksten na elkaar in (elk 3 keer) voor de reels van de volgende week. Claude zet de teksten de dinsdag ervoor in de checklist en monteert alles in de grote studio (`instagram/studio/v2/studio-groot-sgm.png`). Eén studio voor alle reels.
 - **Opnames:** voor elke post met eigen beeld komt een shoot-taak (titel begint met "Shoot:") minstens
   2 dagen vóór de postdatum, monteren minstens 1 dag ervoor, en de post de dag ervoor ingepland.
   Groepeer shoots per locatie volgens de shotlist. Lukt die buffer niet, zeg het en stel voor de post
