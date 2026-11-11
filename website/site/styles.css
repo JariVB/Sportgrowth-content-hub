@@ -175,3 +175,16 @@ textarea{min-height:110px;resize:vertical}
   form{padding:22px}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+
+/* Ons werk + gsm-kader (reels) */
+.phone{position:relative;aspect-ratio:9/16;max-width:100%;border-radius:34px;padding:10px;background:#05070d;box-shadow:0 0 0 2px #2c3a5e,0 24px 60px rgba(0,0,0,.45)}
+.phone video{display:block;width:100%;height:100%;object-fit:cover;border-radius:26px;background:#000}
+.hero-phone{margin:0;justify-self:center;width:100%;max-width:330px}
+.hero-phone figcaption{margin-top:14px;text-align:center;font-size:14px;color:var(--muted)}
+.work-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;margin-top:40px}
+.work-item{margin:0;min-width:0}
+.work-item .phone{max-width:300px;margin:0 auto}
+.work-item figcaption{margin-top:18px;font-size:15px;color:var(--muted);max-width:34ch;margin-inline:auto}
+.work-item figcaption b{display:block;color:var(--text);font-size:16px;margin-bottom:4px}
+.work-quote{margin-top:56px;max-width:720px}
+@media (max-width:860px){.work-grid{grid-template-columns:1fr;gap:48px}.work-item .phone{max-width:280px}}
