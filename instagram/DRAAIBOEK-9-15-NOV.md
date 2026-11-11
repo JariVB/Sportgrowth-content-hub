@@ -8,7 +8,7 @@ Opnameregel (CLAUDE.md): opname ≥2 dagen voor de post, montage ≥1 dag ervoor
 | ma 9/11 19u30 | Carrousel "Zoveel levert één extra boeking per week je op" (€2.496) | ✅ gepost | klaar |
 | di 10/11 19u30 | Caption-reel "Heb jij een padelhal? ..." (CLUBTIP, 7 s overdekte hal) | ✅ gepost + story | klaar (292 weergaven na 4u, 80% via stories) |
 | wo 11/11 | Proefreel (enkel niet-volgers): "3 fouten op de Instagram van tennisclubs" met nieuwe opening | wo origineel bestand sturen, daarna plaatsen | montage zodra het bestand binnen is (origineel niet in de repo) |
-| do 12/11 19u30 | Meningsreel "Sportclubs, stop met affiches op Instagram." (22 s, studio) | ✅ opgenomen di 10/11 (IMG_3229) · wo inplannen | ✅ v9 + cover + caption klaar |
+| do 12/11 19u30 | Meningsreel "Sportclubs, stop met affiches op Instagram." (22 s, studio) | di-take (kleine studio, v9) NIET posten: één studio voor alle reels. Do opnieuw filmen voor de grote studio (studio/v2), take vóór 16u → do 19u30, anders vr 19u30 | montage do |
 | di 17/11 19u30 | Reel proefles "Eén keer geproefd. Nooit teruggezien." | zinnen ma-avond, actiebeelden di-training | wo/do montage |
 
 ## Opnames deze week

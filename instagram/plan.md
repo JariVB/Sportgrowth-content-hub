@@ -158,3 +158,5 @@ Proefles-reel → di 17/11 (actiebeelden training di 10/11). Sportkamp-reel → 
 **Getuigenis Flaxx (di 10/11):** Koen geeft toestemming. Gebruiken in een RESULTAAT-post (week 16/11 of 23/11): collab-reel cijfers (994 weergaven, 84,5% niet-volgers, +12 volgers) + quote Koen ("Alles was heel goed georganiseerd… enthousiasme en professionaliteit"). Ook als vastgezette story-highlight "Klanten".
 
 **Status wo 11/11:** meningsreel affiches v9 klaar (studio via AI-uitknippen, geen groen doek nodig), wo inplannen voor do 19u30. Caption-reel padelhal: 292 weergaven na 4u dankzij story + repost. Koen: toestemming getuigenis. Vandaag: opnames 2-4 (gsm), proefreel tennisclubs (origineel bestand nodig), trainingsbeelden van di nog niet binnen. Weekplan 16-22/11 voorgesteld.
+
+**Beslissing wo 11/11:** één vaste studio voor alle reels = de grote studio (`instagram/studio/v2/studio-groot-sgm.png`). Meningsreel affiches v9 (kleine studio) wordt niet gepost; do 12/11 nieuwe take, post do 19u30 of vr 19u30.
