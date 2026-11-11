@@ -1,0 +1,559 @@
+<title>Shotlist Sports NEXT</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Layout: één smalle kolom voor de gsm; sticky voortgangsbalk; per tijdsblok een lijst met grote afvinkrijen. Bewust één donkere SGM-look, leesbaar in een felle hal. */
+:root{
+  --bg:#0b1633; --card:#12224a; --line:#26386b; --fg:#eaf2ff; --muted:#9fb2d9;
+  --cyan:#00d4ff; --done:#5fe0a0; --warn:#ffb86b;
+  --flax:#d9b77a; --wall:#1b2d5c; --floor:#0f1d42; --grey:#3a4c80;
+  --display:"Rajdhani","Arial Narrow",system-ui,sans-serif;
+  --body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 56px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:640px;margin:0 auto;display:flex;flex-direction:column;gap:22px}
+h1,h2{font-family:var(--display);font-weight:700;line-height:1.05;text-wrap:balance;margin:0}
+h1{font-size:40px}
+h2{font-size:24px}
+.eyebrow{font-family:var(--display);font-weight:600;letter-spacing:.14em;text-transform:uppercase;font-size:13px;color:var(--cyan)}
+header{padding-top:24px;display:flex;flex-direction:column;gap:6px}
+.facts{display:grid;grid-template-columns:auto 1fr;gap:2px 12px;font-size:14px;margin:6px 0 0}
+.facts dt{color:var(--muted)} .facts dd{margin:0}
+a{color:var(--cyan)}
+
+.progress{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:10px;display:flex;flex-direction:column;gap:6px;border-bottom:1px solid var(--line)}
+.prow{display:flex;justify-content:space-between;align-items:baseline;font-family:var(--display);font-weight:700;font-size:18px;font-variant-numeric:tabular-nums}
+.prow span{color:var(--muted);font-weight:600;font-size:14px}
+.track{height:8px;border-radius:99px;background:var(--line);overflow:hidden}
+.fill{height:100%;width:0;background:var(--cyan);transition:width .3s}
+.jump{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+.jump a{flex:none;text-decoration:none;font:600 13px var(--body);color:var(--fg);background:var(--card);border:1px solid var(--line);border-radius:99px;padding:4px 10px}
+.jump a.ok{border-color:var(--done);color:var(--done)}
+
+section{display:flex;flex-direction:column;gap:10px;scroll-margin-top:110px}
+.shead{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.time{font-family:var(--display);font-weight:700;color:var(--cyan);font-size:16px;white-space:nowrap}
+.note{font-size:14px;color:var(--muted);margin:0}
+ul.items{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.item{background:var(--card);border:1px solid var(--line);border-radius:12px}
+.item label{display:grid;grid-template-columns:28px 1fr;gap:12px;padding:12px 14px;cursor:pointer;align-items:start}
+.item input{appearance:none;width:28px;height:28px;border:2px solid var(--muted);border-radius:8px;margin:0;display:grid;place-items:center;background:transparent;cursor:pointer}
+.item input::after{content:"";width:12px;height:7px;border:3px solid var(--bg);border-top:0;border-right:0;transform:rotate(-45deg) translate(1px,-1px);opacity:0}
+.item input:checked{background:var(--done);border-color:var(--done)}
+.item input:checked::after{opacity:1}
+.item input:focus-visible{outline:3px solid var(--cyan);outline-offset:2px}
+.item.is-done{opacity:.55}
+.item.is-done .t{text-decoration:line-through}
+.body{min-width:0;display:flex;flex-direction:column;gap:4px}
+.t{font-weight:600}
+.id{font-family:var(--display);font-weight:700;color:var(--cyan);margin-right:6px}
+.chips{display:flex;flex-wrap:wrap;gap:4px}
+.chip{font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:6px;padding:0 6px}
+.gmline{font-size:13px;color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:4px 8px}
+.chip.zoom{color:var(--bg);background:var(--cyan);border-color:var(--cyan);font-weight:600}
+.chip.mv{color:var(--cyan);border-color:var(--cyan)}
+.chip.app{color:var(--bg);background:var(--fg);border-color:var(--fg);font-weight:600}
+.chip.app.mimo{background:var(--warn);border-color:var(--warn)}
+.tip{font-size:14px;color:var(--muted)}
+.say{font-size:14px;background:var(--bg);border-left:3px solid var(--cyan);padding:6px 10px;border-radius:0 8px 8px 0;display:flex;gap:8px;align-items:flex-start;justify-content:space-between}
+.say q{quotes:"“" "”"}
+button{font:600 13px var(--body);color:var(--bg);background:var(--cyan);border:0;border-radius:99px;padding:5px 11px;cursor:pointer;flex:none}
+button.ghost{background:transparent;color:var(--muted);border:1px solid var(--line)}
+button:focus-visible{outline:3px solid var(--fg);outline-offset:2px}
+.how{margin:0 14px 12px 54px;border-top:1px solid var(--line);padding-top:8px}
+.how summary{cursor:pointer;font-family:var(--display);font-weight:700;color:var(--cyan);font-size:15px;letter-spacing:.04em}
+.how dl{margin:6px 0 0;display:grid;grid-template-columns:auto 1fr;gap:4px 10px;font-size:14px}
+.how dt{color:var(--muted);font-weight:600;white-space:nowrap}
+.how dd{margin:0;min-width:0}
+@media (max-width:420px){.how{margin-left:14px}.how dl{grid-template-columns:1fr;gap:0}.how dd{margin-bottom:6px}}
+.item.is-done .how{display:none}
+.box{border:1px dashed var(--line);border-radius:12px;padding:12px 14px;font-size:14px;display:flex;flex-direction:column;gap:6px}
+.box b{color:var(--warn)}
+.foot{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:14px;color:var(--muted)}
+.vis{display:grid;grid-template-columns:1.25fr 1fr;gap:10px;align-items:stretch}
+.vis figure{margin:0;display:flex;flex-direction:column;gap:6px;min-width:0}
+.vis figcaption{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-family:var(--display);font-weight:600}
+.dia{background:var(--bg);border-radius:10px;width:100%;height:auto;display:block;flex:1}
+.frame{aspect-ratio:9/16;max-width:100%;border-radius:12px;overflow:hidden;border:3px solid #000;background:var(--wall);box-shadow:0 0 0 1px var(--line)}
+.frame svg{width:100%;height:100%;display:block}
+/* schema-elementen */
+.cone{fill:var(--cyan);opacity:.18}
+.ph{fill:var(--fg)}
+.subj{fill:var(--flax)}
+.subj2{fill:var(--grey)}
+.guide{fill:none;stroke:var(--cyan);stroke-width:1.5;stroke-dasharray:4 4;opacity:.7}
+.dlabel{fill:var(--muted);font:500 9px var(--body)}
+.ground{stroke:var(--grey);stroke-width:2}
+.pil{fill:#55669a}
+/* beeld-elementen */
+.wall{fill:var(--wall)} .floor{fill:var(--floor)} .fline{fill:#2c4280}
+.oth{fill:var(--grey)} .banner{fill:var(--cyan)}
+.bt{fill:#0d1b3e;font:700 26px var(--display);text-anchor:middle;letter-spacing:.08em}
+.table{fill:#e6ecfa} .leg{fill:#9aa9cf}
+.face{fill:var(--flax)} .inner{fill:#c79f5c} .hole{fill:#8a6a35}
+.grip{fill:#14161c}
+.pers{fill:#0d1b3e} .skin{fill:#e8c4a0}
+.pillar rect{fill:#2a2f3d} .pillar .edge{fill:#4b5470}
+
+/* animaties: 4,5 s, met stilstand aan begin en einde zoals je echt filmt */
+svg *{transform-box:view-box}
+.a{animation-duration:4.5s;animation-iteration-count:infinite;animation-timing-function:ease-in-out}
+.paused .a{animation-play-state:paused}
+@media (prefers-reduced-motion:reduce){.a{animation-play-state:paused}}
+
+@keyframes push{0%,12%{transform:translateY(0)}78%,100%{transform:translateY(-40px)}}
+@keyframes pull{0%,12%{transform:translateY(0)}78%,100%{transform:translateY(40px)}}
+@keyframes pan{0%,12%{transform:rotate(-38deg)}78%,100%{transform:rotate(38deg)}}
+@keyframes tilt{0%,12%{transform:rotate(108deg)}78%,100%{transform:rotate(58deg)}}
+@keyframes orbit{0%,12%{transform:rotate(60deg)}78%,100%{transform:rotate(-60deg)}}
+@keyframes slide{0%,12%{transform:translateX(0)}78%,100%{transform:translateX(50px)}}
+@keyframes walk{0%{transform:translateX(0)}100%{transform:translateX(120px)}}
+@keyframes low{0%,12%{transform:translate(0,0) rotate(90deg)}78%,100%{transform:translate(0,52px) rotate(62deg)}}
+
+@keyframes fpush{0%,12%{transform:scale(1)}78%,100%{transform:scale(1.9)}}
+@keyframes fpull{0%,12%{transform:scale(1.9)}78%,100%{transform:scale(1)}}
+@keyframes fpan{0%,12%{transform:translateX(120px)}78%,100%{transform:translateX(-120px)}}
+@keyframes ftilt{0%,12%{transform:translateY(25px) scale(1.6)}78%,100%{transform:translateY(145px) scale(1.6)}}
+@keyframes forbbg{0%,12%{transform:translateX(80px)}78%,100%{transform:translateX(-80px)}}
+@keyframes forbrk{0%,12%{transform:scaleX(.4)}45%{transform:scaleX(1)}78%,100%{transform:scaleX(.4)}}
+@keyframes freveal{0%,12%{transform:translateX(0)}78%,100%{transform:translateX(-230px)}}
+@keyframes ftrack{0%{transform:translateX(0)}100%{transform:translateX(-200px)}}
+@keyframes fbob{0%,50%,100%{transform:translateY(0)}25%,75%{transform:translateY(-4px)}}
+@keyframes flow{0%,12%{transform:translateY(0) scale(1)}78%,100%{transform:translateY(40px) scale(1.35)}}
+
+.k-push{animation-name:push}.k-pull{animation-name:pull}.k-pan{animation-name:pan}.k-tilt{animation-name:tilt}
+.k-orbit{animation-name:orbit}.k-slide{animation-name:slide}.k-low{animation-name:low}
+.k-walk{animation-name:walk;animation-timing-function:linear;animation-duration:3.5s}
+.f-push{animation-name:fpush;transform-origin:90px 145px}
+.f-pull{animation-name:fpull;transform-origin:90px 145px}
+.f-pan{animation-name:fpan}
+.f-tilt{animation-name:ftilt;transform-origin:90px 160px}
+.f-orbbg{animation-name:forbbg}
+.f-orbrk{animation-name:forbrk;transform-origin:90px 150px}
+.f-reveal{animation-name:freveal}
+.f-track{animation-name:ftrack;animation-timing-function:linear;animation-duration:3.5s}
+.f-bob{animation-name:fbob;animation-timing-function:linear;animation-duration:1.75s}
+.f-low{animation-name:flow;transform-origin:90px 210px}
+.how .vis{margin:8px 0 4px;max-width:340px;align-items:start}
+.how .dia{flex:none}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">SportGrowth Media · zondag 1 november</div>
+    <h1>Shotlist Sports NEXT</h1>
+    <dl class="facts">
+      <dt>Waar</dt><dd>Nekkerhal, Plattebeekstraat 1, Mechelen</dd>
+      <dt>Contact</dt><dd>Koen (Flaxx Rackets), aan de stand behalve 15u30-16u15</dd>
+      <dt>Bewegingen</dt><dd><a href="https://claude.ai/artifact/BWCAvP153KpGWFRvS6RT6y" target="_blank" rel="noopener">Filmgids met animaties</a></dd>
+    </dl>
+  </header>
+
+  <div class="progress" aria-live="polite">
+    <div class="prow">Klaar <span id="count">0 / 0</span></div>
+    <div class="track"><div class="fill" id="fill"></div></div>
+    <nav class="jump" id="jump"></nav>
+  </div>
+
+  <div id="list" class="wrap" style="gap:28px"></div>
+
+  <div class="foot">
+    <span id="saved">Je vinkjes worden op deze gsm bewaard.</span>
+    <button class="ghost" id="reset" type="button">Alles leegmaken</button>
+  </div>
+</div>
+
+<script>
+const S = [
+ {id:"dag", nav:"Dagplan", h:"Dagplan zondag", time:"12u45-17u",
+  note:"Wat je filmt, wanneer je post en wie je tagt. De details per shot staan in de blokken eronder.",
+  items:[
+   {id:"P1", t:"Vóór vertrek", tip:"Gsm, powerbank, microfoon en gimbal opgeladen. Camera op 1080p, HDR uit. Niet storen aan. Lens schoon."},
+   {id:"P2", t:"12u45 · Aankomst: film A1 + A2, post meteen story 1", copy:"Vandaag op Sports NEXT 🏟️", tip:"Story 1 = A2 (jij die binnenstapt). Locatiesticker: Nekkerhal Mechelen. Tag het officiële account van Sports NEXT (zoek via @ en kies het account met het vinkje of de meeste volgers)."},
+   {id:"P3", t:"12u50 · In de hal: film A3 + A4, post story 2", copy:"De toekomst van sport, op één plek", tip:"Story 2 = A3 (pan over de hal) of A4 (een demo). Geen tag nodig."},
+   {id:"P4", t:"13u00 · Stand Flaxx: Koen begroeten, bedanken, 2 min afstemmen (B0)", tip:"Vraag ook of je vandaag al een story met tag mag posten."},
+   {id:"P5", t:"13u05 · Film B1 tot B8 (stand, reveal, orbit, vlas, handen, Koen, test)", tip:"Na B1: story 3 posten, als Koen akkoord gaf."},
+   {id:"P6", t:"Story 3 · de stand van Flaxx", copy:"De lancering van de ERGO CONTROL en ERGO POWER 🇧🇪", tip:"Beeld B1. Tag @flaxx_rackets. Productnamen in hoofdletters, zoals Flaxx ze schrijft."},
+   {id:"P7", t:"13u30 · Interview Koen in een rustige hoek (B9, 4 vragen) + B-roll + B10 + foto B11", tip:"Microfoon op Koen én op jou. Luister vraag 1 terug met je oortjes."},
+   {id:"P8", t:"14u00 · Sessie (optioneel) of rustig moment: A5 Motionlapse + blok E", tip:"Sessie: niet filmen, wel notities. Motionlapse doe je best als het druk is in de hal."},
+   {id:"P9", t:"15u30 · Panel 'Padel: From Hype to Habit': luisteren + notities (D1-D4)", tip:"Niet filmen. Hooguit 1 foto van ver, als dat mag. Die foto is story 4."},
+   {id:"P10", t:"16u15 · Na het panel: kort voorstellen aan Tom De Sutter (D5), post story 4", copy:"Interessant gesprek over padel: van hype naar gewoonte. Morgen deel ik wat ik leerde 👀", tip:"Tag @flaxx_rackets (Koen zat in het panel). Tag de andere sprekers niet, tenzij je hun account zeker kent."},
+   {id:"P11", t:"16u30 · Bij Koen: bedanken, testrackets, collab do 5/11 afspreken (blok F)", tip:"Wil hij meer weten over een samenwerking: F3 tot F6. Niet ter plaatse verkopen."},
+   {id:"P12", t:"Zondagavond · Niets op je feed posten", tip:"Alleen stories vandaag. Deelt Flaxx of Sports NEXT jouw story, deel die dan opnieuw in je eigen story. Beantwoord berichten en reacties."},
+   {id:"P13", t:"Zondagavond · Beelden en notities naar Claude (15 min)", tip:"Mislukte takes weggooien. Stuur het interview, blok B en E en je notities van het panel. Clips langer dan 25 s eerst knippen."},
+   {id:"P14", t:"Maandag · Lanceringsvideo naar Koen + carrousel 19u30", tip:"Claude maakt overdag de lanceringsvideo (15-20 s) voor Flaxx en de carrousel 'Padel: van hype naar gewoonte'. 's Avonds stuur jij de video naar Koen en plan je de carrousel in."}
+  ]},
+ {id:"voor", nav:"Voorbereiding", h:"Voorbereiding", time:"za-avond",
+  note:"Op je iPhone: Instellingen → Camera.",
+  items:[
+   {id:"v1", t:"Video op 1080p HD · 30 fps", tip:"Instellingen → Camera → Video opnemen. Instagram toont maximaal 1080p. Zo blijft een clip van 25 s onder 30 MB en kan je hem rechtstreeks naar Claude sturen. Laat Formaten op 'Hoge efficiency' staan."},
+   {id:"v2", t:"HDR-video uit", tip:"HDR geeft vreemde kleuren in CapCut en op Instagram."},
+   {id:"v3", t:"Raster aan"},
+   {id:"v4", t:"Minstens 10 GB vrij", tip:"1080p is ±60 MB per minuut."},
+   {id:"v5", t:"Gsm 100% + powerbank + kabel"},
+   {id:"v6", t:"Draadloze microfoon met 2 zenders + ontvanger, opgeladen", tip:"Eén zender voor Koen, één voor jou. Zaterdag koppelen en 30 s testen."},
+   {id:"v6b", t:"Pootjes van de gimbal: zoek vooraf een hoge tafel of toog", tip:"De pootjes staan laag. Voor het interview moet de gsm op ooghoogte van Koen: zet de gimbal op de toog van de stand, een statafel of een kist. Lukt dat niet: je begeleider houdt de gimbal vast."},
+   {id:"v6c", t:"Oortjes om het geluid te controleren"},
+   {id:"v6d", t:"Gimbal opgeladen + DJI Mimo op 1080p · 30 fps", tip:"Zaterdag testen: open handpalm naar de camera, kader wordt groen, loop een paar keer door je kamer."},
+   {id:"v6f", t:"Motionlapse en slow motion testen in DJI Mimo", tip:"Tik op het icoontje van de opnamestanden naast de opnameknop. Motionlapse: punt A en B kiezen, kijk hoe lang je moet filmen voor 5 s. Slow motion: zwaai met een racket en kijk het terug."},
+   {id:"v6e", t:"Optioneel: ledlampje met clip", tip:"Voor het gezicht van Koen als het hallicht van boven komt."},
+   {id:"v7", t:"Microvezeldoekje voor je lens"},
+   {id:"v8", t:"Effen donkerblauwe trui klaargelegd"},
+   {id:"v9", t:"Lege notitie \"Sports NEXT panel\" in je gsm"},
+   {id:"v10", t:"Op de dag zelf: Niet storen aan", tip:"Zo onderbreekt een oproep je opname niet."}
+  ]},
+ {id:"gimbal", box:true, h:"Gimbal en DJI Mimo: zo stel je in",
+  lines:["Bij elk shot staat een regel met 🎛️: gimbal of niet, welke stand in DJI Mimo, volgen aan of uit en wat je omkadert.","DJI Mimo · Video: 1080p · 30 fps. Gimbalstand: Follow (de standaard).","Volgen AAN: trek met je vinger een kader rond het onderwerp tot het groen wordt. Jezelf: steek je open handpalm naar de camera.","Volgen UIT: tik op het kader of het kruisje om te stoppen. Bij de Camera-app volgt de gimbal nooit, hij houdt het beeld alleen stabiel.","Beeld scheef of weggedraaid: druk 2 keer op de trekker om te centreren (kijk in DJI Mimo hoe het bij jouw model werkt).","Microfoon: steek de ontvanger in de gsm vóór je de app opent. Bovenaan in de app verschijnt een microfoonicoon."]},
+ {id:"zoom", box:true, h:"Welke zoom? Kijk naar het blauwe label 🔍",
+  lines:["Tik onderaan in de camera op 0,5x, 1x of 2x. Nooit met twee vingers verder inzoomen: dan wordt het beeld korrelig.","0,5x · breed: de hal, de gevel, een pan. Niet voor gezichten van dichtbij, want 0,5x vervormt aan de randen.","1x · standaard: de beste kwaliteit. Voor het interview, de rackets, orbit, push-in en jij in beeld.","2x · van verder weg: Koen in gesprek (B7). Je hoeft niet dichtbij te komen en de achtergrond lijkt dichterbij.","Macro (B5): op 1x dicht bij het racket. Je iPhone schakelt zelf naar macro (bloempje)."]},
+ {id:"apps", box:true, h:"Welke app? Kijk naar het label bij elk shot",
+  lines:["Wit label · iPhone Camera: vaste shots, rackets, interview, orbit en push-in. Gimbal alleen voor stabiel beeld.","Oranje label · DJI Mimo: volgen (jezelf of iemand die beweegt), slow motion (B8) of Motionlapse (A5).","Iemand volgen: trek een kader rond de persoon tot het groen wordt.","Jezelf volgen: open handpalm naar de camera tot het kader groen wordt, dan je hand laten zakken.","Volgen stoppen: tik het kader weg. In een drukke groep kan de gimbal iemand anders kiezen, dus kies een rustige plek."]},
+ {id:"a", nav:"A · aankomst", h:"A · Aankomst", time:"±12u45",
+  items:[
+   {id:"A1", gm:"Geen gimbal · uit de hand", z:"0,5x", app:"iPhone Camera", t:"Gevel of bord Nekkerhal / Sports NEXT", c:["breed","5 s"], mv:"statisch"},
+   {id:"A2", gm:"Gimbal in de hand · Mimo Video · volgen AAN: kader rond jezelf (open handpalm) · selfiecamera", z:"selfie · uitgezoomd", app:"DJI Mimo · volgen aan", t:"Jij die binnenstapt (selfie-video)", c:["half","5 s","story 1"], mv:"meelopen"},
+   {id:"A3", gm:"Geen gimbal · uit de hand", z:"0,5x", app:"iPhone Camera", t:"De hal met volk en standen", c:["breed","8 s","story 2"], mv:"pan", tip:"Voeten stil, draai vanuit je heupen van links naar rechts."},
+   {id:"A4", gm:"Geen gimbal · uit de hand", z:"1x", app:"iPhone Camera", t:"Een demo of iets wat beweegt", c:["half","5 s","story 2"], mv:"statisch"},
+   {id:"A5", gm:"Gimbal op pootjes · Mimo Motionlapse · volgen UIT · punt A links, punt B rechts", z:"0,5x", app:"DJI Mimo · Motionlapse", t:"Motionlapse van de hal: volk dat snel beweegt terwijl het beeld traag draait", c:["breed","2-3 min filmen","SGM-reel opening"], mv:"motionlapse", tip:"Gimbal op je statief, op een plek waar niemand ertegen loopt. Kies punt A links en punt B rechts in de hal. Wordt een clip van ±5 s. Kan ook later op de dag."}
+  ]},
+ {id:"b", nav:"B · Flaxx", h:"B · Stand Flaxx", time:"±13u",
+  note:"Eerst Koen begroeten en bedanken voor de tickets. Dan 2 minuten afstemmen (B0). Daarna filmen.",
+  items:[
+   {id:"B0a", t:"Afstemmen: wat maken we?", say:"Ik maak vandaag 2 dingen: een korte video van de lancering die jullie zelf mogen posten, en beelden voor onze collab-reel van volgende donderdag, waarin we de rackets testen op mijn training. Klopt dat voor jou?"},
+   {id:"B0b", t:"Vragen wat voor hen belangrijk is", say:"Is er iets wat ik zeker moet filmen? Een detail van de rackets, een persoon, iets van de stand?"},
+   {id:"B0c", t:"Afspraak over de elleboog", say:"In de collab-reel willen we vertrekken van spelers met last aan de elleboog. Wat mogen we daarover zeggen, en wat liever niet?"},
+   {id:"B0e", t:"Waar kunnen mensen de rackets na de beurs testen of kopen?", say:"Als mensen de video zien na de beurs, waar kunnen ze dan terecht? Webshop, een winkel, een testmoment of een workshop?", tip:"Zijn antwoord wordt de oproep op het einde van de lanceringsvideo en de collab-reel."},
+   {id:"B0d", t:"Afspraak over posten", say:"Ik stuur je alles eerst door voor ik iets post. Mag ik vandaag al stories posten met een tag?", tip:"Noteer zijn antwoorden in je gsm."},
+   {id:"B1", gm:"Geen gimbal · uit de hand", z:"1x", app:"iPhone Camera", t:"De hele stand met het logo", c:["breed","8 s","story 3"], mv:"push-in"},
+   {id:"B2", gm:"Geen gimbal · uit de hand", z:"1x", app:"iPhone Camera", t:"Reveal van de stand vanachter een paal of bord", c:["breed","5 s"], mv:"reveal", tip:"Hoe dichter de paal bij je lens, hoe sterker het effect."},
+   {id:"B3", gm:"Gimbal in de hand · Mimo Video · volgen AAN: kader rond het racketblad", z:"1x", app:"DJI Mimo · volgen aan", t:"ERGO CONTROL op tafel of in het rek", c:["close-up","6 s"], mv:"orbit", tip:"Racket in het midden van je scherm, ±80 cm afstand."},
+   {id:"B4", gm:"Gimbal in de hand · Mimo Video · volgen AAN: kader rond het racketblad", z:"1x", app:"DJI Mimo · volgen aan", t:"ERGO POWER op tafel of in het rek", c:["close-up","6 s"], mv:"orbit"},
+   {id:"B5", gm:"Geen gimbal · uit de hand", z:"1x (macro)", app:"iPhone Camera", t:"Vlasstructuur van heel dichtbij", c:["close-up","5 s"], mv:"heel traag schuiven"},
+   {id:"B6", gm:"Geen gimbal · gsm stil met 2 handen of op tafel", z:"1x", app:"iPhone Camera", t:"Handen die een racket oppakken en draaien", c:["close-up","5 s"], mv:"statisch"},
+   {id:"B7", gm:"Geen gimbal · uit de hand", z:"2x", app:"iPhone Camera", t:"Koen in gesprek met bezoekers", c:["half","8 s"], mv:"statisch"},
+   {id:"B8", gm:"Gimbal in de hand, laag · Mimo Slow motion · volgen UIT", z:"1x", app:"DJI Mimo · slow motion", t:"Een bezoeker die een racket test, in slow motion", c:["half","6 s","Flaxx-collab"], mv:"lage hoek", tip:"Eerst vragen.", say:"Mag ik even filmen hoe je het racket test? Het is voor Flaxx."},
+   {id:"B9a", gm:"Gimbal aan op pootjes, als statief · Camera-app · volgen UIT · microfoon in de gsm", z:"1x", app:"iPhone Camera", t:"Interview vraag 1", c:["half","±20 s"], mv:"statisch", say:"Waarom maken jullie rackets uit vlas?", tip:"Doorvragen: \"Wat merkt een speler daarvan?\""},
+   {id:"B9b", gm:"Gimbal aan op pootjes, als statief · Camera-app · volgen UIT", z:"1x", app:"iPhone Camera", t:"Interview vraag 2", c:["half","±20 s"], mv:"statisch", say:"Wat is het verschil tussen de ERGO CONTROL en de ERGO POWER?", tip:"Doorvragen: \"Voor welk type speler is welk model?\""},
+   {id:"B9e", gm:"Gimbal aan op pootjes, als statief · Camera-app · volgen UIT", z:"1x", app:"iPhone Camera", t:"Interview vraag 4 · het probleem (voor de collab-reel)", c:["half","±20 s"], mv:"statisch", say:"Veel spelers krijgen last van hun elleboog. Hoe helpt een racket uit vlas daarbij?", tip:"Laat Koen het in zijn eigen woorden zeggen. Vraag na het interview: 'Wat mogen wij daarover zeggen en wat niet?' Zo beloven we niets wat niet klopt."},
+   {id:"B9c", gm:"Gimbal aan op pootjes, als statief · Camera-app · volgen UIT", z:"1x", app:"iPhone Camera", t:"Interview vraag 3", c:["half","±20 s"], mv:"statisch", say:"Voor wie is een Flaxx ideaal?", tip:"Doorvragen: \"En wat betekent het dat ze in België gemaakt worden?\""},
+   {id:"B9d", gm:"Geen gimbal · uit de hand", z:"1x", app:"iPhone Camera", t:"B-roll bij de antwoorden (rackets, vlas, bezoekers)", c:["mix","3 x 5 s"], mv:"push-in / orbit"},
+   {id:"B10", gm:"Gimbal aan op pootjes, als statief · Camera-app · volgen UIT", z:"1x", app:"iPhone Camera", t:"Jij met de ERGO POWER, 1 zin in de camera", c:["half","8 s"], mv:"statisch", say:"Dit is de nieuwe ERGO POWER van Flaxx, een Belgisch racket uit vlas. Dinsdag test ik hem op training."},
+   {id:"B11", gm:"Geen gimbal · foto", z:"1x", app:"iPhone Camera", t:"Foto van jou en Koen (verticaal + liggend)", c:["foto"]}
+  ]},
+ {id:"int", box:true, h:"Interview: zo pak je het aan",
+  lines:["Rustige hoek, weg van luidsprekers. Koen met zijn gezicht naar het licht.","Logo of stand achter hem. Ogen op de bovenste lijn van het raster.","Microfoon op ±20 cm. Zonder microfoon: gsm op 50 cm.","Vraag hem je vraag te herhalen in zijn antwoord.","Laat 2 seconden stilte voor en na elk antwoord."]},
+ {id:"c", nav:"C · stories", h:"C · Stories @sportgrowth_media", time:"live",
+  items:[
+   {id:"C1", t:"Story 1: A2 (jij die binnenstapt)", copy:"Vandaag op Sports NEXT 🏟️"},
+   {id:"C2", t:"Story 2: A3 of A4 (hal of demo)", copy:"De toekomst van sport, op één plek"},
+   {id:"C3", t:"Story 3: B1 (stand Flaxx) + tag @flaxx_rackets", copy:"De lancering van de ERGO CONTROL en ERGO POWER 🇧🇪"},
+   {id:"C4", t:"Story 4: foto van de hal na het panel", copy:"Interessant gesprek over padel: van hype naar gewoonte. Morgen deel ik wat ik leerde 👀"}
+  ]},
+ {id:"d", nav:"D · panel", h:"D · Sessie 14u + panel 15u30", time:"14u-16u15",
+  note:"Niet filmen. Noteer per spreker: kernzin + wat een club of sportzaak ermee kan doen.",
+  items:[
+   {id:"D1", t:"Notities Koen (Flaxx)"},
+   {id:"D2", t:"Notities Tom De Sutter (Arenal)"},
+   {id:"D3", t:"Notities Gilles Koolen (Biofibix)"},
+   {id:"D4", t:"Notities Elke Clijsters"},
+   {id:"D5", t:"Kort voorstellen aan Tom De Sutter", say:"Hoi, ik ben Jari. Ik ben padeltrainer en met SportGrowth Media doe ik de social media voor sportclubs en sportzaken. Interessant gesprek!", tip:"Geen afspraak vragen. Volg hem daarna op Instagram."}
+  ]},
+ {id:"e", nav:"E · SGM-reel", h:"E · SGM-reel voor later", time:"rustig moment",
+  items:[
+   {id:"E1", gm:"Gimbal op pootjes · Mimo Video · volgen AAN: kader rond jezelf (open handpalm)", z:"1x", app:"DJI Mimo · volgen aan", t:"Jij in de camera, hal achter je (2-3 keer)", c:["half","8 s"], mv:"statisch", say:"Ik ben vandaag op Sports NEXT, dé beurs over de toekomst van sport. Dit neem ik mee voor jullie club."},
+   {id:"E2", gm:"Geen gimbal · uit de hand", z:"0,5x", app:"iPhone Camera", t:"Breed beeld van de hal", c:["breed","5 s"], mv:"pan"},
+   {id:"E3", gm:"Geen gimbal · uit de hand", z:"1x", app:"iPhone Camera", t:"Detail van een sporttoestel of demo", c:["close-up","5 s"], mv:"push-in"},
+   {id:"E4", gm:"Gimbal op pootjes (alleen) of in de hand van je begeleider · Mimo Video · volgen AAN: kader rond jezelf", z:"1x", app:"DJI Mimo · volgen aan", t:"Jij die door de hal loopt, van achteren", c:["half","5 s","alleen of begeleider"], mv:"meelopen"},
+   {id:"E5", gm:"Geen gimbal · tweede toestel of iemand anders filmt", z:"0,5x", app:"DJI Mimo · volgen aan", t:"Achter de schermen: jij die de stand filmt", c:["breed","5 s","SGM-reel"], mv:"statisch", tip:"Openingsbeeld van de SGM-reel 'Zo filmen wij een lancering'. Alleen: met je gsm in de gimbal kan je niet ook nog filmen, dus houd je oude gsm of een tweede toestel in je hand. Geen tweede toestel? Vraag Koen of een bezoeker om 5 seconden te filmen."},
+   {id:"E6", gm:"Geen gimbal · gsm op tafel", z:"0,5x", app:"iPhone Camera", t:"Achter de schermen: de opstelling van het interview", c:["breed","5 s","SGM-reel"], mv:"statisch", tip:"Vlak voor of na het interview: zet je gsm 2 à 3 m verder op een tafel en film breed Koen met de microfoon en de gimbal. Dit lukt alleen, zonder begeleider."}
+  ]},
+ {id:"map", box:true, h:"Welke shots voor welke video",
+  lines:["Lanceringsvideo (Flaxx post zelf, ma 2/11): A3 of A5 · B1 of B2 · B3 · B4 · B5 · B7 of B8 · B6 (eindkaart). Zonder deze 7 geen lanceringsvideo.","Collab-reel (do 5/11): B9e (Koen over de elleboog) · B3 + B4 · B6. De rest film je di 3/11 op training.","SGM-reel achter de schermen: E1 · E5 · E6 · B3 · afsluiter (bestaat al).","Stories vandaag: A2 · A3 of A4 · B1 · foto van het panel.","Carrousel ma 2/11: je notities van het panel (D1-D5). Geen beelden nodig.","Alleen? Alles lukt alleen, behalve E5: vraag daarvoor Koen of een bezoeker om 5 seconden te filmen. Lukt dat niet, dan opent de SGM-reel met E1."]},
+ {id:"f", nav:"F · afsluiten", h:"F · Afsluiten", time:"na 16u15",
+  items:[
+   {id:"F1", t:"Koen bedanken + testrackets meenemen"},
+   {id:"F2", t:"Afspreken wanneer de collab-reel online komt", tip:"Voorstel: donderdag 5/11 om 19u30."},
+   {id:"F3", t:"Wil Koen meer weten? Eerst vraag 1", say:"Wat wil je vooral bereiken met Instagram? Meer verkoop via de webshop, meer winkels of clubs die jullie verkopen, of meer workshops?"},
+   {id:"F4", t:"Vraag 2", say:"Wie doet nu jullie Instagram, en hoeveel tijd kost dat?"},
+   {id:"F5", t:"Vraag 3", say:"Wat vind je zelf het moeilijkst: ideeën, filmen of monteren?"},
+   {id:"F6", t:"Afsluiten zonder ter plaatse te verkopen", say:"Laten we eerst de collab-reel maken. Dan zie je wat we leveren en wat het oplevert. Daarna stuur ik je de cijfers en een kort voorstel, goed?", tip:"Noteer zijn antwoorden in je gsm. Voorstel pas na de collab-reel, samen met de cijfers (za 7/11)."}
+  ]},
+ {id:"flaxxbox", box:true, h:"Samenwerking Flaxx: wat je kan voorstellen",
+  lines:["Wat SGM anders maakt: jij bent padeltrainer, met elke week spelers die rackets testen. Hun grid toont nu vooral producten, bijna geen spelers in actie.","Eerst bewijs: de collab-reel van do 5/11. Je deelt de cijfers (weergaven, bereik, nieuwe volgers).","Optie A · Lanceringsproject ERGO: 4 reels in 4 weken, 1 shoot op training. 4 reels (€240) + 1 shoot (€50) = €290 eenmalig. Noem de berekening erbij.","Optie B · Starter + filmen: 4 posts + 3 reels per maand, stories 5x per week, maandrapport, 1 shoot per maand. €449/maand, minimum 3 maanden.","Twijfelt hij bij B: proefperiode Starter €349 de eerste 3 maanden (+ €50 filmen). Geen garantie op boekingen noemen.","Extra: kortingscode voor jouw padelleerlingen. Zo ziet Flaxx meteen wat het oplevert.","Ideeën als hij vraagt wat je zou maken: trainers testen CONTROL en POWER · achter de schermen bij de productie · carrousel 'Voor wie is welk racket?' · spelers met een tenniselleboog over het comfort · een workshop in beeld."]},
+ {id:"na", nav:"Avond", h:"Zondagavond", time:"15 min",
+  items:[
+   {id:"N1", t:"Mislukte opnames weggooien"},
+   {id:"N2", t:"Goede beelden in album \"Sports NEXT 1-11\""},
+   {id:"N3", t:"Naar Claude sturen: notities panel, interview, beelden B en E", tip:"Dan staat maandag de carrousel en de ruwe montage voor Flaxx klaar."}
+  ]}
+];
+
+const KEY = "sgm-shotlist-sportsnext-1-11";
+let state = {};
+try { state = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch(e) { state = {}; }
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch(e) {
+  document.getElementById("saved").textContent = "Vinkjes worden niet bewaard in dit venster."; } };
+const esc = s => s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+const HOW = {
+ A1:{waar:"Aan de overkant van de ingang, 5 tot 10 m ervan. Gsm op borsthoogte, lens op 0,5x.",
+     start:"Het bord of de gevel in het bovenste derde van je scherm. Onderaan de mensen die binnengaan.",
+     doe:"Niet bewegen. Hou 5 seconden stil.",
+     let:"Wacht tot er een paar mensen binnenlopen. Dat geeft leven."},
+ A2:{waar:"3 stappen vóór de ingang. Gimbal in je hand, arm half gestrekt, camera iets boven je ogen.",
+     start:"Open hand naar de camera tot het kader groen wordt. Jij in het midden, de ingang achter je.",
+     doe:"Wandel rustig naar binnen. Kijk 1 keer in de camera en lach.",
+     einde:"2 stappen na de deur, met de hal achter je. Stop de opname.",
+     let:"Microfoon op je trui als je iets zegt."},
+ A3:{waar:"Aan de rand van de hal of op een hoger punt (trap, balkon). Gsm op borsthoogte, 0,5x.",
+     start:"Links in de hal. 1 seconde stil.",
+     doe:"Voeten stil, draai vanuit je heupen in 6 seconden naar rechts.",
+     einde:"Rechts in de hal. 1 seconde stil.",
+     let:"Hou de horizon recht op een rasterlijn."},
+ A4:{waar:"1 à 2 m van de demo. Gsm op borsthoogte.",
+     start:"De demo of het toestel in het midden van je scherm.",
+     doe:"Hou stil. De beweging van de demo doet het werk.",
+     let:"Iemand herkenbaar in beeld? Eerst vragen."},
+ A5:{waar:"Gimbal op je statief in een hoek met overzicht over de hal, liefst wat hoger. Niemand mag vlak voor de lens lopen.",
+     start:"DJI Mimo → Motionlapse. Punt A: de linkerkant van de hal.",
+     doe:"Punt B: de rechterkant (draai hooguit een kwart). Duur 2 à 3 minuten. Tik op opnemen en raak niets meer aan.",
+     einde:"De app maakt er zelf een clip van ±5 seconden van.",
+     let:"Doe dit wanneer het druk is. Hoe meer volk, hoe mooier."},
+ B1:{waar:"3 m voor de stand, in het midden. Gsm op borsthoogte.",
+     start:"De hele stand in beeld, het logo in het bovenste derde. 1 seconde stil.",
+     doe:"Loop in 5 seconden 2 kleine stappen naar voren. Gsm op dezelfde hoogte.",
+     einde:"Het logo en de tafel met rackets vullen je scherm. 1 seconde stil."},
+ B2:{waar:"Achter een paal, bord of zuil naast de stand. Gsm 20 à 30 cm achter de paal.",
+     start:"Je scherm is helemaal bedekt door de paal.",
+     doe:"Schuif in 3 seconden zijwaarts tot de stand vrijkomt.",
+     einde:"Stop zodra het logo helemaal in beeld is. 2 seconden stil."},
+ B3:{waar:"Op ±80 cm van het racket. Gsm op de hoogte van het racketblad. Vraag Koen of je het racket rechtop mag zetten.",
+     start:"Een kwart cirkel links van het racket. Racket in het midden van je scherm.",
+     doe:"Kleine zijstapjes in 6 seconden naar rechts. Richt altijd op het racket en hou dezelfde afstand.",
+     einde:"Een kwart cirkel rechts van het racket. 1 seconde stil.",
+     let:"Liefst het logo van de stand achter het racket."},
+ B4:{waar:"Zelfde als B3, met de ERGO POWER.",
+     start:"Begin deze keer rechts.",
+     doe:"Kleine zijstapjes in 6 seconden naar links.",
+     einde:"Links van het racket. 1 seconde stil.",
+     let:"Twee richtingen geeft in de montage een mooie overgang tussen de 2 modellen."},
+ B5:{waar:"Gsm 10 à 15 cm van het racketblad, op 1x. Je iPhone schakelt zelf naar macro (bloempje).",
+     start:"Tik op het vlas om scherp te stellen.",
+     doe:"Schuif in 5 seconden heel traag 5 cm opzij.",
+     let:"Laat het licht schuin over het blad vallen. Dan zie je de structuur van het vlas."},
+ B6:{waar:"Gsm op je statief of met 2 handen, 50 cm van het racket op tafel.",
+     start:"Alleen de tafel en het racket in beeld.",
+     doe:"Een hand (van Koen of van jou) komt in beeld, pakt het racket en draait het 1 keer rond.",
+     einde:"Het racket uit beeld of stil in de hand."},
+ B7:{waar:"2 à 3 m van Koen, schuin achter een bezoeker (over de schouder).",
+     start:"Koen van voren, de bezoeker van achteren.",
+     doe:"Hou 8 seconden stil.",
+     let:"Geluid is niet nodig. Vraag de bezoeker of hij in beeld mag."},
+ B8:{waar:"2 m voor de persoon en wat opzij. Gimbal op kniehoogte, licht naar boven gericht.",
+     start:"DJI Mimo → Slow motion. Start de opname vóór de zwaai.",
+     doe:"Vraag om 3 keer rustig een slag te doen.",
+     einde:"Stop na de derde slag.",
+     let:"Eerst toestemming vragen."},
+ B9a:{waar:"Rustige hoek van de stand. Statief op ooghoogte van Koen, 1 à 1,5 m van hem. Koen met zijn gezicht naar het licht, logo achter hem.",
+     start:"Microfoon op zijn borst, een hand onder zijn kin. Kader van borst tot net boven zijn hoofd, ogen op de bovenste rasterlijn.",
+     doe:"Opname starten, 2 seconden stil, vraag stellen. Koen kijkt in de camera en herhaalt de vraag in zijn antwoord.",
+     einde:"2 seconden stil na het antwoord.",
+     let:"Luister na de eerste vraag terug met je oortjes."},
+ B9b:{waar:"Zelfde plek en kader als vraag 1.", doe:"Opname laten lopen of opnieuw starten. 2 seconden stil voor en na."},
+ B9c:{waar:"Zelfde plek en kader als vraag 1.", doe:"Opname laten lopen of opnieuw starten. 2 seconden stil voor en na."},
+ B9e:{waar:"Zelfde plek en kader als vraag 1.", doe:"Stel de vraag rustig. Koen herhaalt de vraag in zijn antwoord: 'Veel spelers met een tenniselleboog...'.", let:"Dit antwoord wordt het hart van de collab-reel van do 5/11."},
+ B9d:{doe:"Bij elk antwoord 1 à 2 extra beelden die erbij passen: vlas (zoals B5), orbit (zoals B3), handen (zoals B6), bezoekers aan de stand.",
+     let:"Daar knip je in de montage naartoe terwijl Koen praat."},
+ B10:{waar:"Statief op ooghoogte, of je begeleider filmt. 1 m afstand, de stand achter je.",
+     start:"Racket naast je gezicht, microfoon op je trui.",
+     doe:"Zeg de zin 3 keer. Kijk in de lens, niet naar het scherm."},
+ B11:{waar:"Aan de stand, met het logo tussen jullie in.",
+     doe:"Je begeleider, Koen of een bezoeker neemt 3 à 4 foto's. Verticaal en liggend."},
+ E1:{waar:"Gimbal op je statief op ooghoogte, 1 m van je. Achter je de hal met volk, geen muur.",
+     start:"DJI Mimo, open hand naar de camera tot het kader groen wordt. Microfoon op je trui.",
+     doe:"Zeg de zin 2 à 3 keer. Je mag een halve stap opzij zetten, de gimbal volgt.",
+     let:"Doe dit op een rustig moment, weg van luidsprekers."},
+ E2:{waar:"Zelfde als A3, maar op een andere plek in de hal.",
+     start:"Links. 1 seconde stil.",
+     doe:"In 6 seconden naar rechts draaien vanuit je heupen.",
+     einde:"Rechts. 1 seconde stil."},
+ E3:{waar:"1 m van een sporttoestel of demo. Gsm op borsthoogte.",
+     start:"Het toestel helemaal in beeld.",
+     doe:"2 kleine stappen naar voren in 4 seconden.",
+     einde:"Een detail van het toestel vult het scherm."},
+ E5:{waar:"Wie filmt staat 3 m achter of naast je, met de stand en jij in beeld.",
+     doe:"Jij filmt de stand of een racket, alsof je B1 of B3 maakt. 5 seconden.",
+     let:"Wie filmt gebruikt jouw gsm. Jij houdt een tweede toestel vast, of doet alsof met de gimbal zonder gsm."},
+ E6:{waar:"Je gsm op een tafel of de toog, 2 à 3 m van de interviewplek, op 0,5x.",
+     doe:"Film 5 seconden breed: Koen met de microfoon op zijn trui, de gimbal ervoor. Daarna haal je je gsm terug voor het interview.",
+     let:"Vraag Koen gewoon even te blijven staan: 'Mag ik de opstelling 5 seconden filmen?'"},
+ E4:{waar:"Alleen: zet de gimbal op zijn pootjes op een statafel, in DJI Mimo met volgen aan, open handpalm. Met begeleider: die loopt 2 m achter je, gimbal op borsthoogte.",
+     start:"Jij met je rug naar de camera, de hal voor je.",
+     doe:"Wandel rustig door de hal en kijk rond. Je begeleider volgt met de ninja-walk.",
+     einde:"Na 5 à 10 seconden."}
+};
+
+const phone = `<polygon class="cone" points="0,-6 -20,-44 20,-44"/><rect class="ph" x="-9" y="-5" width="18" height="10" rx="2.5"/>`;
+const arrow = `<defs><marker id="ah" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#00d4ff"/></marker></defs>`;
+
+const holes = [[80,122],[100,122],[72,138],[90,138],[108,138],[80,154],[100,154],[90,168]]
+  .map(([x,y])=>`<circle class="hole" cx="${x}" cy="${y}" r="2.6"/>`).join("");
+const racket = `<rect class="grip" x="86" y="172" width="8" height="22" rx="3"/><ellipse class="face" cx="90" cy="142" rx="28" ry="35"/><ellipse class="inner" cx="90" cy="142" rx="22" ry="29"/>${holes}`;
+const table = `<rect class="table" x="28" y="192" width="124" height="12" rx="2"/><rect class="leg" x="36" y="204" width="6" height="44"/><rect class="leg" x="138" y="204" width="6" height="44"/>`;
+const stand = (x,label)=>`<rect class="oth" x="${x}" y="50" width="110" height="32" rx="3"/><rect class="oth" x="${x+10}" y="186" width="90" height="14" opacity=".7"/>`;
+const bg = `<rect class="wall" x="-500" y="-300" width="1200" height="515"/><rect class="floor" x="-500" y="215" width="1200" height="300"/><rect class="fline" x="-500" y="213" width="1200" height="3"/>
+  ${stand(-370)}${stand(-170)}${stand(230)}${stand(430)}
+  <rect class="banner" x="35" y="40" width="110" height="38" rx="4"/><text class="bt" x="90" y="68">FLAXX</text>`;
+const bgTrack = `<rect class="wall" x="-50" y="-300" width="700" height="515"/><rect class="floor" x="-50" y="215" width="700" height="300"/><rect class="fline" x="-50" y="213" width="700" height="3"/>
+  ${[ -10,190,390 ].map(x=>`<rect class="oth" x="${x}" y="50" width="120" height="32" rx="3"/><rect class="oth" x="${x+15}" y="186" width="90" height="14" opacity=".7"/>`).join("")}
+  ${[ 120,320,520 ].map(x=>`<rect class="banner" x="${x}" y="40" width="50" height="10" rx="2" opacity=".6"/>`).join("")}`;
+const person = `<g class="a f-bob"><circle class="skin" cx="90" cy="128" r="15"/><rect class="pers" x="70" y="146" width="40" height="72" rx="16"/><rect class="pers" x="74" y="210" width="13" height="70" rx="6"/><rect class="pers" x="93" y="210" width="13" height="70" rx="6"/></g>`;
+
+const frame = inner => `<div class="frame"><svg viewBox="0 0 180 320" preserveAspectRatio="xMidYMid slice" aria-hidden="true">${inner}</svg></div>`;
+const dia = inner => `<svg class="dia" viewBox="0 0 200 140" aria-hidden="true">${arrow}${inner}</svg>`;
+const subj = (x,y,l="racket")=>`<circle class="subj" cx="${x}" cy="${y}" r="11"/><text class="dlabel" x="${x}" y="${y-16}" text-anchor="middle">${l}</text>`;
+
+const moves = [
+ {n:"Push-in", s:"Traag naar je onderwerp toe", view:"bovenaanzicht",
+  d: dia(`${subj(100,34)}<line class="guide" x1="128" y1="122" x2="128" y2="82" marker-end="url(#ah)"/><g transform="translate(100,122)"><g class="a k-push">${phone}</g></g>`),
+  f: frame(`<g class="a f-push">${bg}${table}${racket}</g>`),
+  when:"Een product tonen, spanning opbouwen, de start van een reel.",
+  how:["Start op ±1,5 m van je onderwerp.","Loop 2 kleine stappen naar voren in 4 seconden.","Hou de gsm op dezelfde hoogte."],
+  shots:["B1","E3"], no:"met twee vingers inzoomen. Dat geeft een korrelig beeld."},
+ {n:"Pull-out", s:"Traag van je onderwerp weg", view:"bovenaanzicht",
+  d: dia(`${subj(100,34)}<line class="guide" x1="128" y1="80" x2="128" y2="120" marker-end="url(#ah)"/><g transform="translate(100,80)"><g class="a k-pull">${phone}</g></g>`),
+  f: frame(`<g class="a f-pull">${bg}${table}${racket}</g>`),
+  when:"Het einde van een reel. Je toont waar je bent: de hele stand.",
+  how:["Start dicht bij een detail, bijvoorbeeld het racket.","Stap traag achteruit in 4 seconden.","Kijk eerst achter je zodat je niet tegen iemand botst."],
+  shots:["B1","einde"], no:"te snel achteruit, dan schudt het beeld."},
+ {n:"Pan", s:"Op je plaats draaien", view:"bovenaanzicht",
+  d: dia(`<circle class="subj2" cx="40" cy="44" r="10"/><circle class="subj" cx="100" cy="30" r="11"/><circle class="subj2" cx="160" cy="44" r="10"/><text class="dlabel" x="100" y="14" text-anchor="middle">standen in de hal</text><path class="guide" d="M66,104 A40,40 0 0 1 134,104" marker-end="url(#ah)"/><g transform="translate(100,120)"><g class="a k-pan">${phone}</g></g>`),
+  f: frame(`<g class="a f-pan">${bg}${table}${racket}</g>`),
+  when:"De hal of de sfeer tonen.",
+  how:["Voeten stil, draai vanuit je heupen.","Draai in 5 seconden van links naar rechts.","Begin en eindig 1 seconde stil."],
+  shots:["A3","E2"], no:"heen en weer zwaaien. Kies één richting."},
+ {n:"Tilt", s:"Van onder naar boven kantelen", view:"zijaanzicht",
+  d: dia(`<line class="ground" x1="10" y1="126" x2="190" y2="126"/><rect class="pil" x="182" y="10" width="6" height="116"/><rect class="banner" x="170" y="22" width="12" height="26"/><text class="dlabel" x="164" y="36" text-anchor="end">logo</text><rect class="subj" x="150" y="98" width="22" height="6"/><rect class="leg" x="152" y="104" width="3" height="22"/><rect class="leg" x="167" y="104" width="3" height="22"/><text class="dlabel" x="146" y="94" text-anchor="end">racket</text><path class="guide" d="M88,104 A50,50 0 0 0 86,52" marker-end="url(#ah)"/><line class="ground" x1="40" y1="96" x2="40" y2="126" stroke-dasharray="2 3"/><g transform="translate(40,88)"><g class="a k-tilt">${phone}</g></g>`),
+  f: frame(`<g class="a f-tilt">${bg}${table}${racket}</g>`),
+  when:"Van het racket naar het logo. Of van de schoenen naar het gezicht van een speler.",
+  how:["Gsm op borsthoogte, voeten stil.","Kantel de gsm traag naar boven in 4 seconden.","Eindig op het logo en hou 1 seconde stil."],
+  shots:["B1","B3"], no:"tegelijk kantelen en draaien."},
+ {n:"Orbit", s:"Een halve cirkel rond het product", view:"bovenaanzicht",
+  d: dia(`${subj(100,52)}<path class="guide" d="M55,78 A52,52 0 0 0 145,78" marker-end="url(#ah)"/><g transform="translate(100,52)"><g class="a k-orbit"><g transform="translate(0,52)">${phone}</g></g></g>`),
+  f: frame(`<g class="a f-orbbg">${bg}</g>${table}<g class="a f-orbrk">${racket}</g>`),
+  when:"Productbeelden: de ERGO CONTROL en de ERGO POWER. Het product blijft in het midden en de achtergrond schuift.",
+  how:["Zet het racket in het midden van je scherm.","Stap zijwaarts met kleine stapjes in een halve cirkel.","Hou de afstand gelijk (±80 cm) en richt altijd op het racket."],
+  shots:["B3","B4"], no:"het racket uit het midden laten glijden."},
+ {n:"Reveal", s:"Iets laten verschijnen", view:"bovenaanzicht",
+  d: dia(`${subj(100,30,"stand")}<rect class="pil" x="80" y="68" width="40" height="18" rx="2"/><text class="dlabel" x="100" y="80" text-anchor="middle" style="fill:#0b1633">paal</text><line class="guide" x1="100" y1="132" x2="148" y2="132" marker-end="url(#ah)"/><g transform="translate(100,118)"><g class="a k-slide">${phone}</g></g>`),
+  f: frame(`${bg}${table}${racket}<g class="a f-reveal pillar"><rect x="-20" y="-10" width="210" height="340"/><rect class="edge" x="186" y="-10" width="5" height="340"/></g>`),
+  when:"Het openingsbeeld. De stand voor het eerst tonen.",
+  how:["Start met een paal, een bord of iemands rug vlak voor je lens.","Schuif zijwaarts tot de stand vrijkomt.","Stop zodra het logo in beeld is en hou 1 seconde stil."],
+  shots:["B2"], no:"te ver van de paal starten. Hoe dichter, hoe sterker het effect."},
+ {n:"Meelopen", s:"Naast of achter iemand lopen", view:"bovenaanzicht",
+  d: dia(`<g class="a k-walk"><circle class="subj" cx="40" cy="40" r="11"/><text class="dlabel" x="40" y="22" text-anchor="middle">persoon</text></g><line class="guide" x1="30" y1="130" x2="170" y2="130" marker-end="url(#ah)"/><g transform="translate(40,104)"><g class="a k-walk">${phone}</g></g>`),
+  f: frame(`<g class="a f-track">${bgTrack}</g>${person}`),
+  when:"Binnenwandelen, door de hal lopen, iemand naar de stand volgen.",
+  how:["Ninja-walk: knieën licht gebogen, hiel-teen, kleine stappen.","Loop even snel als de persoon en hou de afstand gelijk.","Op iPhone: zet de Actiemodus aan (het mannetje dat loopt). Die maakt het beeld extra stabiel."],
+  shots:["A2","E4"], no:"gewoon wandelen met gestrekte armen. Dan zie je elke stap."},
+ {n:"Lage hoek", s:"Van onder naar boven filmen", view:"zijaanzicht",
+  d: dia(`<line class="ground" x1="10" y1="126" x2="190" y2="126"/><circle class="skin" cx="150" cy="30" r="9"/><rect class="pers" x="140" y="40" width="20" height="50" rx="8" style="fill:#3a4c80"/><rect x="142" y="88" width="7" height="38" rx="3" style="fill:#3a4c80"/><rect x="151" y="88" width="7" height="38" rx="3" style="fill:#3a4c80"/><text class="dlabel" x="60" y="44" text-anchor="middle">ooghoogte</text><line class="guide" x1="30" y1="60" x2="30" y2="112" marker-end="url(#ah)"/><g transform="translate(60,62)"><g class="a k-low">${phone}</g></g><text class="dlabel" x="60" y="138" text-anchor="middle">kniehoogte</text>`),
+  f: frame(`<g class="a f-low">${bg}${table}${racket}</g>`),
+  when:"Iets of iemand krachtig laten ogen. Een speler in actie op het veld.",
+  how:["Hou de gsm op kniehoogte of lager.","Draai de gsm ondersteboven: dan zit de lens dichter bij de grond.","Richt licht naar boven. Je onderwerp oogt groter."],
+  shots:["B8","padeltraining"], no:"van boven filmen. Dat maakt mensen en producten klein."}
+];
+
+const MOVE = Object.fromEntries(moves.map(m=>[m.n.toLowerCase(), m]));
+const MVMAP = {"push-in":"push-in","pan":"pan","orbit":"orbit","reveal":"reveal","meelopen":"meelopen","lage hoek":"lage hoek","push-in / orbit":"push-in","motionlapse":"pan"};
+const raster = `<g stroke="#ffffff" stroke-opacity=".35" stroke-width="1"><line x1="60" y1="0" x2="60" y2="320"/><line x1="120" y1="0" x2="120" y2="320"/><line x1="0" y1="106.7" x2="180" y2="106.7"/><line x1="0" y1="213.3" x2="180" y2="213.3"/></g>`;
+const sdia = (label, dist, y=34, extra="") => dia(`${subj(100,y,label)}<line class="guide" x1="128" y1="${y+14}" x2="128" y2="104" style="stroke-dasharray:2 3"/><text class="dlabel" x="134" y="${(y+118)/2}">${dist}</text>${extra}<g transform="translate(100,118)">${phone}</g><text class="dlabel" x="100" y="138" text-anchor="middle">gsm stil</text>`);
+const big = (cx, hy, s=1, col="pers") => `<g transform="translate(${cx},${hy}) scale(${s})"><circle class="skin" cx="0" cy="0" r="26"/><rect x="-46" y="32" width="92" height="220" rx="40" fill="#4b5e96"/></g>`;
+const mic = (cx,y) => `<rect x="${cx-4}" y="${y}" width="8" height="12" rx="2" fill="#111"/><circle cx="${cx}" cy="${y-2}" r="3" fill="#00d4ff"/>`;
+const STATIC = {
+ A1:{d: sdia("ingang","5-10 m",30),
+     f: frame(`<rect x="0" y="0" width="180" height="320" fill="#24386e"/><rect x="10" y="40" width="160" height="230" fill="#3a4c80"/><rect x="25" y="55" width="130" height="40" rx="4" class="banner"/><text class="bt" x="90" y="83" style="font-size:20px">SPORTS NEXT</text><rect x="65" y="170" width="50" height="100" fill="#0d1b3e"/><rect x="0" y="270" width="180" height="50" class="floor"/>${[30,60,140].map(x=>`<circle class="skin" cx="${x}" cy="262" r="5"/><rect class="pers" x="${x-6}" y="268" width="12" height="26" rx="5"/>`).join("")}${raster}`)},
+ A4:{d: sdia("demo","1-2 m"),
+     f: frame(`${bg}<rect x="30" y="95" width="120" height="80" rx="6" fill="#0d1b3e" stroke="#00d4ff" stroke-width="3"/><polygon points="80,118 80,152 108,135" fill="#00d4ff"/><rect x="40" y="175" width="100" height="40" fill="#9aa9cf"/>${raster}`)},
+ B5:{d: sdia("racketblad","10-15 cm",40),
+     f: frame(`<rect x="0" y="0" width="180" height="320" fill="#c79f5c"/><g stroke="#8a6a35" stroke-opacity=".55" stroke-width="2">${Array.from({length:30},(_,i)=>`<line x1="${-200+i*14}" y1="0" x2="${i*14}" y2="320"/>`).join("")}</g><g stroke="#e6c88e" stroke-opacity=".45" stroke-width="2">${Array.from({length:30},(_,i)=>`<line x1="${i*14}" y1="0" x2="${-200+i*14}" y2="320"/>`).join("")}</g><circle cx="50" cy="90" r="16" fill="#5a4220"/><circle cx="130" cy="230" r="16" fill="#5a4220"/><rect x="70" y="140" width="40" height="40" fill="none" stroke="#ffd60a" stroke-width="2"/><text x="90" y="196" text-anchor="middle" style="fill:#ffd60a;font:600 8px var(--body)">tik hier</text>`)},
+ B6:{d: sdia("racket op tafel","50 cm",34),
+     f: frame(`<rect x="0" y="0" width="180" height="320" fill="#e6ecfa"/><g transform="rotate(-25 90 170)"><ellipse cx="90" cy="130" rx="40" ry="50" class="face"/><ellipse cx="90" cy="130" rx="32" ry="42" class="inner"/><rect x="83" y="178" width="14" height="70" rx="5" class="grip"/></g><ellipse cx="125" cy="245" rx="26" ry="18" class="skin"/><rect x="128" y="250" width="60" height="30" rx="12" class="skin"/>`)},
+ B7:{d: dia(`${subj(100,30,"Koen")}<circle class="subj2" cx="112" cy="70" r="10"/><text class="dlabel" x="140" y="72">bezoeker</text><g transform="translate(130,118) rotate(-15)">${phone}</g><text class="dlabel" x="100" y="138" text-anchor="middle">schuin achter de bezoeker, 2-3 m</text>`),
+     f: frame(`${bg}${big(110,120,.55)}<g opacity=".92"><circle cx="30" cy="190" r="48" fill="#141a2a"/><rect x="-40" y="225" width="150" height="120" rx="50" fill="#141a2a"/></g>${raster}`)},
+ B9a:{d: dia(`${subj(100,30,"Koen")}<text class="dlabel" x="40" y="22" text-anchor="middle">licht</text><circle cx="40" cy="34" r="7" fill="#ffd60a"/><line class="guide" x1="128" y1="44" x2="128" y2="104" style="stroke-dasharray:2 3"/><text class="dlabel" x="134" y="78">1-1,5 m</text><g transform="translate(100,118)">${phone}</g><text class="dlabel" x="100" y="138" text-anchor="middle">statief op ooghoogte</text>`),
+     f: frame(`${bg}${big(122,100)}${mic(122,160)}${raster}<text x="4" y="103" style="fill:#fff;font:600 8px var(--body)">ogen op deze lijn</text>`)},
+ B10:{d: sdia("jij","1 m"),
+     f: frame(`${bg}${big(100,100)}<g transform="translate(-35,-35) scale(.8)">${racket}</g>${mic(100,160)}${raster}`)},
+ B11:{d: sdia("jij + Koen","2 m"),
+     f: frame(`${bg}${big(55,130,.6)}${big(125,130,.6)}${raster}`)},
+ E1:{d: sdia("jij","1 m"),
+     f: frame(`<g style="filter:blur(1.5px)">${bgTrack}</g>${big(90,100)}${mic(90,160)}${raster}`)}
+};
+STATIC.B9b = STATIC.B9a; STATIC.B9c = STATIC.B9a; STATIC.B9e = STATIC.B9a;
+const visHtml = (id, mv) => { const st = STATIC[id]; if (st) return `<div class="vis"><figure>${st.d}<figcaption>Zo sta je</figcaption></figure><figure>${st.f}<figcaption>Zo ziet je beeld eruit</figcaption></figure></div>`; const m = MOVE[MVMAP[mv]]; if (!m) return ""; return `<div class="vis"><figure>${m.d}<figcaption>Zo beweeg je</figcaption></figure><figure>${m.f}<figcaption>Dit zie je</figcaption></figure></div>`; };
+const LBL = {waar:"Waar sta je", start:"Begin", doe:"Wat doe je", einde:"Einde", let:"Let op"};
+const howHtml = (id, mv) => { const h = HOW[id]; if (!h) return ""; return `<details class="how" open><summary>Zo film je</summary>${visHtml(id, mv)}<dl>${Object.keys(LBL).filter(k=>h[k]).map(k=>`<dt>${LBL[k]}</dt><dd>${esc(h[k])}</dd>`).join("")}</dl></details>`; };
+const list = document.getElementById("list");
+list.innerHTML = S.map(s => s.box ? `
+  <div class="box"><b>${esc(s.h)}</b>${s.lines.map(l=>`<div>· ${esc(l)}</div>`).join("")}</div>` : `
+  <section id="${s.id}">
+    <div class="shead"><h2>${esc(s.h)}</h2><span class="time">${esc(s.time)}</span></div>
+    ${s.note ? `<p class="note">${esc(s.note)}</p>` : ""}
+    <ul class="items">${s.items.map(i => `
+      <li class="item" data-id="${i.id}">
+        <label>
+          <input type="checkbox" id="cb-${i.id}" ${state[i.id] ? "checked" : ""}>
+          <div class="body">
+            <div class="t">${/^[A-F]\d/.test(i.id) ? `<span class="id">${i.id.replace(/[a-d]$/,"")}</span>` : ""}${esc(i.t)}</div>
+            ${(i.c||i.mv||i.app||i.z) ? `<div class="chips">${i.z ? `<span class="chip zoom">🔍 ${esc(i.z)}</span>` : ""}${i.app ? `<span class="chip app${/Mimo/.test(i.app)?" mimo":""}">${esc(i.app)}</span>` : ""}${i.mv ? `<span class="chip mv">${esc(i.mv)}</span>` : ""}${(i.c||[]).map(x=>`<span class="chip">${esc(x)}</span>`).join("")}</div>` : ""}
+            ${i.gm ? `<div class="gmline">🎛️ ${esc(i.gm)}</div>` : ""}
+            ${i.say ? `<div class="say"><q>${esc(i.say)}</q></div>` : ""}
+            ${i.copy ? `<div class="say"><span>${esc(i.copy)}</span><button type="button" data-copy="${esc(i.copy)}">Kopieer</button></div>` : ""}
+            ${i.tip ? `<div class="tip">${esc(i.tip)}</div>` : ""}
+          </div>
+        </label>
+        ${howHtml(i.id, i.mv)}
+      </li>`).join("")}
+    </ul>
+  </section>`).join("");
+
+const secs = S.filter(s => !s.box);
+const jump = document.getElementById("jump");
+jump.innerHTML = secs.map(s => `<a href="#${s.id}" data-s="${s.id}">${esc(s.nav)}</a>`).join("");
+
+function update(){
+  const all = secs.flatMap(s => s.items.map(i => i.id));
+  const done = all.filter(id => state[id]).length;
+  document.getElementById("count").textContent = `${done} / ${all.length}`;
+  document.getElementById("fill").style.width = (done / all.length * 100) + "%";
+  secs.forEach(s => jump.querySelector(`[data-s="${s.id}"]`).classList.toggle("ok", s.items.every(i => state[i.id])));
+  document.querySelectorAll(".item").forEach(el => el.classList.toggle("is-done", !!state[el.dataset.id]));
+}
+list.addEventListener("change", e => {
+  const li = e.target.closest(".item"); if (!li) return;
+  state[li.dataset.id] = e.target.checked; save(); update();
+});
+list.addEventListener("click", e => {
+  const b = e.target.closest("button[data-copy]"); if (!b) return;
+  e.preventDefault();
+  const txt = b.dataset.copy;
+  const ok = () => { b.textContent = "Gekopieerd"; setTimeout(() => b.textContent = "Kopieer", 1500); };
+  const fallback = () => { const r = document.createRange(); r.selectNodeContents(b.previousElementSibling);
+    const sel = getSelection(); sel.removeAllRanges(); sel.addRange(r); b.textContent = "Geselecteerd"; };
+  try { navigator.clipboard.writeText(txt).then(ok, fallback); } catch(err) { fallback(); }
+});
+const reset = document.getElementById("reset");
+let armed = false;
+reset.addEventListener("click", () => {
+  if (!armed) { armed = true; reset.textContent = "Tik nog eens om alles leeg te maken"; setTimeout(() => { armed = false; reset.textContent = "Alles leegmaken"; }, 3000); return; }
+  state = {}; save(); document.querySelectorAll(".item input").forEach(i => i.checked = false); update();
+  armed = false; reset.textContent = "Alles leegmaken";
+});
+update();
+</script>

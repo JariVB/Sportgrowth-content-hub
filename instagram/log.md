@@ -42,3 +42,42 @@ Lessen:
   vrijwilligers aan, precies de mensen die beslissen.
 - Beste formule: openen met het probleem van de club, daarna kort wie jij bent.
 - Beide reels zijn te lang: mik op 25-35 s.
+
+## Promovideo SGM op privé-account (za 17/10, 9u30)
+- Resultaat na 1 dag: 1.000+ weergaven, 60 likes (±6%, goed voor een privé-account), 0 reacties, niemand getagd, +2 volgers op @sportgrowth_media. Privénetwerk = bekenden, niet de doelgroep: bereik ok, weinig doorstroom naar SGM.
+- Les: publiek iemand taggen is een grote vraag; mensen liken en scrollen door. Een persoonlijk bericht ("ken jij iemand die…?") werkt beter voor doorverwijzingen.
+- Volgende stap: 10 persoonlijke berichten naar het eigen netwerk (zo 18/10).
+
+## TC Moerbeke zegt nee (mail 19/10)
+- Reden: communicatie zelf in handen houden, ze hebben al veel nieuwe leden (ledenstop padel, misschien tennis).
+- Les: een vzw-club met een ledenstop heeft geen groeiprobleem. Bevestigt de keuze voor sportzaken met een kassa die meer boekingen of leden wíllen.
+
+## Vzw-leads afgesloten (20/10)
+- TTV Turnhout (Jelle) en TC Westerlo (Gwenne): geen antwoord meer op de laatste vragen. Gestopt met opvolgen.
+- Les: bij vzw's zonder budget levert een gratis analyse wel interesse op, maar geen beslissing. Focus op sportzaken met een kassa.
+
+## Baltha zegt nee (mail 20/10)
+- Kiest voor iemand die op commissiebasis werkt, gekoppeld aan wat zijn project opbrengt.
+- Les: starters zonder klanten zoeken een laag risico. Werk niet op commissie (onvoorspelbaar, geen controle over hun verkoop). Starters met weinig budget: Mini (€249) of de proefperiode in het gesprek.
+
+## 31/10 · verkoop gepauzeerd tot na Flaxx
+Batch 1-3 (screenshots + berichten aan 15 sportzaken), de statistieken van het vaste ritme en de uitbater van de padelhal schoven anderhalve week door. Beslist met Jari: geschrapt tot na de samenwerking met Flaxx. Herstart ma 9/11 met een vaste dag per week. Les: verkoop die op "screenshots sturen" wacht, stokt. Volgende keer een vast moment en zo weinig mogelijk voorbereiding per bericht.
+
+## ma 2/11
+- 19u30 carrousel "Padel: van hype naar gewoonte" (8 slides, panel Sports NEXT, citaten Tom De Sutter). Tags: Tom/Arenal, Sports NEXT.
+- 19u35 stories: panelfoto + poll "Wordt padel ooit Olympisch?" · gedeelde carrousel.
+- Flaxx: lanceringsvideo v12 verstuurd, Koen: "ziet er super uit". Post hem in de week van 9/11.
+
+## do 5/11 · collab-reel Flaxx online
+- 18u00 gepost als collab met @flaxx_rackets (v16-B, AI-label, cover cover-collab.png). Eerste reactie du7stin (padel 2-3x per week), beantwoord met tag @flaxx_rackets.
+- Cijfers na 48 u: za 7/11, samen met feedback van Koen.
+
+## zo 8/11 · feedback Koen (Flaxx)
+- +12 volgers en meer vragen via Instagram sinds de collab. "Het merk FLAXX krijgt meer body." Voor Koen telt het merkgevoel even zwaar als cijfers.
+- Over SGM: "Alles was heel goed georganiseerd, de voorbereiding verliep vlot en ook de communicatie was top. Je voelt dat je er met veel enthousiasme en professionaliteit tegen aan gaat." → getuigenis (met toestemming).
+- Zijn twijfel: eigen performance voor de camera. Kans: begeleiding bij opnames (korte zinnen, meerdere takes, spelers en beelden laten spreken).
+
+## ma 9/11
+- Carrousel "€2.496 per extra boeking" gepost 19u30.
+- Testopname meningsreel affiches thuis (DJI) → reel10-affiches-v1 in de SGM-studio zonder groen doek. Feedback Jari: stoel en wazige armen → bureaulaag vanaf de bovenrand van het bureau. Di nieuwe opname in 4K, dichter, met lege plek.
+- Trendonderzoek op de laptop liep niet (geen document in Drive) → testfase tot 16/11.

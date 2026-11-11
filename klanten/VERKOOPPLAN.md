@@ -15,7 +15,7 @@ Alle sporten. De vraag is niet welke sport, maar: **verdient deze zaak geld aan 
 
 Begin waar je geloofwaardig bent en beelden hebt (padel, tennis, voetbal), maar elke sportzaak met een kassa is welkom.
 
-**Niet (meer) voor een abonnement:** vzw-clubs. Uitzondering: een vzw die het via een sponsor laat betalen (sponsor koopt "zichtbaarheid op Instagram"), of een eenmalig startpakket (€249) als iemand er zelf om vraagt.
+**Niet (meer) voor een abonnement:** vzw-clubs. Uitzondering: een vzw die het via een sponsor laat betalen (sponsor koopt "zichtbaarheid op Instagram"), of het Mini-pakket (€249/maand) als iemand er zelf om vraagt.
 
 ## Wat we verkopen: resultaat in hun taal
 - Verhuur per uur: "Ik zorg voor meer boekingen, in de piek- én in de daluren."
@@ -24,13 +24,30 @@ Begin waar je geloofwaardig bent en beelden hebt (padel, tennis, voetbal), maar 
 - Kamp/event: "Ik vul je kamp/event, zonder flyers."
 - Meten: geboekte uren / inschrijvingen vóór en na (vraag het cijfer bij de start).
 
-## Aanbod
-| Pakket | Prijs | Inhoud |
-|---|---|---|
-| **Proef 3 maanden** (enkel in gesprekken) | €349/maand, daarna €399 | 1 opnamemoment/maand, 8 posts + 4 reels + stories, maandrapport |
-| **Garantie** (enkel in persoonlijke gesprekken, niet op de website) | | Geen 10 extra boekingen/inschrijvingen via Instagram na 3 maanden → maand 4 gratis |
-| Groei | €599/maand | + 2e opnamemoment, advertenties beheren (budget apart) |
-| Startpakket (eenmalig) | €249 | profiel, bio, highlights, 10 sjablonen, 1 uur uitleg |
+## Aanbod (gelijk met de website, sportgrowthmedia.be/#prijzen)
+| Pakket | Prijs | Inhoud | Looptijd |
+|---|---|---|---|
+| Mini | €249/maand | 6 posts per maand, 3x per week stories, 1x per maand samen overlopen | eerste 3 maanden vast, daarna maandelijks opzegbaar |
+| Starter | €399/maand | 10 posts + 1 reel per maand, 5x per week stories, maandrapport, rechtstreeks via WhatsApp | minimum 3 maanden |
+| Growth | €599/maand | 16 posts + 3 reels per maand, elke dag stories, uitgebreid maandrapport, elk kwartaal een nieuwe strategie, voorrang via WhatsApp | minimum 6 maanden |
+
+**Enkel in persoonlijke gesprekken (niet op de website):**
+- **Proefperiode:** Starter aan €349/maand de eerste 3 maanden, daarna €399. Alleen gebruiken als iemand twijfelt.
+- **Garantie:** geen 10 extra boekingen of inschrijvingen via Instagram na 3 maanden → maand 4 gratis.
+
+### Vaste pakketten, flexibele invulling (beslist 20/10)
+- Geen offerte op maat per club. De klant kiest een pakket, binnen het pakket bepalen we samen de mix.
+- **Ruilregel: 1 reel = 3 posts.** Prijs blijft gelijk. Voorbeelden:
+  - Mini (6 posts): 3 posts + 1 reel
+  - Starter (10 posts + 1 reel): 7 posts + 2 reels, of 4 posts + 3 reels
+  - Growth (16 posts + 3 reels): 7 posts + 6 reels
+- **Extra's:**
+  - Jari komt filmen of fotograferen (1x per maand): +€50/maand (staat op de website). Zonder dat levert de klant zelf beelden aan.
+  - Twee sporten of twee locaties: +€50/maand (staat op de website)
+  - Extra reel: +€60 per stuk (voorstel, bijsturen naar de echte tijd per reel)
+  - Eenmalig project (tornooi, opendeurdag, kamp): losse prijs
+- **Maatwerk** alleen bij grote of aparte vragen (meerdere locaties, advertenties met budget, een volledig evenement): "Dat werk ik graag voor je uit, op basis van Growth."
+- Zin voor in gesprekken: "Je kiest een pakket, en binnen dat pakket bepalen we samen de mix. Wil je meer reels? Dan ruilen we posts in voor reels."
 
 Max. 6-8 uur werk per klant per maand (1 shoot, sjablonen, batch-montage).
 
@@ -38,20 +55,45 @@ Max. 6-8 uur werk per klant per maand (1 shoot, sjablonen, batch-montage).
 Elke week:
 - **15 persoonlijke contacten**: 10 DM's/mails + 5 face-to-face (de padelcentra waar Jari al komt).
 - Aanbod in elk contact: gratis analysevideo van 3-4 minuten (werkt: Westerlo, TTV reageerden).
-- **Doorverwijzing**: Jan Stilten vragen naar 3 trainers/centra die hij kent + korte video-getuigenis.
+- **Doorverwijzing**: Jan Stilten levert geen video-getuigenis (beslist 18/10). Resultaat (3.367 bereikt in 6 weken) blijft bruikbaar als bewijs.
 - Reken: ±1 klant per 15-20 analyses.
 
-### Eerste bericht (zaak met verhuur per uur, DM of ter plaatse)
-> Hoi {naam}! Ik ben Jari, ik ben zelf trainer en ik help sportcentra aan meer boekingen via Instagram, in de piek- én in de daluren. Ik heb even naar jullie account gekeken en zie 2-3 dingen die snel meer boekingen kunnen opleveren. Zal ik je een kort filmpje sturen met wat ik zou doen? Gratis, zonder verplichting.
+### Eerste berichten (vanuit SportGrowth Media, beslist 21/10)
+Sturen vanaf @sportgrowth_media. Altijd "wij", met onderaan de naam van Jari: een persoon antwoordt men sneller dan een merk.
 
-### Eerste bericht (school, academie, studio, trainer)
-> Hoi {naam}! Ik ben Jari, zelf trainer, en ik doe de Instagram voor sportzaken. Voor Jan Stilten Padel Academy bereikten we 3.367 mensen in 6 weken, en de maandagsles zat bijna vol. Ik zie bij jullie een paar kansen om meer nieuwe leden of cursisten binnen te halen. Mag ik je een kort analysefilmpje sturen?
+**Verhuur per uur (padel, squash, minivoetbal):**
+> Hoi! Wij zijn SportGrowth Media. Wij doen de social media voor sportclubs en sportzaken in het Waasland. We keken even naar jullie Instagram en zien 2-3 dingen die snel meer boekingen kunnen opleveren, in de piek- én de daluren. Zullen we jullie een kort filmpje sturen met wat we zouden doen? Gratis en zonder verplichting.
+> Sportieve groet, Jari · SportGrowth Media
 
-### Eerste bericht (fitness, crossfit, yoga, klimzaal: abonnementen)
-> Hoi {naam}! Ik ben Jari. Ik werkte 5 jaar in een fitnesscentrum waar de persoonlijke aanpak voorop stond, en ik ben al 5 jaar padeltrainer. Nu doe ik de Instagram voor sportzaken. Ik heb even naar jullie account gekeken en zie 2-3 kansen om meer proeflessen en vaste leden binnen te halen. Zal ik je een kort filmpje sturen met wat ik zou doen? Gratis, zonder verplichting.
+**School of academie (dans, vechtsport, zwemmen):**
+> Hoi! Wij zijn SportGrowth Media. Wij doen de social media voor sportscholen en academies in het Waasland. We zien bij jullie een paar kansen om meer nieuwe leerlingen binnen te halen voor de volgende lesreeks. Zullen we jullie een kort analysefilmpje sturen? Gratis en zonder verplichting.
+> Sportieve groet, Jari · SportGrowth Media
+
+**Abonnementen (fitness, pilates, crossfit):**
+> Hoi! Wij zijn SportGrowth Media. Wij doen de social media voor fitness- en sportzaken in het Waasland. We zien 2-3 kansen om via Instagram meer proeftrainingen en vaste leden binnen te halen. Zullen we jullie een kort filmpje sturen met wat we zouden doen? Gratis en zonder verplichting.
+> Sportieve groet, Jari · SportGrowth Media
+
+**Kampen:**
+> Hoi! Wij zijn SportGrowth Media. Wij doen de social media voor sportclubs en sportzaken in het Waasland. We zien een paar kansen om jullie kampen sneller vol te krijgen via Instagram. Zullen we jullie een kort filmpje sturen met tips? Gratis en zonder verplichting.
+> Sportieve groet, Jari · SportGrowth Media
+
+### Eerst de check van 1 minuut (beslist 21/10)
+Kijk vóór elk bericht naar hun Instagram:
+1. Laatste post minder dan 7 dagen oud?
+2. Reels of filmpjes met echte mensen (geen affiches of uurroosters)?
+3. Bio met een duidelijke link om te boeken of in te schrijven?
+4. Reacties onder posts beantwoord?
+
+- **0-2 keer ja:** stuur het gewone eerste bericht.
+- **3-4 keer ja:** niet zeggen dat we "kansen zien", dat klopt dan niet. Stuur het complimentbericht (hieronder) of sla over. Noteer "👍 goed" in de prospectlijst.
+- Werken ze zichtbaar met een bureau of een grote keten? Overslaan.
+
+**Complimentbericht (account is al goed):**
+> Hoi! Wij zijn SportGrowth Media. Jullie Instagram ziet er echt top uit, dat zien we niet vaak bij sportzaken 👏 Doen jullie dat zelf? Wordt het ooit te veel werk, dan nemen wij het graag van jullie over.
+> Sportieve groet, Jari · SportGrowth Media
 
 ### Opvolgen (na 4 dagen)
-> Hey {naam}, heb je mijn filmpje kunnen bekijken? Als je wil, toon ik in 15 minuten hoe we dit voor jullie zouden aanpakken. Past donderdagavond of woensdag?
+> Hoi {naam}, hebben jullie ons filmpje kunnen bekijken? Als jullie willen, tonen we in 15 minuten hoe we dit voor jullie zouden aanpakken. Past donderdagavond of woensdag?
 
 ## Vast weekritme verkoop (±2u15 per week, staat in de checklist)
 | Dag | Tijd | Wat |
@@ -85,7 +127,7 @@ Elke week: 15 contacten, ±3-5 analyses, doel 1 gesprek. Claude maakt bij elk "j
 ## Eigen netwerk (privé-account Instagram ±1.000 volgers + Facebook)
 
 Snelste weg naar de eerste klanten: mensen die Jari al kennen (spelers, ouders, trainers, clubmensen).
-- **1 keer aankondigen** met een persoonlijke post op Instagram en Facebook (zo 18/10, ±20u). Geen collab met @sportgrowth_media, zodat de SGM-volgers sportzaken blijven.
+- **1 keer aankondigen** met een persoonlijke post op Instagram en Facebook (za 17/10, 9u30, promovideo SGM). Geen collab met @sportgrowth_media, zodat de SGM-volgers sportzaken blijven.
 - **Bio privé-account:** "Padeltrainer · oprichter @sportgrowth_media".
 - **Daarna licht:** 1 à 2 keer per week een SGM-reel delen in je privéstory. Hooguit 1 op 5 privéposts gaat over SGM.
 - **Na de post:** stuur 10 mensen uit je netwerk die een zaak of club hebben (of iemand kennen) een persoonlijk bericht.
@@ -96,3 +138,8 @@ Snelste weg naar de eerste klanten: mensen die Jari al kennen (spelers, ouders, 
 - **Zodra een klant ja zegt:** dezelfde week naar een ondernemingsloket (Xerius, Liantis, Acerta, UCM): nummer heractiveren in bijberoep, btw-vrijstelling kleine ondernemingen, sociaal verzekeringsfonds. Kan op 1 dag. Pas daarna starten en factureren.
 - Vragen: blijft de padeltraining los van de zelfstandige activiteit? Hoeveel sociale bijdragen in bijberoep?
 - Daarna: nummer op de website en op elke factuur.
+
+### Prijzen bij projecten en maatwerk (beslist 28/10)
+- Geef een precies bedrag met de berekening erbij, geen afgerond bedrag. Voorbeeld: "4 reels (€240) + 1 shoot (€50) = €290" in plaats van "±€300". Een berekend bedrag wordt minder afgeboden.
+- Alleen als de berekening klopt. Vaste pakketten (€249 / €399 / €599) blijven zoals ze zijn.
+- Resultaten ook altijd precies: "3.367 bereikt", niet "meer dan 3.000".

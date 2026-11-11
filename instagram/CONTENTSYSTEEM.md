@@ -67,7 +67,7 @@ Verdeling per 4 weken (12 posts): 3 HERKENBAAR? · 3 CLUBCHECK · 2 RESULTAAT ·
 ## 5. Vaste opbouw van elke reel (±30 s)
 | Tijd | Wat |
 |---|---|
-| 0-3 s | **Lokbeeld**: wat een club wil (vol terras, lachende leden, actie), positieve tekst van 3-6 woorden |
+| 0-3 s | **Actiebeeld + pijnhook vanaf frame 0** (beslist 6/11): de pijn van de club in max. 6 woorden ("Terrein 3 staat weer leeg."). 1 op 3 reels opent met een resultaat of cijfer in de plaats. |
 | 3-8 s | **Herkenning**: de pijn van de club, recht in de camera ("Bij de meeste clubs…") |
 | 8-22 s | **Inzicht of demonstratie**: wat er beter kan, getoond in beeld (voor/na, scherm, club) |
 | 22-27 s | **SGM-zin**: "Dat doen wij voor clubs." of een cijfer als bewijs |
@@ -95,6 +95,67 @@ Verdeling per 4 weken (12 posts): 3 HERKENBAAR? · 3 CLUBCHECK · 2 RESULTAAT ·
 - **Persoonlijk verhaal (jij als sportmens/trainer) wordt het meest gedeeld**: reel 2 "Ik ben geen marketeer" had 4% delen (7x reel 1) en meer profielbezoek per kijker, maar een jonger publiek. 1x per maand, binnen ZO WERKT SGM, mét clubwoord in de hook ("Ik geef zelf padeltraining op een club").
 - **Carrousels overtuigen wie al kijkt**: "Wat jouw club kan posten" bereikte 69% eigen volgers en 0 nieuwe mensen. Meet carrousels op bewaren, delen en DM's, niet op bereik.
 - **Meer bereik voor een carrousel:** maak er een samenwerkingspost (Collab) van met een klant of club, zodat hij ook bij hun volgers verschijnt (eerst Jan Stilten, daarna Baltha).
+
+
+## 5e. Opening met actie (beslist 6/11, op basis van de cijfers)
+Bron: `statistieken.md`. Overslaan bepaalt het bereik: 44% → 3.061 weergaven, 71% → 743, 84% → 209.
+1. **0,0-1,5 s = actiebeeld.** Een smash, een bal die het net raakt, een doelpunt, een high five, een vol terrein in beweging. Nooit een praatbeeld, een stand, een logo of een grafisch beeld als eerste beeld.
+2. **Tekst in beeld vanaf frame 0**, max. 6 woorden, groot, midden van het scherm. Nooit pas na een halve seconde.
+3. **Snede op 1,5 s** naar Jari in de camera of de volgende actie. Elke 2-3 s een nieuw beeld in de eerste 10 s.
+4. **20-25 s**, nooit meer dan 30 s. Het einde loopt over in het begin (zelfde beeld of beweging), zodat men herbekijkt.
+5. **Geluid:** de eerste klap (bal, fluitsignaal, juichen) valt op frame 0.
+6. **Meten:** doel overslaan < 50% en kijktijd ≥ 40% van de lengte. Na elke reel screenshot na 24 u en 7 dagen.
+
+**Pijnhooks (beslist 6/11):** de best scorende reel (3 fouten tennisclubs, 44% overslaan) opende met pijn. Formule: actiebeeld + pijnhook → herkenning → oplossing → resultaat → DM.
+- Enkel pijn van de club: lege terreinen, leden die stoppen, kamp niet vol, proefles komt niet terug, vrijwilliger die om 23u post. Geen algemene pijn ("Moe?", "Stress?").
+- 2 op 3 reels openen met pijn, 1 op 3 met een resultaat of cijfer, zodat het profiel niet negatief oogt.
+- Hookbank: "Je kamp is nog niet vol?" · "Eén keer geproefd. Nooit teruggezien." · "Terrein 3 staat weer leeg." · "Weer een lid dat stopt." · "23u. Jij post nog voor de club." · "Laatste post: de BBQ van juni." · "Niemand weet hoe goed je trainers zijn."
+
+**Groei in bereik en volgers (naast het weekritme):**
+- **Proefreels (Trial Reels):** elke reel met een tweede opening (ander actiebeeld of andere tekst) als proefreel posten. Instagram toont die alleen aan niet-volgers; de beste opening gaat daarna naar de volgers.
+- **Collabs:** een collab-post haalde 2,5x het gemiddelde. Minstens 1 per 2 weken: een club, trainer, merk of sportzaak die mee post.
+- **Laten delen:** elke getagde partner krijgt een kant-en-klaar storybericht om te delen (stories = 20% van de weergaven van de collab).
+- **Volgers oogsten:** op de eindkaart klein in beeld: "Volg voor wekelijkse clubtips". De caption houdt één oproep (DM).
+
+## 5f. Profiel: max. 1 keer per maand (afspraak 6/11)
+Profiel herwerkt op vr 6/11 (bio, vastgezette posts, oude posts gearchiveerd, zie analyses/profiel-6-11.md). Daarna 4 weken niets aan bio, naam, hoogtepunten of profielfoto. Meetmoment ma 7/12: profielbezoeken → volgers (doel ≥ 1 op 5). Enkel vastgezette posts mogen wisselen als een nieuwe reel beter scoort.
+
+## 5g. Nieuw format om te testen: caption-reel (6/11)
+Voorbeeld: @shotby.rene "Zit jij in het bestuur van een tennisclub?" (18/9): 12,6K weergaven, 36 keer gedeeld (meer dan likes).
+Opbouw: één mooi actiebeeld van 6-8 s (sfeer, publiek, zon) dat loopt · grote tekst vanaf frame 0 die de doelgroep aanspreekt ("Zit jij in het bestuur van een ...?") · regel 2: "Deze 5 dingen ..." · regel 3: "Lees de caption 👇" · de waarde (lijst van 5) staat in de caption · eindigt met "Sla deze op".
+Waarom het werkt: kort = volledig bekeken en herbekeken (kijktijd > 100%), wie leest blijft op de reel, de vraag filtert de juiste mensen, de lijst is om te delen met het bestuur. Weinig werk: geen inspreken, geen montage.
+Test: 1 caption-reel per week naast het ritme (als proefreel), per sport wisselend.
+
+## 5h. Format: mening in de camera (6/11, analyse @shotby.rene)
+Vergelijkbaar account (videograaf tennis, NL, 1.987 volgers, 816 posts, ook "gratis content check"). Toppers: "We hebben in Nederland een tennisprobleem" 21,6K · "Tennisclubs, stop met deze posters!" 17,2K · "Zit jij in het bestuur... lees de caption" 11,5K · jeugdfoto "van tennis" 10,3K · "De jeugd wil niet meer tennissen" 8,9K. Productwerk (camera's) blijft rond 1-2K.
+Patroon: hij thuis in de camera (gsm, geen actie) + een sterke mening of beschuldiging in een wit tekstvak bovenaan vanaf frame 0. Mening > tip. Bevestigt onze beste reel (Jari in camera + "3 fouten").
+Toepassing SGM: 1 per 2 weken een meningsreel, thuis te filmen in 5 min, 15-25 s. Hookbank: "Sportclubs, stop met deze affiches!" · "Padel heeft een probleem in België" · "Jullie Facebookpagina is een prikbord" · "De jeugd blijft niet bij je club. Dit is waarom" · "Een sportclub zonder Instagram bestaat niet voor wie 30 is".
+Profiel (meetmoment 7/12, niet eerder): hij heeft zijn gezicht als profielfoto en bewijs in de bio ("o.a. @knltbpickleball"). Te testen: "o.a. @flaxx_rackets" in de bio.
+
+## 5i. Analyse @savvysportscommunications (6/11)
+Sarah, sports marketing voor (grassroots) sportclubs, UK. 10,1K volgers, 532 posts. Exact dezelfde niche als SGM (geen weergaven zichtbaar op het raster: dit zijn vooral carrousels).
+Patroon: (1) zij op elke cover, buiten op een sportlocatie, wit tekstkader met een stelling ("The most dangerous phrase I hear sports clubs say", "Stop treating your social media like a noticeboard and start treating it like your clubhouse") · (2) vaste reeks met delen: "5 Marketing Mistakes Grassroots Sports Clubs Make · Part 1-6" · (3) persoonlijk: "13 years ago a tweet changed my life", foto met oma, kindfoto · (4) gratis waarde als lokaas: masterclass via Zoom, freebies, maandideeën ("Ideas to grow your sports club in October") · (5) sponsoring als thema.
+Overnemen voor SGM: jij op de cover van carrousels (op een club, niet thuis) · een genummerde reeks ("5 fouten die sportclubs maken op Instagram · deel 1/5") · maandelijkse post "Postideeën voor je club in december" (bewaarbaar) · later: gratis online sessie of download als lokaas · sponsoring als onderwerp (sponsors meer zichtbaarheid geven).
+
+## 5j. Analyse @house.of.ag (6/11) · inspiratie, geen vergelijking
+Alex Garcia, content studio voor merken (VS), 207K volgers, reels 10K-112K. Andere schaal, maar 2 formats bruikbaar:
+1. Achter de schermen van een klant: "Behind the scenes of Elwood's success" (112K), "Why your social campaigns need characters". Voor SGM: "Zo maakten we de lanceringsvideo van Flaxx" (ruw beeld → eindresultaat, met akkoord Koen).
+2. Werkwijze als tip: "How to shoot 20+ pieces of content in one day" (26K). Voor SGM: "Zo filmen we 20 posts op één clubavond".
+Vorm: hij zittend in de camera (podcaststijl, goede belichting) + titel in zwart kader vanaf frame 0.
+
+## 5k. Analyse @tylertometich (6/11) · leermeester, geen vergelijking
+Tyler Tometich, content marketing mentor voor ondernemers (VS), 567K volgers. Publiek = makers, niet clubs. Effecten (kloon, flash, fly-in) kosten veel tijd en trekken makers aan: niet als vaste stijl.
+Wel overnemen:
+1. Twee kanten naast elkaar (split/kloon): "You want vs You need", "Old hooks vs New hooks", "Views don't pay vs 7 figure brand". Voor SGM: "Clubs die posten vs clubs die groeien", "Affiche vs filmpje", "Vrijwilliger om 23u vs SGM". Statief + 2 takes, Claude zet ze naast elkaar.
+2. "What I'd do if I took over your brand for 30 days" → "Wat ik zou doen als ik 30 dagen de Instagram van jullie club overnam" (carrousel of reel).
+3. Vastgezet: "Getting views. But still 0 clients" → spreekt de pijn van de klant aan.
+4. "Send this to them ❤️" in beeld = delen uitlokken (bij SGM: "📤 Stuur dit naar je bestuur").
+5. Herkenbaarheid: altijd dezelfde pet en blauwe t-shirt (= onze trui-regel).
+6. Hoogtepunten: Testimonials · Free Stuff · Partners · I worked on (bij SGM later: Klanten/Resultaat, Gratis, Partners).
+
+## 5l. Trendonderzoek (vanaf 9/11)
+Elke maandag om 10u30 (vaste afspraak 8/11): Jari start het trendonderzoek via Claude in Chrome op zijn laptop (prompt in de checklist) en plakt het resultaat in het gesprek; anders screenshots. Claude Claude houdt `swipe.md` bij en vertaalt wat werkt naar SGM-posts. Elke nieuwe reel verwijst naar een rij in swipe.md of statistieken.md.
+**Filter (8/11, Jari):** een trend wordt enkel overgenomen als hij binnen het SGM-concept past: doelgroep sportclubs en sportzaken, de 4 reeksen (HERKENBAAR?, CLUBCHECK, RESULTAAT, ZO WERKT SGM + CLUBTIP), de vaste afsluiter en CTA (DM voor een gratis analyse), de pakketten Mini/Starter/Growth en de huisstijl. Geen nieuwe producten, freebies, CTA's of doelgroepen. We nemen de vorm over (hook, formaat, lengte, collab), niet het aanbod.
 
 ## 5b. De hook (titel en eerste regel van elke post)
 **Vaste formule: "Zo [doe je iets wat elke club kent] die/dat [resultaat dat de club wil]."**
@@ -166,7 +227,7 @@ Seizoenshaakjes: oktober-maart winter/indoor en jeugdkampen (kerst, krokus); jan
 | Wanneer | Wat |
 |---|---|
 | Elke 2 weken, di-namiddag | Opnamemoment op een club: alle zinnen in de camera en sfeerbeelden voor 4 reels |
-| Kleding | Altijd dezelfde effen trui (donkerblauw of zwart, geen groot logo van een ander merk): herkenning, en zinnen en afsluiter passen altijd bij elkaar. Later eventueel een trui met SGM-logo. Afwisseling tussen reels komt van de plek (tennis, padel, clubhuis, voetbalveld), niet van de kleren. De afsluiter is een vaste eindkaart: 1 keer opnemen en ±6 weken gebruiken, daarna opnieuw op een andere plek. |
+| Kleding | (bijgestuurd 6/11: Jari kiest zelf de kleur, geen blauwe trui meer verplicht; voorkeur zwart of donkergrijs, sportief: quarter-zip, hoodie of effen sweater, later klein SGM-logo op de borst) Altijd dezelfde effen trui (geen groot logo van een ander merk): herkenning, en zinnen en afsluiter passen altijd bij elkaar. Later eventueel een trui met SGM-logo. Afwisseling tussen reels komt van de plek (tennis, padel, clubhuis, voetbalveld), niet van de kleren. De afsluiter is een vaste eindkaart: 1 keer opnemen en ±6 weken gebruiken, daarna opnieuw op een andere plek. |
 | Di-avond / za-namiddag | Je padeltraining en je voetbalmatch = vaste sfeerbeelden (2-3 per keer: actie, uitleg, lachen, clubhuis/kantine). Voor algemene posts en de sportspecifieke post. Vraag ploeggenoten even of ze in beeld mogen. |
 | Woensdag | Monteren: 2 reels + 1 carrousel, alles inplannen voor de week erna |
 | Ma-avond / do-avond | Stories, reageren, DM's |
@@ -185,6 +246,8 @@ Seizoenshaakjes: oktober-maart winter/indoor en jeugdkampen (kerst, krokus); jan
 ---
 
 ## Planning 19/10 tot 15/11 (eerste ronde)
+**Bijgestuurd 26/10:** week van 2/11 = Sports NEXT-carrousel, reel boekingen en collab-reel Flaxx (zie plan.md). Alles hieronder vanaf 2/11 schuift een week op.
+
 Week 12-18/10 blijft zoals gepland (carrousel clubbio, reel 3, reel 4 met nieuwe afsluiter).
 
 | Week | Ma · carrousel | Di · reel 1 | Do · reel 2 |
@@ -198,3 +261,9 @@ Uit de planning gehaald (vzw-gericht, enkel nog als voorraad): voetbal-supporter
 Volgende ronde (vanaf 16/11): RESULTAAT #2 (eerste klant of TTV/Westerlo met akkoord), "Zo hoeft je voorzitter nooit meer om 23u te posten", "Zo maak je van een eenmalige huurder een vaste speler" (padel), Jan Stilten-resultaat als samenwerkingspost, "Zo vult je club een week Instagram in 10 minuten", "3 fouten op de Instagram van voetbalclubs" (±30 s, bewezen formule van reel 1), en daarna dezelfde formule voor een andere sport (hockey, basket of volley).
 
 Volgende ronde (vanaf 16/11): RESULTAAT #2 (eerste klant of TTV/Westerlo met akkoord), "Zo hoeft je voorzitter nooit meer om 23u te posten" (tennis), "Zo vult je club een week Instagram in 10 minuten" (achter de schermen op je padeltraining), "Zo krijg je je padeltornooi vol".
+## Ondertitels in reels (beslist 28/10)
+- Korte stukjes van 3 à 6 woorden, op een vaste plek onder de labels.
+- Geen punten, komma's of dubbele punten. Een nieuw stukje is de pauze.
+- Vraagtekens en uitroeptekens blijven (ze veranderen de betekenis).
+- Opsommingen met " · " (tennis · zwemmen · judo · padel).
+- Letterlijk wat er gezegd wordt.
