@@ -27,3 +27,8 @@ v1 (9/11): testopname 1 in de SGM-studio (zonder groen doek), animaties + sfx + 
 
 ## v9
 - Onderaan naast de romp: donkere stoel altijd mee, witte muur altijd weg, studio onderaan donkerder (DARK=0.8). Geen geflikker of grijs meer linksonder.
+
+## v10 (do 12/11) · grote studio
+- Take 12/11 (gsm 4K, ruimer kader). `comp3.py`: RobustVideoMatting (rvm_mobilenetv3_fp32.onnx, GPL-3.0, enkel lokaal gebruikt), echte tafel weg (enkel huid), titel "Sportclubs, stop met affiches!" ACHTER Jari (`titel-achter.js`), kleur koel->warm bij "Wat wel werkt?", contactschaduw.
+- SC=1 PX=0 PY=-215 python3.13 comp3.py aff.mov 1.75 20.4 studio-groot-sgm.png titel.png rvm.onnx p.mp4; motion.js (WARP v10, hook vooraan uit), V10=1 python3 sfx.py.
+- Cover: cover-v10.png.
