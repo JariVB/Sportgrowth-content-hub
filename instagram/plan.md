@@ -163,3 +163,5 @@ Proefles-reel → di 17/11 (actiebeelden training di 10/11). Sportkamp-reel → 
 
 **Do 12/11 werkwijze affiches-reel (grote studio):** take uiterlijk 16u30. Claude maakt (1) eigen versie in 1080p, (2) knipklare clip voor Beeble in 720p 30 fps + prompt + studio-groot-sgm.png. Jari kiest; Beeble enkel als Claude's versie niet goed genoeg is (Creator maandelijks). Beeble-resultaat (720p) → Claude schaalt naar 1080p en zet tekst/animaties er scherp op. Post 19u30, anders 20u30 of vr 19u30.
 **Do 12/11 affiches-reel extra (Jari akkoord):** hook-titel "Sportclubs, stop met affiches!" ACHTER Jari in de ruimte (laag tussen studio en uitgeknipte persoon), zwevende beelden met diepte/schaduw, kleur van koel naar warm bij "Wat wel werkt?". Geen AI-avatar (geloofwaardigheid SGM).
+
+**Status do 12/11 (ochtend):** website-PR #9 klaar om te mergen (wij-vorm, Ons werk, /links). Vandaag eerste opnamesessie (4 teksten, uiterlijk 16u30), affiches-reel in de grote studio, post 19u30 of vr 19u30. Analyse BabyBallers verstuurd (wo), opvolgen za 14/11. Open: trainingsbeelden di en proefreel tennis (2 dagen open, gevraagd), weekplan 16-22/11 wacht op akkoord.
