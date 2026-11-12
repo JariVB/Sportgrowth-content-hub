@@ -6,11 +6,11 @@ const OUT = process.argv[2]; fs.mkdirSync(OUT, { recursive: true });
 const f64 = p => 'data:font/woff2;base64,' + fs.readFileSync(p).toString('base64');
 const j64 = p => 'data:image/jpeg;base64,' + fs.readFileSync(p).toString('base64');
 const logo = fs.readFileSync(__dirname + '/../../../website/site/favicon.svg', 'utf8').replace('<svg ', '<svg width="100%" height="100%" ');
-const FPS = 30, DUR = 22.1;
+const FPS = 30, DUR = 21.6;
 // ondertitels (tijd na trim), 3-6 woorden, geen leestekens behalve ?
-const CH = [[0.34,'Sportclubs'],[1.38,'stop met affiches op Instagram'],[3.42,null],[4.38,'Niemand stopt met scrollen'],[5.76,'voor tien regels tekst'],[7.12,'met een datum'],[8.16,null],[8.66,'Wat wel werkt?'],[9.3,null],[9.84,'Een filmpje van tien seconden'],[11.22,null],[11.76,'De mensen'],[12.68,'de sfeer'],[13.48,'het terras'],[14.04,null],[14.68,'Laat zien hoe het voelt'],[15.58,'om erbij te horen'],[16.52,null],[17.42,'Geen tijd om het zelf te filmen?'],[19.76,'Wij doen het voor jullie'],[20.9,null]];
+const CH = [[0.25,'Sportclubs'],[1.15,'stop met affiches op Instagram'],[3.15,null],[3.81,'Niemand stopt met scrollen'],[5.19,'voor tien regels tekst'],[6.29,'met een datum'],[7.5,null],[7.95,'Wat wel werkt?'],[8.8,null],[9.19,'Een filmpje van tien seconden'],[10.65,null],[11.31,'De mensen'],[12.21,'de sfeer'],[13.15,'het terras'],[13.7,null],[14.15,'Laat zien hoe het voelt'],[15.37,'om erbij te horen'],[16.4,null],[16.87,'Geen tijd om het zelf te filmen?'],[19.03,'Wij doen het voor jullie'],[20.4,null]];
 // take v2 (IMG_3229): animaties van v1 via tijdvervorming op de nieuwe spraak (oud -> nieuw)
-const WARP = [[0,0],[1.5,1.38],[3.65,3.42],[5.1,4.38],[8.45,8.16],[9.55,8.66],[10.7,9.84],[12.1,11.22],[12.9,11.76],[13.75,12.68],[14.8,13.48],[15.45,14.04],[16.05,14.68],[17.2,17.42],[18.45,19.76],[19.6,20.9],[22.2,22.1]];
+const WARP = [[0,0],[1.5,1.15],[3.65,3.15],[5.1,3.81],[8.45,7.5],[9.55,7.95],[10.7,9.19],[12.1,10.65],[12.9,11.31],[13.75,12.21],[14.8,13.15],[15.45,13.7],[16.05,14.15],[17.2,16.87],[18.45,19.03],[19.6,20.4],[22.2,21.6]]; // v10: take 12/11
 const LEAD = 0.1;
 const SUBS = []; if (!process.env.NOSUB) for (let i = 0; i < CH.length - 1; i++) if (CH[i][1]) SUBS.push([CH[i][0] - LEAD, CH[i + 1][0], CH[i][1]]);
 const FL = [ // fictieve club: posts die allemaal affiches zijn
@@ -64,7 +64,7 @@ const show=(el,t,a,b)=>{el.style.display=(t>=a&&t<b)?'':'none'};
 const SUBS=${JSON.stringify(SUBS)};const PH=${PH};const WARP=${JSON.stringify(WARP)};
 window.render=function(T){const W=WARP;let t=W[W.length-1][0];for(let i=1;i<W.length;i++)if(T<=W[i][1]){const a=W[i-1],b=W[i];t=a[0]+(T-a[1])*(b[0]-a[0])/(b[1]-a[1]);break;}
  // hook titel 0-3.6
- show($('hook'),t,0,3.65);{const k=eo5(p(t,0,.25));$('hook').style.transform=\`scale(\${1.25-.25*k})\`;$('hook').style.opacity=Math.min(k*1.5,1)*(1-p(t,3.4,3.65));}
+ show($('hook'),t,0,${process.env.HOOKFRONT?3.65:0});{const k=eo5(p(t,0,.25));$('hook').style.transform=\`scale(\${1.25-.25*k})\`;$('hook').style.opacity=Math.min(k*1.5,1)*(1-p(t,3.4,3.65));}
  // affiche + STOP
  show($('aff'),t,0,4.6);{const k=eb(p(t,0,.22));$('aff').style.transform=\`translateX(\${(1-k)*-500}px) rotate(\${-4+2*k}deg)\`;$('aff').style.opacity=1-p(t,4.3,4.6);}
  show($('stamp'),t,1.5,4.6);{const k=eo5(p(t,1.5,1.65));$('stamp').style.transform=\`rotate(-14deg) scale(\${2.2-1.2*k})\`;$('stamp').style.opacity=Math.min(1,k*1.4)*(1-p(t,4.3,4.6));}

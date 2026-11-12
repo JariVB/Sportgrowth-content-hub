@@ -1,8 +1,14 @@
 # geluid onder de animaties (tijden na trim)
 import math,random,struct,wave,sys
-SR=48000;DUR=22.2;N=int(SR*DUR);L=[0.0]*N;random.seed(3)
+import os
+WARP=[[0,0],[1.5,1.15],[3.65,3.15],[5.1,3.81],[8.45,7.5],[9.55,7.95],[10.7,9.19],[12.1,10.65],[12.9,11.31],[13.75,12.21],[14.8,13.15],[15.45,13.7],[16.05,14.15],[17.2,16.87],[18.45,19.03],[19.6,20.4],[22.2,21.6]] if os.environ.get('V10') else [[0,0],[22.2,22.2]]
+def wp(t):
+    for a,b in zip(WARP,WARP[1:]):
+        if t<=b[0]: return a[1]+(t-a[0])*(b[1]-a[1])/(b[0]-a[0])
+    return t
+SR=48000;DUR=WARP[-1][1];N=int(SR*DUR);L=[0.0]*N;random.seed(3)
 def add(t0,g,d,gain):
-    s0=int(t0*SR)
+    s0=int(wp(t0)*SR)
     for i in range(int(d*SR)):
         if 0<=s0+i<N:L[s0+i]+=g(i/SR)*gain
 nz=lambda: random.random()*2-1
