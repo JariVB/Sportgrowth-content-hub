@@ -12,6 +12,16 @@ s = ort.InferenceSession(model)
 BG = np.asarray(Image.open(bgp).convert('RGB').resize((W, H), Image.LANCZOS), np.float32) / 255
 TIT = np.asarray(Image.open(titp).convert('RGBA'), np.float32) / 255
 yy = np.arange(H)[:, None]
+# voorwerpen op het studiobureau (laptop, micro, tas) liggen VOOR de persoon
+from PIL import ImageDraw
+_m = Image.new('L', (W, H), 0); _d = ImageDraw.Draw(_m)
+_d.polygon([(20,1243),(258,1280),(298,1383),(438,1410),(432,1425),(305,1470),(110,1415),(55,1330)], fill=255)   # laptop
+_mm = Image.new('L', (W, H), 0); ImageDraw.Draw(_mm).polygon([(346,1172),(360,1163),(400,1163),(412,1178),(398,1298),(382,1306),(384,1342),(410,1352),(410,1374),(370,1381),(318,1374),(318,1352),(355,1342),(360,1306),(350,1296)], fill=255)   # micro (enkel donkere pixels)
+_d.polygon([(813,1280),(902,1276),(898,1370),(870,1382),(845,1380),(820,1365),(813,1320)], fill=255)   # tas
+_bgl = np.asarray(Image.open(bgp).convert('L').resize((W, H)), np.float32)
+_mic = np.asarray(_mm, np.float32) * (_bgl < 70)
+_m = Image.fromarray(np.maximum(np.asarray(_m, np.float32), _mic).astype(np.uint8))
+FGM = (np.asarray(_m.filter(ImageFilter.GaussianBlur(1.2)), np.float32) / 255)[:,:,None]
 TAB = np.clip((yy - TABY) / 10, 0, 1).astype(np.float32)
 rd = subprocess.Popen(['ffmpeg','-v','error','-ss',ss,'-t',d,'-i',src,'-vf',f'scale={W}:{H}:flags=lanczos','-r','30','-f','rawvideo','-pix_fmt','rgb24','-'], stdout=subprocess.PIPE)
 wr = subprocess.Popen(['ffmpeg','-v','error','-y','-f','rawvideo','-pix_fmt','rgb24','-s',f'{W}x{H}','-r','30','-i','-',
@@ -57,6 +67,7 @@ while True:
     shd = np.roll(np.asarray(shd, np.float32) / 255, 12, axis=0)[:,:,None] * np.clip((yy - 1320) / 20, 0, 1)[:,:,None] * .5
     base = base * (1 - shd)
     A3 = A[:,:,None]; o = P * A3 + base * (1 - A3)
+    o = o * (1 - FGM) + BG * FGM
     # kleur: koel tot 'Wat wel werkt?', dan in 0,6 s naar warm
     w = min(max((t - T_WARM) / .6, 0), 1)
     cool = np.array([.94, .98, 1.06], np.float32); warm = np.array([1.05, 1.0, .93], np.float32)
