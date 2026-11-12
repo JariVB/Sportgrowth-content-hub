@@ -8,7 +8,7 @@ SEAM = 329 / 30            # naad tussen deel 1 en 2
 T_HOOK = (0.0, 3.15)
 s = ort.InferenceSession(model)
 TIT = np.asarray(Image.open(titp).convert('RGBA'), np.float32) / 255
-rd = subprocess.Popen(['ffmpeg','-v','error','-i',d1,'-i',d2,'-filter_complex','[0:v][1:v]concat=n=2:v=1[v];[v]scale=1080:1920:flags=lanczos,unsharp=5:5:0.6:5:5:0','-map','[v]','-r','30','-f','rawvideo','-pix_fmt','rgb24','-'], stdout=subprocess.PIPE)
+rd = subprocess.Popen(['ffmpeg','-v','error','-i',d1,'-i',d2,'-filter_complex','[0:v][1:v]concat=n=2:v=1[c];[c]scale=1080:1920:flags=lanczos,unsharp=5:5:0.6:5:5:0[o]','-map','[o]','-r','30','-f','rawvideo','-pix_fmt','rgb24','-'], stdout=subprocess.PIPE)
 wr = subprocess.Popen(['ffmpeg','-v','error','-y','-f','rawvideo','-pix_fmt','rgb24','-s',f'{W}x{H}','-r','30','-i','-','-c:v','libx264','-crf','16','-preset','fast','-pix_fmt','yuv420p',out], stdin=subprocess.PIPE)
 rec = [np.zeros([1,1,1,1], np.float32)] * 4; dr = np.array([0.25], np.float32)
 rng = np.random.default_rng(1); n = 0
