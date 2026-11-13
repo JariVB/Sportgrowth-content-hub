@@ -168,3 +168,5 @@ Proefles-reel → di 17/11 (actiebeelden training di 10/11). Sportkamp-reel → 
 **Do 12/11:** trainingsbeelden di 10/11 niet gefilmd → shoot di 17/11 training (december/jeugd). Proefreels: Jari wil ze zeker doen. Eerste: "3 fouten tennisclubs" (origineel bestand van 29/9 nodig). Daarna elke week 1 proefreel (variant van een bestaande reel met andere hook).
 **Do 12/11:** ✅ meningsreel affiches ingepland 18u00 (v13 Beeble, grote studio, cover-v13-a2). Test: 18u i.p.v. 19u30. Beeble Creator (maandelijks) genomen: werkwijze = Jari filmt, Beeble zet in studio (max 360 frames/render → in delen), Claude corrigeert huidskleur en zet titel/animaties/ondertitels erop.
 **Do 12/11 avond:** ✅ PR #10 gemerged, sportgrowthmedia.be/links online, bio-link aangepast. Nieuwe lead AVLO via Berten (website gestuurd).
+
+**Status vr 13/11 (ochtend):** affiches-reel online do 18u (v13 Beeble), linkpagina + nieuwe deelafbeelding online (PR #10, #11). Leads: AVLO (Berten, wacht op antwoord), BabyBallers (opvolgen za 14/11). Opnames proefles + december nog niet gedaan → zo 15/11 thuis opnemen (15 min), ma montage, di 17/11 proefles online. Weekplan 16-22/11 wacht nog op akkoord.
