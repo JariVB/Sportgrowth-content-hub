@@ -170,3 +170,5 @@ Proefles-reel → di 17/11 (actiebeelden training di 10/11). Sportkamp-reel → 
 **Do 12/11 avond:** ✅ PR #10 gemerged, sportgrowthmedia.be/links online, bio-link aangepast. Nieuwe lead AVLO via Berten (website gestuurd).
 
 **Status vr 13/11 (ochtend):** affiches-reel online do 18u (v13 Beeble), linkpagina + nieuwe deelafbeelding online (PR #10, #11). Leads: AVLO (Berten, wacht op antwoord), BabyBallers (opvolgen za 14/11). Opnames proefles + december nog niet gedaan → zo 15/11 thuis opnemen (15 min), ma montage, di 17/11 proefles online. Weekplan 16-22/11 wacht nog op akkoord.
+
+**Status za 14/11 (ochtend):** reel affiches na 25u: 1.672 weergaven (3-4x gemiddelde), 5 volgers, 65% niet-volgers, overslaan 62% (beter), 0 reacties/bewaard. Volgende reels: reactievraag in beeld op het einde ("Typ A of F"). Weekplan 16-22/11 en proefreel tennisclubs nog zonder antwoord (3 dagen). Morgen opnames proefles + december.
