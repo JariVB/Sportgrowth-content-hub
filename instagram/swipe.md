@@ -35,3 +35,10 @@ Werkwijze (vanaf 9/11):
 | 8/11 | @club.p26 (NL, gem. ±4K) | 21,3K (5x), 158 shares | "Een nieuwe fase. Een nieuwe manier van beleven." | 3D-render verbouwing, 24 s | clubs: nieuw verhaal (verbouwing, opening) wint van nieuwtjes |
 | 6/11 | @shotby.rene | 12,6K | "Zit jij in het bestuur van een tennisclub? Deze 5 dingen... Lees de caption" | 7 s sfeerbeeld + caption | caption-reel per sport (wo-proefreel) |
 | 6/11 | @shotby.rene | 17,2K | "Tennisclubs, stop met deze posters!" | mening in camera, tekstvak | "Sportclubs, stop met affiches" (di 10/11) |
+
+## Kijkcurve lezen (robertmckeaveney, 15/11)
+- Steile val in de eerste 1-2 s = **hook** faalt → hook moet een vraag oproepen (beeld + tekst + woord + geluid).
+- Gestage daling in het midden = **opbouw** faalt → vraag versterken, niet rekken, elke paar seconden opnieuw haken.
+- Plotse val op het einde = **payoff** faalt → antwoord op de vraag, en raak/leer/verras.
+- Vlakke curve = hook stelt een vraag, opbouw versterkt ze, payoff beantwoordt ze.
+- **Toepassing affiches-reel (12/11):** val tot ±55% in 2 s (hook = stelling, geen vraag), daarna rustig dalend tot ±22% (opbouw ok dankzij animaties), geen val op het einde. Volgende reels: hook als open vraag/spanning, payoff pas op het einde, CTA kort.
