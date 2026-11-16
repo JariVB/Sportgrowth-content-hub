@@ -80,9 +80,10 @@ S.push(page(5, `
 <div class="bg" style="background-image:${img('koen-in-gesprek-bezoeker.jpg')};background-size:1080px auto;background-position:center 20%"></div>
 <div class="dim" style="background:linear-gradient(180deg,rgba(13,27,62,.1) 0%,rgba(13,27,62,.2) 35%,rgba(13,27,62,.95) 60%,#0d1b3e 100%)"></div>
 <div class="col" style="top:690px;gap:22px">
-<span class="tag">VOOR FLAXX</span>
+<span class="tag">VOOR FLAXX · NA 3 DAGEN</span>
 <div style="font:700 170px/.85 Rj;color:#00d4ff">+12</div>
 <h2 style="font-size:70px">volgers en meer vragen<br>via Instagram</h2>
+<p class="t" style="font-size:30px">Volgens oprichter Koen, 3 dagen na de post.</p>
 <p class="t">Ook over sponsoring. Het merk <b>"krijgt meer body"</b>.</p>
 </div>`));
 // 6 WAAROM HET WERKTE
