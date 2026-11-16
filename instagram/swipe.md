@@ -65,3 +65,17 @@ Werkwijze (vanaf 9/11):
 - Plotse val op het einde = **payoff** faalt → antwoord op de vraag, en raak/leer/verras.
 - Vlakke curve = hook stelt een vraag, opbouw versterkt ze, payoff beantwoordt ze.
 - **Toepassing affiches-reel (12/11):** val tot ±55% in 2 s (hook = stelling, geen vraag), daarna rustig dalend tot ±22% (opbouw ok dankzij animaties), geen val op het einde. Volgende reels: hook als open vraag/spanning, payoff pas op het einde, CTA kort.
+
+## @therealbrianmark (777K, social media coach) · 16/11
+Gemiddeld ±20-30K, uitschieters 57K-2,7 mln. Wat terugkomt:
+- **Tekst bovenaan in een witte balk, vanaf frame 0**, kort en met een belofte of pijn ("If all of your videos get low views…", "The WORST way to start your videos ❌").
+- **Lijst-reels met cijfers in beeld** ("20 of the WORST mistakes", "10 rules", "7-punt profieloptimalisatie"): bewaar-content.
+- **Vergelijking met zichzelf in drie kleuren** (rood/geel/groen hoodie: Amateur vs Professional, Level 1-2-3). Contrast zonder geluid.
+- **Pijnhook gericht op een doelgroep** ("PSA for Business Owners").
+- **Echte klant + resultaat** ("Personal trainer makes 100k per month") als vastgezette reel.
+Voor SGM (vorm, niet het aanbod):
+1. "Clubaccount: amateur vs professioneel" in 2 kleuren (Jari 2x, split-screen, studio) → CLUBCHECK.
+2. Lijstreel "5 fouten op de Instagram van je club ❌" met nummers in beeld → bewaar-content (CLUBTIP).
+3. Witte titelbalk bovenaan elke reel vanaf frame 0 als vaste huisstijl.
+4. Vastgezette reel: FLAXX-resultaat ("Racketmerk: 2x bereik met één reel").
+Niet overnemen: geldbeloftes (100k/mo), "DM 100k"-CTA, coachingaanbod.
