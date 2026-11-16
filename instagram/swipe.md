@@ -36,6 +36,29 @@ Werkwijze (vanaf 9/11):
 | 6/11 | @shotby.rene | 12,6K | "Zit jij in het bestuur van een tennisclub? Deze 5 dingen... Lees de caption" | 7 s sfeerbeeld + caption | caption-reel per sport (wo-proefreel) |
 | 6/11 | @shotby.rene | 17,2K | "Tennisclubs, stop met deze posters!" | mening in camera, tekstvak | "Sportclubs, stop met affiches" (di 10/11) |
 
+
+## Trendonderzoek 16/11 (laptop-taak, Drive "SGM trendonderzoek 2026-11-16")
+
+**Lessen (bovenaan):**
+1. Een mening of probleem gericht aan clubbesturen wint van aankondigingen (Rene: "stop met ChatGPT-posters" 17,2K = 2,5x). Noem de doelgroep in de eerste 2 woorden.
+2. Korte herkenbare reels (6-10 s, tekst in beeld) doen het goed bij kleine accounts: ze worden herbekeken.
+3. Visueel contrast in frame 1 (split-screen, "X vs Y", cijfers in beeld) werkt zonder geluid.
+4. Clubs: matchday-recap (FC Meppel 2x) en kantinehumor (VVNOK vrouwen 1: 15,8K bij 302 volgers, ±50x volgers) scoren.
+5. Grote accounts sturen op delen/reageren. Voor SGM blijft de vaste CTA (DM gratis analyse); delen uitlokken via de inhoud (herkenbaarheid), niet via een nieuwe CTA.
+
+| Account | Weergaven | x gem. | Hook | Formaat | Lengte | Idee voor SGM |
+|---|---|---|---|---|---|---|
+| @shotby.rene | 21,6K | 3,2x | "Nederland heeft een tennis probleem!" | opinie in de camera | 67 s | stelling over Vlaamse clubs |
+| @shotby.rene | 17,2K | 2,5x | "Tennisclubs: stop met ChatGPT posters…" | in de camera + rondvliegende posters | 38 s | = onze affiches-reel, reeks "Stop met…" |
+| @shotby.rene | 11,6K | 1,7x | "Zit jij in het bestuur van een tennisclub? Lees de caption!" | sfeerbeeld + tekst, boodschap in caption | 6 s | caption-reel MET bestuurder-hook (padelhal-reel had geen doelgroep-hook) |
+| @shotby.rene | 10,3K | 1,5x | "Als kind had ik 1 droom…" | persoonlijk verhaal, oude foto → nu | 48 s | "Ik ben geen marketeer"-lijn (trainer → SGM) |
+| @tylertometich | 136K / 101K | 2,2x / 1,7x | "What's the DIFFERENCE" / "CONSISTENCY vs PERFECTIONISM" | split-screen met zichzelf + views-badges | 25 s | "Affiche vs filmpje" split-screen met echte cijfers |
+| @house.of.ag | 113K | 4,3x | "Behind the scenes of Elwood's success" | collab, founder story | 59 s | collab met klant (FLAXX bewees het) |
+| @house.of.ag | 45,2K | 1,7x | "pov: …" | BTS + POV-tekst | 10 s | POV clubvrijwilliger |
+| @fcmeppel1 | 13,4K | 2x | "Warming-Up 🔥" matchday recap | sfeerbeelden + labels | 58 s | voor/na: affiche vs recap |
+| @vvnokvr1 | 15,8K | 3,5x (50x volgers) | "Klap als dames beter kunnen voetballen dan mannen" | kantinesketch | 8 s | HERKENBAAR?-sketch |
+| @evasionsport_tm | 5,1K | 2,7x | "Prends 17 secondes pour écouter ça" | sfeerbeeld + tekst | 19 s | - |
+
 ## Kijkcurve lezen (robertmckeaveney, 15/11)
 - Steile val in de eerste 1-2 s = **hook** faalt → hook moet een vraag oproepen (beeld + tekst + woord + geluid).
 - Gestage daling in het midden = **opbouw** faalt → vraag versterken, niet rekken, elke paar seconden opnieuw haken.
