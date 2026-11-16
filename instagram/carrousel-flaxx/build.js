@@ -59,11 +59,12 @@ S.push(page(2, `
 // 3 CIJFER 1
 S.push(page(3, `
 <div class="num">1</div>
-<div class="col" style="top:300px;gap:30px">
-<span class="tag">IN ÉÉN WEEK</span>
-<div style="font:700 300px/.85 Rj;color:#00d4ff;letter-spacing:-6px">1.120</div>
-<h2 style="font-size:84px">weergaven</h2>
-<p class="t"><b>Twee keer zoveel</b> als een gewone reel op ons account.</p>
+<div class="col" style="top:280px;gap:30px">
+<span class="tag">BEREIK</span>
+<div style="font:700 330px/.85 Rj;color:#00d4ff;letter-spacing:-6px">2x</div>
+<h2 style="font-size:84px">zoveel bereik</h2>
+<p class="t">als een gewone reel op ons account. <b>1.307 weergaven</b>, en het blijft groeien.</p>
+<p class="t" style="font-size:34px">❤️ 67 likes · 💬 8 reacties · 🔖 5x bewaard. Allemaal <b>boven ons gemiddelde</b>.</p>
 </div>`));
 // 4 CIJFER 2
 S.push(page(4, `
@@ -72,7 +73,7 @@ S.push(page(4, `
 <span class="tag">NIEUW PUBLIEK</span>
 <div style="font:700 300px/.85 Rj;color:#00d4ff;letter-spacing:-6px">85%</div>
 <h2 style="font-size:84px">nieuwe mensen</h2>
-<p class="t">Bijna iedereen die keek, <b>kende ons of FLAXX nog niet</b>. Een collab-post verschijnt op twee profielen tegelijk.</p>
+<p class="t">Bijna iedereen die keek, <b>kende ons of FLAXX nog niet</b>. De helft is tussen 35 en 54: de mensen die beslissen.</p>
 </div>`));
 // 5 VOOR FLAXX
 S.push(page(5, `
