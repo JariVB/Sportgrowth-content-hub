@@ -288,3 +288,4 @@ Buiten filmen lukt bijna niet meer (weer, kou, vroeg donker, overdag speelt niem
 - **Geen buitenshoots plannen.** Valt er toch een droge, lichte dag: dan is het een bonus, nooit een voorwaarde voor een post.
 - **Andere bronnen voor actiebeeld:** archief (beelden van vorig seizoen en Sports NEXT), beelden die klanten of clubs zelf sturen (met toestemming), schermopnames van Instagram-profielen (voor analyses en voor/na).
 - Elke reel die echt beeld nodig heeft, krijgt in de planning een **studio-alternatief** zodat de post niet hoeft te schuiven.
+- **Klant of partner in de post?** Altijd vooraf vragen om te delen in hun story (FLAXX-carrousel 16/11: 85% van 1.487 weergaven via stories, 88% niet-volgers).
