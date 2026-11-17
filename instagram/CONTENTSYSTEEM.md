@@ -279,4 +279,4 @@ Elke woensdag 20 minuten opnemen: 3-4 teksten na elkaar, elk 3 keer, in de vaste
 - **Animaties nooit over het gezicht:** naast het hoofd of op borsthoogte. Titel mag achter Jari (alpha van Beeble).
 - **Reactievraag in beeld op het einde** ("Typ JA of NEE"): de caption-vraag alleen leverde 0 reacties.
 - **Carrouselcover altijd met een gezicht**, slide 2 geeft een reden om verder te swipen.
-- **Posten:** reels om 19u30 (18u test liep goed), daarna story + 2-3 mensen vragen om te delen; persoonlijk account met een doelgerichte zin ("ken je iemand in een clubbestuur?").
+- **Posten:** reels om 18u00 (vaste keuze Jari sinds 12/11), daarna story + 2-3 mensen vragen om te delen; persoonlijk account met een doelgerichte zin ("ken je iemand in een clubbestuur?").
