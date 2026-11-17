@@ -186,3 +186,4 @@ Proefles-reel → di 17/11 (actiebeelden training di 10/11). Sportkamp-reel → 
 
 **Weekplan 23-29/11 (voorstel):** ma 23/11 carrousel CLUBCHECK met gezicht op de cover · di 24/11 reel december · do 26/11 reel "Stop met enkel uitslagen" · za 21/11 kantinesketch filmen (proef).
 **Di 17/11 avond:** reels voortaan om **18u00** (Jari). Proefles was vandaag rond 17u klaar en had vandaag om 18u gekund; Claude had het schuiven naar do niet herzien toen de opname binnenkwam. Regel: zodra een opname binnen is, de postdatum opnieuw bekijken.
+Planning: reel proefles do 19/11 18u00 (wo inplannen), reel december di 24/11 18u00.
