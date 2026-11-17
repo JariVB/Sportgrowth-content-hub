@@ -280,3 +280,11 @@ Elke woensdag 20 minuten opnemen: 3-4 teksten na elkaar, elk 3 keer, in de vaste
 - **Reactievraag in beeld op het einde** ("Typ JA of NEE"): de caption-vraag alleen leverde 0 reacties.
 - **Carrouselcover altijd met een gezicht**, slide 2 geeft een reden om verder te swipen.
 - **Posten:** reels om 18u00 (vaste keuze Jari sinds 12/11), daarna story + 2-3 mensen vragen om te delen; persoonlijk account met een doelgerichte zin ("ken je iemand in een clubbestuur?").
+
+## 5o. Winterregel (vanaf 17/11 tot maart)
+Buiten filmen lukt bijna niet meer (weer, kou, vroeg donker, overdag speelt niemand). Daarom:
+- **Basis = studio-reels** uit de woensdagsessie (binnen, weerbestendig) + carrousels. Minstens 2 van de 3 posts per week hebben geen buitenbeelden nodig.
+- **Eigen beelden alleen binnen en 's avonds:** padelhal tijdens Jari's training (di 18u-22u30), sporthal, kantine. Kunstlicht is ok; gsm op 4K 30 fps, niet inzoomen, liefst vlak onder een lamp.
+- **Geen buitenshoots plannen.** Valt er toch een droge, lichte dag: dan is het een bonus, nooit een voorwaarde voor een post.
+- **Andere bronnen voor actiebeeld:** archief (beelden van vorig seizoen en Sports NEXT), beelden die klanten of clubs zelf sturen (met toestemming), schermopnames van Instagram-profielen (voor analyses en voor/na).
+- Elke reel die echt beeld nodig heeft, krijgt in de planning een **studio-alternatief** zodat de post niet hoeft te schuiven.
