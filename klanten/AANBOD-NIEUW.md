@@ -22,7 +22,7 @@ Vervangt Mini €249 / Starter €399 / Growth €599 met minimum 3-6 maanden.
 - **Timing januari:** nieuwe lesreeksen, goede voornemens (fitness), proeflessen, tweede seizoenshelft. "Vul je januari" is een concreet resultaat.
 - **Kickstart telt mee:** wie binnen 30 dagen doorgaat met een maandpakket, krijgt €100 korting op de eerste maand.
 
-## Stichtersaanbod (eerste 3 klanten, tot 31/12)
+## Introductieprijs (eerste 3 klanten, tot 31/12)
 Kickstart aan **€197** in plaats van €297, in ruil voor:
 - een getuigenis (tekst of 20 s video),
 - hun cijfers voor en na (mogen we tonen),
@@ -42,6 +42,6 @@ Een lokale sponsor (bakker, garage, frituur, bank) betaalt de Kickstart of de Ba
 |---|---|---|
 | Michelle (fitness) | januari = piekmaand nieuwe leden | Kickstart "nieuwe leden in januari" |
 | Peter (BabyBallers) | betalende lesreeksen, 4.542 volgers, analyse al gehad | Kickstart "nieuwe reeks in januari" |
-| Mikal (Smash For Fun) / AVLO | analyse gehad, vzw | sponsorformule of stichtersaanbod €197 |
-| Britt (Glow Up Hair Salon) | net geopend, wil groeien, kent Jari | stichtersaanbod €197 (buiten niche, wel een case) |
+| Mikal (Smash For Fun) / AVLO | analyse gehad, vzw | sponsorformule of introductieprijs €197 |
+| Britt (Glow Up Hair Salon) | net geopend, wil groeien, kent Jari | introductieprijs €197 (buiten niche, wel een case) |
 | Fuse pilates | positieve reactie op gratis filmpje | Kickstart |

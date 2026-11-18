@@ -28,4 +28,4 @@ Hey Michelle! Januari is dé maand voor nieuwe leden in de fitness 💪 Ik heb e
 Hey Britt! Hoe was de eerste week in het salon? 😊 Ik heb een nieuw aanbod en jij mag als een van de eersten: ik kom één keer filmen in het salon (een metamorfose, het team, de sfeer) en maak er 3 reels en een carrousel van. Eenmalig €197 in plaats van €297. In ruil vraag ik een korte getuigenis. Zin om dat in december te doen?
 
 ## Fuse pilates · DM · do 19/11
-Hey! Hopelijk hebben jullie iets kunnen doen met het filmpje van Sports NEXT 🙂 In januari komen er vast veel nieuwe mensen proberen. Ik heb een instapaanbod: ik kom één keer filmen in de studio en maak er 3 reels en een carrousel van. Eenmalig €197 tot eind december (stichtersaanbod) in plaats van €297. Vind je de eerste reel niet goed? Dan betaal je niets. Interesse?
+Hey! Hopelijk hebben jullie iets kunnen doen met het filmpje van Sports NEXT 🙂 In januari komen er vast veel nieuwe mensen proberen. Ik heb een instapaanbod: ik kom één keer filmen in de studio en maak er 3 reels en een carrousel van. Eenmalig €197 tot eind december in plaats van €297. Vind je de eerste reel niet goed? Dan betaal je niets. Interesse?
