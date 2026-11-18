@@ -189,3 +189,4 @@ Proefles-reel → di 17/11 (actiebeelden training di 10/11). Sportkamp-reel → 
 Planning: reel proefles do 19/11 18u00 (wo inplannen), reel december di 24/11 18u00.
 
 **Status wo 18/11 (ochtend):** proefreel A online (haalt minder dan de affiches-reel, meten do 19/11). FLAXX-carrousel na 26u: 1.487 weergaven, 88% niet-volgers, 85% via stories (partner deelde). Winterregel in CONTENTSYSTEEM (5o): studio + binnen 's avonds, geen buitenshoots. Jari koopt iOttie Velox Pro (zuignap) voor padelbeelden. Vandaag: opnamesessie (3 teksten), Beeble december (seed 4731), proefles inplannen do 18u, Peter laatste opvolging. Shoot training → di 24/11. Do: Mikal opvolgen, proefreel-stats. Weekplan 23-29/11 nog niet bevestigd.
+**Wo 18/11:** ✅ PR #12 gemerged: nieuw aanbod live (Kickstart €297, stichters €197 in blauw kader, Basis €199, Groei €399, Pro €649). Offerte: klanten/offerte/kickstart-sportgrowth-media.pdf. Do 19/11: Kickstart-berichten naar Mikal, Michelle, Britt en Fuse.
