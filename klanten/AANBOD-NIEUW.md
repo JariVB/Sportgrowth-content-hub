@@ -11,7 +11,7 @@ Waarom anders: bijna elk gesprek strandde op "geen budget" of "we bekijken het".
 | 1. **Kickstart** (instap) | 1 filmmoment ter plaatse (max 1u) · 3 reels · 1 carrousel · captions · story-sjablonen · rapport na 30 dagen. Klaar binnen 10 dagen | **€297 eenmalig** | ±5,5u | ±€54 |
 | 2. **Basis** | 4 posts per maand (2 reels + 2 carrousels/posts) · klant stuurt beelden, wij zeggen wat filmen · story-sjablonen | **€199/maand**, maandelijks opzegbaar | ±3u | ±€66 |
 | 3. **Groei** | 8 posts per maand (4 reels) · 1 filmmoment per maand · maandrapport · WhatsApp | **€399/maand**, maandelijks opzegbaar | ±7u | ±€57 |
-| 4. **Volledig** | 12 posts (6 reels) · 2 filmmomenten · stories 3x per week · rapport + strategie per kwartaal | **€649/maand**, 3 maanden | ±11u | ±€59 |
+| 4. **Pro** | 12 posts (6 reels) · 2 filmmomenten · stories 3x per week · rapport + strategie per kwartaal | **€649/maand**, 3 maanden | ±11u | ±€59 |
 
 Vervangt Mini €249 / Starter €399 / Growth €599 met minimum 3-6 maanden.
 
@@ -20,7 +20,7 @@ Vervangt Mini €249 / Starter €399 / Growth €599 met minimum 3-6 maanden.
 - **Geen risico:** "Vind je de eerste reel niet goed? Dan betaal je niets."
 - **Geen vast contract** na de Kickstart: Basis en Groei zijn maandelijks opzegbaar.
 - **Timing januari:** nieuwe lesreeksen, goede voornemens (fitness), proeflessen, tweede seizoenshelft. "Vul je januari" is een concreet resultaat.
-- **Kickstart telt mee:** wie binnen 30 dagen doorgaat met Groei, krijgt €100 korting op de eerste maand.
+- **Kickstart telt mee:** wie binnen 30 dagen doorgaat met een maandpakket, krijgt €100 korting op de eerste maand.
 
 ## Stichtersaanbod (eerste 3 klanten, tot 31/12)
 Kickstart aan **€197** in plaats van €297, in ruil voor:

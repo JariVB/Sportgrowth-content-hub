@@ -24,7 +24,7 @@ Begin waar je geloofwaardig bent en beelden hebt (padel, tennis, voetbal), maar 
 - Kamp/event: "Ik vul je kamp/event, zonder flyers."
 - Meten: geboekte uren / inschrijvingen vóór en na (vraag het cijfer bij de start).
 
-**Vanaf 18/11 geldt het nieuwe aanbod: zie `AANBOD-NIEUW.md` (Kickstart €297, stichters €197, Basis €199, Groei €399, Volledig €649). Onderstaande pakketten zijn vervangen.**
+**Vanaf 18/11 geldt het nieuwe aanbod: zie `AANBOD-NIEUW.md` (Kickstart €297, stichters €197, Basis €199, Groei €399, Pro €649). Onderstaande pakketten zijn vervangen.**
 
 ## Oud aanbod (gelijk met de website, sportgrowthmedia.be/#prijzen)
 | Pakket | Prijs | Inhoud | Looptijd |
