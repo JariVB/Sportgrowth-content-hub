@@ -38,4 +38,4 @@ Berichten: `dm-audit.md`. Gegevens van contactpersonen alleen voornaam en club.
 | Partner | Wat | Opvolging |
 |---|---|---|
 | Boba Racket Sports | Bevriende racketsportwinkel | Licht: hun posts liken en af en toe een echte reactie. Geen analyse of verkoop aanbieden. Mogelijk later samenwerken (bv. een gezamenlijke post of winactie) |
-| Fuse pilates studio (@fusepilatesstudio) | Pilates- en krachtstudio, stand met reformer-demo's op Sports NEXT | 2/11: gratis filmpje van hun stand gemaakt (klanten/fuse/) en via WeTransfer in DM gestuurd (filmpje + ruwe clips). | Positieve reactie → tag @sportgrowth_media vragen. Vanaf 9/11 gratis analyse als ze reageren |
+| Fuse pilates studio (@fusepilatesstudio) | Pilates- en krachtstudio, stand met reformer-demo's op Sports NEXT | 2/11: gratis filmpje van hun stand gemaakt (klanten/fuse/) en via WeTransfer in DM gestuurd (filmpje + ruwe clips). | Wo 18/11: Jari vindt hun Instagram al heel sterk → geen verkoop. Enkel netwerk: liken, eventueel vragen naar doorverwijzingen |
