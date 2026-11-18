@@ -271,3 +271,21 @@ Volgende ronde (vanaf 16/11): RESULTAAT #2 (eerste klant of TTV/Westerlo met akk
 
 ## 5m. Vaste opnamesessie (11/11)
 Elke woensdag 20 minuten opnemen: 3-4 teksten na elkaar, elk 3 keer, in de vaste opstelling voor de grote SGM-studio. Daarmee worden de reels van de volgende week gemaakt. Altijd dezelfde studio, zodat volgers de plek herkennen. Geen AI-avatar: Jari spreekt altijd zelf.
+
+## 5n. Studio-reels en lessen 12-17/11
+- **Studio:** één vaste studio (`studio/v2/studio-groot-sgm.png`) via Beeble SwitchX, 720p, max. 360 frames per render → in delen, **zelfde seed** voor elk deel. Prompt met "neutral skin tones". Altijd **AI-label aan**.
+- **Opname:** gsm ±1-1,5 m, licht van voren, kledingroller op het zwarte t-shirt, rustige gebaren, zinseindes laten dalen.
+- **Hook = vraag of herkenbaar beeld**, geen stelling (kijkcurve 12/11: 45% weg in 2 s bij een stelling).
+- **Animaties nooit over het gezicht:** naast het hoofd of op borsthoogte. Titel mag achter Jari (alpha van Beeble).
+- **Reactievraag in beeld op het einde** ("Typ JA of NEE"): de caption-vraag alleen leverde 0 reacties.
+- **Carrouselcover altijd met een gezicht**, slide 2 geeft een reden om verder te swipen.
+- **Posten:** reels om 18u00 (vaste keuze Jari sinds 12/11), daarna story + 2-3 mensen vragen om te delen; persoonlijk account met een doelgerichte zin ("ken je iemand in een clubbestuur?").
+
+## 5o. Winterregel (vanaf 17/11 tot maart)
+Buiten filmen lukt bijna niet meer (weer, kou, vroeg donker, overdag speelt niemand). Daarom:
+- **Basis = studio-reels** uit de woensdagsessie (binnen, weerbestendig) + carrousels. Minstens 2 van de 3 posts per week hebben geen buitenbeelden nodig.
+- **Eigen beelden alleen binnen en 's avonds:** padelhal tijdens Jari's training (di 18u-22u30), sporthal, kantine. Kunstlicht is ok; gsm op 4K 30 fps, niet inzoomen, liefst vlak onder een lamp.
+- **Geen buitenshoots plannen.** Valt er toch een droge, lichte dag: dan is het een bonus, nooit een voorwaarde voor een post.
+- **Andere bronnen voor actiebeeld:** archief (beelden van vorig seizoen en Sports NEXT), beelden die klanten of clubs zelf sturen (met toestemming), schermopnames van Instagram-profielen (voor analyses en voor/na).
+- Elke reel die echt beeld nodig heeft, krijgt in de planning een **studio-alternatief** zodat de post niet hoeft te schuiven.
+- **Klant of partner in de post?** Altijd vooraf vragen om te delen in hun story (FLAXX-carrousel 16/11: 85% van 1.487 weergaven via stories, 88% niet-volgers).

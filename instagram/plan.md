@@ -168,3 +168,24 @@ Proefles-reel → di 17/11 (actiebeelden training di 10/11). Sportkamp-reel → 
 **Do 12/11:** trainingsbeelden di 10/11 niet gefilmd → shoot di 17/11 training (december/jeugd). Proefreels: Jari wil ze zeker doen. Eerste: "3 fouten tennisclubs" (origineel bestand van 29/9 nodig). Daarna elke week 1 proefreel (variant van een bestaande reel met andere hook).
 **Do 12/11:** ✅ meningsreel affiches ingepland 18u00 (v13 Beeble, grote studio, cover-v13-a2). Test: 18u i.p.v. 19u30. Beeble Creator (maandelijks) genomen: werkwijze = Jari filmt, Beeble zet in studio (max 360 frames/render → in delen), Claude corrigeert huidskleur en zet titel/animaties/ondertitels erop.
 **Do 12/11 avond:** ✅ PR #10 gemerged, sportgrowthmedia.be/links online, bio-link aangepast. Nieuwe lead AVLO via Berten (website gestuurd).
+
+**Status vr 13/11 (ochtend):** affiches-reel online do 18u (v13 Beeble), linkpagina + nieuwe deelafbeelding online (PR #10, #11). Leads: AVLO (Berten, wacht op antwoord), BabyBallers (opvolgen za 14/11). Opnames proefles + december nog niet gedaan → zo 15/11 thuis opnemen (15 min), ma montage, di 17/11 proefles online. Weekplan 16-22/11 wacht nog op akkoord.
+
+**Status za 14/11 (ochtend):** reel affiches na 25u: 1.672 weergaven (3-4x gemiddelde), 5 volgers, 65% niet-volgers, overslaan 62% (beter), 0 reacties/bewaard. Volgende reels: reactievraag in beeld op het einde ("Typ A of F"). Weekplan 16-22/11 en proefreel tennisclubs nog zonder antwoord (3 dagen). Morgen opnames proefles + december.
+
+**Status zo 15/11 (ochtend):** analyse Smash For Fun klaar (52/100, incl. Facebook), vandaag mailen (48u-belofte). Weekplan 16-22/11 zonder antwoord → Claude volgt het voorstel: ma carrousel RESULTAAT FLAXX (Claude maakt hem zondag), di reel proefles, do reel december (beide Beeble). Proefreel tennisclubs geschrapt (4 dagen open) → proefreel van de affiches-reel (enkel niet-volgers, zonder story). Vandaag opnames proefles + december.
+
+**Status ma 16/11 (ochtend):** carrousel RESULTAAT FLAXX klaar (carrousel-flaxx/, 8 slides), vanavond 19u30. Mikal-mail en Peter-opvolging afgevinkt. Opnames proefles + december nog niet gedaan → vandaag na 16u (nieuwe hooks als vraag). Verschoven: reel proefles di 17/11 → do 19/11 19u30; reel december do 19/11 → di 24/11 19u30. Proefreel A (affiches, nieuwe hook) vandaag plaatsen.
+
+**Uit trendonderzoek 16/11, 3 posts (binnen het SGM-concept):**
+1. **HERKENBAAR? kantinesketch (8-10 s, proefreel):** "POV: je bent de vrijwilliger die om 23u nog de affiche voor het tornooi maakt" (Jari aan tafel in de kantine, laptop, geeuwt; tekst in beeld). Filmen za 21/11 in de voetbalkantine, plaatsen als proefreel zo 22/11. Vaste CTA in de caption.
+2. **"Stop met…"-reeks, deel 2 (studio, 20-25 s):** "Voetbalclubs: stop met enkel uitslagen posten." Hook noemt de doelgroep, 3 voorbeelden vliegen in beeld, dan wat wel werkt (sfeer, spelers, kantine). Opnemen wo 18/11, post ma 23/11 of do 26/11.
+3. **Split-screen "Affiche vs filmpje" (15 s, CLUBCHECK):** links een clubaffiche (4 likes), rechts een filmpje (1.200 weergaven) met views-badges, Jari's stem erover. Montage door Claude uit bestaand materiaal (feed TC De Klaver + reel 9/10). Post di 24/11 als de december-reel schuift, anders week 30/11.
+
+**Status di 17/11 (ochtend):** carrousel FLAXX online ma 16/11. €2.496-carrousel na 7d: 176 weergaven, 10,8% niet-volgers → gezicht op elke cover. Opnames proefles + december nog niet binnen → vandaag vóór 15u (Jari vrij vanaf 12u), Beeble 16u, montage Claude, inplannen wo voor do 19/11 19u30. December → di 24/11. Proefreel A vanavond 19u30 (geen proefreelfunctie op het account → gewone reel, Alleen Reels-raster). Wo-opnamesessie: "Voetbalclubs: stop met enkel uitslagen posten", split-screen amateur vs professioneel, lijstreel 5 fouten.
+
+**Weekplan 23-29/11 (voorstel):** ma 23/11 carrousel CLUBCHECK met gezicht op de cover · di 24/11 reel december · do 26/11 reel "Stop met enkel uitslagen" · za 21/11 kantinesketch filmen (proef).
+**Di 17/11 avond:** reels voortaan om **18u00** (Jari). Proefles was vandaag rond 17u klaar en had vandaag om 18u gekund; Claude had het schuiven naar do niet herzien toen de opname binnenkwam. Regel: zodra een opname binnen is, de postdatum opnieuw bekijken.
+Planning: reel proefles do 19/11 18u00 (wo inplannen), reel december di 24/11 18u00.
+
+**Status wo 18/11 (ochtend):** proefreel A online (haalt minder dan de affiches-reel, meten do 19/11). FLAXX-carrousel na 26u: 1.487 weergaven, 88% niet-volgers, 85% via stories (partner deelde). Winterregel in CONTENTSYSTEEM (5o): studio + binnen 's avonds, geen buitenshoots. Jari koopt iOttie Velox Pro (zuignap) voor padelbeelden. Vandaag: opnamesessie (3 teksten), Beeble december (seed 4731), proefles inplannen do 18u, Peter laatste opvolging. Shoot training → di 24/11. Do: Mikal opvolgen, proefreel-stats. Weekplan 23-29/11 nog niet bevestigd.
