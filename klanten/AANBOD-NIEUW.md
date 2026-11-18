@@ -1,4 +1,4 @@
-# Nieuw aanbod SportGrowth Media (voorstel 18/11, wacht op akkoord Jari)
+# Nieuw aanbod SportGrowth Media (beslist 18/11, Claude bepaalt, Jari akkoord)
 
 Doel: 1 betalende klant vóór 31/12, 3 of meer tegen maart.
 Waarom anders: bijna elk gesprek strandde op "geen budget" of "we bekijken het". Een maandabonnement met 3 of 6 maanden vast is voor een club een grote beslissing. Een klein, eenmalig project met een vaste prijs is dat niet.
