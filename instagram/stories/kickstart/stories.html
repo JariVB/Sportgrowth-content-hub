@@ -1,0 +1,43 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1920px;overflow:hidden;font-family:Inter,sans-serif;color:#fff}
+.f{width:1080px;height:1920px;position:relative;display:none;background:#0b1730;overflow:hidden}
+.f.on{display:block}
+.glow{position:absolute;width:1400px;height:1400px;border-radius:50%;background:radial-gradient(circle,rgba(10,120,255,.35),rgba(10,120,255,0) 60%);left:-300px;top:-400px}
+.logo{position:absolute;left:80px;top:150px;width:110px;height:110px;border-radius:50%}
+.tag{display:inline-block;background:#00d4ff;color:#0b1730;font:700 34px Inter;letter-spacing:4px;text-transform:uppercase;padding:14px 26px;border-radius:14px}
+h1{font:700 150px/0.95 Rajdhani;letter-spacing:1px}
+h2{font:700 92px/1.02 Rajdhani}
+.c{color:#00d4ff}
+p{font:500 46px/1.35 Inter}
+.wrap{position:absolute;left:80px;right:80px}
+.row{display:flex;align-items:center;gap:28px;margin-top:34px}
+.num{flex:none;width:96px;height:96px;border-radius:50%;background:#0a78ff;font:700 54px Rajdhani;display:flex;align-items:center;justify-content:center}
+.row p{font-weight:600}
+.sticker{position:absolute;left:140px;right:140px;height:190px;border:none;border-radius:30px;display:flex;align-items:center;justify-content:center;font:600 34px Inter;color:transparent}
+s{opacity:.55}
+.photo{position:absolute;inset:0;background:url(jari-studio.jpg) center/cover}
+.shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,23,48,.92) 0%,rgba(11,23,48,.55) 30%,rgba(11,23,48,0) 48%,rgba(11,23,48,0) 70%,rgba(11,23,48,.85) 100%)}
+.arrow{font:700 120px Rajdhani;color:#00d4ff}
+</style></head><body>
+<div class="f" id="s1"><div class="photo"></div><div class="shade"></div>
+ <div class="wrap" style="top:120px"><span class="tag">Nieuw</span><h2 style="margin-top:36px">Iets nieuws voor<br><span class="c">clubs en sportzaken</span></h2></div>
+ <div class="wrap" style="bottom:170px;text-align:center"><div class="arrow">↓</div><p style="font-weight:700">Tik verder</p></div></div>
+<div class="f" id="s2"><div class="glow"></div><img class="logo" src="../../beeldbank/logo-sgm-1080.png">
+ <div class="wrap" style="top:400px"><span class="tag">Kickstart</span><h1 style="margin-top:40px">1 keer<br><span class="c">filmen.</span></h1>
+ <div class="row" style="margin-top:80px"><div class="num">3</div><p>reels met ondertitels</p></div>
+ <div class="row"><div class="num">1</div><p>carrousel in jullie huisstijl</p></div>
+ <div class="row"><div class="num">10</div><p>dagen en alles staat klaar</p></div>
+ <p style="margin-top:80px;color:#9fb3d6">Eenmalig. Geen contract.<br>Pas betalen als de eerste reel bevalt.</p></div></div>
+<div class="f" id="s3"><div class="glow"></div><img class="logo" src="../../beeldbank/logo-sgm-1080.png">
+ <div class="wrap" style="top:420px"><span class="tag">Introductieprijs</span><h1 style="margin-top:50px;font-size:230px">€197</h1><p style="font-size:60px;margin-top:10px"><s>€297</s></p>
+ <h2 style="margin-top:90px;font-size:80px">Nog <span class="c">3 plaatsen</span><br>tot 31 december</h2></div>
+ <div class="sticker" style="bottom:300px">link-sticker hier</div></div>
+<div class="f" id="s4"><div class="glow"></div><img class="logo" src="../../beeldbank/logo-sgm-1080.png">
+ <div class="wrap" style="top:430px"><h2 style="font-size:100px">Ken jij iemand in een <span class="c">clubbestuur</span> of met een <span class="c">sportzaak</span>?</h2>
+ <p style="margin-top:60px;font-size:54px">Stuur dit even door. Dat helpt enorm.</p></div>
+ <div class="sticker" style="bottom:330px;height:260px">vraag-sticker hier</div></div>
+<script>window.show=n=>{document.querySelectorAll('.f').forEach((e,i)=>e.classList.toggle('on',i==n))}</script>
+</body></html>
