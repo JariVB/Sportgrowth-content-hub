@@ -33,7 +33,7 @@ Echte deadline: 31/12 of zodra 3 plaatsen weg zijn.
 Een lokale sponsor (bakker, garage, frituur, bank) betaalt de Kickstart of de Basis. In ruil: "Mogelijk gemaakt door …" op de eindkaart van elke reel + tag. Jari stelt het samen met de club voor aan hun sponsor. Club betaalt €0.
 
 ## Betaling
-- Kickstart: eerst reel 1 ter goedkeuring (1 aanpassing). Niet goed → stoppen, niets betalen, reel 1 niet gebruiken, rest niet geleverd. Goed → 50% na goedkeuring reel 1, 50% bij oplevering van alles.
+- Kickstart: eerst reel 1 ter goedkeuring (1 aanpassing). Niet goed → stoppen, niets betalen, reel 1 niet gebruiken, rest niet geleverd. Goed → één factuur (100%), betaling binnen 7 dagen; rest (reels 2-3, carrousel, bestanden zonder watermerk) na betaling.
 - Maandpakketten: vooraf per maand.
 - Nodig vóór de eerste factuur: ondernemingsnummer (+ btw-vrijstelling kleine onderneming navragen).
 
