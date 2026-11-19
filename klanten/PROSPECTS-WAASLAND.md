@@ -88,7 +88,7 @@ Check per zaak (1 min): laatste post > 2 weken geleden? minder dan 1 post per we
 | 1 | CrossFit Lokeren · @crossfitlokeren → Compound Fitness Lokeren (nieuw account, 194 volgers) | Lokeren | 928 | 23/06/2026 | 3 | Naamswissel naar Compound Fitness | 📩 do 19/11 |
 | 2 | Boel Padel · @boel_padel | Temse | 909 | 13/12/2023 | 4 | Highlights Stages/Academy/Events, laatste affiche "€2 per uur" 2023. ✖ bestaat niet meer (Jari 19/11) |
 | 3 | Sportkampen Zele · @sportkampzele | Zele | 350 | 13/07/2026 | 4 | Mooie kampfoto's, ±1 post per jaar, lege bio | 📩 do 19/11 |
-| 4 | Oxygen Fitness Lokeren · @oxygenfitnesslokeren | Lokeren | 205 | 24/12/2021 | 4 | "Merry Liftmas" 2021, link naar oxygenfitness.be/club (meerdere vestigingen?). Eerst checken of nog open | DM za 21/11 |
+| 4 | Oxygen Fitness Lokeren · @oxygenfitnesslokeren | Lokeren | 205 | 24/12/2021 | 4 | "Merry Liftmas" 2021, link naar oxygenfitness.be/club (meerdere vestigingen?). ✖ keten (Jari 19/11) |
 | 5 | KAVD tennis padel · @kavdtennispadel | Grembergen | 535 | 16/09/2023 | 3 | Reels Junior Padel Paasstage 2023, Jari volgt al. Vzw → sponsorformule | ✖ club leeft bijna niet meer (Jari 19/11) |
 | 6 | Fightclub Zele · @fightclub.zele | Zele | 476 | 07/04/2024 | 4 | Account op naam Mohamed Nafih, sterke fight-reels, geen bio. Club, weinig budget | later |
 | 7 | Padel Waasland · @padel.waasland | Temse (TC De Vallei) | 394 | 06/12/2023 | 3 | Tweede account @padelwaasland (28 volgers) | later |
