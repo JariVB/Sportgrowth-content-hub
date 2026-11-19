@@ -80,3 +80,22 @@ Ketens (Basic-Fit, JIMS, Snap Fitness) overgeslagen: marketing zit centraal.
 | 28 | Salsa Abrazar | Dendermonde | Salsadansschool sinds 2008 | Sport Vlaanderen | | |
 
 Check per zaak (1 min): laatste post > 2 weken geleden? minder dan 1 post per week? enkel affiches/tekst? geen reels? geen link of oproep in bio? → 2 of meer keer ja = goede prospect.
+
+### Resultaat Claude in Chrome (do 19/11)
+
+| Prio | Zaak · @account | Gemeente | Volgers | Laatste post | Score | Opvallend | Status |
+|---|---|---|---|---|---|---|---|
+| 1 | CrossFit Lokeren · @crossfitlokeren → Compound Fitness Lokeren (nieuw account, 194 volgers) | Lokeren | 928 | 23/06/2026 | 3 | Naamswissel naar Compound Fitness | DM za 21/11 |
+| 2 | Boel Padel · @boel_padel | Temse | 909 | 13/12/2023 | 4 | Highlights Stages/Academy/Events, laatste affiche "€2 per uur" 2023. Eerst checken of nog open | DM za 21/11 |
+| 3 | Sportkampen Zele · @sportkampzele | Zele | 350 | 13/07/2026 | 4 | Mooie kampfoto's, ±1 post per jaar, lege bio | DM za 21/11 |
+| 4 | Oxygen Fitness Lokeren · @oxygenfitnesslokeren | Lokeren | 205 | 24/12/2021 | 4 | "Merry Liftmas" 2021, link naar oxygenfitness.be/club (meerdere vestigingen?). Eerst checken of nog open | DM za 21/11 |
+| 5 | KAVD tennis padel · @kavdtennispadel | Grembergen | 535 | 16/09/2023 | 3 | Reels Junior Padel Paasstage 2023, Jari volgt al. Vzw → sponsorformule | DM za 21/11 |
+| 6 | Fightclub Zele · @fightclub.zele | Zele | 476 | 07/04/2024 | 4 | Account op naam Mohamed Nafih, sterke fight-reels, geen bio. Club, weinig budget | later |
+| 7 | Padel Waasland · @padel.waasland | Temse (TC De Vallei) | 394 | 06/12/2023 | 3 | Tweede account @padelwaasland (28 volgers) | later |
+| 8 | Padel Academy Beveren · @padelacademybeveren | Beveren | 74 | 07/09/2021 | 3 | 4 posts ooit (TC Beckhand), gevolgd door Jan Stilten → via Jan | later |
+| 9 | GymTeam Sint-Niklaas · @gymteam_sintniklaas | Sint-Niklaas | 419 | 28/02/2026 | 3 | Turnclub (vereniging) | later |
+| - | Easyfit Stekene · @easyfitstekene | Stekene | 1.535 | 17/11/2026 | 2 | Actief, overslaan | ✖ |
+| - | NRG Fitness Sint-Niklaas · @sintniklaasnrgfitness.be | Sint-Niklaas | 1 | - | - | Leeg account (0 posts) | later |
+
+Niet gevonden: SGW Padel, Padel Company Zele, Fitness & Friends, Tom's Gym, Easy Fit Hamme, Streamline, Cross-World, Salsa Abrazar.
+DM-teksten: zie gesprek 19/11 (ook in checklist za 21/11).
