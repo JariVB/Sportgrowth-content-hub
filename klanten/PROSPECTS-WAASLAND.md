@@ -85,7 +85,7 @@ Check per zaak (1 min): laatste post > 2 weken geleden? minder dan 1 post per we
 
 | Prio | Zaak · @account | Gemeente | Volgers | Laatste post | Score | Opvallend | Status |
 |---|---|---|---|---|---|---|---|
-| 1 | CrossFit Lokeren · @crossfitlokeren → Compound Fitness Lokeren (nieuw account, 194 volgers) | Lokeren | 928 | 23/06/2026 | 3 | Naamswissel naar Compound Fitness | 📩 do 19/11 |
+| 1 | CrossFit Lokeren · @crossfitlokeren → Compound Fitness Lokeren (nieuw account, 194 volgers) | Lokeren | 928 | 23/06/2026 | 3 | Naamswissel naar Compound Fitness | ✖ do 19/11 "We hebben geen interesse." Vriendelijk afgesloten |
 | 2 | Boel Padel · @boel_padel | Temse | 909 | 13/12/2023 | 4 | Highlights Stages/Academy/Events, laatste affiche "€2 per uur" 2023. ✖ bestaat niet meer (Jari 19/11) |
 | 3 | Sportkampen Zele · @sportkampzele | Zele | 350 | 13/07/2026 | 4 | Mooie kampfoto's, ±1 post per jaar, lege bio | 📩 do 19/11 |
 | 4 | Oxygen Fitness Lokeren · @oxygenfitnesslokeren | Lokeren | 205 | 24/12/2021 | 4 | "Merry Liftmas" 2021, link naar oxygenfitness.be/club (meerdere vestigingen?). ✖ keten (Jari 19/11) |
