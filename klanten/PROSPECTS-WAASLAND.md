@@ -106,12 +106,12 @@ Overgeslagen: Hammer Padel (Spaans merk), Cross Training Gym Lokeren (stil sinds
 
 | Prio | Score | Zaak · @account | Gemeente | Volgers | Laatste post | Opvallend (haakje) | Status |
 |---|---|---|---|---|---|---|---|
-| 1 | 4 | Padel 4U2 · @padel4u2 | Gentbrugge | 2.517 | 21/10/2026 | 9 terreinen, beachvolley, Fit4U2-groepslessen, Halloween-tornooi. Jari volgt al | DM klaar |
-| 2 | 5 | Padel9000 · @padel9000.gent | Sint-Amandsberg | 225 | 06/03/2026 | 2 jaar bestaan, testdag met Volt, enkel tekstaffiches | DM klaar |
-| 3 | 3 | Aurora Dans en Gym · @aurora_lokeren | Lokeren | 1.638 | 10/11/2026 | Showcase 15/12 in De Wiek (Zele) | DM klaar |
-| 4 | 4 | body&soul club · @bodysoulgent | Gent | 8.186 | 18/07/2026 | Vrouwencommunity, coach @anna_like_sport, 4 maanden stil, geen link | DM klaar |
-| 5 | 3 | Arena Football & Padel · @arena_gent | Gent (Dok-Noord) | 423 | 13/10/2026 | Bubble football, business league, sportsbar, teambuildings | DM klaar |
-| 6 | 4 | SportQube · @sportqube_lokeren | Lokeren | 140 | 27/12/2025 | Bootcamp/BBB via app, account op naam Leen Groothaert. Jari volgt al | DM klaar |
+| 1 | 4 | Padel 4U2 · @padel4u2 | Gentbrugge | 2.517 | 21/10/2026 | 9 terreinen, beachvolley, Fit4U2-groepslessen, Halloween-tornooi. Jari volgt al | 📩 do 19/11 |
+| 2 | 5 | Padel9000 · @padel9000.gent | Sint-Amandsberg | 225 | 06/03/2026 | 2 jaar bestaan, testdag met Volt, enkel tekstaffiches | 📩 do 19/11 |
+| 3 | 3 | Aurora Dans en Gym · @aurora_lokeren | Lokeren | 1.638 | 10/11/2026 | Showcase 15/12 in De Wiek (Zele) | 📩 do 19/11 |
+| 4 | 4 | body&soul club · @bodysoulgent | Gent | 8.186 | 18/07/2026 | Vrouwencommunity, coach @anna_like_sport, 4 maanden stil, geen link | 📩 do 19/11 |
+| 5 | 3 | Arena Football & Padel · @arena_gent | Gent (Dok-Noord) | 423 | 13/10/2026 | Bubble football, business league, sportsbar, teambuildings | 📩 do 19/11 |
+| 6 | 4 | SportQube · @sportqube_lokeren | Lokeren | 140 | 27/12/2025 | Bootcamp/BBB via app, account op naam Leen Groothaert. Jari volgt al | 📩 do 19/11 |
 | 7 | 3 | Elite Gym · @elitegymlokeren | Lokeren | 114 | 13/09/2026 | Thai/kickboks, coach Ali Elouachikhi, fight nights | later |
 | 8 | 2 | GymMAX Dendermonde · @gymmax_dendermonde | Dendermonde | 1.201 | 31/10/2026 | Bio-link wijst nog naar zomerkamp | later |
 | 9 | 3 | Happy Gym Gent · @happygymgent | Gent | 627 | 25/09/2026 | Ritmische gym, GoFundMe (club) | later |
