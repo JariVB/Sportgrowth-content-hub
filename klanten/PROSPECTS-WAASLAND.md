@@ -58,3 +58,25 @@ Status: leeg = nog niets · 👍 account al goed (compliment of overslaan) · �
 - Di 20/10 (doorgeschoven van ma): 1 Botz Padel · 5 Clapaja · 9 AKTIV GYM · 8 The Fighters Academy · 13 Sportfun
 - Wo 21/10: 2 Hangar Padel · 6 Eclips · 10 Fierce Studios · 12 CrossFit Lokeren · 15 WaterWijs
 - Do 22/10: 3 LAGO · 4 Pelgrim · 7 D.I.O.P. · 11 Pure Life · 14 Jeppa Sport
+
+## Ronde 2 (gezocht do 19/11) · Instagram nog te checken door Jari
+
+Ketens (Basic-Fit, JIMS, Snap Fitness) overgeslagen: marketing zit centraal.
+
+| # | Zaak | Waar | Wat | Bron | Instagram (volgers · laatste post · reels?) | Status |
+|---|---|---|---|---|---|---|
+| 16 | SGW Padel | Sint-Gillis-Waas (Reepstraat 208a) + Stekene (Brugstraat 33a) | 5 indoor + 1 outdoor, 2 panoramic in Stekene, cafetaria | Playtomic | | |
+| 17 | Boel Padel | Temse | Padel | Playtomic | | |
+| 18 | Padel Waasland | Temse | Padel | Playtomic | | |
+| 19 | Padel Company Zele | Zele (Huivelde 74) | Padel (vzw, sinds 2019) | KBO | | |
+| 20 | KAVD Padel | Dendermonde | Padelafdeling atletiekclub | KBO | | |
+| 21 | Fitness & Friends | Zele | Fitness | openingsuren.vlaanderen | | |
+| 22 | Tom's Gym | Zele | Fitness | openingsuren.vlaanderen | | |
+| 23 | Easy Fit | Hamme | Fitness | openingsuren.vlaanderen | | |
+| 24 | Fitnessclub Streamline | Hamme | Fitness | openingsuren.vlaanderen | | |
+| 25 | Cross-World | Hamme | Crossfit/functional | openingsuren.vlaanderen | | |
+| 26 | NRG Fitness | Lokeren | Fitness | Gymlib | | |
+| 27 | Fightclub Zele | Zele (Pius X) | Vechtsport | Sport Vlaanderen | | |
+| 28 | Salsa Abrazar | Dendermonde | Salsadansschool sinds 2008 | Sport Vlaanderen | | |
+
+Check per zaak (1 min): laatste post > 2 weken geleden? minder dan 1 post per week? enkel affiches/tekst? geen reels? geen link of oproep in bio? → 2 of meer keer ja = goede prospect.
