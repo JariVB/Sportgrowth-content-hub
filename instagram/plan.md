@@ -196,3 +196,4 @@ Xerius: instap Q4, inkomsten onder grens (±€1.090-1.900) → geen sociale bij
 
 **Status do 19/11 (ochtend):** voorstel Peter ingepland 8u30 (3 merken, €1.485/maand), bellen ma 23/11 na 16u. Michelle positief op Kickstart (filmdatum voorstellen). Mikal, Britt, Fuse (enkel netwerk) gestuurd. Nieuw aanbod live (PR #12, #13). Vandaag 18u reel proefles. Open: Beeble december downloaden, ING + Xerius, nieuwe zaken (fitness eerst). Za 21/11: opnamesessie vóór 12u, Kickstart-stories, opvolgen nieuwe zaken. Weekplan 23-29/11 (Claude volgt voorstel): ma carrousel CLUBCHECK (gezicht op cover), di reel december, do reel "Stop met uitslagen" (als za opgenomen).
 **Do 19/11:** ✅ eerste Kickstart: Michelle (fitness), shoot wo 2/12 9u-10u, €197, factuur januari.
+**Do 19/11 18u:** ✅ reel proefles online (cover A) + story met peiling. Kickstart-DM's: 6 nieuwe zaken (ronde 3) + Sportkampen Zele; Compound nee, Britt nu nog niet (maart). Reel december v1 klaar (post di 24/11).
