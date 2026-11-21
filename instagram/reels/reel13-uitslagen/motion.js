@@ -6,7 +6,7 @@ const F = '/home/user/Sportgrowth-content-hub/website/site/fonts';
 const OUT = process.argv[2]; fs.mkdirSync(OUT, { recursive: true });
 const f64 = p => 'data:font/woff2;base64,' + fs.readFileSync(p).toString('base64');
 const logo = fs.readFileSync('/home/user/Sportgrowth-content-hub/website/site/favicon.svg', 'utf8').replace('<svg ', '<svg width="100%" height="100%" ');
-const FPS = 30, DUR = 24.0, P2 = 11.4, E = 20.9;
+const FPS = 30, DUR = 24.0, P2 = 9.0, E = 20.9;
 const CH = [[0.2,'Voetbalclubs'],[1.1,'stop met enkel'],[1.9,'uitslagen posten'],[3.1,null],
  [3.8,'3-1 gewonnen'],[5.2,'0-2 verloren'],[6.2,null],[6.65,'Niemand wordt lid'],[7.7,'van een uitslag'],[8.6,null],
  [9.0,'Wat wel werkt?'],[9.8,null],[10.3,'De warming-up'],[11.3,null],
@@ -31,7 +31,7 @@ body{margin:0;background:transparent}#c{position:relative;width:1080px;height:19
 .ph .lk{position:absolute;left:16px;bottom:24px;font:800 28px In;color:#fff}
 #p1{left:40px;top:560px}#p2{left:390px;top:500px}#p3{left:740px;top:560px}
 #p1 .s{background:linear-gradient(160deg,#ff9a3c,#e8513a)}#p2 .s{background:linear-gradient(160deg,#21c46b,#0b7a43)}#p3 .s{background:linear-gradient(160deg,#6a5cff,#2b1f8f)}
-#hd{left:0;right:0;top:330px;text-align:center;font:700 64px Rj;color:#fff;text-transform:uppercase;letter-spacing:1px}#hd span{color:#3fe0ff}
+#hd{left:0;right:0;top:300px;text-align:center;font:700 92px Rj;color:#fff;text-transform:uppercase;letter-spacing:1px}#hd span{color:#3fe0ff}
 #qt{left:70px;right:70px;top:620px;text-align:center}
 #qt .a1{font:800 74px/1.12 In;color:#fff}#qt .a2{font:900 96px/1.05 Rj;color:#3fe0ff;text-transform:uppercase;margin-top:30px;text-shadow:0 0 30px rgba(63,224,255,.45)}
 #q{left:60px;right:60px;top:1330px;text-align:center}#q span{display:inline-block;font:800 48px/1.2 In;color:#0d1b3e;background:#00d4ff;padding:18px 30px;border-radius:20px}
@@ -47,7 +47,7 @@ body{margin:0;background:transparent}#c{position:relative;width:1080px;height:19
 <div id="ok" class="a"><b>✅ Wat wel werkt</b></div>
 <div id="wu" class="a"><b>🏃 De warming-up</b></div>
 <div id="fl" class="a"></div>
-<div id="hd" class="a">Toon hoe het <span>voelt</span></div>
+<div id="hd" class="a">Wat <span>wel</span> werkt?</div>
 <div id="p1" class="a ph"><div class="s"><div class="em">🏃</div><div class="pl"></div><div class="lb">De warming-up</div><div class="lk">❤️ 248</div></div></div>
 <div id="p2" class="a ph"><div class="s"><div class="em">⚽</div><div class="pl"></div><div class="lb">De goal in 10 s</div><div class="lk">❤️ 512</div></div></div>
 <div id="p3" class="a ph"><div class="s"><div class="em">🍻</div><div class="pl"></div><div class="lb">De kantine na de match</div><div class="lk">❤️ 391</div></div></div>
@@ -64,12 +64,12 @@ const slide=(e,t,a,b,dx)=>{show(e,t,a,b);const k=eb(p(t,a,a+0.35));e.style.trans
 window.render=function(t){
  slide($('s1'),t,3.8,8.9,500); slide($('s2'),t,5.2,8.9,500);
  show($('x'),t,6.65,8.9);{const k=eo(p(t,6.65,6.8));$('x').style.transform='rotate(-12deg) scale('+(2.2-1.2*k)+')';$('x').style.opacity=Math.min(1,k*1.4)*(1-p(t,8.6,8.9));}
- show($('ok'),t,9.0,10.2);{const k=eb(p(t,9.0,9.3));$('ok').style.transform='scale('+(.6+.4*k)+')';$('ok').style.opacity=Math.min(1,k*2)*(1-p(t,9.9,10.2));}
+ show($('ok'),t,99,99);{const k=eb(p(t,9.0,9.3));$('ok').style.transform='scale('+(.6+.4*k)+')';$('ok').style.opacity=Math.min(1,k*2)*(1-p(t,9.9,10.2));}
  // warming-up kaart in studio, vliegt bij P2 naar zijn plek als gsm 1
- [['p1',11.45],['p2',11.75],['p3',13.1]].forEach(([id,s])=>{const e=$(id);show(e,t,s,15.0);const k=eb(p(t,s,s+0.4));e.style.transform='translateY('+(1-k)*700+'px) rotate('+((id==='p2'?0:(id==='p1'?-4:4))*k)+'deg)';e.style.opacity=Math.min(1,k*2)*(1-p(t,14.7,15.0));});
- show($('wu'),t,10.3,11.2);{const k=eb(p(t,10.3,10.6));$('wu').style.transform='scale('+(.6+.4*k)+')';$('wu').style.opacity=Math.min(1,k*2)*(1-p(t,10.95,11.2));}
- show($('fl'),t,11.1,11.75);$('fl').style.opacity=p(t,11.1,11.4)*(1-p(t,11.4,11.75));
- show($('hd'),t,P2,15.0);$('hd').style.opacity=eo(p(t,P2,P2+0.3))*(1-p(t,14.7,15.0));
+ [['p1',10.3],['p2',11.6],['p3',13.1]].forEach(([id,s])=>{const e=$(id);show(e,t,s,15.0);const k=eb(p(t,s,s+0.4));e.style.transform='translateY('+(1-k)*700+'px) rotate('+((id==='p2'?0:(id==='p1'?-4:4))*k)+'deg)';e.style.opacity=Math.min(1,k*2)*(1-p(t,14.7,15.0));});
+ show($('wu'),t,99,99);{const k=eb(p(t,10.3,10.6));$('wu').style.transform='scale('+(.6+.4*k)+')';$('wu').style.opacity=Math.min(1,k*2)*(1-p(t,10.95,11.2));}
+ show($('fl'),t,8.7,9.35);$('fl').style.opacity=p(t,8.7,9.0)*(1-p(t,9.0,9.35));
+ show($('hd'),t,P2,15.0);{const k=eb(p(t,P2+0.05,P2+0.4));$('hd').style.transform='scale('+(.7+.3*k)+')';$('hd').style.opacity=Math.min(1,k*2)*(1-p(t,14.7,15.0));}
  show($('qt'),t,15.0,E);$('q1').style.opacity=eo(p(t,15.0,15.3));$('q2').style.opacity=eo(p(t,17.15,17.4));$('q2').style.transform='scale('+(.8+.2*eb(p(t,17.15,17.5)))+')';$('qt').style.opacity=1-p(t,E-0.25,E);
  show($('q'),t,17.4,E);{const k=eb(p(t,17.4,17.7));$('q').style.transform='translateY('+(1-k)*80+'px)';$('q').style.opacity=k*(1-p(t,E-0.25,E));}
  const s=SUBS.find(x=>t>=x[0]-0.05&&t<x[1]);show($('sub'),t,0,E);$('sub').style.visibility=(s&&!(t>=15.0&&t<E))?'visible':'hidden';if(s){$('stx').textContent=s[2];$('sub').style.transform='scale('+(.88+.12*eo(p(t,s[0]-.05,s[0]+.1)))+')';}
