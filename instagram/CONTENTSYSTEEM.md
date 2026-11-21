@@ -289,3 +289,13 @@ Buiten filmen lukt bijna niet meer (weer, kou, vroeg donker, overdag speelt niem
 - **Andere bronnen voor actiebeeld:** archief (beelden van vorig seizoen en Sports NEXT), beelden die klanten of clubs zelf sturen (met toestemming), schermopnames van Instagram-profielen (voor analyses en voor/na).
 - Elke reel die echt beeld nodig heeft, krijgt in de planning een **studio-alternatief** zodat de post niet hoeft te schuiven.
 - **Klant of partner in de post?** Altijd vooraf vragen om te delen in hun story (FLAXX-carrousel 16/11: 85% van 1.487 weergaven via stories, 88% niet-volgers).
+
+## 5p. Scriptcheck vóór elke opname (21/11, uit "Short-Form Storytelling Principles", Kallaway)
+Elke reeltekst gaat door deze 6 vragen. Twee keer nee = herschrijven.
+1. **Contrast:** botst de opening met wat een clubbestuur denkt? ("Niemand wordt lid van een uitslag.")
+2. **Waarde binnen 5 s:** weet de kijker na 5 seconden wat hij gaat leren of krijgen?
+3. **Geen opvulling:** kan er een zin weg zonder dat iemand iets mist? Dan weg.
+4. **Herhaling van de kern:** wordt het belangrijkste punt twee keer gezegd, één keer kort en één keer met een beeld of voorbeeld?
+5. **Spanning:** is er iets waar de kijker op wacht? ("De laatste maakt bijna iedereen.")
+6. **Ritme en energie:** vooral korte zinnen, af en toe een langere. Energie bij het inspreken iets hoger dan in een gewoon gesprek.
+Woorden: eenvoudig (geen vakjargon zonder uitleg), actieve zinnen, emotiewoorden waar het past (schrik, trots, opluchting).
