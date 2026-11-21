@@ -8,6 +8,7 @@ const C = [
  ['affiches', 'Mening', ['Sportclubs,', 'stop met'], 'affiches!', true],
  ['proefles', 'Clubtip · leden', ['Waarom komt hij'], 'nooit meer terug?', false],
  ['december', 'Clubtip · december', ['Welke 4 posts', 'vergeet je club'], 'in december?', false],
+ ['uitslagen', 'Mening', ['Voetbalclubs,', 'stop met enkel'], 'uitslagen posten', false],
 ];
 (async () => {
   const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 1080, height: 1920 } });
