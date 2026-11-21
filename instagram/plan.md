@@ -199,3 +199,5 @@ Xerius: instap Q4, inkomsten onder grens (±€1.090-1.900) → geen sociale bij
 **Do 19/11 18u:** ✅ reel proefles online (cover A) + story met peiling. Kickstart-DM's: 6 nieuwe zaken (ronde 3) + Sportkampen Zele; Compound nee, Britt nu nog niet (maart). Reel december v1 klaar (post di 24/11).
 
 **Status vr 20/11 (ochtend):** vrijdag = vrij. Za: opnamesessie vóór 12u, Kickstart-stories 19u30, statistieken reel proefles + proefreel A + peiling. Claude maakt carrousel CLUBCHECK voor ma 23/11. Ondernemingsnummer (ING + Xerius) → ma 23/11. Ronde 1-prospects → uur verkoop ma 30/11.
+
+**Status za 21/11 (ochtend):** vandaag opnamesessie vóór 12u (voetbal 12u30), Kickstart-stories 19u30, statistieken. Reel december v1 wacht op akkoord Jari. Carrousel CLUBCHECK (fictieve club, voor/na profiel, gezicht op cover) maakt Claude vandaag, inplannen ma 18u. Aurora: nee (fotograaf).
