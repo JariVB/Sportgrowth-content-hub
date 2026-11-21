@@ -6,7 +6,7 @@ const F = '/home/user/Sportgrowth-content-hub/website/site/fonts';
 const OUT = process.argv[2]; fs.mkdirSync(OUT, { recursive: true });
 const f64 = p => 'data:font/woff2;base64,' + fs.readFileSync(p).toString('base64');
 const logo = fs.readFileSync('/home/user/Sportgrowth-content-hub/website/site/favicon.svg', 'utf8').replace('<svg ', '<svg width="100%" height="100%" ');
-const FPS = 30, DUR = 24.0, P2 = 11.4, E = 19.15;
+const FPS = 30, DUR = 24.0, P2 = 11.4, E = 20.9;
 const CH = [[0.2,'Voetbalclubs'],[1.1,'stop met enkel'],[1.9,'uitslagen posten'],[3.1,null],
  [3.8,'3-1 gewonnen'],[5.2,'0-2 verloren'],[6.2,null],[6.65,'Niemand wordt lid'],[7.7,'van een uitslag'],[8.6,null],
  [9.0,'Wat wel werkt?'],[9.8,null],[10.3,'De warming-up'],[11.3,null],
@@ -67,7 +67,7 @@ window.render=function(t){
  [['p1',10.3],['p2',11.6],['p3',13.1]].forEach(([id,s])=>{const e=$(id);show(e,t,s,15.0);const k=eb(p(t,s,s+0.4));e.style.transform='translateY('+(1-k)*700+'px) rotate('+((id==='p2'?0:(id==='p1'?-4:4))*k)+'deg)';e.style.opacity=Math.min(1,k*2)*(1-p(t,14.7,15.0));});
  show($('hd'),t,P2,15.0);$('hd').style.opacity=eo(p(t,P2,P2+0.3))*(1-p(t,14.7,15.0));
  show($('qt'),t,15.0,E);$('q1').style.opacity=eo(p(t,15.0,15.3));$('q2').style.opacity=eo(p(t,17.15,17.4));$('q2').style.transform='scale('+(.8+.2*eb(p(t,17.15,17.5)))+')';$('qt').style.opacity=1-p(t,E-0.25,E);
- show($('q'),t,17.7,E);{const k=eb(p(t,17.7,18.0));$('q').style.transform='translateY('+(1-k)*80+'px)';$('q').style.opacity=k*(1-p(t,E-0.25,E));}
+ show($('q'),t,17.4,E);{const k=eb(p(t,17.4,17.7));$('q').style.transform='translateY('+(1-k)*80+'px)';$('q').style.opacity=k*(1-p(t,E-0.25,E));}
  const s=SUBS.find(x=>t>=x[0]-0.05&&t<x[1]);show($('sub'),t,0,E);$('sub').style.visibility=(s&&!(t>=15.0&&t<E))?'visible':'hidden';if(s){$('stx').textContent=s[2];$('sub').style.transform='scale('+(.88+.12*eo(p(t,s[0]-.05,s[0]+.1)))+')';}
  show($('end'),t,E,99);$('end').style.opacity=eo(p(t,E,E+0.3));
 };</script>`;
