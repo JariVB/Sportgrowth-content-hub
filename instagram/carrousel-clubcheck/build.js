@@ -36,7 +36,7 @@ p.t{font:500 38px/1.38 In;color:#c9d4ee;margin:0}p.t b{color:#fff}
 const page = (n, inner) => `<section class="s" id="s${n}">${inner}<div class="pg">${[1,2,3,4,5,6,7,8].map(i=>`<b class="${i===n?'on':''}"></b>`).join('')}</div><div class="logo">SportGrowth<i>MEDIA</i></div></section>`;
 const AF = [['#e94b3c','Kerstdrink<br>20/12'],['#2b5cab','Uitslagen<br>interclub'],['#f2b134','Algemene<br>vergadering'],['#3a8d5a','Lidgeld<br>2027'],['#e94b3c','Uitslagen<br>week 46'],['#7a4bd1','Tornooi<br>inschrijven'],['#2b5cab','Gesloten<br>1/11'],['#f2b134','Mosselfeest'],['#3a8d5a','Uitslagen<br>week 45']];
 const badGrid = AF.map(([c,t])=>`<div style="background:${c};color:#fff">${t}</div>`).join('');
-const P = [B+'/padel-lachen-aan-net.jpg',B+'/tennis-hal-speler.jpg',B+'/padel-vol-terras.jpg',B+'/jari-tennis-lacht.jpg',B+'/padel-net-overdekte-hal.jpg',B+'/tennis-racket-net.jpg',B+'/jari-tennis-slag.jpg',B+'/tennis-hal-breed.jpg',B+'/tennis-ballen-net.jpg'];
+const P = [2,1,3,5,7,4,9,6,8].map(i=>__dirname+'/mensen/m'+i+'.jpg');
 const goodGrid = (pins) => P.map((p,i)=>`<div class="${pins&&i<3?'pin':''}" style="background-image:${i64(p)}">${pins&&i<3?['','',''][i]:''}</div>`).join('');
 const phone = (x, y, bio, hl, grid, sc=1) => `<div class="ph" style="left:${x}px;top:${y}px;transform:scale(${sc});transform-origin:top left"><div class="scr">
 <div class="top"><div class="av">TC</div><div><div class="nm">tcdeklaver</div><div class="st"><span><b>${sc?'412':''}</b>volgers</span><span><b>88</b>posts</span></div></div></div>
