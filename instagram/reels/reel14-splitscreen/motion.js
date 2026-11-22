@@ -16,17 +16,18 @@ const html = `<style>
 @font-face{font-family:Rj;src:url(${f64(F+'/rajdhani-700.woff2')})}@font-face{font-family:In;src:url(${f64(F+'/inter-var.woff2')})}
 body{margin:0;background:transparent}#c{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:In}
 .a{position:absolute;display:none}
-#hk{left:50px;right:50px;top:130px;text-align:center;background:rgba(13,27,62,.92);border:3px solid #3fe0ff;border-radius:28px;padding:34px 20px 30px}#hk h1{margin:0;font:700 104px/.95 Rj;text-transform:uppercase;color:#fff;text-shadow:0 8px 30px rgba(0,0,0,.6)}#hk h1 span{color:#3fe0ff}
-.lb{left:50px;top:90px;font:800 44px In;padding:12px 26px;border-radius:14px;letter-spacing:.06em}
-#la{background:#ff3b30;color:#fff}#lp{background:#19d38a;color:#0a1226}
-#af{left:40px;top:330px;width:400px;padding:22px;background:#fff36b;border:6px dashed #ff2d95;transform:rotate(-6deg);font:900 50px/1.05 'Comic Sans MS',In;color:#e0002b;text-align:center;box-shadow:0 20px 40px rgba(0,0,0,.35)}
+#hk{z-index:5;left:40px;right:40px;top:120px;text-align:center;background:rgba(13,27,62,.92);border:3px solid #3fe0ff;border-radius:28px;padding:34px 20px 30px}#hk h1{margin:0;font:700 104px/.95 Rj;text-transform:uppercase;color:#fff;text-shadow:0 8px 30px rgba(0,0,0,.6)}#hk h1 span{color:#3fe0ff}
+.lb{top:110px;font:800 40px In;padding:10px 20px;border-radius:12px;letter-spacing:.04em}
+#la{left:30px;background:#ff3b30;color:#fff}#lp{left:570px;background:#19d38a;color:#0a1226}
+.dm{top:0;bottom:0;width:540px;background:rgba(5,8,15,.62)}#dl{left:0}#dr{left:540px}
+#af{left:40px;top:1180px;width:440px;padding:22px;background:#fff36b;border:6px dashed #ff2d95;transform:rotate(-6deg);font:900 50px/1.05 'Comic Sans MS',In;color:#e0002b;text-align:center;box-shadow:0 20px 40px rgba(0,0,0,.35)}
 #af small{display:block;font:800 30px 'Comic Sans MS',In;color:#0033cc;margin-top:10px}
-#st{left:640px;top:1130px;font:800 46px In;color:#0d1b3e;background:#fff;padding:16px 26px;border-radius:20px;box-shadow:0 20px 50px rgba(0,0,0,.4)}
-#ph{left:670px;top:430px;width:370px;background:#fff;border-radius:26px;padding:14px;box-shadow:0 30px 70px rgba(0,0,0,.5)}
+#st{left:600px;top:1180px;font:800 46px In;color:#0d1b3e;background:#fff;padding:16px 26px;border-radius:20px;box-shadow:0 20px 50px rgba(0,0,0,.4)}
+#ph{left:575px;top:270px;width:470px;background:#fff;border-radius:26px;padding:14px;box-shadow:0 30px 70px rgba(0,0,0,.5)}
 #ph .im{height:300px;border-radius:16px;background:url(${img}) center 70%/cover;position:relative}
 #ph .im i{position:absolute;left:12px;bottom:12px;font:800 24px In;font-style:normal;color:#fff;background:rgba(0,0,0,.55);padding:6px 12px;border-radius:10px}
 #ph .t{font:800 30px In;color:#0d1b3e;padding:12px 6px 4px}
-#pl{left:0;right:0;top:1150px;text-align:center}#pl b{display:inline-block;font:800 54px In;color:#fff;background:#ff6a00;padding:16px 30px;border-radius:20px;box-shadow:0 20px 50px rgba(0,0,0,.4)}
+#pl{left:540px;right:0;top:1160px;text-align:center}#pl b{display:inline-block;font:800 46px In;color:#fff;background:#ff6a00;padding:16px 30px;border-radius:20px;box-shadow:0 20px 50px rgba(0,0,0,.4)}
 #pl em{display:block;margin:18px auto 0;width:max-content;font:800 40px In;font-style:normal;color:#0d1b3e;background:#00d4ff;padding:14px 26px;border-radius:40px}
 .sl{top:110px;font:800 40px In;padding:10px 20px;border-radius:12px}#s1{left:30px;background:#ff3b30;color:#fff}#s2{left:570px;background:#19d38a;color:#0a1226}
 #sp{top:0;bottom:0;left:532px;width:16px;background:#0d1b3e}
@@ -38,7 +39,7 @@ body{margin:0;background:transparent}#c{position:relative;width:1080px;height:19
 #end .dm{font:700 78px/1 Rj;color:#0d1b3e;background:#00d4ff;padding:22px 40px 14px;border-radius:24px}#end .f{font:600 34px In;color:#8fa3cc}
 </style><div id="c">
 <div id="hk" class="a"><h1>Zelfde tornooi.<br><span>Welke post vult het?</span></h1></div>
-<div id="la" class="a lb">❌ AMATEUR</div><div id="lp" class="a lb">✅ PRO</div>
+<div id="dl" class="a dm"></div><div id="dr" class="a dm"></div><div id="la" class="a lb">1 · AMATEUR</div><div id="lp" class="a lb">2 · PRO</div>
 <div id="af" class="a">TORNOOI!!! 🎾🎉🍻<small>zaterdag · iedereen welkom · info volgt</small></div>
 <div id="st" class="a">👥 64 spelers</div>
 <div id="ph" class="a"><div class="im"><i>📸 Tornooi 2025</i></div><div class="t">Zo zag het eruit</div></div>
@@ -55,13 +56,13 @@ const SUBS=${JSON.stringify(SUBS)},B=${B},C=${C},E=${E};
 const pop=(e,t,a,b,s0=.6)=>{show(e,t,a,b);const k=eb(p(t,a,a+.35));e.style.transform=(e._r||'')+' scale('+(s0+(1-s0)*k)+')';e.style.opacity=Math.min(1,k*2)*(1-p(t,b-.25,b));};
 window.render=function(t){
  show($('hk'),t,0,2.3);{const k=eo(p(t,0,.3));$('hk').style.opacity=k*(1-p(t,2.0,2.3));$('hk').style.transform='scale('+(1.1-.1*k)+')';}
- show($('la'),t,2.3,B);$('la').style.opacity=eo(p(t,2.3,2.6));
+ show($('la'),t,2.3,E);$('la').style.opacity=eo(p(t,2.3,2.6));show($('lp'),t,2.3,E);$('lp').style.opacity=eo(p(t,2.3,2.6));
+ show($('dr'),t,0,B);$('dr').style.opacity=1-p(t,B-.2,B);show($('dl'),t,B-.2,C);$('dl').style.opacity=p(t,B-.2,B)*(1-p(t,C-.2,C));
  $('af')._r='rotate(-6deg)';pop($('af'),t,2.4,B,.4);
- show($('lp'),t,B,C);$('lp').style.opacity=eo(p(t,B,B+.3));
  pop($('st'),t,B+1.6,B+3.9);
  pop($('ph'),t,B+3.95,B+5.9,.5);
  pop($('pl'),t,B+5.95,C);
- show($('sp'),t,C,E);show($('s1'),t,C,E);show($('s2'),t,C,E);
+ show($('sp'),t,0,E);
  pop($('q'),t,C+.3,E+.01,.7);
  const s=SUBS.find(x=>t>=x[0]-0.05&&t<x[1]);show($('sub'),t,0,C);$('sub').style.visibility=s?'visible':'hidden';if(s){$('stx').textContent=s[2];$('sub').style.transform='scale('+(.88+.12*eo(p(t,s[0]-.05,s[0]+.1)))+')';}
  show($('end'),t,E,99);$('end').style.opacity=eo(p(t,E,E+.3));
