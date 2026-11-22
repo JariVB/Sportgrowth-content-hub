@@ -28,6 +28,7 @@ body{margin:0;background:transparent}#c{position:relative;width:1080px;height:19
 .th .tm{position:absolute;right:14px;top:12px;font:800 24px In;color:#0d1b3e;background:#00d4ff;padding:5px 12px;border-radius:10px}
 .av{display:flex;align-items:center;gap:-10px}.av i{width:76px;height:76px;border-radius:50%;border:4px solid #fff;margin-right:-16px;display:flex;align-items:center;justify-content:center;font:800 28px In;color:#fff;font-style:normal}
 .av span{margin-left:30px;font:800 30px In;color:#e5245a}
+#k1{left:690px;top:590px;width:370px}#k1 .th{height:130px}
 .chip{display:block;font:700 30px In;background:#eef3fb;border-radius:14px;padding:12px 16px;margin-top:10px;opacity:0}
 #sub{left:60px;right:60px;top:1655px;display:flex;justify-content:center}
 #sub span{display:inline-block;font:800 58px/1.15 In;color:#fff;background:rgba(13,27,62,.88);padding:14px 28px 18px;border-radius:18px;text-align:center}
@@ -51,7 +52,7 @@ const show=(e,t,a,b)=>{e.style.display=(t>=a&&t<b)?((e.id==='end'||e.id==='sub')
 const SUBS=${JSON.stringify(SUBS)},T=${JSON.stringify(T)},Q=${Q},E=${E};
 const ENDS=[T[1]-0.4,T[2]-0.4,T[3]-0.4,Q-0.1];
 window.render=function(t){
- for(let i=0;i<4;i++){const e=$('k'+(i+1)),a=T[i]+0.1,b=ENDS[i];show(e,t,a,b);const k=eb(p(t,a,a+0.4));e.style.transform='translateX('+(1-k)*520+'px) rotate('+(3-2*k)+'deg)';e.style.opacity=1-p(t,b-0.3,b);}
+ for(let i=0;i<4;i++){const e=$('k'+(i+1)),a=(i===0?7.95:T[i]+0.1),b=ENDS[i];show(e,t,a,b);const k=eb(p(t,a,a+0.4));e.style.transform='translateX('+(1-k)*520+'px) rotate('+(3-2*k)+'deg)';e.style.opacity=1-p(t,b-0.3,b);}
  [[22.98,'c1'],[23.84,'c2'],[24.66,'c3']].forEach(([s,id])=>{const k=eo(p(t,s-0.15,s+0.15));$(id).style.opacity=k;$(id).style.transform='translateX('+(1-k)*40+'px)';});
  show($('q'),t,Q,E);{const k=eb(p(t,Q,Q+0.35));$('q').style.transform='scale('+(.7+.3*k)+')';$('q').style.opacity=Math.min(1,k*2)*(1-p(t,E-0.25,E));}
  const s=SUBS.find(x=>t>=x[0]-0.05&&t<x[1]);show($('sub'),t,0,E);$('sub').style.visibility=s?'visible':'hidden';if(s){$('stx').textContent=s[2];$('sub').style.transform='scale('+(.88+.12*eo(p(t,s[0]-.05,s[0]+.1)))+')';}
