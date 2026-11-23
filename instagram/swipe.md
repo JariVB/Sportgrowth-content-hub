@@ -13,9 +13,34 @@ Werkwijze (vanaf 9/11):
 | @savvysportscommunications | sportclubmarketing UK, 10,1K | gezicht + stelling op cover, reeks "5 Marketing Mistakes ... Part 1-6", gratis masterclass |
 | @house.of.ag | content studio VS, 207K | achter de schermen bij klant (112K), werkwijze ("20 posts in 1 dag") |
 | @tylertometich | content mentor VS, 567K | tegenstellingen naast elkaar, "wat ik zou doen als ik 30 dagen je merk overnam", "Send this to them" |
+| @sctrsportsocials | sportsocials, ex-Red Bull, 1.296 | eigen verhaal (18x), één highlight per klant |
+| @_shotbygino | sportvideograaf NL, 665 | klantwerk als collab, "final spots open" |
+| @collabclub___ | clubsocials AU, 383 | meest vergelijkbaar met SGM: amateurclubs, reviews-highlight, los eventpakket |
 | @padelmyvibe | padel lifestyle | persoonlijk verhaal, "If I had to build a community for a padel club" |
 
-## Lessen 23/11
+## Lessen 23/11 · agencies (Drive "SGM trendonderzoek 2026-11-23", 10 agencies + 6 clubs)
+Wij: 101 volgers, mediaan ±580. Ter vergelijking: kleine sportagencies (600-2.000 volgers) zitten op een mediaan van 1.700-7.000.
+1. **Niche + namen in de bio.** @shotby.rene noemt KNLTB en Eredivisie, @allstarmedia.uk is "de agency voor cheerleading", @_shotbygino zet zijn atleten in de bio. "Meer leden, boekingen en sponsors" kan elk bureau zeggen.
+2. **Klantwerk als collab posten + één highlight per klant.** Top-reels van Allstar (40K, 17x), Gino (20,9K, 4x) en CollabClub (7,2K, 4x) zijn collabs met de klant. @sctrsportsocials heeft een highlight per klant.
+3. **Eigen verhaal van de oprichter** haalt het meest: sctr 30,9K (18x) "this was me at Red Bull", Tyler 103K "I got fired from Hollywood" (8 s wandelshot + tekstvak, verhaal in de caption).
+4. **Bestuurders rechtstreeks aanspreken:** Rene 11,6K (3x) met 6 s toernooibeeld + "Zit jij in het bestuur van een tennisclub? Lees de caption!" en 4 tips in de caption.
+5. **Reactiewoord + schaarste:** "Comment GAME" 480 reacties, "final spots open" (Gino), "2027 collabs now open" (Kini). Voor SGM enkel binnen de gratis analyse: "Reageer ANALYSE" + "max 10 clubs per maand".
+6. **Klein instapproduct naast volledig beheer:** CollabClub verkoopt een los Presentation Night Package, Savvy een maandabonnement met ideeën. SGM heeft de Kickstart al. Een apart toernooi- of clubfeestpakket is een nieuw product → enkel als voorstel aan Jari, niet overnemen.
+Niet overnemen: weggevertjes/templates (Savvy), coaching (Brian, Tyler), eigen app (house.of.ag). Blijft buiten het SGM-concept.
+
+**Clubs (tabel B):** 4 van de 6 beste reels zijn collabs (goed doel, partner, andere club). Mensen winnen van affiches (Duinbergen: affiche-reel het zwakst).
+| Club | Reel | x mediaan | Vorm |
+|---|---|---|---|
+| @padelclub_paquito (Erpe-Mere) | 29K | 3,2x | medewerkster legt tornooi uit, "Wie neem jij mee? Tag ze", 76 s |
+| @padelclub_melle | 8.849 | 7x | collab sponsorrit Kom op tegen Kanker, 32 s |
+| @sportclub_houten | 17K | 3x | "WE HAVE OUR WINNERS U18", ouders delen |
+| @vcleest | 5.307 | 2,5x | humoristische quizaankondiging; vrijwilligersportretten 2,4x |
+| @tennisclub.duinbergen | 4.570 | 2,1x | collab kampen met partner |
+| @demerelsport | 5.025 | 2,3x | clubdag, sfeer + tekst |
+
+**3 formats voor klanten:** (1) clubgezicht legt het event uit + "Wie neem jij mee? Tag ze" (45-75 s); (2) collab-reel met partner, lid of goed doel als mede-auteur; (3) jeugdwinnaars binnen 24u met namen in de caption.
+
+## Lessen 23/11 · clubs
 1. Clubs: **gezichten en spelers** winnen. Spelers voorstellen met een trend ("Welk rugnummer heb jij?", 115K, 40x mediaan), quiz tussen 2 teamgenoten (27,5K, 10x), supporters bij een emotioneel moment (166K, 8x).
 2. **Pijnpunt-hook die een bezwaar wegneemt** ("Te druk om 3x per week te trainen?", 22,9K) werkt voor ledenwerving. Kanttekening: 31 likes, wellicht gesponsord.
 3. Kort sfeerbeeld 6-13 s met grote tekst + de echte boodschap in de caption ("Zit jij in het bestuur? Lees de caption!", 11,6K = 3x).

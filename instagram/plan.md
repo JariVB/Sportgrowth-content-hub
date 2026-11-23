@@ -219,3 +219,11 @@ Xerius: instap Q4, inkomsten onder grens (±€1.090-1.900) → geen sociale bij
 1. **Meningsreel in de camera (HERKENBAAR?/stelling, 30-45 s):** "Waarom stopt de jeugd rond hun 15e met sporten bij je club?" Opnemen wo 2/12 na Michelle (thuis bij de plant). Vraag-hook = 69 reacties bij Rene. Post di 8/12 18u.
 2. **CLUBTIP-reel "3 reels met je spelers die altijd werken" (25-35 s):** rugnummer-trend, Meet the team, quiz tussen 2 teamgenoten. Beeld: Kickstart-shoot Michelle (leden) + padeltraining. Afsluiter: gratis analyse via DM. Post do 10/12 18u.
 3. **Caption-reel naar clubbesturen (8 s):** sfeerbeeld volle padelhal/kantine + grote tekst "Geen tijd om elke week te posten? Lees de caption." Caption = 5 tips + CTA "Reageer ANALYSE, dan sturen we je een DM" (test reactiewoord binnen vaste CTA). Post ma 7/12 18u.
+
+**Trendonderzoek agencies 23/11 → wat SGM aanpast (binnen het concept):**
+1. **Caption-reel 7/12 wordt sterker:** hook "Zit jij in het bestuur van een sportclub? Lees de caption." Caption: 4 echte cijfers uit 6 clubs (Paquito 29K met een medewerkster die het tornooi uitlegt, Duinbergen: affiche het zwakst, Melle 7x met een goed doel, Houten: jeugdwinnaars). CTA: "Reageer ANALYSE, dan stuur ik je een DM. Max 10 clubs per maand."
+2. **Michelle als collab:** haar Kickstart-reels posten als collab (zij mede-auteur), zodat ze ook in haar feed staan. Vragen op de shoot wo 2/12. Daarna highlight "Michelle" met voor/na.
+3. **Highlights per klant** i.p.v. één "Resultaat": FLAXX, Jan Stilten, later Michelle.
+4. **Oprichtersreel (8-15 s, wo 2/12 filmen):** Jari wandelt naar de zaal van Michelle met camera, tekstvak: "Clubs posten affiches. Ik wou dat leden zich erin herkenden." Het verhaal (waarom SGM, Lokeren, padeltrainer die zag wat werkt) in de caption. Post ma 14/12 18u.
+5. **Formats voor de shotlist van Michelle (1/12):** vast gezicht + "Wie neem jij mee naar de les? Tag ze" en een collab met een partner of lid.
+Beslissing Jari: (a) bio scherper met namen, bv. "Instagram voor sportclubs in Vlaanderen · o.a. FLAXX, Jan Stilten Padel Academy" (enkel met hun akkoord); (b) apart toernooi-/clubfeestpakket naast de Kickstart: nieuw product, nu niet opnemen tenzij Jari het wil.
