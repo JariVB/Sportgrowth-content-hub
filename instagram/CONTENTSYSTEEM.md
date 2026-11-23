@@ -299,3 +299,21 @@ Elke reeltekst gaat door deze 6 vragen. Twee keer nee = herschrijven.
 5. **Spanning:** is er iets waar de kijker op wacht? ("De laatste maakt bijna iedereen.")
 6. **Ritme en energie:** vooral korte zinnen, af en toe een langere. Energie bij het inspreken iets hoger dan in een gewoon gesprek.
 Woorden: eenvoudig (geen vakjargon zonder uitleg), actieve zinnen, emotiewoorden waar het past (schrik, trots, opluchting).
+
+## 5q. SGM verkopen, geen tips voor clubs (beslist 23/11)
+Doel van het profiel: wie op de website of het profiel komt, wil met SGM samenwerken. Een tip die een club zelf kan uitvoeren verkoopt SGM niet. Bewijs dat wij het doen wel.
+
+**Weekmix (3 posts):**
+| Soort | Wat | Voorbeeld |
+|---|---|---|
+| **Bewijs** | klantwerk, voor/na, cijfers, getuigenis. Klantreels als collab (klant mede-auteur) | reel Michelle als collab, FLAXX-carrousel, "Van 4 likes naar 1.200 weergaven" |
+| **Achter de schermen** | Jari aan het werk: filmen, monteren, een analyse, een gesprek | "Zo ziet een filmdag bij een fitnesszaak eruit", oprichtersreel |
+| **Mening of expertise** | stelling naar uitbaters en bestuurders, eindigt met "of laat het ons doen" | split-screen, "Zit jij in het bestuur? Lees de caption" |
+Aanbod (Kickstart, plaatsen, deadline): elke week in stories, 1 keer per maand als post.
+
+**Regels:**
+- Een tip mag nog, maar alleen als bewijs dat we het kunnen. Slot altijd: "Geen tijd? Wij doen het voor je." Geen "zo doe je het zelf"-lijstjes.
+- Elke shoot bij een klant levert ook 1 achter-de-schermenreel voor SGM op (5 shots van Jari aan het werk).
+- Vastgezet (3): oprichtersreel (wie), bewijs Michelle/FLAXX (resultaat), Kickstart (aanbod).
+- Highlights: één per klant (FLAXX, Jan Stilten, Michelle) + Gratis analyse + Over mij.
+- Toets vóór elke post: "Zou een uitbater hierna denken: die wil ik inhuren?" Zo niet, niet posten.

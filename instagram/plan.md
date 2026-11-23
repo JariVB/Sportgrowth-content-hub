@@ -227,3 +227,11 @@ Xerius: instap Q4, inkomsten onder grens (±€1.090-1.900) → geen sociale bij
 4. **Oprichtersreel (8-15 s, wo 2/12 filmen):** Jari wandelt naar de zaal van Michelle met camera, tekstvak: "Als trainer en speler zag ik het elke week: clubs vol leven, een lege Instagram." Het verhaal (voetbal, padel, wat Jari zag, waarom SGM in Lokeren) in de caption. Post ma 14/12 18u.
 5. **Formats voor de shotlist van Michelle (1/12):** vast gezicht + "Wie neem jij mee naar de les? Tag ze" en een collab met een partner of lid.
 Beslissing Jari: (a) bio scherper met namen, bv. "Instagram voor sportclubs in Vlaanderen · o.a. FLAXX, Jan Stilten Padel Academy" (enkel met hun akkoord); (b) apart toernooi-/clubfeestpakket naast de Kickstart: nieuw product, nu niet opnemen tenzij Jari het wil.
+
+**Beslist 23/11: content verkoopt SGM (CONTENTSYSTEEM 5q).** Weekmix: bewijs, achter de schermen, mening. Tips enkel met slot "Geen tijd? Wij doen het voor je."
+Bijgestuurd:
+- do 3/12 reel 5 fouten: slot wordt "Herken je er 2? Wij lossen ze op. Reageer ANALYSE."
+- **Week 7/12 (vervangt de 3 trendposts):** ma 7/12 caption-reel "Zit jij in het bestuur van een sportclub? Lees de caption" (mening) · di 8/12 achter de schermen "Zo ziet een filmdag bij een fitnesszaak eruit" (beelden 2/12, Jari aan het werk) · do 10/12 oprichtersreel "Als trainer en speler zag ik het elke week: clubs vol leven, een lege Instagram."
+- **Week 14/12:** reel Michelle als collab (bewijs) · Kickstart-post "Nog X plaatsen aan €197 tot 31/12" (aanbod) · mening.
+- Geschrapt: meningsreel "Waarom stopt de jeugd…" en CLUBTIP "3 reels met je spelers" (tips voor clubs, verkopen SGM niet).
+- Na Michelle: 3 posts vastzetten (oprichtersreel, bewijs, Kickstart) + highlights per klant.
