@@ -46,7 +46,13 @@ Altijd inbegrepen:
 
 "Wat het niet is": geen advertentiebudget, geen beheer van advertenties.
 
+## 4b. Vraag: "Dus TeddyPadel en de club zonder advertenties?"
+"Niet helemaal. TeddyPadel start van nul: daar raad ik een klein budget aan, €5-10 per dag rond de lesplaatsen, met mijn reels als advertentie. De padelclub bouwen we tot maart zonder advertenties op (bouwserie, wachtlijst). In de laatste 3-4 weken voor de opening kort adverteren (±€150-300)."
+
 ## 5. Bezwaar: "Dat komt bovenop mijn advertenties, dat wordt te duur"
+**Leg meteen kaart 2 op tafel** (niets komt bovenop wat hij nu betaalt):
+"Ik begrijp het. Daarom: we starten met TeddyPadel en de padelclub, waar nu nog niets loopt: €1.123/maand. BabyBallers laat je zoals het is, op Google. Na 2-3 maanden bekijken we BabyBallers, met de cijfers van TeddyPadel erbij."
+
 "Ik begrijp het. Kijk naar wat er nu loopt:"
 - "TeddyPadel en de padelclub hebben vandaag geen marketing. Die moet je sowieso lanceren, met mij of met advertenties of een bureau."
 - "Enkel BabyBallers overlapt. En daar kan een deel van het Meta-budget naar content zodra de cijfers het tonen."
