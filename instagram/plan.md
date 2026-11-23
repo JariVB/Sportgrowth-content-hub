@@ -205,3 +205,12 @@ Xerius: instap Q4, inkomsten onder grens (±€1.090-1.900) → geen sociale bij
 **Za 21/11 avond:** ✅ Kickstart-stories (selfievideo bij de plant + 3 beelden, nog 2 plaatsen) + bio aangepast. Reel uitslagen v4 klaar (deel 1 Beeble, deel 2 grafisch, 0 extra credits). Beeble-credits op: OTOY werkte niet op de gsm; regel: tools max 10-15% van inkomsten, Beeble Pro nu niet.
 
 **Status zo 22/11 (ochtend):** carrousel CLUBCHECK klaar (fictieve club TC De Klaver, voor/na, Jari in studio op cover). Vandaag inplannen: ma carrousel, di reel december, do reel uitslagen. Beeble: credits op tot ±12/12 → split-screen (ma 30/11) zonder studio: amateur EN pro tegen de witte muur, verschil zit in de aanpak. 5 fouten: na nieuwe credits of met korte studio-intro. Morgen: Peter bellen na 16u, opvolgen 6 zaken, ING + Xerius.
+
+**Status ma 23/11 (ochtend):** klaar voor deze week: carrousel CLUBCHECK (ma 18u, slides 5-7 met mensen), reel december v2 (di 18u), reel uitslagen v4 (do 18u), split-screen v6 pingpong (ma 30/11). Visitekaartje klaar (visitekaartje/). Merch: Anthem AM201 + AM015 navy. Vandaag: inplannen vóór 17u, Peter bellen na 16u, opvolgen 6 zaken, ING + Xerius.
+
+**Weekplan 30/11-6/12 (voorstel):**
+- ma 30/11 18u: reel split-screen "Zelfde tornooi. Welke post vult het?" (v6, klaar) · uur verkoop 's avonds (ronde 1 met Claude in Chrome)
+- wo 2/12 9u-10u: shoot Kickstart Michelle · daarna opnamesessie (2 teksten, thuis bij de plant, zonder Beeble)
+- do 3/12 18u: reel "5 fouten op de Instagram van je club": Jari kort in beeld (hook + slot, studio-take van 21/11 zonder Beeble: thuisbeeld) + de 5 fouten groot als voorbeelden met zijn stem
+- za/zo: stories (Kickstart herhaling + resultaten)
+- Beeble pas terug als 2 klanten betalen (regel 22/11).
