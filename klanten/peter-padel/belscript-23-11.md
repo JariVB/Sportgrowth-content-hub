@@ -20,9 +20,13 @@ Altijd inbegrepen: 1 filmdag/maand in Limburg (verplaatsing inbegrepen), elke re
 "Hey Peter, Jari hier. Alles goed? Hoe staat het met de bouw in Dilsen?" → laten praten.
 "Heb je het voorstel en mijn mail over de cijfers kunnen bekijken? Wat vond je ervan?" → laten praten, noteer zijn eerste bezwaar.
 
-## 2. Het voorstel: alle drie
-"Ik zie het als één project: drie merken die elkaar versterken. TeddyPadel en BabyBallers brengen jonge gezinnen binnen, en die kinderen groeien door naar de academy van de padelclub. Met alle drie samen kan ik dat verhaal over de merken heen vertellen, en film ik alles op één dag per maand in Limburg.
-Daarom de bundel: €1.485 per maand in plaats van €1.747."
+## 2. Het voorstel: drie losse projecten
+"Ik zie het als drie aparte projecten, elk met een eigen doel:
+- **TeddyPadel**: de Belgische lancering, lessen vol in januari.
+- **BabyBallers**: meer inschrijvingen per locatie, Meta goedkoper maken.
+- **De padelclub**: de bouw tot de opening volgen, en daarna de daluren vullen.
+Elk project krijgt een eigen plan en een eigen maandrapport. Je kan elk project apart beoordelen, en na 3 maanden ook apart stoppen.
+Omdat ik alles op één filmdag in Limburg kan combineren, krijg je bij alle drie 15% korting: €1.485 per maand in plaats van €1.747."
 
 ## 3. "Wat moet ik doen met mijn advertenties?"
 **BabyBallers:**
