@@ -214,3 +214,8 @@ Xerius: instap Q4, inkomsten onder grens (±€1.090-1.900) → geen sociale bij
 - do 3/12 18u: reel "5 fouten op de Instagram van je club": Jari kort in beeld (hook + slot, studio-take van 21/11 zonder Beeble: thuisbeeld) + de 5 fouten groot als voorbeelden met zijn stem
 - za/zo: stories (Kickstart herhaling + resultaten)
 - Beeble pas terug als 2 klanten betalen (regel 22/11).
+
+**Trendonderzoek 23/11 → 3 posts (week 7/12, binnen het SGM-concept):**
+1. **Meningsreel in de camera (HERKENBAAR?/stelling, 30-45 s):** "Waarom stopt de jeugd rond hun 15e met sporten bij je club?" Opnemen wo 2/12 na Michelle (thuis bij de plant). Vraag-hook = 69 reacties bij Rene. Post di 8/12 18u.
+2. **CLUBTIP-reel "3 reels met je spelers die altijd werken" (25-35 s):** rugnummer-trend, Meet the team, quiz tussen 2 teamgenoten. Beeld: Kickstart-shoot Michelle (leden) + padeltraining. Afsluiter: gratis analyse via DM. Post do 10/12 18u.
+3. **Caption-reel naar clubbesturen (8 s):** sfeerbeeld volle padelhal/kantine + grote tekst "Geen tijd om elke week te posten? Lees de caption." Caption = 5 tips + CTA "Reageer ANALYSE, dan sturen we je een DM" (test reactiewoord binnen vaste CTA). Post ma 7/12 18u.
