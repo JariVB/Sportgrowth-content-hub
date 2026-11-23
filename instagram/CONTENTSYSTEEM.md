@@ -55,14 +55,33 @@ Plus **CLUBTIP**: korte tip (wat en waarom, nooit het volledige recept), altijd 
 
 **Clubcheck en toestemming:** toon nooit een echte club als slecht voorbeeld zonder hun akkoord. Vraag het bij de gratis analyse ("Mag ik jullie analyse anoniem of met naam tonen?"). Geen akkoord: maak het anoniem (verzonnen naam, logo weg) of gebruik een fictieve club.
 
-## 4. Het vaste weekritme
-| Dag | Post | Reeks |
-|---|---|---|
-| **Ma 19u30** | Carrousel | wk 1 HERKENBAAR? · wk 2 ZO WERKT SGM · wk 3 CLUBCHECK (de nieuwe versie) · wk 4 ZO WERKT SGM (aanbod/prijs) |
-| **Di 19u30** | Reel 1 (jij in beeld) | wk 1 CLUBTIP · wk 2 CLUBCHECK · wk 3 HERKENBAAR? · wk 4 CLUBCHECK |
-| **Do 19u30** | Reel 2 (bewijs/praktijk) | wk 1 RESULTAAT · wk 2 HERKENBAAR? · wk 3 ZO WERKT SGM · wk 4 RESULTAAT |
+## 4. Het vaste weekritme (vanaf 30/11, vervangt de oude reeksenrotatie)
+Content geeft vertrouwen, verkoop brengt klanten. 3 posts per week (zie 5q), alles vooraf ingepland om 18u00.
 
-Verdeling per 4 weken (12 posts): 3 HERKENBAAR? · 3 CLUBCHECK · 2 RESULTAAT · 3 ZO WERKT SGM · 1 CLUBTIP.
+| Post | Dag | Soort (5q) | Voorbeelden |
+|---|---|---|---|
+| 1 | **Ma 18u** | Mening of expertise | stelling naar uitbaters/bestuurders, caption-reel, split-screen, CLUBCHECK |
+| 2 | **Di 18u** | Achter de schermen | Jari aan het werk bij een shoot, monteren, een analyse, oprichtersverhaal |
+| 3 | **Do 18u** | Bewijs (of 1x per maand aanbod) | klantreel als collab, voor/na, cijfers, getuigenis · laatste do van de maand: Kickstart-aanbod |
+
+### Jari's vaste week (vanaf 30/11)
+| Dag | Wanneer | Wat | Tijd |
+|---|---|---|---|
+| **Ma** | 20u-21u | **Uur verkoop:** 10 nieuwe zaken een bericht sturen (3 met een gratis voorbeeldfilmpje dat Claude klaarzet) · opvolgen na 3 en 7 dagen | 1u |
+| | 18u | post 1 staat ingepland, story delen (2 min) | 2 min |
+| **Di** | 13u-15u | voorbeeldfilmpjes en reels nakijken (Claude monteert) · posts van wo-ma inplannen · teksten opnamesessie klaarleggen | 2u |
+| | 18u-22u30 | padelbeelden tijdens training (5 min, voor voorbeelden en achter de schermen) | 5 min |
+| **Wo** | 9u-10u | shoot bij een klant **of** opnamesessie (20 min, studio, 3-4 teksten) | 1u |
+| | 10u30-12u | **2-3 zaken in de buurt binnenlopen** met visitekaartje: "mag ik hier 1 minuut filmen? Je krijgt het gratis" | 1,5u |
+| | 13u-14u30 | gratis analyses en gesprekken (gebeld of ter plaatse) · voorstellen versturen | 1,5u |
+| | 14u30-16u | beelden van de dag naar Claude · carrousel/teksten nakijken · stories voor het weekend | 1,5u |
+| **Do** | 's avonds | 20 min: antwoorden op DM's, opvolgen, reageren bij 5 prospects | 20 min |
+| **Vr** | - | niets (do-post staat ingepland) | - |
+| **Za** | tussen voetbal | 1-2 stories op de gsm (aanbod of achter de schermen) | 10 min |
+| **Zo** | - | 1 story · na elke klant: **doorverwijzing vragen** ("Ken je nog een zaakvoerder die dit kan gebruiken?") | 15 min |
+
+**Verkoopcijfers per week:** 10 nieuwe contacten (waarvan 3 met voorbeeldfilmpje) · 2-3 bezoeken · 3 gesprekken · 1 voorstel. Bijhouden in `klanten/PROSPECTS-WAASLAND.md`.
+**Claude doet:** di de voorbeeldfilmpjes en reels klaarzetten, ma de berichten voor het uur verkoop, elke ochtend de checklist.
 
 ## 5. Vaste opbouw van elke reel (±30 s)
 | Tijd | Wat |

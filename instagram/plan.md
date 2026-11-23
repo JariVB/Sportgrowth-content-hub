@@ -235,3 +235,5 @@ Bijgestuurd:
 - **Week 14/12:** reel Michelle als collab (bewijs) · Kickstart-post "Nog X plaatsen aan €197 tot 31/12" (aanbod) · mening.
 - Geschrapt: meningsreel "Waarom stopt de jeugd…" en CLUBTIP "3 reels met je spelers" (tips voor clubs, verkopen SGM niet).
 - Na Michelle: 3 posts vastzetten (oprichtersreel, bewijs, Kickstart) + highlights per klant.
+
+**Beslist 23/11 (avond): nieuwe vaste week vanaf ma 30/11** (CONTENTSYSTEEM deel 4): 3 posts ma/di/do 18u (mening / achter de schermen / bewijs), ma-avond uur verkoop met 3 voorbeeldfilmpjes, wo-voormiddag 2-3 zaken binnenlopen, wo-middag gesprekken. Week 30/11 is een overgangsweek (split-screen ma, 5 fouten do, shoot Michelle wo).
