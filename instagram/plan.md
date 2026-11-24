@@ -244,3 +244,4 @@ Bijgestuurd:
 
 **Di 24/11 14u:** ✅ bio vernieuwd (5 regels: voor wie, resultaat, wij doen het, FLAXX + Jan Stilten, DM ANALYSE) + highlights Kickstart, FLAXX, Jan Stilten. Nog: naamveld, vastgezette posts, notitie profielfoto.
 **Di 24/11:** ✅ naamveld "SportGrowth Media | Social media voor sportzaken", bio regel 1 "Social media voor sportzaken en clubs", highlights gelijk, FLAXX-carrousel vastgezet. Profiel klaar.
+**Di 24/11:** ✅ reel december gepland 18u (caption: "Reageer ANALYSE (of stuur het in een DM)").
