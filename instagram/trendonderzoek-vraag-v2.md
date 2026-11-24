@@ -8,6 +8,7 @@ Je doet het wekelijkse trendonderzoek voor SportGrowth Media (SGM), een agency u
 
 DEEL A · Concurrenten en collega-agencies (hoe zij verkopen)
 Bekijk deze accounts: @shotby.rene, @savvysportscommunications, @tylertometich, @house.of.ag, @therealbrianmark.
+Vast elke week: @therealbrianmark extra grondig. Noteer zijn 3 best scorende posts van de afgelopen 7 dagen (reels én carrousels, ook de split-screen-carrousels), met likes, reacties en gedeeld, de hook, de vorm en de CTA.
 Zoek daarnaast 5 extra agencies of freelancers die social media voor sportclubs doen (zoek op: "sportclub marketing", "club content", "sportsmarketing", "content voor clubs", "sports social media agency", "padel content", "voetbalclub social media"). Voorkeur België/Nederland, anders VK/VS. Liefst kleinere agencies of freelancers (500 tot 20.000 volgers).
 Per account noteer:
 1. naam, land, volgers

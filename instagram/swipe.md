@@ -16,6 +16,7 @@ Werkwijze (vanaf 9/11):
 | @sctrsportsocials | sportsocials, ex-Red Bull, 1.296 | eigen verhaal (18x), één highlight per klant |
 | @_shotbygino | sportvideograaf NL, 665 | klantwerk als collab, "final spots open" |
 | @collabclub___ | clubsocials AU, 383 | meest vergelijkbaar met SGM: amateurclubs, reviews-highlight, los eventpakket |
+| @therealbrianmark | social media coach VS, 778K · vaste leermeester (Jari 24/11) | confronterende stelling in de camera, reactiewoord, split-screen-carrousel (2 beelden per slide, zin loopt van boven naar onder: 3.572x gedeeld) |
 | @padelmyvibe | padel lifestyle | persoonlijk verhaal, "If I had to build a community for a padel club" |
 
 ## Lessen 23/11 · agencies (Drive "SGM trendonderzoek 2026-11-23", 10 agencies + 6 clubs)
