@@ -1,7 +1,7 @@
 // Highlight-covers in dezelfde stijl als Gratis analyse / Resultaat / Over mij (navy, blauw lijnicoon)
 const { chromium } = require('/opt/node22/lib/node_modules/playwright');
 const ic = {
- janstilten: '<path d="M3 10h9l3-3h4a2 2 0 0 1 2 2v1a5 5 0 1 1-10 3H3z"/><circle cx="12" cy="14" r="1.6"/><path d="M7 10V7"/>',
+ janstilten: '<circle cx="12" cy="12" r="8.5"/><path d="M5.5 6.5a9 9 0 0 1 0 11"/><path d="M18.5 6.5a9 9 0 0 0 0 11"/>',
  kickstart: '<path d="M12 2c3 2 5 6 5 10l-2 4H9l-2-4c0-4 2-8 5-10z"/><circle cx="12" cy="9" r="1.8"/><path d="M7 12l-3 3 3 1M17 12l3 3-3 1M10 19l2 3 2-3"/>',
  flaxx: '<ellipse cx="14" cy="9" rx="6" ry="6.5" transform="rotate(35 14 9)"/><path d="M9.6 13.6L4 20.5"/><circle cx="12.5" cy="7.5" r=".6"/><circle cx="15.5" cy="8.5" r=".6"/><circle cx="13.5" cy="10.8" r=".6"/>'
 };
