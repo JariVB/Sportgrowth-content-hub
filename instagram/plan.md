@@ -243,3 +243,4 @@ Bijgestuurd:
 **Status di 24/11 (ochtend):** carrousel CLUBCHECK online ma 18u. Stats: proefles 1.102 (2x gem., 27 profielbezoeken → 1 volger), proefreel A 327 (niet gedeeld op privé). Vandaag: reel december 18u (inplannen vóór 17u als nog niet gebeurd), uitslagen do 18u, bio + highlight FLAXX, split-screen v6 akkoord, padelbeelden op training. Ondernemingsnummer open sinds 19/11 → dag laten kiezen. Wo 25/11: proef nieuwe werking (3 zaken in Lokeren binnenlopen). Do 26/11: laatste opvolging ronde 3. Claude: reel 5 fouten (do 3/12) en shotlist Michelle (1/12).
 
 **Di 24/11 14u:** ✅ bio vernieuwd (5 regels: voor wie, resultaat, wij doen het, FLAXX + Jan Stilten, DM ANALYSE) + highlights Kickstart, FLAXX, Jan Stilten. Nog: naamveld, vastgezette posts, notitie profielfoto.
+**Di 24/11:** ✅ naamveld "SportGrowth Media | Social media voor sportzaken", bio regel 1 "Social media voor sportzaken en clubs", highlights gelijk, FLAXX-carrousel vastgezet. Profiel klaar.
