@@ -13,4 +13,4 @@ Bronbestanden: WeTransfer we.tl/t-DD1nsVRbULPrg6U7 (geldig ±7 dagen). Niet in g
 | IMG_3705, 3707 (63-192 s) | breed over meerdere banen | A1 caption-reel 7/12 (hal niet vol) |
 
 Ontbreekt: B (Jari die coacht), C1 high five, C2 lachende groep, C5 kantine.
-Let op: vooral jeugd in beeld. Enkel breed/onherkenbaar gebruiken of met akkoord van de ouders.
+✅ Ouders gaven akkoord (Jari, 24/11): jeugd mag herkenbaar in beeld.
