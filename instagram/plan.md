@@ -239,3 +239,5 @@ Bijgestuurd:
 **Beslist 23/11 (avond): nieuwe vaste week vanaf ma 30/11** (CONTENTSYSTEEM deel 4): 3 posts ma/di/do 18u (mening / achter de schermen / bewijs), ma-avond uur verkoop met 3 voorbeeldfilmpjes, wo-voormiddag 2-3 zaken binnenlopen, wo-middag gesprekken. Week 30/11 is een overgangsweek (split-screen ma, 5 fouten do, shoot Michelle wo).
 
 **Ma 23/11 18u:** ✅ carrousel CLUBCHECK online (nieuwe cover A, caption met slot "Geen tijd? Wij doen het voor je"). Stats na 24u en 7d.
+
+**Status di 24/11 (ochtend):** carrousel CLUBCHECK online ma 18u. Stats: proefles 1.102 (2x gem., 27 profielbezoeken → 1 volger), proefreel A 327 (niet gedeeld op privé). Vandaag: reel december 18u (inplannen vóór 17u als nog niet gebeurd), uitslagen do 18u, bio + highlight FLAXX, split-screen v6 akkoord, padelbeelden op training. Ondernemingsnummer open sinds 19/11 → dag laten kiezen. Wo 25/11: proef nieuwe werking (3 zaken in Lokeren binnenlopen). Do 26/11: laatste opvolging ronde 3. Claude: reel 5 fouten (do 3/12) en shotlist Michelle (1/12).
