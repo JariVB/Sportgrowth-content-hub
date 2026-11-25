@@ -20,4 +20,4 @@ Bewijs: bankdetail (geen factuur). Echte factuur nog downloaden waar "factuur no
 | | | **Totaal** | **€368,57** | | | |
 
 Nog aan te vullen: iOttie Velox Pro, november-betaling Claude (28/11 = na start, beroepskost), visitekaartjes, domeinnaam, verplaatsingen (rittenlijst).
-Inbegrepen in de bedragen: €0,61 behandelingskosten per buitenlandse kaartbetaling.
+Per buitenlandse kaartbetaling rekent de bank €0,61 behandelingskosten (op het bankdetail vermeld; nakijken of die al in het bedrag zitten). Ook die zijn een kost.
