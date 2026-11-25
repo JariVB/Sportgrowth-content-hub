@@ -15,7 +15,7 @@ Bewijs: bankdetail (geen factuur). Echte factuur nog downloaden waar "factuur no
 | 28/08/2026 | Anthropic (Claude) | abonnement | €22,39 | aanloop | bankdetail 2026-440 | ja |
 | 28/09/2026 | Anthropic (Claude) | abonnement | €22,39 | aanloop | bankdetail 2026-485 | ja |
 | 28/10/2026 | Anthropic (Claude) | abonnement | €22,39 | aanloop | bankdetail 2026-536 | ja |
-| 28/10/2026 | Coolblue | ? (aan te vullen door Jari) | €159,00 | aanloop | bankdetail 2026-535 | ja (Coolblue-account → bestellingen) |
+| 28/10/2026 | Coolblue | DJI Osmo Mobile 7 (gimbal) €72 + DJI Mic Mini 2 met oplaadcase €87 | €159,00 | aanloop | ✅ factuur 530441207 | nee |
 | 12/11/2026 | Beeble AI | credits/abonnement | €18,45 | aanloop | bankdetail 2026-563 | ja (Beeble-account) |
 | | | **Totaal** | **€368,57** | | | |
 
