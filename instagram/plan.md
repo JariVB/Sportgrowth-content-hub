@@ -246,3 +246,5 @@ Bijgestuurd:
 **Di 24/11:** ✅ naamveld "SportGrowth Media | Social media voor sportzaken", bio regel 1 "Social media voor sportzaken en clubs", highlights gelijk, FLAXX-carrousel vastgezet. Profiel klaar.
 **Di 24/11:** ✅ reel december gepland 18u (caption: "Reageer ANALYSE (of stuur het in een DM)").
 **Di 24/11:** ✅ reel uitslagen gepland do 26/11 18u.
+
+**Status wo 25/11 (ochtend):** di: december-reel online 18u, uitslagen gepland do 18u, bio/naam/highlights vernieuwd, padeltraining gefilmd (14 clips, akkoord ouders). Vandaag: 9u30 shoot (split-screen kloon + split-carrousel), 10u30-12u 3 zaken Lokeren binnenlopen (Radar Padelclub, P-Padel, Fierce Studios), 13u stats, 13u30 ondernemingsnummer, 14u beelden naar Claude. Do: opvolgen ronde 3 + voorbeeldfilmpjes sturen. Volgende week: ma 30/11 split-screen (nieuw), wo 2/12 shoot Michelle, do 3/12 reel 5 fouten.
