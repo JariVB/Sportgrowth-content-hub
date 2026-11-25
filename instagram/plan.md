@@ -251,3 +251,5 @@ Bijgestuurd:
 **Wo 25/11 15u30:** ✅ ondernemingsnummer aangevraagd via Xerius (eenmanszaak bijberoep, start 26/11/2026, activiteiten: social media/reclame + grafisch ontwerp + copywriter, boekhouding zelf, btw-vrijstelling kleine ondernemingen). Xerius volgt op. Nog: ING zakelijke rekening, nummers naar Claude. Split-screen v7 (kloon) klaar voor ma 30/11.
 **Wo 25/11:** ✅ zakelijke rekening geopend bij eigen bank (gratis), niet ING. Wacht op ondernemingsnummer (Xerius ±16u30).
 **Wo 25/11:** startdatum onderneming = **do 26/11/2026** (Xerius). Kosten vanaf 26/11 = beroepskosten, ervoor = aanloopkosten.
+
+**Test (Jari 25/11): actievere animaties.** Reel 5 fouten (do 3/12): beweging vanaf frame 0 (punch-zoom + tekst die inslaat), elke 1,5-2 s iets nieuws in beeld (fout-kaart, cijfer, emoji, zoom), max. 20 s. Meten: overslaan < 65%? (december 73,6%, uitslagen = vergelijking).
