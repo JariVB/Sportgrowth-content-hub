@@ -17,7 +17,9 @@ Bewijs: bankdetail (geen factuur). Echte factuur nog downloaden waar "factuur no
 | 28/10/2026 | Anthropic (Claude) | Claude Pro €21,78 + €0,61 bankkosten | €22,39 | aanloop | ✅ factuur WZB6CLI2-0008 + bankdetail 2026-536 | nee |
 | 28/10/2026 | Coolblue | DJI Osmo Mobile 7 (gimbal) €72 + DJI Mic Mini 2 met oplaadcase €87 | €159,00 | aanloop | ✅ factuur 530441207 | nee |
 | 12/11/2026 | Beeble AI | credits/abonnement | €18,45 | aanloop | bankdetail 2026-563 | ja (Beeble-account) |
-| | | **Totaal** | **€368,57** | | | |
+| 25/11/2026 | Xerius Ondernemingsloket | KBO-inschrijving eenmanszaak | €111,50 | aanloop | betaaloverzicht aanvraag 2271403 | factuur volgt (Xerius) |
+| 25/11/2026 | Xerius Contact | btw-activatie (€65 + 21% btw) | €78,65 | aanloop | betaaloverzicht aanvraag 2271403 | factuur volgt (Xerius) |
+| | | **Totaal** | **€558,72** | | | |
 
 Nog aan te vullen: iOttie Velox Pro, november-betaling Claude (28/11 = na start, beroepskost), visitekaartjes, domeinnaam, verplaatsingen (rittenlijst).
 Per buitenlandse kaartbetaling rekent de bank €0,61 behandelingskosten bovenop het factuurbedrag (Claude: factuur €21,78 + €0,61 = €22,39 afgeschreven). Ook die zijn een kost.
