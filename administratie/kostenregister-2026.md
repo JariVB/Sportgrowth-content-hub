@@ -16,7 +16,7 @@ Bewijs: bankdetail (geen factuur). Echte factuur nog downloaden waar "factuur no
 | 28/09/2026 | Anthropic (Claude) | Claude Pro €21,78 + €0,61 bankkosten | €22,39 | aanloop | ✅ factuur WZB6CLI2-0007 + bankdetail 2026-485 | nee |
 | 28/10/2026 | Anthropic (Claude) | Claude Pro €21,78 + €0,61 bankkosten | €22,39 | aanloop | ✅ factuur WZB6CLI2-0008 + bankdetail 2026-536 | nee |
 | 28/10/2026 | Coolblue | DJI Osmo Mobile 7 (gimbal) €72 + DJI Mic Mini 2 met oplaadcase €87 | €159,00 | aanloop | ✅ factuur 530441207 | nee |
-| 12/11/2026 | Beeble AI | credits/abonnement | €18,45 | aanloop | bankdetail 2026-563 | ja (Beeble-account) |
+| 12/11/2026 | Beeble AI | Beeble Creator 13/11-13/12 ($19 = €18,45 incl. bankkosten) | €18,45 | aanloop | ✅ factuur 45M0OCYK-0001 + bankdetail 2026-563 | nee · loopt automatisch door op 13/12! |
 | 25/11/2026 | Xerius Ondernemingsloket | KBO-inschrijving eenmanszaak | €111,50 | aanloop | betaaloverzicht aanvraag 2271403 | factuur volgt (Xerius) |
 | 25/11/2026 | Xerius Contact | btw-activatie (€65 + 21% btw) | €78,65 | aanloop | betaaloverzicht aanvraag 2271403 | factuur volgt (Xerius) |
 | | | **Totaal** | **€558,72** | | | |
