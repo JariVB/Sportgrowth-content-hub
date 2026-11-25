@@ -248,5 +248,6 @@ Bijgestuurd:
 **Di 24/11:** ✅ reel uitslagen gepland do 26/11 18u.
 
 **Status wo 25/11 (ochtend):** di: december-reel online 18u, uitslagen gepland do 18u, bio/naam/highlights vernieuwd, padeltraining gefilmd (14 clips, akkoord ouders). Vandaag: 9u30 shoot (split-screen kloon + split-carrousel), 10u30-12u 3 zaken Lokeren binnenlopen (Radar Padelclub, P-Padel, Fierce Studios), 13u stats, 13u30 ondernemingsnummer, 14u beelden naar Claude. Do: opvolgen ronde 3 + voorbeeldfilmpjes sturen. Volgende week: ma 30/11 split-screen (nieuw), wo 2/12 shoot Michelle, do 3/12 reel 5 fouten.
-**Wo 25/11 15u30:** ✅ ondernemingsnummer aangevraagd via Xerius (eenmanszaak bijberoep, start 1/12, activiteiten: social media/reclame + grafisch ontwerp + copywriter, boekhouding zelf, btw-vrijstelling kleine ondernemingen). Xerius volgt op. Nog: ING zakelijke rekening, nummers naar Claude. Split-screen v7 (kloon) klaar voor ma 30/11.
+**Wo 25/11 15u30:** ✅ ondernemingsnummer aangevraagd via Xerius (eenmanszaak bijberoep, start 26/11/2026, activiteiten: social media/reclame + grafisch ontwerp + copywriter, boekhouding zelf, btw-vrijstelling kleine ondernemingen). Xerius volgt op. Nog: ING zakelijke rekening, nummers naar Claude. Split-screen v7 (kloon) klaar voor ma 30/11.
 **Wo 25/11:** ✅ zakelijke rekening geopend bij eigen bank (gratis), niet ING. Wacht op ondernemingsnummer (Xerius ±16u30).
+**Wo 25/11:** startdatum onderneming = **do 26/11/2026** (Xerius). Kosten vanaf 26/11 = beroepskosten, ervoor = aanloopkosten.
