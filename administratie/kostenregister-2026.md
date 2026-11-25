@@ -11,6 +11,7 @@ Bewijs: bankdetail (geen factuur). Echte factuur nog downloaden waar "factuur no
 | 28/05/2026 | Anthropic (Claude) | Claude Pro €21,78 + €0,61 bankkosten | €22,39 | aanloop | ✅ factuur WZB6CLI2-0003 + bankdetail 2026-262 | nee |
 | 29/06/2026 | Anthropic (Claude) | Claude Pro €21,78 + €0,61 bankkosten | €22,39 | aanloop | ✅ factuur WZB6CLI2-0004 + bankdetail 2026-338 | nee |
 | 28/07/2026 | Anthropic (Claude) | Claude Pro €21,78 + €0,61 bankkosten | €22,39 | aanloop | ✅ factuur WZB6CLI2-0005 + bankdetail 2026-370 | nee |
+| 30/07/2026 | Combell | domeinnaam sportgrowthmedia.be (30/07/2026-30/07/2027, eenmalige korting) | €12,09 | aanloop | ✅ factuur 260729243 | nee · verlenging 07/2027 aan ±€47 excl. btw |
 | 23/08/2026 | Canva | Canva Pro (1 maand) | €12,00 | aanloop | ✅ factuur 04982-37804802 + bankdetail 2026-433 | nee |
 | 28/08/2026 | Anthropic (Claude) | Claude Pro €21,78 + €0,61 bankkosten | €22,39 | aanloop | ✅ factuur WZB6CLI2-0006 + bankdetail 2026-440 | nee |
 | 28/09/2026 | Anthropic (Claude) | Claude Pro €21,78 + €0,61 bankkosten | €22,39 | aanloop | ✅ factuur WZB6CLI2-0007 + bankdetail 2026-485 | nee |
@@ -19,9 +20,9 @@ Bewijs: bankdetail (geen factuur). Echte factuur nog downloaden waar "factuur no
 | 12/11/2026 | Beeble AI | Beeble Creator 13/11-13/12 ($19 = €18,45 incl. bankkosten) | €18,45 | aanloop | ✅ factuur 45M0OCYK-0001 + bankdetail 2026-563 | nee · loopt automatisch door op 13/12! |
 | 25/11/2026 | Xerius Ondernemingsloket | KBO-inschrijving eenmanszaak | €111,50 | aanloop | betaaloverzicht aanvraag 2271403 | factuur volgt (Xerius) |
 | 25/11/2026 | Xerius Contact | btw-activatie (€65 + 21% btw) | €78,65 | aanloop | betaaloverzicht aanvraag 2271403 | factuur volgt (Xerius) |
-| | | **Totaal** | **€558,72** | | | |
+| | | **Totaal** | **€570,81** | | | |
 
-Nog aan te vullen: iOttie Velox Pro, november-betaling Claude (28/11 = na start, beroepskost), visitekaartjes, domeinnaam, verplaatsingen (rittenlijst).
+Nog aan te vullen: iOttie Velox Pro, november-betaling Claude (28/11 = na start, beroepskost), visitekaartjes, verplaatsingen (rittenlijst).
 Per buitenlandse kaartbetaling rekent de bank €0,61 behandelingskosten bovenop het factuurbedrag (Claude: factuur €21,78 + €0,61 = €22,39 afgeschreven). Ook die zijn een kost.
 
 Drive: SportGrowth Media / SGM / SGM-administratie (1. Inkomsten · 2. Kosten (bewijzen) + submap Bankbewijzen + Google Sheet "Kostenregister 2026 SGM" · 3. Xerius en officieel · 4. Contracten en offertes). Opgeladen 25/11.
