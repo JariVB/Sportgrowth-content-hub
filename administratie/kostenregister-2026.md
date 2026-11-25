@@ -23,3 +23,5 @@ Bewijs: bankdetail (geen factuur). Echte factuur nog downloaden waar "factuur no
 
 Nog aan te vullen: iOttie Velox Pro, november-betaling Claude (28/11 = na start, beroepskost), visitekaartjes, domeinnaam, verplaatsingen (rittenlijst).
 Per buitenlandse kaartbetaling rekent de bank €0,61 behandelingskosten bovenop het factuurbedrag (Claude: factuur €21,78 + €0,61 = €22,39 afgeschreven). Ook die zijn een kost.
+
+Drive: SportGrowth Media / SGM / SGM-administratie (1. Inkomsten · 2. Kosten (bewijzen) + submap Bankbewijzen + Google Sheet "Kostenregister 2026 SGM" · 3. Xerius en officieel · 4. Contracten en offertes). Opgeladen 25/11.
