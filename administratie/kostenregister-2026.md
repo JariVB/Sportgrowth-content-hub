@@ -11,7 +11,7 @@ Bewijs: bankdetail (geen factuur). Echte factuur nog downloaden waar "factuur no
 | 28/05/2026 | Anthropic (Claude) | Claude Pro €21,78 + €0,61 bankkosten | €22,39 | aanloop | ✅ factuur WZB6CLI2-0003 + bankdetail 2026-262 | nee |
 | 29/06/2026 | Anthropic (Claude) | Claude Pro €21,78 + €0,61 bankkosten | €22,39 | aanloop | ✅ factuur WZB6CLI2-0004 + bankdetail 2026-338 | nee |
 | 28/07/2026 | Anthropic (Claude) | Claude Pro €21,78 + €0,61 bankkosten | €22,39 | aanloop | ✅ factuur WZB6CLI2-0005 + bankdetail 2026-370 | nee |
-| 23/08/2026 | Canva Ireland | Canva | €12,00 | aanloop | bankdetail 2026-433 | ja (canva.com → Facturering) |
+| 23/08/2026 | Canva | Canva Pro (1 maand) | €12,00 | aanloop | ✅ factuur 04982-37804802 + bankdetail 2026-433 | nee |
 | 28/08/2026 | Anthropic (Claude) | Claude Pro €21,78 + €0,61 bankkosten | €22,39 | aanloop | ✅ factuur WZB6CLI2-0006 + bankdetail 2026-440 | nee |
 | 28/09/2026 | Anthropic (Claude) | Claude Pro €21,78 + €0,61 bankkosten | €22,39 | aanloop | ✅ factuur WZB6CLI2-0007 + bankdetail 2026-485 | nee |
 | 28/10/2026 | Anthropic (Claude) | Claude Pro €21,78 + €0,61 bankkosten | €22,39 | aanloop | ✅ factuur WZB6CLI2-0008 + bankdetail 2026-536 | nee |
