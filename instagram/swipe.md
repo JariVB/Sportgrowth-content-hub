@@ -12,7 +12,7 @@ Werkwijze (vanaf 9/11):
 | @shotby.rene | videograaf tennisclubs NL, 1.987 volgers | mening in de camera: "We hebben in Nederland een tennisprobleem" 21,6K, "Tennisclubs, stop met deze posters!" 17,2K; caption-reel 11,5K |
 | @savvysportscommunications | sportclubmarketing UK, 10,1K | gezicht + stelling op cover, reeks "5 Marketing Mistakes ... Part 1-6", gratis masterclass |
 | @house.of.ag | content studio VS, 207K | achter de schermen bij klant (112K), werkwijze ("20 posts in 1 dag") |
-| @tylertometich | content mentor VS, 567K | tegenstellingen naast elkaar, "wat ik zou doen als ik 30 dagen je merk overnam", "Send this to them" |
+| @tylertometich | content mentor VS, 567K, ex-Hollywood-VFX | **gekke openingsbeelden** (VFX, absurde situatie in frame 0 = stopt de duim, Jari 25/11), tegenstellingen naast elkaar, "wat ik zou doen als ik 30 dagen je merk overnam", "Send this to them" |
 | @sctrsportsocials | sportsocials, ex-Red Bull, 1.296 | eigen verhaal (18x), één highlight per klant |
 | @_shotbygino | sportvideograaf NL, 665 | klantwerk als collab, "final spots open" |
 | @collabclub___ | clubsocials AU, 383 | meest vergelijkbaar met SGM: amateurclubs, reviews-highlight, los eventpakket |
