@@ -336,3 +336,13 @@ Aanbod (Kickstart, plaatsen, deadline): elke week in stories, 1 keer per maand a
 - Vastgezet (3): oprichtersreel (wie), bewijs Michelle/FLAXX (resultaat), Kickstart (aanbod).
 - Highlights: één per klant (FLAXX, Jan Stilten, Michelle) + Gratis analyse + Over mij.
 - Toets vóór elke post: "Zou een uitbater hierna denken: die wil ik inhuren?" Zo niet, niet posten.
+
+## 5r. Productiekeuze: Claude beslist (Jari 25/11)
+Na elk trendonderzoek bepaalt Claude per post het soort video, de beelden en het programma. Jari filmt en post, Claude zegt wat en hoe.
+- **Beeld:** beweging vanaf frame 0 (geen stilstaande titel), elke 1,5-2 s iets nieuws in beeld, liefst een onverwacht openingsbeeld (@tylertometich). Reels 15-20 s tenzij het verhaal meer vraagt.
+- **Programma, in deze volgorde:**
+  1. Claude maakt het zelf: animaties over video (Playwright), montage (ffmpeg), klonen, grafiek, like-teller, freeze + cirkel. Gratis.
+  2. Beeble (studio) zolang het abonnement loopt (nu tot 13/12, opzeggen tenzij 2 betalende klanten).
+  3. Gratis ChatGPT voor een stilstaand beeld of object; Claude schrijft de prompt, Jari stuurt het beeld, Claude animeert.
+  4. Betaalde AI-video (Kling, Runway, Veo, Sora) enkel als de budgetregel het toelaat: tools max 10-15% van de inkomsten, vanaf 2 betalende klanten.
+- Betaalde tools nu: Claude Pro, Beeble Creator (tot 13/12).
