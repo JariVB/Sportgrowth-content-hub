@@ -259,3 +259,4 @@ Bijgestuurd:
 **Do 26/11:** ✖ split-screen v7 (kloon) afgekeurd door Jari ("trekt op niks"). Niet posten. Ma 30/11 18u wordt de **split-carrousel** "De meeste clubs hebben geen Instagram-probleem. Ze hebben een tijdsprobleem." (IMG_3720, mening). Claude maakt hem tegen za 28/11. Split-screen-idee pas opnieuw met echte 2-camera-opname of een tweede persoon.
 
 **Beslist 26/11: vormingsavonden als verkoopkanaal (geen cursus).** December: focus Michelle, Peter, uur verkoop. Ma 4/1/2027: mail sportdienst Lokeren (+ Zele, Sint-Niklaas) voor 1 vormingsavond feb/maart "Meer leden via Instagram, ook als niemand tijd heeft" (45 min, live clubanalyse, €150-300 of gratis voor contacten). Claude schrijft mail + presentatie. Daarna meten: analyses en klanten per avond; werkt het, 1 avond per kwartaal. Online cursus: pas bij groot publiek.
+**Do 26/11:** ✅ split-carrousel "Tijdsprobleem" ingepland ma 30/11 18u (studio met wazige achtergrond, filmische look, vooral mond dicht).
