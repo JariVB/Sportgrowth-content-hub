@@ -21,7 +21,7 @@ const css = `@font-face{font-family:In;src:url(${f64(F+'/inter-var.woff2')})}
 .h{position:absolute;left:0;width:1080px;height:675px;background-size:cover;background-position:center}
 .h.t{top:0}.h.b{top:675px}
 .h:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 45%,rgba(0,0,0,.18) 70%,rgba(0,0,0,.42) 100%)}
-.cap{position:absolute;left:70px;right:70px;bottom:58px;text-align:center;font:650 52px/1.14 In;letter-spacing:-.5px;color:#fff;z-index:2;
+.cap{position:absolute;left:70px;right:70px;bottom:44px;text-align:center;font:650 48px/1.14 In;letter-spacing:-.5px;color:#fff;z-index:2;
  text-shadow:0 2px 10px rgba(0,0,0,.55),0 1px 2px rgba(0,0,0,.6);text-wrap:balance}
 .cap c{color:#fff}
 .sub{display:block;margin-top:14px;font:600 34px/1.2 In;color:rgba(255,255,255,.9)}`;
