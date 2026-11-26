@@ -253,3 +253,5 @@ Bijgestuurd:
 **Wo 25/11:** startdatum onderneming = **do 26/11/2026** (Xerius). Kosten vanaf 26/11 = beroepskosten, ervoor = aanloopkosten.
 
 **Test (Jari 25/11): actievere animaties.** Reel 5 fouten (do 3/12): beweging vanaf frame 0 (punch-zoom + tekst die inslaat), elke 1,5-2 s iets nieuws in beeld (fout-kaart, cijfer, emoji, zoom), max. 20 s. Meten: overslaan < 65%? (december 73,6%, uitslagen = vergelijking).
+
+**Status do 26/11 (ochtend):** SGM officieel gestart (BE 0797.731.753). Wo: ondernemingsnummer, zakelijke rekening, administratie in Drive, split-screen v7 (kloon) klaar, stats carrousel (242) en december (766). Langsgaan Lokeren niet gemeld → verschoven naar wo 2/12 na Michelle. Vandaag: 18u reel uitslagen + story, opvolgen ronde 3 (laatste bericht), Michelle bevestigen + gegevens. Vr: niets. Ma 30/11: split-screen v7 18u, trendonderzoek, Peter bellen na 16u, uur verkoop 20u.
