@@ -254,7 +254,7 @@ Bijgestuurd:
 
 **Test (Jari 25/11): actievere animaties.** Reel 5 fouten (do 3/12): beweging vanaf frame 0 (punch-zoom + tekst die inslaat), elke 1,5-2 s iets nieuws in beeld (fout-kaart, cijfer, emoji, zoom), max. 20 s. Meten: overslaan < 65%? (december 73,6%, uitslagen = vergelijking).
 
-**Status do 26/11 (ochtend):** SGM officieel gestart (BE 0797.731.753). Wo: ondernemingsnummer, zakelijke rekening, administratie in Drive, split-screen v7 (kloon) klaar, stats carrousel (242) en december (766). Langsgaan Lokeren niet gemeld → verschoven naar wo 2/12 na Michelle. Vandaag: 18u reel uitslagen + story, opvolgen ronde 3 (laatste bericht), Michelle bevestigen + gegevens. Vr: niets. Ma 30/11: split-screen v7 18u, trendonderzoek, Peter bellen na 16u, uur verkoop 20u.
+**Status do 26/11 (ochtend):** SGM officieel gestart (BE 0787.731.753). Wo: ondernemingsnummer, zakelijke rekening, administratie in Drive, split-screen v7 (kloon) klaar, stats carrousel (242) en december (766). Langsgaan Lokeren niet gemeld → verschoven naar wo 2/12 na Michelle. Vandaag: 18u reel uitslagen + story, opvolgen ronde 3 (laatste bericht), Michelle bevestigen + gegevens. Vr: niets. Ma 30/11: split-screen v7 18u, trendonderzoek, Peter bellen na 16u, uur verkoop 20u.
 
 **Do 26/11:** ✖ split-screen v7 (kloon) afgekeurd door Jari ("trekt op niks"). Niet posten. Ma 30/11 18u wordt de **split-carrousel** "De meeste clubs hebben geen Instagram-probleem. Ze hebben een tijdsprobleem." (IMG_3720, mening). Claude maakt hem tegen za 28/11. Split-screen-idee pas opnieuw met echte 2-camera-opname of een tweede persoon.
 
@@ -264,3 +264,5 @@ Bijgestuurd:
 **Status vr 27/11:** vrijdag = vrij. Do: reel uitslagen online 18u, carrousel tijdsprobleem ingepland ma 18u, visitekaartje opnieuw bezorgd. Open zonder deadline → za 28/11 (gsm): Michelle bevestigen (dringend, shoot wo 2/12), laatste opvolging ronde 3, cijfers uitslagen. Ma 30/11: carrousel 18u + story, trendonderzoek, Peter na 16u, uur verkoop 20u.
 
 **Beslist 27/11:** niet verbreden; nadruk op commerciële sportzaken en sportmerken; tak 2 (gezondheid en beweging) bekijken bij 5 betalende klanten (CONTENTSYSTEEM 5s).
+
+**Vr 27/11:** ⚠️ ondernemingsnummer gecorrigeerd: **0787.731.753** (niet 0797, typfout). Bron: btw-aanvraag 604A van 27/11 (Xerius). Aangepast: website, privacy, visitekaartje, factuursjabloon.
