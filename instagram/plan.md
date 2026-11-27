@@ -266,3 +266,4 @@ Bijgestuurd:
 **Beslist 27/11:** niet verbreden; nadruk op commerciële sportzaken en sportmerken; tak 2 (gezondheid en beweging) bekijken bij 5 betalende klanten (CONTENTSYSTEEM 5s).
 
 **Vr 27/11:** ⚠️ ondernemingsnummer gecorrigeerd: **0787.731.753** (niet 0797, typfout). Bron: btw-aanvraag 604A van 27/11 (Xerius). Aangepast: website, privacy, visitekaartje, factuursjabloon.
+**Vr 27/11:** ✅ visitekaartjes besteld bij Vistaprint (juist nummer 0787.731.753, QR getest). Factuur naar Claude → kostenregister.
