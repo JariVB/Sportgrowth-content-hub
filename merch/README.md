@@ -9,3 +9,9 @@ Kleding: zwart of antraciet. Volgorde: 1) quarter-zip antraciet (video) 2) 2 zwa
 Let op: de SVG-embleemtekst gebruikt Arial Narrow; laat de drukker de letters omzetten in contouren of gebruik de PNG.
 
 Hoodie (gekozen A, 10/11): voor borst-embleem 8 cm, achter rug-woordmerk ±20 cm onder de kap (zelfde set als het t-shirt). Drukklare SVG's in drukbestanden/ (tekst als vormen).
+
+## Keuze kledij (22/11)
+- Hoodie: **Anthem AM201 Heavy Bass Hoodie**, kleur **Navy (PAN 533C)**, 420 g/m², zonder koordjes, boxy fit.
+- T-shirt: **Anthem AM015 Heavyweight T-Shirt**, kleur **Navy (PAN 533C)**, 220 g/m², oversized.
+- Zelfde kleurcode = zelfde navy. Logo: **wit borst-embleem** (borst-embleem-wit), rug SPORTGROWTH wit + MEDIA cyaan.
+- Fit: oversized → eventueel één maat kleiner (eerst passen). Navy i.p.v. zwart: merkkleur, beter op video, pluisjes minder zichtbaar.

@@ -58,3 +58,65 @@ Status: leeg = nog niets · 👍 account al goed (compliment of overslaan) · �
 - Di 20/10 (doorgeschoven van ma): 1 Botz Padel · 5 Clapaja · 9 AKTIV GYM · 8 The Fighters Academy · 13 Sportfun
 - Wo 21/10: 2 Hangar Padel · 6 Eclips · 10 Fierce Studios · 12 CrossFit Lokeren · 15 WaterWijs
 - Do 22/10: 3 LAGO · 4 Pelgrim · 7 D.I.O.P. · 11 Pure Life · 14 Jeppa Sport
+
+## Ronde 2 (gezocht do 19/11) · Instagram nog te checken door Jari
+
+Ketens (Basic-Fit, JIMS, Snap Fitness) overgeslagen: marketing zit centraal.
+
+| # | Zaak | Waar | Wat | Bron | Instagram (volgers · laatste post · reels?) | Status |
+|---|---|---|---|---|---|---|
+| 16 | SGW Padel | Sint-Gillis-Waas (Reepstraat 208a) + Stekene (Brugstraat 33a) | 5 indoor + 1 outdoor, 2 panoramic in Stekene, cafetaria | Playtomic | | |
+| 17 | Boel Padel | Temse | Padel | Playtomic | | |
+| 18 | Padel Waasland | Temse | Padel | Playtomic | | |
+| 19 | Padel Company Zele | Zele (Huivelde 74) | Padel (vzw, sinds 2019) | KBO | | |
+| 20 | KAVD Padel | Dendermonde | Padelafdeling atletiekclub | KBO | | |
+| 21 | Fitness & Friends | Zele | Fitness | openingsuren.vlaanderen | | |
+| 22 | Tom's Gym | Zele | Fitness | openingsuren.vlaanderen | | |
+| 23 | Easy Fit | Hamme | Fitness | openingsuren.vlaanderen | | |
+| 24 | Fitnessclub Streamline | Hamme | Fitness | openingsuren.vlaanderen | | |
+| 25 | Cross-World | Hamme | Crossfit/functional | openingsuren.vlaanderen | | |
+| 26 | NRG Fitness | Lokeren | Fitness | Gymlib | | |
+| 27 | Fightclub Zele | Zele (Pius X) | Vechtsport | Sport Vlaanderen | | |
+| 28 | Salsa Abrazar | Dendermonde | Salsadansschool sinds 2008 | Sport Vlaanderen | | |
+
+Check per zaak (1 min): laatste post > 2 weken geleden? minder dan 1 post per week? enkel affiches/tekst? geen reels? geen link of oproep in bio? → 2 of meer keer ja = goede prospect.
+
+### Resultaat Claude in Chrome (do 19/11)
+
+| Prio | Zaak · @account | Gemeente | Volgers | Laatste post | Score | Opvallend | Status |
+|---|---|---|---|---|---|---|---|
+| 1 | CrossFit Lokeren · @crossfitlokeren → Compound Fitness Lokeren (nieuw account, 194 volgers) | Lokeren | 928 | 23/06/2026 | 3 | Naamswissel naar Compound Fitness | ✖ do 19/11 "We hebben geen interesse." Vriendelijk afgesloten |
+| 2 | Boel Padel · @boel_padel | Temse | 909 | 13/12/2023 | 4 | Highlights Stages/Academy/Events, laatste affiche "€2 per uur" 2023. ✖ bestaat niet meer (Jari 19/11) |
+| 3 | Sportkampen Zele · @sportkampzele | Zele | 350 | 13/07/2026 | 4 | Mooie kampfoto's, ±1 post per jaar, lege bio | 📩 do 19/11 |
+| 4 | Oxygen Fitness Lokeren · @oxygenfitnesslokeren | Lokeren | 205 | 24/12/2021 | 4 | "Merry Liftmas" 2021, link naar oxygenfitness.be/club (meerdere vestigingen?). ✖ keten (Jari 19/11) |
+| 5 | KAVD tennis padel · @kavdtennispadel | Grembergen | 535 | 16/09/2023 | 3 | Reels Junior Padel Paasstage 2023, Jari volgt al. Vzw → sponsorformule | ✖ club leeft bijna niet meer (Jari 19/11) |
+| 6 | Fightclub Zele · @fightclub.zele | Zele | 476 | 07/04/2024 | 4 | Account op naam Mohamed Nafih, sterke fight-reels, geen bio. Club, weinig budget | later |
+| 7 | Padel Waasland · @padel.waasland | Temse (TC De Vallei) | 394 | 06/12/2023 | 3 | Tweede account @padelwaasland (28 volgers) | later |
+| 8 | Padel Academy Beveren · @padelacademybeveren | Beveren | 74 | 07/09/2021 | 3 | 4 posts ooit (TC Beckhand), gevolgd door Jan Stilten → via Jan | later |
+| 9 | GymTeam Sint-Niklaas · @gymteam_sintniklaas | Sint-Niklaas | 419 | 28/02/2026 | 3 | Turnclub (vereniging) | later |
+| - | Easyfit Stekene · @easyfitstekene | Stekene | 1.535 | 17/11/2026 | 2 | Actief, overslaan | ✖ |
+| - | NRG Fitness Sint-Niklaas · @sintniklaasnrgfitness.be | Sint-Niklaas | 1 | - | - | Leeg account (0 posts) | later |
+
+Niet gevonden: SGW Padel, Padel Company Zele, Fitness & Friends, Tom's Gym, Easy Fit Hamme, Streamline, Cross-World, Salsa Abrazar.
+DM-teksten: zie gesprek 19/11 (ook in checklist za 21/11).
+
+## Ronde 3 · Gent, Dendermonde, Sint-Niklaas, Lokeren, Wetteren (Claude in Chrome, do 19/11)
+
+Overgeslagen: Hammer Padel (Spaans merk), Cross Training Gym Lokeren (stil sinds 2016), HUPHUP Dendermonde (keten). Score 0-1 = doen het al goed.
+
+| Prio | Score | Zaak · @account | Gemeente | Volgers | Laatste post | Opvallend (haakje) | Status |
+|---|---|---|---|---|---|---|---|
+| 1 | 4 | Padel 4U2 · @padel4u2 | Gentbrugge | 2.517 | 21/10/2026 | 9 terreinen, beachvolley, Fit4U2-groepslessen, Halloween-tornooi. Jari volgt al | 📩 do 19/11 |
+| 2 | 5 | Padel9000 · @padel9000.gent | Sint-Amandsberg | 225 | 06/03/2026 | 2 jaar bestaan, testdag met Volt, enkel tekstaffiches | 📩 do 19/11 |
+| 3 | 3 | Aurora Dans en Gym · @aurora_lokeren | Lokeren | 1.638 | 10/11/2026 | Showcase 15/12 in De Wiek (Zele) | ✖ vr 20/11: focus op foto's, fotograaf ligt vast, "wie weet tot een volgende keer". Tip gegeven (reel/carrousel met foto's). Later: Basis |
+| 4 | 4 | body&soul club · @bodysoulgent | Gent | 8.186 | 18/07/2026 | Vrouwencommunity, coach @anna_like_sport, 4 maanden stil, geen link | 📩 do 19/11 |
+| 5 | 3 | Arena Football & Padel · @arena_gent | Gent (Dok-Noord) | 423 | 13/10/2026 | Bubble football, business league, sportsbar, teambuildings | 📩 do 19/11 |
+| 6 | 4 | SportQube · @sportqube_lokeren | Lokeren | 140 | 27/12/2025 | Bootcamp/BBB via app, account op naam Leen Groothaert. Jari volgt al | 📩 do 19/11 |
+| 7 | 3 | Elite Gym · @elitegymlokeren | Lokeren | 114 | 13/09/2026 | Thai/kickboks, coach Ali Elouachikhi, fight nights | later |
+| 8 | 2 | GymMAX Dendermonde · @gymmax_dendermonde | Dendermonde | 1.201 | 31/10/2026 | Bio-link wijst nog naar zomerkamp | later |
+| 9 | 3 | Happy Gym Gent · @happygymgent | Gent | 627 | 25/09/2026 | Ritmische gym, GoFundMe (club) | later |
+| - | 2 | MVP Padel · @mvp.padel | Evergem | 2.524 | 16/11/2026 | 14 terreinen, Mexicano Cup | actief |
+| - | 2 | Triatlon & Duatlon Wetteren | Wetteren | 573 | 08/11/2026 | Crossduatlon met LEGO | club |
+| - | 2 | Handbalclub Dendermonde · @hbcdendermonde | Dendermonde | 871 | 19/11/2026 | Matchday-affiches | club, actief |
+| - | 2 | Athletic Club Sint-Niklaas · @ac_sintniklaas | Sint-Niklaas | 207 | 17/11/2026 | Uitslag-graphics | club |
+| - | 0-1 | Royal Gym Gent, Shoonya Dance, Racing Wetteren, Revamotion, HC Lokeren, Fier, Nest³, KERN Pilates, flow. | | | | Al goed bezig | ✖ |

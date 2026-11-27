@@ -1,0 +1,180 @@
+<title>Shotlist padeltraining 24/11</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Layout: één smalle kolom voor de gsm; sticky voortgangsbalk; per tijdsblok een lijst met grote afvinkrijen. Bewust één donkere SGM-look, leesbaar in een felle hal. */
+:root{
+  --bg:#0b1633; --card:#12224a; --line:#26386b; --fg:#eaf2ff; --muted:#9fb2d9;
+  --cyan:#00d4ff; --done:#5fe0a0; --warn:#ffb86b;
+  --flax:#d9b77a; --wall:#1b2d5c; --floor:#0f1d42; --grey:#3a4c80;
+  --display:"Rajdhani","Arial Narrow",system-ui,sans-serif;
+  --body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 56px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:640px;margin:0 auto;display:flex;flex-direction:column;gap:22px}
+h1,h2{font-family:var(--display);font-weight:700;line-height:1.05;text-wrap:balance;margin:0}
+h1{font-size:40px}
+h2{font-size:24px}
+.eyebrow{font-family:var(--display);font-weight:600;letter-spacing:.14em;text-transform:uppercase;font-size:13px;color:var(--cyan)}
+header{padding-top:24px;display:flex;flex-direction:column;gap:6px}
+.facts{display:grid;grid-template-columns:auto 1fr;gap:2px 12px;font-size:14px;margin:6px 0 0}
+.facts dt{color:var(--muted)} .facts dd{margin:0}
+a{color:var(--cyan)}
+
+.progress{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:10px;display:flex;flex-direction:column;gap:6px;border-bottom:1px solid var(--line)}
+.prow{display:flex;justify-content:space-between;align-items:baseline;font-family:var(--display);font-weight:700;font-size:18px;font-variant-numeric:tabular-nums}
+.prow span{color:var(--muted);font-weight:600;font-size:14px}
+.track{height:8px;border-radius:99px;background:var(--line);overflow:hidden}
+.fill{height:100%;width:0;background:var(--cyan);transition:width .3s}
+.jump{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+.jump a{flex:none;text-decoration:none;font:600 13px var(--body);color:var(--fg);background:var(--card);border:1px solid var(--line);border-radius:99px;padding:4px 10px}
+.jump a.ok{border-color:var(--done);color:var(--done)}
+
+section{display:flex;flex-direction:column;gap:10px;scroll-margin-top:110px}
+.shead{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.time{font-family:var(--display);font-weight:700;color:var(--cyan);font-size:16px;white-space:nowrap}
+.note{font-size:14px;color:var(--muted);margin:0}
+ul.items{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.item{background:var(--card);border:1px solid var(--line);border-radius:12px}
+.item label{display:grid;grid-template-columns:28px 1fr;gap:12px;padding:12px 14px;cursor:pointer;align-items:start}
+.item input{appearance:none;width:28px;height:28px;border:2px solid var(--muted);border-radius:8px;margin:0;display:grid;place-items:center;background:transparent;cursor:pointer}
+.item input::after{content:"";width:12px;height:7px;border:3px solid var(--bg);border-top:0;border-right:0;transform:rotate(-45deg) translate(1px,-1px);opacity:0}
+.item input:checked{background:var(--done);border-color:var(--done)}
+.item input:checked::after{opacity:1}
+.item input:focus-visible{outline:3px solid var(--cyan);outline-offset:2px}
+.item.is-done{opacity:.55}
+.item.is-done .t{text-decoration:line-through}
+.body{min-width:0;display:flex;flex-direction:column;gap:4px}
+.t{font-weight:600}
+.id{font-family:var(--display);font-weight:700;color:var(--cyan);margin-right:6px}
+.chips{display:flex;flex-wrap:wrap;gap:4px}
+.chip{font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:6px;padding:0 6px}
+.chip.mv{color:var(--cyan);border-color:var(--cyan)}
+.chip.app{color:var(--bg);background:var(--fg);border-color:var(--fg);font-weight:600}
+.chip.app.mimo{background:var(--warn);border-color:var(--warn)}
+.tip{font-size:14px;color:var(--muted)}
+.say{font-size:14px;background:var(--bg);border-left:3px solid var(--cyan);padding:6px 10px;border-radius:0 8px 8px 0;display:flex;gap:8px;align-items:flex-start;justify-content:space-between}
+.say q{quotes:"“" "”"}
+button{font:600 13px var(--body);color:var(--bg);background:var(--cyan);border:0;border-radius:99px;padding:5px 11px;cursor:pointer;flex:none}
+button.ghost{background:transparent;color:var(--muted);border:1px solid var(--line)}
+button:focus-visible{outline:3px solid var(--fg);outline-offset:2px}
+.how{margin:0 14px 12px 54px;border-top:1px solid var(--line);padding-top:8px}
+.how summary{cursor:pointer;font-family:var(--display);font-weight:700;color:var(--cyan);font-size:15px;letter-spacing:.04em}
+.how dl{margin:6px 0 0;display:grid;grid-template-columns:auto 1fr;gap:4px 10px;font-size:14px}
+.how dt{color:var(--muted);font-weight:600;white-space:nowrap}
+.how dd{margin:0;min-width:0}
+@media (max-width:420px){.how{margin-left:14px}.how dl{grid-template-columns:1fr;gap:0}.how dd{margin-bottom:6px}}
+.item.is-done .how{display:none}
+.box{border:1px dashed var(--line);border-radius:12px;padding:12px 14px;font-size:14px;display:flex;flex-direction:column;gap:6px}
+.box b{color:var(--warn)}
+.foot{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:14px;color:var(--muted)}
+.vis{display:grid;grid-template-columns:1.25fr 1fr;gap:10px;align-items:stretch}
+.vis figure{margin:0;display:flex;flex-direction:column;gap:6px;min-width:0}
+.vis figcaption{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-family:var(--display);font-weight:600}
+.dia{background:var(--bg);border-radius:10px;width:100%;height:auto;display:block;flex:1}
+.frame{aspect-ratio:9/16;max-width:100%;border-radius:12px;overflow:hidden;border:3px solid #000;background:var(--wall);box-shadow:0 0 0 1px var(--line)}
+.frame svg{width:100%;height:100%;display:block}
+</style>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">SportGrowth Media · dinsdag 24 november</div>
+    <h1>Shoot: padeltraining</h1>
+    <dl class="facts">
+      <dt>Waar</dt><dd>Padelhal, tijdens jouw training (18u-22u30)</dd>
+      <dt>Duur</dt><dd>±15 min in totaal, verspreid over de avond</dd>
+      <dt>Waarvoor</dt><dd>Caption-reel ma 7/12 (volle hal) · oprichtersreel do 10/12 (jij die coacht) · gratis voorbeeldfilmpjes voor padelzaken</dd>
+      <dt>Na afloop</dt><dd>Beste clips via WeTransfer naar Claude</dd>
+    </dl>
+  </header>
+  <div class="progress" aria-live="polite">
+    <div class="prow">Klaar <span id="count">0 / 0</span></div>
+    <div class="track"><div class="fill" id="fill"></div></div>
+    <nav class="jump" id="jump"></nav>
+  </div>
+  <div id="list" class="wrap" style="gap:28px"></div>
+  <div class="foot">
+    <span id="saved">Je vinkjes worden op deze gsm bewaard.</span>
+    <button class="ghost" id="reset" type="button">Alles leegmaken</button>
+  </div>
+</div>
+
+<script>
+const S = [
+ {id:"voor", nav:"Klaarzetten", h:"Klaarzetten (17u45)", time:"5 min", items:[
+  {id:"v1", t:"Camera: 4K · 30 fps, HDR-video uit, raster aan", tip:"Instellingen → Camera → Video opnemen. 4K omdat Claude dan kan bijsnijden."},
+  {id:"v2", t:"Lens schoonvegen, Niet storen aan, gsm min. 20 GB vrij"},
+  {id:"v3", t:"17u55: december-reel delen in je story (SGM + privé)", tip:"Hij gaat om 18u online, net als je training start. Doe het meteen bij het eerste pauzemoment als het om 18u niet lukt."},
+  {id:"v4", t:"Toestemming vragen aan de groep", say:"Ik film vanavond wat korte beelden voor de Instagram van mijn bedrijf. Is dat oké voor iedereen? Wie liever niet in beeld komt, zeg het gerust.", tip:"Kinderen enkel met akkoord van een ouder. Wie nee zegt: die persoon niet herkenbaar filmen."}
+ ]},
+ {id:"box", box:true, h:"Belangrijk", lines:[
+  "Altijd rechtop (9:16). Niet zoomen tijdens het filmen: stap dichterbij.",
+  "Per shot 5 à 10 seconden. Start 1 seconde vóór de actie, stop 1 seconde erna.",
+  "Gsm in de zuignaphouder buiten op het glas = stabiel beeld zonder dat jij moet vasthouden. Jij kan gewoon training geven.",
+  "Belichting vastzetten: lang tikken op het terrein tot AE/AF-vergrendeling verschijnt."]},
+ {id:"a", nav:"Volle hal", h:"A · Volle hal (caption-reel 7/12)", time:"18u-19u · 3 min",
+  note:"Dit is het belangrijkste shot: 8 seconden sfeer waarop de tekst 'Zit jij in het bestuur van een sportclub? Lees de caption.' komt.",
+  items:[
+   {id:"A1", t:"Breed: zoveel mogelijk banen tegelijk in actie", c:["breed","10 s","statisch","0.5x"], tip:"Liefst als alle banen bezet zijn.",
+    how:{waar:"Hoog en breed: gsm in de houder hoog op het glas van een hoekbaan, of op een balkon/tribune als die er is. 0.5x.",start:"Zoveel mogelijk banen en spelers in beeld, lichten van de hal bovenaan.",doe:"Niets aanraken, 15 seconden laten lopen.",einde:"Stoppen.",let:"Bovenaan een beetje lege ruimte laten: daar komt de tekst."}},
+   {id:"A2", t:"Laag over het net: een rally op jouw baan", c:["half","10 s","statisch","1x"],
+    how:{waar:"Zuignaphouder buiten op het glas, achter de baan, op kniehoogte.",start:"Het net en beide kanten van de baan in beeld.",doe:"Laten lopen tijdens een oefening of rally.",einde:"Na een mooi punt nog 2 s.",let:"Laag filmen geeft vaart en kracht."}}
+  ]},
+ {id:"b", nav:"Jij coacht", h:"B · Jij aan het werk (oprichtersreel 10/12)", time:"19u-20u30 · 5 min",
+  note:"Hier sta jij in beeld. Vraag een speler of een ouder om te filmen, of zet de gsm in de houder op het glas.",
+  items:[
+   {id:"B1", t:"Jij legt een oefening uit aan de groep", c:["half","10 s","statisch"], say:"(aan wie filmt) Kan je even 10 seconden filmen terwijl ik dit uitleg? Rechtop, niet bewegen, ik moet volledig in beeld zijn.",
+    how:{waar:"Op 3 m, op borsthoogte.",start:"Jij en 2 à 3 spelers in beeld, jij met je gezicht naar de camera gedraaid.",doe:"Jij legt uit en wijst naar het terrein.",einde:"Na je uitleg nog 2 s.",let:"Je zwarte of SGM-kleding, geen felle lamp achter je."}},
+   {id:"B2", t:"Jij corrigeert een slag (hand op de arm of racket van een speler)", c:["close-up","6 s"],
+    how:{waar:"1 m van jou en de speler, iets lager dan schouderhoogte.",start:"Jouw hand en het racket of de arm van de speler in beeld.",doe:"Jij zet de arm of het racket juist en zegt iets.",einde:"Speler speelt de slag, nog 2 s.",let:"Dit is het beeld van 'ik zie wat werkt'."}},
+   {id:"B3", t:"Jij geeft een high five of applaudisseert na een goed punt", c:["half","5 s"], tip:"Mag ook vanaf het glas met de houder: gewoon laten lopen tijdens een oefening."},
+   {id:"B4", t:"Jij filmt zelf met je gsm een speler (beeld van achteren)", c:["half","6 s"], tip:"Laat iemand jou van achteren filmen terwijl jij filmt. Dat is het beeld 'zo maak ik content' voor de achter-de-schermenpost.",
+    how:{waar:"2 m achter jou, iets schuin.",start:"Jouw rug, je gsm en het scherm met de speler erop.",doe:"Jij filmt de speler 5 s.",einde:"Jij laat je gsm zakken.",let:"Je scherm mag zichtbaar zijn: dat maakt het echt."}}
+  ]},
+ {id:"c", nav:"Sfeer", h:"C · Sfeer en details (voorbeeldfilmpjes)", time:"20u30-22u · 5 min",
+  note:"Deze clips gebruikt Claude voor gratis voorbeeldfilmpjes voor padelzaken zoals Radar en P-Padel.",
+  items:[
+   {id:"C1", t:"High five of vuistje na een punt", c:["half","5 s"]},
+   {id:"C2", t:"Lachende groep na een oefening", c:["half","5 s"]},
+   {id:"C3", t:"Detail: ballen in de kar of de mand", c:["close-up","4 s","traag naar voren"]},
+   {id:"C4", t:"Detail: de lichten van de hal, traag naar beneden naar de baan", c:["close-up","5 s","tilt"]},
+   {id:"C5", t:"Kantine of bar met mensen na de training", c:["breed","6 s"], tip:"Enkel als er mensen zijn en ze akkoord gaan."}
+  ]},
+ {id:"na", nav:"Daarna", h:"Daarna", time:"5 min", items:[
+  {id:"N1", t:"Bedanken en zeggen wanneer het online komt", say:"Bedankt allemaal! Een paar beelden komen begin december op @sportgrowth_media. Wie getagd wil worden, laat het me weten."},
+  {id:"N2", t:"Beste clips via WeTransfer naar Claude", tip:"Per shot 1 of 2 takes is genoeg. Noem het bericht 'padeltraining 24/11'."}
+ ]}
+];
+const KEY="sgm-shotlist-padeltraining-24-11";
+let state={};try{state=JSON.parse(localStorage.getItem(KEY)||"{}")||{}}catch(e){state={}}
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){document.getElementById("saved").textContent="Vinkjes worden niet bewaard in dit venster."}};
+const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const L={waar:"Waar",start:"Start",doe:"Doe",einde:"Einde",let:"Let op"};
+function render(){
+ const list=document.getElementById("list"),jump=document.getElementById("jump");
+ list.innerHTML=S.map(s=>{
+  if(s.box)return `<div class="box"><b>${esc(s.h)}</b>${s.lines.map(l=>`<span>${esc(l)}</span>`).join("")}</div>`;
+  return `<section id="${s.id}"><div class="shead"><h2>${esc(s.h)}</h2><span class="time">${esc(s.time)}</span></div>
+  ${s.note?`<p class="note">${esc(s.note)}</p>`:""}
+  <ul class="items">${s.items.map(it=>`<li class="item${state[it.id]?" is-done":""}" data-id="${it.id}">
+   <label><input type="checkbox" id="cb-${it.id}" ${state[it.id]?"checked":""}><div class="body">
+   <div class="t">${/^[A-C]\d/.test(it.id)?`<span class="id">${it.id}</span>`:""}${esc(it.t)}</div>
+   ${it.c?`<div class="chips">${it.c.map(c=>`<span class="chip">${esc(c)}</span>`).join("")}</div>`:""}
+   ${it.say?`<div class="say"><q>${esc(it.say)}</q></div>`:""}
+   ${it.tip?`<div class="tip">${esc(it.tip)}</div>`:""}
+   </div></label>
+   ${it.how?`<details class="how"><summary>Zo film je het</summary><dl>${Object.keys(L).filter(k=>it.how[k]).map(k=>`<dt>${L[k]}</dt><dd>${esc(it.how[k])}</dd>`).join("")}</dl></details>`:""}
+  </li>`).join("")}</ul></section>`}).join("");
+ const all=S.flatMap(s=>s.items||[]),done=all.filter(i=>state[i.id]).length;
+ document.getElementById("count").textContent=`${done} / ${all.length}`;
+ document.getElementById("fill").style.width=(100*done/all.length)+"%";
+ jump.innerHTML=S.filter(s=>s.nav).map(s=>`<a href="#${s.id}" class="${s.items.every(i=>state[i.id])?"ok":""}">${esc(s.nav)}</a>`).join("");
+ list.querySelectorAll("input[type=checkbox]").forEach(cb=>cb.addEventListener("change",e=>{const id=cb.id.slice(3);state[id]=cb.checked;save();render();}));
+}
+document.getElementById("reset").addEventListener("click",()=>{state={};save();render();});
+render();
+</script>

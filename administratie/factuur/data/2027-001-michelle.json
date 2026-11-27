@@ -1,0 +1,4 @@
+{"soort":"factuur","nummer":"2027-001","datum":"[DATUM]","verval":"[DATUM + 7 DAGEN]","iban":"[IBAN ZAKELIJKE REKENING]",
+ "van":{"adres":["Leeuwerikstraat 15","9160 Lokeren"]},
+ "aan":{"naam":"[NAAM FITNESS] · Michelle","adres":["[STRAAT EN NUMMER]","[POSTCODE GEMEENTE]"],"ondernemingsnummer":""},
+ "lijnen":[{"wat":"Kickstart · introductieprijs","detail":"Filmmoment 2/12/2026 · 3 reels · 1 carrousel · captions · story-sjablonen · rapport na 30 dagen (opdrachtbevestiging OB-2026-001)","aantal":1,"prijs":197}]}

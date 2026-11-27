@@ -55,14 +55,33 @@ Plus **CLUBTIP**: korte tip (wat en waarom, nooit het volledige recept), altijd 
 
 **Clubcheck en toestemming:** toon nooit een echte club als slecht voorbeeld zonder hun akkoord. Vraag het bij de gratis analyse ("Mag ik jullie analyse anoniem of met naam tonen?"). Geen akkoord: maak het anoniem (verzonnen naam, logo weg) of gebruik een fictieve club.
 
-## 4. Het vaste weekritme
-| Dag | Post | Reeks |
-|---|---|---|
-| **Ma 19u30** | Carrousel | wk 1 HERKENBAAR? · wk 2 ZO WERKT SGM · wk 3 CLUBCHECK (de nieuwe versie) · wk 4 ZO WERKT SGM (aanbod/prijs) |
-| **Di 19u30** | Reel 1 (jij in beeld) | wk 1 CLUBTIP · wk 2 CLUBCHECK · wk 3 HERKENBAAR? · wk 4 CLUBCHECK |
-| **Do 19u30** | Reel 2 (bewijs/praktijk) | wk 1 RESULTAAT · wk 2 HERKENBAAR? · wk 3 ZO WERKT SGM · wk 4 RESULTAAT |
+## 4. Het vaste weekritme (vanaf 30/11, vervangt de oude reeksenrotatie)
+Content geeft vertrouwen, verkoop brengt klanten. 3 posts per week (zie 5q), alles vooraf ingepland om 18u00.
 
-Verdeling per 4 weken (12 posts): 3 HERKENBAAR? · 3 CLUBCHECK · 2 RESULTAAT · 3 ZO WERKT SGM · 1 CLUBTIP.
+| Post | Dag | Soort (5q) | Voorbeelden |
+|---|---|---|---|
+| 1 | **Ma 18u** | Mening of expertise | stelling naar uitbaters/bestuurders, caption-reel, split-screen, CLUBCHECK |
+| 2 | **Di 18u** | Achter de schermen | Jari aan het werk bij een shoot, monteren, een analyse, oprichtersverhaal |
+| 3 | **Do 18u** | Bewijs (of 1x per maand aanbod) | klantreel als collab, voor/na, cijfers, getuigenis · laatste do van de maand: Kickstart-aanbod |
+
+### Jari's vaste week (vanaf 30/11)
+| Dag | Wanneer | Wat | Tijd |
+|---|---|---|---|
+| **Ma** | 20u-21u | **Uur verkoop:** 10 nieuwe zaken een bericht sturen (3 met een gratis voorbeeldfilmpje dat Claude klaarzet) · opvolgen na 3 en 7 dagen | 1u |
+| | 18u | post 1 staat ingepland, story delen (2 min) | 2 min |
+| **Di** | 13u-15u | voorbeeldfilmpjes en reels nakijken (Claude monteert) · posts van wo-ma inplannen · teksten opnamesessie klaarleggen | 2u |
+| | 18u-22u30 | padelbeelden tijdens training (5 min, voor voorbeelden en achter de schermen) | 5 min |
+| **Wo** | 9u-10u | shoot bij een klant **of** opnamesessie (20 min, studio, 3-4 teksten) | 1u |
+| | 10u30-12u | **2-3 zaken in de buurt binnenlopen** met visitekaartje: "mag ik hier 1 minuut filmen? Je krijgt het gratis" | 1,5u |
+| | 13u-14u30 | gratis analyses en gesprekken (gebeld of ter plaatse) · voorstellen versturen | 1,5u |
+| | 14u30-16u | beelden van de dag naar Claude · carrousel/teksten nakijken · stories voor het weekend | 1,5u |
+| **Do** | 's avonds | 20 min: antwoorden op DM's, opvolgen, reageren bij 5 prospects | 20 min |
+| **Vr** | - | niets (do-post staat ingepland) | - |
+| **Za** | tussen voetbal | 1-2 stories op de gsm (aanbod of achter de schermen) | 10 min |
+| **Zo** | - | 1 story · na elke klant: **doorverwijzing vragen** ("Ken je nog een zaakvoerder die dit kan gebruiken?") | 15 min |
+
+**Verkoopcijfers per week:** 10 nieuwe contacten (waarvan 3 met voorbeeldfilmpje) · 2-3 bezoeken · 3 gesprekken · 1 voorstel. Bijhouden in `klanten/PROSPECTS-WAASLAND.md`.
+**Claude doet:** di de voorbeeldfilmpjes en reels klaarzetten, ma de berichten voor het uur verkoop, elke ochtend de checklist.
 
 ## 5. Vaste opbouw van elke reel (±30 s)
 | Tijd | Wat |
@@ -289,3 +308,54 @@ Buiten filmen lukt bijna niet meer (weer, kou, vroeg donker, overdag speelt niem
 - **Andere bronnen voor actiebeeld:** archief (beelden van vorig seizoen en Sports NEXT), beelden die klanten of clubs zelf sturen (met toestemming), schermopnames van Instagram-profielen (voor analyses en voor/na).
 - Elke reel die echt beeld nodig heeft, krijgt in de planning een **studio-alternatief** zodat de post niet hoeft te schuiven.
 - **Klant of partner in de post?** Altijd vooraf vragen om te delen in hun story (FLAXX-carrousel 16/11: 85% van 1.487 weergaven via stories, 88% niet-volgers).
+
+## 5p. Scriptcheck vóór elke opname (21/11, uit "Short-Form Storytelling Principles", Kallaway)
+Elke reeltekst gaat door deze 6 vragen. Twee keer nee = herschrijven.
+1. **Contrast:** botst de opening met wat een clubbestuur denkt? ("Niemand wordt lid van een uitslag.")
+2. **Waarde binnen 5 s:** weet de kijker na 5 seconden wat hij gaat leren of krijgen?
+3. **Geen opvulling:** kan er een zin weg zonder dat iemand iets mist? Dan weg.
+4. **Herhaling van de kern:** wordt het belangrijkste punt twee keer gezegd, één keer kort en één keer met een beeld of voorbeeld?
+5. **Spanning:** is er iets waar de kijker op wacht? ("De laatste maakt bijna iedereen.")
+6. **Ritme en energie:** vooral korte zinnen, af en toe een langere. Energie bij het inspreken iets hoger dan in een gewoon gesprek.
+Woorden: eenvoudig (geen vakjargon zonder uitleg), actieve zinnen, emotiewoorden waar het past (schrik, trots, opluchting).
+
+## 5q. SGM verkopen, geen tips voor clubs (beslist 23/11)
+Doel van het profiel: wie op de website of het profiel komt, wil met SGM samenwerken. Een tip die een club zelf kan uitvoeren verkoopt SGM niet. Bewijs dat wij het doen wel.
+
+**Weekmix (3 posts):**
+| Soort | Wat | Voorbeeld |
+|---|---|---|
+| **Bewijs** | klantwerk, voor/na, cijfers, getuigenis. Klantreels als collab (klant mede-auteur) | reel Michelle als collab, FLAXX-carrousel, "Van 4 likes naar 1.200 weergaven" |
+| **Achter de schermen** | Jari aan het werk: filmen, monteren, een analyse, een gesprek | "Zo ziet een filmdag bij een fitnesszaak eruit", oprichtersreel |
+| **Mening of expertise** | stelling naar uitbaters en bestuurders, eindigt met "of laat het ons doen" | split-screen, "Zit jij in het bestuur? Lees de caption" |
+Aanbod (Kickstart, plaatsen, deadline): elke week in stories, 1 keer per maand als post.
+
+**Regels:**
+- Een tip mag nog, maar alleen als bewijs dat we het kunnen. Slot altijd: "Geen tijd? Wij doen het voor je." Geen "zo doe je het zelf"-lijstjes.
+- Elke shoot bij een klant levert ook 1 achter-de-schermenreel voor SGM op (5 shots van Jari aan het werk).
+- Vastgezet (3): oprichtersreel (wie), bewijs Michelle/FLAXX (resultaat), Kickstart (aanbod).
+- Highlights: één per klant (FLAXX, Jan Stilten, Michelle) + Gratis analyse + Over mij.
+- Toets vóór elke post: "Zou een uitbater hierna denken: die wil ik inhuren?" Zo niet, niet posten.
+
+## 5r. Productiekeuze: Claude beslist (Jari 25/11)
+Na elk trendonderzoek bepaalt Claude per post het soort video, de beelden en het programma. Jari filmt en post, Claude zegt wat en hoe.
+- **Beeld:** beweging vanaf frame 0 (geen stilstaande titel), elke 1,5-2 s iets nieuws in beeld, liefst een onverwacht openingsbeeld (@tylertometich). Reels 15-20 s tenzij het verhaal meer vraagt.
+- **Programma, in deze volgorde:**
+  1. Claude maakt het zelf: animaties over video (Playwright), montage (ffmpeg), klonen, grafiek, like-teller, freeze + cirkel. Gratis.
+  2. Beeble (studio) zolang het abonnement loopt (nu tot 13/12, opzeggen tenzij 2 betalende klanten).
+  3. Gratis ChatGPT voor een stilstaand beeld of object; Claude schrijft de prompt, Jari stuurt het beeld, Claude animeert.
+  4. Betaalde AI-video (Kling, Runway, Veo, Sora) enkel als de budgetregel het toelaat: tools max 10-15% van de inkomsten, vanaf 2 betalende klanten.
+- Betaalde tools nu: Claude Pro, Beeble Creator (tot 13/12).
+
+## 5s. Focus en groei (beslist 27/11)
+- Niet verbreden: de niche sport is groot genoeg (duizenden clubs en zaken in Vlaanderen; 10-15 klanten = <1%). Het probleem is bekendheid en vertrouwen, niet de grootte van de markt.
+- **Nadruk op commerciële sportzaken en sportmerken** (padelcentra, fitness, boutique studio's, merken/ketens): hoogste budget, zaakvoerder beslist. Academies en kampen: middel. Vzw-clubs: enkel voor zichtbaarheid (vormingsavonden), niet als hoofddoel.
+- In content en verkoop: vaker "sportzaken" dan "clubs".
+- **Later een groter bureau:** SGM = eerste tak. Tweede tak "gezondheid en beweging" (kinesisten, diëtisten, personal trainers, wellness) pas te bekijken bij **5 betalende klanten**. Zelfde ondernemingsnummer kan meerdere handelsnamen dragen.
+
+## 5t. Klantposts en collabs (27/11)
+- Een klantpost staat **altijd eerst op het account van de klant** (hun volgers, hun merk). @sportgrowth_media wordt als **bijdrager** uitgenodigd en aanvaardt.
+- **Niet elke klantpost als collab.** Per klant per maand de 1-2 sterkste (bewijs). De rest: klant post alleen, met "🎬 @sportgrowth_media" in de caption (vast in de introductieprijs).
+- **Kickstart:** Claude levert bestanden + captions, de klant post zelf en nodigt SGM uit als bijdrager. Jari aanvaardt.
+- **Maandpakket:** toegang via Meta Business Suite (geen wachtwoorden), Jari plant de posts in vanaf het account van de klant.
+- Na elke collab: highlight van die klant aanvullen.

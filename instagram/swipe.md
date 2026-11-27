@@ -12,8 +12,42 @@ Werkwijze (vanaf 9/11):
 | @shotby.rene | videograaf tennisclubs NL, 1.987 volgers | mening in de camera: "We hebben in Nederland een tennisprobleem" 21,6K, "Tennisclubs, stop met deze posters!" 17,2K; caption-reel 11,5K |
 | @savvysportscommunications | sportclubmarketing UK, 10,1K | gezicht + stelling op cover, reeks "5 Marketing Mistakes ... Part 1-6", gratis masterclass |
 | @house.of.ag | content studio VS, 207K | achter de schermen bij klant (112K), werkwijze ("20 posts in 1 dag") |
-| @tylertometich | content mentor VS, 567K | tegenstellingen naast elkaar, "wat ik zou doen als ik 30 dagen je merk overnam", "Send this to them" |
+| @tylertometich | content mentor VS, 567K, ex-Hollywood-VFX | **gekke openingsbeelden** (VFX, absurde situatie in frame 0 = stopt de duim, Jari 25/11), tegenstellingen naast elkaar, "wat ik zou doen als ik 30 dagen je merk overnam", "Send this to them" |
+| @sctrsportsocials | sportsocials, ex-Red Bull, 1.296 | eigen verhaal (18x), één highlight per klant |
+| @_shotbygino | sportvideograaf NL, 665 | klantwerk als collab, "final spots open" |
+| @collabclub___ | clubsocials AU, 383 | meest vergelijkbaar met SGM: amateurclubs, reviews-highlight, los eventpakket |
+| @therealbrianmark | social media coach VS, 778K · vaste leermeester (Jari 24/11) | confronterende stelling in de camera, reactiewoord, split-screen-carrousel (2 beelden per slide, zin loopt van boven naar onder: 3.572x gedeeld) |
+| @kallawaymarketing | short-form strateeg (Kallaway), auteur van "Short-Form Storytelling Principles" (basis van onze scriptcheck 5p) · Jari 26/11 | hooks, opbouw van een verhaal in 30-60 s, visuele afwisseling |
 | @padelmyvibe | padel lifestyle | persoonlijk verhaal, "If I had to build a community for a padel club" |
+
+## Lessen 23/11 · agencies (Drive "SGM trendonderzoek 2026-11-23", 10 agencies + 6 clubs)
+Wij: 101 volgers, mediaan ±580. Ter vergelijking: kleine sportagencies (600-2.000 volgers) zitten op een mediaan van 1.700-7.000.
+1. **Niche + namen in de bio.** @shotby.rene noemt KNLTB en Eredivisie, @allstarmedia.uk is "de agency voor cheerleading", @_shotbygino zet zijn atleten in de bio. "Meer leden, boekingen en sponsors" kan elk bureau zeggen.
+2. **Klantwerk als collab posten + één highlight per klant.** Top-reels van Allstar (40K, 17x), Gino (20,9K, 4x) en CollabClub (7,2K, 4x) zijn collabs met de klant. @sctrsportsocials heeft een highlight per klant.
+3. **Eigen verhaal van de oprichter** haalt het meest: sctr 30,9K (18x) "this was me at Red Bull", Tyler 103K "I got fired from Hollywood" (8 s wandelshot + tekstvak, verhaal in de caption).
+4. **Bestuurders rechtstreeks aanspreken:** Rene 11,6K (3x) met 6 s toernooibeeld + "Zit jij in het bestuur van een tennisclub? Lees de caption!" en 4 tips in de caption.
+5. **Reactiewoord + schaarste:** "Comment GAME" 480 reacties, "final spots open" (Gino), "2027 collabs now open" (Kini). Voor SGM enkel binnen de gratis analyse: "Reageer ANALYSE" + "max 10 clubs per maand".
+6. **Klein instapproduct naast volledig beheer:** CollabClub verkoopt een los Presentation Night Package, Savvy een maandabonnement met ideeën. SGM heeft de Kickstart al. Een apart toernooi- of clubfeestpakket is een nieuw product → enkel als voorstel aan Jari, niet overnemen.
+Niet overnemen: weggevertjes/templates (Savvy), coaching (Brian, Tyler), eigen app (house.of.ag). Blijft buiten het SGM-concept.
+
+**Clubs (tabel B):** 4 van de 6 beste reels zijn collabs (goed doel, partner, andere club). Mensen winnen van affiches (Duinbergen: affiche-reel het zwakst).
+| Club | Reel | x mediaan | Vorm |
+|---|---|---|---|
+| @padelclub_paquito (Erpe-Mere) | 29K | 3,2x | medewerkster legt tornooi uit, "Wie neem jij mee? Tag ze", 76 s |
+| @padelclub_melle | 8.849 | 7x | collab sponsorrit Kom op tegen Kanker, 32 s |
+| @sportclub_houten | 17K | 3x | "WE HAVE OUR WINNERS U18", ouders delen |
+| @vcleest | 5.307 | 2,5x | humoristische quizaankondiging; vrijwilligersportretten 2,4x |
+| @tennisclub.duinbergen | 4.570 | 2,1x | collab kampen met partner |
+| @demerelsport | 5.025 | 2,3x | clubdag, sfeer + tekst |
+
+**3 formats voor klanten:** (1) clubgezicht legt het event uit + "Wie neem jij mee? Tag ze" (45-75 s); (2) collab-reel met partner, lid of goed doel als mede-auteur; (3) jeugdwinnaars binnen 24u met namen in de caption.
+
+## Lessen 23/11 · clubs
+1. Clubs: **gezichten en spelers** winnen. Spelers voorstellen met een trend ("Welk rugnummer heb jij?", 115K, 40x mediaan), quiz tussen 2 teamgenoten (27,5K, 10x), supporters bij een emotioneel moment (166K, 8x).
+2. **Pijnpunt-hook die een bezwaar wegneemt** ("Te druk om 3x per week te trainen?", 22,9K) werkt voor ledenwerving. Kanttekening: 31 likes, wellicht gesponsord.
+3. Kort sfeerbeeld 6-13 s met grote tekst + de echte boodschap in de caption ("Zit jij in het bestuur? Lees de caption!", 11,6K = 3x).
+4. Stelling in de camera blijft de sterkste vorm voor ons publiek (bevestigd: @shotby.rene 21,6K en 17,2K; onze affiches-reel 1.777 = ons record).
+5. Reactiewoord als CTA ("Comment CLIENTS", 130 reacties). Voor SGM enkel binnen de vaste CTA: "Reageer ANALYSE, dan sturen we je een DM" (test).
 
 ## Lessen 8/11 (eerste trendonderzoek)
 1. Stelling/mening met spreker in beeld = 3-6x gemiddelde (bevestigd).
@@ -24,6 +58,14 @@ Werkwijze (vanaf 9/11):
 ## Gevonden reels (nieuwste bovenaan)
 | Datum | Account | Weergaven (x gemiddelde) | Hook / opening | Formaat | Idee voor SGM |
 |---|---|---|---|---|---|
+| 23/11 | @wvhedw14_1 (voetbal NL, mediaan 2,8K) | 115K (40x) | "Wat een team 🔥 Welk rugnummer heb jij?" | jeugdspelers stellen zich voor (rugnummer-trend), 70 s | CLUBTIP-reel "3 reels met je spelers die altijd werken" + Kickstart-shots |
+| 23/11 | @wvhedw14_1 | 27,5K (10x) | "Florian en Tom testen hun voetbalkennis" | quiz 2 spelers, namen in beeld, 39 s | idem: quiz als vast format voor klanten |
+| 23/11 | @kvv_zelzate (BE, mediaan 19,5K) | 166K (8x) | "Voor Ibo 🙏🤍" | supporters, eerbetoon, 121 s | niet kopiëren (eenmalig emotioneel moment) |
+| 23/11 | @usvhercules1882 (NL, mediaan 2,4K) | 22,9K (±9x, wellicht gesponsord) | "Te druk om 3x per week te trainen?" | sfeerbeeld + grote tekst, 13 s | pijnpunt-hook voor SGM: "Geen tijd om elke week te posten?" |
+| 23/11 | @fcberingenclub (BE) | 11,1K (1,7x) | "MEET THE TEAM · Ik ben ... jaar" | interview op tribune, ondertiteld, 59 s | Meet the team als dienst in Kickstart |
+| 23/11 | @shotby.rene | 11,6K (3x) | "Zit jij in het bestuur van een tennisclub? Lees de caption!" | sfeerbeeld volle tribune + lange caption, 6 s | 8 s caption-reel naar clubbesturen |
+| 23/11 | @tylertometich (mediaan 59K) | 138K (2,3x) | "...the DIFFERENCE" (TOFU/MOFU/BOFU) | 3 personen + graphics, "Comment CLIENTS", 25 s | vorm al gebruikt (split-screen 30/11) |
+| 23/11 | @house.of.ag | 114K (4x) | "& you only have 10" | podcastfragment, collab, 59 s | collab blijft hefboom (FLAXX bewees het) |
 | 8/11 | @shotby.rene (gem. ±3,5K) | 21,6K (6x) | "Nederland heeft een tennis probleem!" | in camera, 67 s | meningsreel "Padel heeft een probleem in België" |
 | 8/11 | @shotby.rene | 17,2K (5x) | "Tennisclubs: stop met ChatGPT-posters voor je toernooi!" | praatvideo | = onze di 10/11 "Stop met affiches" (eigen woorden houden) |
 | 8/11 | @shotby.rene | 11,5K (3x) | "Jullie Instagram is geen prikbord." | ? | stelling al door Rene gebruikt: niet letterlijk overnemen |

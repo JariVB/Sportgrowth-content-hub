@@ -191,3 +191,76 @@ Planning: reel proefles do 19/11 18u00 (wo inplannen), reel december di 24/11 18
 **Status wo 18/11 (ochtend):** proefreel A online (haalt minder dan de affiches-reel, meten do 19/11). FLAXX-carrousel na 26u: 1.487 weergaven, 88% niet-volgers, 85% via stories (partner deelde). Winterregel in CONTENTSYSTEEM (5o): studio + binnen 's avonds, geen buitenshoots. Jari koopt iOttie Velox Pro (zuignap) voor padelbeelden. Vandaag: opnamesessie (3 teksten), Beeble december (seed 4731), proefles inplannen do 18u, Peter laatste opvolging. Shoot training → di 24/11. Do: Mikal opvolgen, proefreel-stats. Weekplan 23-29/11 nog niet bevestigd.
 **Wo 18/11:** ✅ PR #12 gemerged: nieuw aanbod live (Kickstart €297, stichters €197 in blauw kader, Basis €199, Groei €399, Pro €649). Offerte: klanten/offerte/kickstart-sportgrowth-media.pdf. Do 19/11: Kickstart-berichten naar Mikal, Michelle, Britt en Fuse.
 **Wo 18/11 middag:** opnamesessie verschoven naar za 21/11 vóór 12u (anders di 24/11 → reel 'Stop met uitslagen' dan ma 30/11). Vandaag administratiedag: Kickstart-berichten 4 warme + 10 nieuwe zaken (klanten/offerte/koude-berichten-kickstart.md), ondernemingsnummer, Beeble december, proefles inplannen.
+**Wo 18/11:** Xerius gebeld: oud ondernemingsnummer heractiveren (eenmanszaak bijberoep, enkel SGM, padel niet). Btw-vrijstelling kleine ondernemingen mogelijk, btw-nummer nodig (€78 via Xerius). Daarna: factuursjabloon + opdrachtbevestiging + register door Claude.
+Xerius: instap Q4, inkomsten onder grens (±€1.090-1.900) → geen sociale bijdrage. Zakelijke rekening ING → inschrijving terugbetaald. Volgorde: ING-rekening, inschrijving Xerius, btw-nummer met vrijstelling, nummers naar Claude.
+
+**Status do 19/11 (ochtend):** voorstel Peter ingepland 8u30 (3 merken, €1.485/maand), bellen ma 23/11 na 16u. Michelle positief op Kickstart (filmdatum voorstellen). Mikal, Britt, Fuse (enkel netwerk) gestuurd. Nieuw aanbod live (PR #12, #13). Vandaag 18u reel proefles. Open: Beeble december downloaden, ING + Xerius, nieuwe zaken (fitness eerst). Za 21/11: opnamesessie vóór 12u, Kickstart-stories, opvolgen nieuwe zaken. Weekplan 23-29/11 (Claude volgt voorstel): ma carrousel CLUBCHECK (gezicht op cover), di reel december, do reel "Stop met uitslagen" (als za opgenomen).
+**Do 19/11:** ✅ eerste Kickstart: Michelle (fitness), shoot wo 2/12 9u-10u, €197, factuur januari.
+**Do 19/11 18u:** ✅ reel proefles online (cover A) + story met peiling. Kickstart-DM's: 6 nieuwe zaken (ronde 3) + Sportkampen Zele; Compound nee, Britt nu nog niet (maart). Reel december v1 klaar (post di 24/11).
+
+**Status vr 20/11 (ochtend):** vrijdag = vrij. Za: opnamesessie vóór 12u, Kickstart-stories 19u30, statistieken reel proefles + proefreel A + peiling. Claude maakt carrousel CLUBCHECK voor ma 23/11. Ondernemingsnummer (ING + Xerius) → ma 23/11. Ronde 1-prospects → uur verkoop ma 30/11.
+
+**Status za 21/11 (ochtend):** vandaag opnamesessie vóór 12u (voetbal 12u30), Kickstart-stories 19u30, statistieken. Reel december v1 wacht op akkoord Jari. Carrousel CLUBCHECK (fictieve club, voor/na profiel, gezicht op cover) maakt Claude vandaag, inplannen ma 18u. Aurora: nee (fotograaf).
+**Za 21/11:** ✅ opnamesessie: uitslagen (IMG_3539, nieuwe versie met kernzin), split-screen (rood IMG_3542 thuis tegen witte muur = amateur, zwart IMG_3544 in studio via Beeble = pro), 5 fouten (IMG_3552). 6 Beeble-delen klaar (instagram/studio/beeble/). Planning: do 26/11 uitslagen, ma 30/11 split-screen, 5 fouten week 30/11. Nieuwe raster-veilige covers (instagram/covers-raster/).
+**Za 21/11 avond:** ✅ Kickstart-stories (selfievideo bij de plant + 3 beelden, nog 2 plaatsen) + bio aangepast. Reel uitslagen v4 klaar (deel 1 Beeble, deel 2 grafisch, 0 extra credits). Beeble-credits op: OTOY werkte niet op de gsm; regel: tools max 10-15% van inkomsten, Beeble Pro nu niet.
+
+**Status zo 22/11 (ochtend):** carrousel CLUBCHECK klaar (fictieve club TC De Klaver, voor/na, Jari in studio op cover). Vandaag inplannen: ma carrousel, di reel december, do reel uitslagen. Beeble: credits op tot ±12/12 → split-screen (ma 30/11) zonder studio: amateur EN pro tegen de witte muur, verschil zit in de aanpak. 5 fouten: na nieuwe credits of met korte studio-intro. Morgen: Peter bellen na 16u, opvolgen 6 zaken, ING + Xerius.
+
+**Status ma 23/11 (ochtend):** klaar voor deze week: carrousel CLUBCHECK (ma 18u, slides 5-7 met mensen), reel december v2 (di 18u), reel uitslagen v4 (do 18u), split-screen v6 pingpong (ma 30/11). Visitekaartje klaar (visitekaartje/). Merch: Anthem AM201 + AM015 navy. Vandaag: inplannen vóór 17u, Peter bellen na 16u, opvolgen 6 zaken, ING + Xerius.
+
+**Weekplan 30/11-6/12 (voorstel):**
+- ma 30/11 18u: reel split-screen "Zelfde tornooi. Welke post vult het?" (v6, klaar) · uur verkoop 's avonds (ronde 1 met Claude in Chrome)
+- wo 2/12 9u-10u: shoot Kickstart Michelle · daarna opnamesessie (2 teksten, thuis bij de plant, zonder Beeble)
+- do 3/12 18u: reel "5 fouten op de Instagram van je club": Jari kort in beeld (hook + slot, studio-take van 21/11 zonder Beeble: thuisbeeld) + de 5 fouten groot als voorbeelden met zijn stem
+- za/zo: stories (Kickstart herhaling + resultaten)
+- Beeble pas terug als 2 klanten betalen (regel 22/11).
+
+**Trendonderzoek 23/11 → 3 posts (week 7/12, binnen het SGM-concept):**
+1. **Meningsreel in de camera (HERKENBAAR?/stelling, 30-45 s):** "Waarom stopt de jeugd rond hun 15e met sporten bij je club?" Opnemen wo 2/12 na Michelle (thuis bij de plant). Vraag-hook = 69 reacties bij Rene. Post di 8/12 18u.
+2. **CLUBTIP-reel "3 reels met je spelers die altijd werken" (25-35 s):** rugnummer-trend, Meet the team, quiz tussen 2 teamgenoten. Beeld: Kickstart-shoot Michelle (leden) + padeltraining. Afsluiter: gratis analyse via DM. Post do 10/12 18u.
+3. **Caption-reel naar clubbesturen (8 s):** sfeerbeeld volle padelhal/kantine + grote tekst "Geen tijd om elke week te posten? Lees de caption." Caption = 5 tips + CTA "Reageer ANALYSE, dan sturen we je een DM" (test reactiewoord binnen vaste CTA). Post ma 7/12 18u.
+
+**Trendonderzoek agencies 23/11 → wat SGM aanpast (binnen het concept):**
+1. **Caption-reel 7/12 wordt sterker:** hook "Zit jij in het bestuur van een sportclub? Lees de caption." Caption: 4 echte cijfers uit 6 clubs (Paquito 29K met een medewerkster die het tornooi uitlegt, Duinbergen: affiche het zwakst, Melle 7x met een goed doel, Houten: jeugdwinnaars). CTA: "Reageer ANALYSE, dan stuur ik je een DM. Max 10 clubs per maand."
+2. **Michelle als collab:** haar Kickstart-reels posten als collab (zij mede-auteur), zodat ze ook in haar feed staan. Vragen op de shoot wo 2/12. Daarna highlight "Michelle" met voor/na.
+3. **Highlights per klant** i.p.v. één "Resultaat": FLAXX, Jan Stilten, later Michelle.
+4. **Oprichtersreel (8-15 s, wo 2/12 filmen):** Jari wandelt naar de zaal van Michelle met camera, tekstvak: "Als trainer en speler zag ik het elke week: clubs vol leven, een lege Instagram." Het verhaal (voetbal, padel, wat Jari zag, waarom SGM in Lokeren) in de caption. Post ma 14/12 18u.
+5. **Formats voor de shotlist van Michelle (1/12):** vast gezicht + "Wie neem jij mee naar de les? Tag ze" en een collab met een partner of lid.
+Beslissing Jari: (a) bio scherper met namen, bv. "Instagram voor sportclubs in Vlaanderen · o.a. FLAXX, Jan Stilten Padel Academy" (enkel met hun akkoord); (b) apart toernooi-/clubfeestpakket naast de Kickstart: nieuw product, nu niet opnemen tenzij Jari het wil.
+
+**Beslist 23/11: content verkoopt SGM (CONTENTSYSTEEM 5q).** Weekmix: bewijs, achter de schermen, mening. Tips enkel met slot "Geen tijd? Wij doen het voor je."
+Bijgestuurd:
+- do 3/12 reel 5 fouten: slot wordt "Herken je er 2? Wij lossen ze op. Reageer ANALYSE."
+- **Week 7/12 (vervangt de 3 trendposts):** ma 7/12 caption-reel "Zit jij in het bestuur van een sportclub? Lees de caption" (mening) · di 8/12 achter de schermen "Zo ziet een filmdag bij een fitnesszaak eruit" (beelden 2/12, Jari aan het werk) · do 10/12 oprichtersreel "Als trainer en speler zag ik het elke week: clubs vol leven, een lege Instagram."
+- **Week 14/12:** reel Michelle als collab (bewijs) · Kickstart-post "Nog X plaatsen aan €197 tot 31/12" (aanbod) · mening.
+- Geschrapt: meningsreel "Waarom stopt de jeugd…" en CLUBTIP "3 reels met je spelers" (tips voor clubs, verkopen SGM niet).
+- Na Michelle: 3 posts vastzetten (oprichtersreel, bewijs, Kickstart) + highlights per klant.
+
+**Beslist 23/11 (avond): nieuwe vaste week vanaf ma 30/11** (CONTENTSYSTEEM deel 4): 3 posts ma/di/do 18u (mening / achter de schermen / bewijs), ma-avond uur verkoop met 3 voorbeeldfilmpjes, wo-voormiddag 2-3 zaken binnenlopen, wo-middag gesprekken. Week 30/11 is een overgangsweek (split-screen ma, 5 fouten do, shoot Michelle wo).
+
+**Ma 23/11 18u:** ✅ carrousel CLUBCHECK online (nieuwe cover A, caption met slot "Geen tijd? Wij doen het voor je"). Stats na 24u en 7d.
+
+**Status di 24/11 (ochtend):** carrousel CLUBCHECK online ma 18u. Stats: proefles 1.102 (2x gem., 27 profielbezoeken → 1 volger), proefreel A 327 (niet gedeeld op privé). Vandaag: reel december 18u (inplannen vóór 17u als nog niet gebeurd), uitslagen do 18u, bio + highlight FLAXX, split-screen v6 akkoord, padelbeelden op training. Ondernemingsnummer open sinds 19/11 → dag laten kiezen. Wo 25/11: proef nieuwe werking (3 zaken in Lokeren binnenlopen). Do 26/11: laatste opvolging ronde 3. Claude: reel 5 fouten (do 3/12) en shotlist Michelle (1/12).
+
+**Di 24/11 14u:** ✅ bio vernieuwd (5 regels: voor wie, resultaat, wij doen het, FLAXX + Jan Stilten, DM ANALYSE) + highlights Kickstart, FLAXX, Jan Stilten. Nog: naamveld, vastgezette posts, notitie profielfoto.
+**Di 24/11:** ✅ naamveld "SportGrowth Media | Social media voor sportzaken", bio regel 1 "Social media voor sportzaken en clubs", highlights gelijk, FLAXX-carrousel vastgezet. Profiel klaar.
+**Di 24/11:** ✅ reel december gepland 18u (caption: "Reageer ANALYSE (of stuur het in een DM)").
+**Di 24/11:** ✅ reel uitslagen gepland do 26/11 18u.
+
+**Status wo 25/11 (ochtend):** di: december-reel online 18u, uitslagen gepland do 18u, bio/naam/highlights vernieuwd, padeltraining gefilmd (14 clips, akkoord ouders). Vandaag: 9u30 shoot (split-screen kloon + split-carrousel), 10u30-12u 3 zaken Lokeren binnenlopen (Radar Padelclub, P-Padel, Fierce Studios), 13u stats, 13u30 ondernemingsnummer, 14u beelden naar Claude. Do: opvolgen ronde 3 + voorbeeldfilmpjes sturen. Volgende week: ma 30/11 split-screen (nieuw), wo 2/12 shoot Michelle, do 3/12 reel 5 fouten.
+**Wo 25/11 15u30:** ✅ ondernemingsnummer aangevraagd via Xerius (eenmanszaak bijberoep, start 26/11/2026, activiteiten: social media/reclame + grafisch ontwerp + copywriter, boekhouding zelf, btw-vrijstelling kleine ondernemingen). Xerius volgt op. Nog: ING zakelijke rekening, nummers naar Claude. Split-screen v7 (kloon) klaar voor ma 30/11.
+**Wo 25/11:** ✅ zakelijke rekening geopend bij eigen bank (gratis), niet ING. Wacht op ondernemingsnummer (Xerius ±16u30).
+**Wo 25/11:** startdatum onderneming = **do 26/11/2026** (Xerius). Kosten vanaf 26/11 = beroepskosten, ervoor = aanloopkosten.
+
+**Test (Jari 25/11): actievere animaties.** Reel 5 fouten (do 3/12): beweging vanaf frame 0 (punch-zoom + tekst die inslaat), elke 1,5-2 s iets nieuws in beeld (fout-kaart, cijfer, emoji, zoom), max. 20 s. Meten: overslaan < 65%? (december 73,6%, uitslagen = vergelijking).
+
+**Status do 26/11 (ochtend):** SGM officieel gestart (BE 0797.731.753). Wo: ondernemingsnummer, zakelijke rekening, administratie in Drive, split-screen v7 (kloon) klaar, stats carrousel (242) en december (766). Langsgaan Lokeren niet gemeld → verschoven naar wo 2/12 na Michelle. Vandaag: 18u reel uitslagen + story, opvolgen ronde 3 (laatste bericht), Michelle bevestigen + gegevens. Vr: niets. Ma 30/11: split-screen v7 18u, trendonderzoek, Peter bellen na 16u, uur verkoop 20u.
+
+**Do 26/11:** ✖ split-screen v7 (kloon) afgekeurd door Jari ("trekt op niks"). Niet posten. Ma 30/11 18u wordt de **split-carrousel** "De meeste clubs hebben geen Instagram-probleem. Ze hebben een tijdsprobleem." (IMG_3720, mening). Claude maakt hem tegen za 28/11. Split-screen-idee pas opnieuw met echte 2-camera-opname of een tweede persoon.
+
+**Beslist 26/11: vormingsavonden als verkoopkanaal (geen cursus).** December: focus Michelle, Peter, uur verkoop. Ma 4/1/2027: mail sportdienst Lokeren (+ Zele, Sint-Niklaas) voor 1 vormingsavond feb/maart "Meer leden via Instagram, ook als niemand tijd heeft" (45 min, live clubanalyse, €150-300 of gratis voor contacten). Claude schrijft mail + presentatie. Daarna meten: analyses en klanten per avond; werkt het, 1 avond per kwartaal. Online cursus: pas bij groot publiek.
+**Do 26/11:** ✅ split-carrousel "Tijdsprobleem" ingepland ma 30/11 18u (studio met wazige achtergrond, filmische look, vooral mond dicht).
+
+**Status vr 27/11:** vrijdag = vrij. Do: reel uitslagen online 18u, carrousel tijdsprobleem ingepland ma 18u, visitekaartje opnieuw bezorgd. Open zonder deadline → za 28/11 (gsm): Michelle bevestigen (dringend, shoot wo 2/12), laatste opvolging ronde 3, cijfers uitslagen. Ma 30/11: carrousel 18u + story, trendonderzoek, Peter na 16u, uur verkoop 20u.
+
+**Beslist 27/11:** niet verbreden; nadruk op commerciële sportzaken en sportmerken; tak 2 (gezondheid en beweging) bekijken bij 5 betalende klanten (CONTENTSYSTEEM 5s).
