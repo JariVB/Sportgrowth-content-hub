@@ -260,3 +260,5 @@ Bijgestuurd:
 
 **Beslist 26/11: vormingsavonden als verkoopkanaal (geen cursus).** December: focus Michelle, Peter, uur verkoop. Ma 4/1/2027: mail sportdienst Lokeren (+ Zele, Sint-Niklaas) voor 1 vormingsavond feb/maart "Meer leden via Instagram, ook als niemand tijd heeft" (45 min, live clubanalyse, €150-300 of gratis voor contacten). Claude schrijft mail + presentatie. Daarna meten: analyses en klanten per avond; werkt het, 1 avond per kwartaal. Online cursus: pas bij groot publiek.
 **Do 26/11:** ✅ split-carrousel "Tijdsprobleem" ingepland ma 30/11 18u (studio met wazige achtergrond, filmische look, vooral mond dicht).
+
+**Status vr 27/11:** vrijdag = vrij. Do: reel uitslagen online 18u, carrousel tijdsprobleem ingepland ma 18u, visitekaartje opnieuw bezorgd. Open zonder deadline → za 28/11 (gsm): Michelle bevestigen (dringend, shoot wo 2/12), laatste opvolging ronde 3, cijfers uitslagen. Ma 30/11: carrousel 18u + story, trendonderzoek, Peter na 16u, uur verkoop 20u.
