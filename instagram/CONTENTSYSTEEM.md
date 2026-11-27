@@ -346,3 +346,9 @@ Na elk trendonderzoek bepaalt Claude per post het soort video, de beelden en het
   3. Gratis ChatGPT voor een stilstaand beeld of object; Claude schrijft de prompt, Jari stuurt het beeld, Claude animeert.
   4. Betaalde AI-video (Kling, Runway, Veo, Sora) enkel als de budgetregel het toelaat: tools max 10-15% van de inkomsten, vanaf 2 betalende klanten.
 - Betaalde tools nu: Claude Pro, Beeble Creator (tot 13/12).
+
+## 5s. Focus en groei (beslist 27/11)
+- Niet verbreden: de niche sport is groot genoeg (duizenden clubs en zaken in Vlaanderen; 10-15 klanten = <1%). Het probleem is bekendheid en vertrouwen, niet de grootte van de markt.
+- **Nadruk op commerciële sportzaken en sportmerken** (padelcentra, fitness, boutique studio's, merken/ketens): hoogste budget, zaakvoerder beslist. Academies en kampen: middel. Vzw-clubs: enkel voor zichtbaarheid (vormingsavonden), niet als hoofddoel.
+- In content en verkoop: vaker "sportzaken" dan "clubs".
+- **Later een groter bureau:** SGM = eerste tak. Tweede tak "gezondheid en beweging" (kinesisten, diëtisten, personal trainers, wellness) pas te bekijken bij **5 betalende klanten**. Zelfde ondernemingsnummer kan meerdere handelsnamen dragen.

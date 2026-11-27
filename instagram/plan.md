@@ -262,3 +262,5 @@ Bijgestuurd:
 **Do 26/11:** ✅ split-carrousel "Tijdsprobleem" ingepland ma 30/11 18u (studio met wazige achtergrond, filmische look, vooral mond dicht).
 
 **Status vr 27/11:** vrijdag = vrij. Do: reel uitslagen online 18u, carrousel tijdsprobleem ingepland ma 18u, visitekaartje opnieuw bezorgd. Open zonder deadline → za 28/11 (gsm): Michelle bevestigen (dringend, shoot wo 2/12), laatste opvolging ronde 3, cijfers uitslagen. Ma 30/11: carrousel 18u + story, trendonderzoek, Peter na 16u, uur verkoop 20u.
+
+**Beslist 27/11:** niet verbreden; nadruk op commerciële sportzaken en sportmerken; tak 2 (gezondheid en beweging) bekijken bij 5 betalende klanten (CONTENTSYSTEEM 5s).
