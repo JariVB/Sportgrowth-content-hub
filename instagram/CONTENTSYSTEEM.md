@@ -352,3 +352,10 @@ Na elk trendonderzoek bepaalt Claude per post het soort video, de beelden en het
 - **Nadruk op commerciële sportzaken en sportmerken** (padelcentra, fitness, boutique studio's, merken/ketens): hoogste budget, zaakvoerder beslist. Academies en kampen: middel. Vzw-clubs: enkel voor zichtbaarheid (vormingsavonden), niet als hoofddoel.
 - In content en verkoop: vaker "sportzaken" dan "clubs".
 - **Later een groter bureau:** SGM = eerste tak. Tweede tak "gezondheid en beweging" (kinesisten, diëtisten, personal trainers, wellness) pas te bekijken bij **5 betalende klanten**. Zelfde ondernemingsnummer kan meerdere handelsnamen dragen.
+
+## 5t. Klantposts en collabs (27/11)
+- Een klantpost staat **altijd eerst op het account van de klant** (hun volgers, hun merk). @sportgrowth_media wordt als **bijdrager** uitgenodigd en aanvaardt.
+- **Niet elke klantpost als collab.** Per klant per maand de 1-2 sterkste (bewijs). De rest: klant post alleen, met "🎬 @sportgrowth_media" in de caption (vast in de introductieprijs).
+- **Kickstart:** Claude levert bestanden + captions, de klant post zelf en nodigt SGM uit als bijdrager. Jari aanvaardt.
+- **Maandpakket:** toegang via Meta Business Suite (geen wachtwoorden), Jari plant de posts in vanaf het account van de klant.
+- Na elke collab: highlight van die klant aanvullen.
