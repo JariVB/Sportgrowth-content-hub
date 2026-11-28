@@ -267,3 +267,5 @@ Bijgestuurd:
 
 **Vr 27/11:** ⚠️ ondernemingsnummer gecorrigeerd: **0787.731.753** (niet 0797, typfout). Bron: btw-aanvraag 604A van 27/11 (Xerius). Aangepast: website, privacy, visitekaartje, factuursjabloon.
 **Vr 27/11:** ✅ visitekaartjes besteld bij Vistaprint (juist nummer 0787.731.753, QR getest). Factuur naar Claude → kostenregister.
+
+**Status za 28/11:** vr: ondernemingsnummer gecorrigeerd (0787.731.753), visitekaartjes besteld, shotlist Michelle klaar. Vandaag (gsm): Michelle voor-cijfers + account, cijfers uitslagen, PR #14 mergen. Zo: Kickstart-story. Ma 30/11: carrousel 18u, trendonderzoek, Peter na 16u, uur verkoop 20u.
