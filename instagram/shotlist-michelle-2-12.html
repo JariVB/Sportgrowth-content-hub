@@ -180,7 +180,7 @@ const S = [
   {id:"v5", t:"Toestemming van leden die in beeld komen", say:"Ik maak filmpjes voor de Instagram van de fitness. Vind je het oké om even in beeld te komen? Als je liever niet wil, film ik je niet herkenbaar.", tip:"Wie nee zegt: enkel van achteren of handen/voeten."}
  ]},
  {id:"box", box:true, h:"Belangrijk", lines:[
-  "Altijd rechtop. Zoom staat bij elk shot (📷): kies die vóór je op opnemen drukt en verander niet tijdens de opname.","1x = standaard (beste kwaliteit). 0,5x = groothoek voor de hele zaal. 2x = details zonder er met je gsm bovenop te zitten. Nooit 3x of 5x binnen: dat wordt korrelig.",
+  "Altijd rechtop. Zoom staat bij elk shot (📷): kies die vóór je op opnemen drukt en verander niet tijdens de opname.","Film altijd met de gewone Camera-app van je iPhone, ook op de gimbal (beste kwaliteit, 0,5x werkt). De DJI Mimo-app heb je niet nodig. Gimbal als statief = pootjes uit, op een tafel of kast op ooghoogte. Gimbal · bewegen = in de hand, traag stappen.","Witte labels: gimbal of uit de hand. Oranje: micro op wie. Shots met '2e gsm': iemand filmt jou met zijn of haar gsm en stuurt het via AirDrop.","1x = standaard (beste kwaliteit). 0,5x = groothoek voor de hele zaal. 2x = details zonder er met je gsm bovenop te zitten. Nooit 3x of 5x binnen: dat wordt korrelig.",
   "Per shot 5 à 10 s. Start 1 s vóór de actie, stop 1 s erna.",
   "Michelle praat altijd mét micro, recht in de camera of net ernaast, op ooghoogte.",
   "Licht: zet Michelle met het gezicht naar het raam of de lampen, nooit met het raam achter haar."]},
@@ -280,6 +280,8 @@ const V={
 };
 const visHtml=id=>{const v=V[id];return v?`<div class="visbox"><div class="vis"><figure>${v.d}<figcaption>Zo sta je</figcaption></figure><figure>${v.f}<figcaption>Zo ziet je beeld eruit</figcaption></figure></div></div>`:"";};
 const ZOOM={A1:"1x",A2:"1x",A3:"1x",A4:"2x",B1:"1x",B2:"1x",B3:"1x",B4:"1x",B5:"1x",C1:"1x",C2:"1x",C3:"0,5x",D1:"1x",D2:"0,5x",D3:"1x",D4:"2x",E1:"1x",E2:"1x",E3:"1x",E4:"1x",E5:"1x",E6:"selfiecamera 0,5x"};
+const TOOL={A1:"Gimbal · bewegen",A2:"Gimbal als statief",A3:"Gimbal als statief",A4:"Uit de hand",B1:"Gimbal als statief",B2:"Gimbal als statief",B3:"Gimbal als statief",B4:"Gimbal · bewegen",B5:"Gimbal als statief",C1:"Gimbal als statief",C2:"Uit de hand",C3:"Gimbal als statief",D1:"Uit de hand",D2:"Gimbal · traag draaien",D3:"Uit de hand (foto)",D4:"Uit de hand",E1:"Gimbal · iemand volgt jou",E2:"Gimbal als statief",E3:"2e gsm (Michelle of lid)",E4:"2e gsm (Michelle of lid)",E5:"2e gsm (Michelle of lid)",E6:"Uit de hand"};
+const MIC={A3:"Michelle",B1:"Michelle",B2:"Michelle",B3:"Michelle",B5:"Michelle",C1:"het lid"};
 const KEY="sgm-shotlist-michelle-2-12";
 let state={};try{state=JSON.parse(localStorage.getItem(KEY)||"{}")||{}}catch(e){state={}}
 const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){document.getElementById("saved").textContent="Vinkjes worden niet bewaard in dit venster."}};
@@ -294,7 +296,7 @@ function render(){
   <ul class="items">${s.items.map(it=>`<li class="item${state[it.id]?" is-done":""}" data-id="${it.id}">
    <label><input type="checkbox" id="cb-${it.id}" ${state[it.id]?"checked":""}><div class="body">
    <div class="t">${/^[A-E]\d/.test(it.id)?`<span class="id">${it.id}</span>`:""}${esc(it.t)}</div>
-   ${(it.c||ZOOM[it.id])?`<div class="chips">${ZOOM[it.id]?`<span class="chip mv">📷 ${ZOOM[it.id]}</span>`:""}${(it.c||[]).map(c=>`<span class="chip">${esc(c)}</span>`).join("")}</div>`:""}
+   ${(it.c||ZOOM[it.id]||TOOL[it.id])?`<div class="chips">${ZOOM[it.id]?`<span class="chip mv">📷 ${ZOOM[it.id]}</span>`:""}${TOOL[it.id]?`<span class="chip app">${TOOL[it.id]}</span>`:""}${MIC[it.id]?`<span class="chip app mimo">🎙 micro op ${MIC[it.id]}</span>`:""}${(it.c||[]).map(c=>`<span class="chip">${esc(c)}</span>`).join("")}</div>`:""}
    ${it.say?`<div class="say"><q>${esc(it.say)}</q></div>`:""}
    ${it.tip?`<div class="tip">${esc(it.tip)}</div>`:""}
    </div></label>
