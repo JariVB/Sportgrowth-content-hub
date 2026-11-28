@@ -35,7 +35,7 @@ td.n,th.n{text-align:right;white-space:nowrap}.sub{color:#5b6a88;font-size:8.5pt
 </style></head><body><div class="p">
 <div class="top"><div class="brand"><img src="${logo}"><div><b>SportGrowth</b><i>MEDIA</i></div></div>
 <div><h1>${isF?'Factuur':'Opdrachtbevestiging'}</h1><div class="meta">Nummer <b>${d.nummer}</b><br>Datum ${d.datum}${isF?`<br>Vervaldatum <b>${d.verval}</b>`:''}</div></div></div>
-<div class="adr"><div><h3>Van</h3><b>SportGrowth Media</b><br>Jari Van Boxlaer<br>${d.van.adres.join('<br>')}<br>Ondernemingsnummer BE 0797.731.753<br>jari@sportgrowthmedia.be · 0479 25 31 13</div>
+<div class="adr"><div><h3>Van</h3><b>SportGrowth Media</b><br>Jari Van Boxlaer<br>${d.van.adres.join('<br>')}<br>Ondernemingsnummer BE 0787.731.753<br>jari@sportgrowthmedia.be · 0479 25 31 13</div>
 <div><h3>Aan</h3><b>${d.aan.naam}</b><br>${d.aan.adres.join('<br>')}${d.aan.ondernemingsnummer?`<br>Ondernemingsnummer ${d.aan.ondernemingsnummer}`:''}</div></div>
 <table><tr><th>Omschrijving</th><th class="n">Aantal</th><th class="n">Prijs</th><th class="n">Totaal</th></tr>
 ${d.lijnen.map(l=>`<tr><td><b>${l.wat}</b>${l.detail?`<div class="sub">${l.detail}</div>`:''}</td><td class="n">${l.aantal}</td><td class="n">${eur(l.prijs)}</td><td class="n">${eur(l.aantal*l.prijs)}</td></tr>`).join('')}
@@ -45,7 +45,7 @@ ${d.lijnen.map(l=>`<tr><td><b>${l.wat}</b>${l.detail?`<div class="sub">${l.detai
 ${isF?`<div class="pay"><h3>Betaling</h3>Gelieve ${eur(tot)} te storten op <b>${d.iban}</b> (SportGrowth Media) vóór ${d.verval}, met mededeling <b>${d.nummer}</b>.</div>`:''}
 ${d.tekst?`<div class="txt">${d.tekst}</div>`:''}
 ${!isF?`<div class="sign"><div>Voor akkoord: ${d.aan.naam}<br>(naam, datum, handtekening)</div><div>SportGrowth Media<br>Jari Van Boxlaer</div></div>`:''}
-<div class="foot"><span>SportGrowth Media · Jari Van Boxlaer · BE 0797.731.753</span><span>sportgrowthmedia.be</span></div>
+<div class="foot"><span>SportGrowth Media · Jari Van Boxlaer · BE 0787.731.753</span><span>sportgrowthmedia.be</span></div>
 </div></body></html>`;
 (async()=>{const b=await chromium.launch();const p=await b.newPage();await p.setContent(html);await p.evaluate(()=>document.fonts.ready);
 const out=process.argv[2].replace(/\.json$/,'.pdf');await p.pdf({path:out,format:'A4',printBackground:true});await b.close();console.log(out);})();

@@ -1,0 +1,197 @@
+<title>Shotlist Kickstart Michelle</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Layout: één smalle kolom voor de gsm; sticky voortgangsbalk; per tijdsblok een lijst met grote afvinkrijen. Bewust één donkere SGM-look, leesbaar in een felle hal. */
+:root{
+  --bg:#0b1633; --card:#12224a; --line:#26386b; --fg:#eaf2ff; --muted:#9fb2d9;
+  --cyan:#00d4ff; --done:#5fe0a0; --warn:#ffb86b;
+  --flax:#d9b77a; --wall:#1b2d5c; --floor:#0f1d42; --grey:#3a4c80;
+  --display:"Rajdhani","Arial Narrow",system-ui,sans-serif;
+  --body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 56px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:640px;margin:0 auto;display:flex;flex-direction:column;gap:22px}
+h1,h2{font-family:var(--display);font-weight:700;line-height:1.05;text-wrap:balance;margin:0}
+h1{font-size:40px}
+h2{font-size:24px}
+.eyebrow{font-family:var(--display);font-weight:600;letter-spacing:.14em;text-transform:uppercase;font-size:13px;color:var(--cyan)}
+header{padding-top:24px;display:flex;flex-direction:column;gap:6px}
+.facts{display:grid;grid-template-columns:auto 1fr;gap:2px 12px;font-size:14px;margin:6px 0 0}
+.facts dt{color:var(--muted)} .facts dd{margin:0}
+a{color:var(--cyan)}
+
+.progress{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:10px;display:flex;flex-direction:column;gap:6px;border-bottom:1px solid var(--line)}
+.prow{display:flex;justify-content:space-between;align-items:baseline;font-family:var(--display);font-weight:700;font-size:18px;font-variant-numeric:tabular-nums}
+.prow span{color:var(--muted);font-weight:600;font-size:14px}
+.track{height:8px;border-radius:99px;background:var(--line);overflow:hidden}
+.fill{height:100%;width:0;background:var(--cyan);transition:width .3s}
+.jump{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+.jump a{flex:none;text-decoration:none;font:600 13px var(--body);color:var(--fg);background:var(--card);border:1px solid var(--line);border-radius:99px;padding:4px 10px}
+.jump a.ok{border-color:var(--done);color:var(--done)}
+
+section{display:flex;flex-direction:column;gap:10px;scroll-margin-top:110px}
+.shead{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.time{font-family:var(--display);font-weight:700;color:var(--cyan);font-size:16px;white-space:nowrap}
+.note{font-size:14px;color:var(--muted);margin:0}
+ul.items{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.item{background:var(--card);border:1px solid var(--line);border-radius:12px}
+.item label{display:grid;grid-template-columns:28px 1fr;gap:12px;padding:12px 14px;cursor:pointer;align-items:start}
+.item input{appearance:none;width:28px;height:28px;border:2px solid var(--muted);border-radius:8px;margin:0;display:grid;place-items:center;background:transparent;cursor:pointer}
+.item input::after{content:"";width:12px;height:7px;border:3px solid var(--bg);border-top:0;border-right:0;transform:rotate(-45deg) translate(1px,-1px);opacity:0}
+.item input:checked{background:var(--done);border-color:var(--done)}
+.item input:checked::after{opacity:1}
+.item input:focus-visible{outline:3px solid var(--cyan);outline-offset:2px}
+.item.is-done{opacity:.55}
+.item.is-done .t{text-decoration:line-through}
+.body{min-width:0;display:flex;flex-direction:column;gap:4px}
+.t{font-weight:600}
+.id{font-family:var(--display);font-weight:700;color:var(--cyan);margin-right:6px}
+.chips{display:flex;flex-wrap:wrap;gap:4px}
+.chip{font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:6px;padding:0 6px}
+.chip.mv{color:var(--cyan);border-color:var(--cyan)}
+.chip.app{color:var(--bg);background:var(--fg);border-color:var(--fg);font-weight:600}
+.chip.app.mimo{background:var(--warn);border-color:var(--warn)}
+.tip{font-size:14px;color:var(--muted)}
+.say{font-size:14px;background:var(--bg);border-left:3px solid var(--cyan);padding:6px 10px;border-radius:0 8px 8px 0;display:flex;gap:8px;align-items:flex-start;justify-content:space-between}
+.say q{quotes:"“" "”"}
+button{font:600 13px var(--body);color:var(--bg);background:var(--cyan);border:0;border-radius:99px;padding:5px 11px;cursor:pointer;flex:none}
+button.ghost{background:transparent;color:var(--muted);border:1px solid var(--line)}
+button:focus-visible{outline:3px solid var(--fg);outline-offset:2px}
+.how{margin:0 14px 12px 54px;border-top:1px solid var(--line);padding-top:8px}
+.how summary{cursor:pointer;font-family:var(--display);font-weight:700;color:var(--cyan);font-size:15px;letter-spacing:.04em}
+.how dl{margin:6px 0 0;display:grid;grid-template-columns:auto 1fr;gap:4px 10px;font-size:14px}
+.how dt{color:var(--muted);font-weight:600;white-space:nowrap}
+.how dd{margin:0;min-width:0}
+@media (max-width:420px){.how{margin-left:14px}.how dl{grid-template-columns:1fr;gap:0}.how dd{margin-bottom:6px}}
+.item.is-done .how{display:none}
+.box{border:1px dashed var(--line);border-radius:12px;padding:12px 14px;font-size:14px;display:flex;flex-direction:column;gap:6px}
+.box b{color:var(--warn)}
+.foot{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:14px;color:var(--muted)}
+.vis{display:grid;grid-template-columns:1.25fr 1fr;gap:10px;align-items:stretch}
+.vis figure{margin:0;display:flex;flex-direction:column;gap:6px;min-width:0}
+.vis figcaption{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-family:var(--display);font-weight:600}
+.dia{background:var(--bg);border-radius:10px;width:100%;height:auto;display:block;flex:1}
+.frame{aspect-ratio:9/16;max-width:100%;border-radius:12px;overflow:hidden;border:3px solid #000;background:var(--wall);box-shadow:0 0 0 1px var(--line)}
+.frame svg{width:100%;height:100%;display:block}
+</style>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">SportGrowth Media · Kickstart · woensdag 2 december</div>
+    <h1>Shoot: fitness Michelle</h1>
+    <dl class="facts">
+      <dt>Wanneer</dt><dd>Wo 2/12, 9u-10u (ochtend = drukst, dus leden aanwezig)</dd>
+      <dt>Levert op</dt><dd>3 reels + 1 carrousel voor Michelle, beelden voor 6-8 posts, plus 2 SGM-posts (achter de schermen 8/12, oprichtersreel 10/12)</dd>
+      <dt>Mee</dt><dd>Gsm (min. 30 GB vrij), DJI Osmo Mobile 7, DJI Mic Mini 2 (opgeladen), powerbank, lens­doekje, visitekaartjes, opdrachtbevestiging</dd>
+      <dt>Na afloop</dt><dd>Alles via WeTransfer naar Claude. Reel 1 ter goedkeuring binnen 3 dagen.</dd>
+    </dl>
+  </header>
+  <div class="progress" aria-live="polite">
+    <div class="prow">Klaar <span id="count">0 / 0</span></div>
+    <div class="track"><div class="fill" id="fill"></div></div>
+    <nav class="jump" id="jump"></nav>
+  </div>
+  <div id="list" class="wrap" style="gap:28px"></div>
+  <div class="foot">
+    <span id="saved">Je vinkjes worden op deze gsm bewaard.</span>
+    <button class="ghost" id="reset" type="button">Alles leegmaken</button>
+  </div>
+</div>
+
+<script>
+const S = [
+ {id:"voor", nav:"Aankomst", h:"Aankomst (8u50)", time:"10 min", items:[
+  {id:"v1", t:"Camera: 4K · 30 fps, HDR-video uit, raster aan, Niet storen aan"},
+  {id:"v2", t:"Micro op Michelle (clip op de kraag, 15 cm onder de kin), test 10 s en luister terug"},
+  {id:"v3", t:"Afspraken overlopen met Michelle", say:"Ik film een uurtje: jij een paar keer kort in beeld, wat leden die akkoord zijn, en het nieuwe toestel. Je hoeft niets van buiten te kennen, ik zeg telkens wat je zegt.", tip:"Opdrachtbevestiging laten tekenen (of later digitaal). Collab-afspraak bevestigen: 2 van de 4 posts als collab."},
+  {id:"v4", t:"Account checken: openbaar en professioneel?", tip:"Instellingen → Accounttype en tools → Overschakelen naar professioneel account (Bedrijf). Gratis, 1 minuut. Anders werken collabs en statistieken niet."},
+  {id:"v5", t:"Toestemming van leden die in beeld komen", say:"Ik maak filmpjes voor de Instagram van de fitness. Vind je het oké om even in beeld te komen? Als je liever niet wil, film ik je niet herkenbaar.", tip:"Wie nee zegt: enkel van achteren of handen/voeten."}
+ ]},
+ {id:"box", box:true, h:"Belangrijk", lines:[
+  "Altijd rechtop. Niet zoomen: stap dichterbij.",
+  "Per shot 5 à 10 s. Start 1 s vóór de actie, stop 1 s erna.",
+  "Michelle praat altijd mét micro, recht in de camera of net ernaast, op ooghoogte.",
+  "Licht: zet Michelle met het gezicht naar het raam of de lampen, nooit met het raam achter haar."]},
+ {id:"r1", nav:"Reel 1", h:"Reel 1 · Het nieuwe toestel", time:"9u00 · 15 min",
+  note:"De reel die Michelle zelf wou. Hook in beeld vanaf frame 0: het toestel in actie, dan Michelle.",
+  items:[
+   {id:"A1", t:"Close-up: het toestel gaat aan (lichtjes, knoppen, beweging)", c:["close-up","6 s","traag naar voren"]},
+   {id:"A2", t:"Een lid op het toestel, breed", c:["breed","8 s","statisch"], tip:"Liefst iemand die lacht of praat met Michelle."},
+   {id:"A3", t:"Michelle legt het toestel uit in 3 zinnen (2 takes)", c:["half","20 s","statisch"], say:"(zin 1) Dit is ons nieuwste toestel. (zin 2) Het helpt je [voordeel, laat haar het in eigen woorden zeggen] zonder dat je je moet uitputten. (zin 3) Benieuwd? Kom het in januari gratis testen.", tip:"Laat haar het in haar woorden zeggen. Kort en enthousiast. Gsm op de gimbal op ooghoogte, 1,5 m."},
+   {id:"A4", t:"Detail: handen of voeten op het toestel, scherm met cijfers", c:["close-up","5 s"]}
+  ]},
+ {id:"r2", nav:"Reel 2", h:"Reel 2 · Jouw eerste training (januari)", time:"9u15 · 15 min",
+  note:"Format 'clubgezicht met tag-vraag' (Paquito 29K). Doel: nieuwe leden in januari.",
+  items:[
+   {id:"B1", t:"Michelle aan de deur: 'Nieuw in januari? Zo verloopt je eerste training.' (2 takes)", c:["half","5 s"], say:"Nieuw in januari? Zo verloopt je eerste training bij ons."},
+   {id:"B2", t:"Stap 1: Michelle verwelkomt iemand aan de balie", c:["half","5 s"]},
+   {id:"B3", t:"Stap 2: korte uitleg bij een toestel, Michelle wijst", c:["half","6 s"]},
+   {id:"B4", t:"Stap 3: lid traint, Michelle moedigt aan", c:["breed","6 s","gimbal meelopen"]},
+   {id:"B5", t:"Slot: Michelle in de camera (2 takes)", c:["half","6 s"], say:"Wie neem jij mee in januari? Tag ze hieronder."}
+  ]},
+ {id:"r3", nav:"Reel 3", h:"Reel 3 · Leden aan het woord", time:"9u30 · 10 min",
+  note:"Bewijs: echte mensen. 2 of 3 leden, elk 1 zin. Wie niet wil praten: enkel trainend in beeld.",
+  items:[
+   {id:"C1", t:"Vraag aan 2-3 leden: 'Waarom train jij hier?'", c:["close","1 zin per lid"], say:"Wat vind je het leukste aan trainen hier? Eén zin is genoeg.", tip:"Micro op het lid. Gezicht licht schuin naar jou, niet recht in de camera."},
+   {id:"C2", t:"Elk lid kort trainend in beeld (om tussen te knippen)", c:["half","5 s per lid"]},
+   {id:"C3", t:"Groepsbeeld: zwaaien of duim naar de camera", c:["breed","4 s"]}
+  ]},
+ {id:"car", nav:"Carrousel", h:"Carrousel · Zo start je in januari", time:"9u40 · 5 min",
+  note:"Foto's of korte clips, Claude maakt er stills van. Liggend kan ook, rechtop is beter.",
+  items:[
+   {id:"D1", t:"Buitenkant: gevel met naam of logo", c:["breed","foto"]},
+   {id:"D2", t:"Overzicht van de zaal (0,5x)", c:["breed","foto + 5 s video"]},
+   {id:"D3", t:"Michelle lachend bij de balie of een toestel", c:["half","foto"]},
+   {id:"D4", t:"Details: gewichten, matten, flesjes, iets typisch voor de zaak", c:["close-up","3 foto's"]}
+  ]},
+ {id:"sgm", nav:"SGM", h:"Voor SGM · jij aan het werk", time:"verspreid · 5 min",
+  note:"Voor de post achter de schermen (di 8/12) en je oprichtersreel (do 10/12). Vraag Michelle of een lid om te filmen.",
+  items:[
+   {id:"E1", t:"Oprichtersreel: jij loopt de fitness binnen met gimbal en gsm", c:["breed","8-10 s","van achteren, meelopen"], tip:"Laat iemand je volgen van achteren tot je binnen bent. Op de reel komt: 'Als trainer en speler zag ik het elke week: clubs vol leven, een lege Instagram.'"},
+   {id:"E2", t:"Jij geeft Michelle instructies (wijzen, uitleggen)", c:["half","6 s"]},
+   {id:"E3", t:"Jij filmt met de gimbal (van opzij gefilmd)", c:["half","6 s"]},
+   {id:"E4", t:"Over je schouder: je scherm met het beeld van Michelle", c:["close-up","5 s"]},
+   {id:"E5", t:"Jij en Michelle bekijken samen een take op je gsm (lachen)", c:["half","6 s"]},
+   {id:"E6", t:"Selfie met Michelle (foto) voor je story", c:["foto"]}
+  ]},
+ {id:"na", nav:"Daarna", h:"Afsluiten (9u55)", time:"5 min", items:[
+  {id:"N1", t:"Michelle bedanken + planning afspreken", say:"Binnen 3 dagen krijg je reel 1 om na te kijken. De andere posts volgen daarna, telkens met de caption en het moment waarop je ze post."},
+  {id:"N2", t:"Doorverwijzing vragen", say:"Ken jij nog een zaakvoerder die hier iets aan heeft? Een collega, een andere zaak?"},
+  {id:"N3", t:"Story op je SGM-account (foto E6)", say:"Vandaag filmen bij [naam fitness] 🎬 Binnenkort online!", tip:"Tag haar account."},
+  {id:"N4", t:"Alles via WeTransfer naar Claude", tip:"Noem het bericht 'Michelle 2/12'. Daarna: 10u30 de zaken in Lokeren binnenlopen."}
+ ]}
+];
+const KEY="sgm-shotlist-michelle-2-12";
+let state={};try{state=JSON.parse(localStorage.getItem(KEY)||"{}")||{}}catch(e){state={}}
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){document.getElementById("saved").textContent="Vinkjes worden niet bewaard in dit venster."}};
+const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const L={waar:"Waar",start:"Start",doe:"Doe",einde:"Einde",let:"Let op"};
+function render(){
+ const list=document.getElementById("list"),jump=document.getElementById("jump");
+ list.innerHTML=S.map(s=>{
+  if(s.box)return `<div class="box"><b>${esc(s.h)}</b>${s.lines.map(l=>`<span>${esc(l)}</span>`).join("")}</div>`;
+  return `<section id="${s.id}"><div class="shead"><h2>${esc(s.h)}</h2><span class="time">${esc(s.time)}</span></div>
+  ${s.note?`<p class="note">${esc(s.note)}</p>`:""}
+  <ul class="items">${s.items.map(it=>`<li class="item${state[it.id]?" is-done":""}" data-id="${it.id}">
+   <label><input type="checkbox" id="cb-${it.id}" ${state[it.id]?"checked":""}><div class="body">
+   <div class="t">${/^[A-E]\d/.test(it.id)?`<span class="id">${it.id}</span>`:""}${esc(it.t)}</div>
+   ${it.c?`<div class="chips">${it.c.map(c=>`<span class="chip">${esc(c)}</span>`).join("")}</div>`:""}
+   ${it.say?`<div class="say"><q>${esc(it.say)}</q></div>`:""}
+   ${it.tip?`<div class="tip">${esc(it.tip)}</div>`:""}
+   </div></label>
+   ${it.how?`<details class="how"><summary>Zo film je het</summary><dl>${Object.keys(L).filter(k=>it.how[k]).map(k=>`<dt>${L[k]}</dt><dd>${esc(it.how[k])}</dd>`).join("")}</dl></details>`:""}
+  </li>`).join("")}</ul></section>`}).join("");
+ const all=S.flatMap(s=>s.items||[]),done=all.filter(i=>state[i.id]).length;
+ document.getElementById("count").textContent=`${done} / ${all.length}`;
+ document.getElementById("fill").style.width=(100*done/all.length)+"%";
+ jump.innerHTML=S.filter(s=>s.nav).map(s=>`<a href="#${s.id}" class="${s.items.every(i=>state[i.id])?"ok":""}">${esc(s.nav)}</a>`).join("");
+ list.querySelectorAll("input[type=checkbox]").forEach(cb=>cb.addEventListener("change",e=>{const id=cb.id.slice(3);state[id]=cb.checked;save();render();}));
+}
+document.getElementById("reset").addEventListener("click",()=>{state={};save();render();});
+render();
+</script>
